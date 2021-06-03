@@ -156,6 +156,9 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 
 ### Busca de Falecidos/Óbitos
 - https://www.falecidosnobrasil.org.br/
+    
+### Consulta de Embarcações Navais 🛥️
+- https://www.mercante.transportes.gov.br/g36127/html/Manife/EmbarcConsul.html?noCampo=cdIrin
 
 ### Estatísticas de Nascimentos, Óbitos, Registros e Casamentos
 - https://transparencia.registrocivil.org.br/registros 
