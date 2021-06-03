@@ -1,6 +1,6 @@
 <p style="text-align:center" align="center">
 <img src="assets/logo.png" width="40%" /><br>
-Repositório criado com fontes (websites) para ser utilizado com inteligência em fontes abertas (OSINT) no território brasileiro 🇧🇷
+Repositório criado com intuito de reunir informações, fontes e tricks de OSINT dentro do contexto Brasil 🇧🇷
 </p>
 
 <p align="center">
