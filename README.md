@@ -62,7 +62,7 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 - https://www.escavador.com/
 ---
 
-## Busca de Informações via CPF / CNPJ 🔭
+## Busca de Informações via CPF/CNPJ 🔭
 ### Busca Dados Usando CNPJ
 - http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp/
 - https://brasilcnpj.net/
