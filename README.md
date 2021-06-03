@@ -1,6 +1,13 @@
 <p style="text-align:center" align="center">
 <img src="assets/logo.png" width="70%" /><br>
 Repositório criado com fontes (websites) para ser utilizado com inteligência em fontes abertas (OSINT) no território brasileiro 🇧🇷
+<center>
+
+[![Star on GitHub](https://img.shields.io/github/stars/osintbrazuca/Osint-Brazuca.svg?style=social)](https://github.com/osintbrazuca/Osint-Brazuca/stargazers)
+![License](https://img.shields.io/github/license/osintbrazuca/Osint-Brazuca?color=blue)
+![Contributorn](https://img.shields.io/github/contributors/osintbrazuca/Osint-Brazuca)
+
+</center>
 <p>
 
 ---
@@ -75,7 +82,7 @@ Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma en
 ---
 
 ## Mapas e Georreferenciamento 🗺️
-### Imagens de satélite via inpe.br
+### Imagens de Satélite via inpe.br
 Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro dedicado à pesquisa e exploração espacial, criado em 1961.
 - http://satelite.cptec.inpe.br/mapsat/
 - http://sigma-soschuva.cptec.inpe.br/#
@@ -89,7 +96,38 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 
 ---
 
-## Outros 🔎
+## Dorks Contexto Brasil 🤖
+### DataLeak/SQL
+- ```site:com.br ext:sql "CREATE TABLE"```
+    - https://www.google.com/search?q=site%3Acom.br+ext%3Asql+%22CREATE+TABLE%22### 
+    
+- ```site:com.br intext:"phpMyAdmin" ext:txt```
+    - https://www.google.com/search?q=site%3Acom.br+intext%3A%22phpMyAdmin%22+ext%3Atxt
+
+### Documento em Arquivos
+- ```cpf "123456789" ext:txt```
+    - https://www.google.com/search?q=cpf+%22123456789%22+ext
+- ```"cpf|cnpj|email|rg|contato" ext:xls```
+    - https://www.google.com/search?q=%22cpf%7Ccnpj%7Cemail%7Crg%7Ccontato%22+ext%3Axls
+
+### Sites do Governo
+Adicione sua string alvo para direcionar a busca
+- ```site:mil.br```
+    - https://www.google.com/search?q=site%3Amil.br
+- ```site:gov.br```
+    - https://www.google.com/search?q=site%3Agov.br
+
+### Documentos em Sites do Governo
+Adicione sua string alvo para direcionar a busca
+- ```site:mil.br ext:pdf```
+    - https://www.google.com/search?q=site%3Amil.br
+- ```site:gov.br  ext:xls```
+    - https://www.google.com/search?q=site%3Agov.br
+- ```inurl:"mil.br" ext:php```
+    - https://www.google.com/search?q=inurl:%22mil.br%22+ext:php
+---
+
+## Outras Buscas 🔎
 ### Antecedentes Criminais
 - https://servicos.dpf.gov.br/antecedentes-criminais/certidao
 
@@ -114,7 +152,157 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
 - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php
 
 ---
-## Autores
+
+## Categorias de Domínios .br
+Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Registro.br. Os domínios de pessoa física e profissionais liberais só podem ser registrados por um titular com CPF. Os domínios de pessoa jurídica devem ser associados a um CNPJ. Já os domínios genéricos e de cidades podem ser registrados por CPF ou CNPJ.
+| TLD  |  Descrição  |
+| ------------------- | ------------------- |
+|  APP.BR	| Aplicativos|
+|  ART.BR	|Artes: música, pintura, folclore|
+|  COM.BR	|Atividades comerciais|
+|  DEV.BR	|Desenvolvedores e Plataformas de Desenvolvimento|
+|  ECO.BR	|Atividades com foco eco-ambiental|
+|  EMP.BR	|Pequenas e micro-empresas|
+|  LOG.BR	|Transportes e Logistica|
+|  NET.BR	|Atividades comerciais|
+|  ONG.BR	|Atividades não governamentais individuais ou associativas|
+|  SEG.BR	|Segurança|
+|  TEC.BR	|Tecnologia|
+| EDU.BR	| Instituições de ensino superior |
+| BLOG.BR	| Web logs| 
+| FLOG.BR	| Foto logs| 
+| NOM.BR	| Pessoas Físicas| 
+| VLOG.BR	| Vídeo logs| 
+| WIKI.BR	| Páginas do tipo 'wiki'| 
+|ADM.BR |	Administradores|
+|ADV.BR |	Advogados|
+|ARQ.BR |	Arquitetos|
+|ATO.BR |	Atores|
+|BIB.BR |	Bibliotecários / Biblioteconomistas|
+|BIO.BR |	Biólogos|
+|BMD.BR |	Biomédicos|
+|CIM.BR |	Corretores|
+|CNG.BR |	Cenógrafos|
+|CNT.BR |	Contadores|
+|COZ.BR |	Profissionais de Gastronomia|
+|DES.BR |	"Designers" e Desenhistas|
+|DET.BR |	Detetives / Investigadores Particulares|
+|ECN.BR |	Economistas|
+|ENF.BR |	Profissionais de Enfermagem|
+|ENG.BR |	Engenheiros|
+|ETI.BR |	Especialista em Tecnologia da Informação|
+|FND.BR |	Fonoaudiólogos|
+|FOT.BR |	Fotógrafos|
+|FST.BR |	Fisioterapeutas|
+|GEO.BR |	Geólogos|
+|GGF.BR |	Geógrafos|
+|JOR.BR |	Jornalistas|
+|LEL.BR |	Leiloeiros|
+|MAT.BR |	Matemáticos e Estatísticos|
+|MED.BR |	Médicos|
+|MUS.BR |	Músicos|
+|NOT.BR |	Notários|
+|NTR.BR |	Nutricionistas|
+|ODO.BR |	Dentistas|
+|PPG.BR |	Publicitários e profissionais da área de propaganda e marketing|
+|PRO.BR |	Professores|
+|PSC.BR |	Psicólogos|
+|QSL.BR |	Rádio amadores|
+|REP.BR |	Representantes Comerciais|
+|SLG.BR |	Sociólogos|
+|TAXI.BR |	Taxistas|
+|TEO.BR |	Teólogos|
+|TRD.BR |	Tradutores|
+|VET.BR |	Veterinários|
+|ZLG.BR |	Zoólogos|
+|9GUACU.BR |	Nova Iguaçu|
+|ABC.BR |	Região ABC Paulista|
+|AJU.BR |	Aracaju|
+|ANANI.BR |	Ananindeua|
+|APARECIDA.BR |	Aparecida|
+|BARUERI.BR |	Barueri|
+|BELEM.BR |	Belém|
+|BHZ.BR |	Belo Horizonte|
+|BOAVISTA.BR |	Boa Vista|
+|BSB.BR |.BR |asília|
+|CAMPINAGRANDE.BR |	Campina Grande|
+|CAMPINAS.BR |	Campinas|
+|CAXIAS.BR |	Caxias|
+|CONTAGEM.BR |	Contagem|
+|CUIABA.BR |	Cuiabá|
+|CURITIBA.BR |	Curitiba|
+|FEIRA.BR |	Feira de Santana|
+|FLORIPA.BR |	Florianópolis|
+|FORTAL.BR |	Fortaleza|
+|FOZ.BR |	Foz do Iguaçu|
+|GOIANIA.BR |	Goiânia|
+|GRU.BR |	Guarulhos|
+|JAB.BR |	Jaboatão dos Guararapes|
+|JAMPA.BR |	João Pessoa|
+|JDF.BR |	Juiz de Fora|
+|JOINVILLE.BR |	Joinville|
+|LONDRINA.BR |	Londrina|
+|MACAPA.BR |	Macapá|
+|MACEIO.BR |	Maceió|
+|MANAUS.BR |	Manaus|
+|MARINGA.BR |	Maringá|
+|MORENA.BR |	Campo Grande|
+|NATAL.BR |	Natal|
+|NITEROI.BR |	Niterói|
+|OSASCO.BR |	Osasco|
+|PALMAS.BR |	Palmas|
+|POA.BR |	Porto Alegre|
+|PVH.BR |	Porto Velho|
+|RECIFE.BR |	Recife|
+|RIBEIRAO.BR |	Ribeirão|
+|RIO.BR |	Rio de Janeiro|
+|RI.BR |ANCO.BR |	Rio.BR |anco|
+|RIOPRETO.BR |	São José do Rio Preto|
+|SALVADOR.BR |	Salvador|
+|SAMPA.BR |	São Paulo|
+|SANTAMARIA.BR |	Santa Maria|
+|SANTOANDRE.BR |	Santo André|
+|SAOBERNARDO.BR |	São Bernardo do Campo|
+|SAOGONCA.BR |	São Gonçalo|
+|SJC.BR |	São José dos Campos|
+|SLZ.BR |	São Luis|
+|SOROCABA.BR |	Sorocaba|
+|THE.BR |	Teresina|
+|UDI.BR |	Uberlândia|
+|VIX.BR |	Vitória|
+|AGR.BR |	Empresas agrícolas, fazendas|
+|ESP.BR |	Esporte em geral|
+|ETC.BR |	Empresas que não se enquadram nas outras categorias|
+|FAR.BR |	Farmácias e drogarias|
+|IMB.BR |	Imobiliárias|
+|IND.BR |	Indústrias|
+|INF.BR |	Meios de informação (rádios, jornais, bibliotecas, etc..)|
+|RADIO.BR |	Empresas que queiram enviar áudio pela rede|
+|REC.BR |	Atividades de entretenimento, diversão, jogos, etc...|
+|SRV.BR |	Empresas prestadoras de serviços|
+|TMP.BR |	Eventos temporários, como feiras e exposições|
+|TUR.BR |	Empresas da área de turismo|
+|TV.BR |	Empresas de radiodifusão ou transmissão via Internet de sons e imagens|
+|COM RESTRIÇÃO|
+|AM.BR |	Empresas de radiodifusão sonora|
+|COOP.BR |	Cooperativas|
+|FM.BR |	Empresas de radiodifusão sonora|
+|G12.BR |	Instituições de ensino de primeiro e segundo grau|
+|GOV.BR |	Instituições do governo federal|
+|MIL.BR |	Forças Armadas.BR |asileiras|
+|ORG.BR |	Instituições não governamentais sem fins lucrativos|
+|PSI.BR |	Provedores de serviço Internet|
+|DNSSEC .BR |IGATÓRIO|
+|B.BR |	Bancos|
+|DEF.BR |	Defensorias Públicas|
+|JUS.BR |	Instituições do Poder Judiciário|
+|LEG.BR |	Instituições do Poder Legislativo|
+|MP.BR |	Instituições do Ministério Público|
+|TC.BR |	Tribunais de Contas|
+---
+
+
+## Autores 👔
 <p >
 <img src="assets/logo_profile.png" width="20%" /><br>
 <p>
@@ -124,7 +312,12 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
 - **Diego (c4nh0t0)** - [Twitter](https://twitter.com/C4nh0t0GH), [Git](https://github.com/c4nh0t0)
 ---
 
-## Contribuições
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+## Contribuições ✨
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
 Este projeto segue a especificação [all-contributors](https://github.com/all-contributors/all-contributors).
 Contribuições de qualquer tipo são bem-vindas!
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
