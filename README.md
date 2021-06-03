@@ -74,8 +74,8 @@ Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma en
 
 ---
 
-## Mapas 🗺️
-### Imagens de satelite via inpe.br
+## Mapas e Georreferenciamento 🗺️
+### Imagens de satélite via inpe.br
 Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro dedicado à pesquisa e exploração espacial, criado em 1961.
 - http://satelite.cptec.inpe.br/mapsat/
 - http://sigma-soschuva.cptec.inpe.br/#
