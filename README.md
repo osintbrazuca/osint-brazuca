@@ -1,14 +1,16 @@
 <p style="text-align:center" align="center">
-<img src="assets/logo.png" width="70%" /><br>
+<img src="assets/logo.png" width="40%" /><br>
 Repositório criado com fontes (websites) para ser utilizado com inteligência em fontes abertas (OSINT) no território brasileiro 🇧🇷
-<center>
+</p>
 
-[![Star on GitHub](https://img.shields.io/github/stars/osintbrazuca/Osint-Brazuca.svg?style=social)](https://github.com/osintbrazuca/Osint-Brazuca/stargazers)
-![License](https://img.shields.io/github/license/osintbrazuca/Osint-Brazuca?color=blue)
-![Contributorn](https://img.shields.io/github/contributors/osintbrazuca/Osint-Brazuca)
-
+<p align="center">
+<img src="https://img.shields.io/github/contributors/osintbrazuca/Osint-Brazuca" title="Contributors" /> 
+<img src="https://img.shields.io/github/stars/osintbrazuca/Osint-Brazuca.svg?style=social" title="Stars" /> 
+<img src="https://img.shields.io/github/license/osintbrazuca/Osint-Brazuca?color=blue" title="License" />
 </center>
 <p>
+
+
 
 ---
 
@@ -156,7 +158,7 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
 
 ---
 
-## Categorias de Domínios .br
+## Categorias de Domínios .br 📰
 Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Registro.br. Os domínios de pessoa física e profissionais liberais só podem ser registrados por um titular com CPF. Os domínios de pessoa jurídica devem ser associados a um CNPJ. Já os domínios genéricos e de cidades podem ser registrados por CPF ou CNPJ.
 | TLD  |  Descrição  |
 | ------------------- | ------------------- |
