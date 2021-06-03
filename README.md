@@ -53,6 +53,9 @@ __TRF5__: Portal com informações e serviços providos pelo TRF5, tem sob sua j
 Startup que une Direito e Tecnologia para fazer com que a justiça ultrapasse as fronteiras dos tribunais e chegue às casas de qualquer cidadão ou cidadã, empoderando suas decisões por meio da informação. 
 - https://www.jusbrasil.com.br/
 
+### Escavador
+Encontre e acompanhe informações relevantes para você sua empresa seu cliente. Pesquise por pessoas, instituições, processos judiciais ou qualquer termo do seu interesse.
+- https://www.escavador.com/
 ---
 
 ## Telecom 📡
