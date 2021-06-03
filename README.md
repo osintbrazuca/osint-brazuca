@@ -64,7 +64,7 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 
 ## Busca de Informações via CPF/CNPJ 🔭
 ### Busca Dados Usando CNPJ
-- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp/
+- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
 - https://brasilcnpj.net/
 - https://cnpj.biz/
 - https://cadastroempresa.com.br/
