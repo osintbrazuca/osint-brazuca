@@ -132,8 +132,22 @@ Adicione sua string alvo para direcionar a busca
     - https://www.google.com/search?q=inurl:%22mil.br%22+ext:php
 
 ### Shodan: Busca de Servidores Brasileiro
+Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos específicos de computadores conectados à Internet usando uma variedade de filtros.
 - ```country:"BR"```
     - https://www.shodan.io/search?query=country%3A%22BR%22
+---
+
+## Rede Social 👥
+### LinkedIn
+É uma rede social de negócios fundada com mais de 750 milhões de usuários.
+- https://www.linkedin.com/jobs/search/?keywords=SEU_ALVO&location=Brasil
+
+### Twitter
+É uma rede social e um servidor para microblogging.
+- ```seu_alvo lang:pt```
+    - https://twitter.com/search?q=seu_alvo+lang%3Apt&src=typed_query
+    - https://twitter.com/search-advanced
+
 ---
 
 ## Outras Buscas 🔎
