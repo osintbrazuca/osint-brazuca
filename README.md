@@ -31,6 +31,8 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 ### Extrato do Benefício de Prestação Continuada (INSS)
 - em processo...
 
+---
+
 ## Consulta de Processos 🧑‍⚖️
 ### Portal e-S**
 O portal e-S** é uma solução que visa facilitar a troca de informações e agilizar o trâmite processual por meio de diversos serviços WEB voltados para os advogados, cidadãos e serventuários da justiça.
@@ -60,6 +62,17 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 - https://www.escavador.com/
 ---
 
+### Consulta CNPJ
+- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
+- https://brasilcnpj.net
+- https://cnpj.biz
+- https://cadastroempresa.com.br
+- https://casadosdados.com.br
+- https://cnpjs.rocks
+- https://www.informecadastral.com.br
+- https://www.situacaocadastral.info
+
+---
 ## Telecom 📡
 
 ### Busca Através do IMEI/Legaligade do Aparelho
