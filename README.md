@@ -313,11 +313,5 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 ---
 
 ## Contribuições ✨
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-Este projeto segue a especificação [all-contributors](https://github.com/all-contributors/all-contributors).
 Contribuições de qualquer tipo são bem-vindas!
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
