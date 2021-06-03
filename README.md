@@ -62,15 +62,20 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 - https://www.escavador.com/
 ---
 
-### Consulta CNPJ
-- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
-- https://brasilcnpj.net
-- https://cnpj.biz
-- https://cadastroempresa.com.br
-- https://casadosdados.com.br
-- https://cnpjs.rocks
-- https://www.informecadastral.com.br
-- https://www.situacaocadastral.info
+## Busca de Informações via CPF / CNPJ 🔭
+### Busca Dados Usando CNPJ
+- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp/
+- https://brasilcnpj.net/
+- https://cnpj.biz/
+- https://cadastroempresa.com.br/
+- https://casadosdados.com.br/
+- https://cnpjs.rocks/
+- https://www.informecadastral.com.br/
+- https://www.situacaocadastral.info/
+
+### Busca Nome Usando CPF/CNPJ
+A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
+- https://www.situacao-cadastral.com/ 
 
 ---
 ## Telecom 📡
@@ -179,10 +184,6 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 
 ### Estatísticas de Nascimentos, Óbitos, Registros e Casamentos
 - https://transparencia.registrocivil.org.br/registros 
-
-### Busca Nome via CPF/CNPJ
-A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
-- https://www.situacao-cadastral.com/ 
 
 ### Informações Sobre Domínios
 - https://registro.br/dominio/lista-processo-liberacao.txt
