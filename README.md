@@ -101,28 +101,28 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 
 ---
 
-## Dorks Contexto Brasil 🤖
-### DataLeak/SQL
+## Motores de Busca Contexto Brasil 🤖
+### Google Hacking: DataLeak/SQL
 - ```site:com.br ext:sql "CREATE TABLE"```
     - https://www.google.com/search?q=site%3Acom.br+ext%3Asql+%22CREATE+TABLE%22### 
     
 - ```site:com.br intext:"phpMyAdmin" ext:txt```
     - https://www.google.com/search?q=site%3Acom.br+intext%3A%22phpMyAdmin%22+ext%3Atxt
 
-### Documento em Arquivos
+### Google Hacking: Documento em Arquivos
 - ```cpf "123456789" ext:txt```
     - https://www.google.com/search?q=cpf+%22123456789%22+ext
 - ```"cpf|cnpj|email|rg|contato" ext:xls```
     - https://www.google.com/search?q=%22cpf%7Ccnpj%7Cemail%7Crg%7Ccontato%22+ext%3Axls
 
-### Sites do Governo
+### Google Hacking: Sites do Governo
 Adicione sua string alvo para direcionar a busca
 - ```site:mil.br```
     - https://www.google.com/search?q=site%3Amil.br
 - ```site:gov.br```
     - https://www.google.com/search?q=site%3Agov.br
 
-### Documentos em Sites do Governo
+### Google Hacking:  Documentos em Sites do Governo
 Adicione sua string alvo para direcionar a busca
 - ```site:mil.br ext:pdf```
     - https://www.google.com/search?q=site%3Amil.br
@@ -130,6 +130,10 @@ Adicione sua string alvo para direcionar a busca
     - https://www.google.com/search?q=site%3Agov.br
 - ```inurl:"mil.br" ext:php```
     - https://www.google.com/search?q=inurl:%22mil.br%22+ext:php
+
+### Shodan: Busca de Servidores Brasileiro
+- ```country:"BR"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22
 ---
 
 ## Outras Buscas 🔎
