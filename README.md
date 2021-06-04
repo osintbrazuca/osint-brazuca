@@ -1,7 +1,8 @@
 <p style="text-align:center" align="center">
 <img src="assets/logo.png" width="40%" /><br>
-Repositório criado com intuito de reunir informações, fontes e tricks de OSINT dentro do contexto Brasil 🇧🇷
+Repositório criado com intuito de reunir informações, fontes(websites/portais) e tricks de OSINT dentro do contexto Brasil 🇧🇷
 </p>
+<p align="center">[EM CONSTRUÇÃO]</center></p>
 
 <p align="center">
 <img src="https://img.shields.io/github/contributors/osintbrazuca/Osint-Brazuca" title="Contributors" /> 
