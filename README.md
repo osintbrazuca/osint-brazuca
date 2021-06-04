@@ -93,7 +93,7 @@ A intenção deste serviço é ajudar você descobrir e confirmar qual a situaç
 ---
 ## Telecom 📡 <a name="telecom"></a>
 
-### Busca Através do IMEI/Legaligade do Aparelho
+### Busca Através do IMEI/Legalidade do Aparelho
 - https://www.consultaserialaparelho.com.br/public-web/homeSiga 
 
 ### Busca Através da Operadora
@@ -108,6 +108,9 @@ A intenção deste serviço é ajudar você descobrir e confirmar qual a situaç
 Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, Claro, Oi, Sercomtel, TIM e Vivo).
 - https://cadastropre.com.br/#/consulta
 
+### Base De Orelhão X Mapa
+Por meio da busca é possível encontrar orelhões pelo número, localizar ruas, municípios, estados ou cidades
+- http://sistemas.anatel.gov.br/sgmu/fiqueligado/tups.asp
 ---
 
 ## Estação Rádio Base / ERBs 📻
