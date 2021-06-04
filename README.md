@@ -113,6 +113,9 @@ Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, 
 ### Base De Orelhão X Mapa
 Por meio da busca é possível encontrar orelhões pelo número, localizar ruas, municípios, estados ou cidades
 - http://sistemas.anatel.gov.br/sgmu/fiqueligado/tups.asp
+
+### Números Discagem direta a distância ( DDD )
+- https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
 ---
 
 ## Estação Rádio Base / ERBs 📻 <a name="estacoes-radio-erbs"></a>
