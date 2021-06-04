@@ -21,6 +21,7 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
 - [Saúde](#saude)
 - [Motores de Busca Contexto Brasil](#dorks)
 - [Rede Social](#redes-sociais)
+- [Consulta de Dados Veicular](#dados-veicular)
 - [Outras Buscas](#outras-buscas)
 - [Categorias de Domínios .br](#dominios-br)
 
@@ -222,6 +223,27 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 
 ---
 
+## Consulta de Dados Veicular 🚗 <a name="dados-veicular"></a>
+### Consulta de Licenciamento Veicular 
+- http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml *Estado do Maranhão*
+### Consulta de Dados via Placa
+- https://carfacts.com.br/ConsultaGratis
+- https://www.qualveiculo.net/
+- https://www.olhonocarro.com.br/
+- https://www.consultarplaca.com.br/
+- http://infocarrosp.com.br/
+- https://www.iq.com.br/veiculos/consulta-placa/
+- https://www.carcheck.com.br/
+- https://www.consultapelaplaca.com.br/
+- https://site.bibipecas.com.br/home
+- https://www.historicar.com.br/
+
+### Consulta Históricos de ônibus
+As buscas do Ônibus Brasil são um serviço de utilidade pública que permite rastrear registros históricos de ônibus que circulam ou circularam pelas ruas do Brasil e diversos outros países.
+- https://onibusbrasil.com/placas
+
+---
+
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 ### Antecedentes Criminais
 - https://servicos.dpf.gov.br/antecedentes-criminais/certidao
@@ -247,10 +269,7 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
     
 ### Lista Telefônica
 - https://www.telenumeros.com/
-    
-### Consulta de Licenciamento Veicular 🚗
-- http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml *Estado do Maranhão*
-    
+       
 ### Consulta no Instituto Nacional da Propriedade Industrial (INPI)
 No link abaixo é possível consultar informações referentes a: Marcas, Patentes, Desenhos Industriais, Patentes Tecnológicas, dentre outras áreas.
 - https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login
