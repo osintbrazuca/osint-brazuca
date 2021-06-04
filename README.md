@@ -72,6 +72,7 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 - https://cnpjs.rocks/
 - https://www.informecadastral.com.br/
 - https://www.situacaocadastral.info/
+- http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21
 
 ### Busca Nome Usando CPF/CNPJ
 A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
@@ -120,6 +121,12 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 ### Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) 🗿
 O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inventários de Conhecimento, para formar uma base de informações sobre os patrimônio cultural de todo o Brasil.
 - https://sicg.iphan.gov.br/sicg/pesquisarBem
+    
+---
+   
+## Saúde 🏥
+### Fundo Nacional de Saúde (FNS)
+- https://consultafns.saude.gov.br/#/consolidada
 
 ---
 
@@ -194,6 +201,12 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 ### Sites Notificados pelo Procon-SP
 Lista de sites que devem ser evitados, pois tiveram reclamações de consumidores registrada no Procon-SP, foram notificados, não responderam ou não foram encontrados.
 - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php
+    
+### Lista Telefônica
+- https://www.telenumeros.com/
+    
+### Consulta de Licenciamento Veicular 🚗
+- http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml Maranhão
 
 ---
 
