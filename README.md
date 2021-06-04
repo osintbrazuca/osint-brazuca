@@ -207,7 +207,11 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
 - https://www.telenumeros.com/
     
 ### Consulta de Licenciamento Veicular 🚗
-- http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml Maranhão
+- http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml *Estado do Maranhão*
+    
+### Consulta no Instituto Nacional da Propriedade Industrial (INPI)
+No link abaixo é possível consultar informações referentes a: Marcas, Patentes, Desenhos Industriais, Patentes Tecnológicas, dentre outras áreas.
+- https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login
 
 ---
 
