@@ -116,6 +116,7 @@ Por meio da busca é possível encontrar orelhões pelo número, localizar ruas,
 
 ### Números Discagem direta a distância ( DDD )
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
+- https://www.mbi.com.br/mbi/biblioteca/utilidades/estado-onde-fica-ddd/
 ---
 
 ## Estação Rádio Base / ERBs 📻 <a name="estacoes-radio-erbs"></a>
