@@ -260,6 +260,9 @@ No link abaixo é possível consultar informações referentes a: Marcas, Patent
 - https://www.portaldecompraspublicas.com.br/18/Processos/
 - http://www.portaltransparencia.gov.br/
 
+### Repositório com Dados Públicos
+Repositório de dados públicos disponibilizados em formato acessível.
+- https://brasil.io/home/
 ---
 
 ## Categorias de Domínios .br 📰 <a name="dominios-br"></a>
