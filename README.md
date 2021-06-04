@@ -151,10 +151,10 @@ O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inv
     - https://www.google.com/search?q=site%3Acom.br+intext%3A%22phpMyAdmin%22+ext%3Atxt
 
 ### Google Hacking: Documento em Arquivos
-- ```cpf "123456789" ext:txt```
-    - https://www.google.com/search?q=cpf+%22123456789%22+ext
-- ```"cpf|cnpj|email|rg|contato" ext:xls```
-    - https://www.google.com/search?q=%22cpf%7Ccnpj%7Cemail%7Crg%7Ccontato%22+ext%3Axls
+- ```cpf "SEU_ALVO" ext:txt```
+    - https://www.google.com/search?q=cpf+%22SE_ALVO%22+%22123456789%22+ext
+- ```"cpf|cnpj|email|rg|contato" ext:xls "SEU_ALVO"```
+    - https://www.google.com/search?q=%22cpf%7Ccnpj%7Cemail%7Crg%7Ccontato%22+ext%3Axls+%22SE_ALVO%22
 
 ### Google Hacking: Sites do Governo
 Adicione sua string alvo para direcionar a busca
@@ -171,6 +171,18 @@ Adicione sua string alvo para direcionar a busca
     - https://www.google.com/search?q=site%3Agov.br
 - ```inurl:"mil.br" ext:php```
     - https://www.google.com/search?q=inurl:%22mil.br%22+ext:php
+
+### Google Hacking: Informações Expostas
+Adicione sua string alvo para direcionar a busca
+- ```site:anonfiles.com "SE_ALVO"```
+    - https://www.google.com/search?q=site%3Aanonfiles.com+%22SE_ALVO%22
+- ```site:docs.google.com "SEU_ALVO"```
+    - https://www.google.com/search?q=site%3Adocs.google.com+%22SEU_ALVO%E2%80%9D
+- ```site:facebook.com "SEU_ALVO"```
+    - https://www.google.com/search?q=site%3Afacebook.com+%22SEU_ALVO%22
+- ```site:pastebin.com "SEU_ALVO" ```
+    - https://www.google.com/search?q=site%3Apastebin.com+%22nubank%22
+
 
 ### Shodan: Busca de Servidores Brasileiro
 Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos específicos de computadores conectados à Internet usando uma variedade de filtros.
