@@ -11,11 +11,22 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
 </center>
 <p>
 
-
+# Sumário
+- [Benefícios Sociais](#beneficios-sociais)
+- [Consulta de Processos](#consulta-processos)
+- [Busca de Informações via CPF/CNPJ](busca-cpf-cnpj)
+- [Telecom](telecom)
+- [Informações Acadêmicas](informacoes-academicas)
+- [Mapas e Georreferenciamento](mapas-geo)
+- [Saúde](saude)
+- [Motores de Busca Contexto Brasil](dorks)
+- [Rede Social](redes-sociais)
+- [Outras Buscas](outras-buscas)
+- [Categorias de Domínios .br](dominios-br)
 
 ---
 
-## Benefícios sociais (Políticas Públicas) 🫂
+## Benefícios sociais (Políticas Públicas) 🫂 <a name="beneficios-sociais"></a>
 ### Consulta Benefícios Sociais
 As famílias atendidas pelo Programa Bolsa Família devem entregar o extrato bancário de pagamento do benefício, juntamente com a consulta pública do programa “bolsa família” 
 - https://www.beneficiossociais.caixa.gov.br/consulta/beneficio/04.01.00-00_00.asp
@@ -34,7 +45,7 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 
 ---
 
-## Consulta de Processos 🧑‍⚖️
+## Consulta de Processos 🧑‍⚖️ <a name="consulta-processos"></a>
 ### Portal e-S**
 O portal e-S** é uma solução que visa facilitar a troca de informações e agilizar o trâmite processual por meio de diversos serviços WEB voltados para os advogados, cidadãos e serventuários da justiça.
 - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090#
@@ -63,7 +74,7 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 - https://www.escavador.com/
 ---
 
-## Busca de Informações via CPF/CNPJ 🔭
+## Busca de Informações via CPF/CNPJ 🔭 <a name="busca-cpf-cnpj"></a>
 ### Busca Dados Usando CNPJ
 - http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
 - https://brasilcnpj.net/
@@ -80,7 +91,7 @@ A intenção deste serviço é ajudar você descobrir e confirmar qual a situaç
 - https://www.situacao-cadastral.com/ 
 
 ---
-## Telecom 📡
+## Telecom 📡 <a name="telecom"></a>
 
 ### Busca Através do IMEI/Legaligade do Aparelho
 - https://www.consultaserialaparelho.com.br/public-web/homeSiga 
@@ -99,14 +110,14 @@ Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, 
 
 ---
 
-## Informações Acadêmicas  📄
+## Informações Acadêmicas  📄 <a name="informacoes-academicas"></a>
 ### Buscar Currículo Lattes
 Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma entidade ligada ao Ministério da Ciência, Tecnologia, Inovações e Comunicações para incentivo à pesquisa no Brasil.
 - https://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar
 
 ---
 
-## Mapas e Georreferenciamento 🗺️
+## Mapas e Georreferenciamento 🗺️ <a name="mapas-geo"></a>
 ### Imagens de Satélite via inpe.br
 Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro dedicado à pesquisa e exploração espacial, criado em 1961.
 - http://satelite.cptec.inpe.br/mapsat/
@@ -125,13 +136,13 @@ O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inv
     
 ---
    
-## Saúde 🏥
+## Saúde 🏥 <a name="saude"></a>
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
 
 ---
 
-## Motores de Busca Contexto Brasil 🤖
+## Motores de Busca Contexto Brasil 🤖 <a name="dorks"></a>
 ### Google Hacking: DataLeak/SQL
 - ```site:com.br ext:sql "CREATE TABLE"```
     - https://www.google.com/search?q=site%3Acom.br+ext%3Asql+%22CREATE+TABLE%22### 
@@ -167,7 +178,7 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
     - https://www.shodan.io/search?query=country%3A%22BR%22
 ---
 
-## Rede Social 👥
+## Rede Social 👥 <a name="redes-sociais"></a>
 ### LinkedIn
 É uma rede social de negócios fundada com mais de 750 milhões de usuários.
 - https://www.linkedin.com/jobs/search/?keywords=SEU_ALVO&location=Brasil
@@ -180,7 +191,7 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 
 ---
 
-## Outras Buscas 🔎
+## Outras Buscas 🔎 <a name="outras-buscas"></a>
 ### Antecedentes Criminais
 - https://servicos.dpf.gov.br/antecedentes-criminais/certidao
 
@@ -220,7 +231,7 @@ No link abaixo é possível consultar informações referentes a: Marcas, Patent
 
 ---
 
-## Categorias de Domínios .br 📰
+## Categorias de Domínios .br 📰 <a name="dominios-br"></a>
 Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Registro.br. Os domínios de pessoa física e profissionais liberais só podem ser registrados por um titular com CPF. Os domínios de pessoa jurídica devem ser associados a um CNPJ. Já os domínios genéricos e de cidades podem ser registrados por CPF ou CNPJ.
 | TLD  |  Descrição  |
 | ------------------- | ------------------- |
