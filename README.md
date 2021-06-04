@@ -212,6 +212,11 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
 ### Consulta no Instituto Nacional da Propriedade Industrial (INPI)
 No link abaixo é possível consultar informações referentes a: Marcas, Patentes, Desenhos Industriais, Patentes Tecnológicas, dentre outras áreas.
 - https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login
+    
+### Consulta de Licitações, Contratos e Compras Públicas
+- https://alertalicitacao.com.br/
+- https://www.portaldecompraspublicas.com.br/18/Processos/
+- http://www.portaltransparencia.gov.br/
 
 ---
 
