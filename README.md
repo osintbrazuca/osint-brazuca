@@ -14,15 +14,15 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
 # Sumário
 - [Benefícios Sociais](#beneficios-sociais)
 - [Consulta de Processos](#consulta-processos)
-- [Busca de Informações via CPF/CNPJ](busca-cpf-cnpj)
-- [Telecom](telecom)
-- [Informações Acadêmicas](informacoes-academicas)
-- [Mapas e Georreferenciamento](mapas-geo)
-- [Saúde](saude)
-- [Motores de Busca Contexto Brasil](dorks)
-- [Rede Social](redes-sociais)
-- [Outras Buscas](outras-buscas)
-- [Categorias de Domínios .br](dominios-br)
+- [Busca de Informações via CPF/CNPJ](#busca-cpf-cnpj)
+- [Telecom](#telecom)
+- [Informações Acadêmicas](#informacoes-academicas)
+- [Mapas e Georreferenciamento](#mapas-geo)
+- [Saúde](#saude)
+- [Motores de Busca Contexto Brasil](#dorks)
+- [Rede Social](#redes-sociais)
+- [Outras Buscas](#outras-buscas)
+- [Categorias de Domínios .br](#dominios-br)
 
 ---
 
