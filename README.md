@@ -197,6 +197,11 @@ Adicione sua string alvo para direcionar a busca
 - ```site:pastebin.com "SEU_ALVO" ```
     - https://www.google.com/search?q=site%3Apastebin.com+%22nubank%22
 
+### Google Hacking: Filtrar Empresa via Linkedin
+Adicione sua string alvo para direcionar a busca
+- ```site:linkedin.com "at EMPRESA_ALVO"```
+    - https://www.google.com/search?q=site%3Alinkedin.com+%22at+EMPRESA_ALVO%22
+
 
 ### Shodan: Busca de Servidores Brasileiro
 Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos específicos de computadores conectados à Internet usando uma variedade de filtros.
