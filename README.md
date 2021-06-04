@@ -242,6 +242,10 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 As buscas do Ônibus Brasil são um serviço de utilidade pública que permite rastrear registros históricos de ônibus que circulam ou circularam pelas ruas do Brasil e diversos outros países.
 - https://onibusbrasil.com/placas
 
+### Consulta Veículos Habilitados pela ANTT
+Permite visualizar os veículos, nacionais e estrangeiros, habilitados pela ANTT ao transporte rodoviário internacional de cargas.
+- https://appweb1.antt.gov.br/scff/conPlaca.asp
+
 ---
 
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
