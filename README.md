@@ -140,6 +140,17 @@ Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma en
 ## Mapas e Georreferenciamento 🗺️ <a name="mapas-geo"></a>
 ### Imagens de Satélite via inpe.br
 Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro dedicado à pesquisa e exploração espacial, criado em 1961.
+- http://www.dgi.inpe.br/catalogo/
+- http://sigma.cptec.inpe.br/
+- http://sigma2.cptec.inpe.br/
+- http://sigma.cptec.inpe.br/radar/
+- http://sigma.cptec.inpe.br/prec_sat/
+- http://sigma.cptec.inpe.br/fortracc/
+- http://satelite.cptec.inpe.br/vento/
+- http://satelite.cptec.inpe.br/radiacao/
+- http://terrabrasilis.dpi.inpe.br/app/map/alerts?hl=pt-br
+- http://terrabrasilis.dpi.inpe.br/app/map/deforestation?hl=pt-br
+- http://www2.dgi.inpe.br/catalogo/explore
 - http://satelite.cptec.inpe.br/mapsat/
 - http://sigma-soschuva.cptec.inpe.br/#
 - https://queimadas.dgi.inpe.br/queimadas/bdqueimadas
@@ -149,6 +160,9 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 - http://www.dgi.inpe.br/CDSR/
 - https://www.arcgis.com/home/webmap/viewer.html?url=https%3A%2F%2Farcgis.sema.df.gov.br%2Fserver%2Frest%2Fservices%2FAreas_Queimadas%2FMapServer&source=sd
 - https://arcgis.sema.df.gov.br/server/rest/services/Areas_Queimadas/MapServer
+- https://www.cptec.inpe.br/dsat/
+- http://mapas.sosma.org.br/
+- http://www.inpe.br/webelat/homepage/
     
 ### Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) 🗿
 O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inventários de Conhecimento, para formar uma base de informações sobre os patrimônio cultural de todo o Brasil.
