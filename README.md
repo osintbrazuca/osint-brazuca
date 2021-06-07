@@ -640,6 +640,19 @@ Todos os links e informações foram obtidos originalmente do site do [DAER](htt
 ### Rondônia (RO) <a name="rondonia"></a>
 ### Roraima (RR) <a name="roraima"></a>
 ### Santa Catarina (SC) <a name="santa-catarina"></a>
+- **Monitoramento de Segurança Pública:**
+    <br>
+Todos os links e informações foram obtidos originalmente do site da [DTIC](https://www.ssp.sc.gov.br/dtic/) do estado de Santa Catarina.
+    - Ponte Hercílio Luz 01: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_159&width=1920&height=1080
+    - Ponte Hercílio Luz 02: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_160&width=1920&height=1080
+    - Ponte Hercílio Luz 03: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
+    - Ponte Hercílio Luz 04: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
+    - Lauro Linhares/Álvaro Ramos: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_051&width=1920&height=1080
+    - Lauro Linhares/Álvaro Ramos 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_052&width=1920&height=1080
+    - Lauro Linhares/Travessa São Lourenço 01: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_061&width=1920&height=1080
+    - Lauro Linhares/Travessa São Lourenço 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_062&width=1920&height=1080
+
+    
 ### São Paulo (SP) <a name="sao-paulo"></a>
 ### Sergipe (SE) <a name="sergipe"></a>
 ### Tocantins (TO) <a name="tocantins"></a>
