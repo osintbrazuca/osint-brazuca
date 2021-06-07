@@ -27,6 +27,33 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
 - [Outras Buscas](#outras-buscas)
 - [Categorias de Domínios .br](#dominios-br)
 - [Categorias por Estados Brasileiros](#estados-br)
+    - [Acre](#acre)
+    - [Alagoas](#alagoas)
+    - [Amapá](#amapa)
+    - [Amazonas](#amazonas)
+    - [Bahia](#bahia)
+    - [Ceará](#ceara)
+    - [Distrito Federal](#distrito-federal)
+    - [Espírito Santo](#espirito-santo)
+    - [Goiás](#goias)
+    - [Maranhão](#maranhao)
+    - [Mato Grosso](#mato-grosso)
+    - [Mato Grosso do Sul](#mato-grosso-sul)
+    - [Minas Gerais](#minas-gerais)
+    - [Pará](#para)
+    - [Paraíba](#paraiba)
+    - [Paraná](#parana)
+    - [Pernambuco](#pernambuco)
+    - [Piauí](#piaui)
+    - [Rio de Janeiro](#rio-janeiro)
+    - [Rio Grande do Norte](#rio-grande-norte)
+    - [Rio Grande do Sul](#rio-grande-sul)
+    - [Rondônia](#rondonia)
+    - [Roraima](#roraima)
+    - [Santa Catarina](#santa-catarina)
+    - [São Paulo](#sao-paulo)
+    - [Sergipe](#sergipe)
+    - [Tocantins](#tocantins)
 
 ---
 
@@ -538,27 +565,27 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
 
 ## Categorias por Estados Brasileiros 🇧🇷 <a name="estados-br"></a> [EM CONSTRUÇÃO]
-### Acre (AC)
-### Alagoas (AL)
-### Amapá (AP)
-### Amazonas (AM)
-### Bahia (BA)
-### Ceará (CE)
-### Distrito Federal (DF)
-### Espírito Santo (ES)
-### Goiás (GO)
-### Maranhão (MA)
-### Mato Grosso (MT)
-### Mato Grosso do Sul (MS)
-### Minas Gerais (MG)
-### Pará (PA)
-### Paraíba (PB)
-### Paraná (PR)
-### Pernambuco (PE)
-### Piauí (PI)
-### Rio de Janeiro (RJ)
-### Rio Grande do Norte (RN)
-### Rio Grande do Sul (RS)
+### Acre (AC) <a name="acre"></a>
+### Alagoas (AL) <a name="alagoas"></a>
+### Amapá (AP) <a name="amapa"></a>
+### Amazonas (AM) <a name="amazonas"></a>
+### Bahia (BA) <a name="bahia"></a>
+### Ceará (CE) <a name="ceara"></a>
+### Distrito Federal (DF) <a name="distrito-federal"></a>
+### Espírito Santo (ES) <a name="espirito-santo"></a>
+### Goiás (GO) <a name="goias"></a>
+### Maranhão (MA) <a name="maranhao"></a>
+### Mato Grosso (MT) <a name="mato-grosso"></a>
+### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
+### Minas Gerais (MG) <a name="minas-gerais"></a>
+### Pará (PA) <a name="para"></a>
+### Paraíba (PB) <a name="paraiba"></a>
+### Paraná (PR) <a name="parana"></a>
+### Pernambuco (PE) <a name="pernambuco"></a>
+### Piauí (PI) <a name="piaui"></a>
+### Rio de Janeiro (RJ) <a name="rio-janeiro"></a>
+### Rio Grande do Norte (RN) <a name="rio-grande-norte"></a>
+### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
 - **Monitoramento de Rodovias:**
     <br>
 Todos os links e informações foram obtidos originalmente do site do [DAER](https://www.daer.rs.gov.br/) no Rio Grande do Sul.
@@ -607,12 +634,12 @@ Todos os links e informações foram obtidos originalmente do site do [DAER](htt
     - Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
     - Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
     
-### Rondônia (RO)
-### Roraima (RR)
-### Santa Catarina (SC)
-### São Paulo (SP)
-### Sergipe (SE)
-### Tocantins (TO)
+### Rondônia (RO) <a name="rondonia"></a>
+### Roraima (RR) <a name="roraima"></a>
+### Santa Catarina (SC) <a name="santa-catarina"></a>
+### São Paulo (SP) <a name="sao-paulo"></a>
+### Sergipe (SE) <a name="sergipe"></a>
+### Tocantins (TO) <a name="tocantins"></a>
 
     
 ---
