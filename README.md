@@ -270,6 +270,29 @@ Permite visualizar os veículos, nacionais e estrangeiros, habilitados pela ANTT
 
 ---
 
+## Câmeras Online 🎥
+### Projeto City Câmeras
+O Projeto City Câmeras é um programa público, de iniciativa exclusiva da Prefeitura Municipal de São Paulo, que visa constituir uma ampla rede de videomonitoramento por meio de câmeras públicas e privadas instaladas pela cidade.
+- https://www.citycameras.prefeitura.sp.gov.br/home
+
+### Câmeras Cia. de Engenharia de Tráfego (CET)
+- http://cameras.cetsp.com.br/
+
+### Câmeras DER - Departamento de Estradas de Rodagem (DER)
+- http://www.der.sp.gov.br/WebSite/Servicos/ServicosOnline/CamerasOnlineMapa.aspx
+
+### Câmeras Rodovias Online
+O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reunir de forma fácil e eficaz visualizações de câmeras on-line.
+- http://www.rodoviasonline.com.br/rodovias-der-sp/
+- http://www.rodoviasonline.com.br/cameras-ao-vivo-das-rodovias-do-estado-do-parana/
+- https://www.rodoviasonline.com.br/cameras-ao-vivo-nas-rodovias-do-rio-grande-de-sul-daer-rs/
+- https://www.rodoviasonline.com.br/rodovia-governador-ney-braga-br-277/
+- https://www.rodoviasonline.com.br/cameras-ao-vivo-viapar-parana/
+
+### Câmeras Concessionária Tamoios
+- https://concessionariatamoios.com.br/cameras/ver/12
+
+---
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 ### Antecedentes Criminais
 - https://servicos.dpf.gov.br/antecedentes-criminais/certidao
