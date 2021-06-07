@@ -292,6 +292,11 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 ### Câmeras Concessionária Tamoios
 - https://concessionariatamoios.com.br/cameras/ver/12
+- https://concessionariatamoios.com.br/cameras/ver/14
+- https://concessionariatamoios.com.br/cameras/ver/10
+- https://concessionariatamoios.com.br/cameras/ver/9
+- https://concessionariatamoios.com.br/cameras/ver/8
+- https://concessionariatamoios.com.br/cameras/ver/13
 
 
 ### Câmeras Concessionária EcoRodovias
