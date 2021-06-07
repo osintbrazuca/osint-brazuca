@@ -293,6 +293,15 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Câmeras Concessionária Tamoios
 - https://concessionariatamoios.com.br/cameras/ver/12
 
+
+### Câmeras Governo de Santa Catarina
+- https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online
+- https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis
+- https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis-trindade
+- https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis-2
+- https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-sao-jose
+- https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-biguacu
+
 ---
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 ### Antecedentes Criminais
