@@ -244,11 +244,6 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
     - https://twitter.com/search?q=seu_alvo+lang%3Apt&src=typed_query
     - https://twitter.com/search-advanced
 
-### Telegram
-O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
-- ```("password"|"senha")```
-    - https://tgstat.com/search
-    
 ---
 
 ## Consulta de Dados Veicular 🚗 <a name="dados-veicular"></a>
@@ -564,6 +559,54 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 ### Rio de Janeiro (RJ)
 ### Rio Grande do Norte (RN)
 ### Rio Grande do Sul (RS)
+- **Monitoramento de Rodovias:**
+    <br>
+Todos os links e informações foram obtidos originalmente do site do [DAER](https://www.daer.rs.gov.br/) no Rio Grande do Sul.
+    - Osório: RS-389 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6716
+    - Osório: ERS-030 KM 89,9 - https://camerasdaer.perkons.com:60000/DAER-6714
+    - Osório: ERS-030, 1916 KM 85,3 - https://camerasdaer.perkons.com:60000/DAER-6713
+    - Restinga Seca: ERS-149 KM 100 - https://daer.kopp.com.br/ftp/imagem.php?id=Restinga_Seca
+    - Ijuí: ERS-155 KM 2,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Ijui
+    - Santa Maria: ERS-509 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Santa_Maria
+    - Venâncio Aires: RSC-453 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Venancio_Aires
+    - Montenegro: ERS-124 KM 29,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro01
+    - Montenegro: RSC-287 KM 3,4 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro02
+    - Montenegro: RSC-287 KM 8 - https://daer2.fiscaltech.com.br:8843/panoramicas/6208.jpg
+    - Portão: ERS-240 KM 9,9 - https://daer.kopp.com.br/ftp/imagem.php?id=Portao
+    - São Jerônimo: ERS-401 KM 10,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Sao_Jeronimo
+    - Farroupilha: RSC-453 KM 121,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Farroupilha
+    - Farroupilha: RSC-453 KM 109 - https://daer2.fiscaltech.com.br:8843/panoramicas/6212.jpg
+    - Farroupilha: ERS-122 KM 47 - https://daer2.fiscaltech.com.br:8843/panoramicas/6213.jpg
+    - Caxias do Sul: RSC-453 KM 143 - https://daer.kopp.com.br/ftp/imagem.php?id=Caxias_do_Sul
+    - Caxias do Sul: ERS-122 KM 66,56 - https://camerasdaer.perkons.com:60000/DAER-6743
+    - Caxias do Sul: RSC-453 KM 168,36 - https://camerasdaer.perkons.com:60000/DAER-6744
+    - Glorinha: ERS-030 KM 24,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Glorinha
+    - Igrejinha: ERS-115 KM 115 - https://daer.kopp.com.br/ftp/imagem.php?id=Igrejinha
+    - Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado01
+    - Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado02
+    - Itati: ERS-486 KM 29,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Itati
+    - Candelária: RSC-287 KM 135 - https://daer2.fiscaltech.com.br:8843/panoramicas/6210.jpg
+    - Boa Vista do Cadeado: ERS-342 KM 137 - https://daer2.fiscaltech.com.br:8843/panoramicas/6214.jpg
+    - Vera Cruz: RSC-287 KM 113 - https://daer2.fiscaltech.com.br:8843/panoramicas/6215.jpg
+    - Passo Fundo: ERS-324 KM 195 - https://daer2.fiscaltech.com.br:8843/panoramicas/6216.jpg
+    - Passo Fundo: ERS-324 KM 182,4 - http://186.227.239.150:2150/ftp/imagem.php?id=Passo_Fundo
+    - Novos Cabrais: RSC-287 KM 166 - https://daer2.fiscaltech.com.br:8843/panoramicas/6211.jpg
+    - Capão da Canoa: ERS-389 KM 36,9 - https://camerasdaer.perkons.com:60000/DAER-6718
+    - Torres: ERS-389 KM 86,1 - https://camerasdaer.perkons.com:60000/live/media/PK5916/DeviceIpint.6/SourceEndpoint.video:0:0
+    - Parobé: ERS-239 KM 42,3 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.7/SourceEndpoint.video:0:0
+    - Sapiranga: ERS-239 KM 32 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.8/SourceEndpoint.video:0:0
+    - São Leopoldo: ERS-240 KM 2 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.9/SourceEndpoint.video:0:0
+    - Capela de Santana: ERS-240 KM 22,1 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.10/SourceEndpoint.video:0:0
+    - São Sebastião do Caí: ERS-122 KM 6,5 - https://camerasdaer.perkons.com:60000/DAER-6734
+    - São Sebastião do Caí: ERS-122 KM 15,9 - https://camerasdaer.perkons.com:60000/DAER-6737
+    - Bom Princípio: ERS-122 KM 29,45 - https://camerasdaer.perkons.com:60000/DAER-6739
+    - Teutônia: RSC-453 KM 55,8 - https://camerasdaer.perkons.com:60000/DAER-6748
+    - Serafina Côrrea: ERS-129 KM 147,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Serafina_Correa
+    - Nova Bassano: ERS- 324 KM 282,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Nova_Bassano
+    - Sananduva: ERS-126 KM 110 - https://daer.kopp.com.br/ftp/imagem.php?id=Sananduva
+    - Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
+    - Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
+    
 ### Rondônia (RO)
 ### Roraima (RR)
 ### Santa Catarina (SC)
