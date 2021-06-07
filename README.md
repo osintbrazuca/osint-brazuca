@@ -54,6 +54,9 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
     - [São Paulo](#sao-paulo)
     - [Sergipe](#sergipe)
     - [Tocantins](#tocantins)
+ - [Autores](#autores)
+ - [Contribuições](#contribuicoes)
+ - [Créditos](#creditos)
 
 ---
 
@@ -644,7 +647,7 @@ Todos os links e informações foram obtidos originalmente do site do [DAER](htt
     
 ---
 
-## Autores 👔
+## Autores 👔 <a name="autores"></a>
 <p >
 <img src="assets/logo_profile.png" width="20%" /><br>
 <p>
@@ -652,8 +655,16 @@ Todos os links e informações foram obtidos originalmente do site do [DAER](htt
 - **Cleiton P. (MrCl0wnLab)** - [Twitter](https://twitter.com/MrCl0wnLab), [Git](https://github.com/MrCl0wnLab)
 
 - **Diego (c4nh0t0)** - [Twitter](https://twitter.com/C4nh0t0GH), [Git](https://github.com/c4nh0t0)
+
 ---
 
-## Contribuições ✨
+## Contribuições ✨ <a name="contribuicoes"></a>
 Contribuições de qualquer tipo são bem-vindas!
+    
+---
+    
+## Créditos 👏 <a name="creditos"></a>
+À todas as instituições públicas governamentais e inciativas privadas que disponibilizaram os links para consulta.
+<br>
+À todos que de alguma forma contribuíram para o compartilhamento de links e tricks de consulta nos websites.
 
