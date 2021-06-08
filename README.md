@@ -275,6 +275,9 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
     - https://twitter.com/search?q=seu_alvo+lang%3Apt&src=typed_query
     - https://twitter.com/search-advanced
 
+### Snap Map
+- https://map.snapchat.com/@-15.127315,-51.412151,4.51z
+
 ---
 
 ## Indexadores de Serviço de Mensagens Instantâneas 💬 <a name="indexador-mensagens"></a>
