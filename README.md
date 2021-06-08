@@ -258,6 +258,14 @@ Adicione sua string alvo para direcionar a busca
 - ```site:linkedin.com "at EMPRESA_ALVO"```
     - https://www.google.com/search?q=site%3Alinkedin.com+%22at+EMPRESA_ALVO%22
 
+### Google Hacking: Filtrar Grupos WhatsApp em Sites .br
+- ```"https://chat.whatsapp.com/" & site:br"```
+    - https://www.google.com/search?q=%22https%3A%2F%2Fchat.whatsapp.com%2F%22+%26+site%3Abr
+
+### Google Hacking: Filtrar Grupos Telegram + Contexto da String
+- ```inurl:"https://t.me" site:me "SEU_ALVO"```
+    - https://www.google.com/search?q=inurl%3A%22https%3A%2F%2Ft.me%22+site%3Ame+%22SEU_ALVO%22
+
 
 ### Shodan: Busca de Servidores Brasileiro
 Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos específicos de computadores conectados à Internet usando uma variedade de filtros.
