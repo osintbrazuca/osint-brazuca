@@ -22,6 +22,7 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
 - [Saúde](#saude)
 - [Motores de Busca Contexto Brasil](#dorks)
 - [Rede Social](#redes-sociais)
+- [Indexadores de Serviço de Mensagens Instantâneas](#indexador-mensagens)
 - [Consulta de Dados Veicular](#dados-veicular)
 - [Câmeras Online](#cameras-online)
 - [Outras Buscas](#outras-buscas)
@@ -276,6 +277,35 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 
 ---
 
+## Indexadores de Serviço de Mensagens Instantâneas 💬 <a name="indexador-mensagens"></a>
+### Grupos de WhatsApp
+WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas de voz para smartphones.
+- https://gruposwhats.app/
+- https://whatsapp.statusestories.com/
+- https://grupos-online.com/
+- https://grupowhats.online/
+- https://buscagrupos.com.br/
+- https://www.gruposwats.com/
+- https://gruposputaria.com/
+- https://www.gruposexozap.com.br/
+- https://www.grupopaquera.com.br/
+- https://gruposdezap.com/
+
+### Grupos de Telegram
+O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
+- ```"SEU_ALVO"```
+- ```("password"|"senha")```
+    - https://tgstat.com/search
+- ```"SEU_ALVO"```
+- ```("password"|"senha")```    
+    - https://cse.google.com/cse?cx=008239573640124656331:o29gdxc2osj
+- https://www.telegram-group.com/en/#
+- https://tgstat.com/
+- https://xtea.io/ts_en.html#gsc.tab=0&gsc.q=SEU_ALVO
+- https://telemetr.io/en/channels?language=pt&channel=SEU_ALVO&period=30
+- https://combot.org/telegram/top/groups?lng=pt&page=1&q=SEU_ALVO
+
+---
 ## Consulta de Dados Veicular 🚗 <a name="dados-veicular"></a>
 ### Consulta de Licenciamento Veicular 
 - http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml *Estado do Maranhão*
