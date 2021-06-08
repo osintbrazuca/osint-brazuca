@@ -24,6 +24,7 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
 - [Rede Social](#redes-sociais)
 - [Indexadores de Serviço de Mensagens Instantâneas](#indexador-mensagens)
 - [Consulta de Transporte Terrestre](#consulta-transporte-terrestre)
+- [Consulta de Transporte Aéreo](#consulta-transporte-aereo)
 - [Câmeras Online](#cameras-online)
 - [Outras Buscas](#outras-buscas)
 - [Categorias de Domínios .br](#dominios-br)
@@ -352,6 +353,29 @@ RNTRC - Registro Nacional de Transportadores Rodoviários de Cargas
 ### Pesquisar no Portal de Dados Abertos da ANTT
 A Política de Dados Abertos do Poder Executivo Federal, instituída pelo Decreto n° 8.777, de 11 de maio de 2016, tem o objetivo de aprimorar a cultura de transparência pública ao estabelecer regras para publicação, em formato aberto.
 - https://dados.antt.gov.br/
+
+---
+
+## Consulta de Transporte Aéreo 🛫 <a name="consulta-transporte-aereo"></a>
+
+### Consulta de Vôos via Infraero
+As informações aqui fornecidas são obtidas diretamente das companhias aéreas. Não nos responsabilizamos por consequências resultantes de possíveis erros ou omissões.
+- http://voos.infraero.gov.br/voos/index.aspx
+
+### Consulta de Vôos de autoridades Brasileiras
+Os dados incluem a autoridade solicitante, trajeto, data, horário de decolagem e de pouso, o motivo da solicitação, além da previsão do número de passageiros;
+- https://www.fab.mil.br/voos
+
+### Consulta de Empresas e de Aeronaves de Táxi-Aéreo
+A ANAC disponibiliza uma consulta de empresas ou aeronaves de táxi-aéreo a todos os cidadãos interessados.
+- https://sistemas.anac.gov.br/voeseguro/
+
+### Consulta de Nada Consta de Multas do CBAER
+- https://sistemas.anac.gov.br/nadaconsta/
+
+### Consultas ao Registro Aeronáutico Brasileiro (RAB)
+Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro Aeronáutico Brasileiro (RAB) – regulamentado por meio da Resolução ANAC nº 293/2013
+- https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
 
 ---
 
