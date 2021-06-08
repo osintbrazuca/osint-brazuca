@@ -265,6 +265,9 @@ Adicione sua string alvo para direcionar a busca
 ### Google Hacking: Filtrar Grupos Telegram + Contexto da String
 - ```inurl:"https://t.me" site:me "SEU_ALVO"```
     - https://www.google.com/search?q=inurl%3A%22https%3A%2F%2Ft.me%22+site%3Ame+%22SEU_ALVO%22
+- ```site:me "joinchat" "SEU_ALVO"```
+    - https://www.google.com/search?q=site%3Ame+%22joinchat%22+%22Bolsonaro%22
+
 
 
 ### Shodan: Busca de Servidores Brasileiro
