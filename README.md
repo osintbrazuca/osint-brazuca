@@ -399,6 +399,11 @@ A ANAC disponibiliza uma consulta de empresas ou aeronaves de táxi-aéreo a tod
 Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro Aeronáutico Brasileiro (RAB) – regulamentado por meio da Resolução ANAC nº 293/2013
 - https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
 
+### Radar de Aeronaves
+- https://www.radarbox.com/@-19.21547,-46.45469,z5
+- https://www.flightradar24.com/-18.82,-52.19/5
+- https://www.edestinos.com.br/radar
+
 ---
 
 ## Câmeras Online 🎥 <a name="cameras-online"></a>
