@@ -518,7 +518,11 @@ Repositório de dados públicos disponibilizados em formato acessível.
 ---
 
 ## Categorias de Domínios .br 📰 <a name="dominios-br"></a>
-Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Registro.br. Os domínios de pessoa física e profissionais liberais só podem ser registrados por um titular com CPF. Os domínios de pessoa jurídica devem ser associados a um CNPJ. Já os domínios genéricos e de cidades podem ser registrados por CPF ou CNPJ.
+Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Registro.br. Os domínios de pessoa física e profissionais liberais só podem ser registrados por um titular com CPF. Os domínios de pessoa jurídica devem ser associados a um CNPJ. Já os domínios genéricos e de cidades podem ser registrados por CPF ou CNPJ. 
+
+<details>
+<summary>Lista de Domínios</summary>
+
 | TLD  |  Descrição  |
 | ------------------- | ------------------- |
 |  APP.BR	| Aplicativos|
@@ -663,6 +667,8 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 |LEG.BR |	Instituições do Poder Legislativo|
 |MP.BR |	Instituições do Ministério Público|
 |TC.BR |	Tribunais de Contas|
+
+</details>
 
  ---
 
