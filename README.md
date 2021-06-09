@@ -674,30 +674,31 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
 
 ## Categorias por Estados Brasileiros 🇧🇷 <a name="estados-br"></a> [EM CONSTRUÇÃO]
-### Acre (AC) <a name="acre"></a>
-### Alagoas (AL) <a name="alagoas"></a>
-### Amapá (AP) <a name="amapa"></a>
-### Amazonas (AM) <a name="amazonas"></a>
-### Bahia (BA) <a name="bahia"></a>
-### Ceará (CE) <a name="ceara"></a>
-### Distrito Federal (DF) <a name="distrito-federal"></a>
-### Espírito Santo (ES) <a name="espirito-santo"></a>
-### Goiás (GO) <a name="goias"></a>
-### Maranhão (MA) <a name="maranhao"></a>
-### Mato Grosso (MT) <a name="mato-grosso"></a>
-### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
-### Minas Gerais (MG) <a name="minas-gerais"></a>
-### Pará (PA) <a name="para"></a>
-### Paraíba (PB) <a name="paraiba"></a>
-### Paraná (PR) <a name="parana"></a>
-### Pernambuco (PE) <a name="pernambuco"></a>
-### Piauí (PI) <a name="piaui"></a>
-### Rio de Janeiro (RJ) <a name="rio-janeiro"></a>
-### Rio Grande do Norte (RN) <a name="rio-grande-norte"></a>
-### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
-- **Monitoramento de Rodovias:**
-    <br>
-Todos os links e informações foram obtidos originalmente do site do [DAER](https://www.daer.rs.gov.br/) no Rio Grande do Sul.
+- ### Acre (AC) <a name="acre"></a>
+- ### Alagoas (AL) <a name="alagoas"></a>
+- ### Amapá (AP) <a name="amapa"></a>
+- ### Amazonas (AM) <a name="amazonas"></a>
+- ### Bahia (BA) <a name="bahia"></a>
+- ### Ceará (CE) <a name="ceara"></a>
+- ### Distrito Federal (DF) <a name="distrito-federal"></a>
+- ### Espírito Santo (ES) <a name="espirito-santo"></a>
+- ### Goiás (GO) <a name="goias"></a>
+- ### Maranhão (MA) <a name="maranhao"></a>
+- ### Mato Grosso (MT) <a name="mato-grosso"></a>
+- ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
+- ### Minas Gerais (MG) <a name="minas-gerais"></a>
+- ### Pará (PA) <a name="para"></a>
+- ### Paraíba (PB) <a name="paraiba"></a>
+- ### Paraná (PR) <a name="parana"></a>
+- ### Pernambuco (PE) <a name="pernambuco"></a>
+- ### Piauí (PI) <a name="piaui"></a>
+- ### Rio de Janeiro (RJ) <a name="rio-janeiro"></a>
+- ### Rio Grande do Norte (RN) <a name="rio-grande-norte"></a>
+- ### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
+    <details>
+        <summary>Monitoramento de Rodovias:</summary>
+
+    Todos os links e informações foram obtidos originalmente do site do [DAER](https://www.daer.rs.gov.br/) no Rio Grande do Sul.
     - Osório: RS-389 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6716
     - Osório: ERS-030 KM 89,9 - https://camerasdaer.perkons.com:60000/DAER-6714
     - Osório: ERS-030, 1916 KM 85,3 - https://camerasdaer.perkons.com:60000/DAER-6713
@@ -742,7 +743,9 @@ Todos os links e informações foram obtidos originalmente do site do [DAER](htt
     - Sananduva: ERS-126 KM 110 - https://daer.kopp.com.br/ftp/imagem.php?id=Sananduva
     - Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
     - Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
-    
+
+    </details> 
+
 ### Rondônia (RO) <a name="rondonia"></a>
 ### Roraima (RR) <a name="roraima"></a>
 ### Santa Catarina (SC) <a name="santa-catarina"></a>
