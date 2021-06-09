@@ -290,6 +290,11 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 ### Snap Map
 - https://map.snapchat.com/@-15.127315,-51.412151,4.51z
 
+
+### Facebook Biblioteca de Anúncios
+A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
+- https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&media_type=all
+
 ---
 
 ## Indexadores de Serviço de Mensagens Instantâneas 💬 <a name="indexador-mensagens"></a>
