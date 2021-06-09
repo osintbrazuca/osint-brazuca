@@ -209,7 +209,12 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 ### Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) 🗿
 O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inventários de Conhecimento, para formar uma base de informações sobre os patrimônio cultural de todo o Brasil.
 - https://sicg.iphan.gov.br/sicg/pesquisarBem
-    
+
+### Rede de Meteorologia do Comando da Aeronáutica ( REDEMET )
+A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os produtos meteorológicos voltados à aviação civil e militar, visando tornar o acesso a estas informações mais rápido, eficiente e seguro.
+- https://redemet.decea.gov.br/#
+- https://redemet.decea.gov.br/novo/
+
 ---
    
 ## Saúde 🏥 <a name="saude"></a>
