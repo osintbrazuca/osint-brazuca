@@ -29,33 +29,39 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
 - [Outras Buscas](#outras-buscas)
 - [Categorias de Domínios .br](#dominios-br)
 - [Categorias por Estados Brasileiros](#estados-br)
-    - [Acre](#acre)
-    - [Alagoas](#alagoas)
-    - [Amapá](#amapa)
-    - [Amazonas](#amazonas)
-    - [Bahia](#bahia)
-    - [Ceará](#ceara)
-    - [Distrito Federal](#distrito-federal)
-    - [Espírito Santo](#espirito-santo)
-    - [Goiás](#goias)
-    - [Maranhão](#maranhao)
-    - [Mato Grosso](#mato-grosso)
-    - [Mato Grosso do Sul](#mato-grosso-sul)
-    - [Minas Gerais](#minas-gerais)
-    - [Pará](#para)
-    - [Paraíba](#paraiba)
-    - [Paraná](#parana)
-    - [Pernambuco](#pernambuco)
-    - [Piauí](#piaui)
-    - [Rio de Janeiro](#rio-janeiro)
-    - [Rio Grande do Norte](#rio-grande-norte)
-    - [Rio Grande do Sul](#rio-grande-sul)
-    - [Rondônia](#rondonia)
-    - [Roraima](#roraima)
-    - [Santa Catarina](#santa-catarina)
-    - [São Paulo](#sao-paulo)
-    - [Sergipe](#sergipe)
-    - [Tocantins](#tocantins)
+        <details>
+        <summary><a href="#estados-br">Estados</a></summary>
+        <ul>
+            <li><a href="#acre">Acre</a></li>
+            <li><a href="#alagoas">Alagoas</a></li>
+            <li><a href="#amapa">Amapá</a></li>
+            <li><a href="#amazonas">Amazonas</a></li>
+            <li><a href="#bahia">Bahia</a></li>
+            <li><a href="#ceara">Ceará</a></li>
+            <li><a href="#distrito-federal">Distrito Federal</a></li>
+            <li><a href="#espirito-santo">Espírito Santo</a></li>
+            <li><a href="#goias">Goiás</a></li>
+            <li><a href="#maranhao">Maranhão</a></li>
+            <li><a href="#mato-grosso">Mato Grosso</a></li>
+            <li><a href="#mato-grosso-sul">Mato Grosso do Sul</a></li>
+            <li><a href="#minas-gerais">Minas Gerais</a></li>
+            <li><a href="#para">Pará</a></li>
+            <li><a href="#paraiba">Paraíba</a></li>
+            <li><a href="#parana">Paraná</a></li>
+            <li><a href="#pernambuco">Pernambuco</a></li>
+            <li><a href="#piaui">Piauí</a></li>
+            <li><a href="#rio-janeiro">Rio de Janeiro</a></li>
+            <li><a href="#rio-grande-norte">Rio Grande do Norte</a></li>
+            <li><a href="#rio-grande-sul">Rio Grande do Sul</a></li>
+            <li><a href="#rondonia">Rondônia</a></li>
+            <li><a href="#roraima">Roraima</a></li>
+            <li><a href="#santa-catarina">Santa Catarina</a></li>
+            <li><a href="#sao-paulo">São Paulo</a></li>
+            <li><a href="#sergipe">Sergipe</a></li>
+            <li><a href="#tocantins">Tocantins</a></li>
+        </ul>
+        </details>
+
  - [Autores](#autores)
  - [Contribuições](#contribuicoes)
  - [Créditos](#creditos)
