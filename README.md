@@ -746,12 +746,13 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
     </details> 
 
-### Rondônia (RO) <a name="rondonia"></a>
-### Roraima (RR) <a name="roraima"></a>
-### Santa Catarina (SC) <a name="santa-catarina"></a>
-- **Monitoramento de Segurança Pública:**
-    <br>
-Todos os links e informações foram obtidos originalmente do site da [DTIC](https://www.ssp.sc.gov.br/dtic/) do estado de Santa Catarina.
+- ### Rondônia (RO) <a name="rondonia"></a>
+- ### Roraima (RR) <a name="roraima"></a>
+- ### Santa Catarina (SC) <a name="santa-catarina"></a>
+    <details>
+        <summary>Monitoramento de Segurança Pública:</summary>
+
+    Todos os links e informações foram obtidos originalmente do site da [DTIC](https://www.ssp.sc.gov.br/dtic/) do estado de Santa Catarina.
     - Ponte Hercílio Luz 01: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_159&width=1920&height=1080
     - Ponte Hercílio Luz 02: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_160&width=1920&height=1080
     - Ponte Hercílio Luz 03: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
@@ -765,10 +766,11 @@ Todos os links e informações foram obtidos originalmente do site da [DTIC](htt
     - Marginal BR101/Rua Acácio Reitz: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_032&width=1920&height=1080
     - Major Livramento/Rua João José Rodrigues: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_VDV_040&width=1920&height=1080
 
-    
-### São Paulo (SP) <a name="sao-paulo"></a>
-### Sergipe (SE) <a name="sergipe"></a>
-### Tocantins (TO) <a name="tocantins"></a>
+    </details> 
+
+- ### São Paulo (SP) <a name="sao-paulo"></a>
+- ### Sergipe (SE) <a name="sergipe"></a>
+- ### Tocantins (TO) <a name="tocantins"></a>
 
     
 ---
