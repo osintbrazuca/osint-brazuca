@@ -218,6 +218,11 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 ### Banco de Dados Geográficos do Exército ( BDGEx )
 - https://bdgex.eb.mil.br/bdgexapp/mobile/
 
+### Radar de Aeronaves
+- https://www.radarbox.com/@-19.21547,-46.45469,z5
+- https://www.flightradar24.com/-18.82,-52.19/5
+- https://www.edestinos.com.br/radar
+
 ---
    
 ## Saúde 🏥 <a name="saude"></a>
@@ -406,11 +411,6 @@ A ANAC disponibiliza uma consulta de empresas ou aeronaves de táxi-aéreo a tod
 ### Consultas ao Registro Aeronáutico Brasileiro (RAB)
 Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro Aeronáutico Brasileiro (RAB) – regulamentado por meio da Resolução ANAC nº 293/2013
 - https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
-
-### Radar de Aeronaves
-- https://www.radarbox.com/@-19.21547,-46.45469,z5
-- https://www.flightradar24.com/-18.82,-52.19/5
-- https://www.edestinos.com.br/radar
 
 ---
 
