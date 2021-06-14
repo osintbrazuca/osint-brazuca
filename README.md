@@ -11,6 +11,9 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
 </center>
 <p>
 
+# Introdução
+OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) é um modelo de inteligência que visa encontrar, selecionar e adquirir informações de fontes públicas e analisá-las para que junto com outras fontes possam produzir um conhecimento. As informações coletadas por meio de fontes abertas, possuem baixo custo, se comparado as onerosas operações de campo.
+
 # Sumário
 - [Benefícios Sociais](#beneficios-sociais)
 - [Consulta de Processos](#consulta-processos)
@@ -808,4 +811,10 @@ Contribuições de qualquer tipo são bem-vindas!
 À todas as instituições públicas governamentais e inciativas privadas que disponibilizaram os links para consulta.
 <br>
 À todos que de alguma forma contribuíram para o compartilhamento de links e tricks de consulta nos websites.
+
+--- 
+
+## Fontes
+
+- [Wikipedia - OSINT](https://pt.wikipedia.org/wiki/OSINT)
 
