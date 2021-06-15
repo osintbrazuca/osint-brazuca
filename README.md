@@ -376,6 +376,9 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml *Estado do Maranhão*
 
 ### Consulta de Dados via Placa
+<details>
+<summary>Links de Consulta</summary>
+
 - https://carfacts.com.br/ConsultaGratis
 - https://www.qualveiculo.net/
 - https://www.olhonocarro.com.br/
@@ -386,6 +389,8 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - https://www.consultapelaplaca.com.br/
 - https://site.bibipecas.com.br/home
 - https://www.historicar.com.br/
+
+</details>
 
 ### Consulta Históricos de Ônibus
 As buscas do Ônibus Brasil são um serviço de utilidade pública que permite rastrear registros históricos de ônibus que circulam ou circularam pelas ruas do Brasil e diversos outros países.
