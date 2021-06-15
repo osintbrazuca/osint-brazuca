@@ -17,8 +17,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 
 # Sumário
 - [Benefícios Sociais](#beneficios-sociais)
-- [Consulta de Processos](#consulta-processos)
-- [Banco Nacional de Mandados de Prisão](#consulta-mandados)        
+- [Consulta de Processos](#consulta-processos)      
 - [Busca de Informações via CPF/CNPJ](#busca-cpf-cnpj)
 - [Telecom](#telecom)
 - [Estação Rádio Base - ERBs](#estacoes-radio-erbs)
@@ -104,8 +103,7 @@ O portal e-S** é uma solução que visa facilitar a troca de informações e ag
 - http://esaj.tjam.jus.br/esaj/portal.do?servico=190090#
 - http://esaj.tjce.jus.br/esaj/portal.do?servico=190090#
 
-### Banco Nacional de Mandados de Prisão 🧑‍⚖️ <a name="consulta-mandados"></a>
-### Conselho Nacional de Justiça - Sistema BNMP **
+### Banco Nacional de Mandados de Prisão 
 O Sistema BNMP – Banco Nacional de Mandados de Prisão tem a finalidade de facilitar o conhecimento por qualquer pessoa e o cumprimento de diligências por parte das autoridades policiais, assim como auxiliar os juízes no exercício de sua jurisdição. Este será alimentado através de um WebService e tem a finalidade de disponibilizar a consulta e a recepção dos mandados de prisão.
 - https://portalbnmp.cnj.jus.br/#/pesquisa-peca#        
         
