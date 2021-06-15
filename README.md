@@ -167,6 +167,9 @@ Por meio da busca é possível encontrar orelhões pelo número, localizar ruas,
 
 ## Estação Rádio Base / ERBs 📻 <a name="estacoes-radio-erbs"></a>
 Estações Radio Base ou ERBs são equipamentos que fazem a conexão entre os telefones celulares e a companhia telefônica, ou mais precisamente a Central de Comutação e Controle (CCC).
+<details>
+<summary>Links de Consulta</summary>
+
 - https://www.teleco.com.br/erb.asp
 - https://sistemas.anatel.gov.br/stel/consultas/ListaEstacoesLocalidade/tela.asp?pNumServico=010
 - http://www.telecocare.com.br/telebrasil/mapa_erb.php
@@ -175,6 +178,8 @@ Estações Radio Base ou ERBs são equipamentos que fazem a conexão entre os te
 - https://dados.gov.br/dataset?tags=ERB
 - https://www.google.com/maps/d/u/0/viewer?msa=0&mid=1Xh8EWBDY97vtLnEYuAVLvRGvu2o&ll=-16.816639560865948%2C-51.73607799999998&z=5
 - http://www.coberturacelular.com.br/
+
+</details>
 
 ## Informações Acadêmicas  📄 <a name="informacoes-academicas"></a>
 ### Buscar Currículo Lattes
