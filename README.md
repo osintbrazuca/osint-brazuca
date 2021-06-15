@@ -353,6 +353,9 @@ WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas 
 
 ### Grupos de Telegram
 O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
+<details>
+<summary>Indexadores Telegram</summary>
+
 - ```"SEU_ALVO"```
 - ```("password"|"senha")```
     - https://tgstat.com/search
@@ -364,6 +367,8 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - https://xtea.io/ts_en.html#gsc.tab=0&gsc.q=SEU_ALVO
 - https://telemetr.io/en/channels?language=pt&channel=SEU_ALVO&period=30
 - https://combot.org/telegram/top/groups?lng=pt&page=1&q=SEU_ALVO
+
+</details>
 
 ---
 ## Consulta de Transporte Terrestre 🚗 <a name="consulta-transporte-terrestre"></a>
