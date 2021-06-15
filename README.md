@@ -186,6 +186,9 @@ Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma en
 ## Mapas e Georreferenciamento 🗺️ <a name="mapas-geo"></a>
 ### Imagens de Satélite via inpe.br
 Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro dedicado à pesquisa e exploração espacial, criado em 1961.
+<details>
+<summary>Mapas Inep</summary>
+
 - http://www.dgi.inpe.br/catalogo/
 - http://sigma.cptec.inpe.br/
 - http://sigma2.cptec.inpe.br/
@@ -209,6 +212,9 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 - https://www.cptec.inpe.br/dsat/
 - http://mapas.sosma.org.br/
 - http://www.inpe.br/webelat/homepage/
+
+</details>
+<br>
     
 ### Instituto do Patrimônio Histórico e Artístico Nacional ( IPHAN ) 🗿
 O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inventários de Conhecimento, para formar uma base de informações sobre os patrimônio cultural de todo o Brasil.
