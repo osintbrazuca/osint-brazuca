@@ -124,6 +124,9 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 
 ## Busca de Informações via CPF/CNPJ 🔭 <a name="busca-cpf-cnpj"></a>
 ### Busca Dados Usando CNPJ
+<details>
+<summary>Links de Consulta</summary>
+
 - http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
 - https://brasilcnpj.net/
 - https://cnpj.biz/
@@ -133,6 +136,8 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 - https://www.informecadastral.com.br/
 - https://www.situacaocadastral.info/
 - http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21
+
+</details>
 
 ### Busca Nome Usando CPF/CNPJ
 A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
