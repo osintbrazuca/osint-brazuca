@@ -788,8 +788,10 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 - ### São Paulo (SP) <a name="sao-paulo"></a>
     <details>
         <summary>Consultas SP</summary>
-    - Consulta de Processos WEB | Limeira -  https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/ <br>
-    - Consulta Situação RG -  https://www.policiacivil.sp.gov.br/portal/faces/pages_home/servicos/consultaSituacaoRG   
+
+    - Consulta de Processos WEB | Limeira - https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/ 
+    - Consulta Situação RG - https://www.policiacivil.sp.gov.br/portal/faces/pages_home/servicos/consultaSituacaoRG
+       
     </details> 
 - ### Sergipe (SE) <a name="sergipe"></a>
 - ### Tocantins (TO) <a name="tocantins"></a>
