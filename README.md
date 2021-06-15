@@ -214,7 +214,7 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 - http://www.inpe.br/webelat/homepage/
 
 </details>
-<br>
+
     
 ### Instituto do Patrimônio Histórico e Artístico Nacional ( IPHAN ) 🗿
 O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inventários de Conhecimento, para formar uma base de informações sobre os patrimônio cultural de todo o Brasil.
@@ -335,6 +335,9 @@ A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma 
 ## Indexadores de Serviço de Mensagens Instantâneas 💬 <a name="indexador-mensagens"></a>
 ### Grupos de WhatsApp
 WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas de voz para smartphones.
+<details>
+<summary>Indexadores WhatsApp</summary>
+
 - https://gruposwhats.app/
 - https://whatsapp.statusestories.com/
 - https://grupos-online.com/
@@ -345,6 +348,8 @@ WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas 
 - https://www.gruposexozap.com.br/
 - https://www.grupopaquera.com.br/
 - https://gruposdezap.com/
+
+</details>
 
 ### Grupos de Telegram
 O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
