@@ -291,6 +291,12 @@ Adicione sua string alvo para direcionar a busca
 - ```site:me "joinchat" "SEU_ALVO"```
     - https://www.google.com/search?q=site%3Ame+%22joinchat%22+%22Bolsonaro%22
 
+### Google Hacking: Identificar Powerbi Exposto
+- ```site:app.powerbi.com/view?r intext:"br"```
+    - https://www.google.com/search?q=site%3Aapp.powerbi.com%2Fview%3Fr+intext%3A%22br%22
+- ```site:app.powerbi.com/view?r intext:"brasil"```
+    - https://www.google.com/search?q=site%3Aapp.powerbi.com%2Fview%3Fr+intext%3A%22brasil%22
+
 
 
 ### Shodan: Busca de Servidores Brasileiro
