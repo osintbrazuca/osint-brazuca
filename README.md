@@ -1,6 +1,5 @@
 <p style="text-align:center" align="center">
 <img src="assets/logo.png" width="40%" /><br>
-Repositório criado com intuito de reunir informações, fontes(websites/portais) e tricks de OSINT dentro do contexto Brasil 🇧🇷
 </p>
 <p align="center">[EM CONSTRUÇÃO]</center></p>
 
@@ -10,6 +9,11 @@ Repositório criado com intuito de reunir informações, fontes(websites/portais
 <img src="https://img.shields.io/github/license/osintbrazuca/Osint-Brazuca?color=blue" title="License" />
 </center>
 <p>
+
+# Introdução
+O Projeto **OSINT Brazuca** é um repositório criado com intuito de reunir informações, fontes(websites/portais) e tricks de OSINT dentro do contexto Brasil 🇧🇷.
+
+OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) é um modelo de inteligência que visa encontrar, selecionar e adquirir informações de fontes públicas e analisá-las para que junto com outras fontes possam produzir um conhecimento. As informações coletadas por meio de fontes abertas, possuem baixo custo, se comparado as onerosas operações de campo.
 
 # Sumário
 - [Benefícios Sociais](#beneficios-sociais)
@@ -808,4 +812,3 @@ Contribuições de qualquer tipo são bem-vindas!
 À todas as instituições públicas governamentais e inciativas privadas que disponibilizaram os links para consulta.
 <br>
 À todos que de alguma forma contribuíram para o compartilhamento de links e tricks de consulta nos websites.
-
