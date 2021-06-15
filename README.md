@@ -535,10 +535,15 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - https://transparencia.registrocivil.org.br/registros 
 
 ### Informações Sobre Domínios
+<details>
+<summary>Links para Pesquisa</summary>
+
 - https://registro.br/dominio/lista-processo-liberacao.txt
 - https://rdap.registro.br/domain/seu_dominio_exemplo.com.br
 - https://registro.br/tecnologia/ferramentas/whois/
 - https://registro.br/tecnologia/ferramentas/pesquisa-de-usuario/
+
+</details>
 
 ### Sites Notificados pelo Procon-SP
 Lista de sites que devem ser evitados, pois tiveram reclamações de consumidores registrada no Procon-SP, foram notificados, não responderam ou não foram encontrados.
