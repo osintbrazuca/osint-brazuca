@@ -238,7 +238,11 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 
 </details>
 
-    
+### Sistema Nacional de Cadastro Ambiental Rural ( SICAR-CAR )
+O SICAR é um sistema público de geoprocessamento que mapeia todas as propriedades rurais registradas com o CAR (Cadastro Ambiental Rural). Sendo o CAR um registro público, nacional e obrigatório à todas as propriedades rurais do Brasil, com a finalidade de formar uma base de dados e integrar informações.
+- https://www.car.gov.br/publico/imoveis/index
+- https://www.car.gov.br/#/consultar 
+
 ### Instituto do Patrimônio Histórico e Artístico Nacional ( IPHAN ) 🗿
 O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inventários de Conhecimento, para formar uma base de informações sobre os patrimônio cultural de todo o Brasil.
 - https://sicg.iphan.gov.br/sicg/pesquisarBem
