@@ -148,6 +148,14 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
 - https://www.situacao-cadastral.com/ 
 
+### Retornando Nome Completo CPF/CNPJ
+Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica). Bem como, consultar Certidão Eletrônica de Ações Trabalhistas - CEAT.  Em escolha ao CPNJ poder ser que retorne o CPF como complemento ao nome.
+- https://sistemas.trt3.jus.br/certidao/feitosTrabalhistas/aba1.emissao.htm        
+
+### Consulta de Antecedente Criminal
+Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
+- https://antecedentes.policiacivil.pa.gov.br/consulta
+        
 ---
 ## Telecom 📡 <a name="telecom"></a>
 
@@ -754,8 +762,28 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 - ### Pará (PA) <a name="para"></a>
 - ### Paraíba (PB) <a name="paraiba"></a>
 - ### Paraná (PR) <a name="parana"></a>
+     <details>
+        <summary>Consultas PA</summary>
+     
+    - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
+    - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
+    - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
+      
+    </details>
 - ### Pernambuco (PE) <a name="pernambuco"></a>
 - ### Piauí (PI) <a name="piaui"></a>
+    <details>
+        <summary>Consultas PI</summary>
+      
+    
+    - Impedidos de contratar com o poder público - https://sistemas.tce.pi.gov.br/ImpedimentoAS/impedimentos/listapessoas.xhtml <br>
+    - Sistema Intranet Corpo de Bombeiros Militar do Piauí -  http://www.bombeiros.pi.gov.br/distec/index2.php 
+    - Licenciamento Detran-PI - http://taxas.detran.pi.gov.br/licenciamento/index.jsf
+    - Sefaz Piauí - https://webas.sefaz.pi.gov.br/
+    - Inadimplentes - https://webas.sefaz.pi.gov.br/caginweb/
+    - Certidões - https://webas.sefaz.pi.gov.br/certidaonft-web/index.xhtml
+    - MEI - https://webas.sefaz.pi.gov.br/MEI-WEB/
+    </details>
 - ### Rio de Janeiro (RJ) <a name="rio-janeiro"></a>
 - ### Rio Grande do Norte (RN) <a name="rio-grande-norte"></a>
 - ### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
@@ -811,6 +839,23 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
     </details> 
 
 - ### Rondônia (RO) <a name="rondonia"></a>
+    <details>
+        <summary>Consultas Veiculares e Afins RO</summary>
+     
+    - Consultar Veículos por placa + renavam e/ou CPF/CNPJ -https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Software/ViewConsultaVeiculos.aspx
+    - Descobrir Número da CNH com CPF e Data de Nascimento - https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Internet/Habilitacao/ConsultaProcesso.asp
+    - Consulta Pública do Veículo *OBS: Caso tenha renavam + cpf é possível consultar débitos - https://centralservicos.detran.ro.gov.br/consulta/veiculo
+    - Consultar Resultado da Prova do Detran - https://consulta.detran.ro.gov.br/ResultadoProva
+      
+    </details>
+        
+    <details>
+            <summary>Imóveis Porto Velho</summary>
+    - Certidão Negativa de Débitos de Tributos Fiscais - https://semfazonline.portovelho.ro.gov.br/portal/certidao_negativa.action<br>
+    - Consulta de Débitos Imobiliários - IPTU - https://semfazonline.portovelho.ro.gov.br/portal/iptu_consulta_debito_input.action <br>
+    - Consulta Empresas Cadastradas - https://semfazonline.portovelho.ro.gov.br/portal/consulta_empresa_input.action
+    </details>
+        
 - ### Roraima (RR) <a name="roraima"></a>
 - ### Santa Catarina (SC) <a name="santa-catarina"></a>
     <details>
