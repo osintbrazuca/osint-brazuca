@@ -345,9 +345,27 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 
 ### Twitter
 É uma rede social e um servidor para microblogging.
-- ```seu_alvo lang:pt```
+- Busca avançada: ```seu_alvo lang:pt```
     - https://twitter.com/search?q=seu_alvo+lang%3Apt&src=typed_query
     - https://twitter.com/search-advanced
+- Organizador de alertas para tweets                        
+    https://www.mytweetalerts.com/
+- Mapa de tweets feito pela Omni Sci                        
+    https://www.omnisci.com/demos/tweetmap
+- Ferramenta de rastreamento e armazenamento de tweets      
+    http://www.tweetarchivist.com/
+- "Triangulação" de contas, seguidores e palavras chaves    
+    http://www.twiangulate.com/search/
+- Mapeamento de tweets                                      
+    https://onemilliontweetmap.com/
+- Estatísticas                                              
+    http://www.tweetstats.com/
+- Trends e buscas locais e global                           
+    https://trends24.in/
+- Busca de informações de um perfil                         
+    https://tinfoleak.com/
+- Busca por alterações em perfis
+    http://spoonbill.io/
 
 ### Snap Map
 - https://map.snapchat.com/@-15.127315,-51.412151,4.51z
@@ -356,6 +374,7 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 ### Facebook Biblioteca de Anúncios
 A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
 - https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&media_type=all
+
 
 ---
 
