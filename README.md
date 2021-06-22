@@ -89,6 +89,8 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 ### Extrato do Benefício de Prestação Continuada (INSS)
 - em processo...
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Consulta de Processos 🧑‍⚖️ <a name="consulta-processos"></a>
@@ -125,6 +127,9 @@ Startup que une Direito e Tecnologia para fazer com que a justiça ultrapasse as
 ### Escavador
 Encontre e acompanhe informações relevantes para você sua empresa seu cliente. Pesquise por pessoas, instituições, processos judiciais ou qualquer termo do seu interesse.
 - https://www.escavador.com/
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Busca de Informações via CPF/CNPJ 🔭 <a name="busca-cpf-cnpj"></a>
@@ -155,7 +160,9 @@ Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro d
 ### Consulta de Antecedente Criminal
 Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
 - https://antecedentes.policiacivil.pa.gov.br/consulta
-        
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 ## Telecom 📡 <a name="telecom"></a>
 
@@ -181,6 +188,9 @@ Por meio da busca é possível encontrar orelhões pelo número, localizar ruas,
 ### Números Discagem direta a distância ( DDD )
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
 - https://www.mbi.com.br/mbi/biblioteca/utilidades/estado-onde-fica-ddd/
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Estação Rádio Base / ERBs 📻 <a name="estacoes-radio-erbs"></a>
@@ -199,10 +209,16 @@ Estações Radio Base ou ERBs são equipamentos que fazem a conexão entre os te
 
 </details>
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
+---
+
 ## Informações Acadêmicas  📄 <a name="informacoes-academicas"></a>
 ### Buscar Currículo Lattes
 Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma entidade ligada ao Ministério da Ciência, Tecnologia, Inovações e Comunicações para incentivo à pesquisa no Brasil.
 - https://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
 
@@ -260,11 +276,15 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 - https://www.flightradar24.com/-18.82,-52.19/5
 - https://www.edestinos.com.br/radar
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
    
 ## Saúde 🏥 <a name="saude"></a>
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
 
@@ -336,6 +356,9 @@ Adicione sua string alvo para direcionar a busca
 Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos específicos de computadores conectados à Internet usando uma variedade de filtros.
 - ```country:"BR"```
     - https://www.shodan.io/search?query=country%3A%22BR%22
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Rede Social 👥 <a name="redes-sociais"></a>
@@ -373,6 +396,7 @@ Uma ferramenta para capturando pensamentos e emoções da população do Twitter
 A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
 - https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&media_type=all
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
 
@@ -414,6 +438,8 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - https://lyzem.com/search?f=all&l=pt&p=1&per-page=100&q=SEU_ALVO
 
 </details>
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
 ## Consulta de Transporte Terrestre 🚗 <a name="consulta-transporte-terrestre"></a>
@@ -465,6 +491,8 @@ RNTRC - Registro Nacional de Transportadores Rodoviários de Cargas
 A Política de Dados Abertos do Poder Executivo Federal, instituída pelo Decreto n° 8.777, de 11 de maio de 2016, tem o objetivo de aprimorar a cultura de transparência pública ao estabelecer regras para publicação, em formato aberto.
 - https://dados.antt.gov.br/
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Consulta de Transporte Aéreo 🛫 <a name="consulta-transporte-aereo"></a>
@@ -487,6 +515,8 @@ A ANAC disponibiliza uma consulta de empresas ou aeronaves de táxi-aéreo a tod
 ### Consultas ao Registro Aeronáutico Brasileiro (RAB)
 Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro Aeronáutico Brasileiro (RAB) – regulamentado por meio da Resolução ANAC nº 293/2013
 - https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
 
@@ -565,6 +595,8 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-sao-jose
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-biguacu
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 ### Antecedentes Criminais
@@ -609,6 +641,9 @@ No link abaixo é possível consultar informações referentes a: Marcas, Patent
 ### Repositório com Dados Públicos
 Repositório de dados públicos disponibilizados em formato acessível.
 - https://brasil.io/home/
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Categorias de Domínios .br 📰 <a name="dominios-br"></a>
@@ -764,6 +799,8 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
 </details>
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
  ---
 
 
@@ -910,7 +947,8 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 - ### Sergipe (SE) <a name="sergipe"></a>
 - ### Tocantins (TO) <a name="tocantins"></a>
 
-    
+##### [Voltar para Sumário](#sumário) :arrow_up: 
+ 
 ---
 
 ## Autores 👔 <a name="autores"></a>
