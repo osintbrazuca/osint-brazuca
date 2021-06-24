@@ -822,6 +822,12 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 - ### Mato Grosso (MT) <a name="mato-grosso"></a>
 - ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
 - ### Minas Gerais (MG) <a name="minas-gerais"></a>
+     <details>
+        <summary>Consultas MG</summary>
+     
+    - Consulta de Certidão Negativa de Débito | Belo Horizonte - http://cndonline.siatu.pbh.gov.br/CNDOnline/?null
+    
+    </details>
 - ### Pará (PA) <a name="para"></a>
 - ### Paraíba (PB) <a name="paraiba"></a>
 - ### Paraná (PR) <a name="parana"></a>
