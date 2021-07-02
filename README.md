@@ -382,6 +382,7 @@ Exemplo:
 
 - ```seu_alvo lang:pt```
     - https://twitter.com/search?q=seu_alvo+lang%3Apt&src=typed_query
+    
 ### Followerwonk
 O Followerwonk é um site para comparar duas ou três contas (seguidores e seguidos) do Twitter.
 - https://followerwonk.com/compare
