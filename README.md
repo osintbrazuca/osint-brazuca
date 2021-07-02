@@ -372,10 +372,16 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 
 ### Twitter
 É uma rede social e um servidor para microblogging e é possível uma busca mais efetiva usando sua busca avançada.
+- https://twitter.com/search-advanced
+
+### Twitter Dorking
+Operadores de busca avançada do Twitter.
+- https://github.com/igorbrigadir/twitter-advanced-search
+
+Exemplo:
+
 - ```seu_alvo lang:pt```
     - https://twitter.com/search?q=seu_alvo+lang%3Apt&src=typed_query
-    - https://twitter.com/search-advanced
-               
 ### OmniSci Tweetmap Demo
 OmniSci é um banco de dados alimentado por GPU (Unidade de Processador Gráfico) e plataforma de visualização projetada para exploração de dados imersiva e ultrarrápida que elimina a desconexão entre o analista e os dados.  
 - https://www.omnisci.com/demos/tweetmap
