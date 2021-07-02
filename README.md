@@ -374,7 +374,7 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 É uma rede social e um servidor para microblogging e é possível uma busca mais efetiva usando sua busca avançada.
 - https://twitter.com/search-advanced
 
-### Twitter Dorking
+### Twitter Dorkin
 Operadores de busca avançada do Twitter.
 - https://github.com/igorbrigadir/twitter-advanced-search
 
