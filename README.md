@@ -375,13 +375,16 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 - https://twitter.com/search-advanced
 
 ### Twitter Dorking
-Operadores de busca avançada do Twitter.
+Esse repositório contém informações sobre operadores de busca avançada do Twitter.
 - https://github.com/igorbrigadir/twitter-advanced-search
 
 Exemplo:
 
 - ```seu_alvo lang:pt```
     - https://twitter.com/search?q=seu_alvo+lang%3Apt&src=typed_query
+### Followerwonk
+O Followerwonk é um site para comparar duas ou três contas (seguidores e seguidos) do Twitter.
+- https://followerwonk.com/compare
 ### OmniSci Tweetmap Demo
 OmniSci é um banco de dados alimentado por GPU (Unidade de Processador Gráfico) e plataforma de visualização projetada para exploração de dados imersiva e ultrarrápida que elimina a desconexão entre o analista e os dados.  
 - https://www.omnisci.com/demos/tweetmap
