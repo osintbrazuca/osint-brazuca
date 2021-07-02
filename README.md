@@ -385,6 +385,7 @@ Exemplo:
 ### Followerwonk
 O Followerwonk é um site para comparar duas ou três contas (seguidores e seguidos) do Twitter.
 - https://followerwonk.com/compare
+
 ### OmniSci Tweetmap Demo
 OmniSci é um banco de dados alimentado por GPU (Unidade de Processador Gráfico) e plataforma de visualização projetada para exploração de dados imersiva e ultrarrápida que elimina a desconexão entre o analista e os dados.  
 - https://www.omnisci.com/demos/tweetmap
