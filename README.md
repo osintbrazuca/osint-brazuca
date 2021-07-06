@@ -155,7 +155,19 @@ Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro d
 ### Consulta de Antecedente Criminal
 Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
 - https://antecedentes.policiacivil.pa.gov.br/consulta
-        
+
+### Consulta MEI
+Nesta consulta será exibido informações do cadastro MEI. Para consulta é necessário apenas o CPF e data de nacimento. Vale para todo território nacional.
+- http://www22.receita.fazenda.gov.br/inscricaomei/private/pages/certificado_acesso.jsf
+
+### Declaração do Simples Nacional
+Para obter informações de declaração do simples nacional, basta informar o CNPJ nessa pesquisa. Vale para todo o território nacional
+- http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Default.aspx
+- https://www8.receita.fazenda.gov.br/SimplesNacional/controleAcesso/Autentica.aspx?id=16
+
+### Consulta Comunicação de Decisão do Requerimento/Benefício
+Consulta o status de requisição de aposentádoria de INSS. Vale para todo o território nacional.
+- https://www2.dataprev.gov.br/sabiweb/relatorio/imprimirCRER.view?acao=imprimir_CRER
 ---
 ## Telecom 📡 <a name="telecom"></a>
 
@@ -786,6 +798,30 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
     - MEI - https://webas.sefaz.pi.gov.br/MEI-WEB/
     </details>
 - ### Rio de Janeiro (RJ) <a name="rio-janeiro"></a>
+    <details>
+        <summary>Consultas RJ</summary>
+
+    - Justiça Militar - https://www.stm.jus.br/servicos-stm/certidao-negativa/emitir-certidao-negativa
+    - Justiça Federal - https://procweb.jfrj.jus.br/certidao/emissao_cert.asp
+    - Crimes Eleitorais - https://www.tse.jus.br/eleitor/certidoes/certidao-de-crimes-eleitorais
+    - Antecedentes Criminais - http://atestadodic.detran.rj.gov.br/
+    - Certidão de interio TEOR (CIT) - http://certidaoiifppcerj.detran.rj.gov.br/
+    - B.O - https://dedic.pcivil.rj.gov.br/Consulta.aspx
+       
+    </details> 
+
+    <details>
+        <summary>Consulta de Dados via RENAVAM</summary>
+
+    - CONSULTA DÉBITO DE VEÍCULO - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJLoader.do
+    - Documento Único do DETRAN de Arrecadação - RH - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJDudaSelecionarProduto.do?cdProdutoInicial=INI
+    - Guia de Recolhimento de Multas - RH - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJGrmConsultar.do
+    - Guia de Regularização de Taxas - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/DebitoVeiculoRJGRTLoaderAction.do
+    - Informações de Pagamentos Efetuados - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJConsultaLoader.do
+
+    </details>
+
+
 - ### Rio Grande do Norte (RN) <a name="rio-grande-norte"></a>
 - ### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
     <details>
