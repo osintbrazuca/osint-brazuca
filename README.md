@@ -89,6 +89,8 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 ### Extrato do Benefício de Prestação Continuada (INSS)
 - em processo...
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Consulta de Processos 🧑‍⚖️ <a name="consulta-processos"></a>
@@ -125,6 +127,9 @@ Startup que une Direito e Tecnologia para fazer com que a justiça ultrapasse as
 ### Escavador
 Encontre e acompanhe informações relevantes para você sua empresa seu cliente. Pesquise por pessoas, instituições, processos judiciais ou qualquer termo do seu interesse.
 - https://www.escavador.com/
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Busca de Informações via CPF/CNPJ 🔭 <a name="busca-cpf-cnpj"></a>
@@ -156,6 +161,7 @@ Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro d
 Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
 - https://antecedentes.policiacivil.pa.gov.br/consulta
 
+
 ### Consulta MEI
 Nesta consulta será exibido informações do cadastro MEI. Para consulta é necessário apenas o CPF e data de nacimento. Vale para todo território nacional.
 - http://www22.receita.fazenda.gov.br/inscricaomei/private/pages/certificado_acesso.jsf
@@ -168,6 +174,9 @@ Para obter informações de declaração do simples nacional, basta informar o C
 ### Consulta Comunicação de Decisão do Requerimento/Benefício
 Consulta o status de requisição de aposentádoria de INSS. Vale para todo o território nacional.
 - https://www2.dataprev.gov.br/sabiweb/relatorio/imprimirCRER.view?acao=imprimir_CRER
+=======
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 ## Telecom 📡 <a name="telecom"></a>
 
@@ -193,6 +202,9 @@ Por meio da busca é possível encontrar orelhões pelo número, localizar ruas,
 ### Números Discagem direta a distância ( DDD )
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
 - https://www.mbi.com.br/mbi/biblioteca/utilidades/estado-onde-fica-ddd/
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Estação Rádio Base / ERBs 📻 <a name="estacoes-radio-erbs"></a>
@@ -208,14 +220,24 @@ Estações Radio Base ou ERBs são equipamentos que fazem a conexão entre os te
 - https://dados.gov.br/dataset?tags=ERB
 - https://www.google.com/maps/d/u/0/viewer?msa=0&mid=1Xh8EWBDY97vtLnEYuAVLvRGvu2o&ll=-16.816639560865948%2C-51.73607799999998&z=5
 - http://www.coberturacelular.com.br/
+- https://servicos.pc.sc.gov.br/antena/
 
 </details>
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
+---
 
 ## Informações Acadêmicas  📄 <a name="informacoes-academicas"></a>
 ### Buscar Currículo Lattes
 Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma entidade ligada ao Ministério da Ciência, Tecnologia, Inovações e Comunicações para incentivo à pesquisa no Brasil.
 - https://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar
 
+### Buscar Informações de Instituições de Ensino Superior
+Sistema do Ministerio da Educacao (MEC) responsavel pela tramitacao dos processos de ato regulatorio das instituicoes de educacao superior do Brasil. É possível buscar cursos e outras informações das instituições direto no MEC.         
+- https://emec.mec.gov.br/emec/nova#avancada
+
+##### [Voltar para Sumário](#sumário) :arrow_up:  
 ---
 
 ## Mapas e Georreferenciamento 🗺️ <a name="mapas-geo"></a>
@@ -250,7 +272,11 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 
 </details>
 
-    
+### Sistema Nacional de Cadastro Ambiental Rural ( SICAR-CAR )
+O SICAR é um sistema público de geoprocessamento que mapeia todas as propriedades rurais registradas com o CAR (Cadastro Ambiental Rural). Sendo o CAR um registro público, nacional e obrigatório à todas as propriedades rurais do Brasil, com a finalidade de formar uma base de dados e integrar informações.
+- https://www.car.gov.br/publico/imoveis/index
+- https://www.car.gov.br/#/consultar 
+
 ### Instituto do Patrimônio Histórico e Artístico Nacional ( IPHAN ) 🗿
 O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inventários de Conhecimento, para formar uma base de informações sobre os patrimônio cultural de todo o Brasil.
 - https://sicg.iphan.gov.br/sicg/pesquisarBem
@@ -268,11 +294,15 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 - https://www.flightradar24.com/-18.82,-52.19/5
 - https://www.edestinos.com.br/radar
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
    
 ## Saúde 🏥 <a name="saude"></a>
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
 
@@ -344,6 +374,9 @@ Adicione sua string alvo para direcionar a busca
 Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos específicos de computadores conectados à Internet usando uma variedade de filtros.
 - ```country:"BR"```
     - https://www.shodan.io/search?query=country%3A%22BR%22
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Rede Social 👥 <a name="redes-sociais"></a>
@@ -352,10 +385,26 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 - https://www.linkedin.com/jobs/search/?keywords=SEU_ALVO&location=Brasil
 
 ### Twitter
-É uma rede social e um servidor para microblogging.
+É uma rede social e um servidor para microblogging e é possível uma busca mais efetiva usando sua busca avançada.
 - ```seu_alvo lang:pt```
     - https://twitter.com/search?q=seu_alvo+lang%3Apt&src=typed_query
     - https://twitter.com/search-advanced
+               
+### OmniSci Tweetmap Demo
+OmniSci é um banco de dados alimentado por GPU (Unidade de Processador Gráfico) e plataforma de visualização projetada para exploração de dados imersiva e ultrarrápida que elimina a desconexão entre o analista e os dados.  
+- https://www.omnisci.com/demos/tweetmap
+        
+### Maptimize Demo Sentiment Analysis on Tweets
+Esta página exibe os tweets e geolocalização das últimas 24 horas entregues pela API de fluxo público do Twitter.
+- https://onemilliontweetmap.com/?center=-18.79191774423444,-39.33105468750001&zoom=5&search=SEU_ALVO
+        
+### TweetStats Graficamente  
+Represente graficamente suas estatísticas do Twitter, incluindo Tweets por hora, Tweets por mês, cronograma do Tweet, estatísticas de resposta.   
+- https://www.tweetstats.com/graphs/PERFIL_ALVO
+        
+### Trend24 Trends e buscas locais e global
+Uma ferramenta para capturando pensamentos e emoções da população do Twitter em qualquer ponto do tempo.                           
+- https://trends24.in/SEU_ALVO/
 
 ### Snap Map
 - https://map.snapchat.com/@-15.127315,-51.412151,4.51z
@@ -364,6 +413,8 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 ### Facebook Biblioteca de Anúncios
 A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
 - https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&media_type=all
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
 
@@ -405,6 +456,8 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - https://lyzem.com/search?f=all&l=pt&p=1&per-page=100&q=SEU_ALVO
 
 </details>
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
 ## Consulta de Transporte Terrestre 🚗 <a name="consulta-transporte-terrestre"></a>
@@ -456,6 +509,8 @@ RNTRC - Registro Nacional de Transportadores Rodoviários de Cargas
 A Política de Dados Abertos do Poder Executivo Federal, instituída pelo Decreto n° 8.777, de 11 de maio de 2016, tem o objetivo de aprimorar a cultura de transparência pública ao estabelecer regras para publicação, em formato aberto.
 - https://dados.antt.gov.br/
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Consulta de Transporte Aéreo 🛫 <a name="consulta-transporte-aereo"></a>
@@ -478,6 +533,8 @@ A ANAC disponibiliza uma consulta de empresas ou aeronaves de táxi-aéreo a tod
 ### Consultas ao Registro Aeronáutico Brasileiro (RAB)
 Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro Aeronáutico Brasileiro (RAB) – regulamentado por meio da Resolução ANAC nº 293/2013
 - https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
 
@@ -556,6 +613,8 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-sao-jose
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-biguacu
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 ### Antecedentes Criminais
@@ -600,6 +659,9 @@ No link abaixo é possível consultar informações referentes a: Marcas, Patent
 ### Repositório com Dados Públicos
 Repositório de dados públicos disponibilizados em formato acessível.
 - https://brasil.io/home/
+
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
 ---
 
 ## Categorias de Domínios .br 📰 <a name="dominios-br"></a>
@@ -755,6 +817,8 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
 </details>
 
+##### [Voltar para Sumário](#sumário) :arrow_up:
+
  ---
 
 
@@ -772,6 +836,12 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 - ### Mato Grosso (MT) <a name="mato-grosso"></a>
 - ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
 - ### Minas Gerais (MG) <a name="minas-gerais"></a>
+     <details>
+        <summary>Consultas MG</summary>
+     
+    - Consulta de Certidão Negativa de Débito | Belo Horizonte - http://cndonline.siatu.pbh.gov.br/CNDOnline/?null
+    
+    </details>
 - ### Pará (PA) <a name="para"></a>
 - ### Paraíba (PB) <a name="paraiba"></a>
 - ### Paraná (PR) <a name="parana"></a>
@@ -925,7 +995,8 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 - ### Sergipe (SE) <a name="sergipe"></a>
 - ### Tocantins (TO) <a name="tocantins"></a>
 
-    
+##### [Voltar para Sumário](#sumário) :arrow_up: 
+ 
 ---
 
 ## Autores 👔 <a name="autores"></a>
