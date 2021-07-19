@@ -990,6 +990,7 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
     - Consulta de Processos WEB | Limeira - https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/ 
     - Consulta Situação RG - https://www.policiacivil.sp.gov.br/portal/faces/pages_home/servicos/consultaSituacaoRG
+    - Consulta de concluentes em unidades escolares do Estado - https://concluintes.educacao.sp.gov.br/publica/consultapublica/Search
        
     </details> 
 - ### Sergipe (SE) <a name="sergipe"></a>
