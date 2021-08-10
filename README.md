@@ -603,8 +603,6 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
         - https://www.ecovias.com.br/boletim/camera/10
    
 
-
-
 ### Câmeras Governo de Santa Catarina
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis
@@ -612,6 +610,14 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis-2
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-sao-jose
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-biguacu
+
+
+### Câmeras da Prefeitura de João Pessoa - PB (SEMOB)
+- http://transito.gtrans.com.br/semobjp/index.php/portal/index
+
+## Câmeras da Prefeitura de Recife - PE (CTTU)
+- http://transito.gtrans.com.br/cttupe/index.php/mapa
+
 
 ##### [Voltar para Sumário](#sumário) :arrow_up:
 
