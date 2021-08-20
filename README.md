@@ -96,6 +96,9 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 ## Consulta de Processos 🧑‍⚖️ <a name="consulta-processos"></a>
 ### Portal e-S**
 O portal e-S** é uma solução que visa facilitar a troca de informações e agilizar o trâmite processual por meio de diversos serviços WEB voltados para os advogados, cidadãos e serventuários da justiça.
+<details>
+<summary>Portais TJ</summary>
+
 - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090#
 - https://esaj.tjba.jus.br/esaj/portal.do?servico=190090#
 - https://esaj.tjce.jus.br/esaj/portal.do?servico=190090#
@@ -104,6 +107,8 @@ O portal e-S** é uma solução que visa facilitar a troca de informações e ag
 - http://esaj.tjac.jus.br/esaj/portal.do?servico=190090#
 - http://esaj.tjam.jus.br/esaj/portal.do?servico=190090#
 - http://esaj.tjce.jus.br/esaj/portal.do?servico=190090#
+
+</details>
 
 ### Banco Nacional de Mandados de Prisão 
 O Sistema BNMP – Banco Nacional de Mandados de Prisão tem a finalidade de facilitar o conhecimento por qualquer pessoa e o cumprimento de diligências por parte das autoridades policiais, assim como auxiliar os juízes no exercício de sua jurisdição. Este será alimentado através de um WebService e tem a finalidade de disponibilizar a consulta e a recepção dos mandados de prisão.
