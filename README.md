@@ -556,22 +556,32 @@ O Projeto City Câmeras é um programa público, de iniciativa exclusiva da Pref
 
 ### Câmeras Rodovias Online
 O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reunir de forma fácil e eficaz visualizações de câmeras on-line.
+<details>
+<summary>www.rodoviasonline.com.br</summary>
+
 - http://www.rodoviasonline.com.br/rodovias-der-sp/
     - http://www.rodoviasonline.com.br/cameras-ao-vivo-das-rodovias-do-estado-do-parana/
     - https://www.rodoviasonline.com.br/cameras-ao-vivo-nas-rodovias-do-rio-grande-de-sul-daer-rs/
     - https://www.rodoviasonline.com.br/rodovia-governador-ney-braga-br-277/
     - https://www.rodoviasonline.com.br/cameras-ao-vivo-viapar-parana/
+</details>
 
 ### Câmeras Concessionária Tamoios
+<details>
+<summary>concessionariatamoios.com.br</summary>
+
 - https://concessionariatamoios.com.br/cameras/ver/12
 - https://concessionariatamoios.com.br/cameras/ver/14
 - https://concessionariatamoios.com.br/cameras/ver/10
 - https://concessionariatamoios.com.br/cameras/ver/9
 - https://concessionariatamoios.com.br/cameras/ver/8
 - https://concessionariatamoios.com.br/cameras/ver/13
-
+</details>
 
 ### Câmeras Concessionária EcoRodovias
+<details>
+<summary>www.ecovias.com.br</summary>
+
 - https://www.ecovias.com.br/condicoes-da-via#condition-camera
 
     - BALANCA IMIGRANTES PLANALTO
@@ -606,16 +616,19 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
         - https://www.ecovias.com.br/boletim/camera/9
     - PEDAGIO SAO VICENTE
         - https://www.ecovias.com.br/boletim/camera/10
-   
+<details>   
 
 ### Câmeras Governo de Santa Catarina
+<details>
+<summary>www.ssp.sc.gov.br</summary>
+
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis-trindade
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis-2
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-sao-jose
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-biguacu
-
+</details>
 
 ### Câmeras da Prefeitura de João Pessoa - PB (SEMOB)
 - http://transito.gtrans.com.br/semobjp/index.php/portal/index
