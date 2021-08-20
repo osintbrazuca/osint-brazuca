@@ -564,6 +564,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
     - https://www.rodoviasonline.com.br/cameras-ao-vivo-nas-rodovias-do-rio-grande-de-sul-daer-rs/
     - https://www.rodoviasonline.com.br/rodovia-governador-ney-braga-br-277/
     - https://www.rodoviasonline.com.br/cameras-ao-vivo-viapar-parana/
+
 </details>
 
 ### Câmeras Concessionária Tamoios
@@ -576,9 +577,11 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - https://concessionariatamoios.com.br/cameras/ver/9
 - https://concessionariatamoios.com.br/cameras/ver/8
 - https://concessionariatamoios.com.br/cameras/ver/13
+
 </details>
 
 ### Câmeras Concessionária EcoRodovias
+
 <details>
 <summary>www.ecovias.com.br</summary>
 
@@ -616,7 +619,8 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
         - https://www.ecovias.com.br/boletim/camera/9
     - PEDAGIO SAO VICENTE
         - https://www.ecovias.com.br/boletim/camera/10
-<details>   
+        
+</details>   
 
 ### Câmeras Governo de Santa Catarina
 <details>
@@ -628,6 +632,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis-2
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-sao-jose
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-biguacu
+
 </details>
 
 ### Câmeras da Prefeitura de João Pessoa - PB (SEMOB)
