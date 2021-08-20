@@ -557,7 +557,7 @@ O Projeto City Câmeras é um programa público, de iniciativa exclusiva da Pref
 ### Câmeras Rodovias Online
 O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reunir de forma fácil e eficaz visualizações de câmeras on-line.
 <details>
-<summary>www.rodoviasonline.com.br</summary>
+<summary>rodoviasonline.com.br</summary>
 
 - http://www.rodoviasonline.com.br/rodovias-der-sp/
     - http://www.rodoviasonline.com.br/cameras-ao-vivo-das-rodovias-do-estado-do-parana/
@@ -583,7 +583,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Câmeras Concessionária EcoRodovias
 
 <details>
-<summary>www.ecovias.com.br</summary>
+<summary>ecovias.com.br</summary>
 
 - https://www.ecovias.com.br/condicoes-da-via#condition-camera
 
@@ -619,12 +619,12 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
         - https://www.ecovias.com.br/boletim/camera/9
     - PEDAGIO SAO VICENTE
         - https://www.ecovias.com.br/boletim/camera/10
-        
+
 </details>   
 
 ### Câmeras Governo de Santa Catarina
 <details>
-<summary>www.ssp.sc.gov.br</summary>
+<summary>ssp.sc.gov.br</summary>
 
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-florianopolis
