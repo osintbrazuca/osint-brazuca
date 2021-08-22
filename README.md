@@ -622,6 +622,11 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 </details>   
 
+### Câmeras DAER - Rio Grande do Sul 
+        
+        https://daer.kopp.com.br/ftp/imagem.php?id=Santa_Maria
+        
+        
 ### Câmeras Governo de Santa Catarina
 <details>
 <summary>ssp.sc.gov.br</summary>
