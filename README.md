@@ -18,7 +18,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 # Sumário
 - [Benefícios Sociais](#beneficios-sociais)
 - [Consulta de Processos](#consulta-processos)      
-- [Busca de Informações via CPF/CNPJ](#busca-cpf-cnpj)
+- [Busca de Informações via CPF/CNPJ/CRM/CNA](#busca-cpf-cnpj-crm-cna)
 - [Telecom](#telecom)
 - [Estação Rádio Base - ERBs](#estacoes-radio-erbs)
 - [Informações Acadêmicas](#informacoes-academicas)
@@ -110,6 +110,7 @@ O portal e-S** é uma solução que visa facilitar a troca de informações e ag
 
 </details>
 
+
 ### Banco Nacional de Mandados de Prisão 
 O Sistema BNMP – Banco Nacional de Mandados de Prisão tem a finalidade de facilitar o conhecimento por qualquer pessoa e o cumprimento de diligências por parte das autoridades policiais, assim como auxiliar os juízes no exercício de sua jurisdição. Este será alimentado através de um WebService e tem a finalidade de disponibilizar a consulta e a recepção dos mandados de prisão.
 - https://portalbnmp.cnj.jus.br/#/pesquisa-peca#        
@@ -137,7 +138,7 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 
 ---
 
-## Busca de Informações via CPF/CNPJ 🔭 <a name="busca-cpf-cnpj"></a>
+## Busca de Informações via CPF/CNPJ/CRM/CNA 🔭 <a name="busca-cpf-cnpj-crm-cna"></a>
 ### Busca Dados Usando CNPJ
 <details>
 <summary>Links de Consulta</summary>
@@ -166,6 +167,10 @@ Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro d
 Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
 - https://antecedentes.policiacivil.pa.gov.br/consulta
 
+### Consulta Cadastro Nacional dos Advogados (CNA)
+Pesquisar no Repositório do cadastro de todos os advogados do Brasil.
+Mantido pelo Conselho Federal da OAB, que exerce a função de repositório do cadastro de todos os advogados do Brasil. Para realizar a consulta, basta preencher o formulário e pesquisar. (Nome; Nº da inscrição; Seccional; Tipo de inscrição)
+- https://cna.oab.org.br
 
 ### Consulta MEI
 Nesta consulta será exibido informações do cadastro MEI. Para consulta é necessário apenas o CPF e data de nacimento. Vale para todo território nacional.
@@ -179,7 +184,8 @@ Para obter informações de declaração do simples nacional, basta informar o C
 ### Consulta Comunicação de Decisão do Requerimento/Benefício
 Consulta o status de requisição de aposentádoria de INSS. Vale para todo o território nacional.
 - https://www2.dataprev.gov.br/sabiweb/relatorio/imprimirCRER.view?acao=imprimir_CRER
-=======
+
+
 ##### [Voltar para Sumário](#sumário) :arrow_up:
 
 ---
