@@ -632,9 +632,8 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 </details>   
 
-### Câmeras DAER - Rio Grande do Sul 
-        
-        https://daer.kopp.com.br/ftp/imagem.php?id=Santa_Maria
+### Câmeras DAER - Rio Grande do Sul    
+- https://daer.kopp.com.br/ftp/imagem.php?id=Santa_Maria
         
         
 ### Câmeras Governo de Santa Catarina
@@ -699,6 +698,25 @@ No link abaixo é possível consultar informações referentes a: Marcas, Patent
 - https://alertalicitacao.com.br/
 - https://www.portaldecompraspublicas.com.br/18/Processos/
 - http://www.portaltransparencia.gov.br/
+
+### Consulta os Processos Licitatórios da SPTrans
+Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A
+<details>
+<summary>Links para Pesquisa</summary>
+
+- https://sptrans.com.br/licitacoes/
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtarp.aspx
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtap.aspx
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ca.aspx
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp_tc.aspx
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp.aspx
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2cr.aspx
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrted.aspx
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ec.aspx
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2apn.aspx
+- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2rc_Ano.aspx
+
+</details>
 
 ### Repositório com Dados Públicos
 Repositório de dados públicos disponibilizados em formato acessível.
