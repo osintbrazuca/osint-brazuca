@@ -495,6 +495,7 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 ### Consulta Terminais Ônibus São Paulo
 Secretaria Municipal de Transporte e Mobilidade Urbana ( SPTRANS )
 - https://www.sptrans.com.br/terminais
+- https://sistemas.sptrans.com.br/PlanOperWeb/
 
 ### Consulta Históricos de Ônibus
 As buscas do Ônibus Brasil são um serviço de utilidade pública que permite rastrear registros históricos de ônibus que circulam ou circularam pelas ruas do Brasil e diversos outros países.
