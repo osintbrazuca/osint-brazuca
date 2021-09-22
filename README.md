@@ -723,6 +723,9 @@ Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A
 
 </details>
 
+### Acesso à Informação - SPTRANS
+- https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php
+
 ### Repositório com Dados Públicos
 Repositório de dados públicos disponibilizados em formato acessível.
 - https://brasil.io/home/
