@@ -706,6 +706,7 @@ Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A
 <summary>Links para Pesquisa</summary>
 
 - https://sptrans.com.br/licitacoes/
+- https://sistemas.sptrans.com.br//licitlovnew/hilicwebfrt2rc_Ano.aspx
 - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtarp.aspx
 - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtap.aspx
 - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ca.aspx
@@ -716,6 +717,9 @@ Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A
 - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ec.aspx
 - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2apn.aspx
 - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2rc_Ano.aspx
+- https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/edital/index.php?p=247319
+- https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php?p=205222
+- 
 
 </details>
 
