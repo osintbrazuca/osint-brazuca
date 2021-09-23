@@ -673,6 +673,10 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Estatísticas de Nascimentos, Óbitos, Registros e Casamentos
 - https://transparencia.registrocivil.org.br/registros 
 
+### Informações sobre um endereço de e-mail
+Permite recuperar, sem notificar o usuário, vários elementos relacionados a um endereço de e-mail, Nome, GoogleID, se há Mapas criados ou Agendas Públicas do Google Calendar, Validar se o e-mail está sendo utilizado em contas em outros sites.    
+- https://tools.epieos.com/email.php         
+        
 ### Informações Sobre Domínios
 <details>
 <summary>Links para Pesquisa</summary>
