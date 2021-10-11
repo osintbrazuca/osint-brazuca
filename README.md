@@ -89,7 +89,7 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 ### Extrato do Benefício de Prestação Continuada (INSS)
 - em processo...
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -134,7 +134,7 @@ Startup que une Direito e Tecnologia para fazer com que a justiça ultrapasse as
 Encontre e acompanhe informações relevantes para você sua empresa seu cliente. Pesquise por pessoas, instituições, processos judiciais ou qualquer termo do seu interesse.
 - https://www.escavador.com/
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -186,7 +186,7 @@ Consulta o status de requisição de aposentádoria de INSS. Vale para todo o te
 - https://www2.dataprev.gov.br/sabiweb/relatorio/imprimirCRER.view?acao=imprimir_CRER
 
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 ## Telecom 📡 <a name="telecom"></a>
@@ -214,7 +214,7 @@ Por meio da busca é possível encontrar orelhões pelo número, localizar ruas,
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
 - https://www.mbi.com.br/mbi/biblioteca/utilidades/estado-onde-fica-ddd/
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -235,7 +235,7 @@ Estações Radio Base ou ERBs são equipamentos que fazem a conexão entre os te
 
 </details>
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -248,7 +248,7 @@ Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma en
 Sistema do Ministerio da Educacao (MEC) responsavel pela tramitacao dos processos de ato regulatorio das instituicoes de educacao superior do Brasil. É possível buscar cursos e outras informações das instituições direto no MEC.         
 - https://emec.mec.gov.br/emec/nova#avancada
 
-##### [Voltar para Sumário](#sumário) :arrow_up:  
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)  
 ---
 
 ## Mapas e Georreferenciamento 🗺️ <a name="mapas-geo"></a>
@@ -305,7 +305,7 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 - https://www.flightradar24.com/-18.82,-52.19/5
 - https://www.edestinos.com.br/radar
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
    
@@ -313,7 +313,7 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -386,7 +386,7 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 - ```country:"BR"```
     - https://www.shodan.io/search?query=country%3A%22BR%22
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -425,7 +425,7 @@ Uma ferramenta para capturando pensamentos e emoções da população do Twitter
 A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
 - https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&media_type=all
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -468,7 +468,7 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 
 </details>
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 ## Consulta de Transporte Terrestre 🚗 <a name="consulta-transporte-terrestre"></a>
@@ -525,7 +525,7 @@ RNTRC - Registro Nacional de Transportadores Rodoviários de Cargas
 A Política de Dados Abertos do Poder Executivo Federal, instituída pelo Decreto n° 8.777, de 11 de maio de 2016, tem o objetivo de aprimorar a cultura de transparência pública ao estabelecer regras para publicação, em formato aberto.
 - https://dados.antt.gov.br/
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -550,7 +550,7 @@ A ANAC disponibiliza uma consulta de empresas ou aeronaves de táxi-aéreo a tod
 Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro Aeronáutico Brasileiro (RAB) – regulamentado por meio da Resolução ANAC nº 293/2013
 - https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -657,7 +657,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - http://transito.gtrans.com.br/cttupe/index.php/mapa
 
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
@@ -723,15 +723,14 @@ Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A
 
 </details>
 
-### Acesso à Informação - SPTRANS
+### Acesso à Informação - SPTRANSd
 - https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php
 
 ### Repositório com Dados Públicos
 Repositório de dados públicos disponibilizados em formato acessível.
 - https://brasil.io/home/
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
-
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 ---
 
 ## Categorias de Domínios .br 📰 <a name="dominios-br"></a>
@@ -887,7 +886,7 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
 </details>
 
-##### [Voltar para Sumário](#sumário) :arrow_up:
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
  ---
 
@@ -1066,7 +1065,7 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 - ### Sergipe (SE) <a name="sergipe"></a>
 - ### Tocantins (TO) <a name="tocantins"></a>
 
-##### [Voltar para Sumário](#sumário) :arrow_up: 
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário) 
  
 ---
 
