@@ -489,6 +489,7 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - https://www.consultapelaplaca.com.br/
 - https://site.bibipecas.com.br/home
 - https://www.historicar.com.br/
+- https://www.keplaca.com
 
 </details>
 
