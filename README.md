@@ -656,10 +656,10 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Câmeras da Prefeitura de Recife - PE (CTTU)
 - http://transito.gtrans.com.br/cttupe/index.php/mapa
 
-
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
+
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 ### Antecedentes Criminais
 - https://servicos.dpf.gov.br/antecedentes-criminais/certidao
