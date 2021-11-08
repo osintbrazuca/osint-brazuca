@@ -654,8 +654,6 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Câmeras da Prefeitura de Recife - PE (CTTU)
 - http://transito.gtrans.com.br/cttupe/index.php/mapa
 
-<<<<<<< HEAD
-=======
 ### Câmeras do Centro Integrado de Operações de Belém do Pará (Segup no Trânsito)
 - http://www.ciop.pa.gov.br/index.php/banner-camera
 
@@ -663,7 +661,6 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - http://infotrafego.pbh.gov.br/info_trafego_cameras.html
 
 
->>>>>>> 2a198b8567dc5841f934fd3c8c1e9547083edfeb
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
