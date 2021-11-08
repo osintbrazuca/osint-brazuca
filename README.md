@@ -648,14 +648,22 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-sao-jose
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-biguacu
 
-</details>
-
 ### Câmeras da Prefeitura de João Pessoa - PB (SEMOB)
 - http://transito.gtrans.com.br/semobjp/index.php/portal/index
 
 ### Câmeras da Prefeitura de Recife - PE (CTTU)
 - http://transito.gtrans.com.br/cttupe/index.php/mapa
 
+<<<<<<< HEAD
+=======
+### Câmeras do Centro Integrado de Operações de Belém do Pará (Segup no Trânsito)
+- http://www.ciop.pa.gov.br/index.php/banner-camera
+
+### Câmeras da BHTRANS (Em beta ainda)
+- http://infotrafego.pbh.gov.br/info_trafego_cameras.html
+
+
+>>>>>>> 2a198b8567dc5841f934fd3c8c1e9547083edfeb
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
