@@ -648,6 +648,8 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-sao-jose
 - https://www.ssp.sc.gov.br/dtic/index.php/cameras/cameras-online-biguacu
 
+</details>
+
 ### Câmeras da Prefeitura de João Pessoa - PB (SEMOB)
 - http://transito.gtrans.com.br/semobjp/index.php/portal/index
 
