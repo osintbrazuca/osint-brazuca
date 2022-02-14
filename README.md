@@ -91,6 +91,13 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
+### Consulta de Valores a Receber do Sistema Financeiro
+Consulta para saber se a Pessoa Física ou Jurídica possuem valores a receber no Sistema Financeiro.
+
+- https://valoresareceber.bcb.gov.br/publico/
+- Via Requisição GET, substituir os zeros pelo CPF ou CNPJ sem pontos ou traços, e a data de nascimento no formato ANO-MES-DIA: 
+https://valoresareceber.bcb.gov.br/publico/rest/valoresAReceber/00000000000/1960-12-01
+        
 ---
 
 ## Consulta de Processos 🧑‍⚖️ <a name="consulta-processos"></a>
