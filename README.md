@@ -481,7 +481,7 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 
 - https://carfacts.com.br/ConsultaGratis
 - https://www.qualveiculo.net/
-- https://www.olhonocarro.com.br/
+- https://www.olhonocarro.com.br/        
 - https://www.consultarplaca.com.br/
 - http://infocarrosp.com.br/
 - https://www.iq.com.br/veiculos/consulta-placa/
@@ -490,6 +490,7 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - https://site.bibipecas.com.br/home
 - https://www.historicar.com.br/
 - https://www.keplaca.com
+- https://www.fipeplaca.com.br/
 
 </details>
 
