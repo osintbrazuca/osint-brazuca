@@ -910,6 +910,25 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 - ### Distrito Federal (DF) <a name="distrito-federal"></a>
 - ### Espírito Santo (ES) <a name="espirito-santo"></a>
 - ### Goiás (GO) <a name="goias"></a>
+     <details>
+        <summary>Consultas GO</summary>
+     
+    - Consulta veículos/infrações - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-multas-renainf
+    - Consulta processos - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-processo/1
+    - Consulta CNH_Social - https://www.detran.go.gov.br/psw/#/pages/conteudo/acompanhar-cnh-social
+    - Consulta Prontuário_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/prontuario-cnh
+    - Primeira_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/primeira-cnh
+
+    - Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
+    - Processos físicos 2º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
+    - Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4
+
+    - Consulta Nota Fiscal - https://www.goiania.go.gov.br/sing_servicos/nota-fiscal-eletronica/
+    - Consulta DUAM-IPTU-ITU-ISSQN - https://www.goiania.go.gov.br/sing_servicos/emissao-duam-itu-iptu-issqn/
+    - Consulta matrículas - https://www.goiania.go.gov.br/sing_servicos/matriculas-web/
+    - Consulta processos - https://www.goiania.go.gov.br/sing_servicos/consulta-processos/
+    
+    </details>
 - ### Maranhão (MA) <a name="maranhao"></a>
 - ### Mato Grosso (MT) <a name="mato-grosso"></a>
 - ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
