@@ -748,150 +748,151 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 <details>
 <summary>Lista de Domínios</summary>
 
-| TLD  |  Descrição  |
-| ------------------- | ------------------- |
-|  APP.BR	| Aplicativos|
-|  ART.BR	|Artes: música, pintura, folclore|
-|  COM.BR	|Atividades comerciais|
-|  DEV.BR	|Desenvolvedores e Plataformas de Desenvolvimento|
-|  ECO.BR	|Atividades com foco eco-ambiental|
-|  EMP.BR	|Pequenas e micro-empresas|
-|  LOG.BR	|Transportes e Logistica|
-|  NET.BR	|Atividades comerciais|
-|  ONG.BR	|Atividades não governamentais individuais ou associativas|
-|  SEG.BR	|Segurança|
-|  TEC.BR	|Tecnologia|
-| EDU.BR	| Instituições de ensino superior |
-| BLOG.BR	| Web logs| 
-| FLOG.BR	| Foto logs| 
-| NOM.BR	| Pessoas Físicas| 
-| VLOG.BR	| Vídeo logs| 
-| WIKI.BR	| Páginas do tipo 'wiki'| 
-|ADM.BR |	Administradores|
-|ADV.BR |	Advogados|
-|ARQ.BR |	Arquitetos|
-|ATO.BR |	Atores|
-|BIB.BR |	Bibliotecários / Biblioteconomistas|
-|BIO.BR |	Biólogos|
-|BMD.BR |	Biomédicos|
-|CIM.BR |	Corretores|
-|CNG.BR |	Cenógrafos|
-|CNT.BR |	Contadores|
-|COZ.BR |	Profissionais de Gastronomia|
-|DES.BR |	"Designers" e Desenhistas|
-|DET.BR |	Detetives / Investigadores Particulares|
-|ECN.BR |	Economistas|
-|ENF.BR |	Profissionais de Enfermagem|
-|ENG.BR |	Engenheiros|
-|ETI.BR |	Especialista em Tecnologia da Informação|
-|FND.BR |	Fonoaudiólogos|
-|FOT.BR |	Fotógrafos|
-|FST.BR |	Fisioterapeutas|
-|GEO.BR |	Geólogos|
-|GGF.BR |	Geógrafos|
-|JOR.BR |	Jornalistas|
-|LEL.BR |	Leiloeiros|
-|MAT.BR |	Matemáticos e Estatísticos|
-|MED.BR |	Médicos|
-|MUS.BR |	Músicos|
-|NOT.BR |	Notários|
-|NTR.BR |	Nutricionistas|
-|ODO.BR |	Dentistas|
-|PPG.BR |	Publicitários e profissionais da área de propaganda e marketing|
-|PRO.BR |	Professores|
-|PSC.BR |	Psicólogos|
-|QSL.BR |	Rádio amadores|
-|REP.BR |	Representantes Comerciais|
-|SLG.BR |	Sociólogos|
-|TAXI.BR |	Taxistas|
-|TEO.BR |	Teólogos|
-|TRD.BR |	Tradutores|
-|VET.BR |	Veterinários|
-|ZLG.BR |	Zoólogos|
-|9GUACU.BR |	Nova Iguaçu|
-|ABC.BR |	Região ABC Paulista|
-|AJU.BR |	Aracaju|
-|ANANI.BR |	Ananindeua|
-|APARECIDA.BR |	Aparecida|
-|BARUERI.BR |	Barueri|
-|BELEM.BR |	Belém|
-|BHZ.BR |	Belo Horizonte|
-|BOAVISTA.BR |	Boa Vista|
-|BSB.BR |.BR |asília|
-|CAMPINAGRANDE.BR |	Campina Grande|
-|CAMPINAS.BR |	Campinas|
-|CAXIAS.BR |	Caxias|
-|CONTAGEM.BR |	Contagem|
-|CUIABA.BR |	Cuiabá|
-|CURITIBA.BR |	Curitiba|
-|FEIRA.BR |	Feira de Santana|
-|FLORIPA.BR |	Florianópolis|
-|FORTAL.BR |	Fortaleza|
-|FOZ.BR |	Foz do Iguaçu|
-|GOIANIA.BR |	Goiânia|
-|GRU.BR |	Guarulhos|
-|JAB.BR |	Jaboatão dos Guararapes|
-|JAMPA.BR |	João Pessoa|
-|JDF.BR |	Juiz de Fora|
-|JOINVILLE.BR |	Joinville|
-|LONDRINA.BR |	Londrina|
-|MACAPA.BR |	Macapá|
-|MACEIO.BR |	Maceió|
-|MANAUS.BR |	Manaus|
-|MARINGA.BR |	Maringá|
-|MORENA.BR |	Campo Grande|
-|NATAL.BR |	Natal|
-|NITEROI.BR |	Niterói|
-|OSASCO.BR |	Osasco|
-|PALMAS.BR |	Palmas|
-|POA.BR |	Porto Alegre|
-|PVH.BR |	Porto Velho|
-|RECIFE.BR |	Recife|
-|RIBEIRAO.BR |	Ribeirão|
-|RIO.BR |	Rio de Janeiro|
-|RI.BR |ANCO.BR |	Rio.BR |anco|
-|RIOPRETO.BR |	São José do Rio Preto|
-|SALVADOR.BR |	Salvador|
-|SAMPA.BR |	São Paulo|
-|SANTAMARIA.BR |	Santa Maria|
-|SANTOANDRE.BR |	Santo André|
-|SAOBERNARDO.BR |	São Bernardo do Campo|
-|SAOGONCA.BR |	São Gonçalo|
-|SJC.BR |	São José dos Campos|
-|SLZ.BR |	São Luis|
-|SOROCABA.BR |	Sorocaba|
-|THE.BR |	Teresina|
-|UDI.BR |	Uberlândia|
-|VIX.BR |	Vitória|
-|AGR.BR |	Empresas agrícolas, fazendas|
-|ESP.BR |	Esporte em geral|
-|ETC.BR |	Empresas que não se enquadram nas outras categorias|
-|FAR.BR |	Farmácias e drogarias|
-|IMB.BR |	Imobiliárias|
-|IND.BR |	Indústrias|
-|INF.BR |	Meios de informação (rádios, jornais, bibliotecas, etc..)|
-|RADIO.BR |	Empresas que queiram enviar áudio pela rede|
-|REC.BR |	Atividades de entretenimento, diversão, jogos, etc...|
-|SRV.BR |	Empresas prestadoras de serviços|
-|TMP.BR |	Eventos temporários, como feiras e exposições|
-|TUR.BR |	Empresas da área de turismo|
-|TV.BR |	Empresas de radiodifusão ou transmissão via Internet de sons e imagens|
-|COM RESTRIÇÃO|
-|AM.BR |	Empresas de radiodifusão sonora|
-|COOP.BR |	Cooperativas|
-|FM.BR |	Empresas de radiodifusão sonora|
-|G12.BR |	Instituições de ensino de primeiro e segundo grau|
-|GOV.BR |	Instituições do governo federal|
-|MIL.BR |	Forças Armadas.BR |asileiras|
-|ORG.BR |	Instituições não governamentais sem fins lucrativos|
-|PSI.BR |	Provedores de serviço Internet|
-|DNSSEC .BR |IGATÓRIO|
-|B.BR |	Bancos|
-|DEF.BR |	Defensorias Públicas|
-|JUS.BR |	Instituições do Poder Judiciário|
-|LEG.BR |	Instituições do Poder Legislativo|
-|MP.BR |	Instituições do Ministério Público|
-|TC.BR |	Tribunais de Contas|
+| TLD		| Destinado a | Descrição |
+| ------------------- | ------------------- | ------------------- |
+| APP.BR	| Genéricos		| Aplicativos|
+| ART.BR	| Genéricos		| Artes: música, pintura, folclore|
+| COM.BR	| Genéricos		| Atividades comerciais|
+| DEV.BR	| Genéricos		| Desenvolvedores e Plataformas de Desenvolvimento|
+| ECO.BR	| Genéricos		| Atividades com foco eco-ambiental|
+| EMP.BR	| Genéricos		| Pequenas e micro-empresas|
+| LOG.BR	| Genéricos		| Transportes e Logistica|
+| NET.BR	| Genéricos		| Atividades comerciais|
+| ONG.BR	| Genéricos		| Atividades não governamentais individuais ou associativas|
+| SEG.BR	| Genéricos		| Segurança|
+| TEC.BR	| Genéricos		| Tecnologia|
+| EDU.BR	| Universidades		| Instituições de ensino superior|
+| BLOG.BR	| Pessoas Físicas	| Web logs| Pessoas Físicas|
+| FLOG.BR	| Pessoas Físicas	| Foto logs|
+| NOM.BR	| Pessoas Físicas	| Pessoas Físicas|
+| VLOG.BR	| Pessoas Físicas	| Vídeo logs|
+| WIKI.BR	| Pessoas Físicas	| Páginas do tipo 'wiki'|
+| ADM.BR	| Profissionais Liberais| Administradores|
+| ADV.BR	| Profissionais Liberais| Advogados|
+| ARQ.BR	| Profissionais Liberais| Arquitetos|
+| ATO.BR	| Profissionais Liberais| Atores|
+| BIB.BR	| Profissionais Liberais| Bibliotecários / Biblioteconomistas|
+| BIO.BR	| Profissionais Liberais| Biólogos|
+| BMD.BR	| Profissionais Liberais| Biomédicos|
+| CIM.BR	| Profissionais Liberais| Corretores|
+| CNG.BR	| Profissionais Liberais| Cenógrafos|
+| CNT.BR	| Profissionais Liberais| Contadores|
+| COZ.BR	| Profissionais Liberais| Profissionais de Gastronomia|
+| DES.BR	| Profissionais Liberais| "Designers" e Desenhistas|
+| DET.BR	| Profissionais Liberais| Detetives / Investigadores Particulares|
+| ECN.BR	| Profissionais Liberais| Economistas|
+| ENF.BR	| Profissionais Liberais| Profissionais de Enfermagem|
+| ENG.BR	| Profissionais Liberais| Engenheiros|
+| ETI.BR	| Profissionais Liberais| Especialista em Tecnologia da Informação|
+| FND.BR	| Profissionais Liberais| Fonoaudiólogos|
+| FOT.BR	| Profissionais Liberais| Fotógrafos|
+| FST.BR	| Profissionais Liberais| Fisioterapeutas|
+| GEO.BR	| Profissionais Liberais| Geólogos|
+| GGF.BR	| Profissionais Liberais| Geógrafos|
+| JOR.BR	| Profissionais Liberais| Jornalistas|
+| LEL.BR	| Profissionais Liberais| Leiloeiros|
+| MAT.BR	| Profissionais Liberais| Matemáticos e Estatísticos|
+| MED.BR	| Profissionais Liberais| Médicos|
+| MUS.BR	| Profissionais Liberais| Músicos|
+| NOT.BR	| Profissionais Liberais| Notários|
+| NTR.BR	| Profissionais Liberais| Nutricionistas|
+| ODO.BR	| Profissionais Liberais| Dentistas|
+| PPG.BR	| Profissionais Liberais| Publicitários e profissionais da área de propaganda e marketing|
+| PRO.BR	| Profissionais Liberais| Professores|
+| PSC.BR	| Profissionais Liberais| Psicólogos|
+| QSL.BR	| Profissionais Liberais| Rádio amadores|
+| REP.BR	| Profissionais Liberais| Representantes Comerciais|
+| SLG.BR	| Profissionais Liberais| Sociólogos|
+| TAXI.BR	| Profissionais Liberais| Taxistas|
+| TEO.BR	| Profissionais Liberais| Teólogos|
+| TRD.BR	| Profissionais Liberais| Tradutores|
+| VET.BR	| Profissionais Liberais| Veterinários|
+| ZLG.BR	| Profissionais Liberais| Zoólogos|
+| 9GUACU.BR	| Cidades		| Nova Iguaçu|
+| ABC.BR	| Cidades		| Região ABC Paulista|
+| AJU.BR	| Cidades		| Aracaju|
+| ANANI.BR	| Cidades		| Ananindeua|
+| APARECIDA.BR	| Cidades		| Aparecida|
+| BARUERI.BR	| Cidades		| Barueri|
+| BELEM.BR	| Cidades		| Belém|
+| BHZ.BR	| Cidades		| Belo Horizonte|
+| BOAVISTA.BR	| Cidades		| Boa Vista|
+| BSB.BR	| Cidades		| Brasília|
+| CAMPINAGRANDE.BR| Cidades		| Campina Grande|
+| CAMPINAS.BR	| Cidades		| Campinas|
+| CAXIAS.BR	| Cidades		| Caxias|
+| CONTAGEM.BR	| Cidades		| Contagem|
+| CUIABA.BR	| Cidades		| Cuiabá|
+| CURITIBA.BR	| Cidades		| Curitiba|
+| FEIRA.BR	| Cidades		| Feira de Santana|
+| FLORIPA.BR	| Cidades		| Florianópolis|
+| FORTAL.BR	| Cidades		| Fortaleza|
+| FOZ.BR	| Cidades		| Foz do Iguaçu|
+| GOIANIA.BR	| Cidades		| Goiânia|
+| GRU.BR	| Cidades		| Guarulhos|
+| JAB.BR	| Cidades		| Jaboatão dos Guararapes|
+| JAMPA.BR	| Cidades		| João Pessoa|
+| JDF.BR	| Cidades		| Juiz de Fora|
+| JOINVILLE.BR	| Cidades		| Joinville|
+| LONDRINA.BR	| Cidades		| Londrina|
+| MACAPA.BR	| Cidades		| Macapá|
+| MACEIO.BR	| Cidades		| Maceió|
+| MANAUS.BR	| Cidades		| Manaus|
+| MARINGA.BR	| Cidades		| Maringá|
+| MORENA.BR	| Cidades		| Campo Grande|
+| NATAL.BR	| Cidades		| Natal|
+| NITEROI.BR	| Cidades		| Niterói|
+| OSASCO.BR	| Cidades		| Osasco|
+| PALMAS.BR	| Cidades		| Palmas|
+| POA.BR	| Cidades		| Porto Alegre|
+| PVH.BR	| Cidades		| Porto Velho|
+| RECIFE.BR	| Cidades		| Recife|
+| RIBEIRAO.BR	| Cidades		| Ribeirão|
+| RIO.BR	| Cidades		| Rio de Janeiro|
+| RIOBRANCO.BR	| Cidades		| Rio Branco|
+| RIOPRETO.BR	| Cidades		| São José do Rio Preto|
+| SALVADOR.BR	| Cidades		| Salvador|
+| SAMPA.BR	| Cidades		| São Paulo|
+| SANTAMARIA.BR | Cidades		| Santa Maria|
+| SANTOANDRE.BR | Cidades		| Santo André|
+| SAOBERNARDO.BR| Cidades		| São Bernardo do Campo|
+| SAOGONCA.BR	| Cidades		| São Gonçalo|
+| SJC.BR	| Cidades		| São José dos Campos|
+| SLZ.BR	| Cidades		| São Luis|
+| SOROCABA.BR	| Cidades		| Sorocaba|
+| THE.BR	| Cidades		| Teresina|
+| UDI.BR	| Cidades		| Uberlândia|
+| VIX.BR	| Cidades		| Vitória|
+| **##########**| **Pessoas Jurídicas**	| **SEM RESTRIÇÃO**|
+| AGR.BR	| Pessoas Jurídicas	| Empresas agrícolas, fazendas|
+| ESP.BR	| Pessoas Jurídicas	| Esporte em geral|
+| ETC.BR	| Pessoas Jurídicas	| Empresas que não se enquadram nas outras categorias|
+| FAR.BR	| Pessoas Jurídicas	| Farmácias e drogarias|
+| IMB.BR	| Pessoas Jurídicas	| Imobiliárias|
+| IND.BR	| Pessoas Jurídicas	| Indústrias|
+| INF.BR	| Pessoas Jurídicas	| Meios de informação (rádios, jornais, bibliotecas, etc..)|
+| RADIO.BR	| Pessoas Jurídicas	| Empresas que queiram enviar áudio pela rede|
+| REC.BR	| Pessoas Jurídicas	| Atividades de entretenimento, diversão, jogos, etc...|
+| SRV.BR	| Pessoas Jurídicas	| Empresas prestadoras de serviços|
+| TMP.BR	| Pessoas Jurídicas	| Eventos temporários, como feiras e exposições|
+| TUR.BR	| Pessoas Jurídicas	| Empresas da área de turismo|
+| TV.BR		| Pessoas Jurídicas	| Empresas de radiodifusão ou transmissão via Internet de sons e imagens|
+| **##########**| **Pessoas Jurídicas**	| **COM RESTRIÇÃO**|
+| AM.BR		| Pessoas Jurídicas	| Empresas de radiodifusão sonora|
+| COOP.BR	| Pessoas Jurídicas	| Cooperativas|
+| FM.BR		| Pessoas Jurídicas	| Empresas de radiodifusão sonora|
+| G12.BR	| Pessoas Jurídicas	| Instituições de ensino de primeiro e segundo grau|
+| GOV.BR	| Pessoas Jurídicas	| Instituições do governo federal|
+| MIL.BR	| Pessoas Jurídicas	| Forças Armadas Brasileiras|
+| ORG.BR	| Pessoas Jurídicas	| Instituições não governamentais sem fins lucrativos|
+| PSI.BR	| Pessoas Jurídicas	| Provedores de serviço Internet|
+| **##########**| **Pessoas Jurídicas**	| **DNSSEC OBRIGATÓRIO**|
+| B.BR		| Pessoas Jurídicas	| Bancos|
+| DEF.BR	| Pessoas Jurídicas	| Defensorias Públicas|
+| JUS.BR	| Pessoas Jurídicas	| Instituições do Poder Judiciário|
+| LEG.BR	| Pessoas Jurídicas	| Instituições do Poder Legislativo|
+| MP.BR		| Pessoas Jurídicas	| Instituições do Ministério Público|
+| TC.BR		| Pessoas Jurídicas	| Tribunais de Contas|
 
 </details>
 
