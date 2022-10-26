@@ -163,6 +163,12 @@ A intenção deste serviço é ajudar você descobrir e confirmar qual a situaç
 Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica). Bem como, consultar Certidão Eletrônica de Ações Trabalhistas - CEAT.  Em escolha ao CPNJ poder ser que retorne o CPF como complemento ao nome.
 - https://sistemas.trt3.jus.br/certidao/feitosTrabalhistas/aba1.emissao.htm        
 
+### Visualização de dados públicos de CNPJ
+Ferramenta para observar o relacionamento entre empresas e sócios, a partir dos dados públicos disponibilizados pela Receita Federal. Pode ser executado localmente, baixando o código do Github ou executado online diretamente no site do projeto.
+- https://www.redecnpj.com.br/rede/
+- https://github.com/rictom/rede-cnpj/
+
+        
 ### Consulta de Antecedente Criminal
 Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
 - https://antecedentes.policiacivil.pa.gov.br/consulta
