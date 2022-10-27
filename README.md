@@ -316,6 +316,10 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 ---
    
 ## Saúde 🏥 <a name="saude"></a>
+### Cadastro Nacional de Estabelecimentos de Saúde
+Informações acerca de estabelecimentos e profissionais de saúde.
+- https://cnes.datasus.gov.br/
+
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
 
