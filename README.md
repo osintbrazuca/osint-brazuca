@@ -906,6 +906,13 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
 </details>
 
+### ASN disponíveis do Whois público do registro NIR Nic.br
+Compilação de informações de origem do prefixo ASN disponíveis do Whois público do registro NIR Nic.br. Campos separados por pipe.
+ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo RegistroBR - https://ftp.registro.br/pub/numeracao/origin/00README)
+
+- Diretório com histórico de arquivos - https://ftp.registro.br/pub/numeracao/origin/
+- Lista atualizada - https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt
+        
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
  ---
