@@ -198,7 +198,7 @@ Consulta o status de requisição de aposentádoria de INSS. Vale para todo o te
 ## Telecom 📡 <a name="telecom"></a>
 
 ### Busca Através do IMEI/Legalidade do Aparelho
-- https://www.consultaserialaparelho.com.br/public-web/homeSiga 
+- https://www.consultaserialaparelho.com.br/public-web/homeSiga
 
 ### Busca Através da Operadora
 - https://consultanumero.abrtelecom.com.br/consultanumero/consulta/consultaSituacaoAtualCtg
@@ -310,6 +310,10 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 - https://www.radarbox.com/@-19.21547,-46.45469,z5
 - https://www.flightradar24.com/-18.82,-52.19/5
 - https://www.edestinos.com.br/radar
+
+### Consulta de Licença Aeronáutica ( CHT )
+Todos os tripulantes civis brasileiros devem ser registrados na ANAC. Sendo validado o registro pelo seu Código Anac (CANAC).
+- https://sistemas.anac.gov.br/consultadelicencas/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
