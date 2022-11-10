@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://nuclei.projectdiscovery.io"><img src="assets/logo_profile.png" width="300px" alt="OSINT Brazuca"></a>
+  <a href="#"><img src="assets/logo_profile.png" width="300px" alt="OSINT Brazuca"></a>
 </h1>
 
 <h4 align="center">OSINT (Open-source intelligence)</h4>
