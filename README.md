@@ -4,14 +4,7 @@
 <p align="center">OSINT (Open-source intelligence)</center></p>
 
 <p align="center">
-
-<center>
-<a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors" title="Contributors"><img src="https://img.shields.io/github/contributors/osintbrazuca/osint-brazuca"></a>
-<img src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca.svg?style=social" title="Stars" /> 
-<img src="https://img.shields.io/github/license/osintbrazuca/osint-brazuca?color=blue" title="License" />
-<a href="https://github.com/osintbrazuca/osint-brazucai/issues"><img src="https://img.shields.io/github/issues-raw/osintbrazuca/osint-brazuca" title="Issues"></a>
-<a href="https://github.com/osintbrazuca/osint-brazuca/discussions"><img src="https://img.shields.io/github/discussions/osintbrazuca/osint-brazuca" title="Discussions"></a>
-</center>
+<center><a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors" title="Contributors"><img src="https://img.shields.io/github/contributors/osintbrazuca/osint-brazuca"></a><img src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca.svg?style=social" title="Stars" /><img src="https://img.shields.io/github/license/osintbrazuca/osint-brazuca?color=blue" title="License" /><a href="https://github.com/osintbrazuca/osint-brazucai/issues"><img src="https://img.shields.io/github/issues-raw/osintbrazuca/osint-brazuca" title="Issues"></a><a href="https://github.com/osintbrazuca/osint-brazuca/discussions"><img src="https://img.shields.io/github/discussions/osintbrazuca/osint-brazuca" title="Discussions"</a></center>
 </p>
 
 # Introdução
