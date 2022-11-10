@@ -11,6 +11,7 @@
 <a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/osintbrazuca/osint-brazuca"></a>
 <a href="https://github.com/osintbrazuca/osint-brazuca/issues"><img src="https://img.shields.io/github/issues-raw/osintbrazuca/osint-brazuca"></a>
 <a href="https://github.com/osintbrazuca/osint-brazuca/discussions"><img src="https://img.shields.io/github/discussions/osintbrazuca/osint-brazuca"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/network/members"><img src="https://img.shields.io/github/forks/osintbrazuca/osint-brazuca"></a>
 <img src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca.svg?style=social" title="Stars" /> 
 </p>
 
