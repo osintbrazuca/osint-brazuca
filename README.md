@@ -1,14 +1,18 @@
 <p style="text-align:center" align="center">
-<img src="assets/logo.png" width="40%" /><br>
+<img src="assets/logo_profile.png" width="40%" /><br>
 </p>
-<p align="center">[EM CONSTRUÇÃO]</center></p>
+<p align="center">OSINT (Open-source intelligence)</center></p>
 
 <p align="center">
-<img src="https://img.shields.io/github/contributors/osintbrazuca/Osint-Brazuca" title="Contributors" /> 
-<img src="https://img.shields.io/github/stars/osintbrazuca/Osint-Brazuca.svg?style=social" title="Stars" /> 
-<img src="https://img.shields.io/github/license/osintbrazuca/Osint-Brazuca?color=blue" title="License" />
+
+<center>
+<a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors" title="Contributors"><img src="https://img.shields.io/github/contributors/osintbrazuca/osint-brazuca"></a>
+<img src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca.svg?style=social" title="Stars" /> 
+<img src="https://img.shields.io/github/license/osintbrazuca/osint-brazuca?color=blue" title="License" />
+<a href="https://github.com/osintbrazuca/osint-brazucai/issues"><img src="https://img.shields.io/github/issues-raw/osintbrazuca/osint-brazuca" title="Issues"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/discussions"><img src="https://img.shields.io/github/discussions/osintbrazuca/osint-brazuca" title="Discussions"></a>
 </center>
-<p>
+</p>
 
 # Introdução
 O Projeto **OSINT Brazuca** é um repositório criado com intuito de reunir informações, fontes(websites/portais) e tricks de OSINT dentro do contexto Brasil 🇧🇷.
