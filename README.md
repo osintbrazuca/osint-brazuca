@@ -316,6 +316,7 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 - https://www.radarbox.com/@-19.21547,-46.45469,z5
 - https://www.flightradar24.com/-18.82,-52.19/5
 - https://www.edestinos.com.br/radar
+- https://planefinder.net/airport/BSB
 
 ### Consulta de Licença Aeronáutica ( CHT )
 Todos os tripulantes civis brasileiros devem ser registrados na ANAC. Sendo validado o registro pelo seu Código Anac (CANAC).
