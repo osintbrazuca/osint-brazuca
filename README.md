@@ -163,7 +163,11 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 
 ### Busca Nome Usando CPF/CNPJ
 A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
-- https://www.situacao-cadastral.com/ 
+- https://www.situacao-cadastral.com/
+
+### Listar contas que possuem o CPF cadastrado
+Esta é uma ferramenta python que consulta APIs de diferentes empresas brasileiras a fim de constatar se o CPF está cadastrado ou não em sua base.
+- https://github.com/p1ngul1n0/cpfinder
 
 ### Retornando Nome Completo CPF/CNPJ
 Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica). Bem como, consultar Certidão Eletrônica de Ações Trabalhistas - CEAT.  Em escolha ao CPNJ poder ser que retorne o CPF como complemento ao nome.
