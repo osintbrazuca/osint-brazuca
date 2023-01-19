@@ -449,6 +449,14 @@ Uma ferramenta para capturando pensamentos e emoções da população do Twitter
 A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
 - https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&media_type=all
 
+### Procurador de redes sociais
+Uma ferramenta que busca redes sociais como Linkedin, instagram e facebook somente adicionando o nome no final do link.
+- https://www.social-searcher.com/search-users/?q6=NOME+SOBRENOME
+
+### UVRX buscador de redes sociais
+Um site onde utiliza a busca do google para fazer uma pesquisa mais avançada em redes sociais.
+- http://www.uvrx.com/social.html
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
