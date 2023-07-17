@@ -980,16 +980,18 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     
     </details>
 - ### Pará (PA) <a name="para"></a>
-- ### Paraíba (PB) <a name="paraiba"></a>
-- ### Paraná (PR) <a name="parana"></a>
-     <details>
+
+ <details>
         <summary>Consultas PA</summary>
      
-    - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
-    - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
-    - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
+  - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
+  - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
+  - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
       
-    </details>
+  </details>
+
+- ### Paraíba (PB) <a name="paraiba"></a>
+- ### Paraná (PR) <a name="parana"></a>
 - ### Pernambuco (PE) <a name="pernambuco"></a>
 - ### Piauí (PI) <a name="piaui"></a>
     <details>
