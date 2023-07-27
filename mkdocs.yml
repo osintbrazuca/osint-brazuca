@@ -1,0 +1,44 @@
+site_name: OSINT Brazuca
+
+repo_url: https://github.com/fellipematos/osint-brazuca-mkdocs
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  font:
+    text: Roboto
+
+  features:
+    - navigation.tracking
+    
+  palette:
+    - scheme: default
+      primary: light blue
+      toggle:
+        icon: material/lightbulb
+        name: Light
+    - scheme: slate
+      primary: light blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Dark
+
+markdown_extensions:
+  - pymdownx.tasklist  # Lista de tarefas
+  - pymdownx.emoji  # Emojis
+  - attr_list # Button
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+extra_css:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
+extra_javascript:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
