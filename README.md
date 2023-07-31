@@ -128,7 +128,7 @@ __TRF1__: O Tribunal Regional Federal da 1ª Região, com sede em Brasília, tem
 __TRF2__: 2a instância da Justiça Federal da 2a Região, com jurisdição no Rio de Janeiro e no Espírito Santo.
 <br>
 __TRF5__: Portal com informações e serviços providos pelo TRF5, tem sob sua jurisdição   jfal ,jfce ,jfpb ,jfpe ,jfrn ,jfse.
-- httpS://portal.trf1.jus.br
+- https://portal.trf1.jus.br
 - https://portal.trf2.jus.br
 - https://portal.trf5.jus.br
 
