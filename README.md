@@ -691,7 +691,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - http://transito.gtrans.com.br/cttupe/index.php/mapa
 
 ### Câmeras do Centro Integrado de Operações de Belém do Pará (Segup no Trânsito)
-- http://www.ciop.pa.gov.br/index.php/banner-camera
+- [https://www.ciop.pa.gov.br/aovivo/index.html](https://www.ciop.pa.gov.br/aovivo/index.html)
 
 ### Câmeras da BHTRANS (Em beta ainda)
 - http://infotrafego.pbh.gov.br/info_trafego_cameras.html
