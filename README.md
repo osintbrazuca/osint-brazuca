@@ -1,5 +1,9 @@
 [LINK ACESSO PÁGINA MKDOCS](https://fellipematos.github.io/osint-brazuca-mkdocs/)
 
+PÁGINA OFICIAL DO PROJETO - [AQUI OSINT BRAZUCA](https://github.com/osintbrazuca/osint-brazuca)
+
+<BR><BR>
+
 <h1 align="center">
   <br>
   <a href="#"><img src="assets/logo_profile.png" width="300px" alt="OSINT Brazuca"></a>
