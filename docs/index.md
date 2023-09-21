@@ -9,6 +9,7 @@ title: Home
 </h1>
 
 <h3 align="center">OSINT (Open-source intelligence)</h3>
+<h5 align="center"><a href="https://github.com/osintbrazuca" target="blank">LINK PROJETO OFICIAL</a></h5>
 
 <p align="center">
 <a href="https://github.com/osintbrazuca/osint-brazuca/blob/main/LICENSE"><img src="https://img.shields.io/github/license/osintbrazuca/osint-brazuca?color=blue"></a>
