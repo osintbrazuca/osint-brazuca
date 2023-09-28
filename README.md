@@ -987,6 +987,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
   - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
   - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
   - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
+  - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
       
   </details>
 
