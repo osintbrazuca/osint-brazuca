@@ -184,6 +184,22 @@ Pesquisar no Repositório do cadastro de todos os advogados do Brasil.
 Mantido pelo Conselho Federal da OAB, que exerce a função de repositório do cadastro de todos os advogados do Brasil. Para realizar a consulta, basta preencher o formulário e pesquisar. (Nome; Nº da inscrição; Seccional; Tipo de inscrição)
 - https://cna.oab.org.br
 
+### Consulta Conselho Federal de Medicina (CFM)
+Pesquisar no Repositório do cadastro de médicos do Brasil.
+Mantido pelo Conselho Federal de Medicina, órgão que fiscaliza e normatiza a prática médica no Brasil. Para realizar a consulta, basta preencher o formulário e pesquisar.
+- https://portal.cfm.org.br/busca-medicos/
+
+### Consulta Conselho Federal de Psicologia (CFP)
+Pesquisar no Repositório do cadastro de psicólogos do Brasil.
+Mantido pelo Conselho Federal de Psicologia, órgão com a finalidade fiscalizar o exercício da profissão de Psicólogo no Brasil. Para realizar a consulta, basta preencher o formulário e pesquisar.
+- https://cadastro.cfp.org.br
+
+### Conselho Federal de Engenharia e Agronomia (Confea)
+Pesquisar no Repositório do cadastro das profissões inseridas no Sistema Confea/Crea.
+Mantido pelo  Conselho Federal de Engenharia e Agronomia – Confea, instituído juntamente com os Conselhos Regionais de Engenharia e Agronomia pelo Decreto nº 23.569, de 11 de dezembro de 1933, é a instância superior da fiscalização do exercício das profissões inseridas no Sistema Confea/Crea.
+Para realizar a consulta, basta preencher o formulário e pesquisar.
+- https://consultaprofissional.confea.org.br
+
 ### Consulta MEI
 Nesta consulta será exibido informações do cadastro MEI. Para consulta é necessário apenas o CPF e data de nacimento. Vale para todo território nacional.
 - http://www22.receita.fazenda.gov.br/inscricaomei/private/pages/certificado_acesso.jsf
