@@ -1,14 +1,20 @@
-<p style="text-align:center" align="center">
-<img src="assets/logo.png" width="40%" /><br>
-</p>
-<p align="center">[EM CONSTRUÇÃO]</center></p>
+<h1 align="center">
+  <br>
+  <a href="#"><img src="assets/logo_profile.png" width="300px" alt="OSINT Brazuca"></a>
+</h1>
+
+<h4 align="center">OSINT (Open-source intelligence)</h4>
+
 
 <p align="center">
-<img src="https://img.shields.io/github/contributors/osintbrazuca/Osint-Brazuca" title="Contributors" /> 
-<img src="https://img.shields.io/github/stars/osintbrazuca/Osint-Brazuca.svg?style=social" title="Stars" /> 
-<img src="https://img.shields.io/github/license/osintbrazuca/Osint-Brazuca?color=blue" title="License" />
-</center>
-<p>
+<a href="https://github.com/osintbrazuca/osint-brazuca/blob/main/LICENSE"><img src="https://img.shields.io/github/license/osintbrazuca/osint-brazuca?color=blue"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/osintbrazuca/osint-brazuca"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/issues"><img src="https://img.shields.io/github/issues-raw/osintbrazuca/osint-brazuca"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/discussions"><img src="https://img.shields.io/github/discussions/osintbrazuca/osint-brazuca"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/network/members"><img src="https://img.shields.io/github/forks/osintbrazuca/osint-brazuca"></a>
+<img src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca.svg?style=social" title="Stars" /> 
+</p>
+
 
 # Introdução
 O Projeto **OSINT Brazuca** é um repositório criado com intuito de reunir informações, fontes(websites/portais) e tricks de OSINT dentro do contexto Brasil 🇧🇷.
@@ -122,7 +128,7 @@ __TRF1__: O Tribunal Regional Federal da 1ª Região, com sede em Brasília, tem
 __TRF2__: 2a instância da Justiça Federal da 2a Região, com jurisdição no Rio de Janeiro e no Espírito Santo.
 <br>
 __TRF5__: Portal com informações e serviços providos pelo TRF5, tem sob sua jurisdição   jfal ,jfce ,jfpb ,jfpe ,jfrn ,jfse.
-- httpS://portal.trf1.jus.br
+- https://portal.trf1.jus.br
 - https://portal.trf2.jus.br
 - https://portal.trf5.jus.br
 
@@ -163,6 +169,12 @@ A intenção deste serviço é ajudar você descobrir e confirmar qual a situaç
 Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica). Bem como, consultar Certidão Eletrônica de Ações Trabalhistas - CEAT.  Em escolha ao CPNJ poder ser que retorne o CPF como complemento ao nome.
 - https://sistemas.trt3.jus.br/certidao/feitosTrabalhistas/aba1.emissao.htm        
 
+### Visualização de dados públicos de CNPJ
+Ferramenta para observar o relacionamento entre empresas e sócios, a partir dos dados públicos disponibilizados pela Receita Federal. Pode ser executado localmente, baixando o código do Github ou executado online diretamente no site do projeto.
+- https://www.redecnpj.com.br/rede/
+- https://github.com/rictom/rede-cnpj/
+
+        
 ### Consulta de Antecedente Criminal
 Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
 - https://antecedentes.policiacivil.pa.gov.br/consulta
@@ -185,6 +197,9 @@ Para obter informações de declaração do simples nacional, basta informar o C
 Consulta o status de requisição de aposentádoria de INSS. Vale para todo o território nacional.
 - https://www2.dataprev.gov.br/sabiweb/relatorio/imprimirCRER.view?acao=imprimir_CRER
 
+### Consulta Restituição do Imposto de Renda
+Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.
+- http://solucoes.receita.fazenda.gov.br/Servicos/ConsRest/Atual.app/paginas/mobile/restituicaoMobi.asp
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -192,7 +207,7 @@ Consulta o status de requisição de aposentádoria de INSS. Vale para todo o te
 ## Telecom 📡 <a name="telecom"></a>
 
 ### Busca Através do IMEI/Legalidade do Aparelho
-- https://www.consultaserialaparelho.com.br/public-web/homeSiga 
+- https://www.consultaserialaparelho.com.br/public-web/homeSiga
 
 ### Busca Através da Operadora
 - https://consultanumero.abrtelecom.com.br/consultanumero/consulta/consultaSituacaoAtualCtg
@@ -304,12 +319,21 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 - https://www.radarbox.com/@-19.21547,-46.45469,z5
 - https://www.flightradar24.com/-18.82,-52.19/5
 - https://www.edestinos.com.br/radar
+- https://planefinder.net/airport/BSB
+
+### Consulta de Licença Aeronáutica ( CHT )
+Todos os tripulantes civis brasileiros devem ser registrados na ANAC. Sendo validado o registro pelo seu Código Anac (CANAC).
+- https://sistemas.anac.gov.br/consultadelicencas/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
    
 ## Saúde 🏥 <a name="saude"></a>
+### Cadastro Nacional de Estabelecimentos de Saúde
+Informações acerca de estabelecimentos e profissionais de saúde.
+- https://cnes.datasus.gov.br/
+
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
 
@@ -424,6 +448,14 @@ Uma ferramenta para capturando pensamentos e emoções da população do Twitter
 ### Facebook Biblioteca de Anúncios
 A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
 - https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&media_type=all
+
+### Procurador de redes sociais
+Uma ferramenta que busca redes sociais como Linkedin, instagram e facebook somente adicionando o nome no final do link.
+- https://www.social-searcher.com/search-users/?q6=NOME+SOBRENOME
+
+### UVRX buscador de redes sociais
+Um site onde utiliza a busca do google para fazer uma pesquisa mais avançada em redes sociais.
+- http://www.uvrx.com/social.html
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -677,7 +709,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - http://transito.gtrans.com.br/cttupe/index.php/mapa
 
 ### Câmeras do Centro Integrado de Operações de Belém do Pará (Segup no Trânsito)
-- http://www.ciop.pa.gov.br/index.php/banner-camera
+- [https://www.ciop.pa.gov.br/aovivo/index.html](https://www.ciop.pa.gov.br/aovivo/index.html)
 
 ### Câmeras da BHTRANS (Em beta ainda)
 - http://infotrafego.pbh.gov.br/info_trafego_cameras.html
@@ -914,6 +946,13 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
 </details>
 
+### ASN disponíveis do Whois público do registro NIR Nic.br
+Compilação de informações de origem do prefixo ASN disponíveis do Whois público do registro NIR Nic.br. Campos separados por pipe.
+ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo RegistroBR - https://ftp.registro.br/pub/numeracao/origin/00README)
+
+- Diretório com histórico de arquivos - https://ftp.registro.br/pub/numeracao/origin/
+- Lista atualizada - https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt
+        
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
  ---
@@ -959,16 +998,19 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
     
     </details>
 - ### Pará (PA) <a name="para"></a>
-- ### Paraíba (PB) <a name="paraiba"></a>
-- ### Paraná (PR) <a name="parana"></a>
-     <details>
+
+ <details>
         <summary>Consultas PA</summary>
      
-    - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
-    - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
-    - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
+  - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
+  - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
+  - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
+  - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
       
-    </details>
+  </details>
+
+- ### Paraíba (PB) <a name="paraiba"></a>
+- ### Paraná (PR) <a name="parana"></a>
 - ### Pernambuco (PE) <a name="pernambuco"></a>
 - ### Piauí (PI) <a name="piaui"></a>
     <details>
