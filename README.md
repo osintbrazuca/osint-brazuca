@@ -539,8 +539,26 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - https://www.historicar.com.br/
 - https://www.keplaca.com
 - https://www.fipeplaca.com.br/
-
+- https://placafipe.com
+- https://placaipva.com.br
+- https://www.tabelafipebrasil.com/placa
+- https://www.ipvabr.com.br/placa        
 </details>
+
+### Consulta de Dados FIPE
+<details>
+<summary>Links de Consulta</summary>
+
+- https://veiculos.fipe.org.br
+- https://www.tabelafipebrasil.com
+- https://www.tabelafipe.website
+- https://www.tabelafipemotos.com.br
+- https://www.fipeveiculos.com.br
+- https://www.valortabelafipe.com.br
+- https://veiculosfipe.org/   
+- https://fipevalor.com.br/         
+</details>
+
 
 ### Consulta Terminais Ônibus São Paulo
 Secretaria Municipal de Transporte e Mobilidade Urbana ( SPTRANS )
