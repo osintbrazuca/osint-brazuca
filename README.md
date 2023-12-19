@@ -1022,6 +1022,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
   - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
   - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
   - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
+  - Consulta Empresa - https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
       
   </details>
 
