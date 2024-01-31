@@ -730,6 +730,9 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Câmeras da BHTRANS (Em beta ainda)
 - http://infotrafego.pbh.gov.br/info_trafego_cameras.html
 
+### Câmeras de Obras em Andamento de Mato Grosso (SINFRA)
+- https://mapas.sinfra.mt.gov.br/portal/apps/sites/#/central-infra-20-2-1/pages/monitoramento-de-obras
+
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
