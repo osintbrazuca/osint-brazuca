@@ -248,6 +248,19 @@ Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, 
 Por meio da busca é possível encontrar orelhões pelo número, localizar ruas, municípios, estados ou cidades
 - http://sistemas.anatel.gov.br/sgmu/fiqueligado/tups.asp
 
+### Consultar e identificar Frequências de Rádios / SISTEMA DE SERVIÇOS DE TELECOMUNICAÇÕES (STEL)
+Abrirá uma página para preenchimento, preencha da seguinte forma:
+
+1.  Em recuperação de dados: marque UF;
+3. Em apresentar dados por: marque a letra J (frequência e entidade) em faixa de frequência: coloque a frequência que deseja scanear, ex.: inicial: 450,000 final: 460,000 (NÃO ESQUEÇA DA VÍRGULA) OBS: não de um espaço de frequencia muito largo,as vezes dá erro na pesquisa;
+4. Em unidade coloque MHZ nos dois;
+5. Em sigla da UF: coloque a sigla do seu estado
+6. m serviço inicial e serviço final nao coloque nada, deixe do jeito que está em grupo de estações: marque todos (consolidado);
+7. Agora clique abaixo em exportar excel e salve o arquivo em seu micro;
+
+- https://sistemas.anatel.gov.br/stel/Consultas/RecuperacaoFrequencias/tela.asp?SISQSmodulo=9896
+
+
 ### Números Discagem direta a distância ( DDD )
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
 - https://www.mbi.com.br/mbi/biblioteca/utilidades/estado-onde-fica-ddd/
@@ -757,7 +770,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 ### Câmera do Aeroporto do Recife - SBRF
 - https://www.youtube.com/watch?v=BhTY_GHvSmg
-=======
+
 ### Câmeras de Obras em Andamento de Mato Grosso (SINFRA)
 - https://mapas.sinfra.mt.gov.br/portal/apps/sites/#/central-infra-20-2-1/pages/monitoramento-de-obras
 
