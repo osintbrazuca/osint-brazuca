@@ -750,6 +750,10 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 ### Câmera do Aeroporto do Recife - SBRF
 - https://www.youtube.com/watch?v=BhTY_GHvSmg
+=======
+### Câmeras de Obras em Andamento de Mato Grosso (SINFRA)
+- https://mapas.sinfra.mt.gov.br/portal/apps/sites/#/central-infra-20-2-1/pages/monitoramento-de-obras
+
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -1042,6 +1046,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
   - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
   - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
   - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
+  - Consulta Empresa - https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
       
   </details>
 
