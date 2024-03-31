@@ -217,6 +217,13 @@ Consulta o status de requisição de aposentádoria de INSS. Vale para todo o te
 Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.
 - http://solucoes.receita.fazenda.gov.br/Servicos/ConsRest/Atual.app/paginas/mobile/restituicaoMobi.asp
 
+
+### Consulta Junta Comercial do Estado de São Paulo (Jucesp)
+Pesquisa no banco de dados da Junta Comercial do Estado de São Paulo.
+Para consulta é necessário apenas o Nome da empresa, CNPJ, Razão social ou NIRE.
+
+- https://www.jucesponline.sp.gov.br/Pre_Visualiza.aspx?nire={VALOR}&idproduto=
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
