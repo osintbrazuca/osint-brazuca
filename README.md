@@ -730,6 +730,27 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Câmeras da BHTRANS (Em beta ainda)
 - http://infotrafego.pbh.gov.br/info_trafego_cameras.html
 
+### Câmeras do Aeroporto Internacional de São Paulo/Guarulhos - SGBR
+- https://www.youtube.com/watch?v=iA_TQxQS9Sw
+
+### Câmera do Aeroporto de Congonhas São Paulo - SBSP FULL ATC
+- https://www.youtube.com/watch?v=rKM8wSr3ORU
+
+### Câmera do Aeroporto Santos Dumont - Rio de Janeiro - SBRJ FULL ATC
+- https://www.youtube.com/watch?v=EPGfz0QibL0
+
+### Câmera do Aeroporto Galeão - Rio de Janeiro - SBGL
+- https://www.youtube.com/watch?v=dS2eAlS9UBE
+
+### Câmera do Aeroporto Internacional de Florianópolis - SBFL Com Fonia
+- https://www.youtube.com/watch?v=xLen1r-iwfU
+
+### Câmera do Aeroporto da Pampulha - Belo Horizonte 24 horas (BHZ)(SBBH)
+- https://www.youtube.com/watch?v=NuyRxze2iUo
+
+### Câmera do Aeroporto do Recife - SBRF
+- https://www.youtube.com/watch?v=BhTY_GHvSmg
+=======
 ### Câmeras de Obras em Andamento de Mato Grosso (SINFRA)
 - https://mapas.sinfra.mt.gov.br/portal/apps/sites/#/central-infra-20-2-1/pages/monitoramento-de-obras
 
