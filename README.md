@@ -224,6 +224,13 @@ Para consulta é necessário apenas o Nome da empresa, CNPJ, Razão social ou NI
 
 - https://www.jucesponline.sp.gov.br/Pre_Visualiza.aspx?nire={VALOR}&idproduto=
 
+
+### Consulta Etrevistador do IBGE
+Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário: número matrícula, CPF ou RG.
+
+- https://respondendo.ibge.gov.br/verifique-a-identidade-do-entrevistador.html
+- https://www.ibge.gov.br/acesso-informacao/institucional/documentos-ibge/1861-novo-portal/institucional/17422-servidores.html
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
