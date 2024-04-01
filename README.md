@@ -268,6 +268,18 @@ Abrirá uma página para preenchimento, preencha da seguinte forma:
 
 - https://sistemas.anatel.gov.br/stel/Consultas/RecuperacaoFrequencias/tela.asp?SISQSmodulo=9896
 
+### Radio Amador
+Verificar repetidoras de rádios disponíveis perto de você (pelo app é melhor por causa da geolocalização do smartphone):
+- https://www.repeaterbook.com/index.php/en-us/
+
+Consultar responsável por um indicativo:
+- https://sistemas.anatel.gov.br/easp/Novo/ConsultaIndicativo/Tela.asp
+
+Ouvir rádio frequência sem rádio amador por um app ou pc (precisa de login com indicativo COER):
+- https://www.echolink.org/
+
+Mais informações sobre Radio amador:
+- https://araf.org.br/anatel-links-rapidos
 
 ### Números Discagem direta a distância ( DDD )
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
