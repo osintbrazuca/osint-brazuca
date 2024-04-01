@@ -747,7 +747,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 </details>
 
 ### Câmeras da Prefeitura de João Pessoa - PB (SEMOB)
-- http://transito.gtrans.com.br/semobjp/index.php/portal/index
+- http://transito.gtrans.com.br/semobjp/index.php
 
 ### Câmeras da Prefeitura de Recife - PE (CTTU)
 - http://transito.gtrans.com.br/cttupe/index.php/mapa
