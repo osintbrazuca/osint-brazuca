@@ -239,8 +239,9 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 ### Busca Através do IMEI/Legalidade do Aparelho
 - https://www.consultaserialaparelho.com.br/public-web/homeSiga
 
-### Busca Através da Operadora
+### Busca de Situação Cadastro / Portabilidade de Números Celulares e Fixos
 - https://consultanumero.abrtelecom.com.br/consultanumero/consulta/consultaSituacaoAtualCtg
+- https://consultanumero.abrtelecom.com.br/consultanumero/consulta/consultaHistoricoRecenteCtg
 
 ### Busca Operadora por Número Celular
 - https://consultanumero.info/
