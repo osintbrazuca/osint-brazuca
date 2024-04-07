@@ -98,6 +98,50 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
+## Pessoas Desaparecidas 🔍 <a name="desaparecidos"></a>
+
+### Portais de Desaparecidos
+Uma relação de links com dados sobre desaparecidos, gerida pela estado ou ONGs, tais urls  permitem consulta, pela internet, de fotografias e informações de pessoas desaparecidas de diversos estados Brasileiros. 
+<details>
+<summary>Portais de Desaparecidos</summary>
+
+- https://desaparecidos.pcivil.rj.gov.br/pesquisar
+- https://www.desaparecidos.pr.gov.br/desaparecidos/
+- https://www.pc.rs.gov.br/desaparecidos
+- https://desaparecidos.pjc.mt.gov.br/inicio
+- https://carapicuiba.sp.gov.br/desaparecido
+- https://desaparecidos.policiacivil.mg.gov.br/desaparecido/album
+- https://desaparecidosdobrasil.org/pesquisar-desaparecidos/
+- https://desaparecidos.policiacivil.mg.gov.br/
+- https://www.pcdf.df.gov.br/servicos/desaparecidos
+- https://www.disquedenuncia.org.br/desaparecidos-list
+- https://www.ssp.ma.gov.br/disque-denuncia/desaparecidos/
+- https://desaparecidos.pc.sc.gov.br/#/
+- https://www.pm.sc.gov.br/sos-desaparecidos/default/index?sort=-desaparecido_desaparecimento_data
+- http://www.policiacivil.pe.gov.br/adultos-desaparecidos
+- https://www2.bauru.sp.gov.br/desaparecidos/
+- https://desaparecidos.osasco.sp.gov.br/#/portal
+- https://www.pm.ce.gov.br/desaparecidos/
+- https://desaparecidos.pb.gov.br/desaparecidos/desaparecidos.jsf
+- https://desaparecidos.pr.gov.br/desaparecidos/desaparecidos.do?action=iniciarProcesso&m=false
+- http://sisgou.seds.al.gov.br/base2/desaparecidos_almanaque/
+- http://www.feiradesantana.ba.gov.br/seprev/desaparecidos/desaparecidos.asp
+- https://www.policiacivil.se.gov.br/desaparecidos/
+
+</details>
+
+### Busca por Desaparecidos Banco de Dados Geral / São Paulo
+É usado CPF da Pessoa Desaparecida como valor de pesquisa
+- https://www.ssp.sp.gov.br/servicos/desaparecidos
+
+### Busca por Desaparecidos Banco de Dados Polícia Científica / São Paulo
+É usado nome e CPF da Pessoa Desaparecida como valor de pesquisa
+- https://www.policiacientifica.sp.gov.br/iml/consultadesaparecidos
+
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
 
 ## Consulta de Processos 🧑‍⚖️ <a name="consulta-processos"></a>
 ### Portal e-S**
