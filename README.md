@@ -23,6 +23,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 
 # Sumário
 - [Benefícios Sociais](#beneficios-sociais)
+- [Pessoas Desaparecidas](#pessoas-desaparecidas)
 - [Consulta de Processos](#consulta-processos)      
 - [Busca de Informações via CPF/CNPJ/CRM/CNA](#busca-cpf-cnpj-crm-cna)
 - [Telecom](#telecom)
@@ -98,7 +99,7 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
-## Pessoas Desaparecidas 🔍 <a name="desaparecidos"></a>
+## Pessoas Desaparecidas 🔍 <a name="pessoas-desaparecidas"></a>
 
 ### Portais de Desaparecidos
 Uma relação de links com dados sobre desaparecidos, gerida pela estado ou ONGs, tais urls  permitem consulta, pela internet, de fotografias e informações de pessoas desaparecidas de diversos estados Brasileiros. 
