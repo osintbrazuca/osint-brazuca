@@ -268,6 +268,13 @@ Abrirá uma página para preenchimento, preencha da seguinte forma:
 
 - https://sistemas.anatel.gov.br/stel/Consultas/RecuperacaoFrequencias/tela.asp?SISQSmodulo=9896
 
+### Consultar responsável por um indicativo
+Digite o Indicativo da Estação sem pontos e sem traços.
+- https://sistemas.anatel.gov.br/easp/Novo/ConsultaIndicativo/Tela.asp
+
+### Mais informações sobre Radio amador
+Alguns dos sistemas dependem de cadastro de usuário (CPF + Senha). Abaixo dos links da ANATEL, links por tipo de serviços (Radioamador e Rádio do Cidadão)
+- https://araf.org.br/anatel-links-rapidos
 
 ### Números Discagem direta a distância ( DDD )
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
