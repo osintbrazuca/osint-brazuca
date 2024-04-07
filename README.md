@@ -604,6 +604,11 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 ### Consulta de Licenciamento Veicular 
 - http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml *Estado do Maranhão*
 
+### Consulta de Bicicletas / São Paulo
+Serviço online que permite a qualquer pessoa verificar se uma bicicleta tem histórico de roubo ou furto. É usado Número ou Serial para consulta. 
+
+- https://www.ssp.sp.gov.br/consultabicicleta
+
 ### Consulta de Dados via Placa
 <details>
 <summary>Links de Consulta</summary>
