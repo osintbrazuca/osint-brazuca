@@ -268,17 +268,12 @@ Abrirá uma página para preenchimento, preencha da seguinte forma:
 
 - https://sistemas.anatel.gov.br/stel/Consultas/RecuperacaoFrequencias/tela.asp?SISQSmodulo=9896
 
-### Radio Amador
-Verificar repetidoras de rádios disponíveis perto de você (pelo app é melhor por causa da geolocalização do smartphone):
-- https://www.repeaterbook.com/index.php/en-us/
-
-Consultar responsável por um indicativo:
+### Consultar responsável por um indicativo
+Digite o Indicativo da Estação sem pontos e sem traços.
 - https://sistemas.anatel.gov.br/easp/Novo/ConsultaIndicativo/Tela.asp
 
-Ouvir rádio frequência sem rádio amador por um app ou pc (precisa de login com indicativo COER):
-- https://www.echolink.org/
-
-Mais informações sobre Radio amador:
+### Mais informações sobre Radio amador
+Alguns dos sistemas dependem de cadastro de usuário (CPF + Senha). Abaixo dos links da ANATEL, links por tipo de serviços (Radioamador e Rádio do Cidadão)
 - https://araf.org.br/anatel-links-rapidos
 
 ### Números Discagem direta a distância ( DDD )
