@@ -281,7 +281,9 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 ## Telecom 📡 <a name="telecom"></a>
 
 ### Busca Através do IMEI/Legalidade do Aparelho
-- https://www.consultaserialaparelho.com.br/public-web/homeSiga
+O serviço prestado por este site informa somente a situação do aparelho celular que foi informado pelo usuário à operadora de telefonia móvel como roubado, furtado, perdido ou extraviado.
+- https://www.consultaaparelhoimpedido.com.br/public-web/welcome
+
 
 ### Busca de Situação Cadastro / Portabilidade de Números Celulares e Fixos
 - https://consultanumero.abrtelecom.com.br/consultanumero/consulta/consultaSituacaoAtualCtg
