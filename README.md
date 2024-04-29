@@ -151,7 +151,7 @@ O portal e-S** é uma solução que visa facilitar a troca de informações e ag
 <summary>Portais TJ</summary>
 
 - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090#
-- https://esaj.tjba.jus.br/esaj/portal.do?servico=190090#
+- https://www.tjba.jus.br/portal/busca-resultado/#
 - https://esaj.tjce.jus.br/esaj/portal.do?servico=190090#
 - https://esaj.tjsc.jus.br/esaj/portal.do?servico=190090#
 - https://esaj.tjsp.jus.br/esaj/portal.do?servico=190090#
