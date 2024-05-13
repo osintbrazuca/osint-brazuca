@@ -1131,9 +1131,10 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
      
   - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
   - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
-  - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
+  - Consulta de Antecedente Criminal - https://antecedentes.pc.pa.gov.br/consulta
   - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
   - Consulta Empresa - https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
+  - Boletim Geral de Bombeiros - https://siga.bombeiros.pa.gov.br/boletins.php
       
   </details>
 
@@ -1228,6 +1229,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     - Sananduva: ERS-126 KM 110 - https://daer.kopp.com.br/ftp/imagem.php?id=Sananduva
     - Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
     - Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
+    - Emitir certidão de antecedentes criminais - https://www.pc.rs.gov.br/emitir-certidao-de-antecedentes-policiais
 
     </details> 
 
@@ -1267,6 +1269,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     - Rua Júlio T. Martins/Homero de Miranda Gome: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_020&width=1920&height=1080
     - Marginal BR101/Rua Acácio Reitz: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_032&width=1920&height=1080
     - Major Livramento/Rua João José Rodrigues: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_VDV_040&width=1920&height=1080
+    - Antecedentes Criminais - https://sistemas.pc.sc.gov.br/formulario-antecedentes-cidadao/#/
 
     </details> 
 
