@@ -1084,9 +1084,22 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 
  ---
 
+### Acre (AC) <a name="acre"></a>
+
+<details>
+  <summary>Consultas AC</summary>
+  
+- Antecedente criminal - https://pc.ac.gov.br/certidao-de-antecedentes-criminais/
+- ESAJ (Processos) - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090
+- Consulta estapagem - https://www.detran.ac.gov.br/consultar-autorizacao-de-estampagem/
+- Consulta SNG - https://www.ac.getran.com.br/site/apps/veiculo/consulta/filtro-chassi-sng.jsp
+- Consulta de pontuação CNH - https://www.detran.ac.gov.br/portal-de-servicos/consulta-pontuacao-de-cnh/
+- Nota Fiscal - http://sefaznet.ac.gov.br/nfe/consulta.xhtml 
+ 
+</details>
 
 ## Categorias por Estados Brasileiros 🇧🇷 <a name="estados-br"></a> [EM CONSTRUÇÃO]
-- ### Acre (AC) <a name="acre"></a>
+
 - ### Alagoas (AL) <a name="alagoas"></a>
 - ### Amapá (AP) <a name="amapa"></a>
 - ### Amazonas (AM) <a name="amazonas"></a>
@@ -1094,7 +1107,8 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 - ### Ceará (CE) <a name="ceara"></a>
 - ### Distrito Federal (DF) <a name="distrito-federal"></a>
 - ### Espírito Santo (ES) <a name="espirito-santo"></a>
-- ### Goiás (GO) <a name="goias"></a>
+
+### Goiás (GO) <a name="goias"></a>
      <details>
         <summary>Consultas GO</summary>
      
@@ -1131,9 +1145,10 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
      
   - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
   - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
-  - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
+  - Consulta de Antecedente Criminal - https://antecedentes.pc.pa.gov.br/consulta
   - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
   - Consulta Empresa - https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
+  - Boletim Geral de Bombeiros - https://siga.bombeiros.pa.gov.br/boletins.php
       
   </details>
 
@@ -1179,10 +1194,12 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 
 
 - ### Rio Grande do Norte (RN) <a name="rio-grande-norte"></a>
-- ### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
+
+### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
     <details>
         <summary>Monitoramento de Rodovias:</summary>
-
+      
+    - Localizar pessoas desaparecidas nas enchentes do RS.https://www.achados-e-perdidos-rs.com.br/
     Todos os links e informações foram obtidos originalmente do site do [DAER](https://www.daer.rs.gov.br/) no Rio Grande do Sul.
     - Osório: RS-389 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6716
     - Osório: ERS-030 KM 89,9 - https://camerasdaer.perkons.com:60000/DAER-6714
@@ -1228,6 +1245,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     - Sananduva: ERS-126 KM 110 - https://daer.kopp.com.br/ftp/imagem.php?id=Sananduva
     - Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
     - Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
+    - Emitir certidão de antecedentes criminais - https://www.pc.rs.gov.br/emitir-certidao-de-antecedentes-policiais
 
     </details> 
 
@@ -1267,6 +1285,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     - Rua Júlio T. Martins/Homero de Miranda Gome: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_020&width=1920&height=1080
     - Marginal BR101/Rua Acácio Reitz: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_032&width=1920&height=1080
     - Major Livramento/Rua João José Rodrigues: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_VDV_040&width=1920&height=1080
+    - Antecedentes Criminais - https://sistemas.pc.sc.gov.br/formulario-antecedentes-cidadao/#/
 
     </details> 
 
