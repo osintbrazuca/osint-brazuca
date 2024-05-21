@@ -1299,6 +1299,10 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 
 ## Contribuições ✨ <a name="contribuicoes"></a>
 Contribuições de qualquer tipo são bem-vindas!
+
+<a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=osintbrazuca/osint-brazuca&max=500" alt="Lista de contribuidores" width="100%"/>
+</a>
     
 ---
     
