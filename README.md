@@ -339,6 +339,7 @@ Estações Radio Base ou ERBs são equipamentos que fazem a conexão entre os te
 - https://www.teleco.com.br/erb.asp
 - https://sistemas.anatel.gov.br/stel/consultas/ListaEstacoesLocalidade/tela.asp?pNumServico=010
 - http://www.telecocare.com.br/telebrasil/mapa_erb.php
+- https://conexis.org.br/numeros/mapa-de-antenas-2/
 - http://sistemas.anatel.gov.br/se/public/view/b/licenciamento.php
 - http://sistemas.anatel.gov.br/siec-servico-movel-web/
 - https://dados.gov.br/dataset?tags=ERB
