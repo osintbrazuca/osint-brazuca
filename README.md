@@ -1,14 +1,20 @@
-<p style="text-align:center" align="center">
-<img src="assets/logo.png" width="40%" /><br>
-</p>
-<p align="center">[EM CONSTRUÇÃO]</center></p>
+<h1 align="center">
+  <br>
+  <a href="#"><img src="assets/logo_profile.png" width="300px" alt="OSINT Brazuca"></a>
+</h1>
+
+<h4 align="center">OSINT (Open-source intelligence)</h4>
+
 
 <p align="center">
-<img src="https://img.shields.io/github/contributors/osintbrazuca/Osint-Brazuca" title="Contributors" /> 
-<img src="https://img.shields.io/github/stars/osintbrazuca/Osint-Brazuca.svg?style=social" title="Stars" /> 
-<img src="https://img.shields.io/github/license/osintbrazuca/Osint-Brazuca?color=blue" title="License" />
-</center>
-<p>
+<a href="https://github.com/osintbrazuca/osint-brazuca/blob/main/LICENSE"><img src="https://img.shields.io/github/license/osintbrazuca/osint-brazuca?color=blue"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/osintbrazuca/osint-brazuca"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/issues"><img src="https://img.shields.io/github/issues-raw/osintbrazuca/osint-brazuca"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/discussions"><img src="https://img.shields.io/github/discussions/osintbrazuca/osint-brazuca"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/network/members"><img src="https://img.shields.io/github/forks/osintbrazuca/osint-brazuca"></a>
+<img src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca.svg?style=social" title="Stars" /> 
+</p>
+
 
 # Introdução
 O Projeto **OSINT Brazuca** é um repositório criado com intuito de reunir informações, fontes(websites/portais) e tricks de OSINT dentro do contexto Brasil 🇧🇷.
@@ -17,6 +23,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 
 # Sumário
 - [Benefícios Sociais](#beneficios-sociais)
+- [Pessoas Desaparecidas](#pessoas-desaparecidas)
 - [Consulta de Processos](#consulta-processos)      
 - [Busca de Informações via CPF/CNPJ/CRM/CNA](#busca-cpf-cnpj-crm-cna)
 - [Telecom](#telecom)
@@ -99,6 +106,50 @@ https://valoresareceber.bcb.gov.br/publico/rest/valoresAReceber/00000000000/1960
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
         
 ---
+## Pessoas Desaparecidas 🔍 <a name="pessoas-desaparecidas"></a>
+
+### Portais de Desaparecidos
+Uma relação de links com dados sobre desaparecidos, gerida pela estado ou ONGs, tais urls  permitem consulta, pela internet, de fotografias e informações de pessoas desaparecidas de diversos estados Brasileiros. 
+<details>
+<summary>Portais de Desaparecidos</summary>
+
+- https://desaparecidos.pcivil.rj.gov.br/pesquisar
+- https://www.desaparecidos.pr.gov.br/desaparecidos/
+- https://www.pc.rs.gov.br/desaparecidos
+- https://desaparecidos.pjc.mt.gov.br/inicio
+- https://carapicuiba.sp.gov.br/desaparecido
+- https://desaparecidos.policiacivil.mg.gov.br/desaparecido/album
+- https://desaparecidosdobrasil.org/pesquisar-desaparecidos/
+- https://desaparecidos.policiacivil.mg.gov.br/
+- https://www.pcdf.df.gov.br/servicos/desaparecidos
+- https://www.disquedenuncia.org.br/desaparecidos-list
+- https://www.ssp.ma.gov.br/disque-denuncia/desaparecidos/
+- https://desaparecidos.pc.sc.gov.br/#/
+- https://www.pm.sc.gov.br/sos-desaparecidos/default/index?sort=-desaparecido_desaparecimento_data
+- http://www.policiacivil.pe.gov.br/adultos-desaparecidos
+- https://www2.bauru.sp.gov.br/desaparecidos/
+- https://desaparecidos.osasco.sp.gov.br/#/portal
+- https://www.pm.ce.gov.br/desaparecidos/
+- https://desaparecidos.pb.gov.br/desaparecidos/desaparecidos.jsf
+- https://desaparecidos.pr.gov.br/desaparecidos/desaparecidos.do?action=iniciarProcesso&m=false
+- http://sisgou.seds.al.gov.br/base2/desaparecidos_almanaque/
+- http://www.feiradesantana.ba.gov.br/seprev/desaparecidos/desaparecidos.asp
+- https://www.policiacivil.se.gov.br/desaparecidos/
+
+</details>
+
+### Busca por Desaparecidos Banco de Dados Geral / São Paulo
+É usado CPF da Pessoa Desaparecida como valor de pesquisa
+- https://www.ssp.sp.gov.br/servicos/desaparecidos
+
+### Busca por Desaparecidos Banco de Dados Polícia Científica / São Paulo
+É usado nome e CPF da Pessoa Desaparecida como valor de pesquisa
+- https://www.policiacientifica.sp.gov.br/iml/consultadesaparecidos
+
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
 
 ## Consulta de Processos 🧑‍⚖️ <a name="consulta-processos"></a>
 ### Portal e-S**
@@ -107,7 +158,7 @@ O portal e-S** é uma solução que visa facilitar a troca de informações e ag
 <summary>Portais TJ</summary>
 
 - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090#
-- https://esaj.tjba.jus.br/esaj/portal.do?servico=190090#
+- https://www.tjba.jus.br/portal/busca-resultado/#
 - https://esaj.tjce.jus.br/esaj/portal.do?servico=190090#
 - https://esaj.tjsc.jus.br/esaj/portal.do?servico=190090#
 - https://esaj.tjsp.jus.br/esaj/portal.do?servico=190090#
@@ -129,7 +180,7 @@ __TRF1__: O Tribunal Regional Federal da 1ª Região, com sede em Brasília, tem
 __TRF2__: 2a instância da Justiça Federal da 2a Região, com jurisdição no Rio de Janeiro e no Espírito Santo.
 <br>
 __TRF5__: Portal com informações e serviços providos pelo TRF5, tem sob sua jurisdição   jfal ,jfce ,jfpb ,jfpe ,jfrn ,jfse.
-- httpS://portal.trf1.jus.br
+- https://portal.trf1.jus.br
 - https://portal.trf2.jus.br
 - https://portal.trf5.jus.br
 
@@ -170,6 +221,12 @@ A intenção deste serviço é ajudar você descobrir e confirmar qual a situaç
 Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica). Bem como, consultar Certidão Eletrônica de Ações Trabalhistas - CEAT.  Em escolha ao CPNJ poder ser que retorne o CPF como complemento ao nome.
 - https://sistemas.trt3.jus.br/certidao/feitosTrabalhistas/aba1.emissao.htm        
 
+### Visualização de dados públicos de CNPJ
+Ferramenta para observar o relacionamento entre empresas e sócios, a partir dos dados públicos disponibilizados pela Receita Federal. Pode ser executado localmente, baixando o código do Github ou executado online diretamente no site do projeto.
+- https://www.redecnpj.com.br/rede/
+- https://github.com/rictom/rede-cnpj/
+
+        
 ### Consulta de Antecedente Criminal
 Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
 - https://antecedentes.policiacivil.pa.gov.br/consulta
@@ -178,6 +235,22 @@ Nesta consulta é gerado um documento válido até a data que será exibida ao f
 Pesquisar no Repositório do cadastro de todos os advogados do Brasil.
 Mantido pelo Conselho Federal da OAB, que exerce a função de repositório do cadastro de todos os advogados do Brasil. Para realizar a consulta, basta preencher o formulário e pesquisar. (Nome; Nº da inscrição; Seccional; Tipo de inscrição)
 - https://cna.oab.org.br
+
+### Consulta Conselho Federal de Medicina (CFM)
+Pesquisar no Repositório do cadastro de médicos do Brasil.
+Mantido pelo Conselho Federal de Medicina, órgão que fiscaliza e normatiza a prática médica no Brasil. Para realizar a consulta, basta preencher o formulário e pesquisar.
+- https://portal.cfm.org.br/busca-medicos/
+
+### Consulta Conselho Federal de Psicologia (CFP)
+Pesquisar no Repositório do cadastro de psicólogos do Brasil.
+Mantido pelo Conselho Federal de Psicologia, órgão com a finalidade fiscalizar o exercício da profissão de Psicólogo no Brasil. Para realizar a consulta, basta preencher o formulário e pesquisar.
+- https://cadastro.cfp.org.br
+
+### Conselho Federal de Engenharia e Agronomia (Confea)
+Pesquisar no Repositório do cadastro das profissões inseridas no Sistema Confea/Crea.
+Mantido pelo  Conselho Federal de Engenharia e Agronomia – Confea, instituído juntamente com os Conselhos Regionais de Engenharia e Agronomia pelo Decreto nº 23.569, de 11 de dezembro de 1933, é a instância superior da fiscalização do exercício das profissões inseridas no Sistema Confea/Crea.
+Para realizar a consulta, basta preencher o formulário e pesquisar.
+- https://consultaprofissional.confea.org.br
 
 ### Consulta MEI
 Nesta consulta será exibido informações do cadastro MEI. Para consulta é necessário apenas o CPF e data de nacimento. Vale para todo território nacional.
@@ -192,6 +265,23 @@ Para obter informações de declaração do simples nacional, basta informar o C
 Consulta o status de requisição de aposentádoria de INSS. Vale para todo o território nacional.
 - https://www2.dataprev.gov.br/sabiweb/relatorio/imprimirCRER.view?acao=imprimir_CRER
 
+### Consulta Restituição do Imposto de Renda
+Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.
+- http://solucoes.receita.fazenda.gov.br/Servicos/ConsRest/Atual.app/paginas/mobile/restituicaoMobi.asp
+
+
+### Consulta Junta Comercial do Estado de São Paulo (Jucesp)
+Pesquisa no banco de dados da Junta Comercial do Estado de São Paulo.
+Para consulta é necessário apenas o Nome da empresa, CNPJ, Razão social ou NIRE.
+
+- https://www.jucesponline.sp.gov.br/Pre_Visualiza.aspx?nire={VALOR}&idproduto=
+
+
+### Consulta Etrevistador do IBGE
+Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário: número matrícula, CPF ou RG.
+
+- https://respondendo.ibge.gov.br/verifique-a-identidade-do-entrevistador.html
+- https://www.ibge.gov.br/acesso-informacao/institucional/documentos-ibge/1861-novo-portal/institucional/17422-servidores.html
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -199,10 +289,13 @@ Consulta o status de requisição de aposentádoria de INSS. Vale para todo o te
 ## Telecom 📡 <a name="telecom"></a>
 
 ### Busca Através do IMEI/Legalidade do Aparelho
-- https://www.consultaserialaparelho.com.br/public-web/homeSiga 
+O serviço prestado por este site informa somente a situação do aparelho celular que foi informado pelo usuário à operadora de telefonia móvel como roubado, furtado, perdido ou extraviado.
+- https://www.consultaaparelhoimpedido.com.br/public-web/welcome
 
-### Busca Através da Operadora
+
+### Busca de Situação Cadastro / Portabilidade de Números Celulares e Fixos
 - https://consultanumero.abrtelecom.com.br/consultanumero/consulta/consultaSituacaoAtualCtg
+- https://consultanumero.abrtelecom.com.br/consultanumero/consulta/consultaHistoricoRecenteCtg
 
 ### Busca Operadora por Número Celular
 - https://consultanumero.info/
@@ -216,6 +309,26 @@ Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, 
 ### Base De Orelhão X Mapa
 Por meio da busca é possível encontrar orelhões pelo número, localizar ruas, municípios, estados ou cidades
 - http://sistemas.anatel.gov.br/sgmu/fiqueligado/tups.asp
+
+### Consultar e identificar Frequências de Rádios / SISTEMA DE SERVIÇOS DE TELECOMUNICAÇÕES (STEL)
+Abrirá uma página para preenchimento, preencha da seguinte forma:
+
+1.  Em recuperação de dados: marque UF;
+3. Em apresentar dados por: marque a letra J (frequência e entidade) em faixa de frequência: coloque a frequência que deseja scanear, ex.: inicial: 450,000 final: 460,000 (NÃO ESQUEÇA DA VÍRGULA) OBS: não de um espaço de frequencia muito largo,as vezes dá erro na pesquisa;
+4. Em unidade coloque MHZ nos dois;
+5. Em sigla da UF: coloque a sigla do seu estado
+6. m serviço inicial e serviço final nao coloque nada, deixe do jeito que está em grupo de estações: marque todos (consolidado);
+7. Agora clique abaixo em exportar excel e salve o arquivo em seu micro;
+
+- https://sistemas.anatel.gov.br/stel/Consultas/RecuperacaoFrequencias/tela.asp?SISQSmodulo=9896
+
+### Consultar responsável por um indicativo
+Digite o Indicativo da Estação sem pontos e sem traços.
+- https://sistemas.anatel.gov.br/easp/Novo/ConsultaIndicativo/Tela.asp
+
+### Mais informações sobre Radio amador
+Alguns dos sistemas dependem de cadastro de usuário (CPF + Senha). Abaixo dos links da ANATEL, links por tipo de serviços (Radioamador e Rádio do Cidadão)
+- https://araf.org.br/anatel-links-rapidos
 
 ### Números Discagem direta a distância ( DDD )
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
@@ -233,6 +346,7 @@ Estações Radio Base ou ERBs são equipamentos que fazem a conexão entre os te
 - https://www.teleco.com.br/erb.asp
 - https://sistemas.anatel.gov.br/stel/consultas/ListaEstacoesLocalidade/tela.asp?pNumServico=010
 - http://www.telecocare.com.br/telebrasil/mapa_erb.php
+- https://conexis.org.br/numeros/mapa-de-antenas-2/
 - http://sistemas.anatel.gov.br/se/public/view/b/licenciamento.php
 - http://sistemas.anatel.gov.br/siec-servico-movel-web/
 - https://dados.gov.br/dataset?tags=ERB
@@ -311,12 +425,21 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 - https://www.radarbox.com/@-19.21547,-46.45469,z5
 - https://www.flightradar24.com/-18.82,-52.19/5
 - https://www.edestinos.com.br/radar
+- https://planefinder.net/airport/BSB
+
+### Consulta de Licença Aeronáutica ( CHT )
+Todos os tripulantes civis brasileiros devem ser registrados na ANAC. Sendo validado o registro pelo seu Código Anac (CANAC).
+- https://sistemas.anac.gov.br/consultadelicencas/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
    
 ## Saúde 🏥 <a name="saude"></a>
+### Cadastro Nacional de Estabelecimentos de Saúde
+Informações acerca de estabelecimentos e profissionais de saúde.
+- https://cnes.datasus.gov.br/
+
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
 
@@ -432,6 +555,14 @@ Uma ferramenta para capturando pensamentos e emoções da população do Twitter
 A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
 - https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=BR&media_type=all
 
+### Procurador de redes sociais
+Uma ferramenta que busca redes sociais como Linkedin, instagram e facebook somente adicionando o nome no final do link.
+- https://www.social-searcher.com/search-users/?q6=NOME+SOBRENOME
+
+### UVRX buscador de redes sociais
+Um site onde utiliza a busca do google para fazer uma pesquisa mais avançada em redes sociais.
+- http://www.uvrx.com/social.html
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -482,13 +613,18 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 ### Consulta de Licenciamento Veicular 
 - http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml *Estado do Maranhão*
 
+### Consulta de Bicicletas / São Paulo
+Serviço online que permite a qualquer pessoa verificar se uma bicicleta tem histórico de roubo ou furto. É usado Número ou Serial para consulta. 
+
+- https://www.ssp.sp.gov.br/consultabicicleta
+
 ### Consulta de Dados via Placa
 <details>
 <summary>Links de Consulta</summary>
 
 - https://carfacts.com.br/ConsultaGratis
 - https://www.qualveiculo.net/
-- https://www.olhonocarro.com.br/
+- https://www.olhonocarro.com.br/        
 - https://www.consultarplaca.com.br/
 - http://infocarrosp.com.br/
 - https://www.iq.com.br/veiculos/consulta-placa/
@@ -497,8 +633,27 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - https://site.bibipecas.com.br/home
 - https://www.historicar.com.br/
 - https://www.keplaca.com
-
+- https://www.fipeplaca.com.br/
+- https://placafipe.com
+- https://placaipva.com.br
+- https://www.tabelafipebrasil.com/placa
+- https://www.ipvabr.com.br/placa        
 </details>
+
+### Consulta de Dados FIPE
+<details>
+<summary>Links de Consulta</summary>
+
+- https://veiculos.fipe.org.br
+- https://www.tabelafipebrasil.com
+- https://www.tabelafipe.website
+- https://www.tabelafipemotos.com.br
+- https://www.fipeveiculos.com.br
+- https://www.valortabelafipe.com.br
+- https://veiculosfipe.org/   
+- https://fipevalor.com.br/         
+</details>
+
 
 ### Consulta Terminais Ônibus São Paulo
 Secretaria Municipal de Transporte e Mobilidade Urbana ( SPTRANS )
@@ -659,16 +814,40 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 </details>
 
 ### Câmeras da Prefeitura de João Pessoa - PB (SEMOB)
-- http://transito.gtrans.com.br/semobjp/index.php/portal/index
+- http://transito.gtrans.com.br/semobjp/index.php
 
 ### Câmeras da Prefeitura de Recife - PE (CTTU)
 - http://transito.gtrans.com.br/cttupe/index.php/mapa
 
 ### Câmeras do Centro Integrado de Operações de Belém do Pará (Segup no Trânsito)
-- http://www.ciop.pa.gov.br/index.php/banner-camera
+- [https://www.ciop.pa.gov.br/aovivo/index.html](https://www.ciop.pa.gov.br/aovivo/index.html)
 
 ### Câmeras da BHTRANS (Em beta ainda)
 - http://infotrafego.pbh.gov.br/info_trafego_cameras.html
+
+### Câmeras do Aeroporto Internacional de São Paulo/Guarulhos - SGBR
+- https://www.youtube.com/watch?v=iA_TQxQS9Sw
+
+### Câmera do Aeroporto de Congonhas São Paulo - SBSP FULL ATC
+- https://www.youtube.com/watch?v=rKM8wSr3ORU
+
+### Câmera do Aeroporto Santos Dumont - Rio de Janeiro - SBRJ FULL ATC
+- https://www.youtube.com/watch?v=EPGfz0QibL0
+
+### Câmera do Aeroporto Galeão - Rio de Janeiro - SBGL
+- https://www.youtube.com/watch?v=dS2eAlS9UBE
+
+### Câmera do Aeroporto Internacional de Florianópolis - SBFL Com Fonia
+- https://www.youtube.com/watch?v=xLen1r-iwfU
+
+### Câmera do Aeroporto da Pampulha - Belo Horizonte 24 horas (BHZ)(SBBH)
+- https://www.youtube.com/watch?v=NuyRxze2iUo
+
+### Câmera do Aeroporto do Recife - SBRF
+- https://www.youtube.com/watch?v=BhTY_GHvSmg
+
+### Câmeras de Obras em Andamento de Mato Grosso (SINFRA)
+- https://mapas.sinfra.mt.gov.br/portal/apps/sites/#/central-infra-20-2-1/pages/monitoramento-de-obras
 
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
@@ -758,160 +937,181 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 <details>
 <summary>Lista de Domínios</summary>
 
-| TLD  |  Descrição  |
-| ------------------- | ------------------- |
-|  APP.BR	| Aplicativos|
-|  ART.BR	|Artes: música, pintura, folclore|
-|  COM.BR	|Atividades comerciais|
-|  DEV.BR	|Desenvolvedores e Plataformas de Desenvolvimento|
-|  ECO.BR	|Atividades com foco eco-ambiental|
-|  EMP.BR	|Pequenas e micro-empresas|
-|  LOG.BR	|Transportes e Logistica|
-|  NET.BR	|Atividades comerciais|
-|  ONG.BR	|Atividades não governamentais individuais ou associativas|
-|  SEG.BR	|Segurança|
-|  TEC.BR	|Tecnologia|
-| EDU.BR	| Instituições de ensino superior |
-| BLOG.BR	| Web logs| 
-| FLOG.BR	| Foto logs| 
-| NOM.BR	| Pessoas Físicas| 
-| VLOG.BR	| Vídeo logs| 
-| WIKI.BR	| Páginas do tipo 'wiki'| 
-|ADM.BR |	Administradores|
-|ADV.BR |	Advogados|
-|ARQ.BR |	Arquitetos|
-|ATO.BR |	Atores|
-|BIB.BR |	Bibliotecários / Biblioteconomistas|
-|BIO.BR |	Biólogos|
-|BMD.BR |	Biomédicos|
-|CIM.BR |	Corretores|
-|CNG.BR |	Cenógrafos|
-|CNT.BR |	Contadores|
-|COZ.BR |	Profissionais de Gastronomia|
-|DES.BR |	"Designers" e Desenhistas|
-|DET.BR |	Detetives / Investigadores Particulares|
-|ECN.BR |	Economistas|
-|ENF.BR |	Profissionais de Enfermagem|
-|ENG.BR |	Engenheiros|
-|ETI.BR |	Especialista em Tecnologia da Informação|
-|FND.BR |	Fonoaudiólogos|
-|FOT.BR |	Fotógrafos|
-|FST.BR |	Fisioterapeutas|
-|GEO.BR |	Geólogos|
-|GGF.BR |	Geógrafos|
-|JOR.BR |	Jornalistas|
-|LEL.BR |	Leiloeiros|
-|MAT.BR |	Matemáticos e Estatísticos|
-|MED.BR |	Médicos|
-|MUS.BR |	Músicos|
-|NOT.BR |	Notários|
-|NTR.BR |	Nutricionistas|
-|ODO.BR |	Dentistas|
-|PPG.BR |	Publicitários e profissionais da área de propaganda e marketing|
-|PRO.BR |	Professores|
-|PSC.BR |	Psicólogos|
-|QSL.BR |	Rádio amadores|
-|REP.BR |	Representantes Comerciais|
-|SLG.BR |	Sociólogos|
-|TAXI.BR |	Taxistas|
-|TEO.BR |	Teólogos|
-|TRD.BR |	Tradutores|
-|VET.BR |	Veterinários|
-|ZLG.BR |	Zoólogos|
-|9GUACU.BR |	Nova Iguaçu|
-|ABC.BR |	Região ABC Paulista|
-|AJU.BR |	Aracaju|
-|ANANI.BR |	Ananindeua|
-|APARECIDA.BR |	Aparecida|
-|BARUERI.BR |	Barueri|
-|BELEM.BR |	Belém|
-|BHZ.BR |	Belo Horizonte|
-|BOAVISTA.BR |	Boa Vista|
-|BSB.BR |.BR |asília|
-|CAMPINAGRANDE.BR |	Campina Grande|
-|CAMPINAS.BR |	Campinas|
-|CAXIAS.BR |	Caxias|
-|CONTAGEM.BR |	Contagem|
-|CUIABA.BR |	Cuiabá|
-|CURITIBA.BR |	Curitiba|
-|FEIRA.BR |	Feira de Santana|
-|FLORIPA.BR |	Florianópolis|
-|FORTAL.BR |	Fortaleza|
-|FOZ.BR |	Foz do Iguaçu|
-|GOIANIA.BR |	Goiânia|
-|GRU.BR |	Guarulhos|
-|JAB.BR |	Jaboatão dos Guararapes|
-|JAMPA.BR |	João Pessoa|
-|JDF.BR |	Juiz de Fora|
-|JOINVILLE.BR |	Joinville|
-|LONDRINA.BR |	Londrina|
-|MACAPA.BR |	Macapá|
-|MACEIO.BR |	Maceió|
-|MANAUS.BR |	Manaus|
-|MARINGA.BR |	Maringá|
-|MORENA.BR |	Campo Grande|
-|NATAL.BR |	Natal|
-|NITEROI.BR |	Niterói|
-|OSASCO.BR |	Osasco|
-|PALMAS.BR |	Palmas|
-|POA.BR |	Porto Alegre|
-|PVH.BR |	Porto Velho|
-|RECIFE.BR |	Recife|
-|RIBEIRAO.BR |	Ribeirão|
-|RIO.BR |	Rio de Janeiro|
-|RI.BR |ANCO.BR |	Rio.BR |anco|
-|RIOPRETO.BR |	São José do Rio Preto|
-|SALVADOR.BR |	Salvador|
-|SAMPA.BR |	São Paulo|
-|SANTAMARIA.BR |	Santa Maria|
-|SANTOANDRE.BR |	Santo André|
-|SAOBERNARDO.BR |	São Bernardo do Campo|
-|SAOGONCA.BR |	São Gonçalo|
-|SJC.BR |	São José dos Campos|
-|SLZ.BR |	São Luis|
-|SOROCABA.BR |	Sorocaba|
-|THE.BR |	Teresina|
-|UDI.BR |	Uberlândia|
-|VIX.BR |	Vitória|
-|AGR.BR |	Empresas agrícolas, fazendas|
-|ESP.BR |	Esporte em geral|
-|ETC.BR |	Empresas que não se enquadram nas outras categorias|
-|FAR.BR |	Farmácias e drogarias|
-|IMB.BR |	Imobiliárias|
-|IND.BR |	Indústrias|
-|INF.BR |	Meios de informação (rádios, jornais, bibliotecas, etc..)|
-|RADIO.BR |	Empresas que queiram enviar áudio pela rede|
-|REC.BR |	Atividades de entretenimento, diversão, jogos, etc...|
-|SRV.BR |	Empresas prestadoras de serviços|
-|TMP.BR |	Eventos temporários, como feiras e exposições|
-|TUR.BR |	Empresas da área de turismo|
-|TV.BR |	Empresas de radiodifusão ou transmissão via Internet de sons e imagens|
-|COM RESTRIÇÃO|
-|AM.BR |	Empresas de radiodifusão sonora|
-|COOP.BR |	Cooperativas|
-|FM.BR |	Empresas de radiodifusão sonora|
-|G12.BR |	Instituições de ensino de primeiro e segundo grau|
-|GOV.BR |	Instituições do governo federal|
-|MIL.BR |	Forças Armadas.BR |asileiras|
-|ORG.BR |	Instituições não governamentais sem fins lucrativos|
-|PSI.BR |	Provedores de serviço Internet|
-|DNSSEC .BR |IGATÓRIO|
-|B.BR |	Bancos|
-|DEF.BR |	Defensorias Públicas|
-|JUS.BR |	Instituições do Poder Judiciário|
-|LEG.BR |	Instituições do Poder Legislativo|
-|MP.BR |	Instituições do Ministério Público|
-|TC.BR |	Tribunais de Contas|
+| TLD		| Destinado a | Descrição |
+| ------------------- | ------------------- | ------------------- |
+| APP.BR	| Genéricos		| Aplicativos|
+| ART.BR	| Genéricos		| Artes: música, pintura, folclore|
+| COM.BR	| Genéricos		| Atividades comerciais|
+| DEV.BR	| Genéricos		| Desenvolvedores e Plataformas de Desenvolvimento|
+| ECO.BR	| Genéricos		| Atividades com foco eco-ambiental|
+| EMP.BR	| Genéricos		| Pequenas e micro-empresas|
+| LOG.BR	| Genéricos		| Transportes e Logistica|
+| NET.BR	| Genéricos		| Atividades comerciais|
+| ONG.BR	| Genéricos		| Atividades não governamentais individuais ou associativas|
+| SEG.BR	| Genéricos		| Segurança|
+| TEC.BR	| Genéricos		| Tecnologia|
+| EDU.BR	| Universidades		| Instituições de ensino superior|
+| BLOG.BR	| Pessoas Físicas	| Web logs| Pessoas Físicas|
+| FLOG.BR	| Pessoas Físicas	| Foto logs|
+| NOM.BR	| Pessoas Físicas	| Pessoas Físicas|
+| VLOG.BR	| Pessoas Físicas	| Vídeo logs|
+| WIKI.BR	| Pessoas Físicas	| Páginas do tipo 'wiki'|
+| ADM.BR	| Profissionais Liberais| Administradores|
+| ADV.BR	| Profissionais Liberais| Advogados|
+| ARQ.BR	| Profissionais Liberais| Arquitetos|
+| ATO.BR	| Profissionais Liberais| Atores|
+| BIB.BR	| Profissionais Liberais| Bibliotecários / Biblioteconomistas|
+| BIO.BR	| Profissionais Liberais| Biólogos|
+| BMD.BR	| Profissionais Liberais| Biomédicos|
+| CIM.BR	| Profissionais Liberais| Corretores|
+| CNG.BR	| Profissionais Liberais| Cenógrafos|
+| CNT.BR	| Profissionais Liberais| Contadores|
+| COZ.BR	| Profissionais Liberais| Profissionais de Gastronomia|
+| DES.BR	| Profissionais Liberais| "Designers" e Desenhistas|
+| DET.BR	| Profissionais Liberais| Detetives / Investigadores Particulares|
+| ECN.BR	| Profissionais Liberais| Economistas|
+| ENF.BR	| Profissionais Liberais| Profissionais de Enfermagem|
+| ENG.BR	| Profissionais Liberais| Engenheiros|
+| ETI.BR	| Profissionais Liberais| Especialista em Tecnologia da Informação|
+| FND.BR	| Profissionais Liberais| Fonoaudiólogos|
+| FOT.BR	| Profissionais Liberais| Fotógrafos|
+| FST.BR	| Profissionais Liberais| Fisioterapeutas|
+| GEO.BR	| Profissionais Liberais| Geólogos|
+| GGF.BR	| Profissionais Liberais| Geógrafos|
+| JOR.BR	| Profissionais Liberais| Jornalistas|
+| LEL.BR	| Profissionais Liberais| Leiloeiros|
+| MAT.BR	| Profissionais Liberais| Matemáticos e Estatísticos|
+| MED.BR	| Profissionais Liberais| Médicos|
+| MUS.BR	| Profissionais Liberais| Músicos|
+| NOT.BR	| Profissionais Liberais| Notários|
+| NTR.BR	| Profissionais Liberais| Nutricionistas|
+| ODO.BR	| Profissionais Liberais| Dentistas|
+| PPG.BR	| Profissionais Liberais| Publicitários e profissionais da área de propaganda e marketing|
+| PRO.BR	| Profissionais Liberais| Professores|
+| PSC.BR	| Profissionais Liberais| Psicólogos|
+| QSL.BR	| Profissionais Liberais| Rádio amadores|
+| REP.BR	| Profissionais Liberais| Representantes Comerciais|
+| SLG.BR	| Profissionais Liberais| Sociólogos|
+| TAXI.BR	| Profissionais Liberais| Taxistas|
+| TEO.BR	| Profissionais Liberais| Teólogos|
+| TRD.BR	| Profissionais Liberais| Tradutores|
+| VET.BR	| Profissionais Liberais| Veterinários|
+| ZLG.BR	| Profissionais Liberais| Zoólogos|
+| 9GUACU.BR	| Cidades		| Nova Iguaçu|
+| ABC.BR	| Cidades		| Região ABC Paulista|
+| AJU.BR	| Cidades		| Aracaju|
+| ANANI.BR	| Cidades		| Ananindeua|
+| APARECIDA.BR	| Cidades		| Aparecida|
+| BARUERI.BR	| Cidades		| Barueri|
+| BELEM.BR	| Cidades		| Belém|
+| BHZ.BR	| Cidades		| Belo Horizonte|
+| BOAVISTA.BR	| Cidades		| Boa Vista|
+| BSB.BR	| Cidades		| Brasília|
+| CAMPINAGRANDE.BR| Cidades		| Campina Grande|
+| CAMPINAS.BR	| Cidades		| Campinas|
+| CAXIAS.BR	| Cidades		| Caxias|
+| CONTAGEM.BR	| Cidades		| Contagem|
+| CUIABA.BR	| Cidades		| Cuiabá|
+| CURITIBA.BR	| Cidades		| Curitiba|
+| FEIRA.BR	| Cidades		| Feira de Santana|
+| FLORIPA.BR	| Cidades		| Florianópolis|
+| FORTAL.BR	| Cidades		| Fortaleza|
+| FOZ.BR	| Cidades		| Foz do Iguaçu|
+| GOIANIA.BR	| Cidades		| Goiânia|
+| GRU.BR	| Cidades		| Guarulhos|
+| JAB.BR	| Cidades		| Jaboatão dos Guararapes|
+| JAMPA.BR	| Cidades		| João Pessoa|
+| JDF.BR	| Cidades		| Juiz de Fora|
+| JOINVILLE.BR	| Cidades		| Joinville|
+| LONDRINA.BR	| Cidades		| Londrina|
+| MACAPA.BR	| Cidades		| Macapá|
+| MACEIO.BR	| Cidades		| Maceió|
+| MANAUS.BR	| Cidades		| Manaus|
+| MARINGA.BR	| Cidades		| Maringá|
+| MORENA.BR	| Cidades		| Campo Grande|
+| NATAL.BR	| Cidades		| Natal|
+| NITEROI.BR	| Cidades		| Niterói|
+| OSASCO.BR	| Cidades		| Osasco|
+| PALMAS.BR	| Cidades		| Palmas|
+| POA.BR	| Cidades		| Porto Alegre|
+| PVH.BR	| Cidades		| Porto Velho|
+| RECIFE.BR	| Cidades		| Recife|
+| RIBEIRAO.BR	| Cidades		| Ribeirão|
+| RIO.BR	| Cidades		| Rio de Janeiro|
+| RIOBRANCO.BR	| Cidades		| Rio Branco|
+| RIOPRETO.BR	| Cidades		| São José do Rio Preto|
+| SALVADOR.BR	| Cidades		| Salvador|
+| SAMPA.BR	| Cidades		| São Paulo|
+| SANTAMARIA.BR | Cidades		| Santa Maria|
+| SANTOANDRE.BR | Cidades		| Santo André|
+| SAOBERNARDO.BR| Cidades		| São Bernardo do Campo|
+| SAOGONCA.BR	| Cidades		| São Gonçalo|
+| SJC.BR	| Cidades		| São José dos Campos|
+| SLZ.BR	| Cidades		| São Luis|
+| SOROCABA.BR	| Cidades		| Sorocaba|
+| THE.BR	| Cidades		| Teresina|
+| UDI.BR	| Cidades		| Uberlândia|
+| VIX.BR	| Cidades		| Vitória|
+| **##########**| **Pessoas Jurídicas**	| **SEM RESTRIÇÃO**|
+| AGR.BR	| Pessoas Jurídicas	| Empresas agrícolas, fazendas|
+| ESP.BR	| Pessoas Jurídicas	| Esporte em geral|
+| ETC.BR	| Pessoas Jurídicas	| Empresas que não se enquadram nas outras categorias|
+| FAR.BR	| Pessoas Jurídicas	| Farmácias e drogarias|
+| IMB.BR	| Pessoas Jurídicas	| Imobiliárias|
+| IND.BR	| Pessoas Jurídicas	| Indústrias|
+| INF.BR	| Pessoas Jurídicas	| Meios de informação (rádios, jornais, bibliotecas, etc..)|
+| RADIO.BR	| Pessoas Jurídicas	| Empresas que queiram enviar áudio pela rede|
+| REC.BR	| Pessoas Jurídicas	| Atividades de entretenimento, diversão, jogos, etc...|
+| SRV.BR	| Pessoas Jurídicas	| Empresas prestadoras de serviços|
+| TMP.BR	| Pessoas Jurídicas	| Eventos temporários, como feiras e exposições|
+| TUR.BR	| Pessoas Jurídicas	| Empresas da área de turismo|
+| TV.BR		| Pessoas Jurídicas	| Empresas de radiodifusão ou transmissão via Internet de sons e imagens|
+| **##########**| **Pessoas Jurídicas**	| **COM RESTRIÇÃO**|
+| AM.BR		| Pessoas Jurídicas	| Empresas de radiodifusão sonora|
+| COOP.BR	| Pessoas Jurídicas	| Cooperativas|
+| FM.BR		| Pessoas Jurídicas	| Empresas de radiodifusão sonora|
+| G12.BR	| Pessoas Jurídicas	| Instituições de ensino de primeiro e segundo grau|
+| GOV.BR	| Pessoas Jurídicas	| Instituições do governo federal|
+| MIL.BR	| Pessoas Jurídicas	| Forças Armadas Brasileiras|
+| ORG.BR	| Pessoas Jurídicas	| Instituições não governamentais sem fins lucrativos|
+| PSI.BR	| Pessoas Jurídicas	| Provedores de serviço Internet|
+| **##########**| **Pessoas Jurídicas**	| **DNSSEC OBRIGATÓRIO**|
+| B.BR		| Pessoas Jurídicas	| Bancos|
+| DEF.BR	| Pessoas Jurídicas	| Defensorias Públicas|
+| JUS.BR	| Pessoas Jurídicas	| Instituições do Poder Judiciário|
+| LEG.BR	| Pessoas Jurídicas	| Instituições do Poder Legislativo|
+| MP.BR		| Pessoas Jurídicas	| Instituições do Ministério Público|
+| TC.BR		| Pessoas Jurídicas	| Tribunais de Contas|
 
 </details>
 
+### ASN disponíveis do Whois público do registro NIR Nic.br
+Compilação de informações de origem do prefixo ASN disponíveis do Whois público do registro NIR Nic.br. Campos separados por pipe.
+ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo RegistroBR - https://ftp.registro.br/pub/numeracao/origin/00README)
+
+- Diretório com histórico de arquivos - https://ftp.registro.br/pub/numeracao/origin/
+- Lista atualizada - https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt
+        
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
  ---
 
+### Acre (AC) <a name="acre"></a>
+
+<details>
+  <summary>Consultas AC</summary>
+  
+- Antecedente criminal - https://pc.ac.gov.br/certidao-de-antecedentes-criminais/
+- ESAJ (Processos) - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090
+- Consulta estapagem - https://www.detran.ac.gov.br/consultar-autorizacao-de-estampagem/
+- Consulta SNG - https://www.ac.getran.com.br/site/apps/veiculo/consulta/filtro-chassi-sng.jsp
+- Consulta de pontuação CNH - https://www.detran.ac.gov.br/portal-de-servicos/consulta-pontuacao-de-cnh/
+- Nota Fiscal - http://sefaznet.ac.gov.br/nfe/consulta.xhtml 
+ 
+</details>
 
 ## Categorias por Estados Brasileiros 🇧🇷 <a name="estados-br"></a> [EM CONSTRUÇÃO]
-- ### Acre (AC) <a name="acre"></a>
+
 - ### Alagoas (AL) <a name="alagoas"></a>
 - ### Amapá (AP) <a name="amapa"></a>
 - ### Amazonas (AM) <a name="amazonas"></a>
@@ -919,7 +1119,27 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 - ### Ceará (CE) <a name="ceara"></a>
 - ### Distrito Federal (DF) <a name="distrito-federal"></a>
 - ### Espírito Santo (ES) <a name="espirito-santo"></a>
-- ### Goiás (GO) <a name="goias"></a>
+
+### Goiás (GO) <a name="goias"></a>
+     <details>
+        <summary>Consultas GO</summary>
+     
+    - Consulta veículos/infrações - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-multas-renainf
+    - Consulta processos - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-processo/1
+    - Consulta CNH_Social - https://www.detran.go.gov.br/psw/#/pages/conteudo/acompanhar-cnh-social
+    - Consulta Prontuário_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/prontuario-cnh
+    - Primeira_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/primeira-cnh
+
+    - Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
+    - Processos físicos 2º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
+    - Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4
+
+    - Consulta Nota Fiscal - https://www.goiania.go.gov.br/sing_servicos/nota-fiscal-eletronica/
+    - Consulta DUAM-IPTU-ITU-ISSQN - https://www.goiania.go.gov.br/sing_servicos/emissao-duam-itu-iptu-issqn/
+    - Consulta matrículas - https://www.goiania.go.gov.br/sing_servicos/matriculas-web/
+    - Consulta processos - https://www.goiania.go.gov.br/sing_servicos/consulta-processos/
+    
+    </details>
 - ### Maranhão (MA) <a name="maranhao"></a>
 - ### Mato Grosso (MT) <a name="mato-grosso"></a>
 - ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
@@ -931,16 +1151,21 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
     
     </details>
 - ### Pará (PA) <a name="para"></a>
-- ### Paraíba (PB) <a name="paraiba"></a>
-- ### Paraná (PR) <a name="parana"></a>
-     <details>
+
+ <details>
         <summary>Consultas PA</summary>
      
-    - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
-    - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
-    - Consulta de Antecedente Criminal - https://antecedentes.policiacivil.pa.gov.br/consulta
+  - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
+  - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
+  - Consulta de Antecedente Criminal - https://antecedentes.pc.pa.gov.br/consulta
+  - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
+  - Consulta Empresa - https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
+  - Boletim Geral de Bombeiros - https://siga.bombeiros.pa.gov.br/boletins.php
       
-    </details>
+  </details>
+
+- ### Paraíba (PB) <a name="paraiba"></a>
+- ### Paraná (PR) <a name="parana"></a>
 - ### Pernambuco (PE) <a name="pernambuco"></a>
 - ### Piauí (PI) <a name="piaui"></a>
     <details>
@@ -981,10 +1206,12 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
 
 - ### Rio Grande do Norte (RN) <a name="rio-grande-norte"></a>
-- ### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
+
+### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
     <details>
         <summary>Monitoramento de Rodovias:</summary>
-
+      
+    - Localizar pessoas desaparecidas nas enchentes do RS.https://www.achados-e-perdidos-rs.com.br/
     Todos os links e informações foram obtidos originalmente do site do [DAER](https://www.daer.rs.gov.br/) no Rio Grande do Sul.
     - Osório: RS-389 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6716
     - Osório: ERS-030 KM 89,9 - https://camerasdaer.perkons.com:60000/DAER-6714
@@ -1030,6 +1257,7 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
     - Sananduva: ERS-126 KM 110 - https://daer.kopp.com.br/ftp/imagem.php?id=Sananduva
     - Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
     - Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
+    - Emitir certidão de antecedentes criminais - https://www.pc.rs.gov.br/emitir-certidao-de-antecedentes-policiais
 
     </details> 
 
@@ -1069,6 +1297,7 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
     - Rua Júlio T. Martins/Homero de Miranda Gome: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_020&width=1920&height=1080
     - Marginal BR101/Rua Acácio Reitz: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_032&width=1920&height=1080
     - Major Livramento/Rua João José Rodrigues: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_VDV_040&width=1920&height=1080
+    - Antecedentes Criminais - https://sistemas.pc.sc.gov.br/formulario-antecedentes-cidadao/#/
 
     </details> 
 
@@ -1101,6 +1330,10 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 
 ## Contribuições ✨ <a name="contribuicoes"></a>
 Contribuições de qualquer tipo são bem-vindas!
+
+<a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=osintbrazuca/osint-brazuca&max=500" alt="Lista de contribuidores" width="100%"/>
+</a>
     
 ---
     
