@@ -96,8 +96,15 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 ### Extrato do Benefício de Prestação Continuada (INSS)
 - em processo...
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+### Consulta de Valores a Receber do Sistema Financeiro
+Consulta para saber se a Pessoa Física ou Jurídica possuem valores a receber no Sistema Financeiro.
 
+- https://valoresareceber.bcb.gov.br/publico/
+- Via Requisição GET, substituir os zeros pelo CPF ou CNPJ sem pontos ou traços, e a data de nascimento no formato ANO-MES-DIA: 
+https://valoresareceber.bcb.gov.br/publico/rest/valoresAReceber/00000000000/1960-12-01
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+        
 ---
 ## Pessoas Desaparecidas 🔍 <a name="pessoas-desaparecidas"></a>
 
@@ -860,6 +867,10 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Estatísticas de Nascimentos, Óbitos, Registros e Casamentos
 - https://transparencia.registrocivil.org.br/registros 
 
+### Informações sobre um endereço de e-mail
+Permite recuperar, sem notificar o usuário, vários elementos relacionados a um endereço de e-mail, Nome, GoogleID, se há Mapas criados ou Agendas Públicas do Google Calendar, Validar se o e-mail está sendo utilizado em contas em outros sites.    
+- https://tools.epieos.com/email.php         
+        
 ### Informações Sobre Domínios
 <details>
 <summary>Links para Pesquisa</summary>
