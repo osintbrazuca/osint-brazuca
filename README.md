@@ -94,7 +94,7 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 - http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/cnpjreva/Cnpjreva_Solicitacao.asp
 
 ### Extrato do Benefício de Prestação Continuada (INSS)
-- em processo...
+- ...
 
 ### Consulta de Valores a Receber do Sistema Financeiro
 Consulta para saber se a Pessoa Física ou Jurídica possuem valores a receber no Sistema Financeiro.
@@ -1087,7 +1087,7 @@ Abaixo estão listadas todas as categorias de domínio .br oferecidas pelo Regis
 </details>
 
 ### ASN disponíveis do Whois público do registro NIR Nic.br
-Compilação de informações de origem do prefixo ASN disponíveis do Whois público do registro NIR Nic.br. Campos separados por pipe.
+Compilação de informações de origem do prefixo ASN disponíveis do Whois público do registro NIR Nic.br. Campos separados por pipe.da
 ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo RegistroBR - https://ftp.registro.br/pub/numeracao/origin/00README)
 
 - Diretório com histórico de arquivos - https://ftp.registro.br/pub/numeracao/origin/
@@ -1097,21 +1097,22 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 
  ---
 
-### Acre (AC) <a name="acre"></a>
-
-<details>
-  <summary>Consultas AC</summary>
-  
-- Antecedente criminal - https://pc.ac.gov.br/certidao-de-antecedentes-criminais/
-- ESAJ (Processos) - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090
-- Consulta estapagem - https://www.detran.ac.gov.br/consultar-autorizacao-de-estampagem/
-- Consulta SNG - https://www.ac.getran.com.br/site/apps/veiculo/consulta/filtro-chassi-sng.jsp
-- Consulta de pontuação CNH - https://www.detran.ac.gov.br/portal-de-servicos/consulta-pontuacao-de-cnh/
-- Nota Fiscal - http://sefaznet.ac.gov.br/nfe/consulta.xhtml 
- 
-</details>
 
 ## Categorias por Estados Brasileiros 🇧🇷 <a name="estados-br"></a> [EM CONSTRUÇÃO]
+
+- ### Acre (AC) <a name="acre"></a>
+
+    <details>
+        <summary>Consultas AC</summary>
+    
+    - Antecedente criminal - https://pc.ac.gov.br/certidao-de-antecedentes-criminais/
+    - ESAJ (Processos) - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090
+    - Consulta estapagem - https://www.detran.ac.gov.br/consultar-autorizacao-de-estampagem/
+    - Consulta SNG - https://www.ac.getran.com.br/site/apps/veiculo/consulta/filtro-chassi-sng.jsp
+    - Consulta de pontuação CNH - https://www.detran.ac.gov.br/portal-de-servicos/consulta-pontuacao-de-cnh/
+    - Nota Fiscal - http://sefaznet.ac.gov.br/nfe/consulta.xhtml 
+    
+    </details>
 
 - ### Alagoas (AL) <a name="alagoas"></a>
 - ### Amapá (AP) <a name="amapa"></a>
@@ -1121,31 +1122,30 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 - ### Distrito Federal (DF) <a name="distrito-federal"></a>
 - ### Espírito Santo (ES) <a name="espirito-santo"></a>
 
-### Goiás (GO) <a name="goias"></a>
-     <details>
+- ### Goiás (GO) <a name="goias"></a>
+    <details>
         <summary>Consultas GO</summary>
-     
+        
     - Consulta veículos/infrações - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-multas-renainf
     - Consulta processos - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-processo/1
     - Consulta CNH_Social - https://www.detran.go.gov.br/psw/#/pages/conteudo/acompanhar-cnh-social
     - Consulta Prontuário_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/prontuario-cnh
-    - Primeira_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/primeira-cnh
-
+    - Primeira_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/primeira-cnh 
     - Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
     - Processos físicos 2º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
-    - Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4
-
+    - Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4    
     - Consulta Nota Fiscal - https://www.goiania.go.gov.br/sing_servicos/nota-fiscal-eletronica/
     - Consulta DUAM-IPTU-ITU-ISSQN - https://www.goiania.go.gov.br/sing_servicos/emissao-duam-itu-iptu-issqn/
     - Consulta matrículas - https://www.goiania.go.gov.br/sing_servicos/matriculas-web/
     - Consulta processos - https://www.goiania.go.gov.br/sing_servicos/consulta-processos/
-    
+            
     </details>
+
 - ### Maranhão (MA) <a name="maranhao"></a>
 - ### Mato Grosso (MT) <a name="mato-grosso"></a>
 - ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
 - ### Minas Gerais (MG) <a name="minas-gerais"></a>
-     <details>
+    <details>
         <summary>Consultas MG</summary>
      
     - Consulta de Certidão Negativa de Débito | Belo Horizonte - http://cndonline.siatu.pbh.gov.br/CNDOnline/?null
@@ -1153,17 +1153,17 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     </details>
 - ### Pará (PA) <a name="para"></a>
 
- <details>
-        <summary>Consultas PA</summary>
-     
-  - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
-  - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
-  - Consulta de Antecedente Criminal - https://antecedentes.pc.pa.gov.br/consulta
-  - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
-  - Consulta Empresa - https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
-  - Boletim Geral de Bombeiros - https://siga.bombeiros.pa.gov.br/boletins.php
-      
-  </details>
+    <details>
+            <summary>Consultas PA</summary>
+        
+    - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
+    - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
+    - Consulta de Antecedente Criminal - https://antecedentes.pc.pa.gov.br/consulta
+    - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
+    - Consulta Empresa - https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
+    - Boletim Geral de Bombeiros - https://siga.bombeiros.pa.gov.br/boletins.php
+        
+    </details>
 
 - ### Paraíba (PB) <a name="paraiba"></a>
 - ### Paraná (PR) <a name="parana"></a>
