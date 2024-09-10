@@ -563,6 +563,10 @@ Uma ferramenta que busca redes sociais como Linkedin, instagram e facebook somen
 Um site onde utiliza a busca do google para fazer uma pesquisa mais avançada em redes sociais.
 - http://www.uvrx.com/social.html
 
+### OSINT Steam
+Uma ferramenta open-source que retorna informações públicas, como lista de amigos e possíveis localizações, de perfís da Steam.
+- https://osint-steam.vercel.app/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
