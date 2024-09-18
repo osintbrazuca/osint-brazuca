@@ -213,6 +213,10 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 
 </details>
 
+### Automação de força Bruta para encontrar CPF e Nome completo
+Este repositório contém duas ferramentas úteis para a manipulação e consulta de CPFs. A primeira ferramenta gera uma lista de CPFs válidos com base em dígitos centrais fornecidos pelo usuário (dígitos que são retornados do pix por exemplo: `***123456**`), enquanto a segunda realiza consultas automáticas de situação cadastral desses CPFs, utilizando um bot automatizado via Selenium para interagir com um site de consulta.
+- https://github.com/fernandobortotti/CPF-Tools
+
 ### Busca Nome Usando CPF/CNPJ
 A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
 - https://www.situacao-cadastral.com/ 
