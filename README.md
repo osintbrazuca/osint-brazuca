@@ -310,6 +310,13 @@ O serviço prestado por este site informa somente a situação do aparelho celul
 Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, Claro, Oi, Sercomtel, TIM e Vivo).
 - https://cadastropre.com.br/#/consulta
 
+### Mapas de Cobertura das Operadoras
+Consulte a cobertura de rede 2G, 3G, 4G e 5G em qualquer região do Brasil, verificando a disponibilidade e intensidade do sinal das operadoras
+- https://mapadecobertura.vivo.com.br/
+- https://www.claro.com.br/mapa-de-cobertura
+- https://www.tim.com.br/para-voce/cobertura-e-roaming/mapa-de-cobertura
+- https://www.oi.com.br/portal-oi-cobertura/
+
 ### Base De Orelhão X Mapa
 Por meio da busca é possível encontrar orelhões pelo número, localizar ruas, municípios, estados ou cidades
 - http://sistemas.anatel.gov.br/sgmu/fiqueligado/tups.asp
