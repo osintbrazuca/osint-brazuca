@@ -441,6 +441,7 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 ### Consulta de Licença Aeronáutica ( CHT )
 Todos os tripulantes civis brasileiros devem ser registrados na ANAC. Sendo validado o registro pelo seu Código Anac (CANAC).
 - https://sistemas.anac.gov.br/consultadelicencas/
+- https://ais.cavok.in/lichab/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -727,6 +728,7 @@ A ANAC disponibiliza uma consulta de empresas ou aeronaves de táxi-aéreo a tod
 ### Consultas ao Registro Aeronáutico Brasileiro (RAB)
 Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro Aeronáutico Brasileiro (RAB) – regulamentado por meio da Resolução ANAC nº 293/2013
 - https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
+- https://ais.cavok.in/rab/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
