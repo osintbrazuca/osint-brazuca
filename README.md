@@ -745,6 +745,9 @@ O Projeto City Câmeras é um programa público, de iniciativa exclusiva da Pref
 ### Câmeras DER - Departamento de Estradas de Rodagem (DER)
 - http://www.der.sp.gov.br/WebSite/Servicos/ServicosOnline/CamerasOnlineMapa.aspx
 
+### Windy - Serviço de Cãmeras e Radar meteorológico
+- https://www.windy.com/pt/-Webcams/webcams?-16.994,-54.316,5
+
 ### Câmeras Rodovias Online
 O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reunir de forma fácil e eficaz visualizações de câmeras on-line.
 <details>
