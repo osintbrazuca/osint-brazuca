@@ -650,6 +650,12 @@ Datasets em formato aberto, o conteúdo sobre a área ambiental disponibilizado 
 O Dados Ibict é um repositório de dados abertos para promover, ampliar e aprimorar a abertura de dados do IBICT
 - https://dados.ibict.br/dataset
 
+### Dados BCB - Banco Central Do Brasil
+O Portal Brasileiro de Dados Abertos do Banco Central é o meio utilizado pelo BC para disponibilizar dados e informações públicas
+- https://dadosabertos.bcb.gov.br/dataset
+
+
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
