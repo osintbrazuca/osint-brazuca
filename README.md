@@ -449,6 +449,10 @@ Todos os tripulantes civis brasileiros devem ser registrados na ANAC. Sendo vali
 - https://sistemas.anac.gov.br/consultadelicencas/
 - https://ais.cavok.in/lichab/
 
+### Cidades e Estados - IBGE - Instituto Brasileiro de Geografia e Estatística
+Consulta de dados por Cidades e Estados
+- https://www.ibge.gov.br/cidades-e-estados/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
