@@ -642,7 +642,7 @@ Conjuntos de datasets disponibilizados pelo Governo Federal
 Repositório de dados públicos disponibilizados em formato acessível
 - https://brasil.io/datasets/
 
-### Dados Ministério do Meio Ambiente e Mudança do Clima
+### Dados MMA - Ministério do Meio Ambiente e Mudança do Clima
 Datasets em formato aberto, o conteúdo sobre a área ambiental disponibilizado pelo Ministério do Meio Ambiente
 - https://dados.mma.gov.br/
 
@@ -654,7 +654,9 @@ O Dados Ibict é um repositório de dados abertos para promover, ampliar e aprim
 O Portal Brasileiro de Dados Abertos do Banco Central é o meio utilizado pelo BC para disponibilizar dados e informações públicas
 - https://dadosabertos.bcb.gov.br/dataset
 
-
+### Dados MTur - Ministério do Meio Ambiente e Mudança do Clima
+O Plano de Dados Abertos (PDA) é o documento orientador para as ações de implementação e promoção de abertura de dados, no Ministério do Turismo (MTur), obedecendo a padrões mínimos de qualidade, de forma a facilitar o entendimento e a reutilização das informações.
+- https://dados.turismo.gov.br/dataset/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
