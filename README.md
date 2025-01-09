@@ -687,6 +687,10 @@ Acesso a conteúdos das pesquisas estruturais, censos, entre outras, na área de
 O Portal da Prefeitura de Mogi das Cruzes com Dados Abertos da Administração Pública Municipal.
 - https://dados.mogidascruzes.sp.gov.br/dataset/
 
+### Dados Alagoas SEPLAG - Secretaria de Estado do Planejamento, Gestão e Patrimônio
+O Portal Alagoas em Dados é uma plataforma desenvolvida pela Secretaria de Estado do Planejamento, Gestão e Patrimônio (SEPLAG) de Alagoas, que oferece acesso a uma ampla gama de informações e estatísticas sobre o estado. Por meio desse portal, os usuários podem obter dados atualizados em áreas cruciais como educação, saúde, economia.
+- https://dados.al.gov.br/catalogo/dataset
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
