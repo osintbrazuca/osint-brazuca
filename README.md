@@ -662,8 +662,9 @@ O Plano de Dados Abertos do MTur abrange os setores do turismo e da cultura, e �
 O IBAMA utilizado o portal abaixo para disponibilizar dados e informações públicas, relacionados a operação e fiscalização.
 - https://dadosabertos.ibama.gov.br/en/dataset/
 
-
-
+### Microdados Inep - Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira
+Os microdados do Inep reúnem um conjunto de informações detalhadas relacionadas às pesquisas, aos exames e avaliações do Instituto. Os formatos de apresentação do conteúdo dos arquivos estão sendo reestruturados para suprimir a possibilidade de identificação de pessoas.
+- https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
