@@ -691,6 +691,10 @@ O Portal da Prefeitura de Mogi das Cruzes com Dados Abertos da Administração P
 O Portal Alagoas em Dados é uma plataforma desenvolvida pela Secretaria de Estado do Planejamento, Gestão e Patrimônio (SEPLAG) de Alagoas, que oferece acesso a uma ampla gama de informações e estatísticas sobre o estado. Por meio desse portal, os usuários podem obter dados atualizados em áreas cruciais como educação, saúde, economia.
 - https://dados.al.gov.br/catalogo/dataset
 
+### Dados MAPA - Ministério da Agricultura e Pecuária
+O Ministério da Agricultura e Pecuária (Mapa) é responsável pela gestão das políticas públicas de estímulo à agropecuária, pelo fomento do agronegócio e pela regulação e normatização de serviços vinculados ao setor. No Brasil.
+- https://dados.agricultura.gov.br/dataset
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
