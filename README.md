@@ -732,6 +732,11 @@ O Portal de Dados Abertos da ANTT é a ferramenta disponibilizada pela ANTT para
 - https://dados.antt.gov.br/dataset
 
 
+### Dados TCMGO - Portal oficial do Tribunal de Contas dos Municípios do Estado de Goiás
+- https://www.tcm.go.gov.br/Reports/browse/
+
+
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
