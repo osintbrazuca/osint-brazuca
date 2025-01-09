@@ -642,6 +642,10 @@ Conjuntos de datasets disponibilizados pelo Governo Federal
 Repositório de dados públicos disponibilizados em formato acessível
 - https://brasil.io/datasets/
 
+### Dados Ministério do Meio Ambiente e Mudança do Clima
+Datasets em formato aberto, o conteúdo sobre a área ambiental disponibilizado pelo Ministério do Meio Ambiente
+- https://dados.mma.gov.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
