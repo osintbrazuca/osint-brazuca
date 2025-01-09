@@ -707,19 +707,21 @@ O Portal de Dados Abertos do Estado de Santa Catarina é a plataforma oficial de
 O Plano de Dados Abertos – PDA é o documento orientador para as ações de implementação e promoção de abertura de dados, inclusive georreferenciados, no Departamento Nacional de Infraestrutura de Transportes 
 - https://servicos.dnit.gov.br/dadosabertos/
 
-
 ### Dados Prefeitura de São Paulo
 O Portal de Dados Abertos da Prefeitura de São Paulo tem sua origem no Catálogo Municipal de Bases de Dados (CMBD). Organizado pela Coordenadoria de Promoção da Integridade (COPI) da Controladoria Geral do Município (CGM-SP) em conjunto com os órgãos e entidades da Prefeitura, o Catálogo apresenta aos munícipes uma relação com todos os dados disponíveis produzidos pela Prefeitura. 
 - http://dados.prefeitura.sp.gov.br/dataset
 
-
-### Dados Abertos de Pernambuco
+### Dados Abertos do Estado de Pernambuco
 O Portal de Dados Abertos do Estado de Pernambuco (dados.pe.gov.br) reúne, em um só lugar, os conjuntos de dados dos órgãos pertencentes ao Poder Executivo Estadual. 
 - https://dados.pe.gov.br/dataset
 
 ### Dados BNDES - Banco Nacional de Desenvolvimento Econômico e Social
 O Banco Nacional de Desenvolvimento Econômico e Social (BNDES) é uma empresa pública federal cujo principal objetivo é o financiamento de longo prazo e investimento em todos os segmentos da economia brasileira.
 - https://dadosabertos.bndes.gov.br/dataset
+
+### Dados Abertos do Estado de Minas Gerais
+Os conjuntos de dados (datasets) deste Portal Estado de Minas Gerais estão documentados conforme as especificações Frictionless Data (dados sem fricção), que atendem à caracterização descrita nos normativos citados acima e possibilitam a validação automática dos dados.
+- https://dados.mg.gov.br/dataset/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
