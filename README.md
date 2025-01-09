@@ -699,7 +699,9 @@ O Ministério da Agricultura e Pecuária (Mapa) é responsável pela gestão das
 O Portal da Dados MJ disponibiliza Dados Abertos da Administração Pública, dentro do contexto de Justiça Brasileira.
 - https://dados.mj.gov.br/dataset
 
-
+### Dados Santa Catarina
+O Portal de Dados Abertos do Estado de Santa Catarina é a plataforma oficial de publicação de dados governamentais em formato aberto. 
+- https://dados.sc.gov.br/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
