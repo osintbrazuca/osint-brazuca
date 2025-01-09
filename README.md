@@ -679,6 +679,10 @@ Em síntese, o trabalho de produção do PDA/PF consistiu na elaboração do inv
 A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) para a publicação de dados abertos foi a elaboração do Plano de Dados Abertos (PDA). O propósito deste documento é o de publicitar as ações e estratégias organizacionais que nortearão as atividades de implementação e promoção da abertura de dados, no âmbito da CAPES de forma institucionalizada e sistematizada.
 - https://dadosabertos.capes.gov.br/dataset/
 
+### Dados IBGE - Instituto Brasileiro de Geografia e Estatística
+Acesso a conteúdos das pesquisas estruturais, censos, entre outras, na área de estatísticas.
+- https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
