@@ -638,6 +638,9 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 Conjuntos de datasets disponibilizados pelo Governo Federal
 - https://dados.gov.br/home
 
+### Brasil.io
+Repositório de dados públicos disponibilizados em formato acessível
+- https://brasil.io/datasets/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
