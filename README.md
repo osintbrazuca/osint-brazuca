@@ -666,6 +666,10 @@ O IBAMA utilizado o portal abaixo para disponibilizar dados e informações púb
 Os microdados do Inep reúnem um conjunto de informações detalhadas relacionadas às pesquisas, aos exames e avaliações do Instituto. Os formatos de apresentação do conteúdo dos arquivos estão sendo reestruturados para suprimir a possibilidade de identificação de pessoas.
 - https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados
 
+### Dados PF - Polícia Federal
+Em síntese, o trabalho de produção do PDA/PF consistiu na elaboração do inventário de bases de dados da Polícia Federal, no saneamento do inventário pelas Diretorias e unidades responsáveis, e, por fim, na priorização dos bancos a serem abertos com base em critérios sugeridos pelo Comitê Gestor da Infraestrutura Nacional de Dados Abertos-CGINDA.
+- https://www.gov.br/pf/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos-2024-2026
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
