@@ -739,6 +739,12 @@ Página dedicada aos dados da Secretaria Estadual de Saúde de Goiás. Aqui, é 
 Infraestrutura nacional de dados e informações em biodiversidade, é responsável pela organização, indexação, armazenamento e disponibilização de dados e informações sobre a biodiversidade e os ecossistemas brasileiros
 - https://collectory.sibbr.gov.br/collectory/datasets
 
+
+### Dados CVM - Portal de Dados Abertos da Comissão de Valores Mobiliários
+A CVM é a Autarquia do governo federal que atua para garantir a integridade, estimular a eficiência e promover o desenvolvimento do mercado de capitais brasileiro, promovendo o equilíbrio entre a iniciativa dos agentes e a efetiva proteção dos investidores. 
+- https://dados.cvm.gov.br/dataset/
+- https://dados.cvm.gov.br/dados/
+
 ### Dados TCMGO - Portal oficial do Tribunal de Contas dos Municípios do Estado de Goiás
 - https://www.tcm.go.gov.br/Reports/browse/
 
