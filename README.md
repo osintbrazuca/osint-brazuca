@@ -703,6 +703,10 @@ O Portal da Dados MJ disponibiliza Dados Abertos da Administração Pública, de
 O Portal de Dados Abertos do Estado de Santa Catarina é a plataforma oficial de publicação de dados governamentais em formato aberto. 
 - https://dados.sc.gov.br/
 
+### Dados DNIT - Departamento Nacional de Infraestrutura de Transportes
+O Plano de Dados Abertos – PDA é o documento orientador para as ações de implementação e promoção de abertura de dados, inclusive georreferenciados, no Departamento Nacional de Infraestrutura de Transportes 
+- https://servicos.dnit.gov.br/dadosabertos/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
