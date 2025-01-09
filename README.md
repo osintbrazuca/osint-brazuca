@@ -193,6 +193,10 @@ Startup que une Direito e Tecnologia para fazer com que a justiça ultrapasse as
 Encontre e acompanhe informações relevantes para você sua empresa seu cliente. Pesquise por pessoas, instituições, processos judiciais ou qualquer termo do seu interesse.
 - https://www.escavador.com/
 
+### ABRAJI - Publique-se
+Descubra os processos judiciais no Brasil que citam políticos como partes em ações judiciais de interesse público. O banco de dados do projeto permite atualmente a consulta de processos do STF, STJ, tribunais federais e tribunais de Justiça, que citam 3445 políticos. Mais processos e tribunais serão adicionados ao longo de 2025.
+- https://www.publique-se.org.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
