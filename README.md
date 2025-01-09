@@ -731,7 +731,7 @@ O Portal de Dados Abertos da Prefeitura de Belo Horizonte é a ferramenta dispon
 O Portal de Dados Abertos da ANTT é a ferramenta disponibilizada pela ANTT para facilitar a localização e utilização dos dados públicos, com previsão de abertura nos Plano de Dados Abertos. 
 - https://dados.antt.gov.br/dataset
 
-### Dados Secretaria Estadual de Saúde de Goiás
+### Dados SESGO - Secretaria Estadual de Saúde de Goiás
 Página dedicada aos dados da Secretaria Estadual de Saúde de Goiás. Aqui, é disponibilizado uma vasta coleção de informações detalhadas e atualizadas sobre diversos aspectos da saúde pública no estado de Goiás. 
 - https://dados.saude.go.gov.br/dataset/
 
