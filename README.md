@@ -34,6 +34,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Motores de Busca Contexto Brasil](#dorks)
 - [Rede Social](#redes-sociais)
 - [Indexadores de Serviço de Mensagens Instantâneas](#indexador-mensagens)
+- [Datasets / Dados Abertos](#datasets)
 - [Consulta de Transporte Terrestre](#consulta-transporte-terrestre)
 - [Tracking de Viagens de Ônibus ](#tracking-viagens-onibus)
 - [Consulta de Transporte Aéreo](#consulta-transporte-aereo)
@@ -630,6 +631,18 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
+
+## Datasets / Dados Abertos 🗂️ <a name="datasets"></a>
+
+### Dados Abertos / Gov BR
+Conjuntos de datasets disponibilizados pelo Governo Federal
+- https://dados.gov.br/home
+
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
 ## Consulta de Transporte Terrestre 🚗 <a name="consulta-transporte-terrestre"></a>
 ### Consulta de Licenciamento Veicular 
 - http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml *Estado do Maranhão*
