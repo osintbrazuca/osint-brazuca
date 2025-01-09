@@ -646,6 +646,10 @@ Repositório de dados públicos disponibilizados em formato acessível
 Datasets em formato aberto, o conteúdo sobre a área ambiental disponibilizado pelo Ministério do Meio Ambiente
 - https://dados.mma.gov.br/
 
+### Dados Ibict - Instituto Brasileiro de Informação em Ciência e Tecnologia 
+O Dados Ibict é um repositório de dados abertos para promover, ampliar e aprimorar a abertura de dados do IBICT
+- https://dados.ibict.br/dataset
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
