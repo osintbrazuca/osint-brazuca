@@ -717,6 +717,9 @@ O Portal de Dados Abertos da Prefeitura de São Paulo tem sua origem no Catálog
 O Portal de Dados Abertos do Estado de Pernambuco (dados.pe.gov.br) reúne, em um só lugar, os conjuntos de dados dos órgãos pertencentes ao Poder Executivo Estadual. 
 - https://dados.pe.gov.br/dataset
 
+### Dados BNDES - Banco Nacional de Desenvolvimento Econômico e Social
+O Banco Nacional de Desenvolvimento Econômico e Social (BNDES) é uma empresa pública federal cujo principal objetivo é o financiamento de longo prazo e investimento em todos os segmentos da economia brasileira.
+- https://dadosabertos.bndes.gov.br/dataset
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
