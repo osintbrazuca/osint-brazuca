@@ -712,6 +712,12 @@ O Plano de Dados Abertos – PDA é o documento orientador para as ações de im
 O Portal de Dados Abertos da Prefeitura de São Paulo tem sua origem no Catálogo Municipal de Bases de Dados (CMBD). Organizado pela Coordenadoria de Promoção da Integridade (COPI) da Controladoria Geral do Município (CGM-SP) em conjunto com os órgãos e entidades da Prefeitura, o Catálogo apresenta aos munícipes uma relação com todos os dados disponíveis produzidos pela Prefeitura. 
 - http://dados.prefeitura.sp.gov.br/dataset
 
+
+### Dados Abertos de Pernambuco
+O Portal de Dados Abertos do Estado de Pernambuco (dados.pe.gov.br) reúne, em um só lugar, os conjuntos de dados dos órgãos pertencentes ao Poder Executivo Estadual. 
+- https://dados.pe.gov.br/dataset
+
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
