@@ -723,6 +723,10 @@ O Banco Nacional de Desenvolvimento Econômico e Social (BNDES) é uma empresa p
 Os conjuntos de dados (datasets) deste Portal Estado de Minas Gerais estão documentados conforme as especificações Frictionless Data (dados sem fricção), que atendem à caracterização descrita nos normativos citados acima e possibilitam a validação automática dos dados.
 - https://dados.mg.gov.br/dataset/
 
+### Dados Abertos da Prefeitura de Belo Horizonte
+O Portal de Dados Abertos da Prefeitura de Belo Horizonte é a ferramenta disponibilizada pelo governo municipal para que todos possam encontrar e utilizar dados e informações públicas. 
+- https://dados.pbh.gov.br/dataset/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
