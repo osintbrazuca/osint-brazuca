@@ -35,6 +35,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Rede Social](#redes-sociais)
 - [Indexadores de Serviço de Mensagens Instantâneas](#indexador-mensagens)
 - [Consulta de Transporte Terrestre](#consulta-transporte-terrestre)
+- [Tracking de Viagens de Ônibus ](#tracking-viagens-onibus)
 - [Consulta de Transporte Aéreo](#consulta-transporte-aereo)
 - [Câmeras Online](#cameras-online)
 - [Outras Buscas](#outras-buscas)
@@ -703,6 +704,57 @@ RNTRC - Registro Nacional de Transportadores Rodoviários de Cargas
 ### Pesquisar no Portal de Dados Abertos da ANTT
 A Política de Dados Abertos do Poder Executivo Federal, instituída pelo Decreto n° 8.777, de 11 de maio de 2016, tem o objetivo de aprimorar a cultura de transparência pública ao estabelecer regras para publicação, em formato aberto.
 - https://dados.antt.gov.br/
+
+
+### Urbanização de Curitiba S/A (URBS) / Informações dos Táxis de Curitiba
+Localização dos Pontos de Táxi em Curitiba
+- https://www.urbs.curitiba.pr.gov.br/mobile/taxiLegal
+- https://urbs.curitiba.pr.gov.br/transporte/pontos-de-taxi
+
+### Urbanização de Curitiba S/A (URBS) / Embarques e Desembarques da Rodoviária
+Informações sobre Linhas Rodoviárias em Curitiba
+- https://www.urbs.curitiba.pr.gov.br/mobile/monitorRod
+- https://urbs.curitiba.pr.gov.br/horario-de-onibus/rodoviaria
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Tracking de Viagens de Ônibus 🚌 <a name="tracking-viagens-onibus"></a>
+
+### Onibus.info 
+Acompanhe ônibus de Joinville em tempo real
+- https://onibus.info
+
+### SPTrans Olho Vivo
+Localização dos ônibus, ao longo do trajeto, em quanto tempo e quais linhas de ônibus se aproximam, corredores, velocidade média e tempo de percurso.                          
+- https://olhovivo.sptrans.com.br
+
+### Urbanização de Curitiba S/A (URBS) / Monitoramento de Ônibus
+Rastreamento de informações sobre transporte na cidade de Curitiba. É possivel filtrar por linhas, rotas de ônibus, posição de pontos, veículos.
+
+- Linhas, rotas de ônibus, posição de pontos e veículos
+  - https://www.urbs.curitiba.pr.gov.br/mobile/itibus
+  - https://www.urbs.curitiba.pr.gov.br/mobile/itibus6
+  - https://urbs.curitiba.pr.gov.br/horario-de-onibus
+
+- Boletim informacional relacionado ao transporte coletivo de Curitiba
+  - https://www.urbs.curitiba.pr.gov.br/mobile/boletim
+
+- Extrato do cartão transporte Avulso
+  - https://www.urbs.curitiba.pr.gov.br/mobile/cartao
+
+### Viação Ouro e Prata S/A, UneSul e TTL
+É possivel acompanhar uma viagem de ônibus usando parâmetros como Empresa, Data, número de reserva ou número de serviço.
+- https://rastreamento.viacaoouroeprata.com.br/
+
+### Viação Águia Branca S.A.
+É possivel acompanhar uma viagem de ônibus usando parâmetro o número de serviço.
+- https://acompanheaviagem.aguiabranca.com.br
+
+### FlixBus Transporte e Tecnologia do Brasil Ltda.
+É possivel acompanhar uma viagem de ônibus da empresa FlixBus usando parâmetros como saída, chegada e número de reserva.
+- https://www.flixbus.com.br/track/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
