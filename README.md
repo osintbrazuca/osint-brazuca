@@ -735,6 +735,10 @@ O Portal de Dados Abertos da ANTT é a ferramenta disponibilizada pela ANTT para
 Página dedicada aos dados da Secretaria Estadual de Saúde de Goiás. Aqui, é disponibilizado uma vasta coleção de informações detalhadas e atualizadas sobre diversos aspectos da saúde pública no estado de Goiás. 
 - https://dados.saude.go.gov.br/dataset/
 
+### Dados SiBBr - Sistema de Informação sobre a Biodiversidade Brasileira
+Infraestrutura nacional de dados e informações em biodiversidade, é responsável pela organização, indexação, armazenamento e disponibilização de dados e informações sobre a biodiversidade e os ecossistemas brasileiros
+- https://collectory.sibbr.gov.br/collectory/datasets
+
 ### Dados TCMGO - Portal oficial do Tribunal de Contas dos Municípios do Estado de Goiás
 - https://www.tcm.go.gov.br/Reports/browse/
 
