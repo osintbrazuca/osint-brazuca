@@ -727,6 +727,11 @@ Os conjuntos de dados (datasets) deste Portal Estado de Minas Gerais estão docu
 O Portal de Dados Abertos da Prefeitura de Belo Horizonte é a ferramenta disponibilizada pelo governo municipal para que todos possam encontrar e utilizar dados e informações públicas. 
 - https://dados.pbh.gov.br/dataset/
 
+### Dados ANTT - Agência Nacional de Transportes Terrestres
+O Portal de Dados Abertos da ANTT é a ferramenta disponibilizada pela ANTT para facilitar a localização e utilização dos dados públicos, com previsão de abertura nos Plano de Dados Abertos. 
+- https://dados.antt.gov.br/dataset
+
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
