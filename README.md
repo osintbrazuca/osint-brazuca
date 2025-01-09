@@ -674,6 +674,11 @@ Os microdados do Inep reúnem um conjunto de informações detalhadas relacionad
 Em síntese, o trabalho de produção do PDA/PF consistiu na elaboração do inventário de bases de dados da Polícia Federal, no saneamento do inventário pelas Diretorias e unidades responsáveis, e, por fim, na priorização dos bancos a serem abertos com base em critérios sugeridos pelo Comitê Gestor da Infraestrutura Nacional de Dados Abertos-CGINDA.
 - https://www.gov.br/pf/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos-2024-2026
 
+
+### Dados CAPES - Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
+A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) para a publicação de dados abertos foi a elaboração do Plano de Dados Abertos (PDA). O propósito deste documento é o de publicitar as ações e estratégias organizacionais que nortearão as atividades de implementação e promoção da abertura de dados, no âmbito da CAPES de forma institucionalizada e sistematizada.
+- https://dadosabertos.capes.gov.br/dataset/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
