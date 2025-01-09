@@ -683,6 +683,10 @@ A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível 
 Acesso a conteúdos das pesquisas estruturais, censos, entre outras, na área de estatísticas.
 - https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html
 
+### Dados Prefeitura de Mogi das Cruzes
+O Portal da Prefeitura de Mogi das Cruzes com Dados Abertos da Administração Pública Municipal.
+- https://dados.mogidascruzes.sp.gov.br/dataset/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
