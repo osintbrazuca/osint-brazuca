@@ -695,6 +695,12 @@ O Portal Alagoas em Dados é uma plataforma desenvolvida pela Secretaria de Esta
 O Ministério da Agricultura e Pecuária (Mapa) é responsável pela gestão das políticas públicas de estímulo à agropecuária, pelo fomento do agronegócio e pela regulação e normatização de serviços vinculados ao setor. No Brasil.
 - https://dados.agricultura.gov.br/dataset
 
+### Dados MJ - Ministério da Justiça
+O Portal da Dados MJ disponibiliza Dados Abertos da Administração Pública, dentro do contexto de Justiça Brasileira.
+- https://dados.mj.gov.br/dataset
+
+
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
