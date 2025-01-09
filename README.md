@@ -655,8 +655,15 @@ O Portal Brasileiro de Dados Abertos do Banco Central é o meio utilizado pelo B
 - https://dadosabertos.bcb.gov.br/dataset
 
 ### Dados MTur - Ministério do Meio Ambiente e Mudança do Clima
-O Plano de Dados Abertos (PDA) é o documento orientador para as ações de implementação e promoção de abertura de dados, no Ministério do Turismo (MTur), obedecendo a padrões mínimos de qualidade, de forma a facilitar o entendimento e a reutilização das informações.
+O Plano de Dados Abertos do MTur abrange os setores do turismo e da cultura, e é o documento orientador para as ações de implementação e promoção de abertura de dados produzidos ou que estão sob a responsabilidade do Ministério do Turismo (MTur)
 - https://dados.turismo.gov.br/dataset/
+
+### Dados IBAMA - Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis
+O IBAMA utilizado o portal abaixo para disponibilizar dados e informações públicas, relacionados a operação e fiscalização.
+- https://dadosabertos.ibama.gov.br/en/dataset/
+
+
+
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
