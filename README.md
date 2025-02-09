@@ -1397,8 +1397,11 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     - Serviços disponíveis TJ| Maranhão - https://www.tjma.jus.br/portal
     - Serviços disponíveis Detran| Maranhão - https://www.detran.ma.gov.br/inicio/paginas/Home.xhtml
     - Serviços disponíveis Assembleia legislativa| Maranhão - https://www.al.ma.leg.br/sitealema/
+    - Sistema S| Maranhão - https://www.fiema.org.br/home
+    - OBA | Maranhão - https://www.oabma.org.br/
+    - FAM | Maranhão - https://famem.org.br/   
     - Serviços disponíveis GOV| Maranhão - https://www.ma.gov.br/servicos/
-    
+
 
     - Contatos do GOV| Maranhão - https://www.ma.gov.br/contatos
     - Portal da Transparência GOV| Maranhão https://www.transparencia.ma.gov.br/?_gl=1*1tcyjuy*_ga*NjA2MTcyNjc1LjE3MzkxMTU2NTQ.*_ga_43WSLQF7SQ*MTczOTExNTY1My4xLjEuMTczOTExNjE3My42MC4wLjA.
@@ -1419,6 +1422,36 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     - Açailandia - https://www.climaaovivo.com.br/ma/acailandia/acailandia
     - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-oeste
     - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-leste
+
+    ### Conselhos
+    CRMMA - https://crmma.org.br/servicos-para-medicos/certidoes-declaracoes/certidao-negativa-nada-consta
+    CRFMA - https://crfma.org.br/
+    CREAMA - https://www.creama.org.br/
+    CRPMA - https://crpma.org.br/
+    CREFMA - https://cref21.org.br/
+    CRAMA - https://cra-ma.org.br/
+    COREMA - https://www.coremaranhao.org.br/
+    CORENMA - https://corenma.gov.br/site2/
+    CEEM - https://conselhodeeducacao.ma.gov.br/
+    CRCMA - https://crcma.org.br/
+    CRTMA - https://www.crt02.gov.br/maranhao/
+    CRQMA - https://crq11.org.br/
+    CRESSMA - https://www.cressma.org.br/
+    CROMA - https://www.croma.org.br/
+    CFCMA - https://cfc.org.br/conselhos/conselho-regional-de-contabilidade-do-maranhao/
+    CRMVMA - https://www.crmvma.org.br/
+    CRTRMA - https://crtr17.gov.br/
+    CORECON - https://corecon-ma.org.br/
+    CRCMA - https://crcma.org.br/crcma/
+    CRBMMA - https://crbm2.gov.br/
+    CRNMA - https://crbm2.gov.br/
+
+
+    ### Serviços
+
+    - CAEMA - https://www.caema.ma.gov.br/
+    - EQUATORIAL - https://ma.equatorialenergia.com.br/
+    - BRK - https://minhabrk.com.br/home
 
 </details>
 
