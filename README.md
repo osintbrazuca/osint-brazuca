@@ -433,6 +433,7 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 - https://www.cptec.inpe.br/dsat/
 - http://mapas.sosma.org.br/
 - http://www.inpe.br/webelat/homepage/
+- https://sigef.incra.gov.br/
 
 </details>
 
@@ -479,6 +480,12 @@ Informações acerca de estabelecimentos e profissionais de saúde.
 
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
+
+### Monitoramento dos Gastos no Combate à COVID-19
+
+- https://www.tesourotransparente.gov.br/visualizacao/painel-de-monitoramentos-dos-gastos-com-covid-19
+- https://www.gov.br/compras/pt-br/painel-covid
+- https://portaldatransparencia.gov.br/coronavirus
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -562,6 +569,14 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 É uma rede social de negócios fundada com mais de 750 milhões de usuários.
 - https://www.linkedin.com/jobs/search/?keywords=SEU_ALVO&location=Brasil
 
+### Instagram
+Rede mais utilizada atualmente, ótimo para a busca de imagens por localidade
+- https://www.instagram.com/explore/
+
+Ferramenta para busca de dados no Instagram
+- https://www.aware-online.com/en/osint-tools/instagram-search-tool/
+- https://www.aware-online.com/en/osint-tools/instagram-tools/
+
 ### Twitter
 É uma rede social e um servidor para microblogging e é possível uma busca mais efetiva usando sua busca avançada.
 - ```seu_alvo lang:pt```
@@ -587,6 +602,17 @@ Uma ferramenta para capturando pensamentos e emoções da população do Twitter
 ### Snap Map
 - https://map.snapchat.com/@-15.127315,-51.412151,4.51z
 
+### YouTube
+- https://www.aware-online.com/en/osint-tools/youtube-search-tool/
+
+### Reedit
+- https://www.aware-online.com/en/osint-tools/reddit-search-tool/
+
+### Tiktok
+- https://www.tiktok.com/explore
+
+### Kwai
+- https://www.kwai.com/discover/
 
 ### Facebook Biblioteca de Anúncios
 A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
@@ -599,6 +625,7 @@ Uma ferramenta que busca redes sociais como Linkedin, instagram e facebook somen
 ### UVRX buscador de redes sociais
 Um site onde utiliza a busca do google para fazer uma pesquisa mais avançada em redes sociais.
 - http://www.uvrx.com/social.html
+- https://www.aware-online.com/osint-tools/
 
 ### OSINT Steam
 Uma ferramenta [open-source](https://github.com/Berchez/OSINT-steam) que retorna informações públicas, como lista de amigos e possíveis localizações, de perfís do Steam.
