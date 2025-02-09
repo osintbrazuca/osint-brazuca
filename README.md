@@ -765,6 +765,9 @@ O Banco Nacional de Desenvolvimento Econômico e Social (BNDES) é uma empresa p
 Os conjuntos de dados (datasets) deste Portal Estado de Minas Gerais estão documentados conforme as especificações Frictionless Data (dados sem fricção), que atendem à caracterização descrita nos normativos citados acima e possibilitam a validação automática dos dados.
 - https://dados.mg.gov.br/dataset/
 
+### Dados Abertos do Estado do Maranhão
+https://dados.ma.gov.br/
+
 ### Dados Abertos da Prefeitura de Belo Horizonte
 O Portal de Dados Abertos da Prefeitura de Belo Horizonte é a ferramenta disponibilizada pelo governo municipal para que todos possam encontrar e utilizar dados e informações públicas. 
 - https://dados.pbh.gov.br/dataset/
@@ -1384,6 +1387,22 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     </details>
 
 - ### Maranhão (MA) <a name="maranhao"></a>
+
+<details>
+        <summary>Consultas MA</summary>
+     
+    - Serviços disponíveis TRE | Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
+    - Serviços disponíveis TRT| Maranhão - https://www.trt16.jus.br/servicos/para-o-cidadao-e-advogado 
+    - Serviços disponíveis MP| Maranhão - https://www.mpma.mp.br/servicos/
+    - Serviços disponíveis MP| Maranhão - https://www.mpma.mp.br/servicos/
+
+    
+    - Serviços disponíveis Prefeitura | São Luis - https://saoluis.ma.gov.br/servicos
+    - Portal da Transparência Prefeitura | São Luis  https://transparencia.saoluis.ma.gov.br/
+    - Informações de Secretarias e Orgãos da prefeitura | São Luis - https://saoluis.ma.gov.br/secretarias
+
+</details>
+
 - ### Mato Grosso (MT) <a name="mato-grosso"></a>
 - ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
 - ### Minas Gerais (MG) <a name="minas-gerais"></a>
