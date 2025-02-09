@@ -1391,15 +1391,34 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 <details>
         <summary>Consultas MA</summary>
      
-    - Serviços disponíveis TRE | Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
+    - Serviços disponíveis TRE| Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
     - Serviços disponíveis TRT| Maranhão - https://www.trt16.jus.br/servicos/para-o-cidadao-e-advogado 
     - Serviços disponíveis MP| Maranhão - https://www.mpma.mp.br/servicos/
-    - Serviços disponíveis MP| Maranhão - https://www.mpma.mp.br/servicos/
-
+    - Serviços disponíveis TJ| Maranhão - https://www.tjma.jus.br/portal
+    - Serviços disponíveis Detran| Maranhão - https://www.detran.ma.gov.br/inicio/paginas/Home.xhtml
+    - Serviços disponíveis Assembleia legislativa| Maranhão - https://www.al.ma.leg.br/sitealema/
+    - Serviços disponíveis GOV| Maranhão - https://www.ma.gov.br/servicos/
     
+
+    - Contatos do GOV| Maranhão - https://www.ma.gov.br/contatos
+    - Portal da Transparência GOV| Maranhão https://www.transparencia.ma.gov.br/?_gl=1*1tcyjuy*_ga*NjA2MTcyNjc1LjE3MzkxMTU2NTQ.*_ga_43WSLQF7SQ*MTczOTExNTY1My4xLjEuMTczOTExNjE3My42MC4wLjA.
+    - Diário Oficial GOV| Maranhão - https://www.diariooficial.ma.gov.br/
+      
     - Serviços disponíveis Prefeitura | São Luis - https://saoluis.ma.gov.br/servicos
-    - Portal da Transparência Prefeitura | São Luis  https://transparencia.saoluis.ma.gov.br/
+    - Portal da Transparência Prefeitura | São Luis - https://transparencia.saoluis.ma.gov.br/
     - Informações de Secretarias e Orgãos da prefeitura | São Luis - https://saoluis.ma.gov.br/secretarias
+    - Diário Eletrônico Prefeitura | São Luis - https://diariooficial.saoluis.ma.gov.br/
+
+    - Serviços disponíveis Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/servicos
+    - Portal da Transparência Prefeitura | São José de Ribamar - https://transparencia.saojosederibamar.ma.gov.br/
+    - Informações de Secretarias e Orgãos da prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/secretarias/16510
+    - Diário Eletrônico Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/diario-eletronico/148327
+
+    ### Cameras Ao vivo 
+    - São Luis - https://www.climaaovivo.com.br/ma/sao-luis-hotel-abbeville
+    - Açailandia - https://www.climaaovivo.com.br/ma/acailandia/acailandia
+    - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-oeste
+    - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-leste
 
 </details>
 
