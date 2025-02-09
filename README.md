@@ -301,6 +301,8 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 ### Busca Através do IMEI/Legalidade do Aparelho
 O serviço prestado por este site informa somente a situação do aparelho celular que foi informado pelo usuário à operadora de telefonia móvel como roubado, furtado, perdido ou extraviado.
 - https://www.consultaaparelhoimpedido.com.br/public-web/welcome
+- https://www.consultaserialaparelho.com.br/public-web/homeSiga
+- https://www.imei.info/pt/
 
 
 ### Busca de Situação Cadastro / Portabilidade de Números Celulares e Fixos
@@ -311,6 +313,7 @@ O serviço prestado por este site informa somente a situação do aparelho celul
 - https://consultanumero.info/
 - https://www.qualoperadora.net/
 - http://consultaoperadora.com.br/site2015/
+- https://www.qualoperadora.org/
 
 ### Busca Operadora / Linha Pré ativa por CPF 
 Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, Claro, Oi, Sercomtel, TIM e Vivo).
@@ -318,10 +321,17 @@ Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, 
 
 ### Mapas de Cobertura das Operadoras
 Consulte a cobertura de rede 2G, 3G, 4G e 5G em qualquer região do Brasil, verificando a disponibilidade e intensidade do sinal das operadoras
+
+- (Visão geral) - https://conexis.org.br/numeros/mapa-de-antenas-completo/
 - https://mapadecobertura.vivo.com.br/
 - https://www.claro.com.br/mapa-de-cobertura
 - https://www.tim.com.br/para-voce/cobertura-e-roaming/mapa-de-cobertura
 - https://www.oi.com.br/portal-oi-cobertura/
+- https://www2.sercomtel.com.br/mapa-cobertura
+- https://algartelecom.com.br/para-voce/celular/cobertura-celular
+- https://www.brisanet.com.br/mapa-de-area-de-cobertura
+- https://www.gigamaisfibra.com.br/onde-estamos/
+- 
 
 ### Base De Orelhão X Mapa
 Por meio da busca é possível encontrar orelhões pelo número, localizar ruas, municípios, estados ou cidades
@@ -346,6 +356,11 @@ Digite o Indicativo da Estação sem pontos e sem traços.
 ### Mais informações sobre Radio amador
 Alguns dos sistemas dependem de cadastro de usuário (CPF + Senha). Abaixo dos links da ANATEL, links por tipo de serviços (Radioamador e Rádio do Cidadão)
 - https://araf.org.br/anatel-links-rapidos
+
+### Lista de frequências e repetidoras
+- https://www.radioamador.com/vhf/repetidorasold.htm
+- https://www.radiohaus.com.br/pagina.php?cod=22&nomodal
+- https://pt.wikipedia.org/wiki/Lista_de_faixas_e_subfaixas_do_servi%C3%A7o_radioamador_no_Brasil
 
 ### Números Discagem direta a distância ( DDD )
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
