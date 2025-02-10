@@ -82,6 +82,10 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 ---
 
 ## Benefícios sociais (Políticas Públicas) 📑 <a name="beneficios-sociais"></a>
+
+### Benefícios sociais existentes
+- https://www.caixa.gov.br/programas-sociais/Paginas/default.aspx
+
 ### Consulta Benefícios Sociais
 As famílias atendidas pelo Programa Bolsa Família devem entregar o extrato bancário de pagamento do benefício, juntamente com a consulta pública do programa “bolsa família” 
 - https://www.beneficiossociais.caixa.gov.br/consulta/beneficio/04.01.00-00_00.asp
@@ -714,8 +718,8 @@ Os microdados do Inep reúnem um conjunto de informações detalhadas relacionad
 
 ### Dados PF - Polícia Federal
 Em síntese, o trabalho de produção do PDA/PF consistiu na elaboração do inventário de bases de dados da Polícia Federal, no saneamento do inventário pelas Diretorias e unidades responsáveis, e, por fim, na priorização dos bancos a serem abertos com base em critérios sugeridos pelo Comitê Gestor da Infraestrutura Nacional de Dados Abertos-CGINDA.
-- https://www.gov.br/pf/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos-2024-2026
-
+- https://dados.gov.br/dados/organizacoes/visualizar/policia-federal
+- (BETA) https://www.gov.br/pf/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos-2024-2026
 
 ### Dados CAPES - Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
 A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) para a publicação de dados abertos foi a elaboração do Plano de Dados Abertos (PDA). O propósito deste documento é o de publicitar as ações e estratégias organizacionais que nortearão as atividades de implementação e promoção da abertura de dados, no âmbito da CAPES de forma institucionalizada e sistematizada.
@@ -1071,25 +1075,32 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - http://infotrafego.pbh.gov.br/info_trafego_cameras.html
 
 ### Câmeras do Aeroporto Internacional de São Paulo/Guarulhos - SGBR
-- https://www.youtube.com/watch?v=iA_TQxQS9Sw
+- https://www.youtube.com/@SBGRLIVE
+- https://www.youtube.com/@GolfOscarRomeo
 
 ### Câmera do Aeroporto de Congonhas São Paulo - SBSP FULL ATC
-- https://www.youtube.com/watch?v=rKM8wSr3ORU
+- https://www.youtube.com/@GolfOscarRomeo
 
 ### Câmera do Aeroporto Santos Dumont - Rio de Janeiro - SBRJ FULL ATC
-- https://www.youtube.com/watch?v=EPGfz0QibL0
+- https://www.youtube.com/@avtv
 
 ### Câmera do Aeroporto Galeão - Rio de Janeiro - SBGL
-- https://www.youtube.com/watch?v=dS2eAlS9UBE
+- https://www.youtube.com/@avtv
+
+### Câmera do Aeroporto Pinto Martins - Fortaleza - SBFZ
+- https://www.youtube.com/@mundo_aviao
 
 ### Câmera do Aeroporto Internacional de Florianópolis - SBFL Com Fonia
-- https://www.youtube.com/watch?v=xLen1r-iwfU
+- https://www.youtube.com/@maaxcamaovivo
 
 ### Câmera do Aeroporto da Pampulha - Belo Horizonte 24 horas (BHZ)(SBBH)
-- https://www.youtube.com/watch?v=NuyRxze2iUo
+- ...
 
-### Câmera do Aeroporto do Recife - SBRF
-- https://www.youtube.com/watch?v=BhTY_GHvSmg
+### Câmera do Aeroporto Guararapes - Recife - SBRF
+- https://www.youtube.com/@papacharliegolfTV
+
+### Câmera do Aeroporto Viracopos - Campinas - VCP
+- https://www.youtube.com/@ViracoposFullHD
 
 ### Câmeras de Obras em Andamento de Mato Grosso (SINFRA)
 - https://mapas.sinfra.mt.gov.br/portal/apps/sites/#/central-infra-20-2-1/pages/monitoramento-de-obras
@@ -1111,6 +1122,12 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 ### Estatísticas de Nascimentos, Óbitos, Registros e Casamentos
 - https://transparencia.registrocivil.org.br/registros 
+
+### Empresas de Segurança Privada
+- https://www.gov.br/pf/pt-br/assuntos/seguranca-privada
+
+### Consulta de Registro, Licença e Controle de Produtos Quimicos
+- https://www.gov.br/pf/pt-br/assuntos/produtos-quimicos
 
 ### Informações sobre um endereço de e-mail
 Permite recuperar, sem notificar o usuário, vários elementos relacionados a um endereço de e-mail, Nome, GoogleID, se há Mapas criados ou Agendas Públicas do Google Calendar, Validar se o e-mail está sendo utilizado em contas em outros sites.    
