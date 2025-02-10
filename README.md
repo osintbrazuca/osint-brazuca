@@ -1137,7 +1137,33 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Informações sobre um endereço de e-mail
 Permite recuperar, sem notificar o usuário, vários elementos relacionados a um endereço de e-mail, Nome, GoogleID, se há Mapas criados ou Agendas Públicas do Google Calendar, Validar se o e-mail está sendo utilizado em contas em outros sites.    
 - https://www.predictasearch.com
-- https://tools.epieos.com/email.php         
+- https://tools.epieos.com/email.php       
+
+### Busca de Bens a venda ou aluguel
+- https://www.olx.com.br/
+- https://www.estantevirtual.com.br/
+- https://www.enjoei.com.br/
+- https://www.repassa.com.br/
+- https://www.pegueibode.com.br/
+- https://www.ficoupequeno.com/
+- https://www.facebook.com/marketplace/?locale=pt_BR
+- https://www.mercadolivre.com.br/
+- https://www.elo7.com.br/
+- https://shopee.com.br/
+- https://napista.com.br/
+- https://napista.com.br/
+- https://napista.com.br/
+- https://autoline.com.br/
+- https://www.kavak.com/br
+- https://www.webmotors.com.br/
+
+### Conhecimento de empreendimentos por dentro
+- https://www.vrbo.com/pt-br/
+- https://www.airbnb.com.br/
+- https://www.quintoandar.com.br/
+- https://www.trivago.com.br/
+- https://www.tripadvisor.com.br/
+- https://www.booking.com/index.pt-br.html
         
 ### Informações Sobre Domínios
 <details>
