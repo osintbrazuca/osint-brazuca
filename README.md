@@ -82,6 +82,10 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 ---
 
 ## Benefícios sociais (Políticas Públicas) 📑 <a name="beneficios-sociais"></a>
+
+### Benefícios sociais existentes
+- https://www.caixa.gov.br/programas-sociais/Paginas/default.aspx
+
 ### Consulta Benefícios Sociais
 As famílias atendidas pelo Programa Bolsa Família devem entregar o extrato bancário de pagamento do benefício, juntamente com a consulta pública do programa “bolsa família” 
 - https://www.beneficiossociais.caixa.gov.br/consulta/beneficio/04.01.00-00_00.asp
@@ -301,6 +305,8 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 ### Busca Através do IMEI/Legalidade do Aparelho
 O serviço prestado por este site informa somente a situação do aparelho celular que foi informado pelo usuário à operadora de telefonia móvel como roubado, furtado, perdido ou extraviado.
 - https://www.consultaaparelhoimpedido.com.br/public-web/welcome
+- https://www.consultaserialaparelho.com.br/public-web/homeSiga
+- https://www.imei.info/pt/
 
 
 ### Busca de Situação Cadastro / Portabilidade de Números Celulares e Fixos
@@ -311,6 +317,7 @@ O serviço prestado por este site informa somente a situação do aparelho celul
 - https://consultanumero.info/
 - https://www.qualoperadora.net/
 - http://consultaoperadora.com.br/site2015/
+- https://www.qualoperadora.org/
 
 ### Busca Operadora / Linha Pré ativa por CPF 
 Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, Claro, Oi, Sercomtel, TIM e Vivo).
@@ -318,10 +325,17 @@ Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, 
 
 ### Mapas de Cobertura das Operadoras
 Consulte a cobertura de rede 2G, 3G, 4G e 5G em qualquer região do Brasil, verificando a disponibilidade e intensidade do sinal das operadoras
+
+- (Visão geral) - https://conexis.org.br/numeros/mapa-de-antenas-completo/
 - https://mapadecobertura.vivo.com.br/
 - https://www.claro.com.br/mapa-de-cobertura
 - https://www.tim.com.br/para-voce/cobertura-e-roaming/mapa-de-cobertura
 - https://www.oi.com.br/portal-oi-cobertura/
+- https://www2.sercomtel.com.br/mapa-cobertura
+- https://algartelecom.com.br/para-voce/celular/cobertura-celular
+- https://www.brisanet.com.br/mapa-de-area-de-cobertura
+- https://www.gigamaisfibra.com.br/onde-estamos/
+- 
 
 ### Base De Orelhão X Mapa
 Por meio da busca é possível encontrar orelhões pelo número, localizar ruas, municípios, estados ou cidades
@@ -346,6 +360,11 @@ Digite o Indicativo da Estação sem pontos e sem traços.
 ### Mais informações sobre Radio amador
 Alguns dos sistemas dependem de cadastro de usuário (CPF + Senha). Abaixo dos links da ANATEL, links por tipo de serviços (Radioamador e Rádio do Cidadão)
 - https://araf.org.br/anatel-links-rapidos
+
+### Lista de frequências e repetidoras
+- https://www.radioamador.com/vhf/repetidorasold.htm
+- https://www.radiohaus.com.br/pagina.php?cod=22&nomodal
+- https://pt.wikipedia.org/wiki/Lista_de_faixas_e_subfaixas_do_servi%C3%A7o_radioamador_no_Brasil
 
 ### Números Discagem direta a distância ( DDD )
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
@@ -418,6 +437,7 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 - https://www.cptec.inpe.br/dsat/
 - http://mapas.sosma.org.br/
 - http://www.inpe.br/webelat/homepage/
+- https://sigef.incra.gov.br/
 
 </details>
 
@@ -464,6 +484,12 @@ Informações acerca de estabelecimentos e profissionais de saúde.
 
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
+
+### Monitoramento dos Gastos no Combate à COVID-19
+
+- https://www.tesourotransparente.gov.br/visualizacao/painel-de-monitoramentos-dos-gastos-com-covid-19
+- https://www.gov.br/compras/pt-br/painel-covid
+- https://portaldatransparencia.gov.br/coronavirus
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -547,6 +573,14 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 É uma rede social de negócios fundada com mais de 750 milhões de usuários.
 - https://www.linkedin.com/jobs/search/?keywords=SEU_ALVO&location=Brasil
 
+### Instagram
+Rede mais utilizada atualmente, ótimo para a busca de imagens por localidade
+- https://www.instagram.com/explore/
+
+Ferramenta para busca de dados no Instagram
+- https://www.aware-online.com/en/osint-tools/instagram-search-tool/
+- https://www.aware-online.com/en/osint-tools/instagram-tools/
+
 ### Twitter
 É uma rede social e um servidor para microblogging e é possível uma busca mais efetiva usando sua busca avançada.
 - ```seu_alvo lang:pt```
@@ -572,6 +606,17 @@ Uma ferramenta para capturando pensamentos e emoções da população do Twitter
 ### Snap Map
 - https://map.snapchat.com/@-15.127315,-51.412151,4.51z
 
+### YouTube
+- https://www.aware-online.com/en/osint-tools/youtube-search-tool/
+
+### Reedit
+- https://www.aware-online.com/en/osint-tools/reddit-search-tool/
+
+### Tiktok
+- https://www.tiktok.com/explore
+
+### Kwai
+- https://www.kwai.com/discover/
 
 ### Facebook Biblioteca de Anúncios
 A Biblioteca de Anúncios garante a transparência publicitária oferecendo uma coleção abrangente e pesquisável de todos os anúncios em veiculação nos aplicativos e serviços do Facebook, incluindo o Instagram
@@ -584,6 +629,7 @@ Uma ferramenta que busca redes sociais como Linkedin, instagram e facebook somen
 ### UVRX buscador de redes sociais
 Um site onde utiliza a busca do google para fazer uma pesquisa mais avançada em redes sociais.
 - http://www.uvrx.com/social.html
+- https://www.aware-online.com/osint-tools/
 
 ### OSINT Steam
 Uma ferramenta [open-source](https://github.com/Berchez/OSINT-steam) que retorna informações públicas, como lista de amigos e possíveis localizações, de perfís do Steam.
@@ -672,8 +718,8 @@ Os microdados do Inep reúnem um conjunto de informações detalhadas relacionad
 
 ### Dados PF - Polícia Federal
 Em síntese, o trabalho de produção do PDA/PF consistiu na elaboração do inventário de bases de dados da Polícia Federal, no saneamento do inventário pelas Diretorias e unidades responsáveis, e, por fim, na priorização dos bancos a serem abertos com base em critérios sugeridos pelo Comitê Gestor da Infraestrutura Nacional de Dados Abertos-CGINDA.
-- https://www.gov.br/pf/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos-2024-2026
-
+- https://dados.gov.br/dados/organizacoes/visualizar/policia-federal
+- (BETA) https://www.gov.br/pf/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos-2024-2026
 
 ### Dados CAPES - Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
 A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) para a publicação de dados abertos foi a elaboração do Plano de Dados Abertos (PDA). O propósito deste documento é o de publicitar as ações e estratégias organizacionais que nortearão as atividades de implementação e promoção da abertura de dados, no âmbito da CAPES de forma institucionalizada e sistematizada.
@@ -682,6 +728,10 @@ A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível 
 ### Dados IBGE - Instituto Brasileiro de Geografia e Estatística
 Acesso a conteúdos das pesquisas estruturais, censos, entre outras, na área de estatísticas.
 - https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html
+
+### Dados Abertos TSE
+Dados gerados ou custodiados pelo TSE
+- https://dadosabertos.tse.jus.br/
 
 ### Dados Prefeitura de Mogi das Cruzes
 O Portal da Prefeitura de Mogi das Cruzes com Dados Abertos da Administração Pública Municipal.
@@ -722,6 +772,9 @@ O Banco Nacional de Desenvolvimento Econômico e Social (BNDES) é uma empresa p
 ### Dados Abertos do Estado de Minas Gerais
 Os conjuntos de dados (datasets) deste Portal Estado de Minas Gerais estão documentados conforme as especificações Frictionless Data (dados sem fricção), que atendem à caracterização descrita nos normativos citados acima e possibilitam a validação automática dos dados.
 - https://dados.mg.gov.br/dataset/
+
+### Dados Abertos do Estado do Maranhão
+https://dados.ma.gov.br/
 
 ### Dados Abertos da Prefeitura de Belo Horizonte
 O Portal de Dados Abertos da Prefeitura de Belo Horizonte é a ferramenta disponibilizada pelo governo municipal para que todos possam encontrar e utilizar dados e informações públicas. 
@@ -1025,26 +1078,34 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Câmeras da BHTRANS (Em beta ainda)
 - http://infotrafego.pbh.gov.br/info_trafego_cameras.html
 
+
 ### Câmeras do Aeroporto Internacional de São Paulo/Guarulhos - SGBR
-- https://www.youtube.com/watch?v=iA_TQxQS9Sw
+- https://www.youtube.com/@SBGRLIVE
+- https://www.youtube.com/@GolfOscarRomeo
 
 ### Câmera do Aeroporto de Congonhas São Paulo - SBSP FULL ATC
-- https://www.youtube.com/watch?v=rKM8wSr3ORU
+- https://www.youtube.com/@GolfOscarRomeo
 
 ### Câmera do Aeroporto Santos Dumont - Rio de Janeiro - SBRJ FULL ATC
-- https://www.youtube.com/watch?v=EPGfz0QibL0
+- https://www.youtube.com/@avtv
 
 ### Câmera do Aeroporto Galeão - Rio de Janeiro - SBGL
-- https://www.youtube.com/watch?v=dS2eAlS9UBE
+- https://www.youtube.com/@avtv
+
+### Câmera do Aeroporto Pinto Martins - Fortaleza - SBFZ
+- https://www.youtube.com/@mundo_aviao
 
 ### Câmera do Aeroporto Internacional de Florianópolis - SBFL Com Fonia
-- https://www.youtube.com/watch?v=xLen1r-iwfU
+- https://www.youtube.com/@maaxcamaovivo
 
 ### Câmera do Aeroporto da Pampulha - Belo Horizonte 24 horas (BHZ)(SBBH)
-- https://www.youtube.com/watch?v=NuyRxze2iUo
+- ...
 
-### Câmera do Aeroporto do Recife - SBRF
-- https://www.youtube.com/watch?v=BhTY_GHvSmg
+### Câmera do Aeroporto Guararapes - Recife - SBRF
+- https://www.youtube.com/@papacharliegolfTV
+
+### Câmera do Aeroporto Viracopos - Campinas - VCP
+- https://www.youtube.com/@ViracoposFullHD
 
 ### Câmeras de Obras em Andamento de Mato Grosso (SINFRA)
 - https://mapas.sinfra.mt.gov.br/portal/apps/sites/#/central-infra-20-2-1/pages/monitoramento-de-obras
@@ -1067,10 +1128,42 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Estatísticas de Nascimentos, Óbitos, Registros e Casamentos
 - https://transparencia.registrocivil.org.br/registros 
 
+### Empresas de Segurança Privada
+- https://www.gov.br/pf/pt-br/assuntos/seguranca-privada
+
+### Consulta de Registro, Licença e Controle de Produtos Quimicos
+- https://www.gov.br/pf/pt-br/assuntos/produtos-quimicos
+
 ### Informações sobre um endereço de e-mail
 Permite recuperar, sem notificar o usuário, vários elementos relacionados a um endereço de e-mail, Nome, GoogleID, se há Mapas criados ou Agendas Públicas do Google Calendar, Validar se o e-mail está sendo utilizado em contas em outros sites.    
 - https://www.predictasearch.com
-- https://tools.epieos.com/email.php         
+- https://tools.epieos.com/email.php       
+
+### Busca de Bens a venda ou aluguel
+- https://www.olx.com.br/
+- https://www.estantevirtual.com.br/
+- https://www.enjoei.com.br/
+- https://www.repassa.com.br/
+- https://www.pegueibode.com.br/
+- https://www.ficoupequeno.com/
+- https://www.facebook.com/marketplace/?locale=pt_BR
+- https://www.mercadolivre.com.br/
+- https://www.elo7.com.br/
+- https://shopee.com.br/
+- https://napista.com.br/
+- https://napista.com.br/
+- https://napista.com.br/
+- https://autoline.com.br/
+- https://www.kavak.com/br
+- https://www.webmotors.com.br/
+
+### Conhecimento de empreendimentos por dentro
+- https://www.vrbo.com/pt-br/
+- https://www.airbnb.com.br/
+- https://www.quintoandar.com.br/
+- https://www.trivago.com.br/
+- https://www.tripadvisor.com.br/
+- https://www.booking.com/index.pt-br.html
         
 ### Informações Sobre Domínios
 <details>
@@ -1086,6 +1179,11 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 ### Sites Notificados pelo Procon-SP
 Lista de sites que devem ser evitados, pois tiveram reclamações de consumidores registrada no Procon-SP, foram notificados, não responderam ou não foram encontrados.
 - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php
+
+### Consulta em cartórios
+- https://www.pesquisaprotesto.com.br/
+- https://www.registrodeimoveis.org.br/cartorios
+- https://e-cartoriodobrasil.com/pedido/imoveis/pesquisa-qualificada-de-bens
     
 ### Lista Telefônica
 - https://www.telenumeros.com/
@@ -1342,6 +1440,76 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     </details>
 
 - ### Maranhão (MA) <a name="maranhao"></a>
+
+<details>
+        <summary>Serviços MA</summary>
+    
+- Serviços disponíveis TRE| Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
+    - Serviços disponíveis TRT| Maranhão - https://www.trt16.jus.br/servicos/para-o-cidadao-e-advogado 
+    - Serviços disponíveis MP| Maranhão - https://www.mpma.mp.br/servicos/
+    - Serviços disponíveis TJ| Maranhão - https://www.tjma.jus.br/portal
+    - Serviços disponíveis Detran| Maranhão - https://www.detran.ma.gov.br/inicio/paginas/Home.xhtml
+    - Serviços disponíveis Assembleia legislativa| Maranhão - https://www.al.ma.leg.br/sitealema/
+    - Sistema S| Maranhão - https://www.fiema.org.br/home
+    - OBA | Maranhão - https://www.oabma.org.br/
+    - FAM | Maranhão - https://famem.org.br/   
+    - Serviços disponíveis GOV| Maranhão - https://www.ma.gov.br/servicos/
+
+- ### Governo do Maranhão
+    - Contatos do GOV| Maranhão - https://www.ma.gov.br/contatos
+    - Portal da Transparência GOV| Maranhão https://www.transparencia.ma.gov.br/?_gl=1*1tcyjuy*_ga*NjA2MTcyNjc1LjE3MzkxMTU2NTQ.*_ga_43WSLQF7SQ*MTczOTExNTY1My4xLjEuMTczOTExNjE3My42MC4wLjA.
+    - Diário Oficial GOV| Maranhão - https://www.diariooficial.ma.gov.br/
+
+- ### Prefeitura de São Luis     
+    - Serviços disponíveis Prefeitura | São Luis - https://saoluis.ma.gov.br/servicos
+    - Portal da Transparência Prefeitura | São Luis - https://transparencia.saoluis.ma.gov.br/
+    - Informações de Secretarias e Orgãos da prefeitura | São Luis - https://saoluis.ma.gov.br/secretarias
+    - Diário Eletrônico Prefeitura | São Luis - https://diariooficial.saoluis.ma.gov.br/
+
+- ### Prefeitura São José de Ribamar
+    - Serviços disponíveis Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/servicos
+    - Portal da Transparência Prefeitura | São José de Ribamar - https://transparencia.saojosederibamar.ma.gov.br/
+    - Informações de Secretarias e Orgãos da prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/secretarias/16510
+    - Diário Eletrônico Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/diario-eletronico/148327
+
+ - ### Cameras Ao vivo 
+    - São Luis - https://www.climaaovivo.com.br/ma/sao-luis-hotel-abbeville
+    - Açailandia - https://www.climaaovivo.com.br/ma/acailandia/acailandia
+    - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-oeste
+    - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-leste
+
+- ### Conselhos
+   - CRMMA - https://crmma.org.br/servicos-para-medicos/certidoes-declaracoes/certidao-negativa-nada-consta
+   - CRFMA - https://crfma.org.br/
+   - CREAMA - https://www.creama.org.br/
+   - CRPMA - https://crpma.org.br/
+   - CREFMA - https://cref21.org.br/
+   - CRAMA - https://cra-ma.org.br/
+   - COREMA - https://www.coremaranhao.org.br/
+   - CORENMA - https://corenma.gov.br/site2/
+   - CEEM - https://conselhodeeducacao.ma.gov.br/
+   - CRCMA - https://crcma.org.br/
+   - CRTMA - https://www.crt02.gov.br/maranhao/
+   - CRQMA - https://crq11.org.br/
+   - CRESSMA - https://www.cressma.org.br/
+   - CROMA - https://www.croma.org.br/
+   - CFCMA - https://cfc.org.br/conselhos/conselho-regional-de-contabilidade-do-maranhao/
+   - CRMVMA - https://www.crmvma.org.br/
+   - CRTRMA - https://crtr17.gov.br/
+   - CORECON - https://corecon-ma.org.br/
+   - CRCMA - https://crcma.org.br/crcma/
+   - CRBMMA - https://crbm2.gov.br/
+   - CRNMA - https://crbm2.gov.br/
+
+
+- ### Serviços
+
+    - CAEMA - https://www.caema.ma.gov.br/
+    - EQUATORIAL - https://ma.equatorialenergia.com.br/
+    - BRK - https://minhabrk.com.br/home
+
+</details>
+
 - ### Mato Grosso (MT) <a name="mato-grosso"></a>
 - ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
 - ### Minas Gerais (MG) <a name="minas-gerais"></a>
