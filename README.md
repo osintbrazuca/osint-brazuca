@@ -1391,7 +1391,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 <details>
         <summary>Serviços MA</summary>
     
--     Serviços disponíveis TRE| Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
+- Serviços disponíveis TRE| Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
     - Serviços disponíveis TRT| Maranhão - https://www.trt16.jus.br/servicos/para-o-cidadao-e-advogado 
     - Serviços disponíveis MP| Maranhão - https://www.mpma.mp.br/servicos/
     - Serviços disponíveis TJ| Maranhão - https://www.tjma.jus.br/portal
