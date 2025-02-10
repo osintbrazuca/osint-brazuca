@@ -1074,6 +1074,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Câmeras da BHTRANS (Em beta ainda)
 - http://infotrafego.pbh.gov.br/info_trafego_cameras.html
 
+
 ### Câmeras do Aeroporto Internacional de São Paulo/Guarulhos - SGBR
 - https://www.youtube.com/@SBGRLIVE
 - https://www.youtube.com/@GolfOscarRomeo
