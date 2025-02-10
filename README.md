@@ -635,6 +635,11 @@ Um site onde utiliza a busca do google para fazer uma pesquisa mais avançada em
 Uma ferramenta [open-source](https://github.com/Berchez/OSINT-steam) que retorna informações públicas, como lista de amigos e possíveis localizações, de perfís do Steam.
 - https://osint-steam.vercel.app/pt
 
+### Scan User
+Ferramenta desenvolvida em linguagem shellscript em português para buscas de perfis online com e-mail e nickname, incluindo fotos, onde é possível enviar os resultados para o Telegram via API.
+- https://github.com/faciltech/scan-user
+- Autor: Eduardo Amaral
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
