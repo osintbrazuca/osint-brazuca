@@ -1153,6 +1153,11 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 ### Sites Notificados pelo Procon-SP
 Lista de sites que devem ser evitados, pois tiveram reclamações de consumidores registrada no Procon-SP, foram notificados, não responderam ou não foram encontrados.
 - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php
+
+### Consulta em cartórios
+- https://www.pesquisaprotesto.com.br/
+- https://www.registrodeimoveis.org.br/cartorios
+- https://e-cartoriodobrasil.com/pedido/imoveis/pesquisa-qualificada-de-bens
     
 ### Lista Telefônica
 - https://www.telenumeros.com/
