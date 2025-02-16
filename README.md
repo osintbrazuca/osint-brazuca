@@ -640,6 +640,10 @@ Ferramenta desenvolvida em linguagem shellscript em português para buscas de pe
 - https://github.com/faciltech/scan-user
 - Autor: Eduardo Amaral
 
+### Caipora Pro
+Repositório de ferramentas para Inteligência de Fontes Abertas (OSINT) e Investigação Digital com enfoque no Brasil.
+- https://caipora.pro
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
