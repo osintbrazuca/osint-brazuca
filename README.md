@@ -882,6 +882,12 @@ Permite visualizar os veículos, nacionais e estrangeiros, habilitados pela ANTT
 Consulta Linhas que Fazem Ligação entre Duas Localidades
 - https://portal.antt.gov.br/linhas-de-onibus
 
+### Consulta de Linhas de Ônibus Ao vivo para São Paulo
+- https://radar24.net/train-radar/
+
+### Consulta de Linhas de Trem
+- https://radar24.net/train-radar/
+
 ### Consulta Horários e Passagens Ônibus
 Somos o portal de pesquisa de horários e passagens de ônibus mais completo e mais acessado do Brasil, chegando a 4,1 milhões de visitas mensais.
 - https://www.buscaonibus.com.br/
@@ -979,6 +985,12 @@ Rastreamento de informações sobre transporte na cidade de Curitiba. É possive
 
 ### Rotas de Tráfego Marítimo
 - https://marineradar.de/en/
+
+### Pesquisa de Ferrys
+- https://www.ferryscanner.com/pt/navios-de-ferry
+
+### Pesquisa de Cruzeiros
+- https://centraldecruzeiros.com.br/
 
 
 
