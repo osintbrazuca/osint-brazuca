@@ -1128,6 +1128,10 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ### Antecedentes Criminais
 - https://servicos.dpf.gov.br/antecedentes-criminais/certidao
 
+### Sinesp Cidadão (Site a APP)
+- Consultar informações sobre: Veículos, Mandados de prisão, Pessoas desaparecidas, Criminosos procurados
+- https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf
+
 ### Busca de Falecidos/Óbitos
 - https://www.falecidosnobrasil.org.br/
     
