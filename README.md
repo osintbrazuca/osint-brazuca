@@ -37,6 +37,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Datasets / Dados Abertos](#datasets)
 - [Consulta de Transporte Terrestre](#consulta-transporte-terrestre)
 - [Tracking de Viagens de Ônibus ](#tracking-viagens-onibus)
+- [Consulta de Transporte Aquaviário](#consulta-transporte-aquaviario)
 - [Consulta de Transporte Aéreo](#consulta-transporte-aereo)
 - [Câmeras Online](#cameras-online)
 - [Outras Buscas](#outras-buscas)
@@ -810,6 +811,8 @@ A CVM é a Autarquia do governo federal que atua para garantir a integridade, es
 ### Dados TCMGO - Portal oficial do Tribunal de Contas dos Municípios do Estado de Goiás
 - https://www.tcm.go.gov.br/Reports/browse/
 
+### Serviço Geológico do Brasil
+- https://www.sgb.gov.br/
 
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
@@ -878,6 +881,12 @@ Permite visualizar os veículos, nacionais e estrangeiros, habilitados pela ANTT
 ### Consulta Linhas de Ônibus
 Consulta Linhas que Fazem Ligação entre Duas Localidades
 - https://portal.antt.gov.br/linhas-de-onibus
+
+### Consulta de Linhas de Ônibus Ao vivo para São Paulo
+- https://radar24.net/train-radar/
+
+### Consulta de Linhas de Trem
+- https://radar24.net/train-radar/
 
 ### Consulta Horários e Passagens Ônibus
 Somos o portal de pesquisa de horários e passagens de ônibus mais completo e mais acessado do Brasil, chegando a 4,1 milhões de visitas mensais.
@@ -948,6 +957,44 @@ Rastreamento de informações sobre transporte na cidade de Curitiba. É possive
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
+---
+## Consulta de Transporte Aquaviário 🛫 <a name="consulta-transporte-aquaviario"></a>
+
+### Consulta dados públicos de fiscalização e processos sancionadores da ANTAQ
+- https://aquarela.antaq.gov.br/single/?appid=62518b21-6421-4eab-9c35-bcfac6d57ffd&sheet=70ada7af-9026-4f15-a862-8a40becb7e7d&theme=horizon&opt=currsel,ctxmenu
+
+### Dados Públicos - Gestão de multas e indicadores | ANTAQ
+- https://app.powerbi.com/view?r=eyJrIjoiYTI4MDc3OWEtMmY5Yi00OTU4LTk3OWYtZjExODY0NTExMTQ0IiwidCI6IjhlNTdmNzI3LTBlNWUtNDEzMC04ZTI0LTJkNWY3YzhjMzhmNiJ9
+
+### Navegação Interior - Pesquisa de Empresas Autorizadas
+- https://web3.antaq.gov.br/Portal/Frota/ConsultarEmpresaInteriorAutorizada.aspx
+
+### Pesquisa de Linhas e Horários Navegação Interior
+- https://web3.antaq.gov.br/ea/sense/index.html#pt
+
+### Atlas Aquaviários 
+- https://www.gov.br/dnit/pt-br/assuntos/aquaviario/atlas-aquaviario/
+
+### Patrimônio Imobiliário do DNIT no Âmbito da Infraestrutura Aquaviária
+- https://www.gov.br/dnit/pt-br/assuntos/aquaviario/patrimonio
+
+
+### Radar de Tráfego Marítimo
+- https://www.marinetraffic.com/en/ais/home/centerx:-40.1/centery:-3.4/zoom:7
+- https://radar24.net/ship-radar/
+
+### Rotas de Tráfego Marítimo
+- https://marineradar.de/en/
+
+### Pesquisa de Ferrys
+- https://www.ferryscanner.com/pt/navios-de-ferry
+
+### Pesquisa de Cruzeiros
+- https://centraldecruzeiros.com.br/
+
+
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 ---
 
 ## Consulta de Transporte Aéreo 🛫 <a name="consulta-transporte-aereo"></a>
@@ -1127,6 +1174,10 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 ### Antecedentes Criminais
 - https://servicos.dpf.gov.br/antecedentes-criminais/certidao
+
+### Sinesp Cidadão (Site a APP)
+- Consultar informações sobre: Veículos, Mandados de prisão, Pessoas desaparecidas, Criminosos procurados
+- https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf
 
 ### Busca de Falecidos/Óbitos
 - https://www.falecidosnobrasil.org.br/
