@@ -645,6 +645,11 @@ Ferramenta desenvolvida em linguagem shellscript em português para buscas de pe
 Repositório de ferramentas para Inteligência de Fontes Abertas (OSINT) e Investigação Digital com enfoque no Brasil.
 - https://caipora.pro
 
+### OSINTkit-Brasil
+Curadoria nacional de ferramentas de OSINT (Open Source Intelligence), cuidadosamente organizadas para facilitar investigações, pesquisas e atividades de segurança da informação. 
+O projeto reúne mais de 1600 links úteis categorizados em formato de bookmarks HTML compatíveis com qualquer navegador.
+- https://github.com/felipeluan20/OSINTKit-Brasil
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
