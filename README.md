@@ -237,6 +237,10 @@ A intenção deste serviço é ajudar você descobrir e confirmar qual a situaç
 Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica). Bem como, consultar Certidão Eletrônica de Ações Trabalhistas - CEAT.  Em escolha ao CPNJ poder ser que retorne o CPF como complemento ao nome.
 - https://sistemas.trt3.jus.br/certidao/feitosTrabalhistas/aba1.emissao.htm        
 
+### Consulta de CPF Serasa
+Neste Serviço é possível consultar um CPF e ele retorna informações como nome completo, data de nascimento, nome da mãe e situação atual de score no Serasa. 
+- https://apresentcredinfo.com/consulta/
+
 ### Visualização de dados públicos de CNPJ
 Ferramenta para observar o relacionamento entre empresas e sócios, a partir dos dados públicos disponibilizados pela Receita Federal. Pode ser executado localmente, baixando o código do Github ou executado online diretamente no site do projeto.
 - https://www.redecnpj.com.br/rede/
