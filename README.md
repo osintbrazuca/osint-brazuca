@@ -222,6 +222,8 @@ Descubra os processos judiciais no Brasil que citam pol√≠ticos como partes em a√
 - https://www.informecadastral.com.br/
 - https://www.situacaocadastral.info/
 - http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21
+- https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/
+- https://dados-abertos-rf-cnpj.casadosdados.com.br/arquivos/
 
 </details>
 
