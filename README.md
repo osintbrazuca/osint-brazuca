@@ -826,6 +826,10 @@ A CVM é a Autarquia do governo federal que atua para garantir a integridade, es
 Projeto da Open Knowledge Brasil que reúne e disponibiliza em formato aberto os diários oficiais de centenas de prefeituras brasileiras.
 - https://queridodiario.ok.org.br
 
+### Fogocruzado
+O maior banco de dados sobre violência armada da América Latina. Pesquisar ocorrências. É possivel pesquisar dados por estado, cidades, datas e tipo de ocorrência.
+- https://api.fogocruzado.org.br/search
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
