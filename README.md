@@ -1249,7 +1249,7 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 - https://rdap.registro.br/domain/seu_dominio_exemplo.com.br
 - https://registro.br/tecnologia/ferramentas/whois/
 - https://registro.br/tecnologia/ferramentas/pesquisa-de-usuario/
-
+- https://kaponline.com.br/whois/
 </details>
 
 ### Sites Notificados pelo Procon-SP
