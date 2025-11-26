@@ -33,6 +33,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Registros de Marcas e Patentes](#registros-marcas-patentes)
 - [Transparência Pública e Defesa do Consumidor](#transparencia-defesa-consumidor)
 - [Diários Oficiais](#diarios-oficiais)
+- [Cultura e Audiovisual](#cultura-audiovisual)
 - [Telecom](#telecom)
 - [Estação Rádio Base - ERBs](#estacoes-radio-erbs)
 - [Informações Acadêmicas](#informacoes-academicas)
@@ -210,6 +211,22 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 ### ABRAJI - Publique-se
 Descubra os processos judiciais no Brasil que citam políticos como partes em ações judiciais de interesse público. O banco de dados do projeto permite atualmente a consulta de processos do STF, STJ, tribunais federais e tribunais de Justiça, que citam 3445 políticos. Mais processos e tribunais serão adicionados ao longo de 2025.
 - https://www.publique-se.org.br/
+
+### CNJ - Consulta de Processos de Improbidade Administrativa
+Consulta pública de processos de improbidade administrativa por número do processo.
+- https://www.cnj.jus.br/improbidade_adm/consultar_processo.php
+
+### CNJ - Consulta de Requeridos por Improbidade
+Consulta de pessoas e entidades requeridas em ações de improbidade administrativa.
+- https://www.cnj.jus.br/improbidade_adm/consultar_requerido.php
+
+### CNJ - Consulta de Classes Processuais SGT
+Sistema de Gestão de Tabelas Processuais Unificadas - consulta de classes processuais.
+- https://www.cnj.jus.br/sgt/consulta_publica_classes.php
+
+### PJe - Comunicação Processual
+Sistema de intimações e comunicações processuais eletrônicas do Processo Judicial Eletrônico.
+- https://comunica.pje.jus.br/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -425,6 +442,18 @@ Sistema de controle do transporte e armazenamento de produtos e subprodutos flor
 Consulta de licenças ambientais do Estado de São Paulo.
 - https://cetesb.sp.gov.br/licenciamentoambiental/
 
+### MapBiomas - Plataforma de Consulta
+Plataforma interativa para consulta de dados de cobertura e uso do solo no Brasil com visualização de mapas e análises temporais.
+- https://plataforma.brasil.mapbiomas.org/
+
+### MapBiomas - Estatísticas
+Estatísticas detalhadas sobre mudanças no uso da terra e cobertura vegetal no Brasil.
+- https://brasil.mapbiomas.org/estatisticas/
+
+### MapBiomas - Cobertura 10m
+Mapas de alta resolução (10 metros) de cobertura e uso da terra.
+- https://brasil.mapbiomas.org/mapbiomas-cobertura-10m/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -499,6 +528,14 @@ Portal do PROCON-SP com orientações, consultas e canais de reclamação.
 Portal estadual de transparência com dados de remuneração, contratos, convênios e despesas do governo paulista.
 - https://www.transparencia.sp.gov.br/
 
+### E-Agendas CGU
+Consulta de agendas públicas de autoridades do Governo Federal.
+- https://eagendas.cgu.gov.br/
+
+### Portal da Transparência - Consulta de Notas Fiscais
+Consulta detalhada de notas fiscais emitidas para órgãos públicos federais, com filtros por UF, fornecedor, período e órgão.
+- https://portaldatransparencia.gov.br/notas-fiscais/consulta
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -508,6 +545,10 @@ Portal estadual de transparência com dados de remuneração, contratos, convên
 ### Diário Oficial da União (DOU)
 Publicações oficiais do Governo Federal.
 - https://www.in.gov.br/
+
+### Imprensa Nacional - Consulta de Matérias
+Busca avançada de matérias publicadas no Diário Oficial da União com filtros por período, seção, órgão e palavras-chave.
+- https://www.in.gov.br/materia
 
 ### Querido Diário
 Projeto da Open Knowledge Brasil que reúne e disponibiliza em formato aberto os diários oficiais de centenas de prefeituras brasileiras.
@@ -575,6 +616,52 @@ Projeto da Open Knowledge Brasil que reúne e disponibiliza em formato aberto os
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
+
+## Cultura e Audiovisual 🎬 <a name="cultura-audiovisual"></a>
+
+### ANCINE - Consulta de Processos SEI
+Sistema de consulta pública de processos administrativos da ANCINE.
+- https://sei.ancine.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0
+
+### ANCINE - Consulta de Unidades de Exibição
+Consulta pública de salas de cinema e espaços de exibição cadastrados.
+- https://sad.ancine.gov.br/consultapublica/telaPrincipalUE.do?method=initListar
+
+### ANCINE - Consulta de Projetos Audiovisuais
+Consulta de projetos audiovisuais registrados na ANCINE.
+- https://sad.ancine.gov.br/projetosaudiovisuais/ConsultaProjetosAudiovisuais.do?method=init
+
+### ANCINE - Consulta de Empresas Cadastradas
+Consulta de agentes econômicos (empresas) do setor audiovisual cadastrados.
+- https://sad2.ancine.gov.br/agenteeconomico/consultaViaPortal/consultaExternaEmpresasCadastradas.seam
+
+### ANCINE - Consulta de Agentes Econômicos
+Consulta detalhada de agentes econômicos do setor audiovisual por tipo.
+- https://sad2.ancine.gov.br/agenteeconomico/consultaViaPortal/consultaExternaAE.seam
+
+### ANCINE - Consulta de Obras Publicitárias
+Consulta de obras publicitárias registradas na ANCINE.
+- https://sad2.ancine.gov.br/obraspublicitarias/consultaGeralViaPortal/consultaGeralViaPortal.seam
+
+### ANCINE - Certificado de Registro de Título (CRT)
+Consulta de CRT de obras audiovisuais.
+- https://sad2.ancine.gov.br/obrasnaopublicitarias/consultarCrtViaPortal/consultarCrtViaPortal.seam
+
+### ANCINE - Certificado de Produto Brasileiro (CPB)
+Consulta de CPB de obras audiovisuais brasileiras.
+- https://sad2.ancine.gov.br/obrasnaopublicitarias/pesquisarCpbViaPortal/pesquisarCpbViaPortal.seam
+
+### ANCINE - Registro de Obra Estrangeira (ROE)
+Consulta de obras estrangeiras registradas no Brasil.
+- https://sad2.ancine.gov.br/obrasnaopublicitarias/consultarRoeViaPortal/consultarRoeViaPortal.seam
+
+### ANCINE - Consulta de Obras
+Consulta geral de obras audiovisuais cadastradas.
+- https://sad2.ancine.gov.br/obrasnaopublicitarias/consultarObraViaPortal/consultarObraViaPortal.seam
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
 ## Telecom 📡 <a name="telecom"></a>
 
 ### Busca Através do IMEI/Legalidade do Aparelho
@@ -621,7 +708,15 @@ Painéis de dados sobre infraestrutura de telecomunicações no Brasil.
 
 ### ANATEL - Consulta de Provedores Regionais
 Consulta de prestadoras de serviços de telecomunicações por localidade.
-- https://sistemas.anatel.gov.br/sis/cadastrosimplificado/ConsultaPrestadoraLocalidade/tela.asp 
+- https://sistemas.anatel.gov.br/sis/cadastrosimplificado/ConsultaPrestadoraLocalidade/tela.asp
+
+### ANATEL - Consulta de Radiofrequências por Sistema
+Consulta de sistemas de radiofrequência autorizados pela ANATEL.
+- https://sistemas.anatel.gov.br/srd/TelaListagem.asp?PagSRD=DescSistema&NumServico=231&op=5&SISQSmodulo=9830
+
+### ANATEL - Sistema de Radiocomunicação Digital
+Portal de consulta de serviços de radiocomunicação digital.
+- https://sistemas.anatel.gov.br/srd/Default.asp?SISQSmodulo=208&SISQSsistema=16
 
 ### Base De Orelhão X Mapa
 Por meio da busca é possível encontrar orelhões pelo número, localizar ruas, municípios, estados ou cidades
@@ -814,6 +909,15 @@ Informações sobre agravos de notificação compulsória.
 ### Farmácia Popular - Estabelecimentos Credenciados
 Lista de estabelecimentos credenciados no programa Farmácia Popular.
 - https://www.gov.br/saude/pt-br/assuntos/assistencia-farmaceutica-no-sus/farmacia-popular
+
+### DataSUS - Transferência de Arquivos
+Portal para download de bases de dados de saúde pública, incluindo SIM, SINASC, SIH, SIA e outros sistemas.
+- https://datasus.saude.gov.br/transferencia-de-arquivos/
+  - https://datasus.saude.gov.br/wp-content/zipupload/ (Transferência de Arquivos / DataSUS)
+
+### RIPSA - Rede Interagencial de Informações para a Saúde
+Portal com indicadores de saúde, dados demográficos e socioeconômicos relacionados à saúde no Brasil.
+- https://www.ripsa.org.br/
 
 ### Monitoramento dos Gastos no Combate à COVID-19
 
@@ -1868,6 +1972,15 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 
 - ### Alagoas (AL) <a name="alagoas"></a>
 - ### Amapá (AP) <a name="amapa"></a>
+    <details>
+        <summary>Consultas AP</summary>
+        
+    - TJ-AP PJe 1º Grau - https://pje.tjap.jus.br/1g/ConsultaPublica/listView.seam
+    - TJ-AP PJe 2º Grau - https://pje.tjap.jus.br/2g/ConsultaPublica/listView.seam
+    - TJ-AP Tucujuris (Processos Físicos) - https://tucujuris.tjap.jus.br/pages/consultar-processo/consultar-processo.html
+    - SEEU-AP Sistema Eletrônico de Execução Unificado - https://seeu-consulta-pub.pje.jus.br/seeu/processo/consultaPublica.do?actionType=iniciar
+            
+    </details>
 - ### Amazonas (AM) <a name="amazonas"></a>
 - ### Bahia (BA) <a name="bahia"></a>
 - ### Ceará (CE) <a name="ceara"></a>
@@ -1885,7 +1998,8 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     - Primeira_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/primeira-cnh 
     - Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
     - Processos físicos 2º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
-    - Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4    
+    - Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4
+    - TJ-GO Acordo Aqui - https://acordoaqui.tjgo.jus.br/acordo-aqui/pesquisa
     - Consulta Nota Fiscal - https://www.goiania.go.gov.br/sing_servicos/nota-fiscal-eletronica/
     - Consulta DUAM-IPTU-ITU-ISSQN - https://www.goiania.go.gov.br/sing_servicos/emissao-duam-itu-iptu-issqn/
     - Consulta matrículas - https://www.goiania.go.gov.br/sing_servicos/matriculas-web/
@@ -2103,6 +2217,13 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     </details>
         
 - ### Roraima (RR) <a name="roraima"></a>
+    <details>
+        <summary>Consultas RR</summary>
+        
+    - DETRAN-RR Consulta de Veículos - https://www.rr.getran.com.br/site/apps/veiculo/filtroplacarenavam-consultaveiculo.jsp
+    - DETRAN-RR Nada Consta - https://www.rr.getran.com.br/site/apps/nada-consta/filtroPessoaNadaConsta.jsp
+            
+    </details>
 - ### Santa Catarina (SC) <a name="santa-catarina"></a>
     <details>
         <summary>Monitoramento de Segurança Pública:</summary>
