@@ -26,6 +26,11 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Pessoas Desaparecidas](#pessoas-desaparecidas)
 - [Consulta de Processos](#consulta-processos)      
 - [Busca de Informações via CPF/CNPJ/CRM/CNA](#busca-cpf-cnpj-crm-cna)
+- [Registros Eleitorais e Políticos](#registros-eleitorais-politicos)
+- [Registros de Imóveis e Propriedades](#registros-imoveis-propriedades)
+- [Registros Ambientais](#registros-ambientais)
+- [Comércio Exterior](#comercio-exterior)
+- [Registros de Marcas e Patentes](#registros-marcas-patentes)
 - [Telecom](#telecom)
 - [Estação Rádio Base - ERBs](#estacoes-radio-erbs)
 - [Informações Acadêmicas](#informacoes-academicas)
@@ -264,6 +269,22 @@ Pesquisar no Repositório do cadastro de psicólogos do Brasil.
 Mantido pelo Conselho Federal de Psicologia, órgão com a finalidade fiscalizar o exercício da profissão de Psicólogo no Brasil. Para realizar a consulta, basta preencher o formulário e pesquisar.
 - https://cadastro.cfp.org.br
 
+### Conselho de Arquitetura e Urbanismo (CAU)
+Consulta de profissionais registrados no CAU.
+- https://www.caubr.gov.br/
+
+### Conselho Federal de Farmácia (CFF)
+Consulta de profissionais de farmácia registrados.
+- https://www.cff.org.br/
+
+### COFFITO - Conselho Federal de Fisioterapia e Terapia Ocupacional
+Consulta de fisioterapeutas e terapeutas ocupacionais.
+- https://www.coffito.gov.br/
+
+### Conselho Federal de Nutricionistas (CFN)
+Consulta de nutricionistas registrados.
+- https://www.cfn.org.br/
+
 ### Conselho Federal de Engenharia e Agronomia (Confea)
 Pesquisar no Repositório do cadastro das profissões inseridas no Sistema Confea/Crea.
 Mantido pelo  Conselho Federal de Engenharia e Agronomia – Confea, instituído juntamente com os Conselhos Regionais de Engenharia e Agronomia pelo Decreto nº 23.569, de 11 de dezembro de 1933, é a instância superior da fiscalização do exercício das profissões inseridas no Sistema Confea/Crea.
@@ -287,6 +308,25 @@ Consulta o status de requisição de aposentádoria de INSS. Vale para todo o te
 Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.
 - http://solucoes.receita.fazenda.gov.br/Servicos/ConsRest/Atual.app/paginas/mobile/restituicaoMobi.asp
 
+### Portal e-CAC Receita Federal
+Centro de Atendimento Virtual (e-CAC) da Receita Federal permite acesso a serviços digitais.
+- https://cav.receita.fazenda.gov.br/
+
+### CEIS - Cadastro de Empresas Inidôneas e Suspensas
+Consulta de empresas impedidas de participar de licitações e celebrar contratos com a Administração Pública.
+- http://www.portaltransparencia.gov.br/sancoes/ceis
+
+### CNEP - Cadastro Nacional de Empresas Punidas
+Consulta de empresas punidas com base na Lei Anticorrupção.
+- http://www.portaltransparencia.gov.br/sancoes/cnep
+
+### CEPIM - Cadastro de Entidades Privadas Sem Fins Lucrativos Impedidas
+Consulta de entidades privadas sem fins lucrativos impedidas de celebrar convênios com a Administração Pública Federal.
+- http://www.portaltransparencia.gov.br/sancoes/cepim
+
+### InfoConv - Sistema de Gestão de Convênios e Contratos de Repasse
+Consulta de convênios e contratos de repasse firmados com órgãos e entidades da Administração Pública Federal.
+- https://www.convenios.gov.br/
 
 ### Consulta Junta Comercial do Estado de São Paulo (Jucesp)
 Pesquisa no banco de dados da Junta Comercial do Estado de São Paulo.
@@ -300,6 +340,124 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 
 - https://respondendo.ibge.gov.br/verifique-a-identidade-do-entrevistador.html
 - https://www.ibge.gov.br/acesso-informacao/institucional/documentos-ibge/1861-novo-portal/institucional/17422-servidores.html
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Registros Eleitorais e Políticos 🗳️ <a name="registros-eleitorais-politicos"></a>
+
+### TSE - Divulgação de Candidaturas e Contas Eleitorais
+Sistema de divulgação de candidaturas, contas eleitorais e de prestação de contas.
+- https://divulgacandcontas.tse.jus.br/divulga/
+
+### TSE - Consulta de Contas Eleitorais
+Consulta de prestação de contas de campanhas eleitorais.
+- https://www.tse.jus.br/eleicoes/contas-eleitorais
+
+### Consulta de Filiação Partidária
+Consulta pública de filiação partidária de eleitores.
+- https://filiaweb.tse.jus.br/filiaweb/
+
+### Câmara dos Deputados - Votações
+Consulta de votações realizadas na Câmara dos Deputados.
+- https://www.camara.leg.br/busca-portal/proposicoes/votacoes
+
+### Senado Federal - Votações
+Consulta de votações realizadas no Senado Federal.
+- https://www25.senado.leg.br/web/atividade/votacoes
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Registros de Imóveis e Propriedades 🏠 <a name="registros-imoveis-propriedades"></a>
+
+### SREI - Sistema de Registro Eletrônico de Imóveis
+Sistema que integra informações de registros de imóveis.
+- https://www.registradores.org.br/
+
+### Consulta IPTU São Paulo
+Consulta de IPTU da cidade de São Paulo.
+- https://www.prefeitura.sp.gov.br/cidade/secretarias/fazenda/servicos/iptu/
+
+### Consulta IPTU Rio de Janeiro
+Consulta de IPTU da cidade do Rio de Janeiro.
+- https://carioca.rio/servicos/consulta-iptu/
+
+### SPU - Secretaria do Patrimônio da União
+Consulta de imóveis da União.
+- https://www.gov.br/economia/pt-br/assuntos/patrimonio-da-uniao
+
+### INCRA - Sistema Nacional de Cadastro Rural
+Consulta e certificação de imóveis rurais.
+- https://sncr.serpro.gov.br/sncr-web/
+
+### Cartórios de Registro de Imóveis
+Diretório de cartórios de registro de imóveis no Brasil.
+- https://www.registrodeimoveis.org.br/cartorios
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Registros Ambientais 🌳 <a name="registros-ambientais"></a>
+
+### IBAMA - Consulta de Autuações Ambientais
+Consulta pública de áreas embargadas e autuações ambientais.
+- https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php
+
+### CTF/APP - Cadastro Técnico Federal de Atividades Potencialmente Poluidoras
+Cadastro obrigatório de pessoas físicas e jurídicas que realizam atividades potencialmente poluidoras.
+- https://servicos.ibama.gov.br/ctf/
+
+### SINAFLOR - Sistema Nacional de Controle da Origem dos Produtos Florestais
+Sistema de controle do transporte e armazenamento de produtos e subprodutos florestais.
+- https://sinaflor2.ibama.gov.br/
+
+### CETESB - Licenciamento Ambiental São Paulo
+Consulta de licenças ambientais do Estado de São Paulo.
+- https://cetesb.sp.gov.br/licenciamentoambiental/
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Comércio Exterior 📦 <a name="comercio-exterior"></a>
+
+### Comexstat - Estatísticas de Comércio Exterior
+Estatísticas de comércio exterior brasileiro.
+- http://comexstat.mdic.gov.br/pt/home
+
+### Siscomex - Sistema Integrado de Comércio Exterior
+Consulta pública do Sistema Integrado de Comércio Exterior.
+- https://portalunico.siscomex.gov.br/
+
+### AliceWeb - Análise das Informações de Comércio Exterior
+Sistema de análise das informações de comércio exterior brasileiro.
+- http://aliceweb.desenvolvimento.gov.br/
+
+### Radar Siscomex
+Consulta de habilitação de empresas no Siscomex.
+- https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/radar
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Registros de Marcas e Patentes ™️ <a name="registros-marcas-patentes"></a>
+
+### INPI - Busca de Marcas
+Consulta de marcas registradas no Brasil.
+- https://busca.inpi.gov.br/pePI/jsp/marcas/Pesquisa_classe_basica.jsp
+
+### INPI - Busca de Patentes
+Consulta de patentes registradas no Brasil.
+- https://busca.inpi.gov.br/pePI/jsp/patentes/PatenteSearchBasico.jsp
+
+### INPI - Desenhos Industriais
+Consulta de desenhos industriais registrados.
+- https://busca.inpi.gov.br/pePI/jsp/desenhos/DesenhoSearchBasico.jsp
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -339,7 +497,18 @@ Consulte a cobertura de rede 2G, 3G, 4G e 5G em qualquer região do Brasil, veri
 - https://algartelecom.com.br/para-voce/celular/cobertura-celular
 - https://www.brisanet.com.br/mapa-de-area-de-cobertura
 - https://www.gigamaisfibra.com.br/onde-estamos/
-- 
+
+### ANATEL - Consulta de Outorgas de Radiodifusão
+Consulta de outorgas de serviços de radiodifusão.
+- https://sistemas.anatel.gov.br/easp/Novo/ConsultaIndicativo/Tela.asp
+
+### ANATEL - Infraestrutura de Telecomunicações
+Painéis de dados sobre infraestrutura de telecomunicações no Brasil.
+- https://www.anatel.gov.br/paineis/infraestrutura
+
+### ANATEL - Consulta de Provedores Regionais
+Consulta de prestadoras de serviços de telecomunicações por localidade.
+- https://sistemas.anatel.gov.br/sis/cadastrosimplificado/ConsultaPrestadoraLocalidade/tela.asp 
 
 ### Base De Orelhão X Mapa
 Por meio da busca é possível encontrar orelhões pelo número, localizar ruas, municípios, estados ou cidades
@@ -409,6 +578,22 @@ Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma en
 Sistema do Ministerio da Educacao (MEC) responsavel pela tramitacao dos processos de ato regulatorio das instituicoes de educacao superior do Brasil. É possível buscar cursos e outras informações das instituições direto no MEC.         
 - https://emec.mec.gov.br/emec/nova#avancada
 
+### INEP - Censo da Educação Superior
+Dados abertos sobre educação superior no Brasil.
+- https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/inep-data
+
+### MEC - Consulta de Diplomas Digitais
+Validação de diplomas digitais emitidos por instituições de ensino.
+- https://diplomadigital.mec.gov.br/
+
+### Plataforma Sucupira
+Sistema de informações sobre os programas de pós-graduação stricto sensu.
+- https://sucupira.capes.gov.br/
+
+### ENADE - Resultados por Instituição
+Consulta de resultados do Exame Nacional de Desempenho dos Estudantes.
+- https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)  
 ---
 
@@ -477,6 +662,18 @@ Todos os tripulantes civis brasileiros devem ser registrados na ANAC. Sendo vali
 Consulta de dados por Cidades e Estados
 - https://www.ibge.gov.br/cidades-e-estados/
 
+### Portal de Mapas do IBGE
+Portal com mapas interativos e bases cartográficas do IBGE.
+- https://portaldemapas.ibge.gov.br/
+
+### SIGMINE - Sistema de Informações Geográficas da Mineração
+Sistema com informações georreferenciadas sobre mineração no Brasil.
+- https://geo.anm.gov.br/portal/
+
+### INDE - Infraestrutura Nacional de Dados Espaciais
+Portal da Infraestrutura Nacional de Dados Espaciais.
+- https://www.inde.gov.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -488,6 +685,22 @@ Informações acerca de estabelecimentos e profissionais de saúde.
 
 ### Fundo Nacional de Saúde (FNS)
 - https://consultafns.saude.gov.br/#/consolidada
+
+### ANS - Consulta de Operadoras de Planos de Saúde
+Dados e indicadores sobre operadoras de planos de saúde.
+- https://www.ans.gov.br/perfil-do-setor/dados-e-indicadores-do-setor
+
+### ANVISA - Consulta de Medicamentos Registrados
+Consulta de medicamentos e produtos registrados na ANVISA.
+- https://consultas.anvisa.gov.br/#/medicamentos/
+
+### SINAN - Sistema de Informação de Agravos de Notificação
+Informações sobre agravos de notificação compulsória.
+- http://www.portalsinan.saude.gov.br/
+
+### Farmácia Popular - Estabelecimentos Credenciados
+Lista de estabelecimentos credenciados no programa Farmácia Popular.
+- https://www.gov.br/saude/pt-br/assuntos/assistencia-farmaceutica-no-sus/farmacia-popular
 
 ### Monitoramento dos Gastos no Combate à COVID-19
 
@@ -830,6 +1043,30 @@ Projeto da Open Knowledge Brasil que reúne e disponibiliza em formato aberto os
 O maior banco de dados sobre violência armada da América Latina. Pesquisar ocorrências. É possivel pesquisar dados por estado, cidades, datas e tipo de ocorrência.
 - https://api.fogocruzado.org.br/search
 
+### Portal Brasileiro de Dados Científicos
+Repositório de dados científicos brasileiros.
+- https://dadoscientificos.ufsc.br/
+
+### Dados Abertos da Câmara dos Deputados
+Conjuntos de dados abertos da Câmara dos Deputados.
+- https://dadosabertos.camara.leg.br/
+
+### Dados Abertos do Senado Federal
+Conjuntos de dados abertos do Senado Federal.
+- https://www12.senado.leg.br/dados-abertos
+
+### Dados Abertos do TCU
+Dados abertos do Tribunal de Contas da União.
+- https://portal.tcu.gov.br/dados-abertos/
+
+### IPEA Data
+Base de dados macroeconômicos, sociais e regionais do Brasil.
+- http://www.ipeadata.gov.br/
+
+### Consulta de CEP - Correios
+Consulta de CEP e endereçamento postal.
+- https://www.correios.com.br/enviar-e-receber/ferramentas/consulta-cep
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -907,6 +1144,18 @@ Consulta Linhas que Fazem Ligação entre Duas Localidades
 
 ### Consulta de Linhas de Trem
 - https://radar24.net/train-radar/
+
+### SERPRO - Consulta de Multas Federais
+Consulta de multas aplicadas em rodovias federais.
+- https://servicos.serpro.gov.br/multas/
+
+### INFRAERO - Informações de Aeroportos
+Portal de transparência da INFRAERO com informações sobre aeroportos.
+- https://transparencia.infraero.gov.br/
+
+### DNIT - Sistema de Gerenciamento de Pontes
+Informações sobre pontes e viadutos sob responsabilidade do DNIT.
+- https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/sgp
 
 ### Consulta Horários e Passagens Ônibus
 Somos o portal de pesquisa de horários e passagens de ônibus mais completo e mais acessado do Brasil, chegando a 4,1 milhões de visitas mensais.
@@ -1194,6 +1443,14 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 ### Antecedentes Criminais
 - https://servicos.dpf.gov.br/antecedentes-criminais/certidao
+
+### INFOSEG - Sistema Nacional de Informações de Segurança Pública
+Rede integrada de informações de segurança pública.
+- https://seguranca.sinesp.gov.br/
+
+### SIGMA - Sistema de Gerenciamento Militar de Armas
+Sistema de registro de colecionadores, atiradores e caçadores.
+- https://www.gov.br/defesa/pt-br/assuntos/sigma
 
 ### Sinesp Cidadão (Site a APP)
 - Consultar informações sobre: Veículos, Mandados de prisão, Pessoas desaparecidas, Criminosos procurados
