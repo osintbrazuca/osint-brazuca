@@ -930,73 +930,264 @@ Portal com indicadores de saúde, dados demográficos e socioeconômicos relacio
 ---
 
 ## Motores de Busca Contexto Brasil 🤖 <a name="dorks"></a>
+
 ### Google Hacking: DataLeak/SQL
+Busca por vazamentos de dados e arquivos SQL em sites brasileiros.
+
 - ```site:com.br ext:sql "CREATE TABLE"```
-    - https://www.google.com/search?q=site%3Acom.br+ext%3Asql+%22CREATE+TABLE%22### 
+    - https://www.google.com/search?q=site%3Acom.br+ext%3Asql+%22CREATE+TABLE%22
     
 - ```site:com.br intext:"phpMyAdmin" ext:txt```
     - https://www.google.com/search?q=site%3Acom.br+intext%3A%22phpMyAdmin%22+ext%3Atxt
 
+- ```site:br ext:sql | ext:db "senha" | "password"```
+    - https://www.google.com/search?q=site%3Abr+ext%3Asql+%7C+ext%3Adb+%22senha%22+%7C+%22password%22
+
+- ```site:com.br inurl:"backup" ext:sql | ext:bak```
+    - https://www.google.com/search?q=site%3Acom.br+inurl%3A%22backup%22+ext%3Asql+%7C+ext%3Abak
+
 ### Google Hacking: Documento em Arquivos
+Busca por documentos contendo informações sensíveis.
+
 - ```cpf "SEU_ALVO" ext:txt```
-    - https://www.google.com/search?q=cpf+%22SE_ALVO%22+%22123456789%22+ext
+    - https://www.google.com/search?q=cpf+%22SEU_ALVO%22+ext%3Atxt
+
 - ```"cpf|cnpj|email|rg|contato" ext:xls "SEU_ALVO"```
-    - https://www.google.com/search?q=%22cpf%7Ccnpj%7Cemail%7Crg%7Ccontato%22+ext%3Axls+%22SE_ALVO%22
+    - https://www.google.com/search?q=%22cpf%7Ccnpj%7Cemail%7Crg%7Ccontato%22+ext%3Axls+%22SEU_ALVO%22
+
+- ```site:br ext:pdf "confidencial" | "reservado" | "sigiloso"```
+    - https://www.google.com/search?q=site%3Abr+ext%3Apdf+%22confidencial%22+%7C+%22reservado%22+%7C+%22sigiloso%22
+
+- ```site:com.br ext:doc | ext:docx "currículo" | "curriculum"```
+    - https://www.google.com/search?q=site%3Acom.br+ext%3Adoc+%7C+ext%3Adocx+%22curr%C3%ADculo%22+%7C+%22curriculum%22
+
+- ```site:br filetype:xlsx "planilha" | "orçamento" | "faturamento"```
+    - https://www.google.com/search?q=site%3Abr+filetype%3Axlsx+%22planilha%22+%7C+%22or%C3%A7amento%22+%7C+%22faturamento%22
+
+- ```site:com.br ext:csv "cpf" | "rg" | "endereço"```
+    - https://www.google.com/search?q=site%3Acom.br+ext%3Acsv+%22cpf%22+%7C+%22rg%22+%7C+%22endere%C3%A7o%22
 
 ### Google Hacking: Sites do Governo
-Adicione sua string alvo para direcionar a busca
+Busca em domínios governamentais brasileiros.
+
 - ```site:mil.br```
     - https://www.google.com/search?q=site%3Amil.br
+
 - ```site:gov.br```
     - https://www.google.com/search?q=site%3Agov.br
 
-### Google Hacking:  Documentos em Sites do Governo
-Adicione sua string alvo para direcionar a busca
+- ```site:jus.br```
+    - https://www.google.com/search?q=site%3Ajus.br
+
+- ```site:leg.br```
+    - https://www.google.com/search?q=site%3Aleg.br
+
+- ```site:edu.br```
+    - https://www.google.com/search?q=site%3Aedu.br
+
+### Google Hacking: Documentos em Sites do Governo
+Busca por documentos específicos em sites governamentais.
+
 - ```site:mil.br ext:pdf```
-    - https://www.google.com/search?q=site%3Amil.br
-- ```site:gov.br  ext:xls```
-    - https://www.google.com/search?q=site%3Agov.br
+    - https://www.google.com/search?q=site%3Amil.br+ext%3Apdf
+
+- ```site:gov.br ext:xls```
+    - https://www.google.com/search?q=site%3Agov.br+ext%3Axls
+
 - ```inurl:"mil.br" ext:php```
-    - https://www.google.com/search?q=inurl:%22mil.br%22+ext:php
+    - https://www.google.com/search?q=inurl%3A%22mil.br%22+ext%3Aphp
+
+- ```site:gov.br ext:doc "licitação" | "edital" | "pregão"```
+    - https://www.google.com/search?q=site%3Agov.br+ext%3Adoc+%22licita%C3%A7%C3%A3o%22+%7C+%22edital%22+%7C+%22preg%C3%A3o%22
+
+- ```site:jus.br filetype:pdf "sentença" | "acórdão" | "decisão"```
+    - https://www.google.com/search?q=site%3Ajus.br+filetype%3Apdf+%22senten%C3%A7a%22+%7C+%22ac%C3%B3rd%C3%A3o%22+%7C+%22decis%C3%A3o%22
+
+- ```site:edu.br ext:pdf "ata" | "estatuto" | "regimento"```
+    - https://www.google.com/search?q=site%3Aedu.br+ext%3Apdf+%22ata%22+%7C+%22estatuto%22+%7C+%22regimento%22
 
 ### Google Hacking: Informações Expostas
-Adicione sua string alvo para direcionar a busca
-- ```site:anonfiles.com "SE_ALVO"```
-    - https://www.google.com/search?q=site%3Aanonfiles.com+%22SE_ALVO%22
+Busca por informações sensíveis expostas em diversos serviços.
+
+- ```site:anonfiles.com "SEU_ALVO"```
+    - https://www.google.com/search?q=site%3Aanonfiles.com+%22SEU_ALVO%22
+
 - ```site:docs.google.com "SEU_ALVO"```
-    - https://www.google.com/search?q=site%3Adocs.google.com+%22SEU_ALVO%E2%80%9D
+    - https://www.google.com/search?q=site%3Adocs.google.com+%22SEU_ALVO%22
+
 - ```site:facebook.com "SEU_ALVO"```
     - https://www.google.com/search?q=site%3Afacebook.com+%22SEU_ALVO%22
-- ```site:pastebin.com "SEU_ALVO" ```
-    - https://www.google.com/search?q=site%3Apastebin.com+%22nubank%22
 
-### Google Hacking: Filtrar Empresa via Linkedin
-Adicione sua string alvo para direcionar a busca
+- ```site:pastebin.com "SEU_ALVO"```
+    - https://www.google.com/search?q=site%3Apastebin.com+%22SEU_ALVO%22
+
+- ```site:trello.com "SEU_ALVO" intext:"brasil" | "br"```
+    - https://www.google.com/search?q=site%3Atrello.com+%22SEU_ALVO%22+intext%3A%22brasil%22+%7C+%22br%22
+
+- ```site:scribd.com "cpf" | "cnpj" filetype:pdf brasil```
+    - https://www.google.com/search?q=site%3Ascribd.com+%22cpf%22+%7C+%22cnpj%22+filetype%3Apdf+brasil
+
+- ```site:github.com "api_key" | "token" | "senha" language:Portuguese```
+    - https://www.google.com/search?q=site%3Agithub.com+%22api_key%22+%7C+%22token%22+%7C+%22senha%22+language%3APortuguese
+
+- ```site:slideshare.net intext:"confidencial" | "interno" brasil```
+    - https://www.google.com/search?q=site%3Aslideshare.net+intext%3A%22confidencial%22+%7C+%22interno%22+brasil
+
+### Google Hacking: Dados Corporativos Brasileiros
+Busca por informações corporativas expostas.
+
+- ```site:com.br inurl:"/admin" | inurl:"/administrador"```
+    - https://www.google.com/search?q=site%3Acom.br+inurl%3A%22%2Fadmin%22+%7C+inurl%3A%22%2Fadministrador%22
+
+- ```site:br intitle:"index of" "backup" | "bkp"```
+    - https://www.google.com/search?q=site%3Abr+intitle%3A%22index+of%22+%22backup%22+%7C+%22bkp%22
+
+- ```site:com.br inurl:"/phpinfo.php"```
+    - https://www.google.com/search?q=site%3Acom.br+inurl%3A%22%2Fphpinfo.php%22
+
+- ```site:br "relatório gerencial" | "relatório financeiro" ext:pdf```
+    - https://www.google.com/search?q=site%3Abr+%22relat%C3%B3rio+gerencial%22+%7C+%22relat%C3%B3rio+financeiro%22+ext%3Apdf
+
+- ```site:com.br intitle:"índice de" parent directory```
+    - https://www.google.com/search?q=site%3Acom.br+intitle%3A%22%C3%ADndice+de%22+parent+directory
+
+### Google Hacking: Filtrar Empresa via LinkedIn
+Busca por funcionários e informações de empresas brasileiras.
+
 - ```site:linkedin.com "at EMPRESA_ALVO"```
     - https://www.google.com/search?q=site%3Alinkedin.com+%22at+EMPRESA_ALVO%22
 
+- ```site:linkedin.com/in intitle:"EMPRESA_ALVO" location:"Brazil"```
+    - https://www.google.com/search?q=site%3Alinkedin.com%2Fin+intitle%3A%22EMPRESA_ALVO%22+location%3A%22Brazil%22
+
+- ```site:linkedin.com "CARGO" "EMPRESA_ALVO" "São Paulo" | "Brasil"```
+    - https://www.google.com/search?q=site%3Alinkedin.com+%22CARGO%22+%22EMPRESA_ALVO%22+%22S%C3%A3o+Paulo%22+%7C+%22Brasil%22
+
+- ```site:linkedin.com/company "EMPRESA_ALVO"```
+    - https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+%22EMPRESA_ALVO%22
+
 ### Google Hacking: Filtrar Grupos WhatsApp em Sites .br
-- ```"https://chat.whatsapp.com/" & site:br"```
+Busca por links de grupos do WhatsApp compartilhados publicamente.
+
+- ```"https://chat.whatsapp.com/" & site:br```
     - https://www.google.com/search?q=%22https%3A%2F%2Fchat.whatsapp.com%2F%22+%26+site%3Abr
 
+- ```"chat.whatsapp.com" intext:"grupo" | "canal" brasil```
+    - https://www.google.com/search?q=%22chat.whatsapp.com%22+intext%3A%22grupo%22+%7C+%22canal%22+brasil
+
+- ```site:com.br "invite" "whatsapp"```
+    - https://www.google.com/search?q=site%3Acom.br+%22invite%22+%22whatsapp%22
+
 ### Google Hacking: Filtrar Grupos Telegram + Contexto da String
+Busca por grupos e canais do Telegram relacionados ao Brasil.
+
 - ```inurl:"https://t.me" site:me "SEU_ALVO"```
     - https://www.google.com/search?q=inurl%3A%22https%3A%2F%2Ft.me%22+site%3Ame+%22SEU_ALVO%22
-- ```site:me "joinchat" "SEU_ALVO"```
-    - https://www.google.com/search?q=site%3Ame+%22joinchat%22+%22Bolsonaro%22
 
-### Google Hacking: Identificar Powerbi Exposto
+- ```site:me "joinchat" "SEU_ALVO"```
+    - https://www.google.com/search?q=site%3Ame+%22joinchat%22+%22SEU_ALVO%22
+
+- ```site:t.me brasil | brasileiro | br```
+    - https://www.google.com/search?q=site%3At.me+brasil+%7C+brasileiro+%7C+br
+
+- ```inurl:"t.me/" "canal" | "grupo" português```
+    - https://www.google.com/search?q=inurl%3A%22t.me%2F%22+%22canal%22+%7C+%22grupo%22+portugu%C3%AAs
+
+### Google Hacking: Identificar PowerBI Exposto
+Busca por dashboards do PowerBI com dados brasileiros.
+
 - ```site:app.powerbi.com/view?r intext:"br"```
     - https://www.google.com/search?q=site%3Aapp.powerbi.com%2Fview%3Fr+intext%3A%22br%22
+
 - ```site:app.powerbi.com/view?r intext:"brasil"```
     - https://www.google.com/search?q=site%3Aapp.powerbi.com%2Fview%3Fr+intext%3A%22brasil%22
 
+- ```site:app.powerbi.com intext:"governo" | "prefeitura" | "estado"```
+    - https://www.google.com/search?q=site%3Aapp.powerbi.com+intext%3A%22governo%22+%7C+%22prefeitura%22+%7C+%22estado%22
 
+- ```site:powerbi.com "dashboard" | "relatório" brasil```
+    - https://www.google.com/search?q=site%3Apowerbi.com+%22dashboard%22+%7C+%22relat%C3%B3rio%22+brasil
+
+### Google Hacking: Servidores e Câmeras Expostas
+Busca por servidores, webcams e sistemas expostos.
+
+- ```inurl:"/view/index.shtml" site:br```
+    - https://www.google.com/search?q=inurl%3A%22%2Fview%2Findex.shtml%22+site%3Abr
+
+- ```intitle:"webcamXP 5" site:br```
+    - https://www.google.com/search?q=intitle%3A%22webcamXP+5%22+site%3Abr
+
+- ```inurl:"ViewerFrame?Mode=" site:com.br```
+    - https://www.google.com/search?q=inurl%3A%22ViewerFrame%3FMode%3D%22+site%3Acom.br
+
+- ```intitle:"Network Camera" site:br```
+    - https://www.google.com/search?q=intitle%3A%22Network+Camera%22+site%3Abr
+
+### Google Hacking: Informações de Contato
+Busca por e-mails, telefones e contatos corporativos.
+
+- ```site:com.br "@gmail.com" | "@hotmail.com" | "@yahoo.com"```
+    - https://www.google.com/search?q=site%3Acom.br+%22%40gmail.com%22+%7C+%22%40hotmail.com%22+%7C+%22%40yahoo.com%22
+
+- ```site:br "contato" | "fale conosco" ext:html```
+    - https://www.google.com/search?q=site%3Abr+%22contato%22+%7C+%22fale+conosco%22+ext%3Ahtml
+
+- ```site:com.br intext:"telefone:" | "celular:" | "whatsapp:"```
+    - https://www.google.com/search?q=site%3Acom.br+intext%3A%22telefone%3A%22+%7C+%22celular%3A%22+%7C+%22whatsapp%3A%22
+
+- ```site:br "@empresa.com.br" -site:linkedin.com```
+    - https://www.google.com/search?q=site%3Abr+%22%40empresa.com.br%22+-site%3Alinkedin.com
+
+### Google Hacking: Dados Acadêmicos
+Busca por trabalhos acadêmicos, teses e dissertações.
+
+- ```site:edu.br ext:pdf "tcc" | "dissertação" | "tese"```
+    - https://www.google.com/search?q=site%3Aedu.br+ext%3Apdf+%22tcc%22+%7C+%22disserta%C3%A7%C3%A3o%22+%7C+%22tese%22
+
+- ```site:br filetype:pdf "universidade" "trabalho de conclusão"```
+    - https://www.google.com/search?q=site%3Abr+filetype%3Apdf+%22universidade%22+%22trabalho+de+conclus%C3%A3o%22
+
+- ```site:edu.br inurl:"biblioteca" | inurl:"repositorio"```
+    - https://www.google.com/search?q=site%3Aedu.br+inurl%3A%22biblioteca%22+%7C+inurl%3A%22repositorio%22
 
 ### Shodan: Busca de Servidores Brasileiro
-Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos específicos de computadores conectados à Internet usando uma variedade de filtros.
+Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados à Internet no Brasil.
+
 - ```country:"BR"```
     - https://www.shodan.io/search?query=country%3A%22BR%22
+
+- ```country:"BR" port:80,443 "Apache"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A80%2C443+%22Apache%22
+
+- ```country:"BR" port:3389```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A3389
+
+- ```country:"BR" "webcam" has_screenshot:true```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+%22webcam%22+has_screenshot%3Atrue
+
+- ```country:"BR" org:"Governo" | org:"Prefeitura"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+org%3A%22Governo%22+%7C+org%3A%22Prefeitura%22
+
+### Bing: Buscas Alternativas
+Exemplos de dorks usando Bing para contexto brasileiro.
+
+- ```site:com.br ext:xlsx```
+    - https://www.bing.com/search?q=site%3Acom.br+ext%3Axlsx
+
+- ```site:gov.br filetype:pdf licitação```
+    - https://www.bing.com/search?q=site%3Agov.br+filetype%3Apdf+licita%C3%A7%C3%A3o
+
+- ```ip:200.* country:BR```
+    - https://www.bing.com/search?q=ip%3A200.*+country%3ABR
+
+### DuckDuckGo: Buscas com Privacidade
+Exemplos usando DuckDuckGo para pesquisas no Brasil.
+
+- ```site:br filetype:csv```
+    - https://duckduckgo.com/?q=site%3Abr+filetype%3Acsv
+
+- ```site:com.br "email" OR "e-mail"```
+    - https://duckduckgo.com/?q=site%3Acom.br+%22email%22+OR+%22e-mail%22
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
