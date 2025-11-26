@@ -1441,20 +1441,6 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 ---
 
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
-### Antecedentes Criminais
-- https://servicos.dpf.gov.br/antecedentes-criminais/certidao
-
-### INFOSEG - Sistema Nacional de Informações de Segurança Pública
-Rede integrada de informações de segurança pública.
-- https://seguranca.sinesp.gov.br/
-
-### SIGMA - Sistema de Gerenciamento Militar de Armas
-Sistema de registro de colecionadores, atiradores e caçadores.
-- https://www.gov.br/defesa/pt-br/assuntos/sigma
-
-### Sinesp Cidadão (Site a APP)
-- Consultar informações sobre: Veículos, Mandados de prisão, Pessoas desaparecidas, Criminosos procurados
-- https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf
 
 ### Busca de Falecidos/Óbitos
 - https://www.falecidosnobrasil.org.br/
