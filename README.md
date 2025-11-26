@@ -31,6 +31,8 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Registros Ambientais](#registros-ambientais)
 - [Comércio Exterior](#comercio-exterior)
 - [Registros de Marcas e Patentes](#registros-marcas-patentes)
+- [Transparência Pública e Defesa do Consumidor](#transparencia-defesa-consumidor)
+- [Diários Oficiais](#diarios-oficiais)
 - [Telecom](#telecom)
 - [Estação Rádio Base - ERBs](#estacoes-radio-erbs)
 - [Informações Acadêmicas](#informacoes-academicas)
@@ -367,6 +369,10 @@ Consulta de votações realizadas na Câmara dos Deputados.
 Consulta de votações realizadas no Senado Federal.
 - https://www25.senado.leg.br/web/atividade/votacoes
 
+### TSE - Portal de Dados Abertos
+Dados abertos sobre eleições, votação, eleitorado, partidos, candidatos, prestação de contas, pesquisas eleitorais e urnas eletrônicas.
+- https://dadosabertos.tse.jus.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -458,6 +464,113 @@ Consulta de patentes registradas no Brasil.
 ### INPI - Desenhos Industriais
 Consulta de desenhos industriais registrados.
 - https://busca.inpi.gov.br/pePI/jsp/desenhos/DesenhoSearchBasico.jsp
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Transparência Pública e Defesa do Consumidor 🧾 <a name="transparencia-defesa-consumidor"></a>
+
+### Portal da Transparência - Governo Federal
+Consultas a favorecidos, convênios, servidores, CEIS/CNEP, despesas, viagens oficiais e outros dados financeiros da União.
+- https://portaldatransparencia.gov.br/
+
+### Portal da Transparência - API de Dados
+Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.
+- https://portaldatransparencia.gov.br/api-de-dados
+
+### Fala.BR - Plataforma Integrada de Ouvidoria e Acesso à Informação
+Sistema oficial para LAI (Lei de Acesso à Informação), denúncias, reclamações, sugestões e elogios aos órgãos públicos federais.
+- https://falabr.cgu.gov.br/web/home
+
+### Consumidor.gov.br
+Plataforma pública para registro de reclamações contra empresas, acompanhamento de respostas e avaliação do atendimento.
+- https://www.consumidor.gov.br/
+
+### Dados Abertos - Consumidor.gov.br
+Dataset oficial com histórico de reclamações registradas no Consumidor.gov.br (Ministério da Justiça).
+- https://dados.mj.gov.br/dataset/reclamacoes-do-consumidor-gov-br
+
+### PROCON-SP - Espaço do Consumidor
+Portal do PROCON-SP com orientações, consultas e canais de reclamação.
+- https://www.procon.sp.gov.br/espaco-consumidor/
+
+### Portal da Transparência - Estado de São Paulo
+Portal estadual de transparência com dados de remuneração, contratos, convênios e despesas do governo paulista.
+- https://www.transparencia.sp.gov.br/
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Diários Oficiais 📰 <a name="diarios-oficiais"></a>
+
+### Diário Oficial da União (DOU)
+Publicações oficiais do Governo Federal.
+- https://www.in.gov.br/
+
+### Querido Diário
+Projeto da Open Knowledge Brasil que reúne e disponibiliza em formato aberto os diários oficiais de centenas de prefeituras brasileiras.
+- https://queridodiario.ok.org.br/
+
+### Diários Oficiais Estaduais
+
+<details>
+<summary>Região Norte</summary>
+
+- Acre (AC) - https://diario.ac.gov.br/
+- Amazonas (AM) - https://doe.am.gov.br/
+- Amapá (AP) - https://www.diariooficial.ap.gov.br/
+- Pará (PA) - https://www.ioepa.com.br/
+- Rondônia (RO) - https://diariooficial.ro.gov.br/
+- Roraima (RR) - https://imprensaoficial.rr.gov.br/
+- Tocantins (TO) - https://diariooficial.to.gov.br/
+
+</details>
+
+<details>
+<summary>Região Nordeste</summary>
+
+- Alagoas (AL) - https://www.imprensaoficialal.com.br/
+- Bahia (BA) - https://dool.egba.ba.gov.br/
+- Ceará (CE) - https://www.diariooficial.ce.gov.br/
+- Maranhão (MA) - https://diariooficial.ma.gov.br/
+- Paraíba (PB) - https://auniao.pb.gov.br/servicos/diario-oficial
+- Pernambuco (PE) - https://www.cepe.com.br/diario-oficial
+- Piauí (PI) - https://www.diariooficial.pi.gov.br/
+- Rio Grande do Norte (RN) - https://www.diariooficial.rn.gov.br/
+- Sergipe (SE) - https://doe.se.gov.br/
+
+</details>
+
+<details>
+<summary>Região Centro-Oeste</summary>
+
+- Distrito Federal (DF) - https://dodf.df.gov.br/
+- Goiás (GO) - https://diariooficial.go.gov.br/
+- Mato Grosso (MT) - https://www.iomat.mt.gov.br/
+- Mato Grosso do Sul (MS) - https://www.imprensaoficial.ms.gov.br/
+
+</details>
+
+<details>
+<summary>Região Sudeste</summary>
+
+- Espírito Santo (ES) - https://ioes.dio.es.gov.br/
+- Minas Gerais (MG) - https://www.jornalminasgerais.mg.gov.br/
+- Rio de Janeiro (RJ) - https://portal.ioerj.com.br/diario-oficial/
+- São Paulo (SP) - https://doe.sp.gov.br/
+
+</details>
+
+<details>
+<summary>Região Sul</summary>
+
+- Paraná (PR) - https://www.documentos.dioe.pr.gov.br/
+- Rio Grande do Sul (RS) - https://diariooficial.rs.gov.br/
+- Santa Catarina (SC) - https://doe.sc.gov.br/
+
+</details>
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -1043,6 +1156,14 @@ Projeto da Open Knowledge Brasil que reúne e disponibiliza em formato aberto os
 O maior banco de dados sobre violência armada da América Latina. Pesquisar ocorrências. É possivel pesquisar dados por estado, cidades, datas e tipo de ocorrência.
 - https://api.fogocruzado.org.br/search
 
+### Portal Brasileiro de Dados Abertos - Governo Federal
+Portal central de dados abertos do governo federal brasileiro. Hub principal para descoberta de datasets de diversos órgãos.
+- https://dados.gov.br/
+
+### Página Dados Abertos - Governo Digital
+Contexto, normas e orientações sobre a política de dados abertos do Governo Federal.
+- https://www.gov.br/governodigital/pt-br/dados-abertos
+
 ### Portal Brasileiro de Dados Científicos
 Repositório de dados científicos brasileiros.
 - https://dadoscientificos.ufsc.br/
@@ -1488,6 +1609,16 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 - https://www.tripadvisor.com.br/
 - https://www.booking.com/index.pt-br.html
         
+### Ferramentas OSINT Brasileiras
+
+#### Plataforma Caipora Pro
+Repositório de ferramentas para Inteligência de Fontes Abertas (OSINT) e Investigação Digital com enfoque no Brasil.
+- https://caipora.pro/
+
+#### OSINTKit-Brasil
+Curadoria nacional de ferramentas de OSINT com mais de 1600 links úteis categorizados em formato de bookmarks HTML.
+- https://github.com/felipeluan20/OSINTKit-Brasil
+
 ### Informações Sobre Domínios
 <details>
 <summary>Links para Pesquisa</summary>
