@@ -708,6 +708,11 @@ Painéis de dados sobre infraestrutura de telecomunicações no Brasil.
 
 ### ANATEL - Consulta de Provedores Regionais
 Consulta de prestadoras de serviços de telecomunicações por localidade.
+- https://informacoes.anatel.gov.br/paineis/infraestrutura/consulta-de-provedores-regionais
+
+### Teleco - Inteligência em Telecomunicações
+Portal com informações, estatísticas, análises e consultas sobre o setor de telecomunicações brasileiro.
+- https://teleco.com.br
 - https://sistemas.anatel.gov.br/sis/cadastrosimplificado/ConsultaPrestadoraLocalidade/tela.asp
 
 ### ANATEL - Consulta de Radiofrequências por Sistema
@@ -1355,10 +1360,18 @@ O IBAMA utilizado o portal abaixo para disponibilizar dados e informações púb
 Os microdados do Inep reúnem um conjunto de informações detalhadas relacionadas às pesquisas, aos exames e avaliações do Instituto. Os formatos de apresentação do conteúdo dos arquivos estão sendo reestruturados para suprimir a possibilidade de identificação de pessoas.
 - https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados
 
+### Sistema Nacional de Dados Migratórios
+Sistema de dados e estatísticas sobre migração no Brasil, gerido pelo Ministério da Justiça e Segurança Pública.
+- https://datamigra.mj.gov.br
+
 ### Dados PF - Polícia Federal
 Em síntese, o trabalho de produção do PDA/PF consistiu na elaboração do inventário de bases de dados da Polícia Federal, no saneamento do inventário pelas Diretorias e unidades responsáveis, e, por fim, na priorização dos bancos a serem abertos com base em critérios sugeridos pelo Comitê Gestor da Infraestrutura Nacional de Dados Abertos-CGINDA.
 - https://dados.gov.br/dados/organizacoes/visualizar/policia-federal
 - (BETA) https://www.gov.br/pf/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos-2024-2026
+
+### Superintendências e Delegacias da Polícia Federal
+Diretório com informações sobre as superintendências regionais e delegacias da Polícia Federal em todo o Brasil.
+- https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias
 
 ### Dados CAPES - Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
 A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) para a publicação de dados abertos foi a elaboração do Plano de Dados Abertos (PDA). O propósito deste documento é o de publicitar as ações e estratégias organizacionais que nortearão as atividades de implementação e promoção da abertura de dados, no âmbito da CAPES de forma institucionalizada e sistematizada.
