@@ -1947,29 +1947,54 @@ No link abaixo é possível consultar informações referentes a: Marcas, Patent
 - http://www.portaltransparencia.gov.br/
 
 ### Consulta os Processos Licitatórios da SPTrans
-Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A
+Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A. Sistema permite consultar editais, resultados, atas e processos administrativos relacionados a licitações e contratos.
+
 <details>
 <summary>Links para Pesquisa</summary>
 
-- https://sptrans.com.br/licitacoes/
-- https://sistemas.sptrans.com.br//licitlovnew/hilicwebfrt2rc_Ano.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtarp.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtap.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ca.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp_tc.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2cr.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrted.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ec.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2apn.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2rc_Ano.aspx
-- https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/edital/index.php?p=247319
-- https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php?p=205222
-- https://sistemas.sptrans.com.br/DemPag/hdempag.aspx
+- Portal de Licitações SPTrans
+  - https://sptrans.com.br/licitacoes/
+
+- Consulta de Resultados de Licitações por Ano
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2rc_Ano.aspx
+
+- Consulta de Atas de Registro de Preços
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtarp.aspx
+
+- Consulta de Avisos de Prorrogação
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtap.aspx
+
+- Consulta de Contratos Administrativos
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ca.aspx
+
+- Consulta de Convênios e Termos de Cooperação
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp_tc.aspx
+
+- Consulta de Contratos de Parceria
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp.aspx
+
+- Consulta de Contratos Rescindidos
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2cr.aspx
+
+- Consulta de Editais
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrted.aspx
+
+- Consulta de Extrato de Contratos
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ec.aspx
+
+- Consulta de Avisos de Prorrogação (Novo)
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2apn.aspx
+
+- Editais da Secretaria de Mobilidade
+  - https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/edital/index.php?p=247319
+
+- Demonstrativo de Pagamentos
+  - https://sistemas.sptrans.com.br/DemPag/hdempag.aspx
 
 </details>
 
-### Acesso à Informação - SPTRANSd
+### Acesso à Informação - SPTrans
+Portal de acesso à informação da São Paulo Transporte S/A com dados sobre contratos, despesas, licitações e transparência.
 - https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php
 
 ### Repositório com Dados Públicos
