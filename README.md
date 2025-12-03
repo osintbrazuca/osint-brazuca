@@ -212,6 +212,22 @@ Encontre e acompanhe informações relevantes para você sua empresa seu cliente
 Descubra os processos judiciais no Brasil que citam políticos como partes em ações judiciais de interesse público. O banco de dados do projeto permite atualmente a consulta de processos do STF, STJ, tribunais federais e tribunais de Justiça, que citam 3445 políticos. Mais processos e tribunais serão adicionados ao longo de 2025.
 - https://www.publique-se.org.br/
 
+### STJ - Superior Tribunal de Justiça
+Sistema de consultas processuais do Superior Tribunal de Justiça com múltiplas funcionalidades.
+<details>
+<summary>Consultas STJ</summary>
+
+- Portal de Processos - https://processo.stj.jus.br/processo/
+- Diário da Justiça - https://processo.stj.jus.br/processo/dj/init
+- Pesquisa de Processos - https://processo.stj.jus.br/processo/pesquisa/
+- Preferências de Pesquisa - https://processo.stj.jus.br/processo/pesquisa/preferencias/
+- Informações Técnico-Administrativas - https://processo.stj.jus.br/processo/ita/
+- Emissão de Certidão - https://processo.stj.jus.br/processo/certidao/emissao
+- Validação de Certidão - https://processo.stj.jus.br/processo/certidao/validacao
+- Editais do Diário da Justiça - https://processo.stj.jus.br/processo/dj/edital/?aplicacao=dj.editais&ind_vigentes=true
+
+</details>
+
 ### CNJ - Consulta de Processos de Improbidade Administrativa
 Consulta pública de processos de improbidade administrativa por número do processo.
 - https://www.cnj.jus.br/improbidade_adm/consultar_processo.php
@@ -233,6 +249,10 @@ Sistema de intimações e comunicações processuais eletrônicas do Processo Ju
 ---
 
 ## Busca de Informações via CPF/CNPJ/CRM/CNA 🔭 <a name="busca-cpf-cnpj-crm-cna"></a>
+### Consulta Situação Cadastral CPF
+Consulta pública da situação cadastral do CPF na Receita Federal.
+- https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp
+
 ### Busca Dados Usando CNPJ
 <details>
 <summary>Links de Consulta</summary>
@@ -350,8 +370,16 @@ Consulta de convênios e contratos de repasse firmados com órgãos e entidades 
 ### Consulta Junta Comercial do Estado de São Paulo (Jucesp)
 Pesquisa no banco de dados da Junta Comercial do Estado de São Paulo.
 Para consulta é necessário apenas o Nome da empresa, CNPJ, Razão social ou NIRE.
+<details>
+<summary>Consultas JUCESP</summary>
 
-- https://www.jucesponline.sp.gov.br/Pre_Visualiza.aspx?nire={VALOR}&idproduto=
+- Pesquisa Geral - https://www.jucesponline.sp.gov.br/pesquisa.aspx
+- Validação de Ficha - https://www.jucesponline.sp.gov.br/Valida_Ficha.aspx
+- Consulta Produto 7 - https://www.jucesponline.sp.gov.br/pesquisa.aspx?IDProduto=7
+- Consulta Produto 4 - https://www.jucesponline.sp.gov.br/Pesquisa.aspx?IDProduto=4
+- Pré-visualização por NIRE - https://www.jucesponline.sp.gov.br/Pre_Visualiza.aspx?nire={VALOR}&idproduto=
+
+</details>
 
 
 ### Consulta Etrevistador do IBGE
@@ -503,6 +531,10 @@ Consulta de desenhos industriais registrados.
 ### Portal da Transparência - Governo Federal
 Consultas a favorecidos, convênios, servidores, CEIS/CNEP, despesas, viagens oficiais e outros dados financeiros da União.
 - https://portaldatransparencia.gov.br/
+
+### Portal da Transparência - Consulta de Sanções
+Consulta pública de sanções aplicadas a pessoas físicas e jurídicas.
+- https://portaldatransparencia.gov.br/sancoes/consulta?cadastro=1&ordenarPor=nomeSancionado&direcao=asc
 
 ### Portal da Transparência - API de Dados
 Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.
@@ -846,7 +878,8 @@ Instituto Nacional de Pesquisas Espaciais é um instituto federal brasileiro ded
 ### Sistema Nacional de Cadastro Ambiental Rural ( SICAR-CAR )
 O SICAR é um sistema público de geoprocessamento que mapeia todas as propriedades rurais registradas com o CAR (Cadastro Ambiental Rural). Sendo o CAR um registro público, nacional e obrigatório à todas as propriedades rurais do Brasil, com a finalidade de formar uma base de dados e integrar informações.
 - https://www.car.gov.br/publico/imoveis/index
-- https://www.car.gov.br/#/consultar 
+- https://www.car.gov.br/#/consultar
+- https://car.gov.br/#/consultar 
 
 ### Instituto do Patrimônio Histórico e Artístico Nacional ( IPHAN ) 🗿
 O SICG (Sistema Integrado de Conhecimento e Gestão) é o desenvolvimento de Inventários de Conhecimento, para formar uma base de informações sobre os patrimônio cultural de todo o Brasil.
@@ -878,6 +911,18 @@ Consulta de dados por Cidades e Estados
 ### Portal de Mapas do IBGE
 Portal com mapas interativos e bases cartográficas do IBGE.
 - https://portaldemapas.ibge.gov.br/
+
+### ANA - Agência Nacional de Águas - Mapas Interativos
+Mapas e visualizações de dados sobre recursos hídricos no Brasil.
+<details>
+<summary>Mapas ANA</summary>
+
+- Sistema Nacional de Informações sobre Recursos Hídricos - https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=ef7d29c2ac754e9890d7cdbb78cbaf2c
+- Atlas de Abastecimento Urbano - https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=6d866c5d54c64b17bd53af4bdcfb4b91
+- Conjuntura dos Recursos Hídricos - https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=76eaa4f324f2404a86784e21d882b6ec
+- Sistema de Acompanhamento de Reservatórios - https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=0d9d29ec24cc49df89965f05fc5b96b9
+
+</details>
 
 ### SIGMINE - Sistema de Informações Geográficas da Mineração
 Sistema com informações georreferenciadas sobre mineração no Brasil.
@@ -923,6 +968,14 @@ Portal para download de bases de dados de saúde pública, incluindo SIM, SINASC
 ### RIPSA - Rede Interagencial de Informações para a Saúde
 Portal com indicadores de saúde, dados demográficos e socioeconômicos relacionados à saúde no Brasil.
 - https://www.ripsa.org.br/
+
+### Fiocruz - Mapas de Clima e Saúde
+Plataforma de monitoramento e análise da relação entre clima e saúde no Brasil.
+- https://mapas.climaesaude.icict.fiocruz.br/
+
+### Fiocruz - Monitoramento de Seca
+Sistema de monitoramento de eventos de seca e seus impactos na saúde.
+- https://shiny.icict.fiocruz.br/sentseca2/
 
 ### Monitoramento dos Gastos no Combate à COVID-19
 
@@ -1714,8 +1767,21 @@ A ANAC disponibiliza uma consulta de empresas ou aeronaves de táxi-aéreo a tod
 
 ### Consultas ao Registro Aeronáutico Brasileiro (RAB)
 Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro Aeronáutico Brasileiro (RAB) – regulamentado por meio da Resolução ANAC nº 293/2013
-- https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
-- https://ais.cavok.in/rab/
+<details>
+<summary>Consultas RAB/ANAC</summary>
+
+- Portal Principal de Aeronaves - https://aeronaves.anac.gov.br/aeronaves/
+- Consulta por Matrícula - https://aeronaves.anac.gov.br/aeronaves/#matricula
+- Consulta por Habilitação - https://aeronaves.anac.gov.br/aeronaves/#habilitacao
+- Consulta por Código ICAO - https://aeronaves.anac.gov.br/aeronaves/#icao
+- Consulta por Modelo - https://aeronaves.anac.gov.br/aeronaves/#modelo
+- Consulta por Fabricante - https://aeronaves.anac.gov.br/aeronaves/#fabricante
+- Consulta por Número de Série - https://aeronaves.anac.gov.br/aeronaves/#nserie
+- Consulta RAB - Resposta - https://aeronaves.anac.gov.br/aeronaves/cons_rab_resposta2.asp?
+- Sistema Antigo - https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
+- Cavok RAB - https://ais.cavok.in/rab/
+
+</details>
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -1944,6 +2010,7 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
 
 ### Consulta em cartórios
 - https://www.pesquisaprotesto.com.br/
+- https://protestosp.com.br/consulta-de-protesto?hc=1
 - https://www.registrodeimoveis.org.br/cartorios
 - https://e-cartoriodobrasil.com/pedido/imoveis/pesquisa-qualificada-de-bens
     
@@ -2215,6 +2282,12 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 - ### Ceará (CE) <a name="ceara"></a>
 - ### Distrito Federal (DF) <a name="distrito-federal"></a>
 - ### Espírito Santo (ES) <a name="espirito-santo"></a>
+    <details>
+        <summary>Consultas ES</summary>
+        
+    - IDE Geobases - Infraestrutura de Dados Espaciais - https://ide.geobases.es.gov.br/?limit=5&offset=0
+    
+    </details>
 
 - ### Goiás (GO) <a name="goias"></a>
     <details>
