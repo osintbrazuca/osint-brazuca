@@ -21,6 +21,41 @@ O Projeto **OSINT Brazuca** é um repositório criado com intuito de reunir info
 
 OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) é um modelo de inteligência que visa encontrar, selecionar e adquirir informações de fontes públicas e analisá-las para que junto com outras fontes possam produzir um conhecimento. As informações coletadas por meio de fontes abertas, possuem baixo custo, se comparado as onerosas operações de campo.
 
+## ⚠️ Avisos Legais e Éticos
+
+> **ATENÇÃO**: Este repositório contém apenas fontes de informação PÚBLICAS e LEGAIS. O uso inadequado das informações aqui contidas é de responsabilidade exclusiva do usuário.
+
+### 🔒 LGPD - Lei Geral de Proteção de Dados
+Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratamento de dados pessoais deve ter base legal e finalidade legítima.
+
+**✅ Boas Práticas:**
+- Utilizar apenas fontes públicas oficiais
+- Respeitar a privacidade e dignidade das pessoas
+- Documentar fontes e metodologia utilizada
+- Ter propósito legítimo (jornalismo, pesquisa, segurança, compliance)
+- Não compartilhar dados sensíveis publicamente
+
+**❌ Práticas Proibidas:**
+- Engenharia social ou invasão de sistemas
+- Perseguição (stalking) ou assédio
+- Uso para discriminação ou preconceito
+- Comercialização não autorizada de dados
+- Violação de sigilo profissional
+
+**⚖️ Base Legal**: Lei nº 13.709/2018 (LGPD) | Lei nº 12.965/2014 (Marco Civil) | Lei nº 12.527/2011 (LAI)
+
+---
+
+## 📚 Documentação Complementar
+
+> Para facilitar o uso deste repositório, criamos documentos especializados:
+
+- 📊 **[Guia Rápido de Consultas](GUIA_RAPIDO.md)** - Tabelas comparativas, top 10 consultas e legendas
+- 🔍 **[Exemplos Práticos de Investigação](EXEMPLOS_PRATICOS.md)** - 6 casos de uso detalhados com passo a passo
+- 🔄 **[Fluxogramas de Investigação](FLUXOGRAMA.md)** - Diagramas visuais de processos investigativos
+
+---
+
 # Sumário
 - [Benefícios Sociais](#beneficios-sociais)
 - [Pessoas Desaparecidas](#pessoas-desaparecidas)
@@ -42,6 +77,10 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Motores de Busca Contexto Brasil](#dorks)
 - [Rede Social](#redes-sociais)
 - [Indexadores de Serviço de Mensagens Instantâneas](#indexador-mensagens)
+- [Segurança Cibernética](#seguranca-cibernetica)
+- [Blockchain e Criptomoedas](#blockchain-criptomoedas)
+- [Defesa Civil e Emergências](#defesa-civil-emergencias)
+- [Energia e Infraestrutura](#energia-infraestrutura)
 - [Datasets / Dados Abertos](#datasets)
 - [Dados de remuneração do Judiciário](#dados-de-remuneracao-do-judiciario)
 - [Consulta de Transporte Terrestre](#consulta-transporte-terrestre)
@@ -251,42 +290,42 @@ Sistema de intimações e comunicações processuais eletrônicas do Processo Ju
 ## Busca de Informações via CPF/CNPJ/CRM/CNA 🔭 <a name="busca-cpf-cnpj-crm-cna"></a>
 ### Consulta Situação Cadastral CPF
 Consulta pública da situação cadastral do CPF na Receita Federal.
-- https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp
+- https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp 🟢 **Gratuito** | **Oficial**
 
 ### Busca Dados Usando CNPJ
 <details>
 <summary>Links de Consulta</summary>
 
-- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
-- https://brasilcnpj.net/
-- https://cnpj.biz/
-- https://cadastroempresa.com.br/
-- https://casadosdados.com.br/
-- https://cnpjs.rocks/
-- https://www.informecadastral.com.br/
-- https://www.situacaocadastral.info/
-- http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21
-- https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/
-- https://dados-abertos-rf-cnpj.casadosdados.com.br/arquivos/
+- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp 🟢 **Oficial** | **Gratuito**
+- https://brasilcnpj.net/ 🟢 **Gratuito**
+- https://cnpj.biz/ 🟢 **Gratuito**
+- https://cadastroempresa.com.br/ 🟢 **Gratuito**
+- https://casadosdados.com.br/ 🟢 **Gratuito**
+- https://cnpjs.rocks/ 🟢 **Gratuito**
+- https://www.informecadastral.com.br/ 🟡 **Limitado**
+- https://www.situacaocadastral.info/ 🟢 **Gratuito**
+- http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21 🟢 **Oficial**
+- https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/ 🟢 **Oficial** | **Download**
+- https://dados-abertos-rf-cnpj.casadosdados.com.br/arquivos/ 🟢 **Espelho**
 
 </details>
 
 ### Automação de força Bruta para encontrar CPF e Nome completo
 Este repositório contém duas ferramentas úteis para a manipulação e consulta de CPFs. A primeira ferramenta gera uma lista de CPFs válidos com base em dígitos centrais fornecidos pelo usuário (dígitos que são retornados do pix por exemplo: `***123456**`), enquanto a segunda realiza consultas automáticas de situação cadastral desses CPFs, utilizando um bot automatizado via Selenium para interagir com um site de consulta.
-- https://github.com/fernandobortotti/CPF-Tools
+- https://github.com/fernandobortotti/CPF-Tools 🔧 **Ferramenta** | **GitHub**
 
 ### Busca Nome Usando CPF/CNPJ
 A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
-- https://www.situacao-cadastral.com/ 
+- https://www.situacao-cadastral.com/ 🟢 **Gratuito**
 
 ### Retornando Nome Completo CPF/CNPJ
 Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica). Bem como, consultar Certidão Eletrônica de Ações Trabalhistas - CEAT.  Em escolha ao CPNJ poder ser que retorne o CPF como complemento ao nome.
-- https://sistemas.trt3.jus.br/certidao/feitosTrabalhistas/aba1.emissao.htm        
+- https://sistemas.trt3.jus.br/certidao/feitosTrabalhistas/aba1.emissao.htm 🟢 **Oficial** | **Gratuito**
 
 ### Visualização de dados públicos de CNPJ
 Ferramenta para observar o relacionamento entre empresas e sócios, a partir dos dados públicos disponibilizados pela Receita Federal. Pode ser executado localmente, baixando o código do Github ou executado online diretamente no site do projeto.
-- https://www.redecnpj.com.br/rede/
-- https://github.com/rictom/rede-cnpj/
+- https://www.redecnpj.com.br/rede/ 🟢 **Gratuito** | **Visualização**
+- https://github.com/rictom/rede-cnpj/ 🔧 **GitHub**
 
         
 ### Consulta de Antecedente Criminal
@@ -539,6 +578,43 @@ Consulta pública de sanções aplicadas a pessoas físicas e jurídicas.
 ### Portal da Transparência - API de Dados
 Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.
 - https://portaldatransparencia.gov.br/api-de-dados
+
+**📖 Documentação da API:**
+<details>
+<summary>Exemplos de Uso da API</summary>
+
+**Endpoints Principais:**
+- `/api-de-dados/despesas/` - Consulta de despesas públicas
+- `/api-de-dados/servidores/` - Dados de servidores públicos
+- `/api-de-dados/convenios/` - Convênios federais
+- `/api-de-dados/favorecidos/` - Pessoas/empresas favorecidas
+
+**Exemplo de Requisição (Python):**
+```python
+import requests
+
+url = "https://api.portaldatransparencia.gov.br/api-de-dados/despesas"
+headers = {"chave-api-dados": "SUA_CHAVE_AQUI"}
+params = {
+    "mesAno": "01/2024",
+    "orgaoSuperior": "20000"
+}
+response = requests.get(url, headers=headers, params=params)
+print(response.json())
+```
+
+**Como obter chave API:**
+1. Acesse https://portaldatransparencia.gov.br/api-de-dados
+2. Clique em "Solicitar Chave"
+3. Preencha o formulário com seus dados
+4. Aguarde aprovação por e-mail
+
+**Limitações:**
+- Máximo de 60 requisições por minuto
+- Período máximo de consulta: 12 meses
+- Formato de resposta: JSON
+
+</details>
 
 ### Fala.BR - Plataforma Integrada de Ouvidoria e Acesso à Informação
 Sistema oficial para LAI (Lei de Acesso à Informação), denúncias, reclamações, sugestões e elogios aos órgãos públicos federais.
@@ -1207,24 +1283,6 @@ Busca por trabalhos acadêmicos, teses e dissertações.
 
 - ```site:edu.br inurl:"biblioteca" | inurl:"repositorio"```
     - https://www.google.com/search?q=site%3Aedu.br+inurl%3A%22biblioteca%22+%7C+inurl%3A%22repositorio%22
-
-### Shodan: Busca de Servidores Brasileiro
-Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados à Internet no Brasil.
-
-- ```country:"BR"```
-    - https://www.shodan.io/search?query=country%3A%22BR%22
-
-- ```country:"BR" port:80,443 "Apache"```
-    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A80%2C443+%22Apache%22
-
-- ```country:"BR" port:3389```
-    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A3389
-
-- ```country:"BR" "webcam" has_screenshot:true```
-    - https://www.shodan.io/search?query=country%3A%22BR%22+%22webcam%22+has_screenshot%3Atrue
-
-- ```country:"BR" org:"Governo" | org:"Prefeitura"```
-    - https://www.shodan.io/search?query=country%3A%22BR%22+org%3A%22Governo%22+%7C+org%3A%22Prefeitura%22
 
 ### Bing: Buscas Alternativas
 Exemplos de dorks usando Bing para contexto brasileiro.
@@ -1935,6 +1993,166 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 ---
 
+## Segurança Cibernética 🛡️ <a name="seguranca-cibernetica"></a>
+
+### CERT.br - Centro de Estudos, Resposta e Tratamento de Incidentes
+Notificações de incidentes, estatísticas de segurança e alertas de vulnerabilidades.
+- https://www.cert.br/
+- https://www.cert.br/stats/ (Estatísticas)
+
+### Consulta de Domínios Maliciosos
+Verificação de reputação e histórico de domínios brasileiros.
+
+- **VirusTotal** - Análise de URLs, arquivos e domínios
+    - https://www.virustotal.com/
+    - Filtro para domínios .br: `entity:domain AND tld:br`
+    - Busca por idioma: `content:"pt-br" OR content:"português"`
+    
+- **URLScan.io** - Scanner de URLs com análise visual
+    - https://urlscan.io/
+    - Busca avançada: `domain:.br AND (lang:pt OR lang:pt-br)`
+
+### Shodan: Busca de Servidores Brasileiro
+Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados à Internet no Brasil.
+
+- ```country:"BR"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22
+
+- ```country:"BR" port:80,443 "Apache"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A80%2C443+%22Apache%22
+
+- ```country:"BR" port:3389```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A3389
+
+- ```country:"BR" "webcam" has_screenshot:true```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+%22webcam%22+has_screenshot%3Atrue
+
+- ```country:"BR" org:"Governo" | org:"Prefeitura"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+org%3A%22Governo%22+%7C+org%3A%22Prefeitura%22    
+
+### Delegacias de Crimes Cibernéticos
+<details>
+<summary>Delegacias Especializadas por Estado</summary>
+
+- São Paulo - https://www.policiacivil.sp.gov.br/portal/faces/pages_home/cidadao/delegacias_especializadas
+- Rio de Janeiro - http://www.policiacivil.rj.gov.br/
+- Minas Gerais - https://www.policiacivil.mg.gov.br/
+- Paraná - https://www.policiacivil.pr.gov.br/
+- Rio Grande do Sul - https://www.pc.rs.gov.br/
+- Santa Catarina - https://www.pc.sc.gov.br/
+
+</details>
+
+
+### Consulta Informações Sobre Domínios
+Informações sobre proprietários de domínios brasileiros.
+
+<details>
+<summary>Links para Pesquisa</summary>
+
+- https://registro.br/dominio/lista-processo-liberacao.txt
+- https://rdap.registro.br/domain/seu_dominio_exemplo.com.br
+- https://registro.br/tecnologia/ferramentas/whois/
+- https://registro.br/tecnologia/ferramentas/pesquisa-de-usuario/
+- https://kaponline.com.br/whois/
+</details>
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Blockchain e Criptomoedas 💰 <a name="blockchain-criptomoedas"></a>
+
+### CVM - Consulta de Processos Envolvendo Criptomoedas
+Processos administrativos e sanções relacionadas a criptoativos.
+- https://www.gov.br/cvm/pt-br
+
+### CVM - Alertas sobre Fraudes com Criptomoedas
+Comunicados oficiais sobre esquemas fraudulentos.
+- https://www.gov.br/cvm/pt-br/assuntos/noticias
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Defesa Civil e Emergências 🚨 <a name="defesa-civil-emergencias"></a>
+
+### Defesa Civil Nacional - Sistema de Alertas
+Sistema nacional de alertas de desastres naturais.
+- https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil
+
+### S2iD - Sistema Integrado de Informações sobre Desastres
+Registro e consulta de desastres e emergências no Brasil.
+- https://s2id.mi.gov.br/
+
+### CEMADEN - Centro Nacional de Monitoramento e Alertas
+Monitoramento de risco de desastres naturais em tempo real.
+- https://www.cemaden.gov.br/
+- https://www.cemaden.gov.br/mapainterativo/ (Mapa interativo)
+
+### INPE - Queimadas e Incêndios Florestais
+Sistema de monitoramento de focos de queimadas no Brasil.
+- https://queimadas.dgi.inpe.br/queimadas/portal
+- https://queimadas.dgi.inpe.br/queimadas/portal-static/situacao-atual/
+
+### ANA - Monitoramento de Secas e Inundações
+Sistema de acompanhamento de eventos hidrológicos críticos.
+- https://www.snirh.gov.br/
+- https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=0d9d29ec24cc49df89965f05fc5b96b9
+
+### Defesa Civil - Consulta de Abrigos Públicos
+Localização de abrigos emergenciais por município.
+- https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/abrigos-temporarios
+
+### Mapa de Áreas de Risco
+Identificação de áreas suscetíveis a deslizamentos e inundações.
+- https://www.cprm.gov.br/publique/Gestao-Territorial/Cartas-de-Suscetibilidade-a-Movimentos-Gravitacionais-de-Massa-e-Inundacoes-5511.html
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Energia e Infraestrutura ⚡ <a name="energia-infraestrutura"></a>
+
+### ANEEL - Agência Nacional de Energia Elétrica
+Consulta de usinas, distribuidoras e empreendimentos de geração de energia.
+- https://www.aneel.gov.br/
+- https://www.aneel.gov.br/siga (Sistema de Informações de Geração)
+
+### ANEEL - Consulta de Distribuidoras
+Informações sobre concessionárias de distribuição de energia.
+- https://www.aneel.gov.br/area.cfm?idArea=550
+
+### ANEEL - Consulta de Usinas e Geradoras
+Banco de dados de empreendimentos de geração de energia elétrica.
+- https://www2.aneel.gov.br/aplicacoes/capacidadebrasil/capacidadebrasil.cfm
+
+### ONS - Operador Nacional do Sistema Elétrico
+Dados operacionais do sistema elétrico brasileiro em tempo real.
+- http://www.ons.org.br/
+- http://www.ons.org.br/paginas/resultados-da-operacao/historico-da-operacao
+
+### EPE - Empresa de Pesquisa Energética
+Dados e estatísticas do setor energético brasileiro.
+- https://www.epe.gov.br/pt
+- https://www.epe.gov.br/pt/publicacoes-dados-abertos
+
+### Mapa de Linhas de Transmissão
+Visualização de linhas de transmissão e subestações do Brasil.
+- http://sigel.aneel.gov.br/portal/home/
+
+### Consulta de Interrupções de Energia
+Sistema de registro e acompanhamento de apagões e interrupções.
+- https://www.aneel.gov.br/ranking-da-continuidade
+
+### Tarifa de Energia - Simulador
+Comparação de tarifas de energia elétrica por região.
+- https://www.aneel.gov.br/ranking-das-tarifas
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 
 ### Busca de Falecidos/Óbitos
@@ -1950,12 +2168,7 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 - https://www.gov.br/pf/pt-br/assuntos/seguranca-privada
 
 ### Consulta de Registro, Licença e Controle de Produtos Quimicos
-- https://www.gov.br/pf/pt-br/assuntos/produtos-quimicos
-
-### Informações sobre um endereço de e-mail
-Permite recuperar, sem notificar o usuário, vários elementos relacionados a um endereço de e-mail, Nome, GoogleID, se há Mapas criados ou Agendas Públicas do Google Calendar, Validar se o e-mail está sendo utilizado em contas em outros sites.    
-- https://www.predictasearch.com
-- https://tools.epieos.com/email.php       
+- https://www.gov.br/pf/pt-br/assuntos/produtos-quimicos    
 
 ### Busca de Bens a venda ou aluguel
 - https://www.olx.com.br/
@@ -1968,8 +2181,6 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 - https://www.mercadolivre.com.br/
 - https://www.elo7.com.br/
 - https://shopee.com.br/
-- https://napista.com.br/
-- https://napista.com.br/
 - https://napista.com.br/
 - https://autoline.com.br/
 - https://www.kavak.com/br
@@ -1993,16 +2204,7 @@ Repositório de ferramentas para Inteligência de Fontes Abertas (OSINT) e Inves
 Curadoria nacional de ferramentas de OSINT com mais de 1600 links úteis categorizados em formato de bookmarks HTML.
 - https://github.com/felipeluan20/OSINTKit-Brasil
 
-### Informações Sobre Domínios
-<details>
-<summary>Links para Pesquisa</summary>
 
-- https://registro.br/dominio/lista-processo-liberacao.txt
-- https://rdap.registro.br/domain/seu_dominio_exemplo.com.br
-- https://registro.br/tecnologia/ferramentas/whois/
-- https://registro.br/tecnologia/ferramentas/pesquisa-de-usuario/
-- https://kaponline.com.br/whois/
-</details>
 
 ### Sites Notificados pelo Procon-SP
 Lista de sites que devem ser evitados, pois tiveram reclamações de consumidores registrada no Procon-SP, foram notificados, não responderam ou não foram encontrados.
@@ -2267,6 +2469,15 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
     </details>
 
 - ### Alagoas (AL) <a name="alagoas"></a>
+    <details>
+        <summary>Consultas AL</summary>
+        
+    - DETRAN-AL Consulta Veículos - http://www.detran.al.gov.br/consulta-veiculo/
+    - TJ-AL Processos - https://www2.tjal.jus.br/cpopg/open.do
+    - Nota Fiscal Eletrônica - https://nfce.sefaz.al.gov.br/consultaNFCe.aspx
+    - Portal da Transparência AL - https://transparencia.al.gov.br/
+    
+    </details>
 - ### Amapá (AP) <a name="amapa"></a>
     <details>
         <summary>Consultas AP</summary>
@@ -2278,9 +2489,46 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
             
     </details>
 - ### Amazonas (AM) <a name="amazonas"></a>
+    <details>
+        <summary>Consultas AM</summary>
+        
+    - DETRAN-AM Consultas - https://www.detran.am.gov.br/servicos/
+    - TJ-AM Processos - https://consultasaj.tjam.jus.br/cpopg/open.do
+    - Nota Fiscal Eletrônica - https://sistemas.sefaz.am.gov.br/nfce/qrcode
+    - Portal da Transparência AM - https://www.transparencia.am.gov.br/
+    
+    </details>
 - ### Bahia (BA) <a name="bahia"></a>
+    <details>
+        <summary>Consultas BA</summary>
+        
+    - DETRAN-BA Consultas - https://www.detran.ba.gov.br/
+    - TJ-BA Processos 1º Grau - https://esaj.tjba.jus.br/cpopg/open.do
+    - TJ-BA Processos 2º Grau - https://esaj.tjba.jus.br/cposg5/open.do
+    - Nota Fiscal Eletrônica - http://nfe.sefaz.ba.gov.br/
+    - Portal da Transparência BA - http://www.transparencia.ba.gov.br/
+    
+    </details>
 - ### Ceará (CE) <a name="ceara"></a>
+    <details>
+        <summary>Consultas CE</summary>
+        
+    - DETRAN-CE Consultas - https://www.detran.ce.gov.br/
+    - TJ-CE Processos - https://esaj.tjce.jus.br/cpopg/open.do
+    - Nota Fiscal Eletrônica - https://nfce.sefaz.ce.gov.br/pages/consultarNFCe.jsf
+    - Portal da Transparência CE - https://cearatransparente.ce.gov.br/
+    
+    </details>
 - ### Distrito Federal (DF) <a name="distrito-federal"></a>
+    <details>
+        <summary>Consultas DF</summary>
+        
+    - DETRAN-DF Consultas - https://www.detran.df.gov.br/
+    - TJ-DFT Processos - https://pje2i.tjdft.jus.br/consultapublica
+    - Nota Fiscal Eletrônica - https://dec.fazenda.df.gov.br/ConsultarNFe.aspx
+    - Portal da Transparência DF - https://www.transparencia.df.gov.br/
+    
+    </details>
 - ### Espírito Santo (ES) <a name="espirito-santo"></a>
     <details>
         <summary>Consultas ES</summary>
