@@ -121,69 +121,88 @@ Background check para contratação, compliance ou parceria.
 
 ### 🔎 Passo a Passo
 
-#### **Etapa 1: Validação Cadastral**
+#### **Etapa 1: Validação Cadastral e Identificação**
 ```
-1. CPF → Receita Federal
+1. CPF → Situação Cadastral (Nome Parcial)
+   URL: https://www.situacao-cadastral.com/
+   ✅ Verificar: Nome parcial do titular (sem precisar data de nascimento)
+   ✅ Vantagem: Retorna nome mesmo sem data de nascimento
+   💡 Dica: Útil quando você tem apenas o CPF
+
+2. CPF → Receita Federal
    URL: https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp
    ✅ Verificar: Situação cadastral (regular/irregular/suspenso)
+   ⚠️ Limitação: Não retorna nome completo
 ```
 
-#### **Etapa 2: Histórico Judicial**
+#### **Etapa 2: Obter Nome Completo (se necessário)**
 ```
-2. Nome Completo → CNJ PJe
+2. CPF → TRT3 Certidão
+   URL: https://sistemas.trt3.jus.br/certidao/feitosTrabalhistas/aba1.emissao.htm
+   ✅ Verificar: Nome completo a partir do CPF
+   💡 Dica: Alternativa para obter nome completo
+
+3. CNPJ → Situação Cadastral
+   URL: https://www.situacao-cadastral.com/
+   ✅ Verificar: Razão social e nome dos sócios
+```
+
+#### **Etapa 3: Histórico Judicial**
+```
+4. Nome Completo → CNJ PJe
    URL: https://www.cnj.jus.br/pjeconsulta/
    ✅ Verificar: Processos em tribunais estaduais e federais
 
-3. Nome → Escavador
+5. Nome → Escavador
    URL: https://www.escavador.com/
    ✅ Verificar: Histórico completo de processos, publicações
 ```
 
-#### **Etapa 3: Vínculos Governamentais**
+#### **Etapa 4: Vínculos Governamentais**
 ```
-4. CPF/Nome → Portal da Transparência
+6. CPF/Nome → Portal da Transparência
    URL: https://portaldatransparencia.gov.br/
    ✅ Verificar: Vínculos como servidor, bolsas, benefícios
    ✅ Verificar: Viagens oficiais, cartões corporativos
 ```
 
-#### **Etapa 4: Participação Política**
+#### **Etapa 5: Participação Política**
 ```
-5. Nome → TSE Divulga Candidaturas
+7. Nome → TSE Divulga Candidaturas
    URL: https://divulgacandcontas.tse.jus.br/
    ✅ Verificar: Candidaturas anteriores, doações, prestação de contas
 ```
 
-#### **Etapa 5: Pegada Digital**
+#### **Etapa 6: Pegada Digital**
 ```
-6. Nome → LinkedIn
+8. Nome → LinkedIn
    ✅ Verificar: Histórico profissional, conexões, recomendações
 
-7. Nome → Facebook/Instagram/Twitter
+9. Nome → Facebook/Instagram/Twitter
    ✅ Verificar: Postagens públicas, comportamento, conexões
 
-8. Nome → Google
-   ✅ Usar dorks: "nome completo" site:br
+10. Nome → Google
+    ✅ Usar dorks: "nome completo" site:br
 ```
 
-#### **Etapa 6: Segurança Digital**
+#### **Etapa 7: Segurança Digital**
 ```
-9. E-mail → Have I Been Pwned
-   URL: https://haveibeenpwned.com/
-   ✅ Verificar: Exposição em vazamentos de dados
+11. E-mail → Have I Been Pwned
+    URL: https://haveibeenpwned.com/
+    ✅ Verificar: Exposição em vazamentos de dados
 
-10. E-mail → Monitor Firefox
+12. E-mail → Monitor Firefox
     URL: https://monitor.firefox.com/
     ✅ Verificar: Vazamentos recentes
 ```
 
-#### **Etapa 7: Currículo e Formação**
+#### **Etapa 8: Currículo e Formação**
 ```
-11. Nome → Plataforma Lattes (se acadêmico)
+13. Nome → Plataforma Lattes (se acadêmico)
     URL: https://buscatextual.cnpq.br/buscatextual/busca.do
     ✅ Verificar: Formação, publicações, projetos
 
-12. Nome → E-MEC (validar diploma)
+14. Nome → E-MEC (validar diploma)
     URL: https://emec.mec.gov.br/
     ✅ Verificar: Instituição reconhecida pelo MEC
 ```

@@ -106,7 +106,13 @@ flowchart TD
 flowchart TD
     Start([Iniciar Verificação]) --> Input[Coletar CPF/Nome Completo]
     
-    Input --> CPF[1. Receita Federal<br/>Situação CPF]
+    Input --> GetName{Tem apenas<br/>CPF?}
+    GetName -->|Sim| SitCad[0. situacao-cadastral.com<br/>Obter Nome Parcial]
+    GetName -->|Não| CPF
+    
+    SitCad --> TRT[0b. TRT3 Certidão<br/>Nome Completo]
+    TRT --> CPF[1. Receita Federal<br/>Situação CPF]
+    
     CPF --> CheckCPF{CPF<br/>Regular?}
     CheckCPF -->|Não| Alert1[🚩 CPF Irregular/Suspenso]
     CheckCPF -->|Sim| CNJ
@@ -153,6 +159,8 @@ flowchart TD
     style Alert2 fill:#ffe1e1
     style Alert3 fill:#fff4e1
     style Alert4 fill:#ffe1e1
+    style SitCad fill:#e3f2fd
+    style TRT fill:#e3f2fd
 ```
 
 ---
