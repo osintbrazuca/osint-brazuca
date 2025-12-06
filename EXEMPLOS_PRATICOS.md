@@ -1,6 +1,6 @@
 # 🔍 Exemplos Práticos de Investigação OSINT
 
-> **Voltar para**: [README Principal](README.md) | [Guia Rápido](GUIA_RAPIDO.md)
+> **Navegação**: [🏠 README Principal](README.md) | [📖 Exemplos Práticos](EXEMPLOS_PRATICOS.md) | [🔀 Fluxogramas](FLUXOGRAMA.md)
 
 ## Índice
 - [Caso 1: Due Diligence Empresarial](#caso-1)

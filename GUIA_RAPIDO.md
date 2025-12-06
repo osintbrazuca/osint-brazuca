@@ -1,6 +1,6 @@
 # 📊 Guia Rápido de Consultas - OSINT Brazuca
 
-> **Voltar para**: [README Principal](README.md)
+> **Navegação**: [🏠 README Principal](README.md) | [📖 Exemplos Práticos](EXEMPLOS_PRATICOS.md) | [🔀 Fluxogramas](FLUXOGRAMA.md)
 
 ---
 
