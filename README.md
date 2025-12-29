@@ -1443,6 +1443,37 @@ Exemplos usando DuckDuckGo para pesquisas no Brasil.
 - ```site:com.br "email" OR "e-mail"```
     - https://duckduckgo.com/?q=site%3Acom.br+%22email%22+OR+%22e-mail%22
 
+
+### Consulta de Domínios Maliciosos
+Verificação de reputação e histórico de domínios brasileiros.
+
+- **VirusTotal** - Análise de URLs, arquivos e domínios
+    - https://www.virustotal.com/
+    - Filtro para domínios .br: `entity:domain AND tld:br`
+    - Busca por idioma: `content:"pt-br" OR content:"português"`
+    
+- **URLScan.io** - Scanner de URLs com análise visual
+    - https://urlscan.io/
+    - Busca avançada: `domain:.br AND (lang:pt OR lang:pt-br)`
+
+### Shodan: Busca de Servidores Brasileiro
+Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados à Internet no Brasil.
+
+- ```country:"BR"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22
+
+- ```country:"BR" port:80,443 "Apache"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A80%2C443+%22Apache%22
+
+- ```country:"BR" port:3389```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A3389
+
+- ```country:"BR" "webcam" has_screenshot:true```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+%22webcam%22+has_screenshot%3Atrue
+
+- ```country:"BR" org:"Governo" | org:"Prefeitura"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+org%3A%22Governo%22+%7C+org%3A%22Prefeitura%22  
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -2272,36 +2303,6 @@ Câmeras de monitoramento de rodovias, segurança pública e clima por estado.
 Notificações de incidentes, estatísticas de segurança e alertas de vulnerabilidades.
 - https://www.cert.br/
 - https://www.cert.br/stats/ (Estatísticas)
-
-### Consulta de Domínios Maliciosos
-Verificação de reputação e histórico de domínios brasileiros.
-
-- **VirusTotal** - Análise de URLs, arquivos e domínios
-    - https://www.virustotal.com/
-    - Filtro para domínios .br: `entity:domain AND tld:br`
-    - Busca por idioma: `content:"pt-br" OR content:"português"`
-    
-- **URLScan.io** - Scanner de URLs com análise visual
-    - https://urlscan.io/
-    - Busca avançada: `domain:.br AND (lang:pt OR lang:pt-br)`
-
-### Shodan: Busca de Servidores Brasileiro
-Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados à Internet no Brasil.
-
-- ```country:"BR"```
-    - https://www.shodan.io/search?query=country%3A%22BR%22
-
-- ```country:"BR" port:80,443 "Apache"```
-    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A80%2C443+%22Apache%22
-
-- ```country:"BR" port:3389```
-    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A3389
-
-- ```country:"BR" "webcam" has_screenshot:true```
-    - https://www.shodan.io/search?query=country%3A%22BR%22+%22webcam%22+has_screenshot%3Atrue
-
-- ```country:"BR" org:"Governo" | org:"Prefeitura"```
-    - https://www.shodan.io/search?query=country%3A%22BR%22+org%3A%22Governo%22+%7C+org%3A%22Prefeitura%22    
 
 ### Delegacias de Crimes Cibernéticos
 <details>
