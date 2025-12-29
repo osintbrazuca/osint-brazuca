@@ -88,42 +88,9 @@ Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratament
 - [Consulta de Transporte Aquaviário](#consulta-transporte-aquaviario)
 - [Consulta de Transporte Aéreo](#consulta-transporte-aereo)
 - [Câmeras Online](#cameras-online)
+- [Serviços Públicos Estaduais e Conselhos Profissionais](#servicos-estaduais)
 - [Outras Buscas](#outras-buscas)
 - [Categorias de Domínios .br](#dominios-br)
-- [Categorias por Estados Brasileiros](#estados-br)
-        <details>
-        <summary><a href="#estados-br">Estados</a></summary>
-        <ul>
-            <li><a href="#acre">Acre</a></li>
-            <li><a href="#alagoas">Alagoas</a></li>
-            <li><a href="#amapa">Amapá</a></li>
-            <li><a href="#amazonas">Amazonas</a></li>
-            <li><a href="#bahia">Bahia</a></li>
-            <li><a href="#ceara">Ceará</a></li>
-            <li><a href="#distrito-federal">Distrito Federal</a></li>
-            <li><a href="#espirito-santo">Espírito Santo</a></li>
-            <li><a href="#goias">Goiás</a></li>
-            <li><a href="#maranhao">Maranhão</a></li>
-            <li><a href="#mato-grosso">Mato Grosso</a></li>
-            <li><a href="#mato-grosso-sul">Mato Grosso do Sul</a></li>
-            <li><a href="#minas-gerais">Minas Gerais</a></li>
-            <li><a href="#para">Pará</a></li>
-            <li><a href="#paraiba">Paraíba</a></li>
-            <li><a href="#parana">Paraná</a></li>
-            <li><a href="#pernambuco">Pernambuco</a></li>
-            <li><a href="#piaui">Piauí</a></li>
-            <li><a href="#rio-janeiro">Rio de Janeiro</a></li>
-            <li><a href="#rio-grande-norte">Rio Grande do Norte</a></li>
-            <li><a href="#rio-grande-sul">Rio Grande do Sul</a></li>
-            <li><a href="#rondonia">Rondônia</a></li>
-            <li><a href="#roraima">Roraima</a></li>
-            <li><a href="#santa-catarina">Santa Catarina</a></li>
-            <li><a href="#sao-paulo">São Paulo</a></li>
-            <li><a href="#sergipe">Sergipe</a></li>
-            <li><a href="#tocantins">Tocantins</a></li>
-        </ul>
-        </details>
-
  - [Autores](#autores)
  - [Contribuições](#contribuicoes)
  - [Créditos](#creditos)
@@ -283,6 +250,53 @@ Sistema de Gestão de Tabelas Processuais Unificadas - consulta de classes proce
 Sistema de intimações e comunicações processuais eletrônicas do Processo Judicial Eletrônico.
 - https://comunica.pje.jus.br/
 
+### Consultas Processuais por Estado
+Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras instâncias.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Acre (AC)**
+- ESAJ (Processos) - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090
+
+**Alagoas (AL)**
+- TJ-AL Processos - https://www2.tjal.jus.br/cpopg/open.do
+
+**Amapá (AP)**
+- TJ-AP PJe 1º Grau - https://pje.tjap.jus.br/1g/ConsultaPublica/listView.seam
+- TJ-AP PJe 2º Grau - https://pje.tjap.jus.br/2g/ConsultaPublica/listView.seam
+- TJ-AP Tucujuris (Processos Físicos) - https://tucujuris.tjap.jus.br/pages/consultar-processo/consultar-processo.html
+- SEEU-AP Sistema Eletrônico de Execução Unificado - https://seeu-consulta-pub.pje.jus.br/seeu/processo/consultaPublica.do?actionType=iniciar
+
+**Amazonas (AM)**
+- TJ-AM Processos - https://consultasaj.tjam.jus.br/cpopg/open.do
+
+**Bahia (BA)**
+- TJ-BA Processos 1º Grau - https://esaj.tjba.jus.br/cpopg/open.do
+- TJ-BA Processos 2º Grau - https://esaj.tjba.jus.br/cposg5/open.do
+
+**Ceará (CE)**
+- TJ-CE Processos - https://esaj.tjce.jus.br/cpopg/open.do
+
+**Distrito Federal (DF)**
+- TJ-DFT Processos - https://pje2i.tjdft.jus.br/consultapublica
+
+**Goiás (GO)**
+- Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
+- Processos físicos 2º grau - https://www.tjgo.jus.br/index.php/processo-fisico/segundo-grau
+- Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4
+- TJ-GO Acordo Aqui - https://acordoaqui.tjgo.jus.br/acordo-aqui/pesquisa
+
+**Rio de Janeiro (RJ)**
+- Justiça Militar - https://www.stm.jus.br/servicos-stm/certidao-negativa/emitir-certidao-negativa
+- Justiça Federal - https://procweb.jfrj.jus.br/certidao/emissao_cert.asp
+- Crimes Eleitorais - https://www.tse.jus.br/eleitor/certidoes/certidao-de-crimes-eleitorais
+
+**São Paulo (SP)**
+- Consulta de Processos WEB | Limeira - https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/
+
+</details>
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -333,6 +347,30 @@ Ferramenta para observar o relacionamento entre empresas e sócios, a partir dos
 ### Consulta de Antecedente Criminal
 Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
 - https://antecedentes.policiacivil.pa.gov.br/consulta
+
+### Antecedentes Criminais por Estado
+Consultas de antecedentes criminais em Polícias Civis estaduais.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Acre (AC)**
+- Antecedente criminal - https://pc.ac.gov.br/certidao-de-antecedentes-criminais/
+
+**Pará (PA)**
+- Consulta de Antecedente Criminal - https://antecedentes.pc.pa.gov.br/consulta
+
+**Rio de Janeiro (RJ)**
+- Antecedentes Criminais - http://atestadodic.detran.rj.gov.br/
+- B.O - https://dedic.pcivil.rj.gov.br/Consulta.aspx
+
+**Rio Grande do Sul (RS)**
+- Emitir certidão de antecedentes criminais - https://www.pc.rs.gov.br/emitir-certidao-de-antecedentes-policiais
+
+**Santa Catarina (SC)**
+- Antecedentes Criminais - https://sistemas.pc.sc.gov.br/formulario-antecedentes-cidadao/#/
+
+</details>
 
 ### Consulta Cadastro Nacional dos Advogados (CNA)
 Pesquisar no Repositório do cadastro de todos os advogados do Brasil.
@@ -680,6 +718,69 @@ Consulta de agendas públicas de autoridades do Governo Federal.
 ### Portal da Transparência - Consulta de Notas Fiscais
 Consulta detalhada de notas fiscais emitidas para órgãos públicos federais, com filtros por UF, fornecedor, período e órgão.
 - https://portaldatransparencia.gov.br/notas-fiscais/consulta
+
+### Nota Fiscal Eletrônica e Transparência por Estado
+Consultas de Notas Fiscais Eletrônicas e Portais de Transparência estaduais e municipais.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Acre (AC)**
+- Nota Fiscal - http://sefaznet.ac.gov.br/nfe/consulta.xhtml
+
+**Alagoas (AL)**
+- Nota Fiscal Eletrônica - https://nfce.sefaz.al.gov.br/consultaNFCe.aspx
+- Portal da Transparência AL - https://transparencia.al.gov.br/
+
+**Amazonas (AM)**
+- Nota Fiscal Eletrônica - https://sistemas.sefaz.am.gov.br/nfce/qrcode
+- Portal da Transparência AM - https://www.transparencia.am.gov.br/
+
+**Bahia (BA)**
+- Nota Fiscal Eletrônica - http://nfe.sefaz.ba.gov.br/
+- Portal da Transparência BA - http://www.transparencia.ba.gov.br/
+
+**Ceará (CE)**
+- Nota Fiscal Eletrônica - https://nfce.sefaz.ce.gov.br/pages/consultarNFCe.jsf
+- Portal da Transparência CE - https://cearatransparente.ce.gov.br/
+
+**Distrito Federal (DF)**
+- Nota Fiscal Eletrônica - https://dec.fazenda.df.gov.br/ConsultarNFe.aspx
+- Portal da Transparência DF - https://www.transparencia.df.gov.br/
+
+**Goiás (GO)**
+- Consulta Nota Fiscal - https://www.goiania.go.gov.br/sing_servicos/nota-fiscal-eletronica/
+- Consulta DUAM-IPTU-ITU-ISSQN - https://www.goiania.go.gov.br/sing_servicos/emissao-duam-itu-iptu-issqn/
+- Consulta matrículas - https://www.goiania.go.gov.br/sing_servicos/matriculas-web/
+- Consulta processos - https://www.goiania.go.gov.br/sing_servicos/consulta-processos/
+
+**Minas Gerais (MG)**
+- Consulta de Certidão Negativa de Débito | Belo Horizonte - http://cndonline.siatu.pbh.gov.br/CNDOnline/?null
+
+**Piauí (PI)**
+- Sefaz Piauí - https://webas.sefaz.pi.gov.br/
+- Inadimplentes - https://webas.sefaz.pi.gov.br/caginweb/
+- Certidões - https://webas.sefaz.pi.gov.br/certidaonft-web/index.xhtml
+- MEI - https://webas.sefaz.pi.gov.br/MEI-WEB/
+- Impedidos de contratar com o poder público - https://sistemas.tce.pi.gov.br/ImpedimentoAS/impedimentos/listapessoas.xhtml
+
+**Rondônia (RO) - Porto Velho**
+- Certidão Negativa de Débitos de Tributos Fiscais - https://semfazonline.portovelho.ro.gov.br/portal/certidao_negativa.action
+- Consulta de Débitos Imobiliários - IPTU - https://semfazonline.portovelho.ro.gov.br/portal/iptu_consulta_debito_input.action
+- Consulta Empresas Cadastradas - https://semfazonline.portovelho.ro.gov.br/portal/consulta_empresa_input.action
+
+**São Paulo (SP)**
+- Consulta de nome e salários de servidores do Estado - https://www.transparencia.sp.gov.br/home/servidor
+
+**Maranhão (MA) - São Luís**
+- Portal da Transparência Prefeitura | São Luís - https://transparencia.saoluis.ma.gov.br/
+- Diário Eletrônico Prefeitura | São Luís - https://diariooficial.saoluis.ma.gov.br/
+
+**Maranhão (MA) - São José de Ribamar**
+- Portal da Transparência Prefeitura | São José de Ribamar - https://transparencia.saojosederibamar.ma.gov.br/
+- Diário Eletrônico Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/diario-eletronico/148327
+
+</details>
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -1529,10 +1630,6 @@ A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível 
 Acesso a conteúdos das pesquisas estruturais, censos, entre outras, na área de estatísticas.
 - https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html
 
-### Dados Abertos TSE
-Dados gerados ou custodiados pelo TSE
-- https://dadosabertos.tse.jus.br/
-
 ### Dados Prefeitura de Mogi das Cruzes
 O Portal da Prefeitura de Mogi das Cruzes com Dados Abertos da Administração Pública Municipal.
 - https://dados.mogidascruzes.sp.gov.br/dataset/
@@ -1761,6 +1858,70 @@ Informações sobre Linhas Rodoviárias em Curitiba
 - https://www.urbs.curitiba.pr.gov.br/mobile/monitorRod
 - https://urbs.curitiba.pr.gov.br/horario-de-onibus/rodoviaria
 
+### Consultas DETRAN por Estado
+Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Acre (AC)**
+- Consulta estampagem - https://www.detran.ac.gov.br/consultar-autorizacao-de-estampagem/
+- Consulta SNG - https://www.ac.getran.com.br/site/apps/veiculo/consulta/filtro-chassi-sng.jsp
+- Consulta de pontuação CNH - https://www.detran.ac.gov.br/portal-de-servicos/consulta-pontuacao-de-cnh/
+
+**Alagoas (AL)**
+- DETRAN-AL Consulta Veículos - http://www.detran.al.gov.br/consulta-veiculo/
+
+**Amazonas (AM)**
+- DETRAN-AM Consultas - https://www.detran.am.gov.br/servicos/
+
+**Bahia (BA)**
+- DETRAN-BA Consultas - https://www.detran.ba.gov.br/
+
+**Ceará (CE)**
+- DETRAN-CE Consultas - https://www.detran.ce.gov.br/
+
+**Distrito Federal (DF)**
+- DETRAN-DF Consultas - https://www.detran.df.gov.br/
+
+**Goiás (GO)**
+- Consulta veículos/infrações - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-multas-renainf
+- Consulta processos - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-processo/1
+- Consulta CNH Social - https://www.detran.go.gov.br/psw/#/pages/conteudo/acompanhar-cnh-social
+- Consulta Prontuário CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/prontuario-cnh
+- Primeira CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/primeira-cnh
+
+**Maranhão (MA)**
+- Consulta de Licenciamento Veicular - http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml
+
+**Pará (PA)**
+- Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
+- Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
+
+**Piauí (PI)**
+- Licenciamento DETRAN-PI - http://taxas.detran.pi.gov.br/licenciamento/index.jsf
+
+**Rio de Janeiro (RJ)**
+- Atestado DIC - http://atestadodic.detran.rj.gov.br/
+- Certidão de Inteiro TEOR (CIT) - http://certidaoiifppcerj.detran.rj.gov.br/
+- CONSULTA DÉBITO DE VEÍCULO - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJLoader.do
+- Documento Único do DETRAN de Arrecadação - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJDudaSelecionarProduto.do?cdProdutoInicial=INI
+- Guia de Recolhimento de Multas - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJGrmConsultar.do
+- Guia de Regularização de Taxas - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/DebitoVeiculoRJGRTLoaderAction.do
+- Informações de Pagamentos Efetuados - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJConsultaLoader.do
+
+**Rondônia (RO)**
+- Consultar Veículos por placa + renavam e/ou CPF/CNPJ - https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Software/ViewConsultaVeiculos.aspx
+- Descobrir Número da CNH com CPF e Data de Nascimento - https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Internet/Habilitacao/ConsultaProcesso.asp
+- Consulta Pública do Veículo - https://centralservicos.detran.ro.gov.br/consulta/veiculo
+- Consultar Resultado da Prova do DETRAN - https://consulta.detran.ro.gov.br/ResultadoProva
+
+**Roraima (RR)**
+- DETRAN-RR Consulta de Veículos - https://www.rr.getran.com.br/site/apps/veiculo/filtroplacarenavam-consultaveiculo.jsp
+- DETRAN-RR Nada Consta - https://www.rr.getran.com.br/site/apps/nada-consta/filtroPessoaNadaConsta.jsp
+
+</details>
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -1981,6 +2142,81 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 </details>
 
+### Câmeras por Estado
+Câmeras de monitoramento de rodovias, segurança pública e clima por estado.
+
+<details>
+<summary>Câmeras por Estado</summary>
+
+**Maranhão (MA)**
+- São Luis - https://www.climaaovivo.com.br/ma/sao-luis-hotel-abbeville
+- Açailândia - https://www.climaaovivo.com.br/ma/acailandia/acailandia
+- Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-oeste
+- Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-leste
+
+**Rio Grande do Sul (RS)**
+- Localizar pessoas desaparecidas nas enchentes do RS - https://www.achados-e-perdidos-rs.com.br/
+- Osório: RS-389 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6716
+- Osório: ERS-030 KM 89,9 - https://camerasdaer.perkons.com:60000/DAER-6714
+- Osório: ERS-030, 1916 KM 85,3 - https://camerasdaer.perkons.com:60000/DAER-6713
+- Restinga Seca: ERS-149 KM 100 - https://daer.kopp.com.br/ftp/imagem.php?id=Restinga_Seca
+- Ijuí: ERS-155 KM 2,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Ijui
+- Santa Maria: ERS-509 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Santa_Maria
+- Venâncio Aires: RSC-453 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Venancio_Aires
+- Montenegro: ERS-124 KM 29,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro01
+- Montenegro: RSC-287 KM 3,4 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro02
+- Montenegro: RSC-287 KM 8 - https://daer2.fiscaltech.com.br:8843/panoramicas/6208.jpg
+- Portão: ERS-240 KM 9,9 - https://daer.kopp.com.br/ftp/imagem.php?id=Portao
+- São Jerônimo: ERS-401 KM 10,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Sao_Jeronimo
+- Farroupilha: RSC-453 KM 121,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Farroupilha
+- Farroupilha: RSC-453 KM 109 - https://daer2.fiscaltech.com.br:8843/panoramicas/6212.jpg
+- Farroupilha: ERS-122 KM 47 - https://daer2.fiscaltech.com.br:8843/panoramicas/6213.jpg
+- Caxias do Sul: RSC-453 KM 143 - https://daer.kopp.com.br/ftp/imagem.php?id=Caxias_do_Sul
+- Caxias do Sul: ERS-122 KM 66,56 - https://camerasdaer.perkons.com:60000/DAER-6743
+- Caxias do Sul: RSC-453 KM 168,36 - https://camerasdaer.perkons.com:60000/DAER-6744
+- Glorinha: ERS-030 KM 24,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Glorinha
+- Igrejinha: ERS-115 KM 115 - https://daer.kopp.com.br/ftp/imagem.php?id=Igrejinha
+- Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado01
+- Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado02
+- Itati: ERS-486 KM 29,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Itati
+- Candelária: RSC-287 KM 135 - https://daer2.fiscaltech.com.br:8843/panoramicas/6210.jpg
+- Boa Vista do Cadeado: ERS-342 KM 137 - https://daer2.fiscaltech.com.br:8843/panoramicas/6214.jpg
+- Vera Cruz: RSC-287 KM 113 - https://daer2.fiscaltech.com.br:8843/panoramicas/6215.jpg
+- Passo Fundo: ERS-324 KM 195 - https://daer2.fiscaltech.com.br:8843/panoramicas/6216.jpg
+- Passo Fundo: ERS-324 KM 182,4 - http://186.227.239.150:2150/ftp/imagem.php?id=Passo_Fundo
+- Novos Cabrais: RSC-287 KM 166 - https://daer2.fiscaltech.com.br:8843/panoramicas/6211.jpg
+- Capão da Canoa: ERS-389 KM 36,9 - https://camerasdaer.perkons.com:60000/DAER-6718
+- Torres: ERS-389 KM 86,1 - https://camerasdaer.perkons.com:60000/live/media/PK5916/DeviceIpint.6/SourceEndpoint.video:0:0
+- Parobé: ERS-239 KM 42,3 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.7/SourceEndpoint.video:0:0
+- Sapiranga: ERS-239 KM 32 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.8/SourceEndpoint.video:0:0
+- São Leopoldo: ERS-240 KM 2 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.9/SourceEndpoint.video:0:0
+- Capela de Santana: ERS-240 KM 22,1 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.10/SourceEndpoint.video:0:0
+- São Sebastião do Caí: ERS-122 KM 6,5 - https://camerasdaer.perkons.com:60000/DAER-6734
+- São Sebastião do Caí: ERS-122 KM 15,9 - https://camerasdaer.perkons.com:60000/DAER-6737
+- Bom Princípio: ERS-122 KM 29,45 - https://camerasdaer.perkons.com:60000/DAER-6739
+- Teutônia: RSC-453 KM 55,8 - https://camerasdaer.perkons.com:60000/DAER-6748
+- Serafina Côrrea: ERS-129 KM 147,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Serafina_Correa
+- Nova Bassano: ERS- 324 KM 282,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Nova_Bassano
+- Sananduva: ERS-126 KM 110 - https://daer.kopp.com.br/ftp/imagem.php?id=Sananduva
+- Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
+- Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
+
+**Santa Catarina (SC)**
+- Ponte Hercílio Luz 01: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_159&width=1920&height=1080
+- Ponte Hercílio Luz 02: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_160&width=1920&height=1080
+- Ponte Hercílio Luz 03: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
+- Ponte Hercílio Luz 04: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
+- Lauro Linhares/Álvaro Ramos: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_051&width=1920&height=1080
+- Lauro Linhares/Álvaro Ramos 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_052&width=1920&height=1080
+- Lauro Linhares/Travessa São Lourenço 01: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_061&width=1920&height=1080
+- Lauro Linhares/Travessa São Lourenço 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_062&width=1920&height=1080
+- Rua 13 de Maio/Sebastião Lara: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_012&width=1920&height=1080
+- Rua Júlio T. Martins/Homero de Miranda Gome: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_020&width=1920&height=1080
+- Marginal BR101/Rua Acácio Reitz: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_032&width=1920&height=1080
+- Major Livramento/Rua João José Rodrigues: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_VDV_040&width=1920&height=1080
+
+</details>
+
 ### Câmeras da Prefeitura de João Pessoa - PB (SEMOB)
 - http://transito.gtrans.com.br/semobjp/index.php
 
@@ -2190,6 +2426,105 @@ Comparação de tarifas de energia elétrica por região.
 
 ---
 
+## Serviços Públicos Estaduais e Conselhos Profissionais 🏛️ <a name="servicos-estaduais"></a>
+
+### Serviços Públicos por Estado
+Portais de serviços públicos, conselhos profissionais e outras instituições estaduais.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Espírito Santo (ES)**
+- IDE Geobases - Infraestrutura de Dados Espaciais - https://ide.geobases.es.gov.br/?limit=5&offset=0
+
+**Maranhão (MA)**
+- Serviços disponíveis TRE | Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
+- Serviços disponíveis TRT | Maranhão - https://www.trt16.jus.br/servicos/para-o-cidadao-e-advogado
+- Serviços disponíveis MP | Maranhão - https://www.mpma.mp.br/servicos/
+- Serviços disponíveis TJ | Maranhão - https://www.tjma.jus.br/portal
+- Serviços disponíveis DETRAN | Maranhão - https://www.detran.ma.gov.br/inicio/paginas/Home.xhtml
+- Serviços disponíveis Assembleia legislativa | Maranhão - https://www.al.ma.leg.br/sitealema/
+- Sistema S | Maranhão - https://www.fiema.org.br/home
+- OAB | Maranhão - https://www.oabma.org.br/
+- FAM | Maranhão - https://famem.org.br/
+- Serviços disponíveis GOV | Maranhão - https://www.ma.gov.br/servicos/
+- Contatos do GOV | Maranhão - https://www.ma.gov.br/contatos
+- Diário Oficial GOV | Maranhão - https://www.diariooficial.ma.gov.br/
+
+**Maranhão (MA) - São Luís**
+- Serviços disponíveis Prefeitura | São Luís - https://saoluis.ma.gov.br/servicos
+- Informações de Secretarias e Órgãos da prefeitura | São Luís - https://saoluis.ma.gov.br/secretarias
+
+**Maranhão (MA) - São José de Ribamar**
+- Serviços disponíveis Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/servicos
+- Informações de Secretarias e Órgãos da prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/secretarias/16510
+
+**Piauí (PI)**
+- Sistema Intranet Corpo de Bombeiros Militar do Piauí - http://www.bombeiros.pi.gov.br/distec/index2.php
+
+**São Paulo (SP)**
+- Consulta Situação RG - https://www.policiacivil.sp.gov.br/portal/faces/pages_home/servicos/consultaSituacaoRG
+- Consulta de concluintes em unidades escolares do Estado - https://concluintes.educacao.sp.gov.br/publica/consultapublica/Search
+
+</details>
+
+### Conselhos Profissionais do Maranhão
+Consultas de registro e certidões em conselhos profissionais do Maranhão.
+
+<details>
+<summary>Conselhos Maranhão</summary>
+
+- CRMMA (Medicina) - https://crmma.org.br/servicos-para-medicos/certidoes-declaracoes/certidao-negativa-nada-consta
+- CRFMA (Farmácia) - https://crfma.org.br/
+- CREAMA (Engenharia e Agronomia) - https://www.creama.org.br/
+- CRPMA (Psicologia) - https://crpma.org.br/
+- CREFMA (Educação Física) - https://cref21.org.br/
+- CRAMA (Administração) - https://cra-ma.org.br/
+- COREMA (Representantes Comerciais) - https://www.coremaranhao.org.br/
+- CORENMA (Enfermagem) - https://corenma.gov.br/site2/
+- CEEM (Educação) - https://conselhodeeducacao.ma.gov.br/
+- CRCMA (Contabilidade) - https://crcma.org.br/
+- CRTMA (Técnicos Industriais) - https://www.crt02.gov.br/maranhao/
+- CRQMA (Química) - https://crq11.org.br/
+- CRESSMA (Serviço Social) - https://www.cressma.org.br/
+- CROMA (Museologia) - https://www.croma.org.br/
+- CFCMA (Contabilidade) - https://cfc.org.br/conselhos/conselho-regional-de-contabilidade-do-maranhao/
+- CRMVMA (Medicina Veterinária) - https://www.crmvma.org.br/
+- CRTRMA (Técnicos em Radiologia) - https://crtr17.gov.br/
+- CORECON (Economia) - https://corecon-ma.org.br/
+- CRBMMA (Biomedicina) - https://crbm2.gov.br/
+- CRNMA (Nutrição) - https://crbm2.gov.br/
+
+</details>
+
+### Empresas de Serviços Públicos do Maranhão
+Consultas de serviços essenciais do Maranhão.
+
+<details>
+<summary>Serviços Maranhão</summary>
+
+- CAEMA (Água) - https://www.caema.ma.gov.br/
+- EQUATORIAL (Energia) - https://ma.equatorialenergia.com.br/
+- BRK (Saneamento) - https://minhabrk.com.br/home
+
+</details>
+
+### Consulta de Empresa - Junta Comercial Pará (JUCEPA)
+Consulta pública de empresas registradas na JUCEPA.
+- https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
+
+### Consulta de Processo Administrativo Eletrônico - Pará
+Sistema de consulta pública de processos administrativos eletrônicos do estado do Pará.
+- https://pae-consulta-publica.sistemas.pa.gov.br/
+
+### Boletim Geral de Bombeiros - Pará
+Consulta pública de boletins do Corpo de Bombeiros do Pará.
+- https://siga.bombeiros.pa.gov.br/boletins.php
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 
 ### Busca de Falecidos/Óbitos
@@ -2250,7 +2585,6 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
 ### Consulta em cartórios
 - https://www.pesquisaprotesto.com.br/
 - https://protestosp.com.br/consulta-de-protesto?hc=1
-- https://www.registrodeimoveis.org.br/cartorios
 - https://e-cartoriodobrasil.com/pedido/imoveis/pesquisa-qualificada-de-bens
     
 ### Lista Telefônica
@@ -2489,365 +2823,6 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
  ---
 
 
-## Categorias por Estados Brasileiros 🇧🇷 <a name="estados-br"></a> [EM CONSTRUÇÃO]
-
-- ### Acre (AC) <a name="acre"></a>
-
-    <details>
-        <summary>Consultas AC</summary>
-    
-    - Antecedente criminal - https://pc.ac.gov.br/certidao-de-antecedentes-criminais/
-    - ESAJ (Processos) - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090
-    - Consulta estapagem - https://www.detran.ac.gov.br/consultar-autorizacao-de-estampagem/
-    - Consulta SNG - https://www.ac.getran.com.br/site/apps/veiculo/consulta/filtro-chassi-sng.jsp
-    - Consulta de pontuação CNH - https://www.detran.ac.gov.br/portal-de-servicos/consulta-pontuacao-de-cnh/
-    - Nota Fiscal - http://sefaznet.ac.gov.br/nfe/consulta.xhtml 
-    
-    </details>
-
-- ### Alagoas (AL) <a name="alagoas"></a>
-    <details>
-        <summary>Consultas AL</summary>
-        
-    - DETRAN-AL Consulta Veículos - http://www.detran.al.gov.br/consulta-veiculo/
-    - TJ-AL Processos - https://www2.tjal.jus.br/cpopg/open.do
-    - Nota Fiscal Eletrônica - https://nfce.sefaz.al.gov.br/consultaNFCe.aspx
-    - Portal da Transparência AL - https://transparencia.al.gov.br/
-    
-    </details>
-- ### Amapá (AP) <a name="amapa"></a>
-    <details>
-        <summary>Consultas AP</summary>
-        
-    - TJ-AP PJe 1º Grau - https://pje.tjap.jus.br/1g/ConsultaPublica/listView.seam
-    - TJ-AP PJe 2º Grau - https://pje.tjap.jus.br/2g/ConsultaPublica/listView.seam
-    - TJ-AP Tucujuris (Processos Físicos) - https://tucujuris.tjap.jus.br/pages/consultar-processo/consultar-processo.html
-    - SEEU-AP Sistema Eletrônico de Execução Unificado - https://seeu-consulta-pub.pje.jus.br/seeu/processo/consultaPublica.do?actionType=iniciar
-            
-    </details>
-- ### Amazonas (AM) <a name="amazonas"></a>
-    <details>
-        <summary>Consultas AM</summary>
-        
-    - DETRAN-AM Consultas - https://www.detran.am.gov.br/servicos/
-    - TJ-AM Processos - https://consultasaj.tjam.jus.br/cpopg/open.do
-    - Nota Fiscal Eletrônica - https://sistemas.sefaz.am.gov.br/nfce/qrcode
-    - Portal da Transparência AM - https://www.transparencia.am.gov.br/
-    
-    </details>
-- ### Bahia (BA) <a name="bahia"></a>
-    <details>
-        <summary>Consultas BA</summary>
-        
-    - DETRAN-BA Consultas - https://www.detran.ba.gov.br/
-    - TJ-BA Processos 1º Grau - https://esaj.tjba.jus.br/cpopg/open.do
-    - TJ-BA Processos 2º Grau - https://esaj.tjba.jus.br/cposg5/open.do
-    - Nota Fiscal Eletrônica - http://nfe.sefaz.ba.gov.br/
-    - Portal da Transparência BA - http://www.transparencia.ba.gov.br/
-    
-    </details>
-- ### Ceará (CE) <a name="ceara"></a>
-    <details>
-        <summary>Consultas CE</summary>
-        
-    - DETRAN-CE Consultas - https://www.detran.ce.gov.br/
-    - TJ-CE Processos - https://esaj.tjce.jus.br/cpopg/open.do
-    - Nota Fiscal Eletrônica - https://nfce.sefaz.ce.gov.br/pages/consultarNFCe.jsf
-    - Portal da Transparência CE - https://cearatransparente.ce.gov.br/
-    
-    </details>
-- ### Distrito Federal (DF) <a name="distrito-federal"></a>
-    <details>
-        <summary>Consultas DF</summary>
-        
-    - DETRAN-DF Consultas - https://www.detran.df.gov.br/
-    - TJ-DFT Processos - https://pje2i.tjdft.jus.br/consultapublica
-    - Nota Fiscal Eletrônica - https://dec.fazenda.df.gov.br/ConsultarNFe.aspx
-    - Portal da Transparência DF - https://www.transparencia.df.gov.br/
-    
-    </details>
-- ### Espírito Santo (ES) <a name="espirito-santo"></a>
-    <details>
-        <summary>Consultas ES</summary>
-        
-    - IDE Geobases - Infraestrutura de Dados Espaciais - https://ide.geobases.es.gov.br/?limit=5&offset=0
-    
-    </details>
-
-- ### Goiás (GO) <a name="goias"></a>
-    <details>
-        <summary>Consultas GO</summary>
-        
-    - Consulta veículos/infrações - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-multas-renainf
-    - Consulta processos - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-processo/1
-    - Consulta CNH_Social - https://www.detran.go.gov.br/psw/#/pages/conteudo/acompanhar-cnh-social
-    - Consulta Prontuário_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/prontuario-cnh
-    - Primeira_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/primeira-cnh 
-    - Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
-    - Processos físicos 2º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
-    - Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4
-    - TJ-GO Acordo Aqui - https://acordoaqui.tjgo.jus.br/acordo-aqui/pesquisa
-    - Consulta Nota Fiscal - https://www.goiania.go.gov.br/sing_servicos/nota-fiscal-eletronica/
-    - Consulta DUAM-IPTU-ITU-ISSQN - https://www.goiania.go.gov.br/sing_servicos/emissao-duam-itu-iptu-issqn/
-    - Consulta matrículas - https://www.goiania.go.gov.br/sing_servicos/matriculas-web/
-    - Consulta processos - https://www.goiania.go.gov.br/sing_servicos/consulta-processos/
-            
-    </details>
-
-- ### Maranhão (MA) <a name="maranhao"></a>
-
-<details>
-        <summary>Serviços MA</summary>
-    
-- Serviços disponíveis TRE| Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
-    - Serviços disponíveis TRT| Maranhão - https://www.trt16.jus.br/servicos/para-o-cidadao-e-advogado 
-    - Serviços disponíveis MP| Maranhão - https://www.mpma.mp.br/servicos/
-    - Serviços disponíveis TJ| Maranhão - https://www.tjma.jus.br/portal
-    - Serviços disponíveis Detran| Maranhão - https://www.detran.ma.gov.br/inicio/paginas/Home.xhtml
-    - Serviços disponíveis Assembleia legislativa| Maranhão - https://www.al.ma.leg.br/sitealema/
-    - Sistema S| Maranhão - https://www.fiema.org.br/home
-    - OBA | Maranhão - https://www.oabma.org.br/
-    - FAM | Maranhão - https://famem.org.br/   
-    - Serviços disponíveis GOV| Maranhão - https://www.ma.gov.br/servicos/
-
-- ### Governo do Maranhão
-    - Contatos do GOV| Maranhão - https://www.ma.gov.br/contatos
-    - Portal da Transparência GOV| Maranhão https://www.transparencia.ma.gov.br/?_gl=1*1tcyjuy*_ga*NjA2MTcyNjc1LjE3MzkxMTU2NTQ.*_ga_43WSLQF7SQ*MTczOTExNTY1My4xLjEuMTczOTExNjE3My42MC4wLjA.
-    - Diário Oficial GOV| Maranhão - https://www.diariooficial.ma.gov.br/
-
-- ### Prefeitura de São Luis     
-    - Serviços disponíveis Prefeitura | São Luis - https://saoluis.ma.gov.br/servicos
-    - Portal da Transparência Prefeitura | São Luis - https://transparencia.saoluis.ma.gov.br/
-    - Informações de Secretarias e Orgãos da prefeitura | São Luis - https://saoluis.ma.gov.br/secretarias
-    - Diário Eletrônico Prefeitura | São Luis - https://diariooficial.saoluis.ma.gov.br/
-
-- ### Prefeitura São José de Ribamar
-    - Serviços disponíveis Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/servicos
-    - Portal da Transparência Prefeitura | São José de Ribamar - https://transparencia.saojosederibamar.ma.gov.br/
-    - Informações de Secretarias e Orgãos da prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/secretarias/16510
-    - Diário Eletrônico Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/diario-eletronico/148327
-
- - ### Cameras Ao vivo 
-    - São Luis - https://www.climaaovivo.com.br/ma/sao-luis-hotel-abbeville
-    - Açailandia - https://www.climaaovivo.com.br/ma/acailandia/acailandia
-    - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-oeste
-    - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-leste
-
-- ### Conselhos
-   - CRMMA - https://crmma.org.br/servicos-para-medicos/certidoes-declaracoes/certidao-negativa-nada-consta
-   - CRFMA - https://crfma.org.br/
-   - CREAMA - https://www.creama.org.br/
-   - CRPMA - https://crpma.org.br/
-   - CREFMA - https://cref21.org.br/
-   - CRAMA - https://cra-ma.org.br/
-   - COREMA - https://www.coremaranhao.org.br/
-   - CORENMA - https://corenma.gov.br/site2/
-   - CEEM - https://conselhodeeducacao.ma.gov.br/
-   - CRCMA - https://crcma.org.br/
-   - CRTMA - https://www.crt02.gov.br/maranhao/
-   - CRQMA - https://crq11.org.br/
-   - CRESSMA - https://www.cressma.org.br/
-   - CROMA - https://www.croma.org.br/
-   - CFCMA - https://cfc.org.br/conselhos/conselho-regional-de-contabilidade-do-maranhao/
-   - CRMVMA - https://www.crmvma.org.br/
-   - CRTRMA - https://crtr17.gov.br/
-   - CORECON - https://corecon-ma.org.br/
-   - CRCMA - https://crcma.org.br/crcma/
-   - CRBMMA - https://crbm2.gov.br/
-   - CRNMA - https://crbm2.gov.br/
-
-
-- ### Serviços
-
-    - CAEMA - https://www.caema.ma.gov.br/
-    - EQUATORIAL - https://ma.equatorialenergia.com.br/
-    - BRK - https://minhabrk.com.br/home
-
-</details>
-
-- ### Mato Grosso (MT) <a name="mato-grosso"></a>
-- ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
-- ### Minas Gerais (MG) <a name="minas-gerais"></a>
-    <details>
-        <summary>Consultas MG</summary>
-     
-    - Consulta de Certidão Negativa de Débito | Belo Horizonte - http://cndonline.siatu.pbh.gov.br/CNDOnline/?null
-    
-    </details>
-- ### Pará (PA) <a name="para"></a>
-
-    <details>
-            <summary>Consultas PA</summary>
-        
-    - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
-    - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
-    - Consulta de Antecedente Criminal - https://antecedentes.pc.pa.gov.br/consulta
-    - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
-    - Consulta Empresa - https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
-    - Boletim Geral de Bombeiros - https://siga.bombeiros.pa.gov.br/boletins.php
-        
-    </details>
-
-- ### Paraíba (PB) <a name="paraiba"></a>
-- ### Paraná (PR) <a name="parana"></a>
-- ### Pernambuco (PE) <a name="pernambuco"></a>
-- ### Piauí (PI) <a name="piaui"></a>
-    <details>
-        <summary>Consultas PI</summary>
-      
-    
-    - Impedidos de contratar com o poder público - https://sistemas.tce.pi.gov.br/ImpedimentoAS/impedimentos/listapessoas.xhtml <br>
-    - Sistema Intranet Corpo de Bombeiros Militar do Piauí -  http://www.bombeiros.pi.gov.br/distec/index2.php 
-    - Licenciamento Detran-PI - http://taxas.detran.pi.gov.br/licenciamento/index.jsf
-    - Sefaz Piauí - https://webas.sefaz.pi.gov.br/
-    - Inadimplentes - https://webas.sefaz.pi.gov.br/caginweb/
-    - Certidões - https://webas.sefaz.pi.gov.br/certidaonft-web/index.xhtml
-    - MEI - https://webas.sefaz.pi.gov.br/MEI-WEB/
-    </details>
-- ### Rio de Janeiro (RJ) <a name="rio-janeiro"></a>
-    <details>
-        <summary>Consultas RJ</summary>
-
-    - Justiça Militar - https://www.stm.jus.br/servicos-stm/certidao-negativa/emitir-certidao-negativa
-    - Justiça Federal - https://procweb.jfrj.jus.br/certidao/emissao_cert.asp
-    - Crimes Eleitorais - https://www.tse.jus.br/eleitor/certidoes/certidao-de-crimes-eleitorais
-    - Antecedentes Criminais - http://atestadodic.detran.rj.gov.br/
-    - Certidão de interio TEOR (CIT) - http://certidaoiifppcerj.detran.rj.gov.br/
-    - B.O - https://dedic.pcivil.rj.gov.br/Consulta.aspx
-       
-    </details> 
-
-    <details>
-        <summary>Consulta de Dados via RENAVAM</summary>
-
-    - CONSULTA DÉBITO DE VEÍCULO - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJLoader.do
-    - Documento Único do DETRAN de Arrecadação - RH - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJDudaSelecionarProduto.do?cdProdutoInicial=INI
-    - Guia de Recolhimento de Multas - RH - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJGrmConsultar.do
-    - Guia de Regularização de Taxas - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/DebitoVeiculoRJGRTLoaderAction.do
-    - Informações de Pagamentos Efetuados - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJConsultaLoader.do
-
-    </details>
-
-
-- ### Rio Grande do Norte (RN) <a name="rio-grande-norte"></a>
-
-- ### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
-    <details>
-        <summary>Monitoramento de Rodovias:</summary>
-      
-    - Localizar pessoas desaparecidas nas enchentes do RS.https://www.achados-e-perdidos-rs.com.br/
-    Todos os links e informações foram obtidos originalmente do site do [DAER](https://www.daer.rs.gov.br/) no Rio Grande do Sul.
-    - Osório: RS-389 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6716
-    - Osório: ERS-030 KM 89,9 - https://camerasdaer.perkons.com:60000/DAER-6714
-    - Osório: ERS-030, 1916 KM 85,3 - https://camerasdaer.perkons.com:60000/DAER-6713
-    - Restinga Seca: ERS-149 KM 100 - https://daer.kopp.com.br/ftp/imagem.php?id=Restinga_Seca
-    - Ijuí: ERS-155 KM 2,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Ijui
-    - Santa Maria: ERS-509 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Santa_Maria
-    - Venâncio Aires: RSC-453 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Venancio_Aires
-    - Montenegro: ERS-124 KM 29,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro01
-    - Montenegro: RSC-287 KM 3,4 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro02
-    - Montenegro: RSC-287 KM 8 - https://daer2.fiscaltech.com.br:8843/panoramicas/6208.jpg
-    - Portão: ERS-240 KM 9,9 - https://daer.kopp.com.br/ftp/imagem.php?id=Portao
-    - São Jerônimo: ERS-401 KM 10,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Sao_Jeronimo
-    - Farroupilha: RSC-453 KM 121,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Farroupilha
-    - Farroupilha: RSC-453 KM 109 - https://daer2.fiscaltech.com.br:8843/panoramicas/6212.jpg
-    - Farroupilha: ERS-122 KM 47 - https://daer2.fiscaltech.com.br:8843/panoramicas/6213.jpg
-    - Caxias do Sul: RSC-453 KM 143 - https://daer.kopp.com.br/ftp/imagem.php?id=Caxias_do_Sul
-    - Caxias do Sul: ERS-122 KM 66,56 - https://camerasdaer.perkons.com:60000/DAER-6743
-    - Caxias do Sul: RSC-453 KM 168,36 - https://camerasdaer.perkons.com:60000/DAER-6744
-    - Glorinha: ERS-030 KM 24,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Glorinha
-    - Igrejinha: ERS-115 KM 115 - https://daer.kopp.com.br/ftp/imagem.php?id=Igrejinha
-    - Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado01
-    - Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado02
-    - Itati: ERS-486 KM 29,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Itati
-    - Candelária: RSC-287 KM 135 - https://daer2.fiscaltech.com.br:8843/panoramicas/6210.jpg
-    - Boa Vista do Cadeado: ERS-342 KM 137 - https://daer2.fiscaltech.com.br:8843/panoramicas/6214.jpg
-    - Vera Cruz: RSC-287 KM 113 - https://daer2.fiscaltech.com.br:8843/panoramicas/6215.jpg
-    - Passo Fundo: ERS-324 KM 195 - https://daer2.fiscaltech.com.br:8843/panoramicas/6216.jpg
-    - Passo Fundo: ERS-324 KM 182,4 - http://186.227.239.150:2150/ftp/imagem.php?id=Passo_Fundo
-    - Novos Cabrais: RSC-287 KM 166 - https://daer2.fiscaltech.com.br:8843/panoramicas/6211.jpg
-    - Capão da Canoa: ERS-389 KM 36,9 - https://camerasdaer.perkons.com:60000/DAER-6718
-    - Torres: ERS-389 KM 86,1 - https://camerasdaer.perkons.com:60000/live/media/PK5916/DeviceIpint.6/SourceEndpoint.video:0:0
-    - Parobé: ERS-239 KM 42,3 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.7/SourceEndpoint.video:0:0
-    - Sapiranga: ERS-239 KM 32 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.8/SourceEndpoint.video:0:0
-    - São Leopoldo: ERS-240 KM 2 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.9/SourceEndpoint.video:0:0
-    - Capela de Santana: ERS-240 KM 22,1 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.10/SourceEndpoint.video:0:0
-    - São Sebastião do Caí: ERS-122 KM 6,5 - https://camerasdaer.perkons.com:60000/DAER-6734
-    - São Sebastião do Caí: ERS-122 KM 15,9 - https://camerasdaer.perkons.com:60000/DAER-6737
-    - Bom Princípio: ERS-122 KM 29,45 - https://camerasdaer.perkons.com:60000/DAER-6739
-    - Teutônia: RSC-453 KM 55,8 - https://camerasdaer.perkons.com:60000/DAER-6748
-    - Serafina Côrrea: ERS-129 KM 147,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Serafina_Correa
-    - Nova Bassano: ERS- 324 KM 282,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Nova_Bassano
-    - Sananduva: ERS-126 KM 110 - https://daer.kopp.com.br/ftp/imagem.php?id=Sananduva
-    - Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
-    - Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
-    - Emitir certidão de antecedentes criminais - https://www.pc.rs.gov.br/emitir-certidao-de-antecedentes-policiais
-
-    </details> 
-
-- ### Rondônia (RO) <a name="rondonia"></a>
-    <details>
-        <summary>Consultas Veiculares e Afins RO</summary>
-     
-    - Consultar Veículos por placa + renavam e/ou CPF/CNPJ -https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Software/ViewConsultaVeiculos.aspx
-    - Descobrir Número da CNH com CPF e Data de Nascimento - https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Internet/Habilitacao/ConsultaProcesso.asp
-    - Consulta Pública do Veículo *OBS: Caso tenha renavam + cpf é possível consultar débitos - https://centralservicos.detran.ro.gov.br/consulta/veiculo
-    - Consultar Resultado da Prova do Detran - https://consulta.detran.ro.gov.br/ResultadoProva
-      
-    </details>
-        
-    <details>
-            <summary>Imóveis Porto Velho</summary>
-    - Certidão Negativa de Débitos de Tributos Fiscais - https://semfazonline.portovelho.ro.gov.br/portal/certidao_negativa.action<br>
-    - Consulta de Débitos Imobiliários - IPTU - https://semfazonline.portovelho.ro.gov.br/portal/iptu_consulta_debito_input.action <br>
-    - Consulta Empresas Cadastradas - https://semfazonline.portovelho.ro.gov.br/portal/consulta_empresa_input.action
-    </details>
-        
-- ### Roraima (RR) <a name="roraima"></a>
-    <details>
-        <summary>Consultas RR</summary>
-        
-    - DETRAN-RR Consulta de Veículos - https://www.rr.getran.com.br/site/apps/veiculo/filtroplacarenavam-consultaveiculo.jsp
-    - DETRAN-RR Nada Consta - https://www.rr.getran.com.br/site/apps/nada-consta/filtroPessoaNadaConsta.jsp
-            
-    </details>
-- ### Santa Catarina (SC) <a name="santa-catarina"></a>
-    <details>
-        <summary>Monitoramento de Segurança Pública:</summary>
-
-    Todos os links e informações foram obtidos originalmente do site da [DTIC](https://www.ssp.sc.gov.br/dtic/) do estado de Santa Catarina.
-    - Ponte Hercílio Luz 01: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_159&width=1920&height=1080
-    - Ponte Hercílio Luz 02: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_160&width=1920&height=1080
-    - Ponte Hercílio Luz 03: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
-    - Ponte Hercílio Luz 04: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
-    - Lauro Linhares/Álvaro Ramos: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_051&width=1920&height=1080
-    - Lauro Linhares/Álvaro Ramos 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_052&width=1920&height=1080
-    - Lauro Linhares/Travessa São Lourenço 01: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_061&width=1920&height=1080
-    - Lauro Linhares/Travessa São Lourenço 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_062&width=1920&height=1080
-    - Rua 13 de Maio/Sebastião Lara: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_012&width=1920&height=1080
-    - Rua Júlio T. Martins/Homero de Miranda Gome: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_020&width=1920&height=1080
-    - Marginal BR101/Rua Acácio Reitz: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_032&width=1920&height=1080
-    - Major Livramento/Rua João José Rodrigues: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_VDV_040&width=1920&height=1080
-    - Antecedentes Criminais - https://sistemas.pc.sc.gov.br/formulario-antecedentes-cidadao/#/
-
-    </details> 
-
-- ### São Paulo (SP) <a name="sao-paulo"></a>
-    <details>
-        <summary>Consultas SP</summary>
-
-    - Consulta de Processos WEB | Limeira - https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/ 
-    - Consulta Situação RG - https://www.policiacivil.sp.gov.br/portal/faces/pages_home/servicos/consultaSituacaoRG
-    - Consulta de concluentes em unidades escolares do Estado - https://concluintes.educacao.sp.gov.br/publica/consultapublica/Search
-    - Consulta de nome e salários de servidores do Estado - https://www.transparencia.sp.gov.br/home/servidor
-       
-    </details> 
-- ### Sergipe (SE) <a name="sergipe"></a>
-- ### Tocantins (TO) <a name="tocantins"></a>
-
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário) 
- 
----
 
 ## Autores 👔 <a name="autores"></a>
 <p >
