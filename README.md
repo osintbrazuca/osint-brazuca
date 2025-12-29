@@ -290,23 +290,25 @@ Sistema de intimações e comunicações processuais eletrônicas do Processo Ju
 ## Busca de Informações via CPF/CNPJ/CRM/CNA 🔭 <a name="busca-cpf-cnpj-crm-cna"></a>
 ### Consulta Situação Cadastral CPF
 Consulta pública da situação cadastral do CPF na Receita Federal.
-- https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp 🟢 **Gratuito** | **Oficial**
+- https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp 
 
 ### Busca Dados Usando CNPJ
 <details>
 <summary>Links de Consulta</summary>
 
-- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp 🟢 **Oficial** | **Gratuito**
-- https://brasilcnpj.net/ 🟢 **Gratuito**
-- https://cnpj.biz/ 🟢 **Gratuito**
-- https://cadastroempresa.com.br/ 🟢 **Gratuito**
-- https://casadosdados.com.br/ 🟢 **Gratuito**
-- https://cnpjs.rocks/ 🟢 **Gratuito**
-- https://www.informecadastral.com.br/ 🟡 **Limitado**
-- https://www.situacaocadastral.info/ 🟢 **Gratuito**
-- http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21 🟢 **Oficial**
-- https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/ 🟢 **Oficial** | **Download**
-- https://dados-abertos-rf-cnpj.casadosdados.com.br/arquivos/ 🟢 **Espelho**
+- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp 
+- https://brasilcnpj.net/ 
+- https://cnpj.biz/ 
+- https://cadastroempresa.com.br/ 
+- https://casadosdados.com.br/ 
+- https://cnpjs.rocks/ 
+- https://www.informecadastral.com.br/ 
+- https://www.situacaocadastral.info/ 
+- http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21 
+- https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/ 
+- https://dados-abertos-rf-cnpj.casadosdados.com.br/arquivos/ 
+- https://cnpja.com/ 
+- https://iefacil.com.br/ 
 
 </details>
 
@@ -316,7 +318,7 @@ Este repositório contém duas ferramentas úteis para a manipulação e consult
 
 ### Busca Nome Usando CPF/CNPJ
 A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
-- https://www.situacao-cadastral.com/ 🟢 **Gratuito**
+- https://www.situacao-cadastral.com/ 
 
 ### Retornando Nome Completo CPF/CNPJ
 Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica). Bem como, consultar Certidão Eletrônica de Ações Trabalhistas - CEAT.  Em escolha ao CPNJ poder ser que retorne o CPF como complemento ao nome.
@@ -324,7 +326,7 @@ Neste serviço é possível descobrir o nome completo utilizando CPF (Cadastro d
 
 ### Visualização de dados públicos de CNPJ
 Ferramenta para observar o relacionamento entre empresas e sócios, a partir dos dados públicos disponibilizados pela Receita Federal. Pode ser executado localmente, baixando o código do Github ou executado online diretamente no site do projeto.
-- https://www.redecnpj.com.br/rede/ 🟢 **Gratuito** | **Visualização**
+- https://www.redecnpj.com.br/rede/  | **Visualização**
 - https://github.com/rictom/rede-cnpj/ 🔧 **GitHub**
 
         
@@ -377,6 +379,41 @@ Nesta consulta será exibido informações do cadastro MEI. Para consulta é nec
 Para obter informações de declaração do simples nacional, basta informar o CNPJ nessa pesquisa. Vale para todo o território nacional
 - http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Default.aspx
 - https://www8.receita.fazenda.gov.br/SimplesNacional/controleAcesso/Autentica.aspx?id=16
+- https://www8.receita.fazenda.gov.br/SimplesNacional/aplicacoes.aspx?id=21
+
+### Consulta de Inscrição Estadual (SINTEGRA)
+Consulta ao cadastro de contribuintes de ICMS (Inscrição Estadual) nos sistemas SINTEGRA estaduais. Permite verificar a situação cadastral de empresas junto às Secretarias de Fazenda dos estados.
+<details>
+<summary>Consultas por Estado</summary>
+
+- Paraná (PR) - http://www.sintegra.fazenda.pr.gov.br/sintegra/
+- Rio Grande do Sul (RS) - https://www.sefaz.rs.gov.br/consultas/contribuinte
+- Santa Catarina (SC) - https://sat.sef.sc.gov.br/tax.NET/Sat.Cadastro.Web/ComprovanteIE/Consulta.aspx
+- Rio de Janeiro (RJ) - https://sucief-sincad-web.fazenda.rj.gov.br/sincad-web/index.jsf
+- São Paulo (SP) - https://www.cadesp.fazenda.sp.gov.br/(S(o4dmnsp1bcc2na341cmodgoq))/Pages/Cadastro/Consultas/ConsultaPublica/ConsultaPublica.aspx
+- Distrito Federal (DF) - https://agnet.fazenda.df.gov.br/area.cfm?id_area=1140
+- Goiás (GO) - https://appasp.sefaz.go.gov.br/Sintegra/Consulta/default.html
+- Mato Grosso do Sul (MS) - https://servicos.efazenda.ms.gov.br/consultapublica
+- Alagoas (AL) - https://sintegra.sefaz.al.gov.br/#/
+- Bahia (BA) - https://portal.sefaz.ba.gov.br/scripts/cadastro/cadastroBa/consultaBa.asp
+- Ceará (CE) - https://consultapublica.sefaz.ce.gov.br/sintegra/preparar-consultar
+- Maranhão (MA) - https://sistemas1.sefaz.ma.gov.br/sintegra/jsp/consultaSintegra/consultaSintegraFiltro.jsf
+- Paraíba (PB) - https://www4.sefaz.pb.gov.br/sintegra/SINf_ConsultaSintegra.jsp
+- Rio Grande do Norte (RN) - https://uvt.sefaz.rn.gov.br/#/services/consultaContribuinte
+- Sergipe (SE) - https://security.sefaz.se.gov.br/SIC/sintegra/index.jsp
+- Acre (AC) - https://sefazonline.ac.gov.br/sefazonline/app.wmsintegralista
+- Amazonas (AM) - https://online.sefaz.am.gov.br/sintegra/index.asp
+- Pará (PA) - https://app.sefa.pa.gov.br/sintegra/
+- Rondônia (RO) - https://portalcontribuinte.sefin.ro.gov.br/Publico/parametropublica.jsp
+- Roraima (RR) - https://portalweb.sefaz.rr.gov.br/sintegra/servlet/wp_siate_consultasintegra
+- Tocantins (TO) - https://sintegra.sefaz.to.gov.br/sintegra/servlet/wpsico01
+
+</details>
+
+
+### Consulta de Inutilização / CNPJ
+Consulta de inutilização de numeração de documentos fiscais eletrônicos e verificação de CNPJ no sistema de CT-e.
+- https://www.cte.fazenda.gov.br/portal/consulta.aspx?tipoConsulta=inutilizacao&tipoConteudo=MZ1N+CQHCgA=
 
 ### Consulta Comunicação de Decisão do Requerimento/Benefício
 Consulta o status de requisição de aposentádoria de INSS. Vale para todo o território nacional.
