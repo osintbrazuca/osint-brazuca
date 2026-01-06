@@ -150,7 +150,7 @@ Background check para contratação, compliance ou parceria.
 #### **Etapa 3: Histórico Judicial**
 ```
 4. Nome Completo → CNJ PJe
-   URL: https://www.cnj.jus.br/pjeconsulta/
+   URL: https://www.cnj.jus.br/pjecnj/ConsultaPublica/listView.seam
    ✅ Verificar: Processos em tribunais estaduais e federais
 
 5. Nome → Escavador
