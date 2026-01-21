@@ -20,6 +20,41 @@ O Projeto **OSINT Brazuca** é um repositório criado com intuito de reunir info
 
 OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) é um modelo de inteligência que visa encontrar, selecionar e adquirir informações de fontes públicas e analisá-las para que junto com outras fontes possam produzir um conhecimento. As informações coletadas por meio de fontes abertas, possuem baixo custo, se comparado as onerosas operações de campo.
 
+## ⚠️ Avisos Legais e Éticos
+
+> **ATENÇÃO**: Este repositório contém apenas fontes de informação PÚBLICAS e LEGAIS. O uso inadequado das informações aqui contidas é de responsabilidade exclusiva do usuário.
+
+### 🔒 LGPD - Lei Geral de Proteção de Dados
+Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratamento de dados pessoais deve ter base legal e finalidade legítima.
+
+**✅ Boas Práticas:**
+- Utilizar apenas fontes públicas oficiais
+- Respeitar a privacidade e dignidade das pessoas
+- Documentar fontes e metodologia utilizada
+- Ter propósito legítimo (jornalismo, pesquisa, segurança, compliance)
+- Não compartilhar dados sensíveis publicamente
+
+**❌ Práticas Proibidas:**
+- Engenharia social ou invasão de sistemas
+- Perseguição (stalking) ou assédio
+- Uso para discriminação ou preconceito
+- Comercialização não autorizada de dados
+- Violação de sigilo profissional
+
+**⚖️ Base Legal**: Lei nº 13.709/2018 (LGPD) | Lei nº 12.965/2014 (Marco Civil) | Lei nº 12.527/2011 (LAI)
+
+---
+
+## 📚 Documentação Complementar
+
+> Para facilitar o uso deste repositório, criamos documentos especializados:
+
+- 📊 **[Guia Rápido de Consultas](GUIA_RAPIDO.md)** - Tabelas comparativas, top 10 consultas e legendas
+- 🔍 **[Exemplos Práticos de Investigação](EXEMPLOS_PRATICOS.md)** - 6 casos de uso detalhados com passo a passo
+- 🔄 **[Fluxogramas de Investigação](FLUXOGRAMA.md)** - Diagramas visuais de processos investigativos
+
+---
+
 # Sumário
 
 - [Benefícios Sociais](#beneficios-sociais)
@@ -28,6 +63,14 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Consulta de Processos](#consulta-processos)
 - [Busca de Informações via CPF/CNPJ/CRM/CNA](#busca-cpf-cnpj-crm-cna)
 - [Estatísticas](#estatísticas)
+- [Registros Eleitorais e Políticos](#registros-eleitorais-politicos)
+- [Registros de Imóveis e Propriedades](#registros-imoveis-propriedades)
+- [Registros Ambientais](#registros-ambientais)
+- [Comércio Exterior](#comercio-exterior)
+- [Registros de Marcas e Patentes](#registros-marcas-patentes)
+- [Transparência Pública e Defesa do Consumidor](#transparencia-defesa-consumidor)
+- [Diários Oficiais](#diarios-oficiais)
+- [Cultura e Audiovisual](#cultura-audiovisual)
 - [Telecom](#telecom)
 - [Estação Rádio Base - ERBs](#estacoes-radio-erbs)
 - [Informações Acadêmicas](#informacoes-academicas)
@@ -37,6 +80,10 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Motores de Busca Contexto Brasil](#dorks)
 - [Rede Social](#redes-sociais)
 - [Indexadores de Serviço de Mensagens Instantâneas](#indexador-mensagens)
+- [Segurança Cibernética](#seguranca-cibernetica)
+- [Blockchain e Criptomoedas](#blockchain-criptomoedas)
+- [Defesa Civil e Emergências](#defesa-civil-emergencias)
+- [Energia e Infraestrutura](#energia-infraestrutura)
 - [Datasets / Dados Abertos](#datasets)
 - [Dados de remuneração do Judiciário](#dados-de-remuneracao-do-judiciario)
 - [Consulta de Transporte Terrestre](#consulta-transporte-terrestre)
@@ -44,6 +91,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 - [Consulta de Transporte Aquaviário](#consulta-transporte-aquaviario)
 - [Consulta de Transporte Aéreo](#consulta-transporte-aereo)
 - [Câmeras Online](#cameras-online)
+- [Serviços Públicos Estaduais e Conselhos Profissionais](#servicos-estaduais)
 - [Outras Buscas](#outras-buscas)
 - [Categorias de Domínios .br](#dominios-br)
 - [Categorias por Estados Brasileiros](#estados-br)
@@ -269,26 +317,112 @@ Descubra os processos judiciais no Brasil que citam políticos como partes em a�
 
 - https://www.publique-se.org.br/
 
+### STJ - Superior Tribunal de Justiça
+Sistema de consultas processuais do Superior Tribunal de Justiça com múltiplas funcionalidades.
+<details>
+<summary>Consultas STJ</summary>
+
+- Portal de Processos - https://processo.stj.jus.br/processo/
+- Diário da Justiça - https://processo.stj.jus.br/processo/dj/init
+- Pesquisa de Processos - https://processo.stj.jus.br/processo/pesquisa/
+- Preferências de Pesquisa - https://processo.stj.jus.br/processo/pesquisa/preferencias/
+- Informações Técnico-Administrativas - https://processo.stj.jus.br/processo/ita/
+- Emissão de Certidão - https://processo.stj.jus.br/processo/certidao/emissao
+- Validação de Certidão - https://processo.stj.jus.br/processo/certidao/validacao
+- Editais do Diário da Justiça - https://processo.stj.jus.br/processo/dj/edital/?aplicacao=dj.editais&ind_vigentes=true
+
+</details>
+
+### CNJ - Consulta de Processos de Improbidade Administrativa
+Consulta pública de processos de improbidade administrativa por número do processo.
+- https://www.cnj.jus.br/improbidade_adm/consultar_processo.php
+
+### CNJ - Consulta de Requeridos por Improbidade
+Consulta de pessoas e entidades requeridas em ações de improbidade administrativa.
+- https://www.cnj.jus.br/improbidade_adm/consultar_requerido.php
+
+### CNJ - Consulta de Classes Processuais SGT
+Sistema de Gestão de Tabelas Processuais Unificadas - consulta de classes processuais.
+- https://www.cnj.jus.br/sgt/consulta_publica_classes.php
+
+### PJe - Comunicação Processual
+Sistema de intimações e comunicações processuais eletrônicas do Processo Judicial Eletrônico.
+- https://comunica.pje.jus.br/
+
+### Consultas Processuais por Estado
+Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras instâncias.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Acre (AC)**
+- ESAJ (Processos) - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090
+
+**Alagoas (AL)**
+- TJ-AL Processos - https://www2.tjal.jus.br/cpopg/open.do
+
+**Amapá (AP)**
+- TJ-AP PJe 1º Grau - https://pje.tjap.jus.br/1g/ConsultaPublica/listView.seam
+- TJ-AP PJe 2º Grau - https://pje.tjap.jus.br/2g/ConsultaPublica/listView.seam
+- TJ-AP Tucujuris (Processos Físicos) - https://tucujuris.tjap.jus.br/pages/consultar-processo/consultar-processo.html
+- SEEU-AP Sistema Eletrônico de Execução Unificado - https://seeu-consulta-pub.pje.jus.br/seeu/processo/consultaPublica.do?actionType=iniciar
+
+**Amazonas (AM)**
+- TJ-AM Processos - https://consultasaj.tjam.jus.br/cpopg/open.do
+
+**Bahia (BA)**
+- TJ-BA Processos 1º Grau - https://esaj.tjba.jus.br/cpopg/open.do
+- TJ-BA Processos 2º Grau - https://esaj.tjba.jus.br/cposg5/open.do
+
+**Ceará (CE)**
+- TJ-CE Processos - https://esaj.tjce.jus.br/cpopg/open.do
+
+**Distrito Federal (DF)**
+- TJ-DFT Processos - https://pje2i.tjdft.jus.br/consultapublica
+
+**Goiás (GO)**
+- Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
+- Processos físicos 2º grau - https://www.tjgo.jus.br/index.php/processo-fisico/segundo-grau
+- Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4
+- TJ-GO Acordo Aqui - https://acordoaqui.tjgo.jus.br/acordo-aqui/pesquisa
+
+**Rio de Janeiro (RJ)**
+- Justiça Militar - https://www.stm.jus.br/servicos-stm/certidao-negativa/emitir-certidao-negativa
+- Justiça Federal - https://procweb.jfrj.jus.br/certidao/emissao_cert.asp
+- Crimes Eleitorais - https://www.tse.jus.br/eleitor/certidoes/certidao-de-crimes-eleitorais
+
+**São Paulo (SP)**
+- Consulta de Processos WEB | Limeira - https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/
+
+</details>
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
 ## Busca de Informações via CPF/CNPJ/CRM/CNA 🔭 <a name="busca-cpf-cnpj-crm-cna"></a>
+### Consulta Situação Cadastral CPF
+Consulta pública da situação cadastral do CPF na Receita Federal.
+- https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp 
 
 ### Busca Dados Usando CNPJ
 
 <details>
 <summary>Links de Consulta</summary>
 
-- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
-- https://brasilcnpj.net/
-- https://cnpj.biz/
-- https://cadastroempresa.com.br/
-- https://casadosdados.com.br/
-- https://cnpjs.rocks/
-- https://www.informecadastral.com.br/
-- https://www.situacaocadastral.info/
-- http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21
+- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp 
+- https://brasilcnpj.net/ 
+- https://cnpj.biz/ 
+- https://cadastroempresa.com.br/ 
+- https://casadosdados.com.br/ 
+- https://cnpjs.rocks/ 
+- https://www.informecadastral.com.br/ 
+- https://www.situacaocadastral.info/ 
+- http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21 
+- https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/ 
+- https://dados-abertos-rf-cnpj.casadosdados.com.br/arquivos/ 
+- https://cnpja.com/ 
+- https://iefacil.com.br/ 
 
 </details>
 
@@ -323,6 +457,30 @@ Nesta consulta é gerado um documento válido até a data que será exibida ao f
 
 - https://antecedentes.policiacivil.pa.gov.br/consulta
 
+### Antecedentes Criminais por Estado
+Consultas de antecedentes criminais em Polícias Civis estaduais.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Acre (AC)**
+- Antecedente criminal - https://pc.ac.gov.br/certidao-de-antecedentes-criminais/
+
+**Pará (PA)**
+- Consulta de Antecedente Criminal - https://antecedentes.pc.pa.gov.br/consulta
+
+**Rio de Janeiro (RJ)**
+- Antecedentes Criminais - http://atestadodic.detran.rj.gov.br/
+- B.O - https://dedic.pcivil.rj.gov.br/Consulta.aspx
+
+**Rio Grande do Sul (RS)**
+- Emitir certidão de antecedentes criminais - https://www.pc.rs.gov.br/emitir-certidao-de-antecedentes-policiais
+
+**Santa Catarina (SC)**
+- Antecedentes Criminais - https://sistemas.pc.sc.gov.br/formulario-antecedentes-cidadao/#/
+
+</details>
+
 ### Consulta Cadastro Nacional dos Advogados (CNA)
 
 Pesquisar no Repositório do cadastro de todos os advogados do Brasil.
@@ -344,6 +502,22 @@ Mantido pelo Conselho Federal de Psicologia, órgão com a finalidade fiscalizar
 
 - https://cadastro.cfp.org.br
 
+### Conselho de Arquitetura e Urbanismo (CAU)
+Consulta de profissionais registrados no CAU.
+- https://www.caubr.gov.br/
+
+### Conselho Federal de Farmácia (CFF)
+Consulta de profissionais de farmácia registrados.
+- https://www.cff.org.br/
+
+### COFFITO - Conselho Federal de Fisioterapia e Terapia Ocupacional
+Consulta de fisioterapeutas e terapeutas ocupacionais.
+- https://www.coffito.gov.br/
+
+### Conselho Federal de Nutricionistas (CFN)
+Consulta de nutricionistas registrados.
+- https://www.cfn.org.br/
+
 ### Conselho Federal de Engenharia e Agronomia (Confea)
 
 Pesquisar no Repositório do cadastro das profissões inseridas no Sistema Confea/Crea.
@@ -364,6 +538,41 @@ Para obter informações de declaração do simples nacional, basta informar o C
 
 - http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Default.aspx
 - https://www8.receita.fazenda.gov.br/SimplesNacional/controleAcesso/Autentica.aspx?id=16
+- https://www8.receita.fazenda.gov.br/SimplesNacional/aplicacoes.aspx?id=21
+
+### Consulta de Inscrição Estadual (SINTEGRA)
+Consulta ao cadastro de contribuintes de ICMS (Inscrição Estadual) nos sistemas SINTEGRA estaduais. Permite verificar a situação cadastral de empresas junto às Secretarias de Fazenda dos estados.
+<details>
+<summary>Consultas por Estado</summary>
+
+- Paraná (PR) - http://www.sintegra.fazenda.pr.gov.br/sintegra/
+- Rio Grande do Sul (RS) - https://www.sefaz.rs.gov.br/consultas/contribuinte
+- Santa Catarina (SC) - https://sat.sef.sc.gov.br/tax.NET/Sat.Cadastro.Web/ComprovanteIE/Consulta.aspx
+- Rio de Janeiro (RJ) - https://sucief-sincad-web.fazenda.rj.gov.br/sincad-web/index.jsf
+- São Paulo (SP) - https://www.cadesp.fazenda.sp.gov.br/(S(o4dmnsp1bcc2na341cmodgoq))/Pages/Cadastro/Consultas/ConsultaPublica/ConsultaPublica.aspx
+- Distrito Federal (DF) - https://agnet.fazenda.df.gov.br/area.cfm?id_area=1140
+- Goiás (GO) - https://appasp.sefaz.go.gov.br/Sintegra/Consulta/default.html
+- Mato Grosso do Sul (MS) - https://servicos.efazenda.ms.gov.br/consultapublica
+- Alagoas (AL) - https://sintegra.sefaz.al.gov.br/#/
+- Bahia (BA) - https://portal.sefaz.ba.gov.br/scripts/cadastro/cadastroBa/consultaBa.asp
+- Ceará (CE) - https://consultapublica.sefaz.ce.gov.br/sintegra/preparar-consultar
+- Maranhão (MA) - https://sistemas1.sefaz.ma.gov.br/sintegra/jsp/consultaSintegra/consultaSintegraFiltro.jsf
+- Paraíba (PB) - https://www4.sefaz.pb.gov.br/sintegra/SINf_ConsultaSintegra.jsp
+- Rio Grande do Norte (RN) - https://uvt.sefaz.rn.gov.br/#/services/consultaContribuinte
+- Sergipe (SE) - https://security.sefaz.se.gov.br/SIC/sintegra/index.jsp
+- Acre (AC) - https://sefazonline.ac.gov.br/sefazonline/app.wmsintegralista
+- Amazonas (AM) - https://online.sefaz.am.gov.br/sintegra/index.asp
+- Pará (PA) - https://app.sefa.pa.gov.br/sintegra/
+- Rondônia (RO) - https://portalcontribuinte.sefin.ro.gov.br/Publico/parametropublica.jsp
+- Roraima (RR) - https://portalweb.sefaz.rr.gov.br/sintegra/servlet/wp_siate_consultasintegra
+- Tocantins (TO) - https://sintegra.sefaz.to.gov.br/sintegra/servlet/wpsico01
+
+</details>
+
+
+### Consulta de Inutilização / CNPJ
+Consulta de inutilização de numeração de documentos fiscais eletrônicos e verificação de CNPJ no sistema de CT-e.
+- https://www.cte.fazenda.gov.br/portal/consulta.aspx?tipoConsulta=inutilizacao&tipoConteudo=MZ1N+CQHCgA=
 
 ### Consulta Comunicação de Decisão do Requerimento/Benefício
 
@@ -375,14 +584,40 @@ Consulta o status de requisição de aposentádoria de INSS. Vale para todo o te
 
 Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.
 
-- http://solucoes.receita.fazenda.gov.br/Servicos/ConsRest/Atual.app/paginas/mobile/restituicaoMobi.asp
+### Portal e-CAC Receita Federal
+Centro de Atendimento Virtual (e-CAC) da Receita Federal permite acesso a serviços digitais.
+- https://cav.receita.fazenda.gov.br/
+
+### CEIS - Cadastro de Empresas Inidôneas e Suspensas
+Consulta de empresas impedidas de participar de licitações e celebrar contratos com a Administração Pública.
+- http://www.portaltransparencia.gov.br/sancoes/ceis
+
+### CNEP - Cadastro Nacional de Empresas Punidas
+Consulta de empresas punidas com base na Lei Anticorrupção.
+- http://www.portaltransparencia.gov.br/sancoes/cnep
+
+### CEPIM - Cadastro de Entidades Privadas Sem Fins Lucrativos Impedidas
+Consulta de entidades privadas sem fins lucrativos impedidas de celebrar convênios com a Administração Pública Federal.
+- http://www.portaltransparencia.gov.br/sancoes/cepim
+
+### InfoConv - Sistema de Gestão de Convênios e Contratos de Repasse
+Consulta de convênios e contratos de repasse firmados com órgãos e entidades da Administração Pública Federal.
+- https://www.convenios.gov.br/
 
 ### Consulta Junta Comercial do Estado de São Paulo (Jucesp)
 
 Pesquisa no banco de dados da Junta Comercial do Estado de São Paulo.
 Para consulta é necessário apenas o Nome da empresa, CNPJ, Razão social ou NIRE.
+<details>
+<summary>Consultas JUCESP</summary>
 
-- https://www.jucesponline.sp.gov.br/Pre_Visualiza.aspx?nire={VALOR}&idproduto=
+- Pesquisa Geral - https://www.jucesponline.sp.gov.br/pesquisa.aspx
+- Validação de Ficha - https://www.jucesponline.sp.gov.br/Valida_Ficha.aspx
+- Consulta Produto 7 - https://www.jucesponline.sp.gov.br/pesquisa.aspx?IDProduto=7
+- Consulta Produto 4 - https://www.jucesponline.sp.gov.br/Pesquisa.aspx?IDProduto=4
+- Pré-visualização por NIRE - https://www.jucesponline.sp.gov.br/Pre_Visualiza.aspx?nire={VALOR}&idproduto=
+
+</details>
 
 ### Consulta Etrevistador do IBGE
 
@@ -507,6 +742,408 @@ https://www.sds.pe.gov.br/
 
 ---
 
+## Registros Eleitorais e Políticos 🗳️ <a name="registros-eleitorais-politicos"></a>
+
+### TSE - Divulgação de Candidaturas e Contas Eleitorais
+Sistema de divulgação de candidaturas, contas eleitorais e de prestação de contas.
+- https://divulgacandcontas.tse.jus.br/divulga/
+
+### TSE - Consulta de Contas Eleitorais
+Consulta de prestação de contas de campanhas eleitorais.
+- https://www.tse.jus.br/eleicoes/contas-eleitorais
+
+### Consulta de Filiação Partidária
+Consulta pública de filiação partidária de eleitores.
+- https://filiaweb.tse.jus.br/filiaweb/
+
+### Câmara dos Deputados - Votações
+Consulta de votações realizadas na Câmara dos Deputados.
+- https://www.camara.leg.br/busca-portal/proposicoes/votacoes
+
+### Senado Federal - Votações
+Consulta de votações realizadas no Senado Federal.
+- https://www25.senado.leg.br/web/atividade/votacoes
+
+### TSE - Portal de Dados Abertos
+Dados abertos sobre eleições, votação, eleitorado, partidos, candidatos, prestação de contas, pesquisas eleitorais e urnas eletrônicas.
+- https://dadosabertos.tse.jus.br/
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Registros de Imóveis e Propriedades 🏠 <a name="registros-imoveis-propriedades"></a>
+
+### SREI - Sistema de Registro Eletrônico de Imóveis
+Sistema que integra informações de registros de imóveis.
+- https://www.registradores.org.br/
+
+### Consulta IPTU São Paulo
+Consulta de IPTU da cidade de São Paulo.
+- https://www.prefeitura.sp.gov.br/cidade/secretarias/fazenda/servicos/iptu/
+
+### Consulta IPTU Rio de Janeiro
+Consulta de IPTU da cidade do Rio de Janeiro.
+- https://carioca.rio/servicos/consulta-iptu/
+
+### SPU - Secretaria do Patrimônio da União
+Consulta de imóveis da União.
+- https://www.gov.br/economia/pt-br/assuntos/patrimonio-da-uniao
+
+### INCRA - Sistema Nacional de Cadastro Rural
+Consulta e certificação de imóveis rurais.
+- https://sncr.serpro.gov.br/sncr-web/
+
+### Cartórios de Registro de Imóveis
+Diretório de cartórios de registro de imóveis no Brasil.
+- https://www.registrodeimoveis.org.br/cartorios
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Registros Ambientais 🌳 <a name="registros-ambientais"></a>
+
+### IBAMA - Consulta de Autuações Ambientais
+Consulta pública de áreas embargadas e autuações ambientais.
+- https://servicos.ibama.gov.br/ctf/publico/areasembargadas/ConsultaPublicaAreasEmbargadas.php
+
+### CTF/APP - Cadastro Técnico Federal de Atividades Potencialmente Poluidoras
+Cadastro obrigatório de pessoas físicas e jurídicas que realizam atividades potencialmente poluidoras.
+- https://servicos.ibama.gov.br/ctf/
+
+### SINAFLOR - Sistema Nacional de Controle da Origem dos Produtos Florestais
+Sistema de controle do transporte e armazenamento de produtos e subprodutos florestais.
+- https://sinaflor2.ibama.gov.br/
+
+### CETESB - Licenciamento Ambiental São Paulo
+Consulta de licenças ambientais do Estado de São Paulo.
+- https://cetesb.sp.gov.br/licenciamentoambiental/
+
+### MapBiomas - Plataforma de Consulta
+Plataforma interativa para consulta de dados de cobertura e uso do solo no Brasil com visualização de mapas e análises temporais.
+- https://plataforma.brasil.mapbiomas.org/
+
+### MapBiomas - Estatísticas
+Estatísticas detalhadas sobre mudanças no uso da terra e cobertura vegetal no Brasil.
+- https://brasil.mapbiomas.org/estatisticas/
+
+### MapBiomas - Cobertura 10m
+Mapas de alta resolução (10 metros) de cobertura e uso da terra.
+- https://brasil.mapbiomas.org/mapbiomas-cobertura-10m/
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Comércio Exterior 📦 <a name="comercio-exterior"></a>
+
+### Comexstat - Estatísticas de Comércio Exterior
+Estatísticas de comércio exterior brasileiro.
+- http://comexstat.mdic.gov.br/pt/home
+
+### Siscomex - Sistema Integrado de Comércio Exterior
+Consulta pública do Sistema Integrado de Comércio Exterior.
+- https://portalunico.siscomex.gov.br/
+
+### AliceWeb - Análise das Informações de Comércio Exterior
+Sistema de análise das informações de comércio exterior brasileiro.
+- http://aliceweb.desenvolvimento.gov.br/
+
+### Radar Siscomex
+Consulta de habilitação de empresas no Siscomex.
+- https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/radar
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Registros de Marcas e Patentes ™️ <a name="registros-marcas-patentes"></a>
+
+### INPI - Busca de Marcas
+Consulta de marcas registradas no Brasil.
+- https://busca.inpi.gov.br/pePI/jsp/marcas/Pesquisa_classe_basica.jsp
+
+### INPI - Busca de Patentes
+Consulta de patentes registradas no Brasil.
+- https://busca.inpi.gov.br/pePI/jsp/patentes/PatenteSearchBasico.jsp
+
+### INPI - Desenhos Industriais
+Consulta de desenhos industriais registrados.
+- https://busca.inpi.gov.br/pePI/jsp/desenhos/DesenhoSearchBasico.jsp
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Transparência Pública e Defesa do Consumidor 🧾 <a name="transparencia-defesa-consumidor"></a>
+
+### Portal da Transparência - Governo Federal
+Consultas a favorecidos, convênios, servidores, CEIS/CNEP, despesas, viagens oficiais e outros dados financeiros da União.
+- https://portaldatransparencia.gov.br/
+
+### Portal da Transparência - Consulta de Sanções
+Consulta pública de sanções aplicadas a pessoas físicas e jurídicas.
+- https://portaldatransparencia.gov.br/sancoes/consulta?cadastro=1&ordenarPor=nomeSancionado&direcao=asc
+
+### Portal da Transparência - API de Dados
+Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.
+- https://portaldatransparencia.gov.br/api-de-dados
+
+**📖 Documentação da API:**
+<details>
+<summary>Exemplos de Uso da API</summary>
+
+**Endpoints Principais:**
+- `/api-de-dados/despesas/` - Consulta de despesas públicas
+- `/api-de-dados/servidores/` - Dados de servidores públicos
+- `/api-de-dados/convenios/` - Convênios federais
+- `/api-de-dados/favorecidos/` - Pessoas/empresas favorecidas
+
+**Exemplo de Requisição (Python):**
+```python
+import requests
+
+url = "https://api.portaldatransparencia.gov.br/api-de-dados/despesas"
+headers = {"chave-api-dados": "SUA_CHAVE_AQUI"}
+params = {
+    "mesAno": "01/2024",
+    "orgaoSuperior": "20000"
+}
+response = requests.get(url, headers=headers, params=params)
+print(response.json())
+```
+
+**Como obter chave API:**
+1. Acesse https://portaldatransparencia.gov.br/api-de-dados
+2. Clique em "Solicitar Chave"
+3. Preencha o formulário com seus dados
+4. Aguarde aprovação por e-mail
+
+**Limitações:**
+- Máximo de 60 requisições por minuto
+- Período máximo de consulta: 12 meses
+- Formato de resposta: JSON
+
+</details>
+
+### Fala.BR - Plataforma Integrada de Ouvidoria e Acesso à Informação
+Sistema oficial para LAI (Lei de Acesso à Informação), denúncias, reclamações, sugestões e elogios aos órgãos públicos federais.
+- https://falabr.cgu.gov.br/web/home
+
+### Consumidor.gov.br
+Plataforma pública para registro de reclamações contra empresas, acompanhamento de respostas e avaliação do atendimento.
+- https://www.consumidor.gov.br/
+
+### Dados Abertos - Consumidor.gov.br
+Dataset oficial com histórico de reclamações registradas no Consumidor.gov.br (Ministério da Justiça).
+- https://dados.mj.gov.br/dataset/reclamacoes-do-consumidor-gov-br
+
+### PROCON-SP - Espaço do Consumidor
+Portal do PROCON-SP com orientações, consultas e canais de reclamação.
+- https://www.procon.sp.gov.br/espaco-consumidor/
+
+### Portal da Transparência - Estado de São Paulo
+Portal estadual de transparência com dados de remuneração, contratos, convênios e despesas do governo paulista.
+- https://www.transparencia.sp.gov.br/
+
+### E-Agendas CGU
+Consulta de agendas públicas de autoridades do Governo Federal.
+- https://eagendas.cgu.gov.br/
+
+### Portal da Transparência - Consulta de Notas Fiscais
+Consulta detalhada de notas fiscais emitidas para órgãos públicos federais, com filtros por UF, fornecedor, período e órgão.
+- https://portaldatransparencia.gov.br/notas-fiscais/consulta
+
+### Nota Fiscal Eletrônica e Transparência por Estado
+Consultas de Notas Fiscais Eletrônicas e Portais de Transparência estaduais e municipais.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Acre (AC)**
+- Nota Fiscal - http://sefaznet.ac.gov.br/nfe/consulta.xhtml
+
+**Alagoas (AL)**
+- Nota Fiscal Eletrônica - https://nfce.sefaz.al.gov.br/consultaNFCe.aspx
+- Portal da Transparência AL - https://transparencia.al.gov.br/
+
+**Amazonas (AM)**
+- Nota Fiscal Eletrônica - https://sistemas.sefaz.am.gov.br/nfce/qrcode
+- Portal da Transparência AM - https://www.transparencia.am.gov.br/
+
+**Bahia (BA)**
+- Nota Fiscal Eletrônica - http://nfe.sefaz.ba.gov.br/
+- Portal da Transparência BA - http://www.transparencia.ba.gov.br/
+
+**Ceará (CE)**
+- Nota Fiscal Eletrônica - https://nfce.sefaz.ce.gov.br/pages/consultarNFCe.jsf
+- Portal da Transparência CE - https://cearatransparente.ce.gov.br/
+
+**Distrito Federal (DF)**
+- Nota Fiscal Eletrônica - https://dec.fazenda.df.gov.br/ConsultarNFe.aspx
+- Portal da Transparência DF - https://www.transparencia.df.gov.br/
+
+**Goiás (GO)**
+- Consulta Nota Fiscal - https://www.goiania.go.gov.br/sing_servicos/nota-fiscal-eletronica/
+- Consulta DUAM-IPTU-ITU-ISSQN - https://www.goiania.go.gov.br/sing_servicos/emissao-duam-itu-iptu-issqn/
+- Consulta matrículas - https://www.goiania.go.gov.br/sing_servicos/matriculas-web/
+- Consulta processos - https://www.goiania.go.gov.br/sing_servicos/consulta-processos/
+
+**Minas Gerais (MG)**
+- Consulta de Certidão Negativa de Débito | Belo Horizonte - http://cndonline.siatu.pbh.gov.br/CNDOnline/?null
+
+**Piauí (PI)**
+- Sefaz Piauí - https://webas.sefaz.pi.gov.br/
+- Inadimplentes - https://webas.sefaz.pi.gov.br/caginweb/
+- Certidões - https://webas.sefaz.pi.gov.br/certidaonft-web/index.xhtml
+- MEI - https://webas.sefaz.pi.gov.br/MEI-WEB/
+- Impedidos de contratar com o poder público - https://sistemas.tce.pi.gov.br/ImpedimentoAS/impedimentos/listapessoas.xhtml
+
+**Rondônia (RO) - Porto Velho**
+- Certidão Negativa de Débitos de Tributos Fiscais - https://semfazonline.portovelho.ro.gov.br/portal/certidao_negativa.action
+- Consulta de Débitos Imobiliários - IPTU - https://semfazonline.portovelho.ro.gov.br/portal/iptu_consulta_debito_input.action
+- Consulta Empresas Cadastradas - https://semfazonline.portovelho.ro.gov.br/portal/consulta_empresa_input.action
+
+**São Paulo (SP)**
+- Consulta de nome e salários de servidores do Estado - https://www.transparencia.sp.gov.br/home/servidor
+
+**Maranhão (MA) - São Luís**
+- Portal da Transparência Prefeitura | São Luís - https://transparencia.saoluis.ma.gov.br/
+- Diário Eletrônico Prefeitura | São Luís - https://diariooficial.saoluis.ma.gov.br/
+
+**Maranhão (MA) - São José de Ribamar**
+- Portal da Transparência Prefeitura | São José de Ribamar - https://transparencia.saojosederibamar.ma.gov.br/
+- Diário Eletrônico Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/diario-eletronico/148327
+
+</details>
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Diários Oficiais 📰 <a name="diarios-oficiais"></a>
+
+### Diário Oficial da União (DOU)
+Publicações oficiais do Governo Federal.
+- https://www.in.gov.br/
+
+### Imprensa Nacional - Consulta de Matérias
+Busca avançada de matérias publicadas no Diário Oficial da União com filtros por período, seção, órgão e palavras-chave.
+- https://www.in.gov.br/materia
+
+### Querido Diário
+Projeto da Open Knowledge Brasil que reúne e disponibiliza em formato aberto os diários oficiais de centenas de prefeituras brasileiras.
+- https://queridodiario.ok.org.br/
+
+### Diários Oficiais Estaduais
+
+<details>
+<summary>Região Norte</summary>
+
+- Acre (AC) - https://diario.ac.gov.br/
+- Amazonas (AM) - https://doe.am.gov.br/
+- Amapá (AP) - https://www.diariooficial.ap.gov.br/
+- Pará (PA) - https://www.ioepa.com.br/
+- Rondônia (RO) - https://diariooficial.ro.gov.br/
+- Roraima (RR) - https://imprensaoficial.rr.gov.br/
+- Tocantins (TO) - https://diariooficial.to.gov.br/
+
+</details>
+
+<details>
+<summary>Região Nordeste</summary>
+
+- Alagoas (AL) - https://www.imprensaoficialal.com.br/
+- Bahia (BA) - https://dool.egba.ba.gov.br/
+- Ceará (CE) - https://www.diariooficial.ce.gov.br/
+- Maranhão (MA) - https://diariooficial.ma.gov.br/
+- Paraíba (PB) - https://auniao.pb.gov.br/servicos/diario-oficial
+- Pernambuco (PE) - https://www.cepe.com.br/diario-oficial
+- Piauí (PI) - https://www.diariooficial.pi.gov.br/
+- Rio Grande do Norte (RN) - https://www.diariooficial.rn.gov.br/
+- Sergipe (SE) - https://doe.se.gov.br/
+
+</details>
+
+<details>
+<summary>Região Centro-Oeste</summary>
+
+- Distrito Federal (DF) - https://dodf.df.gov.br/
+- Goiás (GO) - https://diariooficial.go.gov.br/
+- Mato Grosso (MT) - https://www.iomat.mt.gov.br/
+- Mato Grosso do Sul (MS) - https://www.imprensaoficial.ms.gov.br/
+
+</details>
+
+<details>
+<summary>Região Sudeste</summary>
+
+- Espírito Santo (ES) - https://ioes.dio.es.gov.br/
+- Minas Gerais (MG) - https://www.jornalminasgerais.mg.gov.br/
+- Rio de Janeiro (RJ) - https://portal.ioerj.com.br/diario-oficial/
+- São Paulo (SP) - https://doe.sp.gov.br/
+
+</details>
+
+<details>
+<summary>Região Sul</summary>
+
+- Paraná (PR) - https://www.documentos.dioe.pr.gov.br/
+- Rio Grande do Sul (RS) - https://diariooficial.rs.gov.br/
+- Santa Catarina (SC) - https://doe.sc.gov.br/
+
+</details>
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Cultura e Audiovisual 🎬 <a name="cultura-audiovisual"></a>
+
+### ANCINE - Consulta de Processos SEI
+Sistema de consulta pública de processos administrativos da ANCINE.
+- https://sei.ancine.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0
+
+### ANCINE - Consulta de Unidades de Exibição
+Consulta pública de salas de cinema e espaços de exibição cadastrados.
+- https://sad.ancine.gov.br/consultapublica/telaPrincipalUE.do?method=initListar
+
+### ANCINE - Consulta de Projetos Audiovisuais
+Consulta de projetos audiovisuais registrados na ANCINE.
+- https://sad.ancine.gov.br/projetosaudiovisuais/ConsultaProjetosAudiovisuais.do?method=init
+
+### ANCINE - Consulta de Empresas Cadastradas
+Consulta de agentes econômicos (empresas) do setor audiovisual cadastrados.
+- https://sad2.ancine.gov.br/agenteeconomico/consultaViaPortal/consultaExternaEmpresasCadastradas.seam
+
+### ANCINE - Consulta de Agentes Econômicos
+Consulta detalhada de agentes econômicos do setor audiovisual por tipo.
+- https://sad2.ancine.gov.br/agenteeconomico/consultaViaPortal/consultaExternaAE.seam
+
+### ANCINE - Consulta de Obras Publicitárias
+Consulta de obras publicitárias registradas na ANCINE.
+- https://sad2.ancine.gov.br/obraspublicitarias/consultaGeralViaPortal/consultaGeralViaPortal.seam
+
+### ANCINE - Certificado de Registro de Título (CRT)
+Consulta de CRT de obras audiovisuais.
+- https://sad2.ancine.gov.br/obrasnaopublicitarias/consultarCrtViaPortal/consultarCrtViaPortal.seam
+
+### ANCINE - Certificado de Produto Brasileiro (CPB)
+Consulta de CPB de obras audiovisuais brasileiras.
+- https://sad2.ancine.gov.br/obrasnaopublicitarias/pesquisarCpbViaPortal/pesquisarCpbViaPortal.seam
+
+### ANCINE - Registro de Obra Estrangeira (ROE)
+Consulta de obras estrangeiras registradas no Brasil.
+- https://sad2.ancine.gov.br/obrasnaopublicitarias/consultarRoeViaPortal/consultarRoeViaPortal.seam
+
+### ANCINE - Consulta de Obras
+Consulta geral de obras audiovisuais cadastradas.
+- https://sad2.ancine.gov.br/obrasnaopublicitarias/consultarObraViaPortal/consultarObraViaPortal.seam
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
 ## Telecom 📡 <a name="telecom"></a>
 
 ### Busca Através do IMEI/Legalidade do Aparelho
@@ -549,6 +1186,31 @@ Consulte a cobertura de rede 2G, 3G, 4G e 5G em qualquer região do Brasil, veri
 - https://www.brisanet.com.br/mapa-de-area-de-cobertura
 - https://www.gigamaisfibra.com.br/onde-estamos/
 -
+
+### ANATEL - Consulta de Outorgas de Radiodifusão
+Consulta de outorgas de serviços de radiodifusão.
+- https://sistemas.anatel.gov.br/easp/Novo/ConsultaIndicativo/Tela.asp
+
+### ANATEL - Infraestrutura de Telecomunicações
+Painéis de dados sobre infraestrutura de telecomunicações no Brasil.
+- https://www.anatel.gov.br/paineis/infraestrutura
+
+### ANATEL - Consulta de Provedores Regionais
+Consulta de prestadoras de serviços de telecomunicações por localidade.
+- https://informacoes.anatel.gov.br/paineis/infraestrutura/consulta-de-provedores-regionais
+
+### Teleco - Inteligência em Telecomunicações
+Portal com informações, estatísticas, análises e consultas sobre o setor de telecomunicações brasileiro.
+- https://teleco.com.br
+- https://sistemas.anatel.gov.br/sis/cadastrosimplificado/ConsultaPrestadoraLocalidade/tela.asp
+
+### ANATEL - Consulta de Radiofrequências por Sistema
+Consulta de sistemas de radiofrequência autorizados pela ANATEL.
+- https://sistemas.anatel.gov.br/srd/TelaListagem.asp?PagSRD=DescSistema&NumServico=231&op=5&SISQSmodulo=9830
+
+### ANATEL - Sistema de Radiocomunicação Digital
+Portal de consulta de serviços de radiocomunicação digital.
+- https://sistemas.anatel.gov.br/srd/Default.asp?SISQSmodulo=208&SISQSsistema=16
 
 ### Base De Orelhão X Mapa
 
@@ -705,6 +1367,23 @@ Sistema do Ministerio da Educacao (MEC) responsavel pela tramitacao dos processo
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
+### INEP - Censo da Educação Superior
+Dados abertos sobre educação superior no Brasil.
+- https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/inep-data
+
+### MEC - Consulta de Diplomas Digitais
+Validação de diplomas digitais emitidos por instituições de ensino.
+- https://diplomadigital.mec.gov.br/
+
+### Plataforma Sucupira
+Sistema de informações sobre os programas de pós-graduação stricto sensu.
+- https://sucupira.capes.gov.br/
+
+### ENADE - Resultados por Instituição
+Consulta de resultados do Exame Nacional de Desempenho dos Estudantes.
+- https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)  
 ---
 
 ## Mapas e Georreferenciamento 🗺️ <a name="mapas-geo"></a>
@@ -786,6 +1465,30 @@ Todos os tripulantes civis brasileiros devem ser registrados na ANAC. Sendo vali
 Consulta de dados por Cidades e Estados
 
 - https://www.ibge.gov.br/cidades-e-estados/
+
+### Portal de Mapas do IBGE
+Portal com mapas interativos e bases cartográficas do IBGE.
+- https://portaldemapas.ibge.gov.br/
+
+### ANA - Agência Nacional de Águas - Mapas Interativos
+Mapas e visualizações de dados sobre recursos hídricos no Brasil.
+<details>
+<summary>Mapas ANA</summary>
+
+- Sistema Nacional de Informações sobre Recursos Hídricos - https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=ef7d29c2ac754e9890d7cdbb78cbaf2c
+- Atlas de Abastecimento Urbano - https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=6d866c5d54c64b17bd53af4bdcfb4b91
+- Conjuntura dos Recursos Hídricos - https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=76eaa4f324f2404a86784e21d882b6ec
+- Sistema de Acompanhamento de Reservatórios - https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=0d9d29ec24cc49df89965f05fc5b96b9
+
+</details>
+
+### SIGMINE - Sistema de Informações Geográficas da Mineração
+Sistema com informações georreferenciadas sobre mineração no Brasil.
+- https://geo.anm.gov.br/portal/
+
+### INDE - Infraestrutura Nacional de Dados Espaciais
+Portal da Infraestrutura Nacional de Dados Espaciais.
+- https://www.inde.gov.br/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -917,6 +1620,39 @@ Informações acerca de estabelecimentos e profissionais de saúde.
 
 - https://consultafns.saude.gov.br/#/consolidada
 
+### ANS - Consulta de Operadoras de Planos de Saúde
+Dados e indicadores sobre operadoras de planos de saúde.
+- https://www.ans.gov.br/perfil-do-setor/dados-e-indicadores-do-setor
+
+### ANVISA - Consulta de Medicamentos Registrados
+Consulta de medicamentos e produtos registrados na ANVISA.
+- https://consultas.anvisa.gov.br/#/medicamentos/
+
+### SINAN - Sistema de Informação de Agravos de Notificação
+Informações sobre agravos de notificação compulsória.
+- http://www.portalsinan.saude.gov.br/
+
+### Farmácia Popular - Estabelecimentos Credenciados
+Lista de estabelecimentos credenciados no programa Farmácia Popular.
+- https://www.gov.br/saude/pt-br/assuntos/assistencia-farmaceutica-no-sus/farmacia-popular
+
+### DataSUS - Transferência de Arquivos
+Portal para download de bases de dados de saúde pública, incluindo SIM, SINASC, SIH, SIA e outros sistemas.
+- https://datasus.saude.gov.br/transferencia-de-arquivos/
+  - https://datasus.saude.gov.br/wp-content/zipupload/ (Transferência de Arquivos / DataSUS)
+
+### RIPSA - Rede Interagencial de Informações para a Saúde
+Portal com indicadores de saúde, dados demográficos e socioeconômicos relacionados à saúde no Brasil.
+- https://www.ripsa.org.br/
+
+### Fiocruz - Mapas de Clima e Saúde
+Plataforma de monitoramento e análise da relação entre clima e saúde no Brasil.
+- https://mapas.climaesaude.icict.fiocruz.br/
+
+### Fiocruz - Monitoramento de Seca
+Sistema de monitoramento de eventos de seca e seus impactos na saúde.
+- https://shiny.icict.fiocruz.br/sentseca2/
+
 ### Monitoramento dos Gastos no Combate à COVID-19
 
 - https://www.tesourotransparente.gov.br/visualizacao/painel-de-monitoramentos-dos-gastos-com-covid-19
@@ -935,6 +1671,12 @@ Informações acerca de estabelecimentos e profissionais de saúde.
   - https://www.google.com/search?q=site%3Acom.br+ext%3Asql+%22CREATE+TABLE%22###
 - `site:com.br intext:"phpMyAdmin" ext:txt`
   - https://www.google.com/search?q=site%3Acom.br+intext%3A%22phpMyAdmin%22+ext%3Atxt
+
+- ```site:br ext:sql | ext:db "senha" | "password"```
+    - https://www.google.com/search?q=site%3Abr+ext%3Asql+%7C+ext%3Adb+%22senha%22+%7C+%22password%22
+
+- ```site:com.br inurl:"backup" ext:sql | ext:bak```
+    - https://www.google.com/search?q=site%3Acom.br+inurl%3A%22backup%22+ext%3Asql+%7C+ext%3Abak
 
 ### Google Hacking: Documento em Arquivos
 
@@ -983,10 +1725,26 @@ Adicione sua string alvo para direcionar a busca
 - `site:linkedin.com "at EMPRESA_ALVO"`
   - https://www.google.com/search?q=site%3Alinkedin.com+%22at+EMPRESA_ALVO%22
 
-### Google Hacking: Filtrar Grupos WhatsApp em Sites .br
+- ```site:linkedin.com/in intitle:"EMPRESA_ALVO" location:"Brazil"```
+    - https://www.google.com/search?q=site%3Alinkedin.com%2Fin+intitle%3A%22EMPRESA_ALVO%22+location%3A%22Brazil%22
 
-- `"https://chat.whatsapp.com/" & site:br"`
-  - https://www.google.com/search?q=%22https%3A%2F%2Fchat.whatsapp.com%2F%22+%26+site%3Abr
+- ```site:linkedin.com "CARGO" "EMPRESA_ALVO" "São Paulo" | "Brasil"```
+    - https://www.google.com/search?q=site%3Alinkedin.com+%22CARGO%22+%22EMPRESA_ALVO%22+%22S%C3%A3o+Paulo%22+%7C+%22Brasil%22
+
+- ```site:linkedin.com/company "EMPRESA_ALVO"```
+    - https://www.google.com/search?q=site%3Alinkedin.com%2Fcompany+%22EMPRESA_ALVO%22
+
+### Google Hacking: Filtrar Grupos WhatsApp em Sites .br
+Busca por links de grupos do WhatsApp compartilhados publicamente.
+
+- ```"https://chat.whatsapp.com/" & site:br```
+    - https://www.google.com/search?q=%22https%3A%2F%2Fchat.whatsapp.com%2F%22+%26+site%3Abr
+
+- ```"chat.whatsapp.com" intext:"grupo" | "canal" brasil```
+    - https://www.google.com/search?q=%22chat.whatsapp.com%22+intext%3A%22grupo%22+%7C+%22canal%22+brasil
+
+- ```site:com.br "invite" "whatsapp"```
+    - https://www.google.com/search?q=site%3Acom.br+%22invite%22+%22whatsapp%22
 
 ### Google Hacking: Filtrar Grupos Telegram + Contexto da String
 
@@ -1008,6 +1766,128 @@ Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos espec
 
 - `country:"BR"`
   - https://www.shodan.io/search?query=country%3A%22BR%22
+Busca por grupos e canais do Telegram relacionados ao Brasil.
+
+- ```inurl:"https://t.me" site:me "SEU_ALVO"```
+    - https://www.google.com/search?q=inurl%3A%22https%3A%2F%2Ft.me%22+site%3Ame+%22SEU_ALVO%22
+
+- ```site:me "joinchat" "SEU_ALVO"```
+    - https://www.google.com/search?q=site%3Ame+%22joinchat%22+%22SEU_ALVO%22
+
+- ```site:t.me brasil | brasileiro | br```
+    - https://www.google.com/search?q=site%3At.me+brasil+%7C+brasileiro+%7C+br
+
+- ```inurl:"t.me/" "canal" | "grupo" português```
+    - https://www.google.com/search?q=inurl%3A%22t.me%2F%22+%22canal%22+%7C+%22grupo%22+portugu%C3%AAs
+
+### Google Hacking: Identificar PowerBI Exposto
+Busca por dashboards do PowerBI com dados brasileiros.
+
+- ```site:app.powerbi.com/view?r intext:"br"```
+    - https://www.google.com/search?q=site%3Aapp.powerbi.com%2Fview%3Fr+intext%3A%22br%22
+
+- ```site:app.powerbi.com/view?r intext:"brasil"```
+    - https://www.google.com/search?q=site%3Aapp.powerbi.com%2Fview%3Fr+intext%3A%22brasil%22
+
+- ```site:app.powerbi.com intext:"governo" | "prefeitura" | "estado"```
+    - https://www.google.com/search?q=site%3Aapp.powerbi.com+intext%3A%22governo%22+%7C+%22prefeitura%22+%7C+%22estado%22
+
+- ```site:powerbi.com "dashboard" | "relatório" brasil```
+    - https://www.google.com/search?q=site%3Apowerbi.com+%22dashboard%22+%7C+%22relat%C3%B3rio%22+brasil
+
+### Google Hacking: Servidores e Câmeras Expostas
+Busca por servidores, webcams e sistemas expostos.
+
+- ```inurl:"/view/index.shtml" site:br```
+    - https://www.google.com/search?q=inurl%3A%22%2Fview%2Findex.shtml%22+site%3Abr
+
+- ```intitle:"webcamXP 5" site:br```
+    - https://www.google.com/search?q=intitle%3A%22webcamXP+5%22+site%3Abr
+
+- ```inurl:"ViewerFrame?Mode=" site:com.br```
+    - https://www.google.com/search?q=inurl%3A%22ViewerFrame%3FMode%3D%22+site%3Acom.br
+
+- ```intitle:"Network Camera" site:br```
+    - https://www.google.com/search?q=intitle%3A%22Network+Camera%22+site%3Abr
+
+### Google Hacking: Informações de Contato
+Busca por e-mails, telefones e contatos corporativos.
+
+- ```site:com.br "@gmail.com" | "@hotmail.com" | "@yahoo.com"```
+    - https://www.google.com/search?q=site%3Acom.br+%22%40gmail.com%22+%7C+%22%40hotmail.com%22+%7C+%22%40yahoo.com%22
+
+- ```site:br "contato" | "fale conosco" ext:html```
+    - https://www.google.com/search?q=site%3Abr+%22contato%22+%7C+%22fale+conosco%22+ext%3Ahtml
+
+- ```site:com.br intext:"telefone:" | "celular:" | "whatsapp:"```
+    - https://www.google.com/search?q=site%3Acom.br+intext%3A%22telefone%3A%22+%7C+%22celular%3A%22+%7C+%22whatsapp%3A%22
+
+- ```site:br "@empresa.com.br" -site:linkedin.com```
+    - https://www.google.com/search?q=site%3Abr+%22%40empresa.com.br%22+-site%3Alinkedin.com
+
+### Google Hacking: Dados Acadêmicos
+Busca por trabalhos acadêmicos, teses e dissertações.
+
+- ```site:edu.br ext:pdf "tcc" | "dissertação" | "tese"```
+    - https://www.google.com/search?q=site%3Aedu.br+ext%3Apdf+%22tcc%22+%7C+%22disserta%C3%A7%C3%A3o%22+%7C+%22tese%22
+
+- ```site:br filetype:pdf "universidade" "trabalho de conclusão"```
+    - https://www.google.com/search?q=site%3Abr+filetype%3Apdf+%22universidade%22+%22trabalho+de+conclus%C3%A3o%22
+
+- ```site:edu.br inurl:"biblioteca" | inurl:"repositorio"```
+    - https://www.google.com/search?q=site%3Aedu.br+inurl%3A%22biblioteca%22+%7C+inurl%3A%22repositorio%22
+
+### Bing: Buscas Alternativas
+Exemplos de dorks usando Bing para contexto brasileiro.
+
+- ```site:com.br ext:xlsx```
+    - https://www.bing.com/search?q=site%3Acom.br+ext%3Axlsx
+
+- ```site:gov.br filetype:pdf licitação```
+    - https://www.bing.com/search?q=site%3Agov.br+filetype%3Apdf+licita%C3%A7%C3%A3o
+
+- ```ip:200.* country:BR```
+    - https://www.bing.com/search?q=ip%3A200.*+country%3ABR
+
+### DuckDuckGo: Buscas com Privacidade
+Exemplos usando DuckDuckGo para pesquisas no Brasil.
+
+- ```site:br filetype:csv```
+    - https://duckduckgo.com/?q=site%3Abr+filetype%3Acsv
+
+- ```site:com.br "email" OR "e-mail"```
+    - https://duckduckgo.com/?q=site%3Acom.br+%22email%22+OR+%22e-mail%22
+
+
+### Consulta de Domínios Maliciosos
+Verificação de reputação e histórico de domínios brasileiros.
+
+- **VirusTotal** - Análise de URLs, arquivos e domínios
+    - https://www.virustotal.com/
+    - Filtro para domínios .br: `entity:domain AND tld:br`
+    - Busca por idioma: `content:"pt-br" OR content:"português"`
+    
+- **URLScan.io** - Scanner de URLs com análise visual
+    - https://urlscan.io/
+    - Busca avançada: `domain:.br AND (lang:pt OR lang:pt-br)`
+
+### Shodan: Busca de Servidores Brasileiro
+Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados à Internet no Brasil.
+
+- ```country:"BR"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22
+
+- ```country:"BR" port:80,443 "Apache"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A80%2C443+%22Apache%22
+
+- ```country:"BR" port:3389```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+port%3A3389
+
+- ```country:"BR" "webcam" has_screenshot:true```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+%22webcam%22+has_screenshot%3Atrue
+
+- ```country:"BR" org:"Governo" | org:"Prefeitura"```
+    - https://www.shodan.io/search?query=country%3A%22BR%22+org%3A%22Governo%22+%7C+org%3A%22Prefeitura%22  
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -1231,12 +2111,20 @@ Os microdados do Inep reúnem um conjunto de informações detalhadas relacionad
 
 - https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados
 
+### Sistema Nacional de Dados Migratórios
+Sistema de dados e estatísticas sobre migração no Brasil, gerido pelo Ministério da Justiça e Segurança Pública.
+- https://datamigra.mj.gov.br
+
 ### Dados PF - Polícia Federal
 
 Em síntese, o trabalho de produção do PDA/PF consistiu na elaboração do inventário de bases de dados da Polícia Federal, no saneamento do inventário pelas Diretorias e unidades responsáveis, e, por fim, na priorização dos bancos a serem abertos com base em critérios sugeridos pelo Comitê Gestor da Infraestrutura Nacional de Dados Abertos-CGINDA.
 
 - https://dados.gov.br/dados/organizacoes/visualizar/policia-federal
 - (BETA) https://www.gov.br/pf/pt-br/acesso-a-informacao/dados-abertos/plano-de-dados-abertos-2024-2026
+
+### Superintendências e Delegacias da Polícia Federal
+Diretório com informações sobre as superintendências regionais e delegacias da Polícia Federal em todo o Brasil.
+- https://www.gov.br/pf/pt-br/acesso-a-informacao/institucional/quem-e-quem/superintendencias-e-delegacias
 
 ### Dados CAPES - Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
 
@@ -1365,6 +2253,42 @@ Projeto da Open Knowledge Brasil que reúne e disponibiliza em formato aberto os
 
 - https://queridodiario.ok.org.br
 
+### Fogocruzado
+O maior banco de dados sobre violência armada da América Latina. Pesquisar ocorrências. É possivel pesquisar dados por estado, cidades, datas e tipo de ocorrência.
+- https://api.fogocruzado.org.br/search
+
+### Portal Brasileiro de Dados Abertos - Governo Federal
+Portal central de dados abertos do governo federal brasileiro. Hub principal para descoberta de datasets de diversos órgãos.
+- https://dados.gov.br/
+
+### Página Dados Abertos - Governo Digital
+Contexto, normas e orientações sobre a política de dados abertos do Governo Federal.
+- https://www.gov.br/governodigital/pt-br/dados-abertos
+
+### Portal Brasileiro de Dados Científicos
+Repositório de dados científicos brasileiros.
+- https://dadoscientificos.ufsc.br/
+
+### Dados Abertos da Câmara dos Deputados
+Conjuntos de dados abertos da Câmara dos Deputados.
+- https://dadosabertos.camara.leg.br/
+
+### Dados Abertos do Senado Federal
+Conjuntos de dados abertos do Senado Federal.
+- https://www12.senado.leg.br/dados-abertos
+
+### Dados Abertos do TCU
+Dados abertos do Tribunal de Contas da União.
+- https://portal.tcu.gov.br/dados-abertos/
+
+### IPEA Data
+Base de dados macroeconômicos, sociais e regionais do Brasil.
+- http://www.ipeadata.gov.br/
+
+### Consulta de CEP - Correios
+Consulta de CEP e endereçamento postal.
+- https://www.correios.com.br/enviar-e-receber/ferramentas/consulta-cep
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -1460,6 +2384,18 @@ Consulta Linhas que Fazem Ligação entre Duas Localidades
 
 - https://radar24.net/train-radar/
 
+### SERPRO - Consulta de Multas Federais
+Consulta de multas aplicadas em rodovias federais.
+- https://servicos.serpro.gov.br/multas/
+
+### INFRAERO - Informações de Aeroportos
+Portal de transparência da INFRAERO com informações sobre aeroportos.
+- https://transparencia.infraero.gov.br/
+
+### DNIT - Sistema de Gerenciamento de Pontes
+Informações sobre pontes e viadutos sob responsabilidade do DNIT.
+- https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/sgp
+
 ### Consulta Horários e Passagens Ônibus
 
 Somos o portal de pesquisa de horários e passagens de ônibus mais completo e mais acessado do Brasil, chegando a 4,1 milhões de visitas mensais.
@@ -1497,6 +2433,70 @@ Informações sobre Linhas Rodoviárias em Curitiba
 
 - https://www.urbs.curitiba.pr.gov.br/mobile/monitorRod
 - https://urbs.curitiba.pr.gov.br/horario-de-onibus/rodoviaria
+
+### Consultas DETRAN por Estado
+Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Acre (AC)**
+- Consulta estampagem - https://www.detran.ac.gov.br/consultar-autorizacao-de-estampagem/
+- Consulta SNG - https://www.ac.getran.com.br/site/apps/veiculo/consulta/filtro-chassi-sng.jsp
+- Consulta de pontuação CNH - https://www.detran.ac.gov.br/portal-de-servicos/consulta-pontuacao-de-cnh/
+
+**Alagoas (AL)**
+- DETRAN-AL Consulta Veículos - http://www.detran.al.gov.br/consulta-veiculo/
+
+**Amazonas (AM)**
+- DETRAN-AM Consultas - https://www.detran.am.gov.br/servicos/
+
+**Bahia (BA)**
+- DETRAN-BA Consultas - https://www.detran.ba.gov.br/
+
+**Ceará (CE)**
+- DETRAN-CE Consultas - https://www.detran.ce.gov.br/
+
+**Distrito Federal (DF)**
+- DETRAN-DF Consultas - https://www.detran.df.gov.br/
+
+**Goiás (GO)**
+- Consulta veículos/infrações - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-multas-renainf
+- Consulta processos - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-processo/1
+- Consulta CNH Social - https://www.detran.go.gov.br/psw/#/pages/conteudo/acompanhar-cnh-social
+- Consulta Prontuário CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/prontuario-cnh
+- Primeira CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/primeira-cnh
+
+**Maranhão (MA)**
+- Consulta de Licenciamento Veicular - http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml
+
+**Pará (PA)**
+- Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
+- Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
+
+**Piauí (PI)**
+- Licenciamento DETRAN-PI - http://taxas.detran.pi.gov.br/licenciamento/index.jsf
+
+**Rio de Janeiro (RJ)**
+- Atestado DIC - http://atestadodic.detran.rj.gov.br/
+- Certidão de Inteiro TEOR (CIT) - http://certidaoiifppcerj.detran.rj.gov.br/
+- CONSULTA DÉBITO DE VEÍCULO - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJLoader.do
+- Documento Único do DETRAN de Arrecadação - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJDudaSelecionarProduto.do?cdProdutoInicial=INI
+- Guia de Recolhimento de Multas - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJGrmConsultar.do
+- Guia de Regularização de Taxas - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/DebitoVeiculoRJGRTLoaderAction.do
+- Informações de Pagamentos Efetuados - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJConsultaLoader.do
+
+**Rondônia (RO)**
+- Consultar Veículos por placa + renavam e/ou CPF/CNPJ - https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Software/ViewConsultaVeiculos.aspx
+- Descobrir Número da CNH com CPF e Data de Nascimento - https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Internet/Habilitacao/ConsultaProcesso.asp
+- Consulta Pública do Veículo - https://centralservicos.detran.ro.gov.br/consulta/veiculo
+- Consultar Resultado da Prova do DETRAN - https://consulta.detran.ro.gov.br/ResultadoProva
+
+**Roraima (RR)**
+- DETRAN-RR Consulta de Veículos - https://www.rr.getran.com.br/site/apps/veiculo/filtroplacarenavam-consultaveiculo.jsp
+- DETRAN-RR Nada Consta - https://www.rr.getran.com.br/site/apps/nada-consta/filtroPessoaNadaConsta.jsp
+
+</details>
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -1630,6 +2630,21 @@ Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro A
 
 - https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
 - https://ais.cavok.in/rab/
+<details>
+<summary>Consultas RAB/ANAC</summary>
+
+- Portal Principal de Aeronaves - https://aeronaves.anac.gov.br/aeronaves/
+- Consulta por Matrícula - https://aeronaves.anac.gov.br/aeronaves/#matricula
+- Consulta por Habilitação - https://aeronaves.anac.gov.br/aeronaves/#habilitacao
+- Consulta por Código ICAO - https://aeronaves.anac.gov.br/aeronaves/#icao
+- Consulta por Modelo - https://aeronaves.anac.gov.br/aeronaves/#modelo
+- Consulta por Fabricante - https://aeronaves.anac.gov.br/aeronaves/#fabricante
+- Consulta por Número de Série - https://aeronaves.anac.gov.br/aeronaves/#nserie
+- Consulta RAB - Resposta - https://aeronaves.anac.gov.br/aeronaves/cons_rab_resposta2.asp?
+- Sistema Antigo - https://sistemas.anac.gov.br/aeronaves/cons_rab.asp
+- Cavok RAB - https://ais.cavok.in/rab/
+
+</details>
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -1743,6 +2758,81 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 </details>
 
+### Câmeras por Estado
+Câmeras de monitoramento de rodovias, segurança pública e clima por estado.
+
+<details>
+<summary>Câmeras por Estado</summary>
+
+**Maranhão (MA)**
+- São Luis - https://www.climaaovivo.com.br/ma/sao-luis-hotel-abbeville
+- Açailândia - https://www.climaaovivo.com.br/ma/acailandia/acailandia
+- Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-oeste
+- Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-leste
+
+**Rio Grande do Sul (RS)**
+- Localizar pessoas desaparecidas nas enchentes do RS - https://www.achados-e-perdidos-rs.com.br/
+- Osório: RS-389 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6716
+- Osório: ERS-030 KM 89,9 - https://camerasdaer.perkons.com:60000/DAER-6714
+- Osório: ERS-030, 1916 KM 85,3 - https://camerasdaer.perkons.com:60000/DAER-6713
+- Restinga Seca: ERS-149 KM 100 - https://daer.kopp.com.br/ftp/imagem.php?id=Restinga_Seca
+- Ijuí: ERS-155 KM 2,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Ijui
+- Santa Maria: ERS-509 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Santa_Maria
+- Venâncio Aires: RSC-453 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Venancio_Aires
+- Montenegro: ERS-124 KM 29,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro01
+- Montenegro: RSC-287 KM 3,4 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro02
+- Montenegro: RSC-287 KM 8 - https://daer2.fiscaltech.com.br:8843/panoramicas/6208.jpg
+- Portão: ERS-240 KM 9,9 - https://daer.kopp.com.br/ftp/imagem.php?id=Portao
+- São Jerônimo: ERS-401 KM 10,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Sao_Jeronimo
+- Farroupilha: RSC-453 KM 121,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Farroupilha
+- Farroupilha: RSC-453 KM 109 - https://daer2.fiscaltech.com.br:8843/panoramicas/6212.jpg
+- Farroupilha: ERS-122 KM 47 - https://daer2.fiscaltech.com.br:8843/panoramicas/6213.jpg
+- Caxias do Sul: RSC-453 KM 143 - https://daer.kopp.com.br/ftp/imagem.php?id=Caxias_do_Sul
+- Caxias do Sul: ERS-122 KM 66,56 - https://camerasdaer.perkons.com:60000/DAER-6743
+- Caxias do Sul: RSC-453 KM 168,36 - https://camerasdaer.perkons.com:60000/DAER-6744
+- Glorinha: ERS-030 KM 24,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Glorinha
+- Igrejinha: ERS-115 KM 115 - https://daer.kopp.com.br/ftp/imagem.php?id=Igrejinha
+- Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado01
+- Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado02
+- Itati: ERS-486 KM 29,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Itati
+- Candelária: RSC-287 KM 135 - https://daer2.fiscaltech.com.br:8843/panoramicas/6210.jpg
+- Boa Vista do Cadeado: ERS-342 KM 137 - https://daer2.fiscaltech.com.br:8843/panoramicas/6214.jpg
+- Vera Cruz: RSC-287 KM 113 - https://daer2.fiscaltech.com.br:8843/panoramicas/6215.jpg
+- Passo Fundo: ERS-324 KM 195 - https://daer2.fiscaltech.com.br:8843/panoramicas/6216.jpg
+- Passo Fundo: ERS-324 KM 182,4 - http://186.227.239.150:2150/ftp/imagem.php?id=Passo_Fundo
+- Novos Cabrais: RSC-287 KM 166 - https://daer2.fiscaltech.com.br:8843/panoramicas/6211.jpg
+- Capão da Canoa: ERS-389 KM 36,9 - https://camerasdaer.perkons.com:60000/DAER-6718
+- Torres: ERS-389 KM 86,1 - https://camerasdaer.perkons.com:60000/live/media/PK5916/DeviceIpint.6/SourceEndpoint.video:0:0
+- Parobé: ERS-239 KM 42,3 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.7/SourceEndpoint.video:0:0
+- Sapiranga: ERS-239 KM 32 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.8/SourceEndpoint.video:0:0
+- São Leopoldo: ERS-240 KM 2 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.9/SourceEndpoint.video:0:0
+- Capela de Santana: ERS-240 KM 22,1 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.10/SourceEndpoint.video:0:0
+- São Sebastião do Caí: ERS-122 KM 6,5 - https://camerasdaer.perkons.com:60000/DAER-6734
+- São Sebastião do Caí: ERS-122 KM 15,9 - https://camerasdaer.perkons.com:60000/DAER-6737
+- Bom Princípio: ERS-122 KM 29,45 - https://camerasdaer.perkons.com:60000/DAER-6739
+- Teutônia: RSC-453 KM 55,8 - https://camerasdaer.perkons.com:60000/DAER-6748
+- Serafina Côrrea: ERS-129 KM 147,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Serafina_Correa
+- Nova Bassano: ERS- 324 KM 282,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Nova_Bassano
+- Sananduva: ERS-126 KM 110 - https://daer.kopp.com.br/ftp/imagem.php?id=Sananduva
+- Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
+- Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
+
+**Santa Catarina (SC)**
+- Ponte Hercílio Luz 01: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_159&width=1920&height=1080
+- Ponte Hercílio Luz 02: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_160&width=1920&height=1080
+- Ponte Hercílio Luz 03: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
+- Ponte Hercílio Luz 04: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
+- Lauro Linhares/Álvaro Ramos: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_051&width=1920&height=1080
+- Lauro Linhares/Álvaro Ramos 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_052&width=1920&height=1080
+- Lauro Linhares/Travessa São Lourenço 01: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_061&width=1920&height=1080
+- Lauro Linhares/Travessa São Lourenço 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_062&width=1920&height=1080
+- Rua 13 de Maio/Sebastião Lara: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_012&width=1920&height=1080
+- Rua Júlio T. Martins/Homero de Miranda Gome: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_020&width=1920&height=1080
+- Marginal BR101/Rua Acácio Reitz: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_032&width=1920&height=1080
+- Major Livramento/Rua João José Rodrigues: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_VDV_040&width=1920&height=1080
+
+</details>
+
 ### Câmeras da Prefeitura de João Pessoa - PB (SEMOB)
 
 - http://transito.gtrans.com.br/semobjp/index.php
@@ -1814,6 +2904,236 @@ O site Rodovias Online é um serviço de Utilidade Pública, onde procuramos reu
 
 - Consultar informações sobre: Veículos, Mandados de prisão, Pessoas desaparecidas, Criminosos procurados
 - https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf
+## Segurança Cibernética 🛡️ <a name="seguranca-cibernetica"></a>
+
+### CERT.br - Centro de Estudos, Resposta e Tratamento de Incidentes
+Notificações de incidentes, estatísticas de segurança e alertas de vulnerabilidades.
+- https://www.cert.br/
+- https://www.cert.br/stats/ (Estatísticas)
+
+### Delegacias de Crimes Cibernéticos
+<details>
+<summary>Delegacias Especializadas por Estado</summary>
+
+- São Paulo - https://www.policiacivil.sp.gov.br/portal/faces/pages_home/cidadao/delegacias_especializadas
+- Rio de Janeiro - http://www.policiacivil.rj.gov.br/
+- Minas Gerais - https://www.policiacivil.mg.gov.br/
+- Paraná - https://www.policiacivil.pr.gov.br/
+- Rio Grande do Sul - https://www.pc.rs.gov.br/
+- Santa Catarina - https://www.pc.sc.gov.br/
+
+</details>
+
+
+### Consulta Informações Sobre Domínios
+Informações sobre proprietários de domínios brasileiros.
+
+<details>
+<summary>Links para Pesquisa</summary>
+
+- https://registro.br/dominio/lista-processo-liberacao.txt
+- https://rdap.registro.br/domain/seu_dominio_exemplo.com.br
+- https://registro.br/tecnologia/ferramentas/whois/
+- https://registro.br/tecnologia/ferramentas/pesquisa-de-usuario/
+- https://kaponline.com.br/whois/
+</details>
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Blockchain e Criptomoedas 💰 <a name="blockchain-criptomoedas"></a>
+
+### CVM - Consulta de Processos Envolvendo Criptomoedas
+Processos administrativos e sanções relacionadas a criptoativos.
+- https://www.gov.br/cvm/pt-br
+
+### CVM - Alertas sobre Fraudes com Criptomoedas
+Comunicados oficiais sobre esquemas fraudulentos.
+- https://www.gov.br/cvm/pt-br/assuntos/noticias
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Defesa Civil e Emergências 🚨 <a name="defesa-civil-emergencias"></a>
+
+### Defesa Civil Nacional - Sistema de Alertas
+Sistema nacional de alertas de desastres naturais.
+- https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil
+
+### S2iD - Sistema Integrado de Informações sobre Desastres
+Registro e consulta de desastres e emergências no Brasil.
+- https://s2id.mi.gov.br/
+
+### CEMADEN - Centro Nacional de Monitoramento e Alertas
+Monitoramento de risco de desastres naturais em tempo real.
+- https://www.cemaden.gov.br/
+- https://www.cemaden.gov.br/mapainterativo/ (Mapa interativo)
+
+### INPE - Queimadas e Incêndios Florestais
+Sistema de monitoramento de focos de queimadas no Brasil.
+- https://queimadas.dgi.inpe.br/queimadas/portal
+- https://queimadas.dgi.inpe.br/queimadas/portal-static/situacao-atual/
+
+### ANA - Monitoramento de Secas e Inundações
+Sistema de acompanhamento de eventos hidrológicos críticos.
+- https://www.snirh.gov.br/
+- https://portal1.snirh.gov.br/ana/apps/webappviewer/index.html?id=0d9d29ec24cc49df89965f05fc5b96b9
+
+### Defesa Civil - Consulta de Abrigos Públicos
+Localização de abrigos emergenciais por município.
+- https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/abrigos-temporarios
+
+### Mapa de Áreas de Risco
+Identificação de áreas suscetíveis a deslizamentos e inundações.
+- https://www.cprm.gov.br/publique/Gestao-Territorial/Cartas-de-Suscetibilidade-a-Movimentos-Gravitacionais-de-Massa-e-Inundacoes-5511.html
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Energia e Infraestrutura ⚡ <a name="energia-infraestrutura"></a>
+
+### ANEEL - Agência Nacional de Energia Elétrica
+Consulta de usinas, distribuidoras e empreendimentos de geração de energia.
+- https://www.aneel.gov.br/
+- https://www.aneel.gov.br/siga (Sistema de Informações de Geração)
+
+### ANEEL - Consulta de Distribuidoras
+Informações sobre concessionárias de distribuição de energia.
+- https://www.aneel.gov.br/area.cfm?idArea=550
+
+### ANEEL - Consulta de Usinas e Geradoras
+Banco de dados de empreendimentos de geração de energia elétrica.
+- https://www2.aneel.gov.br/aplicacoes/capacidadebrasil/capacidadebrasil.cfm
+
+### ONS - Operador Nacional do Sistema Elétrico
+Dados operacionais do sistema elétrico brasileiro em tempo real.
+- http://www.ons.org.br/
+- http://www.ons.org.br/paginas/resultados-da-operacao/historico-da-operacao
+
+### EPE - Empresa de Pesquisa Energética
+Dados e estatísticas do setor energético brasileiro.
+- https://www.epe.gov.br/pt
+- https://www.epe.gov.br/pt/publicacoes-dados-abertos
+
+### Mapa de Linhas de Transmissão
+Visualização de linhas de transmissão e subestações do Brasil.
+- http://sigel.aneel.gov.br/portal/home/
+
+### Consulta de Interrupções de Energia
+Sistema de registro e acompanhamento de apagões e interrupções.
+- https://www.aneel.gov.br/ranking-da-continuidade
+
+### Tarifa de Energia - Simulador
+Comparação de tarifas de energia elétrica por região.
+- https://www.aneel.gov.br/ranking-das-tarifas
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Serviços Públicos Estaduais e Conselhos Profissionais 🏛️ <a name="servicos-estaduais"></a>
+
+### Serviços Públicos por Estado
+Portais de serviços públicos, conselhos profissionais e outras instituições estaduais.
+
+<details>
+<summary>Consultas por Estado</summary>
+
+**Espírito Santo (ES)**
+- IDE Geobases - Infraestrutura de Dados Espaciais - https://ide.geobases.es.gov.br/?limit=5&offset=0
+
+**Maranhão (MA)**
+- Serviços disponíveis TRE | Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
+- Serviços disponíveis TRT | Maranhão - https://www.trt16.jus.br/servicos/para-o-cidadao-e-advogado
+- Serviços disponíveis MP | Maranhão - https://www.mpma.mp.br/servicos/
+- Serviços disponíveis TJ | Maranhão - https://www.tjma.jus.br/portal
+- Serviços disponíveis DETRAN | Maranhão - https://www.detran.ma.gov.br/inicio/paginas/Home.xhtml
+- Serviços disponíveis Assembleia legislativa | Maranhão - https://www.al.ma.leg.br/sitealema/
+- Sistema S | Maranhão - https://www.fiema.org.br/home
+- OAB | Maranhão - https://www.oabma.org.br/
+- FAM | Maranhão - https://famem.org.br/
+- Serviços disponíveis GOV | Maranhão - https://www.ma.gov.br/servicos/
+- Contatos do GOV | Maranhão - https://www.ma.gov.br/contatos
+- Diário Oficial GOV | Maranhão - https://www.diariooficial.ma.gov.br/
+
+**Maranhão (MA) - São Luís**
+- Serviços disponíveis Prefeitura | São Luís - https://saoluis.ma.gov.br/servicos
+- Informações de Secretarias e Órgãos da prefeitura | São Luís - https://saoluis.ma.gov.br/secretarias
+
+**Maranhão (MA) - São José de Ribamar**
+- Serviços disponíveis Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/servicos
+- Informações de Secretarias e Órgãos da prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/secretarias/16510
+
+**Piauí (PI)**
+- Sistema Intranet Corpo de Bombeiros Militar do Piauí - http://www.bombeiros.pi.gov.br/distec/index2.php
+
+**São Paulo (SP)**
+- Consulta Situação RG - https://www.policiacivil.sp.gov.br/portal/faces/pages_home/servicos/consultaSituacaoRG
+- Consulta de concluintes em unidades escolares do Estado - https://concluintes.educacao.sp.gov.br/publica/consultapublica/Search
+
+</details>
+
+### Conselhos Profissionais do Maranhão
+Consultas de registro e certidões em conselhos profissionais do Maranhão.
+
+<details>
+<summary>Conselhos Maranhão</summary>
+
+- CRMMA (Medicina) - https://crmma.org.br/servicos-para-medicos/certidoes-declaracoes/certidao-negativa-nada-consta
+- CRFMA (Farmácia) - https://crfma.org.br/
+- CREAMA (Engenharia e Agronomia) - https://www.creama.org.br/
+- CRPMA (Psicologia) - https://crpma.org.br/
+- CREFMA (Educação Física) - https://cref21.org.br/
+- CRAMA (Administração) - https://cra-ma.org.br/
+- COREMA (Representantes Comerciais) - https://www.coremaranhao.org.br/
+- CORENMA (Enfermagem) - https://corenma.gov.br/site2/
+- CEEM (Educação) - https://conselhodeeducacao.ma.gov.br/
+- CRCMA (Contabilidade) - https://crcma.org.br/
+- CRTMA (Técnicos Industriais) - https://www.crt02.gov.br/maranhao/
+- CRQMA (Química) - https://crq11.org.br/
+- CRESSMA (Serviço Social) - https://www.cressma.org.br/
+- CROMA (Museologia) - https://www.croma.org.br/
+- CFCMA (Contabilidade) - https://cfc.org.br/conselhos/conselho-regional-de-contabilidade-do-maranhao/
+- CRMVMA (Medicina Veterinária) - https://www.crmvma.org.br/
+- CRTRMA (Técnicos em Radiologia) - https://crtr17.gov.br/
+- CORECON (Economia) - https://corecon-ma.org.br/
+- CRBMMA (Biomedicina) - https://crbm2.gov.br/
+- CRNMA (Nutrição) - https://crbm2.gov.br/
+
+</details>
+
+### Empresas de Serviços Públicos do Maranhão
+Consultas de serviços essenciais do Maranhão.
+
+<details>
+<summary>Serviços Maranhão</summary>
+
+- CAEMA (Água) - https://www.caema.ma.gov.br/
+- EQUATORIAL (Energia) - https://ma.equatorialenergia.com.br/
+- BRK (Saneamento) - https://minhabrk.com.br/home
+
+</details>
+
+### Consulta de Empresa - Junta Comercial Pará (JUCEPA)
+Consulta pública de empresas registradas na JUCEPA.
+- https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
+
+### Consulta de Processo Administrativo Eletrônico - Pará
+Sistema de consulta pública de processos administrativos eletrônicos do estado do Pará.
+- https://pae-consulta-publica.sistemas.pa.gov.br/
+
+### Boletim Geral de Bombeiros - Pará
+Consulta pública de boletins do Corpo de Bombeiros do Pará.
+- https://siga.bombeiros.pa.gov.br/boletins.php
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Outras Buscas 🔎 <a name="outras-buscas"></a>
 
 ### Busca de Falecidos/Óbitos
 
@@ -1841,6 +3161,7 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 
 - https://www.predictasearch.com
 - https://tools.epieos.com/email.php
+- https://www.gov.br/pf/pt-br/assuntos/produtos-quimicos    
 
 ### Busca de Bens a venda ou aluguel
 
@@ -1854,8 +3175,6 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 - https://www.mercadolivre.com.br/
 - https://www.elo7.com.br/
 - https://shopee.com.br/
-- https://napista.com.br/
-- https://napista.com.br/
 - https://napista.com.br/
 - https://autoline.com.br/
 - https://www.kavak.com/br
@@ -1874,13 +3193,18 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 
 <details>
 <summary>Links para Pesquisa</summary>
+        
+### Ferramentas OSINT Brasileiras
 
-- https://registro.br/dominio/lista-processo-liberacao.txt
-- https://rdap.registro.br/domain/seu_dominio_exemplo.com.br
-- https://registro.br/tecnologia/ferramentas/whois/
-- https://registro.br/tecnologia/ferramentas/pesquisa-de-usuario/
+#### Plataforma Caipora Pro
+Repositório de ferramentas para Inteligência de Fontes Abertas (OSINT) e Investigação Digital com enfoque no Brasil.
+- https://caipora.pro/
 
-</details>
+#### OSINTKit-Brasil
+Curadoria nacional de ferramentas de OSINT com mais de 1600 links úteis categorizados em formato de bookmarks HTML.
+- https://github.com/felipeluan20/OSINTKit-Brasil
+
+
 
 ### Sites Notificados pelo Procon-SP
 
@@ -1891,7 +3215,7 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
 ### Consulta em cartórios
 
 - https://www.pesquisaprotesto.com.br/
-- https://www.registrodeimoveis.org.br/cartorios
+- https://protestosp.com.br/consulta-de-protesto?hc=1
 - https://e-cartoriodobrasil.com/pedido/imoveis/pesquisa-qualificada-de-bens
 
 ### Lista Telefônica
@@ -1913,30 +3237,56 @@ No link abaixo é possível consultar informações referentes a: Marcas, Patent
 ### Consulta os Processos Licitatórios da SPTrans
 
 Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A
+Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A. Sistema permite consultar editais, resultados, atas e processos administrativos relacionados a licitações e contratos.
 
 <details>
 <summary>Links para Pesquisa</summary>
 
-- https://sptrans.com.br/licitacoes/
-- https://sistemas.sptrans.com.br//licitlovnew/hilicwebfrt2rc_Ano.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtarp.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtap.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ca.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp_tc.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2cr.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrted.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ec.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2apn.aspx
-- https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2rc_Ano.aspx
-- https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/edital/index.php?p=247319
-- https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php?p=205222
-- https://sistemas.sptrans.com.br/DemPag/hdempag.aspx
+- Portal de Licitações SPTrans
+  - https://sptrans.com.br/licitacoes/
+
+- Consulta de Resultados de Licitações por Ano
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2rc_Ano.aspx
+
+- Consulta de Atas de Registro de Preços
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtarp.aspx
+
+- Consulta de Avisos de Prorrogação
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtap.aspx
+
+- Consulta de Contratos Administrativos
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ca.aspx
+
+- Consulta de Convênios e Termos de Cooperação
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp_tc.aspx
+
+- Consulta de Contratos de Parceria
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp.aspx
+
+- Consulta de Contratos Rescindidos
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2cr.aspx
+
+- Consulta de Editais
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrted.aspx
+
+- Consulta de Extrato de Contratos
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ec.aspx
+
+- Consulta de Avisos de Prorrogação (Novo)
+  - https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2apn.aspx
+
+- Editais da Secretaria de Mobilidade
+  - https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/edital/index.php?p=247319
+
+- Demonstrativo de Pagamentos
+  - https://sistemas.sptrans.com.br/DemPag/hdempag.aspx
 
 </details>
 
 ### Acesso à Informação - SPTRANSd
 
+### Acesso à Informação - SPTrans
+Portal de acesso à informação da São Paulo Transporte S/A com dados sobre contratos, despesas, licitações e transparência.
 - https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php
 
 ### Repositório com Dados Públicos
