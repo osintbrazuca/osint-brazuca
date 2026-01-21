@@ -1579,6 +1579,7 @@ WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas 
 - https://www.gruposexozap.com.br/
 - https://www.grupopaquera.com.br/
 - https://gruposdezap.com/
+- https://grupodewhatsapp.com/
 
 </details>
 
