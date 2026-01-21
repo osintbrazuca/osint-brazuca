@@ -24,6 +24,7 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 
 - [Benefícios Sociais](#beneficios-sociais)
 - [Pessoas Desaparecidas](#pessoas-desaparecidas)
+- [Pessoas Procuradas pela Justiça](#pessoas-procuradas)
 - [Consulta de Processos](#consulta-processos)
 - [Busca de Informações via CPF/CNPJ/CRM/CNA](#busca-cpf-cnpj-crm-cna)
 - [Estatísticas](#estatísticas)
@@ -173,6 +174,42 @@ Uma relação de links com dados sobre desaparecidos, gerida pela estado ou ONGs
 - https://www.policiacientifica.sp.gov.br/iml/consultadesaparecidos
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+## Pessoas Procuradas pela Justiça no Brasil <a name="pessoas-procuradas"></a>
+
+### 🇧🇷 Brasil — Programa Captura (MJSP)
+
+Lista nacional de criminosos mais procurados, organizada por estado, com mandados de prisão prioritários.  
+https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/operacoes-integradas/projeto-captura
+
+### 📍 Maranhão (MA) — SSP/MA | Disque-Denúncia – Procurados
+
+Lista pública de pessoas procuradas pela Justiça no Maranhão, com fotos e dados básicos.  
+https://www.ssp.ma.gov.br/disque-denuncia/procurados/
+
+### 📍 Ceará (CE) — SSPDS/CE | Procurados
+
+Portal oficial com relação de foragidos e procurados pela Justiça no Estado do Ceará.  
+https://procurados.sspds.ce.gov.br/index
+
+### 📍 Bahia (BA) — SSP/BA | Baralho do Crime (Espadas)
+
+Lista oficial dos criminosos mais procurados da Bahia, organizada por categorias.  
+https://disquedenuncia.ssp.ba.gov.br/baralho-do-crime/espadas/
+
+### 🌐 INTERPOL — Pessoas Procuradas Internacionalmente
+
+Lista pública de fugitivos procurados internacionalmente, incluindo brasileiros com mandados internacionais.  
+https://www.interpol.int/Contacts/Fugitives-wanted-persons
+
+### 📱 Brasil — Sinesp Cidadão (Consulta de Procurados)
+
+Consulta oficial de procurados pela Justiça no Brasil via aplicativo do governo federal.  
+https://www.gov.br/pt-br/servicos/consultar-os-criminosos-mais-procurados-do-brasil  
+Android: https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android  
+iOS: https://apps.apple.com/br/app/sinesp-cidad%C3%A3o/id768157962
 
 ---
 
