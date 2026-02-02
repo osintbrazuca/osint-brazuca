@@ -227,37 +227,40 @@ Uma relação de links com dados sobre desaparecidos, gerida pela estado ou ONGs
 
 ## Pessoas Procuradas pela Justiça no Brasil <a name="pessoas-procuradas"></a>
 
-### 🇧🇷 Brasil — Programa Captura (MJSP)
+### Brasil — Programa Captura (MJSP)
 
 Lista nacional de criminosos mais procurados, organizada por estado, com mandados de prisão prioritários.  
-https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/operacoes-integradas/projeto-captura
+- https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/operacoes-integradas/projeto-captura
 
-### 📍 Maranhão (MA) — SSP/MA | Disque-Denúncia – Procurados
+### Maranhão (MA) — SSP/MA | Disque-Denúncia – Procurados
 
 Lista pública de pessoas procuradas pela Justiça no Maranhão, com fotos e dados básicos.  
-https://www.ssp.ma.gov.br/disque-denuncia/procurados/
+- https://www.ssp.ma.gov.br/disque-denuncia/procurados/
 
-### 📍 Ceará (CE) — SSPDS/CE | Procurados
+### Ceará (CE) — SSPDS/CE | Procurados
 
 Portal oficial com relação de foragidos e procurados pela Justiça no Estado do Ceará.  
-https://procurados.sspds.ce.gov.br/index
+- https://procurados.sspds.ce.gov.br/index
 
-### 📍 Bahia (BA) — SSP/BA | Baralho do Crime (Espadas)
+### Bahia (BA) — SSP/BA | Baralho do Crime (Espadas)
 
 Lista oficial dos criminosos mais procurados da Bahia, organizada por categorias.  
-https://disquedenuncia.ssp.ba.gov.br/baralho-do-crime/espadas/
+- https://disquedenuncia.ssp.ba.gov.br/baralho-do-crime/espadas/
 
-### 🌐 INTERPOL — Pessoas Procuradas Internacionalmente
+### INTERPOL — Pessoas Procuradas Internacionalmente
 
 Lista pública de fugitivos procurados internacionalmente, incluindo brasileiros com mandados internacionais.  
-https://www.interpol.int/Contacts/Fugitives-wanted-persons
+- https://www.interpol.int/Contacts/Fugitives-wanted-persons
 
-### 📱 Brasil — Sinesp Cidadão (Consulta de Procurados)
+### Brasil — Sinesp Cidadão (Consulta de Procurados)
 
 Consulta oficial de procurados pela Justiça no Brasil via aplicativo do governo federal.  
-https://www.gov.br/pt-br/servicos/consultar-os-criminosos-mais-procurados-do-brasil  
-Android: https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android  
-iOS: https://apps.apple.com/br/app/sinesp-cidad%C3%A3o/id768157962
+- https://www.gov.br/pt-br/servicos/consultar-os-criminosos-mais-procurados-do-brasil  
+  - Android: https://play.google.com/store/apps/details?id=br.gov.sinesp.cidadao.android  
+  - iOS: https://apps.apple.com/br/app/sinesp-cidad%C3%A3o/id768157962
+
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -290,13 +293,12 @@ O Sistema BNMP – Banco Nacional de Mandados de Prisão tem a finalidade de fac
 ### Portais de Tribunais Regionais Federal (TRF)
 
 **TRF1**: O Tribunal Regional Federal da 1ª Região, com sede em Brasília, tem sob sua jurisdição o Distrito Federal e os estados do Acre, Amapá, Amazonas, Bahia, Goiás, Maranhão, Mato Grosso, Minas Gerais, Pará, Piauí, Rondônia, Roraima e Tocantins.
-<br>
-**TRF2**: 2a instância da Justiça Federal da 2a Região, com jurisdição no Rio de Janeiro e no Espírito Santo.
-<br>
-**TRF5**: Portal com informações e serviços providos pelo TRF5, tem sob sua jurisdição jfal ,jfce ,jfpb ,jfpe ,jfrn ,jfse.
-
 - https://portal.trf1.jus.br
+
+**TRF2**: 2a instância da Justiça Federal da 2a Região, com jurisdição no Rio de Janeiro e no Espírito Santo.
 - https://portal.trf2.jus.br
+
+**TRF5**: Portal com informações e serviços providos pelo TRF5, tem sob sua jurisdição jfal ,jfce ,jfpb ,jfpe ,jfrn ,jfse.
 - https://portal.trf5.jus.br
 
 ### JusBrasil
@@ -630,115 +632,85 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 
 ---
 
-## Estatísticas <a name="estatísticas"></a>
-
-🔐 Segurança Pública por Estado
+## Estatísticas Segurança Pública <a name="estatísticas"></a> 🔐
 
 Fontes oficiais de estatísticas criminais (OSINT)
 Painéis governamentais, dados abertos e relatórios públicos por UF.
 
-🇧🇷 Painéis Nacionais
+### Painéis Nacionais
 
-<details> <summary>📊 Ministério da Justiça e Segurança Pública (MJSP)</summary>
 
-SINESP – Estatísticas de Segurança Pública (VDE)
-https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/estatistica
+Ministério da Justiça e Segurança Pública (MJSP)
 
-Dados abertos – Segurança Pública (Gov.br)
-https://dados.gov.br/dados/conjuntos-dados/seguranca-publica
+- SINESP – Estatísticas de Segurança Pública (VDE)
+  - https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/estatistica
 
-</details>
-📍 Painéis Estaduais
-🟦 Maranhão (MA)
-<details> <summary>Secretaria de Segurança Pública do Maranhão</summary>
+- Dados abertos – Segurança Pública (Gov.br)
+  - https://dados.gov.br/dados/conjuntos-dados/seguranca-publica
 
-Estatísticas da Grande São Luís
-https://www.ssp.ma.gov.br/estatisticas-da-grande-sao-luis/
 
-Portal institucional da SSP-MA
-https://www.ssp.ma.gov.br/
+### Painéis Estaduais
 
-</details>
-🟦 São Paulo (SP)
-<details> <summary>Secretaria da Segurança Pública de São Paulo</summary>
+<details> 
+<summary>Secretarias de Segurança Pública</summary>
 
-Painel Estatístico SSP-SP
-https://www.ssp.sp.gov.br/estatistica/painel-estatistico
+- Estatísticas da Grande São Luís
+ - https://www.ssp.ma.gov.br/estatisticas-da-grande-sao-luis/
 
-Dados mensais por tipo de crime
+- Portal institucional da SSP-MA
+ - https://www.ssp.ma.gov.br/
+
+- Painel Estatístico SSP-SP
+ -  - https://www.ssp.sp.gov.br/estatistica/painel-estatistico
+
+- Dados mensais por tipo de crime
 https://www.ssp.sp.gov.br/estatistica
 
-</details>
-🟦 Rio de Janeiro (RJ)
-<details> <summary>Instituto de Segurança Pública (ISP-RJ)</summary>
+- ISP Dados – Painel interativo
+ - https://www.ispdados.rj.gov.br/
 
-ISP Dados – Painel interativo
-https://www.ispdados.rj.gov.br/
+- Séries históricas e dados abertos
+ - https://www.isp.rj.gov.br/
 
-Séries históricas e dados abertos
-https://www.isp.rj.gov.br/
+- Dados abertos de segurança pública (MG)
+ - https://www.seguranca.mg.gov.br/index.php/transparencia/dados-abertos
 
-</details>
-🟦 Minas Gerais (MG)
-<details> <summary>Secretaria de Justiça e Segurança Pública</summary>
+- Portal institucional
+ - https://www.seguranca.mg.gov.br/
 
-Dados abertos de segurança pública (MG)
-https://www.seguranca.mg.gov.br/index.php/transparencia/dados-abertos
+- Estatísticas criminais oficiais
+ - https://www.ba.gov.br/ssp/estatistica
 
-Portal institucional
-https://www.seguranca.mg.gov.br/
+- Portal da SSP-BA
+ - https://www.ssp.ba.gov.br/
 
-</details>
-🟦 Bahia (BA)
-<details> <summary>Secretaria da Segurança Pública da Bahia</summary>
+- Indicadores criminais do Ceará
+ - https://www.sspds.ce.gov.br/estatisticas/
 
-Estatísticas criminais oficiais
-https://www.ba.gov.br/ssp/estatistica
+- Portal institucional
+ - https://www.sspds.ce.gov.br/
 
-Portal da SSP-BA
-https://www.ssp.ba.gov.br/
+- Estatísticas criminais
+ - https://www.ssp.rs.gov.br/estatisticas
 
-</details>
-🟦 Ceará (CE)
-<details> <summary>Secretaria da Segurança Pública e Defesa Social</summary>
+- Portal institucional
+ - https://www.ssp.rs.gov.br/
 
-Indicadores criminais do Ceará
-https://www.sspds.ce.gov.br/estatisticas/
+- Estatísticas de criminalidade (PR)
+ - https://www.seguranca.pr.gov.br/Estatisticas
 
-Portal institucional
-https://www.sspds.ce.gov.br/
+- Portal institucional
+ - https://www.seguranca.pr.gov.br/
 
-</details>
-🟦 Rio Grande do Sul (RS)
-<details> <summary>Secretaria da Segurança Pública do RS</summary>
+- Estatísticas criminais – SDS PE
+ - https://www.sds.pe.gov.br/estatisticas
 
-Estatísticas criminais
-https://www.ssp.rs.gov.br/estatisticas
-
-Portal institucional
-https://www.ssp.rs.gov.br/
+- Portal institucional
+ - https://www.sds.pe.gov.br/
 
 </details>
-🟦 Paraná (PR)
-<details> <summary>Secretaria da Segurança Pública do Paraná</summary>
 
-Estatísticas de criminalidade (PR)
-https://www.seguranca.pr.gov.br/Estatisticas
-
-Portal institucional
-https://www.seguranca.pr.gov.br/
-
-</details>
-🟦 Pernambuco (PE)
-<details> <summary>Secretaria de Defesa Social</summary>
-
-Estatísticas criminais – SDS PE
-https://www.sds.pe.gov.br/estatisticas
-
-Portal institucional
-https://www.sds.pe.gov.br/
-
-</details>
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
@@ -1150,9 +1122,14 @@ Consulta geral de obras audiovisuais cadastradas.
 
 O serviço prestado por este site informa somente a situação do aparelho celular que foi informado pelo usuário à operadora de telefonia móvel como roubado, furtado, perdido ou extraviado.
 
+<details>
+<summary>Links para pesquisa</summary>
+
 - https://www.consultaaparelhoimpedido.com.br/public-web/welcome
 - https://www.consultaserialaparelho.com.br/public-web/homeSiga
 - https://www.imei.info/pt/
+
+</details>
 
 ### Busca de Situação Cadastro / Portabilidade de Números Celulares e Fixos
 
@@ -1161,10 +1138,15 @@ O serviço prestado por este site informa somente a situação do aparelho celul
 
 ### Busca Operadora por Número Celular
 
+<details>
+<summary>Links para pesquisa</summary>
+
 - https://consultanumero.info/
 - https://www.qualoperadora.net/
 - http://consultaoperadora.com.br/site2015/
 - https://www.qualoperadora.org/
+
+</details>
 
 ### Busca Operadora / Linha Pré ativa por CPF
 
@@ -1176,6 +1158,9 @@ Consultar se possui linha pré-paga ativa nas Prestadoras participantes (Algar, 
 
 Consulte a cobertura de rede 2G, 3G, 4G e 5G em qualquer região do Brasil, verificando a disponibilidade e intensidade do sinal das operadoras
 
+<details>
+<summary>Links para pesquisa</summary>
+
 - (Visão geral) - https://conexis.org.br/numeros/mapa-de-antenas-completo/
 - https://mapadecobertura.vivo.com.br/
 - https://www.claro.com.br/mapa-de-cobertura
@@ -1185,7 +1170,7 @@ Consulte a cobertura de rede 2G, 3G, 4G e 5G em qualquer região do Brasil, veri
 - https://algartelecom.com.br/para-voce/celular/cobertura-celular
 - https://www.brisanet.com.br/mapa-de-area-de-cobertura
 - https://www.gigamaisfibra.com.br/onde-estamos/
--
+</details>
 
 ### ANATEL - Consulta de Outorgas de Radiodifusão
 Consulta de outorgas de serviços de radiodifusão.
@@ -1218,69 +1203,69 @@ Por meio da busca é possível encontrar orelhões pelo número, localizar ruas,
 
 - http://sistemas.anatel.gov.br/sgmu/fiqueligado/tups.asp
 
-### 📡 Painéis de Telecomunicações (ANATEL)
+### Painéis de Telecomunicações (ANATEL)
 
-### 📊 Painel Geral — Indicadores de Telecomunicações
+### Painel Geral — Indicadores de Telecomunicações
 
 Dados gerais de telecomunicações no Brasil, com acesso a todos os painéis setoriais da Anatel, incluindo infraestrutura, acessos, cobertura, espectro, outorgas e conectividade.
 
 - https://informacoes.anatel.gov.br/paineis/
 
-### 🏙️ Meu Município — Panorama Municipal de Telecom
+### Meu Município — Panorama Municipal de Telecom
 
 Panorama completo das telecomunicações de um município específico, com possibilidade de comparação com outros municípios da mesma UF, da região e com o Brasil.
 
 - https://informacoes.anatel.gov.br/paineis/meu-municipio
 
-### 📶 Índice Brasileiro de Conectividade (IBC)
+### Índice Brasileiro de Conectividade (IBC)
 
 Ranking e indicadores de conectividade de municípios e estados, considerando acesso à internet, cobertura móvel, banda larga fixa e outros fatores de conectividade.
 
 - https://informacoes.anatel.gov.br/paineis/meu-municipio/indice-brasileiro-de-conectividade
 
-### 📡 Infraestrutura e Cobertura de Redes Móveis
+### Infraestrutura e Cobertura de Redes Móveis
 
 O que contém:
 Cobertura de telefonia móvel (3G, 4G e 5G), mapas de infraestrutura, presença de sinal por município, UF e rodovias.
 
 - https://informacoes.anatel.gov.br/paineis/infraestrutura/panorama
 
-### 🚗 Cobertura Móvel em Rodovias
+### Cobertura Móvel em Rodovias
 
 O que contém:
 Informações sobre presença de sinal móvel ao longo das rodovias federais e estaduais, integradas ao painel de infraestrutura.
 
 - https://informacoes.anatel.gov.br/paineis/infraestrutura/panorama
 
-### 📈 Acessos aos Serviços de Telecomunicações
+### Acessos aos Serviços de Telecomunicações
 
 O que contém:
 Dados de acessos à banda larga fixa, telefonia móvel, telefonia fixa e TV por assinatura, com rankings e evolução histórica.
 
 - https://informacoes.anatel.gov.br/paineis/acessos
 
-### 🏗️ Outorga e Licenciamento — Serviço Móvel Pessoal (SMP)
+### Outorga e Licenciamento — Serviço Móvel Pessoal (SMP)
 
 O que contém:
 Autorizações de operadoras, licenciamento de estações rádio base, tecnologias autorizadas e faixas de radiofrequência por município.
 
 - https://informacoes.anatel.gov.br/paineis/outorga-e-licenciamento/autorizacoes-e-licenciamentos-do-smp
 
-### 📡 Espectro e Órbita / Lei das Antenas
+### Espectro e Órbita / Lei das Antenas
 
 O que contém:
 Informações sobre uso do espectro de radiofrequência, implantação do 5G e adequação dos municípios à Lei Geral de Antenas.
 
 - https://informacoes.anatel.gov.br/paineis/espectro-e-orbita/lei-das-antenas
 
-### 📱 Certificação de Produtos — Celulares 5G
+### Certificação de Produtos — Celulares 5G
 
 O que contém:
 Lista de aparelhos celulares certificados pela Anatel para operação em redes 5G no Brasil.
 
 - https://informacoes.anatel.gov.br/paineis/certificacao-de-produtos/celulares-em-5g
 
-### ☎️ Áreas Tarifárias e Numeração
+### Áreas Tarifárias e Numeração
 
 O que contém:
 Divisão das áreas tarifárias da telefonia fixa, códigos DDD e áreas locais por município e UF.
@@ -1314,9 +1299,14 @@ Alguns dos sistemas dependem de cadastro de usuário (CPF + Senha). Abaixo dos l
 
 ### Lista de frequências e repetidoras
 
+<details>
+<summary>Links para pesquisa</summary>
+
 - https://www.radioamador.com/vhf/repetidorasold.htm
 - https://www.radiohaus.com.br/pagina.php?cod=22&nomodal
 - https://pt.wikipedia.org/wiki/Lista_de_faixas_e_subfaixas_do_servi%C3%A7o_radioamador_no_Brasil
+
+</details>
 
 ### Números Discagem direta a distância ( DDD )
 
@@ -1448,10 +1438,15 @@ A Rede de Meteorologia do Comando da Aeronáutica tem como objetivo integrar os 
 
 ### Radar de Aeronaves
 
+<details>
+<summary>Links de pesquisa</summary>
+
 - https://www.radarbox.com/@-19.21547,-46.45469,z5
 - https://www.flightradar24.com/-18.82,-52.19/5
 - https://www.edestinos.com.br/radar
 - https://planefinder.net/airport/BSB
+
+</details>
 
 ### Consulta de Licença Aeronáutica ( CHT )
 
@@ -1494,117 +1489,117 @@ Portal da Infraestrutura Nacional de Dados Espaciais.
 
 ---
 
-## Território, Meio Ambiente & Fiscalização <a name="territorio-meio-ambiente-fiscalizacao"></a>
+## Território, Meio Ambiente & Fiscalização 🏞️ <a name="territorio-meio-ambiente-fiscalizacao"></a>
 
-### 🏞️ FUNAI — Terras Indígenas
+### UNAI — Terras Indígenas
 
 Informações oficiais sobre povos indígenas, terras indígenas, demarcação e proteção territorial.  
-https://www.gov.br/funai/pt-br
+- https://www.gov.br/funai/pt-br
 
 ---
 
-### 🗺️ FUNAI — Mapas e Dados Geoespaciais
+### FUNAI — Mapas e Dados Geoespaciais
 
 Mapas e bases georreferenciadas de terras indígenas (shapefiles, KML, situação territorial).  
-https://www.gov.br/funai/pt-br/atuacao/terras-indigenas/geoprocessamento-e-mapas
+- https://www.gov.br/funai/pt-br/atuacao/terras-indigenas/geoprocessamento-e-mapas
 
 ---
 
-### 🌾 INCRA — Reforma Agrária e Conflitos Fundiários
+### INCRA — Reforma Agrária e Conflitos Fundiários
 
 Dados sobre assentamentos, imóveis rurais, regularização fundiária e disputas por terra.  
-https://www.gov.br/incra/pt-br
+- https://www.gov.br/incra/pt-br
 
 ---
 
-### 🧾 INCRA — Dados Abertos Fundiários
+### INCRA — Dados Abertos Fundiários
 
 Bases estatísticas sobre assentamentos, imóveis rurais e políticas fundiárias.  
-https://www.gov.br/incra/pt-br/acesso-a-informacao/dados-abertos
+- https://www.gov.br/incra/pt-br/acesso-a-informacao/dados-abertos
 
 ---
 
-### 🌱 IBAMA — Fiscalização Ambiental
+### IBAMA — Fiscalização Ambiental
 
 Fiscalização ambiental, crimes ambientais, desmatamento, garimpo ilegal e sanções administrativas.  
-https://www.ibama.gov.br
+- https://www.ibama.gov.br
 
 ---
 
-### ⚖️ IBAMA — Autos de Infração e Embargos
+### IBAMA — Autos de Infração e Embargos
 
 Consulta pública de autos de infração ambiental, embargos, apreensões e penalidades.  
-https://www.gov.br/ibama/pt-br/servicos/consultas/autuacoes-e-embargos
+- https://www.gov.br/ibama/pt-br/servicos/consultas/autuacoes-e-embargos
 
 ---
 
-### 🛰️ INPE — Monitoramento Ambiental
+### INPE — Monitoramento Ambiental
 
 Estatísticas oficiais de desmatamento e degradação ambiental com base em imagens de satélite.  
-https://www.gov.br/inpe/pt-br
+- https://www.gov.br/inpe/pt-br
 
 ---
 
-### 🔥 INPE — Programa Queimadas
+### INPE — Programa Queimadas
 
 Dados e estatísticas de focos de incêndio em tempo quase real.  
-https://queimadas.dgi.inpe.br/queimadas/portal
+- https://queimadas.dgi.inpe.br/queimadas/portal
 
 ---
 
-### 🌳 ICMBio — Unidades de Conservação
+### ICMBio — Unidades de Conservação
 
 Informações sobre parques nacionais, reservas ambientais e áreas protegidas federais.  
-https://www.gov.br/icmbio/pt-br
+- https://www.gov.br/icmbio/pt-br
 
 ---
 
-### 📊 ICMBio — Dados Abertos Ambientais
+### ICMBio — Dados Abertos Ambientais
 
 Estatísticas e bases públicas sobre unidades de conservação federais.  
-https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos
+- https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos
 
 ---
 
-### 🌎 MMA — Ministério do Meio Ambiente
+### MMA — Ministério do Meio Ambiente
 
 Políticas ambientais, programas nacionais e dados institucionais do setor ambiental.  
 https://www.gov.br/mma/pt-br
 
 ---
 
-### 📈 MMA — Indicadores Ambientais
+### MA — Indicadores Ambientais
 
 Indicadores ambientais oficiais e dados estatísticos nacionais.  
-https://www.gov.br/mma/pt-br/assuntos/indicadores
+- https://www.gov.br/mma/pt-br/assuntos/indicadores
 
 ---
 
-### 🗂️ IBGE — Território e Meio Ambiente
+### IBGE — Território e Meio Ambiente
 
 Estatísticas territoriais, ambientais, uso do solo e dados geográficos oficiais.  
-https://www.ibge.gov.br
+- https://www.ibge.gov.br
 
 ---
 
-### 🗺️ IBGE — Geociências e Mapas
+### IBGE — Geociências e Mapas
 
 Mapas oficiais, limites territoriais, biomas e dados geoespaciais.  
-https://www.ibge.gov.br/geociencias
+- https://www.ibge.gov.br/geociencias
 
 ---
 
-### ⛏️ ANM — Agência Nacional de Mineração
+### ANM — Agência Nacional de Mineração
 
 Dados sobre mineração, processos minerários, áreas concedidas e fiscalização.  
-https://www.gov.br/anm/pt-br
+- https://www.gov.br/anm/pt-br
 
 ---
 
-### 📊 ANM — Dados Abertos de Mineração
+### ANM — Dados Abertos de Mineração
 
 Bases estatísticas e dados públicos sobre atividades minerárias no Brasil.  
-https://www.gov.br/anm/pt-br/acesso-a-informacao/dados-abertos
+- https://www.gov.br/anm/pt-br/acesso-a-informacao/dados-abertos
 
 ---
 
@@ -1655,9 +1650,13 @@ Sistema de monitoramento de eventos de seca e seus impactos na saúde.
 
 ### Monitoramento dos Gastos no Combate à COVID-19
 
+<details>
+<summary>Links de pesquisa</summary>
 - https://www.tesourotransparente.gov.br/visualizacao/painel-de-monitoramentos-dos-gastos-com-covid-19
 - https://www.gov.br/compras/pt-br/painel-covid
 - https://portaldatransparencia.gov.br/coronavirus
+
+</details>
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -2207,7 +2206,7 @@ Os conjuntos de dados (datasets) deste Portal Estado de Minas Gerais estão docu
 
 ### Dados Abertos do Estado do Maranhão
 
-https://dados.ma.gov.br/
+- https://dados.ma.gov.br/
 
 ### Dados Abertos da Prefeitura de Belo Horizonte
 
@@ -2306,7 +2305,7 @@ Base estruturada (2018–2025) com salários, benefícios e índices de transpar
 
 ### Consulta de Licenciamento Veicular
 
-- http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml _Estado do Maranhão_
+- http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml
 
 ### Consulta de Bicicletas / São Paulo
 
@@ -2521,6 +2520,9 @@ Localização dos ônibus, ao longo do trajeto, em quanto tempo e quais linhas d
 
 Rastreamento de informações sobre transporte na cidade de Curitiba. É possivel filtrar por linhas, rotas de ônibus, posição de pontos, veículos.
 
+<details>
+<summary>Links de pesquisa</summary>
+
 - Linhas, rotas de ônibus, posição de pontos e veículos
   - https://www.urbs.curitiba.pr.gov.br/mobile/itibus
   - https://www.urbs.curitiba.pr.gov.br/mobile/itibus6
@@ -2531,6 +2533,8 @@ Rastreamento de informações sobre transporte na cidade de Curitiba. É possive
 
 - Extrato do cartão transporte Avulso
   - https://www.urbs.curitiba.pr.gov.br/mobile/cartao
+
+</details>
 
 ### Viação Ouro e Prata S/A, UneSul e TTL
 
@@ -2895,16 +2899,6 @@ Câmeras de monitoramento de rodovias, segurança pública e clima por estado.
 
 ---
 
-## Outras Buscas 🔎 <a name="outras-buscas"></a>
-
-### Antecedentes Criminais
-
-- https://servicos.dpf.gov.br/antecedentes-criminais/certidao
-
-### Sinesp Cidadão (Site a APP)
-
-- Consultar informações sobre: Veículos, Mandados de prisão, Pessoas desaparecidas, Criminosos procurados
-- https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf
 ## Segurança Cibernética 🛡️ <a name="seguranca-cibernetica"></a>
 
 ### CERT.br - Centro de Estudos, Resposta e Tratamento de Incidentes
@@ -2925,6 +2919,18 @@ Notificações de incidentes, estatísticas de segurança e alertas de vulnerabi
 
 </details>
 
+## Outras Buscas 🔎 <a name="outras-buscas"></a>
+
+### Antecedentes Criminais
+
+- https://servicos.dpf.gov.br/antecedentes-criminais/certidao
+
+### Sinesp Cidadão (Site a APP)
+
+- Consultar informações sobre: Veículos, Mandados de prisão, Pessoas desaparecidas, Criminosos procurados
+- https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ### Consulta Informações Sobre Domínios
 Informações sobre proprietários de domínios brasileiros.
@@ -3160,11 +3166,18 @@ Consulta pública de boletins do Corpo de Bombeiros do Pará.
 
 Permite recuperar, sem notificar o usuário, vários elementos relacionados a um endereço de e-mail, Nome, GoogleID, se há Mapas criados ou Agendas Públicas do Google Calendar, Validar se o e-mail está sendo utilizado em contas em outros sites.
 
+<details>
+<summary>Links de pesquisa</summary>
+
 - https://www.predictasearch.com
 - https://tools.epieos.com/email.php
 - https://www.gov.br/pf/pt-br/assuntos/produtos-quimicos    
+</details>
 
 ### Busca de Bens a venda ou aluguel
+
+<details>
+<summary>Links de pesquisa</summary>
 
 - https://www.olx.com.br/
 - https://www.estantevirtual.com.br/
@@ -3181,7 +3194,12 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 - https://www.kavak.com/br
 - https://www.webmotors.com.br/
 
+</details>
+
 ### Conhecimento de empreendimentos por dentro
+
+<details>
+<summary>Links de pesquisa</summary>
 
 - https://www.vrbo.com/pt-br/
 - https://www.airbnb.com.br/
@@ -3189,11 +3207,7 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 - https://www.trivago.com.br/
 - https://www.tripadvisor.com.br/
 - https://www.booking.com/index.pt-br.html
-
-### Informações Sobre Domínios
-
-<details>
-<summary>Links para Pesquisa</summary>
+</details>
         
 ### Ferramentas OSINT Brasileiras
 
@@ -3215,9 +3229,13 @@ Lista de sites que devem ser evitados, pois tiveram reclamações de consumidore
 
 ### Consulta em cartórios
 
+<details>
+<summary>Links de pesquisa</summary>
 - https://www.pesquisaprotesto.com.br/
 - https://protestosp.com.br/consulta-de-protesto?hc=1
 - https://e-cartoriodobrasil.com/pedido/imoveis/pesquisa-qualificada-de-bens
+</details>
+
 
 ### Lista Telefônica
 
@@ -3231,9 +3249,13 @@ No link abaixo é possível consultar informações referentes a: Marcas, Patent
 
 ### Consulta de Licitações, Contratos e Compras Públicas
 
+<details>
+<summary>Links de pesquisa</summary>
 - https://alertalicitacao.com.br/
 - https://www.portaldecompraspublicas.com.br/18/Processos/
 - http://www.portaltransparencia.gov.br/
+
+</details>
 
 ### Consulta os Processos Licitatórios da SPTrans
 
@@ -3465,297 +3487,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
----
 
-## Categorias por Estados Brasileiros 🇧🇷 <a name="estados-br"></a> [EM CONSTRUÇÃO]
-
-- ### Acre (AC) <a name="acre"></a>
-
-    <details>
-        <summary>Consultas AC</summary>
-    
-    - Antecedente criminal - https://pc.ac.gov.br/certidao-de-antecedentes-criminais/
-    - ESAJ (Processos) - https://esaj.tjac.jus.br/esaj/portal.do?servico=190090
-    - Consulta estapagem - https://www.detran.ac.gov.br/consultar-autorizacao-de-estampagem/
-    - Consulta SNG - https://www.ac.getran.com.br/site/apps/veiculo/consulta/filtro-chassi-sng.jsp
-    - Consulta de pontuação CNH - https://www.detran.ac.gov.br/portal-de-servicos/consulta-pontuacao-de-cnh/
-    - Nota Fiscal - http://sefaznet.ac.gov.br/nfe/consulta.xhtml 
-    
-    </details>
-
-- ### Alagoas (AL) <a name="alagoas"></a>
-- ### Amapá (AP) <a name="amapa"></a>
-- ### Amazonas (AM) <a name="amazonas"></a>
-- ### Bahia (BA) <a name="bahia"></a>
-- ### Ceará (CE) <a name="ceara"></a>
-- ### Distrito Federal (DF) <a name="distrito-federal"></a>
-- ### Espírito Santo (ES) <a name="espirito-santo"></a>
-
-- ### Goiás (GO) <a name="goias"></a>
-
-    <details>
-        <summary>Consultas GO</summary>
-        
-    - Consulta veículos/infrações - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-multas-renainf
-    - Consulta processos - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-processo/1
-    - Consulta CNH_Social - https://www.detran.go.gov.br/psw/#/pages/conteudo/acompanhar-cnh-social
-    - Consulta Prontuário_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/prontuario-cnh
-    - Primeira_CNH - https://www.detran.go.gov.br/psw/#/pages/conteudo/primeira-cnh 
-    - Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
-    - Processos físicos 2º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
-    - Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4    
-    - Consulta Nota Fiscal - https://www.goiania.go.gov.br/sing_servicos/nota-fiscal-eletronica/
-    - Consulta DUAM-IPTU-ITU-ISSQN - https://www.goiania.go.gov.br/sing_servicos/emissao-duam-itu-iptu-issqn/
-    - Consulta matrículas - https://www.goiania.go.gov.br/sing_servicos/matriculas-web/
-    - Consulta processos - https://www.goiania.go.gov.br/sing_servicos/consulta-processos/
-            
-    </details>
-
-- ### Maranhão (MA) <a name="maranhao"></a>
-
-<details>
-        <summary>Serviços MA</summary>
-    
-- Serviços disponíveis TRE| Maranhão - https://www.tre-ma.jus.br/institucional/servicos-disponiveis
-    - Serviços disponíveis TRT| Maranhão - https://www.trt16.jus.br/servicos/para-o-cidadao-e-advogado 
-    - Serviços disponíveis MP| Maranhão - https://www.mpma.mp.br/servicos/
-    - Serviços disponíveis TJ| Maranhão - https://www.tjma.jus.br/portal
-    - Serviços disponíveis Detran| Maranhão - https://www.detran.ma.gov.br/inicio/paginas/Home.xhtml
-    - Serviços disponíveis Assembleia legislativa| Maranhão - https://www.al.ma.leg.br/sitealema/
-    - Sistema S| Maranhão - https://www.fiema.org.br/home
-    - OBA | Maranhão - https://www.oabma.org.br/
-    - FAM | Maranhão - https://famem.org.br/   
-    - Serviços disponíveis GOV| Maranhão - https://www.ma.gov.br/servicos/
-
-- ### Governo do Maranhão
-  - Contatos do GOV| Maranhão - https://www.ma.gov.br/contatos
-  - Portal da Transparência GOV| Maranhão https://www.transparencia.ma.gov.br/?_gl=1*1tcyjuy*_ga*NjA2MTcyNjc1LjE3MzkxMTU2NTQ.*_ga_43WSLQF7SQ*MTczOTExNTY1My4xLjEuMTczOTExNjE3My42MC4wLjA.
-  - Diário Oficial GOV| Maranhão - https://www.diariooficial.ma.gov.br/
-
-- ### Prefeitura de São Luis
-  - Serviços disponíveis Prefeitura | São Luis - https://saoluis.ma.gov.br/servicos
-  - Portal da Transparência Prefeitura | São Luis - https://transparencia.saoluis.ma.gov.br/
-  - Informações de Secretarias e Orgãos da prefeitura | São Luis - https://saoluis.ma.gov.br/secretarias
-  - Diário Eletrônico Prefeitura | São Luis - https://diariooficial.saoluis.ma.gov.br/
-
-- ### Prefeitura São José de Ribamar
-  - Serviços disponíveis Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/servicos
-  - Portal da Transparência Prefeitura | São José de Ribamar - https://transparencia.saojosederibamar.ma.gov.br/
-  - Informações de Secretarias e Orgãos da prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/secretarias/16510
-  - Diário Eletrônico Prefeitura | São José de Ribamar - https://www.saojosederibamar.ma.gov.br/detalhe-da-materia/info/diario-eletronico/148327
-
-- ### Cameras Ao vivo
-  - São Luis - https://www.climaaovivo.com.br/ma/sao-luis-hotel-abbeville
-  - Açailandia - https://www.climaaovivo.com.br/ma/acailandia/acailandia
-  - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-oeste
-  - Imperatriz - https://www.climaaovivo.com.br/ma/imperatriz/centro-empresarial-leste
-
-- ### Conselhos
-  - CRMMA - https://crmma.org.br/servicos-para-medicos/certidoes-declaracoes/certidao-negativa-nada-consta
-  - CRFMA - https://crfma.org.br/
-  - CREAMA - https://www.creama.org.br/
-  - CRPMA - https://crpma.org.br/
-  - CREFMA - https://cref21.org.br/
-  - CRAMA - https://cra-ma.org.br/
-  - COREMA - https://www.coremaranhao.org.br/
-  - CORENMA - https://corenma.gov.br/site2/
-  - CEEM - https://conselhodeeducacao.ma.gov.br/
-  - CRCMA - https://crcma.org.br/
-  - CRTMA - https://www.crt02.gov.br/maranhao/
-  - CRQMA - https://crq11.org.br/
-  - CRESSMA - https://www.cressma.org.br/
-  - CROMA - https://www.croma.org.br/
-  - CFCMA - https://cfc.org.br/conselhos/conselho-regional-de-contabilidade-do-maranhao/
-  - CRMVMA - https://www.crmvma.org.br/
-  - CRTRMA - https://crtr17.gov.br/
-  - CORECON - https://corecon-ma.org.br/
-  - CRCMA - https://crcma.org.br/crcma/
-  - CRBMMA - https://crbm2.gov.br/
-  - CRNMA - https://crbm2.gov.br/
-
-- ### Serviços
-  - CAEMA - https://www.caema.ma.gov.br/
-  - EQUATORIAL - https://ma.equatorialenergia.com.br/
-  - BRK - https://minhabrk.com.br/home
-
-</details>
-
-- ### Mato Grosso (MT) <a name="mato-grosso"></a>
-- ### Mato Grosso do Sul (MS) <a name="mato-grosso-sul"></a>
-- ### Minas Gerais (MG) <a name="minas-gerais"></a>
-    <details>
-        <summary>Consultas MG</summary>
-     
-    - Consulta de Certidão Negativa de Débito | Belo Horizonte - http://cndonline.siatu.pbh.gov.br/CNDOnline/?null
-    
-    </details>
-- ### Pará (PA) <a name="para"></a>
-
-    <details>
-            <summary>Consultas PA</summary>
-        
-    - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
-    - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
-    - Consulta de Antecedente Criminal - https://antecedentes.pc.pa.gov.br/consulta
-    - Consulta de Processo Administrativo Eletrônico - https://pae-consulta-publica.sistemas.pa.gov.br/
-    - Consulta Empresa - https://integrador.jucepa.pa.gov.br/projetos/usuario/consulta_empresa_site
-    - Boletim Geral de Bombeiros - https://siga.bombeiros.pa.gov.br/boletins.php
-        
-    </details>
-
-- ### Paraíba (PB) <a name="paraiba"></a>
-- ### Paraná (PR) <a name="parana"></a>
-- ### Pernambuco (PE) <a name="pernambuco"></a>
-- ### Piauí (PI) <a name="piaui"></a>
-    <details>
-        <summary>Consultas PI</summary>
-      
-    
-    - Impedidos de contratar com o poder público - https://sistemas.tce.pi.gov.br/ImpedimentoAS/impedimentos/listapessoas.xhtml <br>
-    - Sistema Intranet Corpo de Bombeiros Militar do Piauí -  http://www.bombeiros.pi.gov.br/distec/index2.php 
-    - Licenciamento Detran-PI - http://taxas.detran.pi.gov.br/licenciamento/index.jsf
-    - Sefaz Piauí - https://webas.sefaz.pi.gov.br/
-    - Inadimplentes - https://webas.sefaz.pi.gov.br/caginweb/
-    - Certidões - https://webas.sefaz.pi.gov.br/certidaonft-web/index.xhtml
-    - MEI - https://webas.sefaz.pi.gov.br/MEI-WEB/
-    </details>
-- ### Rio de Janeiro (RJ) <a name="rio-janeiro"></a>
-
-    <details>
-        <summary>Consultas RJ</summary>
-  - Justiça Militar - https://www.stm.jus.br/servicos-stm/certidao-negativa/emitir-certidao-negativa
-  - Justiça Federal - https://procweb.jfrj.jus.br/certidao/emissao_cert.asp
-  - Crimes Eleitorais - https://www.tse.jus.br/eleitor/certidoes/certidao-de-crimes-eleitorais
-  - Antecedentes Criminais - http://atestadodic.detran.rj.gov.br/
-  - Certidão de interio TEOR (CIT) - http://certidaoiifppcerj.detran.rj.gov.br/
-  - B.O - https://dedic.pcivil.rj.gov.br/Consulta.aspx
-
-    </details>
-
-    <details>
-        <summary>Consulta de Dados via RENAVAM</summary>
-  - CONSULTA DÉBITO DE VEÍCULO - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJLoader.do
-  - Documento Único do DETRAN de Arrecadação - RH - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJDudaSelecionarProduto.do?cdProdutoInicial=INI
-  - Guia de Recolhimento de Multas - RH - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJGrmConsultar.do
-  - Guia de Regularização de Taxas - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/DebitoVeiculoRJGRTLoaderAction.do
-  - Informações de Pagamentos Efetuados - RJ - https://www.ib7.bradesco.com.br/ibpfdetranrj/debitoVeiculoRJConsultaLoader.do
-
-    </details>
-
-- ### Rio Grande do Norte (RN) <a name="rio-grande-norte"></a>
-
-- ### Rio Grande do Sul (RS) <a name="rio-grande-sul"></a>
-
-    <details>
-        <summary>Monitoramento de Rodovias:</summary>
-      
-    - Localizar pessoas desaparecidas nas enchentes do RS.https://www.achados-e-perdidos-rs.com.br/
-    Todos os links e informações foram obtidos originalmente do site do [DAER](https://www.daer.rs.gov.br/) no Rio Grande do Sul.
-    - Osório: RS-389 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6716
-    - Osório: ERS-030 KM 89,9 - https://camerasdaer.perkons.com:60000/DAER-6714
-    - Osório: ERS-030, 1916 KM 85,3 - https://camerasdaer.perkons.com:60000/DAER-6713
-    - Restinga Seca: ERS-149 KM 100 - https://daer.kopp.com.br/ftp/imagem.php?id=Restinga_Seca
-    - Ijuí: ERS-155 KM 2,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Ijui
-    - Santa Maria: ERS-509 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Santa_Maria
-    - Venâncio Aires: RSC-453 KM 4,1 - https://daer.kopp.com.br/ftp/imagem.php?id=Venancio_Aires
-    - Montenegro: ERS-124 KM 29,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro01
-    - Montenegro: RSC-287 KM 3,4 - https://daer.kopp.com.br/ftp/imagem.php?id=Montenegro02
-    - Montenegro: RSC-287 KM 8 - https://daer2.fiscaltech.com.br:8843/panoramicas/6208.jpg
-    - Portão: ERS-240 KM 9,9 - https://daer.kopp.com.br/ftp/imagem.php?id=Portao
-    - São Jerônimo: ERS-401 KM 10,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Sao_Jeronimo
-    - Farroupilha: RSC-453 KM 121,3 - https://daer.kopp.com.br/ftp/imagem.php?id=Farroupilha
-    - Farroupilha: RSC-453 KM 109 - https://daer2.fiscaltech.com.br:8843/panoramicas/6212.jpg
-    - Farroupilha: ERS-122 KM 47 - https://daer2.fiscaltech.com.br:8843/panoramicas/6213.jpg
-    - Caxias do Sul: RSC-453 KM 143 - https://daer.kopp.com.br/ftp/imagem.php?id=Caxias_do_Sul
-    - Caxias do Sul: ERS-122 KM 66,56 - https://camerasdaer.perkons.com:60000/DAER-6743
-    - Caxias do Sul: RSC-453 KM 168,36 - https://camerasdaer.perkons.com:60000/DAER-6744
-    - Glorinha: ERS-030 KM 24,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Glorinha
-    - Igrejinha: ERS-115 KM 115 - https://daer.kopp.com.br/ftp/imagem.php?id=Igrejinha
-    - Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado01
-    - Gramado: ERS-235 KM 36,6 - https://daer.kopp.com.br/ftp/imagem.php?id=Gramado02
-    - Itati: ERS-486 KM 29,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Itati
-    - Candelária: RSC-287 KM 135 - https://daer2.fiscaltech.com.br:8843/panoramicas/6210.jpg
-    - Boa Vista do Cadeado: ERS-342 KM 137 - https://daer2.fiscaltech.com.br:8843/panoramicas/6214.jpg
-    - Vera Cruz: RSC-287 KM 113 - https://daer2.fiscaltech.com.br:8843/panoramicas/6215.jpg
-    - Passo Fundo: ERS-324 KM 195 - https://daer2.fiscaltech.com.br:8843/panoramicas/6216.jpg
-    - Passo Fundo: ERS-324 KM 182,4 - http://186.227.239.150:2150/ftp/imagem.php?id=Passo_Fundo
-    - Novos Cabrais: RSC-287 KM 166 - https://daer2.fiscaltech.com.br:8843/panoramicas/6211.jpg
-    - Capão da Canoa: ERS-389 KM 36,9 - https://camerasdaer.perkons.com:60000/DAER-6718
-    - Torres: ERS-389 KM 86,1 - https://camerasdaer.perkons.com:60000/live/media/PK5916/DeviceIpint.6/SourceEndpoint.video:0:0
-    - Parobé: ERS-239 KM 42,3 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.7/SourceEndpoint.video:0:0
-    - Sapiranga: ERS-239 KM 32 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.8/SourceEndpoint.video:0:0
-    - São Leopoldo: ERS-240 KM 2 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.9/SourceEndpoint.video:0:0
-    - Capela de Santana: ERS-240 KM 22,1 - https://191.253.194.194:60000/live/media/PK5916/DeviceIpint.10/SourceEndpoint.video:0:0
-    - São Sebastião do Caí: ERS-122 KM 6,5 - https://camerasdaer.perkons.com:60000/DAER-6734
-    - São Sebastião do Caí: ERS-122 KM 15,9 - https://camerasdaer.perkons.com:60000/DAER-6737
-    - Bom Princípio: ERS-122 KM 29,45 - https://camerasdaer.perkons.com:60000/DAER-6739
-    - Teutônia: RSC-453 KM 55,8 - https://camerasdaer.perkons.com:60000/DAER-6748
-    - Serafina Côrrea: ERS-129 KM 147,2 - https://daer.kopp.com.br/ftp/imagem.php?id=Serafina_Correa
-    - Nova Bassano: ERS- 324 KM 282,7 - https://daer.kopp.com.br/ftp/imagem.php?id=Nova_Bassano
-    - Sananduva: ERS-126 KM 110 - https://daer.kopp.com.br/ftp/imagem.php?id=Sananduva
-    - Estação: ERS-135 KM 48,4 - https://daer2.fiscaltech.com.br:8843/panoramicas/6204.jpg
-    - Viamão: ERS-040 KM 14 - https://camerasdaer.perkons.com:60000/DAER-6712
-    - Emitir certidão de antecedentes criminais - https://www.pc.rs.gov.br/emitir-certidao-de-antecedentes-policiais
-
-    </details>
-
-- ### Rondônia (RO) <a name="rondonia"></a>
-
-    <details>
-        <summary>Consultas Veiculares e Afins RO</summary>
-     
-    - Consultar Veículos por placa + renavam e/ou CPF/CNPJ -https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Software/ViewConsultaVeiculos.aspx
-    - Descobrir Número da CNH com CPF e Data de Nascimento - https://consulta.detran.ro.gov.br/CentralDeConsultasInternet/Internet/Habilitacao/ConsultaProcesso.asp
-    - Consulta Pública do Veículo *OBS: Caso tenha renavam + cpf é possível consultar débitos - https://centralservicos.detran.ro.gov.br/consulta/veiculo
-    - Consultar Resultado da Prova do Detran - https://consulta.detran.ro.gov.br/ResultadoProva
-      
-    </details>
-        
-    <details>
-            <summary>Imóveis Porto Velho</summary>
-    - Certidão Negativa de Débitos de Tributos Fiscais - https://semfazonline.portovelho.ro.gov.br/portal/certidao_negativa.action<br>
-    - Consulta de Débitos Imobiliários - IPTU - https://semfazonline.portovelho.ro.gov.br/portal/iptu_consulta_debito_input.action <br>
-    - Consulta Empresas Cadastradas - https://semfazonline.portovelho.ro.gov.br/portal/consulta_empresa_input.action
-    </details>
-
-- ### Roraima (RR) <a name="roraima"></a>
-- ### Santa Catarina (SC) <a name="santa-catarina"></a>
-
-    <details>
-        <summary>Monitoramento de Segurança Pública:</summary>
-
-  Todos os links e informações foram obtidos originalmente do site da [DTIC](https://www.ssp.sc.gov.br/dtic/) do estado de Santa Catarina.
-  - Ponte Hercílio Luz 01: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_159&width=1920&height=1080
-  - Ponte Hercílio Luz 02: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_160&width=1920&height=1080
-  - Ponte Hercílio Luz 03: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
-  - Ponte Hercílio Luz 04: Santa Catarina - https://bemtevi.segurancapublica.sc.gov.br:10346/Interface/Cameras/GetJPEGStream?Camera=FNS_CEN_162&width=1920&height=1080
-  - Lauro Linhares/Álvaro Ramos: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_051&width=1920&height=1080
-  - Lauro Linhares/Álvaro Ramos 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_052&width=1920&height=1080
-  - Lauro Linhares/Travessa São Lourenço 01: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_061&width=1920&height=1080
-  - Lauro Linhares/Travessa São Lourenço 02: Trindade - http://bemtevi.segurancapublica.sc.gov.br:10351/Interface/Cameras/GetJPEGStream?Camera=FNS_STM_062&width=1920&height=1080
-  - Rua 13 de Maio/Sebastião Lara: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_012&width=1920&height=1080
-  - Rua Júlio T. Martins/Homero de Miranda Gome: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_020&width=1920&height=1080
-  - Marginal BR101/Rua Acácio Reitz: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_CEN_032&width=1920&height=1080
-  - Major Livramento/Rua João José Rodrigues: Biguaçú - https://bemtevi.segurancapublica.sc.gov.br:10311/Interface/Cameras/GetJPEGStream?Camera=BGC_VDV_040&width=1920&height=1080
-  - Antecedentes Criminais - https://sistemas.pc.sc.gov.br/formulario-antecedentes-cidadao/#/
-
-    </details>
-
-- ### São Paulo (SP) <a name="sao-paulo"></a>
-
-    <details>
-        <summary>Consultas SP</summary>
-  - Consulta de Processos WEB | Limeira - https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/
-  - Consulta Situação RG - https://www.policiacivil.sp.gov.br/portal/faces/pages_home/servicos/consultaSituacaoRG
-  - Consulta de concluentes em unidades escolares do Estado - https://concluintes.educacao.sp.gov.br/publica/consultapublica/Search
-  - Consulta de nome e salários de servidores do Estado - https://www.transparencia.sp.gov.br/home/servidor
-
-    </details>
-
-- ### Sergipe (SE) <a name="sergipe"></a>
-- ### Tocantins (TO) <a name="tocantins"></a>
-
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
 
