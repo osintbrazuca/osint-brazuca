@@ -1,6 +1,6 @@
 # 🔄 Fluxogramas de Investigação OSINT
 
-> **Navegação**: [🏠 README Principal](README.md) | [📖 Exemplos Práticos](EXEMPLOS_PRATICOS.md) | [🔀 Fluxogramas](FLUXOGRAMA.md)
+> **Navegação**: [🏠 README Principal](README.md) | [📖 Exemplos Práticos](EXEMPLOS_PRATICOS.md) | [🔀 Fluxogramas](FLUXOGRAMA.md) | [📊 Guia Rápido](GUIA_RAPIDO.md) | [🤝 Contribuir](CONTRIBUICAO.md)
 
 ## Índice
 - [Metodologia OSINT Geral](#metodologia-geral)

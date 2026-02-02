@@ -14,6 +14,8 @@
 <img src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca.svg?style=social" title="Stars" /> 
 </p>
 
+> **Navegação**: [🏠 README Principal](README.md) | [📖 Exemplos Práticos](EXEMPLOS_PRATICOS.md) | [🔀 Fluxogramas](FLUXOGRAMA.md) | [📊 Guia Rápido](GUIA_RAPIDO.md) | [🤝 Contribuir](CONTRIBUICAO.md)
+
 # Introdução
 
 O Projeto **OSINT Brazuca** é um repositório criado com intuito de reunir informações, fontes(websites/portais) e tricks de OSINT dentro do contexto Brasil 🇧🇷.
@@ -43,6 +45,33 @@ Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratament
 
 **⚖️ Base Legal**: Lei nº 13.709/2018 (LGPD) | Lei nº 12.965/2014 (Marco Civil) | Lei nº 12.527/2011 (LAI)
 
+### ⚠️ Limitações e Avisos Importantes
+
+**🕒 Atualização de Dados:**
+- Dados públicos podem estar **desatualizados**
+- Sempre verificar a **data da última atualização** nas fontes
+- **Cruzar informações** de múltiplas fontes para validação
+- Sistemas governamentais podem estar em **manutenção**
+
+**🔒 Acesso e Requisitos:**
+- Alguns portais exigem **cadastro prévio via gov.br**
+- Serviços pode existir limitação de uso
+- **CAPTCHA** pode limitar consultas automatizadas
+
+**🤖 Rate Limiting e Automação:**
+- APIs públicas possuem **limites de requisições**
+- Respeite os **limites técnicos** estabelecidos
+- Use **cache** quando possível para reduzir requisições
+- Consultas em massa podem ser **bloqueadas**
+
+**📱 Responsabilidade e Ética:**
+- Informações são **públicas** mas protegidas pela LGPD
+- Uso **indevido** pode resultar em **sanções legais** e criminais
+- **Não compartilhe** dados sensíveis publicamente
+- Documente sempre a **finalidade legítima** da consulta
+- Mantenha **registro** de todas as pesquisas realizadas
+- Resumindo: Não seja cuzão
+
 ---
 
 ## 📚 Documentação Complementar
@@ -52,7 +81,7 @@ Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratament
 - 📊 **[Guia Rápido de Consultas](GUIA_RAPIDO.md)** - Tabelas comparativas, top 10 consultas e legendas
 - 🔍 **[Exemplos Práticos de Investigação](EXEMPLOS_PRATICOS.md)** - 6 casos de uso detalhados com passo a passo
 - 🔄 **[Fluxogramas de Investigação](FLUXOGRAMA.md)** - Diagramas visuais de processos investigativos
-
+- 🔄 **[Como Contribuir](CONTRIBUICAO.md)** - Diretrizes para diferentes tipos de contribuições
 ---
 
 # Sumário
@@ -284,6 +313,52 @@ O portal e-S\*\* é uma solução que visa facilitar a troca de informações e 
 
 </details>
 
+### PJe - Processo Judicial Eletrônico por Tribunal
+
+Sistema de consulta processual unificado utilizado por diversos tribunais brasileiros.
+
+<details>
+<summary>Consultas PJe - Justiça Federal</summary>
+
+**Tribunais Regionais Federais:**
+- TRF1 (1ª Região - DF, GO, TO, MT, BA, PI, MA, PA, AM, AC, RR, RO, AP): https://pje1g.trf1.jus.br/consultapublica/ConsultaPublica/listView.seam
+- TRF2 (2ª Região - RJ, ES): https://pje.trf2.jus.br/pje/ConsultaPublica/listView.seam
+- TRF3 (3ª Região - SP, MS): https://pje1g.trf3.jus.br/consultapublica/ConsultaPublica/listView.seam
+- TRF4 (4ª Região - RS, SC, PR): https://pje2g.trf4.jus.br/pje/ConsultaPublica/listView.seam
+- TRF5 (5ª Região - CE, RN, PB, PE, AL, SE): https://pje.trf5.jus.br/pje/ConsultaPublica/listView.seam
+- TRF6 (6ª Região - MG): https://pje.trf6.jus.br/pje/ConsultaPublica/listView.seam
+
+</details>
+
+<details>
+<summary>Consultas PJe - Justiça do Trabalho</summary>
+
+**Tribunais Regionais do Trabalho (principais):**
+- TST (Tribunal Superior do Trabalho): https://pje.tst.jus.br/consultaprocessual/
+- TRT1 (Rio de Janeiro): https://pje.trt1.jus.br/consultaprocessual/
+- TRT2 (São Paulo): https://pje.trt2.jus.br/consultaprocessual/
+- TRT3 (Minas Gerais): https://pje.trt3.jus.br/consultaprocessual/
+- TRT4 (Rio Grande do Sul): https://pje.trt4.jus.br/consultaprocessual/
+- TRT15 (Campinas/SP): https://pje.trt15.jus.br/consultaprocessual/
+
+</details>
+
+<details>
+<summary>Consultas PJe - Justiça Eleitoral</summary>
+
+**Tribunal Superior Eleitoral:**
+- TSE: https://pje.tse.jus.br/pje/ConsultaPublica/listView.seam
+
+</details>
+
+### Portal de Jurisprudência Unificada
+Busca unificada de jurisprudência e acórdãos dos tribunais superiores (STF, STJ, TST, TSE, STM).
+- https://jurisprudencia.stf.jus.br/
+
+### Consulta Processual Unificada - CNJ
+Sistema em desenvolvimento para consulta unificada de processos em todos os tribunais do Brasil.
+- https://www.cnj.jus.br/consulta-processual-publica/
+
 ### Banco Nacional de Mandados de Prisão
 
 O Sistema BNMP – Banco Nacional de Mandados de Prisão tem a finalidade de facilitar o conhecimento por qualquer pessoa e o cumprimento de diligências por parte das autoridades policiais, assim como auxiliar os juízes no exercício de sua jurisdição. Este será alimentado através de um WebService e tem a finalidade de disponibilizar a consulta e a recepção dos mandados de prisão.
@@ -417,7 +492,6 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 - https://cnpj.biz/ 
 - https://cadastroempresa.com.br/ 
 - https://casadosdados.com.br/ 
-- https://cnpjs.rocks/ 
 - https://www.informecadastral.com.br/ 
 - https://www.situacaocadastral.info/ 
 - http://www8.receita.fazenda.gov.br/simplesnacional/aplicacoes.aspx?id=21 
@@ -621,6 +695,26 @@ Para consulta é necessário apenas o Nome da empresa, CNPJ, Razão social ou NI
 
 </details>
 
+### Simples Nacional - Consulta de Optantes
+Verificação se empresa é optante do regime Simples Nacional, incluindo histórico de opção.
+- https://www8.receita.fazenda.gov.br/SimplesNacional/
+
+### REDESIM - Rede Nacional para Simplificação
+Plataforma para consulta de viabilidade e registro de empresas em todo Brasil.
+- https://www.redesim.gov.br/
+
+### Cadastro de Beneficiários Efetivos (CadBE)
+Consulta pública de beneficiários finais de pessoas jurídicas (transparência corporativa).
+- https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/cadastro-de-beneficiarios-efetivos-cadbe
+
+### CNPJ.rocks - Consulta Rápida
+Interface moderna e rápida para consulta de dados de CNPJ.
+- https://cnpjs.rocks/
+
+### Nire.im - Busca de Empresas
+Busca simplificada de informações empresariais por CNPJ ou razão social.
+- https://nire.im/
+
 ### Consulta Etrevistador do IBGE
 
 Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário: número matrícula, CPF ou RG.
@@ -661,10 +755,10 @@ Ministério da Justiça e Segurança Pública (MJSP)
  - https://www.ssp.ma.gov.br/
 
 - Painel Estatístico SSP-SP
- -  - https://www.ssp.sp.gov.br/estatistica/painel-estatistico
+  - https://www.ssp.sp.gov.br/estatistica/painel-estatistico
 
-- Dados mensais por tipo de crime
-https://www.ssp.sp.gov.br/estatistica
+- Dados mensais por tipo de crime (SSP-SP)
+  - https://www.ssp.sp.gov.br/estatistica
 
 - ISP Dados – Painel interativo
  - https://www.ispdados.rj.gov.br/
@@ -710,6 +804,23 @@ https://www.ssp.sp.gov.br/estatistica
 
 </details>
 
+### Fórum Brasileiro de Segurança Pública (FBSP)
+Anuário Brasileiro de Segurança Pública com dados consolidados sobre violência, criminalidade e sistema de justiça criminal.
+- https://forumseguranca.org.br/
+- https://forumseguranca.org.br/anuario-brasileiro-seguranca-publica/
+
+### Monitor da Violência - G1/NEV-USP/FBSP
+Painel colaborativo com dados consolidados de homicídios no Brasil.
+- https://g1.globo.com/monitor-da-violencia/
+
+### Instituto Sou da Paz
+Dados, análises e pesquisas sobre violência urbana e políticas públicas de segurança.
+- https://www.soudapaz.org/
+
+### Onde Fui Roubado
+Mapa colaborativo de ocorrências policiais reportadas por usuários em diversas cidades brasileiras.
+- https://www.ondefuiroubado.com.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
@@ -739,6 +850,26 @@ Consulta de votações realizadas no Senado Federal.
 ### TSE - Portal de Dados Abertos
 Dados abertos sobre eleições, votação, eleitorado, partidos, candidatos, prestação de contas, pesquisas eleitorais e urnas eletrônicas.
 - https://dadosabertos.tse.jus.br/
+
+### Repositório de Dados Eleitorais - TSE
+Base completa de dados eleitorais desde 1945, incluindo resultados, candidaturas e perfil do eleitorado.
+- https://dadosabertos.tse.jus.br/dataset/
+
+### DivulgaCand - API do TSE
+Acesso programático aos dados de candidaturas e prestação de contas eleitorais.
+- https://divulgacandcontas.tse.jus.br/divulga/rest/v1/docs/
+
+### Meu TSE
+Portal com dados personalizados do eleitor, incluindo local de votação e histórico eleitoral.
+- https://www.tse.jus.br/eleitor/titulo-e-local-de-votacao/consulta-por-nome
+
+### Certidão de Quitação Eleitoral
+Emissão de certidão que comprova a regularidade da situação eleitoral do cidadão.
+- https://www.tse.jus.br/eleitor/certidoes/certidao-de-quitacao-eleitoral
+
+### Base dos Dados - Eleições
+Dados eleitorais tratados, padronizados e prontos para análise estatística.
+- https://basedosdados.org/dataset/br-tse-eleicoes
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
@@ -861,6 +992,30 @@ Consulta pública de sanções aplicadas a pessoas físicas e jurídicas.
 ### Portal da Transparência - API de Dados
 Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.
 - https://portaldatransparencia.gov.br/api-de-dados
+
+### Dados.gov.br - Portal Brasileiro de Dados Abertos
+Catálogo central de dados abertos do governo federal com mais de 10 mil conjuntos de dados.
+- https://dados.gov.br/
+
+### Painel de Compras Governamentais
+Centralização de informações sobre licitações, contratos e compras do governo federal.
+- https://paineldecompras.economia.gov.br/
+
+### ComprasNet - Portal de Compras do Governo Federal
+Sistema oficial de compras e licitações públicas do governo federal.
+- https://www.gov.br/compras/pt-br
+
+### PNCP - Portal Nacional de Contratações Públicas
+Plataforma unificada de licitações conforme nova Lei de Licitações (Lei 14.133/2021).
+- https://www.gov.br/pncp/
+
+### TCU - Tribunal de Contas da União
+Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.
+- https://portal.tcu.gov.br/
+
+### TCU - Consulta de Acórdãos
+Busca de decisões do TCU sobre prestação de contas e irregularidades.
+- https://pesquisa.apps.tcu.gov.br/
 
 **📖 Documentação da API:**
 <details>
@@ -1353,13 +1508,35 @@ Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) é uma en
 
 Sistema do Ministerio da Educacao (MEC) responsavel pela tramitacao dos processos de ato regulatorio das instituicoes de educacao superior do Brasil. É possível buscar cursos e outras informações das instituições direto no MEC.
 
-- https://emec.mec.gov.br/emec/nova#avancada
+- https://emec.mec.gov.br/
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+### Biblioteca Digital de Teses e Dissertações (BDTD)
+Repositório nacional que integra teses e dissertações defendidas em todo o Brasil.
+- https://bdtd.ibict.br/
 
-### INEP - Censo da Educação Superior
-Dados abertos sobre educação superior no Brasil.
+### SciELO Brasil - Scientific Electronic Library Online
+Biblioteca científica eletrônica com periódicos brasileiros de acesso aberto.
+- https://www.scielo.br/
+
+### Portal CAPES de Periódicos
+Acesso a publicações científicas nacionais e internacionais (requer acesso institucional).
+- https://www.periodicos.capes.gov.br/
+
+### Observatório do PNE - Plano Nacional de Educação
+Acompanhamento e monitoramento das metas do Plano Nacional de Educação.
+- https://www.observatoriodopne.org.br/
+
+### Censo da Educação Superior - INEP
+Dados estatísticos completos sobre educação superior no Brasil.
+- https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior
+
+### INEP Data - Dados Abertos
+Dados abertos sobre educação, incluindo censo escolar, ENEM, ENADE e outros indicadores educacionais.
 - https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/inep-data
+
+### Microdados INEP
+Microdados detalhados de pesquisas, exames e avaliações educacionais.
+- https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados
 
 ### MEC - Consulta de Diplomas Digitais
 Validação de diplomas digitais emitidos por instituições de ensino.
@@ -2105,12 +2282,6 @@ O IBAMA utilizado o portal abaixo para disponibilizar dados e informações púb
 
 - https://dadosabertos.ibama.gov.br/en/dataset/
 
-### Microdados Inep - Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira
-
-Os microdados do Inep reúnem um conjunto de informações detalhadas relacionadas às pesquisas, aos exames e avaliações do Instituto. Os formatos de apresentação do conteúdo dos arquivos estão sendo reestruturados para suprimir a possibilidade de identificação de pessoas.
-
-- https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados
-
 ### Sistema Nacional de Dados Migratórios
 Sistema de dados e estatísticas sobre migração no Brasil, gerido pelo Ministério da Justiça e Segurança Pública.
 - https://datamigra.mj.gov.br
@@ -2137,12 +2308,6 @@ A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível 
 Acesso a conteúdos das pesquisas estruturais, censos, entre outras, na área de estatísticas.
 
 - https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html
-
-### Dados Abertos TSE
-
-Dados gerados ou custodiados pelo TSE
-
-- https://dadosabertos.tse.jus.br/
 
 ### Dados Prefeitura de Mogi das Cruzes
 
@@ -2949,6 +3114,143 @@ Informações sobre proprietários de domínios brasileiros.
 
 ---
 
+## APIs Públicas Brasileiras 🔌 <a name="apis-publicas"></a>
+
+### BrasilAPI - APIs de Utilidades
+Conjunto de APIs públicas e gratuitas com informações sobre CEP, CNPJ, bancos, feriados, ISBN, e outros dados brasileiros.
+- https://brasilapi.com.br/
+- Documentação: https://brasilapi.com.br/docs
+
+**Recursos disponíveis:**
+- Consulta de CEP
+- Informações de bancos
+- Códigos de cidades (IBGE)
+- Feriados nacionais
+- Tabela FIPE
+- ISBN
+- Taxas de câmbio
+
+### ReceitaWS - API CNPJ
+API gratuita para consulta de informações cadastrais de empresas brasileiras.
+
+<details>
+<summary>Informações da API</summary>
+
+- **URL Base:** https://receitaws.com.br/v1/cnpj/
+- **Autenticação:** Não requer
+- **Rate Limit:** 3 requisições por minuto
+- **Formato:** JSON
+
+**Exemplo de uso:**
+```bash
+curl https://receitaws.com.br/v1/cnpj/00000000000191
+```
+
+**Retorna:**
+- Razão social
+- Nome fantasia
+- CNAE
+- Endereço completo
+- Situação cadastral
+- Lista de sócios
+- Capital social
+
+</details>
+
+### ViaCEP - API de Consulta de CEP
+API gratuita para consulta de endereços por CEP.
+
+<details>
+<summary>Informações da API</summary>
+
+- **URL Base:** https://viacep.com.br/ws/
+- **Autenticação:** Não requer
+- **Formatos:** JSON, XML, JSONP
+- **Limite:** Sem limite oficial
+
+**Exemplo de uso:**
+```bash
+curl https://viacep.com.br/ws/01310100/json/
+```
+
+**Recursos:**
+- Consulta por CEP
+- Busca por endereço (UF, cidade, logradouro)
+
+</details>
+
+### Registro.br - API RDAP
+Protocolo RDAP para consulta de informações sobre domínios .br.
+
+<details>
+<summary>Informações da API</summary>
+
+- **URL Base:** https://rdap.registro.br/
+- **Documentação:** https://registro.br/tecnologia/ferramentas/rdap/
+- **Formato:** JSON
+
+**Exemplo de uso:**
+```bash
+curl https://rdap.registro.br/domain/registro.br
+```
+
+**Retorna:**
+- Titular do domínio
+- Data de criação
+- Data de expiração
+- Nameservers
+- Status do domínio
+
+</details>
+
+### IBGE - API de Serviços
+APIs do IBGE para consulta de informações geográficas, estatísticas e de localidades.
+
+<details>
+<summary>Informações da API</summary>
+
+- **Documentação:** https://servicodados.ibge.gov.br/api/docs
+- **Autenticação:** Não requer
+- **Formato:** JSON, XML
+
+**Recursos principais:**
+- Localidades (estados, municípios, distritos)
+- Malhas geográficas
+- Agregados do SIDRA
+- Notícias e releases
+
+**Exemplo - Listar estados:**
+```bash
+curl https://servicodados.ibge.gov.br/api/v1/localidades/estados
+```
+
+</details>
+
+### Painel de Compras - API
+Dados sobre licitações e compras governamentais do governo federal.
+- https://paineldecompras.economia.gov.br/
+
+### Querido Diário - API
+API para busca em diários oficiais municipais.
+
+<details>
+<summary>Informações da API</summary>
+
+- **Documentação:** https://queridodiario.ok.org.br/api/docs
+- **URL Base:** https://queridodiario.ok.org.br/api/
+- **Formato:** JSON
+
+**Exemplo de uso:**
+```bash
+curl 'https://queridodiario.ok.org.br/api/gazettes?territory_id=3550308&since=2024-01-01'
+```
+
+</details>
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
 ## Blockchain e Criptomoedas 💰 <a name="blockchain-criptomoedas"></a>
 
 ### CVM - Consulta de Processos Envolvendo Criptomoedas
@@ -2977,11 +3279,6 @@ Registro e consulta de desastres e emergências no Brasil.
 Monitoramento de risco de desastres naturais em tempo real.
 - https://www.cemaden.gov.br/
 - https://www.cemaden.gov.br/mapainterativo/ (Mapa interativo)
-
-### INPE - Queimadas e Incêndios Florestais
-Sistema de monitoramento de focos de queimadas no Brasil.
-- https://queimadas.dgi.inpe.br/queimadas/portal
-- https://queimadas.dgi.inpe.br/queimadas/portal-static/situacao-atual/
 
 ### ANA - Monitoramento de Secas e Inundações
 Sistema de acompanhamento de eventos hidrológicos críticos.
@@ -3171,7 +3468,7 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 
 - https://www.predictasearch.com
 - https://tools.epieos.com/email.php
-- https://www.gov.br/pf/pt-br/assuntos/produtos-quimicos    
+
 </details>
 
 ### Busca de Bens a venda ou aluguel
@@ -3209,18 +3506,6 @@ Permite recuperar, sem notificar o usuário, vários elementos relacionados a um
 - https://www.booking.com/index.pt-br.html
 </details>
         
-### Ferramentas OSINT Brasileiras
-
-#### Plataforma Caipora Pro
-Repositório de ferramentas para Inteligência de Fontes Abertas (OSINT) e Investigação Digital com enfoque no Brasil.
-- https://caipora.pro/
-
-#### OSINTKit-Brasil
-Curadoria nacional de ferramentas de OSINT com mais de 1600 links úteis categorizados em formato de bookmarks HTML.
-- https://github.com/felipeluan20/OSINTKit-Brasil
-
-
-
 ### Sites Notificados pelo Procon-SP
 
 Lista de sites que devem ser evitados, pois tiveram reclamações de consumidores registrada no Procon-SP, foram notificados, não responderam ou não foram encontrados.
@@ -3311,12 +3596,6 @@ Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A.
 ### Acesso à Informação - SPTrans
 Portal de acesso à informação da São Paulo Transporte S/A com dados sobre contratos, despesas, licitações e transparência.
 - https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php
-
-### Repositório com Dados Públicos
-
-Repositório de dados públicos disponibilizados em formato acessível.
-
-- https://brasil.io/home/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
