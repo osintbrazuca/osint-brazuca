@@ -120,6 +120,7 @@ Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratament
 - [Consulta de Transporte Aquaviário](#consulta-transporte-aquaviario)
 - [Consulta de Transporte Aéreo](#consulta-transporte-aereo)
 - [Câmeras Online](#cameras-online)
+- [Ministérios Públicos e Defensorias Públicas](#ministerios-publicos-defensorias)
 - [Serviços Públicos Estaduais e Conselhos Profissionais](#servicos-estaduais)
 - [Outras Buscas](#outras-buscas)
 - [Categorias de Domínios .br](#dominios-br)
@@ -191,6 +192,10 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 ### Extrato do Benefício de Prestação Continuada (INSS)
 
 - ...
+
+### Meu INSS
+Portal oficial para consulta de benefícios previdenciários, extrato de contribuições, agendamentos e outros serviços do INSS.
+- https://meu.inss.gov.br/
 
 ### Consulta de Valores a Receber do Sistema Financeiro
 
@@ -1054,6 +1059,18 @@ print(response.json())
 
 </details>
 
+### CGU - Controladoria-Geral da União
+Órgão responsável pela defesa do patrimônio público, combate à corrupção, transparência e controle interno do Governo Federal.
+- https://www.gov.br/cgu/pt-br
+
+### CGU - Notícias e Informações
+Portal de notícias da CGU com informações sobre ações de controle, transparência e combate à corrupção.
+- https://www.gov.br/cgu/pt-br/assuntos/noticias
+
+### Portal de Acesso à Informação - Governo Federal
+Portal oficial para solicitações de acesso à informação baseado na Lei de Acesso à Informação (LAI).
+- https://www.gov.br/acessoainformacao/pt-br
+
 ### Fala.BR - Plataforma Integrada de Ouvidoria e Acesso à Informação
 Sistema oficial para LAI (Lei de Acesso à Informação), denúncias, reclamações, sugestões e elogios aos órgãos públicos federais.
 - https://falabr.cgu.gov.br/web/home
@@ -1061,6 +1078,14 @@ Sistema oficial para LAI (Lei de Acesso à Informação), denúncias, reclamaç�
 ### Consumidor.gov.br
 Plataforma pública para registro de reclamações contra empresas, acompanhamento de respostas e avaliação do atendimento.
 - https://www.consumidor.gov.br/
+
+### Senacon - Secretaria Nacional do Consumidor
+Portal oficial da Secretaria Nacional do Consumidor com informações sobre direitos do consumidor, recalls e regulamentações.
+- https://www.gov.br/mj/pt-br/assuntos/seus-direitos/consumidor
+
+### INMETRO - Produtos Certificados
+Consulta de produtos certificados pelo Instituto Nacional de Metrologia, Qualidade e Tecnologia.
+- http://www.inmetro.gov.br/prodcert/produtos/busca.asp
 
 ### Dados Abertos - Consumidor.gov.br
 Dataset oficial com histórico de reclamações registradas no Consumidor.gov.br (Ministério da Justiça).
@@ -1077,6 +1102,50 @@ Portal estadual de transparência com dados de remuneração, contratos, convên
 ### E-Agendas CGU
 Consulta de agendas públicas de autoridades do Governo Federal.
 - https://eagendas.cgu.gov.br/
+
+### Tribunais de Contas Estaduais
+Portais dos Tribunais de Contas responsáveis pela fiscalização das contas públicas estaduais e municipais.
+
+<details>
+<summary>Portais por Estado</summary>
+
+**Acre (AC)**
+- Informações disponíveis em processo de atualização
+
+**Amapá (AP)**
+- Portal: https://www.tce.ap.gov.br/
+
+**Alagoas (AL)**
+- Portal em manutenção
+
+**Bahia (BA)**
+- Portal: https://www.tce.ba.gov.br/
+
+**Ceará (CE)**
+- Portal: https://www.tce.ce.gov.br/
+
+**Minas Gerais (MG)**
+- Portal: https://www.tce.mg.gov.br/
+
+**Mato Grosso do Sul (MS)**
+- Portal: https://www.tce.ms.gov.br/
+
+**Mato Grosso (MT)**
+- Portal: https://www.tce.mt.gov.br/
+
+**Paraíba (PB)**
+- Portal: https://tce.pb.gov.br/
+
+**Paraná (PR)**
+- Portal: https://www1.tce.pr.gov.br/
+
+**Rio Grande do Norte (RN)**
+- Portal: http://www.tce.rn.gov.br/
+
+**São Paulo (SP)**
+- Portal: https://www.tce.sp.gov.br/
+
+</details>
 
 ### Portal da Transparência - Consulta de Notas Fiscais
 Consulta detalhada de notas fiscais emitidas para órgãos públicos federais, com filtros por UF, fornecedor, período e órgão.
@@ -1331,6 +1400,14 @@ Consulte a cobertura de rede 2G, 3G, 4G e 5G em qualquer região do Brasil, veri
 Consulta de outorgas de serviços de radiodifusão.
 - https://sistemas.anatel.gov.br/easp/Novo/ConsultaIndicativo/Tela.asp
 
+### ANATEL - Radiodifusão
+Informações e regulamentação sobre serviços de radiodifusão no Brasil.
+- https://www.gov.br/anatel/pt-br/regulado/radiodifusao
+
+### ANATEL - Sistema de Serviços de Telecomunicações (STEL)
+Sistema para consulta de frequências, entidades e serviços de telecomunicações autorizados.
+- https://sistemas.anatel.gov.br/stel/
+
 ### ANATEL - Infraestrutura de Telecomunicações
 Painéis de dados sobre infraestrutura de telecomunicações no Brasil.
 - https://www.anatel.gov.br/paineis/infraestrutura
@@ -1513,6 +1590,26 @@ Sistema do Ministerio da Educacao (MEC) responsavel pela tramitacao dos processo
 ### Biblioteca Digital de Teses e Dissertações (BDTD)
 Repositório nacional que integra teses e dissertações defendidas em todo o Brasil.
 - https://bdtd.ibict.br/
+
+### Biblioteca Digital de Teses e Dissertações da USP
+Repositório oficial com teses e dissertações da Universidade de São Paulo.
+- https://www.teses.usp.br/
+
+### Repositório Institucional da UnB
+Acervo digital de produção científica da Universidade de Brasília.
+- https://repositorio.unb.br/
+
+### Pantheon - UFRJ
+Repositório institucional da Universidade Federal do Rio de Janeiro.
+- https://pantheon.ufrj.br/
+
+### Lume - UFRGS
+Repositório digital da Universidade Federal do Rio Grande do Sul.
+- https://lume.ufrgs.br/
+
+### ENADE - Resultados por Instituição
+Consulta de resultados do Exame Nacional de Desempenho dos Estudantes.
+- https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade
 
 ### SciELO Brasil - Scientific Electronic Library Online
 Biblioteca científica eletrônica com periódicos brasileiros de acesso aberto.
@@ -3064,6 +3161,118 @@ Câmeras de monitoramento de rodovias, segurança pública e clima por estado.
 
 ---
 
+## Ministérios Públicos e Defensorias Públicas ⚖️ <a name="ministerios-publicos-defensorias"></a>
+
+### Ministérios Públicos Estaduais
+Instituições responsáveis pela defesa da ordem jurídica, do regime democrático e dos interesses sociais.
+
+<details>
+<summary>Ministérios Públicos por Estado</summary>
+
+**Acre (AC)**
+- Portal: https://www.mpac.mp.br/
+
+**Amazonas (AM)**
+- Portal: https://www.mpam.mp.br/
+
+**Maranhão (MA)**
+- Portal: https://www.mpma.mp.br/
+
+**Mato Grosso do Sul (MS)**
+- Portal: https://www.mpms.mp.br/
+
+**Pará (PA)**
+- Portal: https://www2.mppa.mp.br/
+
+**Paraná (PR)**
+- Portal: https://www.mppr.mp.br/
+
+**Rio de Janeiro (RJ)**
+- Portal: https://www.mprj.mp.br/
+
+**Rio Grande do Norte (RN)**
+- Portal: https://www.mprn.mp.br/
+
+**Rio Grande do Sul (RS)**
+- Portal: https://www.mprs.mp.br/
+
+**Santa Catarina (SC)**
+- Portal: https://www.mpsc.mp.br/
+
+**Sergipe (SE)**
+- Portal: https://www.mpse.mp.br/
+
+</details>
+
+### Defensorias Públicas
+Instituições que prestam assistência jurídica gratuita aos cidadãos que não podem pagar por advogado.
+
+<details>
+<summary>Defensorias por Estado e União</summary>
+
+**Defensoria Pública da União (DPU)**
+- Portal: https://www.dpu.def.br/
+
+**Bahia (BA)**
+- Portal: https://www.defensoria.ba.def.br/
+
+**Ceará (CE)**
+- Portal: https://www.defensoria.ce.def.br/
+
+**Espírito Santo (ES)**
+- Portal: https://www.defensoria.es.def.br/
+
+**Pará (PA)**
+- Portal: https://www.defensoria.pa.def.br/
+
+**Paraná (PR)**
+- Portal: https://www.defensoriapublica.pr.def.br/
+
+**Rio de Janeiro (RJ)**
+- Portal: https://www.defensoria.rj.def.br/
+
+**São Paulo (SP)**
+- Portal: https://www.defensoria.sp.def.br/
+
+</details>
+
+### Disque Denúncia e Segurança Pública
+Canais para denúncias anônimas e informações sobre segurança pública.
+
+<details>
+<summary>Portais por Estado</summary>
+
+**Disque Denúncia Rio de Janeiro**
+- Portal: https://www.disquedenuncia.org.br/
+
+**SSP-SP - Disque Denúncia São Paulo**
+- Portal: https://www.ssp.sp.gov.br/disque-denuncia
+
+**Espírito Santo - Disque Denúncia**
+- Portal: https://www.es.gov.br/disquedenuncia
+
+</details>
+
+### Polícias Estaduais
+Órgãos de segurança pública responsáveis pela investigação e prevenção de crimes.
+
+<details>
+<summary>Polícias por Estado</summary>
+
+**Minas Gerais**
+- Polícia Civil MG: https://www.policiacivil.mg.gov.br/
+
+**São Paulo**
+- Polícia Científica SP: https://www.policiacientifica.sp.gov.br/
+
+</details>
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
+
+---
+
 ## Segurança Cibernética 🛡️ <a name="seguranca-cibernetica"></a>
 
 ### CERT.br - Centro de Estudos, Resposta e Tratamento de Incidentes
@@ -3085,6 +3294,30 @@ Notificações de incidentes, estatísticas de segurança e alertas de vulnerabi
 </details>
 
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
+
+### MCTI - Ministério da Ciência, Tecnologia e Inovação
+Portal oficial do Ministério com informações sobre políticas de ciência, tecnologia e inovação.
+- https://www.gov.br/mcti/pt-br
+
+### Embrapii - Unidades de Pesquisa e Inovação
+Consulta de unidades credenciadas da Empresa Brasileira de Pesquisa e Inovação Industrial.
+- https://embrapii.org.br/unidades/
+
+### Finep - Financiadora de Estudos e Projetos
+Portal da agência de fomento à inovação com informações sobre editais, financiamentos e projetos.
+- http://www.finep.gov.br/
+
+### IBRE - Instituto Brasileiro de Economia (FGV)
+Portal com indicadores econômicos, pesquisas e análises do Instituto Brasileiro de Economia da FGV.
+- https://portalibre.fgv.br/
+
+### SUFRAMA - Superintendência da Zona Franca de Manaus
+Portal oficial da Suframa com informações sobre a Zona Franca de Manaus, incentivos fiscais e projetos aprovados.
+- https://www.gov.br/suframa/pt-br
+
+### Banco Central - Cadastro Positivo
+Informações sobre o Cadastro Positivo e consulta de bureaus de crédito autorizados.
+- https://www.bcb.gov.br/estabilidadefinanceira/cadastropositivo
 
 ### Antecedentes Criminais
 
@@ -3339,6 +3572,45 @@ Comparação de tarifas de energia elétrica por região.
 ---
 
 ## Serviços Públicos Estaduais e Conselhos Profissionais 🏛️ <a name="servicos-estaduais"></a>
+
+### Conselhos Profissionais Nacionais
+Consultas de registro profissional e certidões em conselhos federais e regionais.
+
+<details>
+<summary>Conselhos de Medicina (CRM)</summary>
+
+**CREMESP - Conselho Regional de Medicina do Estado de São Paulo**
+- Portal: https://www.cremesp.org.br/
+
+**CRM-PR - Conselho Regional de Medicina do Paraná**
+- Portal: https://www.crmpr.org.br/
+
+**CREMEB - Conselho Regional de Medicina da Bahia**
+- Portal: https://www.cremeb.org.br/
+
+</details>
+
+<details>
+<summary>Conselhos de Enfermagem (COREN)</summary>
+
+**COFEN - Conselho Federal de Enfermagem**
+- Portal: https://www.cofen.gov.br/
+
+**COREN-RJ - Conselho Regional de Enfermagem do Rio de Janeiro**
+- Portal: https://www.coren-rj.org.br/
+
+</details>
+
+<details>
+<summary>Outros Conselhos Profissionais</summary>
+
+**CFP - Conselho Federal de Psicologia**
+- Portal: https://site.cfp.org.br/
+
+**COFFITO - Conselho Federal de Fisioterapia e Terapia Ocupacional**
+- Portal: https://www.coffito.gov.br/nsite/
+
+</details>
 
 ### Serviços Públicos por Estado
 Portais de serviços públicos, conselhos profissionais e outras instituições estaduais.
