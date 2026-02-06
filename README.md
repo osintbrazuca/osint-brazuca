@@ -27,44 +27,68 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 > **ATENÇÃO**: Este repositório contém apenas fontes de informação PÚBLICAS e LEGAIS. O uso inadequado das informações aqui contidas é de responsabilidade exclusiva do usuário.
 
 ### 🔒 LGPD - Lei Geral de Proteção de Dados
-Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratamento de dados pessoais deve ter base legal e finalidade legítima.
+> Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratamento de dados pessoais deve ter base legal e finalidade legítima.
 
-**✅ Boas Práticas:**
+
+> **⚖️ Base Legal**: Lei nº 13.709/2018 (LGPD) | Lei nº 12.965/2014 (Marco Civil) | Lei nº 12.527/2011 (LAI)
+
+<details>
+<summary>✅ Boas Práticas:</summary>
+
 - Utilizar apenas fontes públicas oficiais
 - Respeitar a privacidade e dignidade das pessoas
 - Documentar fontes e metodologia utilizada
 - Ter propósito legítimo (jornalismo, pesquisa, segurança, compliance)
 - Não compartilhar dados sensíveis publicamente
 
-**❌ Práticas Proibidas:**
+</details>
+
+<details>
+<summary>❌ Práticas Proibidas:</summary>
+
 - Engenharia social ou invasão de sistemas
 - Perseguição (stalking) ou assédio
 - Uso para discriminação ou preconceito
 - Comercialização não autorizada de dados
 - Violação de sigilo profissional
 
-**⚖️ Base Legal**: Lei nº 13.709/2018 (LGPD) | Lei nº 12.965/2014 (Marco Civil) | Lei nº 12.527/2011 (LAI)
+</details>
+
+
 
 ### ⚠️ Limitações e Avisos Importantes
 
-**🕒 Atualização de Dados:**
+<details>
+<summary>🕒 Atualização de Dados:</summary>
+
 - Dados públicos podem estar **desatualizados**
 - Sempre verificar a **data da última atualização** nas fontes
 - **Cruzar informações** de múltiplas fontes para validação
 - Sistemas governamentais podem estar em **manutenção**
+</details>
 
-**🔒 Acesso e Requisitos:**
+<details>
+<summary>🔒 Acesso e Requisitos:</summary>
+
 - Alguns portais exigem **cadastro prévio via gov.br**
 - Serviços pode existir limitação de uso
 - **CAPTCHA** pode limitar consultas automatizadas
 
-**🤖 Rate Limiting e Automação:**
+</details>
+
+<details>
+<summary>🤖 Rate Limiting e Automação:</summary>
+
 - APIs públicas possuem **limites de requisições**
 - Respeite os **limites técnicos** estabelecidos
 - Use **cache** quando possível para reduzir requisições
 - Consultas em massa podem ser **bloqueadas**
 
-**📱 Responsabilidade e Ética:**
+</details>
+
+<details>
+<summary>📱 Responsabilidade e Ética:</summary>
+
 - Informações são **públicas** mas protegidas pela LGPD
 - Uso **indevido** pode resultar em **sanções legais** e criminais
 - **Não compartilhe** dados sensíveis publicamente
@@ -72,11 +96,13 @@ Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratament
 - Mantenha **registro** de todas as pesquisas realizadas
 - Resumindo: Não seja cuzão
 
+</details>
+
 ---
 
 ## 📚 Documentação Complementar
 
-> Para facilitar o uso deste repositório, criamos documentos especializados:
+Para facilitar o uso deste repositório, criamos documentos especializados:
 
 - 📊 **[Guia Rápido de Consultas](GUIA_RAPIDO.md)** - Tabelas comparativas, top 10 consultas e legendas
 - 🔍 **[Exemplos Práticos de Investigação](EXEMPLOS_PRATICOS.md)** - 6 casos de uso detalhados com passo a passo
