@@ -1841,6 +1841,8 @@ Dados sobre mineração, processos minerários, áreas concedidas e fiscalizaç�
 Bases estatísticas e dados públicos sobre atividades minerárias no Brasil.  
 - https://www.gov.br/anm/pt-br/acesso-a-informacao/dados-abertos
 
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
 ---
 
 ## Saúde 🏥 <a name="saude"></a>
@@ -3234,8 +3236,6 @@ Canais para denúncias anônimas e informações sobre segurança pública.
 
 ---
 
----
-
 ## Segurança Cibernética 🛡️ <a name="seguranca-cibernetica"></a>
 
 ### CERT.br - Centro de Estudos, Resposta e Tratamento de Incidentes
@@ -3255,6 +3255,10 @@ Notificações de incidentes, estatísticas de segurança e alertas de vulnerabi
 - Santa Catarina - https://www.pc.sc.gov.br/
 
 </details>
+
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
 
 ## Outras Buscas 🔎 <a name="outras-buscas"></a>
 
@@ -3292,6 +3296,8 @@ Informações sobre o Cadastro Positivo e consulta de bureaus de crédito autori
 - https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+
+---
 
 ### Consulta Informações Sobre Domínios
 Informações sobre proprietários de domínios brasileiros.
