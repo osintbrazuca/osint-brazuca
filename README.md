@@ -499,6 +499,15 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 
 </details>
 
+### Busca com Filtros de Dados em Tempo Real do CNPJ
+
+O cnpj.pw é um projeto que visa disponibilizar de forma estruturada, pública e open-source por meio de uma API acesso aos dados do CNPJ. Utilizamos a base disponibilizada mensalmente pela receita como fonte primária dos dados e scraping para complementar com dados das empresas abertas diariamente.
+
+- https://github.com/cnpjpw/cnpjpw
+- https://cnpj.pw
+- https://api.cnpj.pw
+- https://archive.cnpj.pw
+
 ### Automação de força Bruta para encontrar CPF e Nome completo
 
 Este repositório contém duas ferramentas úteis para a manipulação e consulta de CPFs. A primeira ferramenta gera uma lista de CPFs válidos com base em dígitos centrais fornecidos pelo usuário (dígitos que são retornados do pix por exemplo: `***123456**`), enquanto a segunda realiza consultas automáticas de situação cadastral desses CPFs, utilizando um bot automatizado via Selenium para interagir com um site de consulta.
