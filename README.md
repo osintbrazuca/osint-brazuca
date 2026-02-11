@@ -505,7 +505,7 @@ O cnpj.pw é um projeto que visa disponibilizar de forma estruturada, pública e
 
 - https://github.com/cnpjpw/cnpjpw
 - https://cnpj.pw
-- https://api.cnpj.pw
+- https://api.cnpj.pw/docs
 - https://archive.cnpj.pw
 
 ### Automação de força Bruta para encontrar CPF e Nome completo
