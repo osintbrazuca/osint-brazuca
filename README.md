@@ -2290,6 +2290,8 @@ WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas 
 <details>
 <summary>Indexadores WhatsApp</summary>
 
+Lista de recursos para encontrar grupos públicos de WhatsApp.
+
 - https://gruposwhats.app/
 - https://whatsapp.statusestories.com/
 - https://grupos-online.com/
@@ -2301,6 +2303,7 @@ WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas 
 - https://www.grupopaquera.com.br/
 - https://gruposdezap.com/
 - https://grupodewhatsapp.com/
+- https://gruposdewhatss.com.br/
 
 </details>
 
@@ -2311,6 +2314,8 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 <details>
 <summary>Indexadores Telegram</summary>
 
+Lista de recursos para encontrar grupos públicos de Telegram.
+
 - https://tgstat.com/search
 - https://cse.google.com/cse?cx=008239573640124656331:o29gdxc2osj
 - https://www.telegram-group.com/en/#
@@ -2319,6 +2324,7 @@ O Telegram é um serviço de mensagens instantâneas baseado na nuvem.
 - https://telemetr.io/en/channels?language=pt&channel=SEU_ALVO&period=30
 - https://combot.org/telegram/top/groups?lng=pt&page=1&q=SEU_ALVO
 - https://lyzem.com/search?f=all&l=pt&p=1&per-page=100&q=SEU_ALVO
+- https://gruposdetelegram.com.br/
 
 </details>
 
