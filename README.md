@@ -3614,6 +3614,7 @@ Portais de serviços públicos, conselhos profissionais e outras instituições 
 <summary>Consultas por Estado</summary>
 
 **Espírito Santo (ES)**
+- Acesso Cidadão - Portal de serviços digitais estaduais (processos, notas fiscais, agendamentos) - https://acessocidadao.es.gov.br/
 - IDE Geobases - Infraestrutura de Dados Espaciais - https://ide.geobases.es.gov.br/?limit=5&offset=0
 
 **Maranhão (MA)**
