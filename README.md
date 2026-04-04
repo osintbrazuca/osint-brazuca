@@ -197,6 +197,11 @@ Consulta para saber se a Pessoa Física ou Jurídica possuem valores a receber n
 - Via Requisição GET, substituir os zeros pelo CPF ou CNPJ sem pontos ou traços, e a data de nascimento no formato ANO-MES-DIA:
   https://valoresareceber.bcb.gov.br/publico/rest/valoresAReceber/00000000000/1960-12-01
 
+### Gás do Povo
+
+Portal oficial para consulta de beneficiários do programa gás do povo.
+- https://gasdopovo.mds.gov.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
 
 ---
