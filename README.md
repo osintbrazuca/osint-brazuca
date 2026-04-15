@@ -495,6 +495,7 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 - https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/ 
 - https://dados-abertos-rf-cnpj.casadosdados.com.br/arquivos/ 
 - https://cnpja.com/ 
+- https://cnpjgo.com.br/
 - https://iefacil.com.br/ 
 
 </details>
