@@ -511,6 +511,12 @@ Este repositório contém duas ferramentas úteis para a manipulação e consult
 
 - https://github.com/fernandobortotti/CPF-Tools
 
+### CPF Validador — Validação e Descoberta de CPF via TRT3
+
+Valida CPFs, confirma titularidade pelo nome e descobre o CPF correto a partir de dígitos parciais ou ilegíveis. Resolve CAPTCHA automaticamente via rede neural local (CRNN ~99% de acurácia), sem depender de serviços externos. Expõe as operações como MCP tools para integração com agentes AI.
+
+- https://github.com/opastorello/cpf-validador
+
 ### Busca Nome Usando CPF/CNPJ
 
 A intenção deste serviço é ajudar você descobrir e confirmar qual a situação cadastral do documento de CPF (Cadastro de Pessoa Física) e/ou CNPJ (Cadastro Nacional da Pessoa Jurídica).
