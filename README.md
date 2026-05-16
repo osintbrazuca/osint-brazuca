@@ -162,12 +162,6 @@ Para facilitar o uso deste repositório, criamos documentos especializados:
 
 - https://www.caixa.gov.br/programas-sociais/Paginas/default.aspx
 
-### Consulta Benefícios Sociais
-
-As famílias atendidas pelo Programa Bolsa Família devem entregar o extrato bancário de pagamento do benefício, juntamente com a consulta pública do programa “bolsa família”
-
-- https://www.beneficiossociais.caixa.gov.br/consulta/beneficio/04.01.00-00_00.asp
-
 ### Consulta ao Auxílio Emergencial
 
 canal para consulta ao resultado da análise do Auxílio Emergencial.
