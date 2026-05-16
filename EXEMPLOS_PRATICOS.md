@@ -28,7 +28,7 @@ Verificar idoneidade de empresa antes de estabelecer parceria comercial.
 #### **Etapa 1: Verificação Cadastral Básica**
 ```
 1. CNPJ → Receita Federal
-   URL: http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
+   URL: https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
    ✅ Verificar: Situação cadastral, data de abertura, capital social, sócios
 ```
 

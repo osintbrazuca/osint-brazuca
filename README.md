@@ -173,7 +173,7 @@ Por aqui você terá condições de saber se atende aos critérios de elegibilid
 
 Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido por meio de consulta no endereço eletrônico:
 
-- http://www.receita.fazenda.gov.br/PessoaJuridica/CNPJ/cnpjreva/Cnpjreva_Solicitacao.asp
+- https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
 
 ### Extrato do Benefício de Prestação Continuada (INSS)
 
@@ -483,7 +483,7 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 <details>
 <summary>Links de Consulta</summary>
 
-- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp 
+- https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp 
 - https://brasilcnpj.net/ 
 - https://cnpj.biz/ 
 - https://cadastroempresa.com.br/ 
