@@ -493,6 +493,10 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 
 </details>
 
+### Consulta - Cadastro Único (CAdunico)
+Descubra se determinada família está cadastrada no Cadastro Único, informando apenas do CPF e data de nascimento.
+- https://cadunico.dataprev.gov.br/#/consultaCpf
+
 ### Automação de força Bruta para encontrar CPF e Nome completo
 
 Este repositório contém duas ferramentas úteis para a manipulação e consulta de CPFs. A primeira ferramenta gera uma lista de CPFs válidos com base em dígitos centrais fornecidos pelo usuário (dígitos que são retornados do pix por exemplo: `***123456**`), enquanto a segunda realiza consultas automáticas de situação cadastral desses CPFs, utilizando um bot automatizado via Selenium para interagir com um site de consulta.
