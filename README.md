@@ -685,9 +685,6 @@ Verificação se empresa é optante do regime Simples Nacional, incluindo histó
 Plataforma para consulta de viabilidade e registro de empresas em todo Brasil.
 - https://www.redesim.gov.br/
 
-### Cadastro de Beneficiários Efetivos (CadBE)
-Consulta pública de beneficiários finais de pessoas jurídicas (transparência corporativa).
-- https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/cadastro-de-beneficiarios-efetivos-cadbe
 
 ### CNPJ.rocks - Consulta Rápida
 Interface moderna e rápida para consulta de dados de CNPJ.
