@@ -453,7 +453,7 @@ Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras ins
 - TJ-GO Acordo Aqui - https://acordoaqui.tjgo.jus.br/acordo-aqui/pesquisa
 
 **Rio de Janeiro (RJ)**
-- Justiça Militar - https://www.stm.jus.br/servicos-stm/certidao-negativa/emitir-certidao-negativa
+- Justiça Militar - https://www.stm.jus.br/servicos-ao-cidadao/atendimentoaocidadao/certidao-negativa?view=default
 - Justiça Federal - https://procweb.jfrj.jus.br/certidao/emissao_cert.asp
 - Crimes Eleitorais - https://www.tse.jus.br/eleitor/certidoes/certidao-de-crimes-eleitorais
 
