@@ -236,7 +236,7 @@ Uma relação de links com dados sobre desaparecidos, gerida pela estado ou ONGs
 
 É usado CPF da Pessoa Desaparecida como valor de pesquisa
 
-- https://www.ssp.sp.gov.br/servicos/desaparecidos
+- https://www.policiacientifica.sp.gov.br/iml/consultadesaparecidos
 
 ### Busca por Desaparecidos Banco de Dados Polícia Científica / São Paulo
 
