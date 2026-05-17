@@ -594,11 +594,6 @@ Para realizar a consulta, basta preencher o formulário e pesquisar.
 
 - https://consultaprofissional.confea.org.br
 
-### Consulta MEI
-
-Nesta consulta será exibido informações do cadastro MEI. Para consulta é necessário apenas o CPF e data de nacimento. Vale para todo território nacional.
-
-- http://www22.receita.fazenda.gov.br/inscricaomei/private/pages/certificado_acesso.jsf
 
 ### Declaração do Simples Nacional
 
