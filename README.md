@@ -476,9 +476,12 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 <details>
 <summary>Links de Consulta</summary>
 
-- http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp 
+- https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
 - https://brasilcnpj.net/ 
 - https://cnpj.biz/ 
+- https://cnpja.com/
+- http://cnpj.info/
+- https://www.cnpj.ws/pt-BR
 - https://cadastroempresa.com.br/ 
 - https://casadosdados.com.br/ 
 - https://www.informecadastral.com.br/ 
@@ -490,6 +493,10 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 - https://cnpja.com/ 
 - https://cnpjgo.com.br/
 - https://iefacil.com.br/ 
+- https://api.opencnpj.org/00000000000191?dataset=receita
+- https://www.contabilizei.com.br/consulta-cnpj-cartao/resultado?cnpj=00000000000191
+- https://www.esimplesauditoria.com/consulta-cnpj
+- https://receitaws.com.br/
 
 </details>
 
@@ -689,6 +696,7 @@ Plataforma para consulta de viabilidade e registro de empresas em todo Brasil.
 ### Nire.im - Busca de Empresas
 Busca simplificada de informações empresariais por CNPJ ou razão social.
 - https://nire.im/
+
 
 ### Consulta Etrevistador do IBGE
 
