@@ -600,7 +600,6 @@ Para realizar a consulta, basta preencher o formulário e pesquisar.
 Para obter informações de declaração do simples nacional, basta informar o CNPJ nessa pesquisa. Vale para todo o território nacional
 
 - http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Default.aspx
-- https://www8.receita.fazenda.gov.br/SimplesNacional/controleAcesso/Autentica.aspx?id=16
 - https://www8.receita.fazenda.gov.br/SimplesNacional/aplicacoes.aspx?id=21
 
 ### Consulta de Inscrição Estadual (SINTEGRA)
