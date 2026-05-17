@@ -444,7 +444,6 @@ Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras ins
 
 **Bahia (BA)**
 - TJ-BA Processos 1º Grau - http://esaj.tjba.jus.br/cpopg/open.do
-- TJ-BA Processos 2º Grau - https://esaj.tjba.jus.br/cposg5/open.do
 
 **Ceará (CE)**
 - TJ-CE Processos - https://esaj.tjce.jus.br/cpopg/open.do
