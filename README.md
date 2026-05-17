@@ -449,7 +449,7 @@ Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras ins
 - TJ-CE Processos - https://esaj.tjce.jus.br/cpopg/open.do
 
 **Distrito Federal (DF)**
-- TJ-DFT Processos - https://pje2i.tjdft.jus.br/consultapublica
+- TJ-DFT Processos - https://pje2i-consultapublica.tjdft.jus.br/
 
 **Goiás (GO)**
 - Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
