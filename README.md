@@ -718,7 +718,7 @@ Ministério da Justiça e Segurança Pública (MJSP)
   - https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/estatistica
 
 - Dados abertos – Segurança Pública (Gov.br)
-  - https://dados.gov.br/dados/conjuntos-dados/seguranca-publica
+  - https://dados.gov.br/dados/temas/seguranca-e-ordem-publica
 
 
 ### Painéis Estaduais
