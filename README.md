@@ -864,8 +864,36 @@ Emissão de certidão que comprova a regularidade da situação eleitoral do cid
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-quitacao-eleitoral
 
 ### Certidão de Crimes Eleitorais
+Emissão de certidão informando se o eleitor possui condenações por crimes eleitorais registradas na Justiça Eleitoral.
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-crimes-eleitorais
 
+### Consulta Débitos Eleitorais
+Verifica se o eleitor possui débitos eleitorais pendentes, como multas por ausência nas eleições sem justificativa.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/debitos/listar
+
+### Consulta Número do Título de eleitor
+Localiza o número do título eleitoral a partir dos dados pessoais do eleitor, como nome, data de nascimento e nome da mãe.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/atendimento-eleitor/consultar-numero-titulo-eleitor
+
+### Consulta Situação Título de eleitor
+Verifica a situação cadastral do título eleitoral, indicando se está regular, cancelado, suspenso ou com restrições.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/atendimento-eleitor/consultar-situacao-titulo-eleitor
+
+### Consulta Onde é Votação do Eleitor
+Informa o local de votação (seção e zona eleitoral) do eleitor com base no número do título ou CPF.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/atendimento-eleitor/onde-votar
+
+### Consulta Justificativas
+Acompanha o status de solicitações de justificativa de ausência nas eleições, incluindo aprovação ou pendência.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/atendimento-eleitor/acompanhar-solicitacao
+
+### Declaração de Trabalhos Eleitorais
+Emite declaração para eleitores que exerceram função de mesário ou trabalharam nas eleições, comprovando a atividade perante a Justiça Eleitoral.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/declaracao-trabalho-eleitoral
+
+
+## Consultar Zonas Eleitorais por UF
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/unidades-justica-eleitoral/por-uf
 
 ### Base dos Dados - Eleições
 Dados eleitorais tratados, padronizados e prontos para análise estatística.
