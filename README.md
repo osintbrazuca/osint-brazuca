@@ -454,7 +454,6 @@ Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras ins
 **Goiás (GO)**
 - Processos físicos 1º grau - https://www.tjgo.jus.br/index.php/processo-fisico/primeiro-grau
 - Processos físicos 2º grau - https://www.tjgo.jus.br/index.php/processo-fisico/segundo-grau
-- Processo judicial digital - https://projudi.tjgo.jus.br/BuscaProcessoPublica?PaginaAtual=4
 - TJ-GO Acordo Aqui - https://acordoaqui.tjgo.jus.br/acordo-aqui/pesquisa
 
 **Rio de Janeiro (RJ)**
