@@ -313,7 +313,6 @@ Sistema de consulta processual unificado utilizado por diversos tribunais brasil
 
 **Tribunais Regionais Federais:**
 - TRF1 (1ª Região - DF, GO, TO, MT, BA, PI, MA, PA, AM, AC, RR, RO, AP): https://pje1g.trf1.jus.br/consultapublica/ConsultaPublica/listView.seam
-- TRF3 (3ª Região - SP, MS): https://pje1g.trf3.jus.br/consultapublica/ConsultaPublica/listView.seam
 - TRF4 (4ª Região - RS, SC, PR): https://pje2g.trf4.jus.br/pje/ConsultaPublica/listView.seam
 - TRF5 (5ª Região - CE, RN, PB, PE, AL, SE): https://pje.trf5.jus.br/pje/ConsultaPublica/listView.seam
 - TRF6 (6ª Região - MG): https://pje.trf6.jus.br/pje/ConsultaPublica/listView.seam
