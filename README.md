@@ -693,11 +693,6 @@ Plataforma para consulta de viabilidade e registro de empresas em todo Brasil.
 - https://www.redesim.gov.br/
 
 
-### Nire.im - Busca de Empresas
-Busca simplificada de informações empresariais por CNPJ ou razão social.
-- https://nire.im/
-
-
 ### Consulta Etrevistador do IBGE
 
 Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário: número matrícula, CPF ou RG.
