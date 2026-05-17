@@ -455,7 +455,7 @@ Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras ins
 **Rio de Janeiro (RJ)**
 - Justiça Militar - https://www.stm.jus.br/servicos-ao-cidadao/atendimentoaocidadao/certidao-negativa?view=default
 - Justiça Federal - https://procweb.jfrj.jus.br/certidao/emissao_cert.asp
-- Crimes Eleitorais - https://www.tse.jus.br/eleitor/certidoes/certidao-de-crimes-eleitorais
+- Crimes Eleitorais - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-crimes-eleitorais
 
 **São Paulo (SP)**
 - Consulta de Processos WEB | Limeira - https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/
