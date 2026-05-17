@@ -367,6 +367,10 @@ O Sistema BNMP – Banco Nacional de Mandados de Prisão tem a finalidade de fac
 **TRF5**: Portal com informações e serviços providos pelo TRF5, tem sob sua jurisdição jfal ,jfce ,jfpb ,jfpe ,jfrn ,jfse.
 - https://www.trf5.jus.br/index.php/portal-dos-servicos-publicos2
 
+**TRF5 - Consultar RPV/Precatório**: O Portal de Precatórios do Tribunal Regional Federal da 5ª Região permite consultar RPVs e precatórios por diferentes critérios, como CPF, número de processo e OAB.
+Também oferece acesso a certidões, normas relacionadas, perguntas frequentes e serviços autenticados com certificado digital.
+- https://rpvprecatorio.trf5.jus.br/
+
 ### JusBrasil
 
 Startup que une Direito e Tecnologia para fazer com que a justiça ultrapasse as fronteiras dos tribunais e chegue às casas de qualquer cidadão ou cidadã, empoderando suas decisões por meio da informação.
