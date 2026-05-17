@@ -348,7 +348,7 @@ Busca unificada de jurisprudência e acórdãos dos tribunais superiores (STF, S
 
 ### Consulta Processual Unificada - CNJ
 Sistema em desenvolvimento para consulta unificada de processos em todos os tribunais do Brasil.
-- https://www.cnj.jus.br/consulta-processual-publica/
+- https://www.cnj.jus.br/pjecnj/ConsultaPublica/listView.seam
 
 ### Banco Nacional de Mandados de Prisão
 
