@@ -227,8 +227,6 @@ Uma relação de links com dados sobre desaparecidos, gerida pela estado ou ONGs
 - https://desaparecidos.osasco.sp.gov.br/#/portal
 - https://www.pm.ce.gov.br/desaparecidos/
 - https://desaparecidos.pb.gov.br/desaparecidos/desaparecidos.jsf
-- https://desaparecidos.pr.gov.br/desaparecidos/desaparecidos.do?action=iniciarProcesso&m=false
-- http://sisgou.seds.al.gov.br/base2/desaparecidos_almanaque/
 - http://www.feiradesantana.ba.gov.br/seprev/desaparecidos/desaparecidos.asp
 - https://www.policiacivil.se.gov.br/desaparecidos/
 
