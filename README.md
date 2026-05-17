@@ -657,9 +657,6 @@ Consulta de empresas punidas com base na Lei Anticorrupção.
 Consulta de entidades privadas sem fins lucrativos impedidas de celebrar convênios com a Administração Pública Federal.
 - http://www.portaltransparencia.gov.br/sancoes/cepim
 
-### InfoConv - Sistema de Gestão de Convênios e Contratos de Repasse
-Consulta de convênios e contratos de repasse firmados com órgãos e entidades da Administração Pública Federal.
-- https://www.convenios.gov.br/
 
 ### Consulta Junta Comercial do Estado de São Paulo (Jucesp)
 
