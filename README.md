@@ -636,11 +636,6 @@ Consulta ao cadastro de contribuintes de ICMS (Inscrição Estadual) nos sistema
 Consulta de inutilização de numeração de documentos fiscais eletrônicos e verificação de CNPJ no sistema de CT-e.
 - https://www.cte.fazenda.gov.br/portal/consulta.aspx?tipoConsulta=inutilizacao&tipoConteudo=MZ1N+CQHCgA=
 
-### Consulta Comunicação de Decisão do Requerimento/Benefício
-
-Consulta o status de requisição de aposentádoria de INSS. Vale para todo o território nacional.
-
-- https://www2.dataprev.gov.br/sabiweb/relatorio/imprimirCRER.view?acao=imprimir_CRER
 
 ### Consulta Restituição do Imposto de Renda
 
