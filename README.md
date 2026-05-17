@@ -524,11 +524,6 @@ Ferramenta para observar o relacionamento entre empresas e sócios, a partir dos
 - https://www.redecnpj.com.br/rede/
 - https://github.com/rictom/rede-cnpj/
 
-### Consulta de Antecedente Criminal
-
-Nesta consulta é gerado um documento válido até a data que será exibida ao final do processo. Apesar de ser do Estado do Paraná, é possível selecionar outros estados.
-
-- https://antecedentes.policiacivil.pa.gov.br/consulta
 
 ### Antecedentes Criminais por Estado
 Consultas de antecedentes criminais em Polícias Civis estaduais.
