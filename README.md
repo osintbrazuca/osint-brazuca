@@ -686,10 +686,6 @@ Plataforma para consulta de viabilidade e registro de empresas em todo Brasil.
 - https://www.redesim.gov.br/
 
 
-### CNPJ.rocks - Consulta Rápida
-Interface moderna e rápida para consulta de dados de CNPJ.
-- https://cnpjs.rocks/
-
 ### Nire.im - Busca de Empresas
 Busca simplificada de informações empresariais por CNPJ ou razão social.
 - https://nire.im/
