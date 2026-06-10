@@ -497,6 +497,7 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 - https://www.contabilizei.com.br/consulta-cnpj-cartao/resultado?cnpj=00000000000191
 - https://www.esimplesauditoria.com/consulta-cnpj
 - https://receitaws.com.br/
+- https://juridicoonline.com.br/ 
 
 </details>
 
