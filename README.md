@@ -2202,6 +2202,12 @@ Ferramenta para busca de dados no Instagram
   - https://twitter.com/search?q=seu_alvo+lang%3Apt&src=typed_query
   - https://twitter.com/search-advanced
 
+### Xquik
+
+API para fluxos de dados do X/Twitter, incluindo busca de tweets, perfis, seguidores, mídia e MCP. Requer chave de API.
+
+- https://docs.xquik.com
+
 ### OmniSci Tweetmap Demo
 
 OmniSci é um banco de dados alimentado por GPU (Unidade de Processador Gráfico) e plataforma de visualização projetada para exploração de dados imersiva e ultrarrápida que elimina a desconexão entre o analista e os dados.
