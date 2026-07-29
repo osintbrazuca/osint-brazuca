@@ -1,0 +1,27 @@
+{
+  "_sobre": "Modelo vazio de data/taxonomy.json. Mostra a estrutura exata do vocabulário controlado: quatro eixos, cada um com '_sobre' e um mapa 'termos' de termo para definição. A chave 'termo' abaixo é apenas ilustrativa.",
+  "input": {
+    "_sobre": "",
+    "termos": {
+      "termo": ""
+    }
+  },
+  "output": {
+    "_sobre": "",
+    "termos": {
+      "termo": ""
+    }
+  },
+  "tipo_fonte": {
+    "_sobre": "",
+    "termos": {
+      "termo": ""
+    }
+  },
+  "classificacao": {
+    "_sobre": "",
+    "termos": {
+      "termo": ""
+    }
+  }
+}

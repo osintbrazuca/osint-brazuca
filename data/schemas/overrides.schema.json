@@ -1,0 +1,12 @@
+{
+  "_sobre": "Modelo vazio de data/overrides.json. Cada chave em 'overrides' é um id de fonte de sources.json no formato slug-da-categoria/slug-da-fonte (a chave abaixo é apenas ilustrativa). Todos os campos do override são opcionais, mas ao menos um deve estar presente; campos fora desta lista falham o build.",
+  "overrides": {
+    "slug-da-categoria/slug-da-fonte": {
+      "descricao": "",
+      "input": [],
+      "observacao": "",
+      "output": [],
+      "tipo_fonte": ""
+    }
+  }
+}
