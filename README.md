@@ -2307,6 +2307,7 @@ WhatsApp é um aplicativo multiplataforma de mensagens instantâneas e chamadas 
 Lista de recursos para encontrar grupos públicos de WhatsApp.
 
 - https://gruposwhats.app/
+- https://grupos-zap.com/
 - https://whatsapp.statusestories.com/
 - https://grupos-online.com/
 - https://grupowhats.online/
