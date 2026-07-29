@@ -20,6 +20,8 @@
 <a href="https://github.com/osintbrazuca/osint-brazuca/stargazers"><img alt="Estrelas" src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca?style=for-the-badge&color=F9A825&logo=github&logoColor=white"></a>
 </p>
 
+---
+
 <p align="center">
   <a href="README.md"><img alt="README Principal" src="https://img.shields.io/badge/%F0%9F%8F%A0%20README%20Principal-1E88E5?style=flat-square"></a>
   <a href="EXEMPLOS_PRATICOS.md"><img alt="Exemplos Práticos" src="https://img.shields.io/badge/%F0%9F%93%96%20Exemplos%20Pr%C3%A1ticos-2E7D32?style=flat-square"></a>
@@ -115,16 +117,6 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 
 </details>
 
----
-
-## 📚 Documentação Complementar
-
-Para facilitar o uso deste repositório, criamos documentos especializados:
-
-- 📊 **[Guia Rápido de Consultas](GUIA_RAPIDO.md)** - Tabelas comparativas, top 10 consultas e legendas
-- 🔍 **[Exemplos Práticos de Investigação](EXEMPLOS_PRATICOS.md)** - 6 casos de uso detalhados com passo a passo
-- 🔄 **[Fluxogramas de Investigação](FLUXOGRAMA.md)** - Diagramas visuais de processos investigativos
-- 🔄 **[Como Contribuir](CONTRIBUICAO.md)** - Diretrizes para diferentes tipos de contribuições
 ---
 
 ## 🗂️ Dataset Estruturado
