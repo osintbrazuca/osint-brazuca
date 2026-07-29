@@ -1,0 +1,20 @@
+{
+  "_sobre": "Curadoria manual do dataset. Cada chave em 'overrides' é um id de fonte de sources.json; os campos declarados aqui sobrepõem o que a heurística inferiu, e a fonte passa a ter classificacao='override'. Este arquivo NUNCA é sobrescrito pelo parser. Rode 'python3 tools/build_dataset.py --report' para listar as fontes ainda marcadas como 'indefinido'. Campos aceitos: input, output, tipo_fonte, descricao, observacao.",
+  "overrides": {
+    "apis-publicas-brasileiras/receitaws-api-cnpj": {
+      "input": ["cnpj"],
+      "output": ["api_json", "dados_cadastrais", "situacao_cadastral", "socios", "cnae", "endereco"],
+      "observacao": "Sem autenticação. Rate limit de 3 requisições por minuto."
+    },
+    "apis-publicas-brasileiras/viacep-api-de-consulta-de-cep": {
+      "input": ["cep", "endereco", "municipio", "uf"],
+      "output": ["api_json", "endereco"],
+      "observacao": "Sem autenticação e sem limite oficial. Aceita JSON, XML e JSONP."
+    },
+    "apis-publicas-brasileiras/registro-br-api-rdap": {
+      "input": ["dominio"],
+      "output": ["api_json", "dados_cadastrais"],
+      "observacao": "RDAP para domínios .br."
+    }
+  }
+}

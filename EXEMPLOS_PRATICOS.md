@@ -1,6 +1,14 @@
 # 🔍 Exemplos Práticos de Investigação OSINT
 
-> **Navegação**: [🏠 README Principal](README.md) | [📖 Exemplos Práticos](EXEMPLOS_PRATICOS.md) | [🔀 Fluxogramas](FLUXOGRAMA.md) | [📊 Guia Rápido](GUIA_RAPIDO.md) | [🤝 Contribuir](CONTRIBUICAO.md)
+<p align="center">
+  <a href="README.md"><img alt="README Principal" src="https://img.shields.io/badge/%F0%9F%8F%A0%20README%20Principal-1E88E5?style=flat-square"></a>
+  <a href="EXEMPLOS_PRATICOS.md"><img alt="Exemplos Práticos" src="https://img.shields.io/badge/%F0%9F%93%96%20Exemplos%20Pr%C3%A1ticos-2E7D32?style=flat-square"></a>
+  <a href="FLUXOGRAMA.md"><img alt="Fluxogramas" src="https://img.shields.io/badge/%F0%9F%94%80%20Fluxogramas-6A1B9A?style=flat-square"></a>
+  <a href="GUIA_RAPIDO.md"><img alt="Guia Rápido" src="https://img.shields.io/badge/%F0%9F%93%8A%20Guia%20R%C3%A1pido-EF6C00?style=flat-square"></a>
+  <a href="CONTRIBUICAO.md"><img alt="Contribuir" src="https://img.shields.io/badge/%F0%9F%A4%9D%20Contribuir-00838F?style=flat-square"></a>
+  <a href="data/"><img alt="Dataset" src="https://img.shields.io/badge/%F0%9F%97%82%EF%B8%8F%20Dataset-F9A825?style=flat-square"></a>
+  <a href="tools/"><img alt="Ferramentas" src="https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F%20Ferramentas-546E7A?style=flat-square"></a>
+</p>
 
 ## Índice
 - [Caso 1: Due Diligence Empresarial](#caso-1)
@@ -509,11 +517,12 @@ Investigar domínio suspeito de phishing ou fraude.
 
 ### 🛡️ Segurança Operacional
 
-- **Use VPN** para consultas sensíveis
-- **Não faça login** em contas pessoais durante investigação
-- **Crie personas** separadas se necessário
-- **Documente tudo** em local seguro
-- **Respeite privacidade** e legislação
+> [!CAUTION]
+> - **Use VPN** para consultas sensíveis
+> - **Não faça login** em contas pessoais durante investigação
+> - **Crie personas** separadas se necessário
+> - **Documente tudo** em local seguro
+> - **Respeite privacidade** e legislação
 
 ### ⚖️ Aspectos Legais
 

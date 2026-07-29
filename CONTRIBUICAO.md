@@ -1,6 +1,14 @@
 # 🤝 Como Contribuir com o OSINT Brazuca
 
-> **Navegação**: [🏠 README Principal](README.md) | [📖 Exemplos Práticos](EXEMPLOS_PRATICOS.md) | [🔀 Fluxogramas](FLUXOGRAMA.md) | [📊 Guia Rápido](GUIA_RAPIDO.md) | [🤝 Contribuir](CONTRIBUICAO.md)
+<p align="center">
+  <a href="README.md"><img alt="README Principal" src="https://img.shields.io/badge/%F0%9F%8F%A0%20README%20Principal-1E88E5?style=flat-square"></a>
+  <a href="EXEMPLOS_PRATICOS.md"><img alt="Exemplos Práticos" src="https://img.shields.io/badge/%F0%9F%93%96%20Exemplos%20Pr%C3%A1ticos-2E7D32?style=flat-square"></a>
+  <a href="FLUXOGRAMA.md"><img alt="Fluxogramas" src="https://img.shields.io/badge/%F0%9F%94%80%20Fluxogramas-6A1B9A?style=flat-square"></a>
+  <a href="GUIA_RAPIDO.md"><img alt="Guia Rápido" src="https://img.shields.io/badge/%F0%9F%93%8A%20Guia%20R%C3%A1pido-EF6C00?style=flat-square"></a>
+  <a href="CONTRIBUICAO.md"><img alt="Contribuir" src="https://img.shields.io/badge/%F0%9F%A4%9D%20Contribuir-00838F?style=flat-square"></a>
+  <a href="data/"><img alt="Dataset" src="https://img.shields.io/badge/%F0%9F%97%82%EF%B8%8F%20Dataset-F9A825?style=flat-square"></a>
+  <a href="tools/"><img alt="Ferramentas" src="https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F%20Ferramentas-546E7A?style=flat-square"></a>
+</p>
 
 Obrigado por considerar contribuir com o projeto OSINT Brazuca! Este documento fornece diretrizes para diferentes tipos de contribuições.
 
@@ -125,7 +133,14 @@ Contribuições técnicas também são valiosas:
    - Siga os padrões de formatação (veja abaixo)
    - Teste todas as URLs adicionadas
 
-5. **Commit suas Mudanças**
+5. **Regenere o Dataset** (se mexeu em fontes ou URLs do README)
+   ```bash
+   python3 tools/build_dataset.py
+   ```
+   Isso atualiza `data/sources.json` e `data/index.json`. Inclua esses arquivos no commit.
+   Veja a seção [Dataset JSON](#dataset-json) abaixo.
+
+6. **Commit suas Mudanças**
    ```bash
    git add .
    git commit -m "Adiciona fonte de consulta X"
@@ -136,12 +151,12 @@ Contribuições técnicas também são valiosas:
    - Seja específico e conciso
    - Explique o "por quê" se necessário
 
-6. **Push para seu Fork**
+7. **Push para seu Fork**
    ```bash
    git push origin minha-contribuicao
    ```
 
-7. **Abra um Pull Request**
+8. **Abra um Pull Request**
    - Acesse o repositório original no GitHub
    - Clique em "New Pull Request"
    - Selecione sua branch
@@ -162,6 +177,7 @@ Descreva claramente as mudanças realizadas.
 - [ ] Testei todos os links adicionados
 - [ ] Segui o padrão de formatação do projeto
 - [ ] Verifiquei que não há duplicatas
+- [ ] Rodei `python3 tools/build_dataset.py` e incluí os JSON atualizados
 - [ ] Li as diretrizes de contribuição
 - [ ] Minhas mudanças respeitam a LGPD
 
@@ -171,7 +187,70 @@ Qualquer contexto adicional sobre as mudanças.
 
 ---
 
+## 🗂️ Dataset JSON <a name="dataset-json"></a>
+
+O README é a fonte de verdade do catálogo. A pasta `data/` contém uma versão estruturada dele, usada para busca por tipo de entrada e de retorno.
+
+```bash
+python3 tools/build_dataset.py            # regenera o dataset
+python3 tools/build_dataset.py --report   # mostra estatísticas e fontes sem classificação
+python3 tools/build_dataset.py --check    # só verifica se está atualizado
+```
+
+Requer apenas Python 3, sem dependências.
+
+| Arquivo | O que é |
+|---|---|
+| `data/sources.json` | **Gerado.** Uma entrada por fonte, com os links aninhados. |
+| `data/index.json` | **Gerado.** Um registro por link, achatado para busca. |
+| `data/taxonomy.json` | Manual. Vocabulário permitido de `input`, `output` e `tipo_fonte`. |
+| `data/overrides.json` | Manual. Correções de classificação, por fonte. |
+
+> [!CAUTION]
+> Nunca edite `sources.json` ou `index.json` à mão. Eles são sobrescritos no próximo build e seu trabalho é perdido.
+
+### Corrigindo a classificação de uma fonte
+
+Os campos `input` (o que a fonte aceita) e `output` (o que ela devolve) não existem no texto do README: são inferidos automaticamente por categoria e palavra-chave. Quando a inferência erra, corrija em `data/overrides.json`:
+
+```json
+{
+  "overrides": {
+    "apis-publicas-brasileiras/receitaws-api-cnpj": {
+      "input": ["cnpj"],
+      "output": ["api_json", "dados_cadastrais", "socios"],
+      "observacao": "Rate limit de 3 requisições por minuto."
+    }
+  }
+}
+```
+
+A chave é o `id` da fonte, visível em `sources.json`. Campos aceitos: `input`, `output`, `tipo_fonte`, `descricao`, `observacao`.
+
+Todo termo é validado contra `taxonomy.json`. Para usar um termo novo, adicione-o lá antes, senão o build falha. Rode `--report` para ver a lista de fontes ainda sem classificação: são as que mais precisam de curadoria.
+
+---
+
 ## 📐 Padrões de Formatação
+
+### Pontuação
+
+Não use travessão (`—`) em nenhum texto do projeto. Prefira vírgula, dois-pontos, ponto final ou parênteses. Em títulos de fonte, separe com hífen simples:
+
+```markdown
+### IBAMA - Consulta de Autuações Ambientais
+```
+
+### Alertas
+
+Para destaques, use os alertas nativos do GitHub em vez de negrito com emoji. Os cinco tipos válidos são `NOTE`, `TIP`, `IMPORTANT`, `WARNING` e `CAUTION`:
+
+```markdown
+> [!WARNING]
+> Respeite os limites de requisição das APIs públicas.
+```
+
+O marcador fica sozinho na primeira linha e todo o conteúdo seguinte é prefixado com `>`. Use com parcimônia: alerta em excesso perde o efeito. O menu de navegação no topo de cada documento é um bloco de badges centralizado (`<p align="center">` com badges do shields.io), idêntico em todos os arquivos: ao alterar um item do menu, replique a mudança em todos os documentos.
 
 ### Estrutura de Seções
 
@@ -259,6 +338,9 @@ Antes de enviar seu Pull Request, verifique:
 ---
 
 ## 🚫 O Que NÃO Será Aceito
+
+> [!CAUTION]
+> Pull requests com qualquer um dos itens abaixo são recusados sem análise adicional.
 
 - ❌ Links fora do contexto brasileiro
 - ❌ Links fora do contexto proposto

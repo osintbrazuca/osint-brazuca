@@ -1,20 +1,34 @@
+<h1 align="center">OSINT BRAZUCA</h1>
+
+<p align="center">
+  Catálogo de fontes abertas brasileiras (públicas, legais e prontas pra investigação). 🇧🇷
+</p>
+
 <h1 align="center">
   <br>
   <a href="#"><img src="assets/logo_profile.png" width="300px" alt="OSINT Brazuca"></a>
 </h1>
 
-<h4 align="center">OSINT (Open-source intelligence)</h4>
+
 
 <p align="center">
-<a href="https://github.com/osintbrazuca/osint-brazuca/blob/main/LICENSE"><img src="https://img.shields.io/github/license/osintbrazuca/osint-brazuca?color=blue"></a>
-<a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/osintbrazuca/osint-brazuca"></a>
-<a href="https://github.com/osintbrazuca/osint-brazuca/issues"><img src="https://img.shields.io/github/issues-raw/osintbrazuca/osint-brazuca"></a>
-<a href="https://github.com/osintbrazuca/osint-brazuca/discussions"><img src="https://img.shields.io/github/discussions/osintbrazuca/osint-brazuca"></a>
-<a href="https://github.com/osintbrazuca/osint-brazuca/network/members"><img src="https://img.shields.io/github/forks/osintbrazuca/osint-brazuca"></a>
-<img src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca.svg?style=social" title="Stars" /> 
+<a href="https://github.com/osintbrazuca/osint-brazuca/blob/main/LICENSE"><img alt="Licença" src="https://img.shields.io/github/license/osintbrazuca/osint-brazuca?style=for-the-badge&color=1E88E5&logo=opensourceinitiative&logoColor=white"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/graphs/contributors"><img alt="Contribuidores" src="https://img.shields.io/github/contributors-anon/osintbrazuca/osint-brazuca?style=for-the-badge&color=2E7D32&logo=github&logoColor=white"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/issues"><img alt="Issues abertas" src="https://img.shields.io/github/issues-raw/osintbrazuca/osint-brazuca?style=for-the-badge&color=EF6C00&logo=github&logoColor=white"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/discussions"><img alt="Discussões" src="https://img.shields.io/github/discussions/osintbrazuca/osint-brazuca?style=for-the-badge&color=6A1B9A&logo=github&logoColor=white"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/osintbrazuca/osint-brazuca?style=for-the-badge&color=00838F&logo=github&logoColor=white"></a>
+<a href="https://github.com/osintbrazuca/osint-brazuca/stargazers"><img alt="Estrelas" src="https://img.shields.io/github/stars/osintbrazuca/osint-brazuca?style=for-the-badge&color=F9A825&logo=github&logoColor=white"></a>
 </p>
 
-> **Navegação**: [🏠 README Principal](README.md) | [📖 Exemplos Práticos](EXEMPLOS_PRATICOS.md) | [🔀 Fluxogramas](FLUXOGRAMA.md) | [📊 Guia Rápido](GUIA_RAPIDO.md) | [🤝 Contribuir](CONTRIBUICAO.md)
+<p align="center">
+  <a href="README.md"><img alt="README Principal" src="https://img.shields.io/badge/%F0%9F%8F%A0%20README%20Principal-1E88E5?style=flat-square"></a>
+  <a href="EXEMPLOS_PRATICOS.md"><img alt="Exemplos Práticos" src="https://img.shields.io/badge/%F0%9F%93%96%20Exemplos%20Pr%C3%A1ticos-2E7D32?style=flat-square"></a>
+  <a href="FLUXOGRAMA.md"><img alt="Fluxogramas" src="https://img.shields.io/badge/%F0%9F%94%80%20Fluxogramas-6A1B9A?style=flat-square"></a>
+  <a href="GUIA_RAPIDO.md"><img alt="Guia Rápido" src="https://img.shields.io/badge/%F0%9F%93%8A%20Guia%20R%C3%A1pido-EF6C00?style=flat-square"></a>
+  <a href="CONTRIBUICAO.md"><img alt="Contribuir" src="https://img.shields.io/badge/%F0%9F%A4%9D%20Contribuir-00838F?style=flat-square"></a>
+  <a href="data/"><img alt="Dataset" src="https://img.shields.io/badge/%F0%9F%97%82%EF%B8%8F%20Dataset-F9A825?style=flat-square"></a>
+  <a href="tools/"><img alt="Ferramentas" src="https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F%20Ferramentas-546E7A?style=flat-square"></a>
+</p>
 
 # Introdução
 
@@ -24,13 +38,16 @@ OSINT (sigla para Open source intelligence ou Inteligência de Fontes Abertas) �
 
 ## ⚠️ Avisos Legais e Éticos
 
-> **ATENÇÃO**: Este repositório contém apenas fontes de informação PÚBLICAS e LEGAIS. O uso inadequado das informações aqui contidas é de responsabilidade exclusiva do usuário.
+> [!IMPORTANT]
+> Este repositório contém apenas fontes de informação PÚBLICAS e LEGAIS. O uso inadequado das informações aqui contidas é de responsabilidade exclusiva do usuário.
 
 ### 🔒 LGPD - Lei Geral de Proteção de Dados
+
+> [!WARNING]
 > Todas as consultas devem respeitar a **Lei nº 13.709/2018 (LGPD)**. O tratamento de dados pessoais deve ter base legal e finalidade legítima.
 
-
-> **⚖️ Base Legal**: Lei nº 13.709/2018 (LGPD) | Lei nº 12.965/2014 (Marco Civil) | Lei nº 12.527/2011 (LAI)
+> [!NOTE]
+> **Base Legal**: Lei nº 13.709/2018 (LGPD) | Lei nº 12.965/2014 (Marco Civil) | Lei nº 12.527/2011 (LAI)
 
 <details>
 <summary>✅ Boas Práticas:</summary>
@@ -108,6 +125,30 @@ Para facilitar o uso deste repositório, criamos documentos especializados:
 - 🔍 **[Exemplos Práticos de Investigação](EXEMPLOS_PRATICOS.md)** - 6 casos de uso detalhados com passo a passo
 - 🔄 **[Fluxogramas de Investigação](FLUXOGRAMA.md)** - Diagramas visuais de processos investigativos
 - 🔄 **[Como Contribuir](CONTRIBUICAO.md)** - Diretrizes para diferentes tipos de contribuições
+---
+
+## 🗂️ Dataset Estruturado
+
+Além do catálogo em Markdown, este repositório publica uma versão estruturada em JSON na pasta [`data/`](data/), gerada automaticamente a partir deste README. Ela permite localizar fontes por **tipo de entrada**, ou seja, o que você já tem em mãos (CPF, CNPJ, placa, domínio, telefone...), e por **tipo de retorno**, que dado a fonte devolve.
+
+| Arquivo | Conteúdo |
+|---|---|
+| [`data/sources.json`](data/sources.json) | 435 fontes em 40 categorias, com os links agrupados. Arquivo canônico. |
+| [`data/index.json`](data/index.json) | 1.040 links achatados, um registro por URL. Formato pronto para busca. |
+| [`data/taxonomy.json`](data/taxonomy.json) | Vocabulário controlado: 30 tipos de entrada, 38 de retorno e 14 de fonte. |
+| [`data/overrides.json`](data/overrides.json) | Correções manuais de classificação. |
+
+> [!IMPORTANT]
+> `sources.json` e `index.json` são **gerados**. Não edite à mão: o próximo build sobrescreve. Correções de classificação vão em `overrides.json`.
+
+Para regenerar depois de alterar o README:
+
+```bash
+python3 tools/build_dataset.py
+```
+
+Requer apenas Python 3, sem dependências. Como usar o dataset e como corrigir a classificação de uma fonte: [CONTRIBUICAO.md](CONTRIBUICAO.md#dataset-json).
+
 ---
 
 # Sumário
@@ -196,7 +237,7 @@ Consulta para saber se a Pessoa Física ou Jurídica possuem valores a receber n
 Portal oficial para consulta de beneficiários do programa gás do povo.
 - https://gasdopovo.mds.gov.br/
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -244,38 +285,38 @@ Uma relação de links com dados sobre desaparecidos, gerida pela estado ou ONGs
 
 - https://www.policiacientifica.sp.gov.br/iml/consultadesaparecidos
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
 ## Pessoas Procuradas pela Justiça no Brasil <a name="pessoas-procuradas"></a>
 
-### Brasil — Programa Captura (MJSP)
+### Brasil - Programa Captura (MJSP)
 
 Lista nacional de criminosos mais procurados, organizada por estado, com mandados de prisão prioritários.  
 - https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/operacoes-integradas/projeto-captura
 
-### Maranhão (MA) — SSP/MA | Disque-Denúncia – Procurados
+### Maranhão (MA) - SSP/MA | Disque-Denúncia – Procurados
 
 Lista pública de pessoas procuradas pela Justiça no Maranhão, com fotos e dados básicos.  
 - https://www.ssp.ma.gov.br/disque-denuncia/procurados/
 
-### Ceará (CE) — SSPDS/CE | Procurados
+### Ceará (CE) - SSPDS/CE | Procurados
 
 Portal oficial com relação de foragidos e procurados pela Justiça no Estado do Ceará.  
 - https://procurados.sspds.ce.gov.br/index
 
-### Bahia (BA) — SSP/BA | Baralho do Crime (Espadas)
+### Bahia (BA) - SSP/BA | Baralho do Crime (Espadas)
 
 Lista oficial dos criminosos mais procurados da Bahia, organizada por categorias.  
 - https://disquedenuncia.ssp.ba.gov.br/baralho-do-crime/espadas/
 
-### INTERPOL — Pessoas Procuradas Internacionalmente
+### INTERPOL - Pessoas Procuradas Internacionalmente
 
 Lista pública de fugitivos procurados internacionalmente, incluindo brasileiros com mandados internacionais.  
 - https://www.interpol.int/Contacts/Fugitives-wanted-persons
 
-### Brasil — Sinesp Cidadão (Consulta de Procurados)
+### Brasil - Sinesp Cidadão (Consulta de Procurados)
 
 Consulta oficial de procurados pela Justiça no Brasil via aplicativo do governo federal.  
 - https://www.gov.br/pt-br/servicos/consultar-os-criminosos-mais-procurados-do-brasil  
@@ -283,7 +324,7 @@ Consulta oficial de procurados pela Justiça no Brasil via aplicativo do governo
   - iOS: https://apps.apple.com/br/app/sinesp-cidad%C3%A3o/id768157962
 
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -462,7 +503,7 @@ Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras ins
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -511,7 +552,7 @@ Este repositório contém duas ferramentas úteis para a manipulação e consult
 
 - https://github.com/fernandobortotti/CPF-Tools
 
-### CPF Validador — Validação e Descoberta de CPF via TRT3
+### CPF Validador - Validação e Descoberta de CPF via TRT3
 
 Valida CPFs, confirma titularidade pelo nome e descobre o CPF correto a partir de dígitos parciais ou ilegíveis. Resolve CAPTCHA automaticamente via rede neural local (CRNN ~99% de acurácia), sem depender de serviços externos. Expõe as operações como MCP tools para integração com agentes AI.
 
@@ -701,7 +742,7 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 - https://respondendo.ibge.gov.br/entrevistador.html
 - https://www.ibge.gov.br/acesso-informacao/institucional/documentos-ibge/1861-novo-portal/institucional/17422-servidores.html
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -800,7 +841,7 @@ Dados, análises e pesquisas sobre violência urbana e políticas públicas de s
 Mapa colaborativo de ocorrências policiais reportadas por usuários em diversas cidades brasileiras.
 - https://www.ondefuiroubado.com.br/
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -882,7 +923,7 @@ Emite declaração para eleitores que exerceram função de mesário ou trabalha
 Dados eleitorais tratados, padronizados e prontos para análise estatística.
 - https://basedosdados.org/dataset/br-tse-eleicoes
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -912,7 +953,7 @@ Consulta e certificação de imóveis rurais.
 Diretório de cartórios de registro de imóveis no Brasil.
 - https://www.registrodeimoveis.org.br/cartorios
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -946,7 +987,7 @@ Estatísticas detalhadas sobre mudanças no uso da terra e cobertura vegetal no 
 Mapas de alta resolução (10 metros) de cobertura e uso da terra.
 - https://brasil.mapbiomas.org/mapbiomas-cobertura-10m/
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -968,7 +1009,7 @@ Sistema de análise das informações de comércio exterior brasileiro.
 Consulta de habilitação de empresas no Siscomex.
 - https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/radar
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -986,7 +1027,7 @@ Consulta de patentes registradas no Brasil.
 Consulta de desenhos industriais registrados.
 - https://busca.inpi.gov.br/pePI/jsp/desenhos/DesenhoSearchBasico.jsp
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -1220,7 +1261,7 @@ Consultas de Notas Fiscais Eletrônicas e Portais de Transparência estaduais e 
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -1297,7 +1338,7 @@ Projeto da Open Knowledge Brasil que reúne e disponibiliza em formato aberto os
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -1343,7 +1384,7 @@ Consulta de obras estrangeiras registradas no Brasil.
 Consulta geral de obras audiovisuais cadastradas.
 - https://sad2.ancine.gov.br/obrasnaopublicitarias/consultarObraViaPortal/consultarObraViaPortal.seam
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 ## Telecom 📡 <a name="telecom"></a>
@@ -1443,13 +1484,13 @@ Por meio da busca é possível encontrar orelhões pelo número, localizar ruas,
 
 ### Painéis de Telecomunicações (ANATEL)
 
-### Painel Geral — Indicadores de Telecomunicações
+### Painel Geral - Indicadores de Telecomunicações
 
 Dados gerais de telecomunicações no Brasil, com acesso a todos os painéis setoriais da Anatel, incluindo infraestrutura, acessos, cobertura, espectro, outorgas e conectividade.
 
 - https://informacoes.anatel.gov.br/paineis/
 
-### Meu Município — Panorama Municipal de Telecom
+### Meu Município - Panorama Municipal de Telecom
 
 Panorama completo das telecomunicações de um município específico, com possibilidade de comparação com outros municípios da mesma UF, da região e com o Brasil.
 
@@ -1482,7 +1523,7 @@ Dados de acessos à banda larga fixa, telefonia móvel, telefonia fixa e TV por 
 
 - https://informacoes.anatel.gov.br/paineis/acessos
 
-### Outorga e Licenciamento — Serviço Móvel Pessoal (SMP)
+### Outorga e Licenciamento - Serviço Móvel Pessoal (SMP)
 
 O que contém:
 Autorizações de operadoras, licenciamento de estações rádio base, tecnologias autorizadas e faixas de radiofrequência por município.
@@ -1496,7 +1537,7 @@ Informações sobre uso do espectro de radiofrequência, implantação do 5G e a
 
 - https://informacoes.anatel.gov.br/paineis/espectro-e-orbita/lei-das-antenas
 
-### Certificação de Produtos — Celulares 5G
+### Certificação de Produtos - Celulares 5G
 
 O que contém:
 Lista de aparelhos celulares certificados pela Anatel para operação em redes 5G no Brasil.
@@ -1551,7 +1592,7 @@ Alguns dos sistemas dependem de cadastro de usuário (CPF + Senha). Abaixo dos l
 - https://pt.wikipedia.org/wiki/Discagem_direta_a_dist%C3%A2ncia
 - https://www.mbi.com.br/mbi/biblioteca/utilidades/estado-onde-fica-ddd/
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -1575,7 +1616,7 @@ Estações Radio Base ou ERBs são equipamentos que fazem a conexão entre os te
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -1653,7 +1694,7 @@ Sistema de informações sobre os programas de pós-graduação stricto sensu.
 Consulta de resultados do Exame Nacional de Desempenho dos Estudantes.
 - https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)  
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)  
 ---
 
 ## Mapas e Georreferenciamento 🗺️ <a name="mapas-geo"></a>
@@ -1765,123 +1806,123 @@ Sistema com informações georreferenciadas sobre mineração no Brasil.
 Portal da Infraestrutura Nacional de Dados Espaciais.
 - https://www.inde.gov.br/
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
 ## Território, Meio Ambiente & Fiscalização 🏞️ <a name="territorio-meio-ambiente-fiscalizacao"></a>
 
-### UNAI — Terras Indígenas
+### UNAI - Terras Indígenas
 
 Informações oficiais sobre povos indígenas, terras indígenas, demarcação e proteção territorial.  
 - https://www.gov.br/funai/pt-br
 
 ---
 
-### FUNAI — Mapas e Dados Geoespaciais
+### FUNAI - Mapas e Dados Geoespaciais
 
 Mapas e bases georreferenciadas de terras indígenas (shapefiles, KML, situação territorial).  
 - https://www.gov.br/funai/pt-br/atuacao/terras-indigenas/geoprocessamento-e-mapas
 
 ---
 
-### INCRA — Reforma Agrária e Conflitos Fundiários
+### INCRA - Reforma Agrária e Conflitos Fundiários
 
 Dados sobre assentamentos, imóveis rurais, regularização fundiária e disputas por terra.  
 - https://www.gov.br/incra/pt-br
 
 ---
 
-### INCRA — Dados Abertos Fundiários
+### INCRA - Dados Abertos Fundiários
 
 Bases estatísticas sobre assentamentos, imóveis rurais e políticas fundiárias.  
 - https://www.gov.br/incra/pt-br/acesso-a-informacao/dados-abertos
 
 ---
 
-### IBAMA — Fiscalização Ambiental
+### IBAMA - Fiscalização Ambiental
 
 Fiscalização ambiental, crimes ambientais, desmatamento, garimpo ilegal e sanções administrativas.  
 - https://www.ibama.gov.br
 
 ---
 
-### IBAMA — Autos de Infração e Embargos
+### IBAMA - Autos de Infração e Embargos
 
 Consulta pública de autos de infração ambiental, embargos, apreensões e penalidades.  
 - https://www.gov.br/ibama/pt-br/servicos/consultas/autuacoes-e-embargos
 
 ---
 
-### INPE — Monitoramento Ambiental
+### INPE - Monitoramento Ambiental
 
 Estatísticas oficiais de desmatamento e degradação ambiental com base em imagens de satélite.  
 - https://www.gov.br/inpe/pt-br
 
 ---
 
-### INPE — Programa Queimadas
+### INPE - Programa Queimadas
 
 Dados e estatísticas de focos de incêndio em tempo quase real.  
 - https://queimadas.dgi.inpe.br/queimadas/portal
 
 ---
 
-### ICMBio — Unidades de Conservação
+### ICMBio - Unidades de Conservação
 
 Informações sobre parques nacionais, reservas ambientais e áreas protegidas federais.  
 - https://www.gov.br/icmbio/pt-br
 
 ---
 
-### ICMBio — Dados Abertos Ambientais
+### ICMBio - Dados Abertos Ambientais
 
 Estatísticas e bases públicas sobre unidades de conservação federais.  
 - https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos
 
 ---
 
-### MMA — Ministério do Meio Ambiente
+### MMA - Ministério do Meio Ambiente
 
 Políticas ambientais, programas nacionais e dados institucionais do setor ambiental.  
 https://www.gov.br/mma/pt-br
 
 ---
 
-### MA — Indicadores Ambientais
+### MA - Indicadores Ambientais
 
 Indicadores ambientais oficiais e dados estatísticos nacionais.  
 - https://www.gov.br/mma/pt-br/assuntos/indicadores
 
 ---
 
-### IBGE — Território e Meio Ambiente
+### IBGE - Território e Meio Ambiente
 
 Estatísticas territoriais, ambientais, uso do solo e dados geográficos oficiais.  
 - https://www.ibge.gov.br
 
 ---
 
-### IBGE — Geociências e Mapas
+### IBGE - Geociências e Mapas
 
 Mapas oficiais, limites territoriais, biomas e dados geoespaciais.  
 - https://www.ibge.gov.br/geociencias
 
 ---
 
-### ANM — Agência Nacional de Mineração
+### ANM - Agência Nacional de Mineração
 
 Dados sobre mineração, processos minerários, áreas concedidas e fiscalização.  
 - https://www.gov.br/anm/pt-br
 
 ---
 
-### ANM — Dados Abertos de Mineração
+### ANM - Dados Abertos de Mineração
 
 Bases estatísticas e dados públicos sobre atividades minerárias no Brasil.  
 - https://www.gov.br/anm/pt-br/acesso-a-informacao/dados-abertos
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -1941,7 +1982,7 @@ Sistema de monitoramento de eventos de seca e seus impactos na saúde.
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -2171,7 +2212,7 @@ Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados
 - ```country:"BR" org:"Governo" | org:"Prefeitura"```
     - https://www.shodan.io/search?query=country%3A%22BR%22+org%3A%22Governo%22+%7C+org%3A%22Prefeitura%22  
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -2291,7 +2332,7 @@ O projeto reúne mais de 1600 links úteis categorizados em formato de bookmarks
 
 - https://github.com/felipeluan20/OSINTKit-Brasil
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -2343,7 +2384,7 @@ Lista de recursos para encontrar grupos públicos de Telegram.
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -2563,7 +2604,7 @@ Base de dados macroeconômicos, sociais e regionais do Brasil.
 Consulta de CEP e endereçamento postal.
 - https://www.correios.com.br/enviar-e-receber/ferramentas/consulta-cep
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -2772,7 +2813,7 @@ Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -2828,7 +2869,7 @@ Rastreamento de informações sobre transporte na cidade de Curitiba. É possive
 
 - https://www.flixbus.com.br/track/
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -2875,7 +2916,7 @@ Rastreamento de informações sobre transporte na cidade de Curitiba. É possive
 
 - https://centraldecruzeiros.com.br/
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -2925,7 +2966,7 @@ Todas as aeronaves civis brasileiras devem ser registradas na ANAC. O Registro A
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3169,7 +3210,7 @@ Câmeras de monitoramento de rodovias, segurança pública e clima por estado.
 
 - https://mapas.sinfra.mt.gov.br/portal/apps/sites/#/central-infra-20-2-1/pages/monitoramento-de-obras
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3279,7 +3320,7 @@ Canais para denúncias anônimas e informações sobre segurança pública.
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3303,7 +3344,7 @@ Notificações de incidentes, estatísticas de segurança e alertas de vulnerabi
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3342,7 +3383,7 @@ Informações sobre o Cadastro Positivo e consulta de bureaus de crédito autori
 - Consultar informações sobre: Veículos, Mandados de prisão, Pessoas desaparecidas, Criminosos procurados
 - https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3359,7 +3400,7 @@ Informações sobre proprietários de domínios brasileiros.
 - https://kaponline.com.br/whois/
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3496,7 +3537,7 @@ curl 'https://queridodiario.ok.org.br/api/gazettes?territory_id=3550308&since=20
 
 </details>
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3510,7 +3551,7 @@ Processos administrativos e sanções relacionadas a criptoativos.
 Comunicados oficiais sobre esquemas fraudulentos.
 - https://www.gov.br/cvm/pt-br/assuntos/noticias
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3542,7 +3583,7 @@ Localização de abrigos emergenciais por município.
 Identificação de áreas suscetíveis a deslizamentos e inundações.
 - https://www.cprm.gov.br/publique/Gestao-Territorial/Cartas-de-Suscetibilidade-a-Movimentos-Gravitacionais-de-Massa-e-Inundacoes-5511.html
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3583,7 +3624,7 @@ Sistema de registro e acompanhamento de apagões e interrupções.
 Comparação de tarifas de energia elétrica por região.
 - https://www.aneel.gov.br/ranking-das-tarifas
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3722,7 +3763,7 @@ Sistema de consulta pública de processos administrativos eletrônicos do estado
 Consulta pública de boletins do Corpo de Bombeiros do Pará.
 - https://siga.bombeiros.pa.gov.br/boletins.php
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -3885,7 +3926,7 @@ Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A.
 Portal de acesso à informação da São Paulo Transporte S/A com dados sobre contratos, despesas, licitações e transparência.
 - https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
 
@@ -4052,7 +4093,7 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 - Diretório com histórico de arquivos - https://ftp.registro.br/pub/numeracao/origin/
 - Lista atualizada - https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt
 
-##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-blue?style=plastic&logo=Acclaim)](#sumário)
+##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 
 
@@ -4084,3 +4125,16 @@ Contribuições de qualquer tipo são bem-vindas!
 À todas as instituições públicas governamentais e inciativas privadas que disponibilizaram os links para consulta.
 <br>
 À todos que de alguma forma contribuíram para o compartilhamento de links e tricks de consulta nos websites.
+
+
+---
+
+<div align="center">
+
+**⭐ Se este projeto foi útil, considere dar uma estrela!**
+
+**💡 Sugestões e feedbacks são sempre bem-vindos!**
+
+**💀 Hacker Hackeia!**
+
+</div>
