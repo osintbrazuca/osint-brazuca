@@ -1,14 +1,12 @@
-<h1 align="center">OSINT BRAZUCA</h1>
+<h1 align="center">🇧🇷 OSINT BRAZUCA 🇧🇷</h1>
 
 <p align="center">
-  Catálogo de fontes abertas brasileiras (públicas, legais e prontas pra investigação). 🇧🇷
+  Catálogo de fontes abertas brasileiras (públicas, legais e prontas pra investigação).<br> Conhecer para proteger, investigar para defender.
 </p>
 
 <h1 align="center">
-  <br>
-  <a href="#"><img src="assets/logo_profile.png" width="300px" alt="OSINT Brazuca"></a>
+  <a href="#"><img src="assets/logo_profile.png" width="600px" alt="OSINT Brazuca"></a>
 </h1>
-
 
 
 <p align="center">
