@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  <a href="#"><img src="assets/logo_profile.png" width="600px" alt="OSINT Brazuca"></a>
+  <a href="#"><img src="./assets/logo_profile.png" width="600px" alt="OSINT Brazuca"></a>
 </h1>
 
 
