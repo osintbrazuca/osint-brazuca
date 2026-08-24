@@ -204,7 +204,7 @@ Por aqui você terá condições de saber se atende aos critérios de elegibilid
 
 Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido por meio de consulta no endereço eletrônico:
 
-- https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp
+- https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/
 
 ### Extrato do Benefício de Prestação Continuada (INSS)
 
