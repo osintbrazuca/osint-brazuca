@@ -3460,6 +3460,45 @@
       "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
     },
     {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Consulta de instituições reguladas ou supervisionadas pelo Banco Central, por nome, CNPJ (8 primeiros dígitos), UF e município, com opção de incluir agências e instituições em regime especial ou liquidação.",
+      "fonte": "Banco Central - Encontre uma Instituição",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/banco-central-encontre-uma-instituicao",
+      "input": [
+        "cnpj",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.bcb.gov.br/meubc/encontreinstituicao"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Consulta gratuita de protestos em cartórios de todo o Brasil. Para consulta é necessário apenas o CPF ou CNPJ.",
+      "fonte": "CENPROT - Consulta de Protestos",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cenprot-consulta-de-protestos",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "debito"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://www.pesquisaprotesto.com.br/"
+    },
+    {
       "categoria": "Estatísticas Segurança Pública",
       "categoria_id": "estatisticas-seguranca-publica",
       "descricao": "Ministério da Justiça e Segurança Pública (MJSP)",
@@ -19547,5 +19586,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1058
+  "total": 1060
 }

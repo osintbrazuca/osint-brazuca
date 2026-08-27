@@ -85,6 +85,16 @@
       "input": ["cnpj", "cpf", "razao_social"],
       "output": ["sancao"],
       "observacao": "Sem cadastro, com hCaptcha."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/banco-central-encontre-uma-instituicao": {
+      "input": ["nome", "cnpj", "uf", "municipio"],
+      "output": ["dados_cadastrais", "situacao_cadastral"],
+      "observacao": "Sem cadastro. Aceita apenas os 8 primeiros dígitos do CNPJ."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/cenprot-consulta-de-protestos": {
+      "input": ["cpf", "cnpj"],
+      "output": ["debito"],
+      "observacao": "Consulta gratuita; a certidão é paga."
     }
   }
 }

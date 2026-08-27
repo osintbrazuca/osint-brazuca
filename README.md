@@ -745,6 +745,14 @@ Emissão de certidão que informa se a pessoa física ou jurídica consta no Ban
 Consulta do Certificado de Regularidade do FGTS do empregador. Para consulta é necessário o CNPJ ou CEI e a UF.
 - https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf
 
+### Banco Central - Encontre uma Instituição
+Consulta de instituições reguladas ou supervisionadas pelo Banco Central, por nome, CNPJ (8 primeiros dígitos), UF e município, com opção de incluir agências e instituições em regime especial ou liquidação.
+- https://www.bcb.gov.br/meubc/encontreinstituicao
+
+### CENPROT - Consulta de Protestos
+Consulta gratuita de protestos em cartórios de todo o Brasil. Para consulta é necessário apenas o CPF ou CNPJ.
+- https://www.pesquisaprotesto.com.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
