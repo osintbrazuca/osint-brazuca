@@ -4967,6 +4967,24 @@
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
       "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Lista pública do Ministério do Trabalho e Emprego com os empregadores flagrados em fiscalização, em formato PDF.",
+      "fonte": "MTE - Cadastro de Empregadores que Submeteram Trabalhadores a Condições Análogas à Escravidão",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/mte-cadastro-de-empregadores-que-submeteram-trabalhadores-a-condicoes-analogas-a-escravidao",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "dataset",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-de-atuacao/cadastro_de_empregadores.pdf"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
       "descricao": "Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.",
       "fonte": "TCU - Tribunal de Contas da União",
       "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-tribunal-de-contas-da-uniao",
@@ -19627,5 +19645,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1062
+  "total": 1063
 }

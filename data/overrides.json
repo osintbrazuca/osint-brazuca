@@ -99,6 +99,11 @@
     "registros-ambientais/ibama-certificado-de-regularidade-ctf": {
       "input": ["cpf", "cnpj"],
       "output": ["certidao", "situacao_cadastral"]
+    },
+    "transparencia-publica-e-defesa-do-consumidor/mte-cadastro-de-empregadores-que-submeteram-trabalhadores-a-condicoes-analogas-a-escravidao": {
+      "input": ["nenhum"],
+      "output": ["sancao", "dataset"],
+      "observacao": "Lista em PDF, atualizada periodicamente pelo MTE."
     }
   }
 }

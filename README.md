@@ -1138,6 +1138,10 @@ Plataforma unificada de licitações conforme nova Lei de Licitações (Lei 14.1
 Consulta pública de pessoas físicas, jurídicas e estrangeiros com restrição para contratar com a Administração Pública, por CNPJ, CPF ou razão social.
 - https://www3.comprasnet.gov.br/sicaf-web/public/pages/consultas/consultarRestricaoContratarAdministracaoPublica.jsf
 
+### MTE - Cadastro de Empregadores que Submeteram Trabalhadores a Condições Análogas à Escravidão
+Lista pública do Ministério do Trabalho e Emprego com os empregadores flagrados em fiscalização, em formato PDF.
+- https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-de-atuacao/cadastro_de_empregadores.pdf
+
 ### TCU - Tribunal de Contas da União
 Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.
 - https://portal.tcu.gov.br/
