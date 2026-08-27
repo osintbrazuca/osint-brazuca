@@ -1003,6 +1003,10 @@ Cadastro obrigatório de pessoas físicas e jurídicas que realizam atividades p
 Sistema de controle do transporte e armazenamento de produtos e subprodutos florestais.
 - https://sinaflor2.ibama.gov.br/
 
+### IBAMA - Certificado de Regularidade (CTF)
+Consulta da regularidade de pessoas físicas e jurídicas no Cadastro Técnico Federal de Atividades Potencialmente Poluidoras. Para consulta é necessário apenas o CPF ou CNPJ.
+- https://servicos.ibama.gov.br/ctf/publico/certificado_regularidade_consulta.php
+
 ### CETESB - Licenciamento Ambiental São Paulo
 Consulta de licenças ambientais do Estado de São Paulo.
 - https://cetesb.sp.gov.br/licenciamentoambiental/

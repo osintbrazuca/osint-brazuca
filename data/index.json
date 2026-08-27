@@ -4568,6 +4568,25 @@
     {
       "categoria": "Registros Ambientais",
       "categoria_id": "registros-ambientais",
+      "descricao": "Consulta da regularidade de pessoas físicas e jurídicas no Cadastro Técnico Federal de Atividades Potencialmente Poluidoras. Para consulta é necessário apenas o CPF ou CNPJ.",
+      "fonte": "IBAMA - Certificado de Regularidade (CTF)",
+      "fonte_id": "registros-ambientais/ibama-certificado-de-regularidade-ctf",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://servicos.ibama.gov.br/ctf/publico/certificado_regularidade_consulta.php"
+    },
+    {
+      "categoria": "Registros Ambientais",
+      "categoria_id": "registros-ambientais",
       "descricao": "Consulta de licenças ambientais do Estado de São Paulo.",
       "fonte": "CETESB - Licenciamento Ambiental São Paulo",
       "fonte_id": "registros-ambientais/cetesb-licenciamento-ambiental-sao-paulo",
@@ -19608,5 +19627,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1061
+  "total": 1062
 }

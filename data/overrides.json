@@ -95,6 +95,10 @@
       "input": ["cpf", "cnpj"],
       "output": ["debito"],
       "observacao": "Consulta gratuita; a certidão é paga."
+    },
+    "registros-ambientais/ibama-certificado-de-regularidade-ctf": {
+      "input": ["cpf", "cnpj"],
+      "output": ["certidao", "situacao_cadastral"]
     }
   }
 }
