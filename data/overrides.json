@@ -15,6 +15,104 @@
       "input": ["dominio"],
       "output": ["api_json", "dados_cadastrais"],
       "observacao": "RDAP para domínios .br."
+    },
+    "outras-buscas/mcti-ministerio-da-ciencia-tecnologia-e-inovacao": {
+      "input": ["nenhum"],
+      "output": ["estatistica", "dataset"],
+      "observacao": "Portal institucional; dados de CT&I ficam em painéis e bases vinculadas ao ministério."
+    },
+    "outras-buscas/embrapii-unidades-de-pesquisa-e-inovacao": {
+      "input": ["nenhum"],
+      "output": ["dados_cadastrais", "endereco"],
+      "observacao": "Lista de unidades credenciadas, com localização e áreas de competência."
+    },
+    "outras-buscas/finep-financiadora-de-estudos-e-projetos": {
+      "input": ["nenhum"],
+      "output": ["contrato_publico", "estatistica"],
+      "observacao": "Editais, chamadas públicas e projetos financiados."
+    },
+    "outras-buscas/suframa-superintendencia-da-zona-franca-de-manaus": {
+      "input": ["nenhum"],
+      "output": ["contrato_publico", "estatistica"],
+      "observacao": "Projetos industriais aprovados e indicadores da Zona Franca de Manaus."
+    },
+    "outras-buscas/sinesp-cidadao-site-a-app": {
+      "input": ["placa", "chassi", "nome"],
+      "output": ["veiculo", "mandado_prisao", "dados_cadastrais"],
+      "observacao": "Exige cadastro gov.br. Consulta veículos, mandados de prisão, desaparecidos e procurados."
+    },
+    "outras-buscas/conhecimento-de-empreendimentos-por-dentro": {
+      "input": ["endereco", "municipio"],
+      "tipo_fonte": "privado",
+      "output": ["imovel", "endereco"],
+      "observacao": "Plataformas de hospedagem e aluguel com fotos internas de imóveis e empreendimentos."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/consulta-restituicao-do-imposto-de-renda": {
+      "input": ["cpf"],
+      "output": ["debito"],
+      "observacao": "Requer CPF e data de nascimento. Retorna banco, agência e data da restituição."
+    },
+    "registros-eleitorais-e-politicos/consultar-zonas-eleitorais-por-uf": {
+      "input": ["uf", "municipio"],
+      "output": ["endereco", "dados_cadastrais"]
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/susep-consulta-de-corretores": {
+      "input": ["nome", "cnpj"],
+      "output": ["dados_cadastrais", "situacao_cadastral"],
+      "observacao": "Sem cadastro. O campo de documento só aceita CNPJ (pessoa jurídica); corretores pessoa natural são localizados pelo nome."
+    },
+    "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes": {
+      "input": ["cpf", "cnpj", "nome", "uf", "municipio"],
+      "output": ["certidao", "sancao", "dados_cadastrais", "processo", "dataset"],
+      "observacao": "Sem cadastro. Certidões referem-se aos últimos 20 anos e não incluem decisões sem trânsito em julgado, anuladas ou suspensas. UF e município das listas vêm do domicílio na Receita Federal."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/pgfn-divida-aberta": {
+      "input": ["cpf", "cnpj", "nome", "razao_social"],
+      "output": ["debito", "dados_cadastrais"],
+      "observacao": "Sem cadastro. Lista apenas dívidas em situação irregular; permite exportar resultados."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/tst-certidao-negativa-de-debitos-trabalhistas-cndt": {
+      "input": ["cpf", "cnpj"],
+      "output": ["certidao", "debito"],
+      "observacao": "Sem cadastro. Certidão positiva ou negativa emitida na hora."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/caixa-consulta-regularidade-do-empregador-crf": {
+      "input": ["cnpj", "uf"],
+      "output": ["certidao", "situacao_cadastral"],
+      "observacao": "Sem cadastro. Aceita CNPJ ou CEI."
+    },
+    "transparencia-publica-e-defesa-do-consumidor/sicaf-consulta-de-restricao-para-contratar-com-a-administracao-publica": {
+      "input": ["cnpj", "cpf", "razao_social"],
+      "output": ["sancao"],
+      "observacao": "Sem cadastro, com hCaptcha."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/banco-central-encontre-uma-instituicao": {
+      "input": ["nome", "cnpj", "uf", "municipio"],
+      "output": ["dados_cadastrais", "situacao_cadastral"],
+      "observacao": "Sem cadastro. Aceita apenas os 8 primeiros dígitos do CNPJ."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/cenprot-consulta-de-protestos": {
+      "input": ["cpf", "cnpj"],
+      "output": ["debito"],
+      "observacao": "Consulta gratuita; a certidão é paga."
+    },
+    "registros-ambientais/ibama-certificado-de-regularidade-ctf": {
+      "input": ["cpf", "cnpj"],
+      "output": ["certidao", "situacao_cadastral"]
+    },
+    "transparencia-publica-e-defesa-do-consumidor/mte-cadastro-de-empregadores-que-submeteram-trabalhadores-a-condicoes-analogas-a-escravidao": {
+      "input": ["nenhum"],
+      "output": ["sancao", "dataset"],
+      "observacao": "Lista em PDF, atualizada periodicamente pelo MTE."
+    },
+    "outras-buscas/ipea-mapa-das-organizacoes-da-sociedade-civil": {
+      "input": ["nome", "cnpj"],
+      "output": ["dados_cadastrais", "contrato_publico", "estatistica"]
+    },
+    "apis-publicas-brasileiras/cnj-api-publica-datajud": {
+      "input": ["numero_processo"],
+      "output": ["api_json", "processo", "movimentacao"],
+      "observacao": "Chave pública de acesso publicada na própria wiki."
     }
   }
 }

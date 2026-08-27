@@ -229,6 +229,30 @@ A chave é o `id` da fonte, visível em `sources.json`. Campos aceitos: `input`,
 
 Todo termo é validado contra `taxonomy.json`. Para usar um termo novo, adicione-o lá antes, senão o build falha. Rode `--report` para ver a lista de fontes ainda sem classificação: são as que mais precisam de curadoria.
 
+### Validação automática
+
+Todo pull request passa pelo workflow `.github/workflows/validar-dataset.yml`, que falha se:
+
+- `sources.json` ou `index.json` estiverem desatualizados (`build_dataset.py --check`)
+- houver fonte sem nenhum link ou sem classificação (`--report`)
+- houver travessão (`—`) fora de crases, menu de navegação diferente entre os documentos ou link interno sem âncora (`tools/validar_docs.py`)
+
+Para rodar as mesmas verificações antes de cada commit, ative o hook do repositório uma única vez:
+
+```bash
+git config core.hooksPath tools/hooks
+```
+
+### Ferramentas de curadoria (só local)
+
+```bash
+python3 tools/validar_docs.py --avisos   # lista URLs repetidas em mais de uma fonte e URLs em http://
+python3 tools/checar_links.py            # testa todas as URLs do catálogo e resume ok/redirect/bloqueio/offline
+python3 tools/checar_links.py --filtro detran --csv links.csv
+```
+
+Esses avisos não bloqueiam o commit: URL repetida pode ser legítima (a mesma consulta em duas categorias) e muitos sites só existem em `http://`. Sites `.gov.br` costumam bloquear robôs (`bloqueio` = 401/403/405/429/503), então confira no navegador antes de reportar um link como quebrado.
+
 ---
 
 ## 📐 Padrões de Formatação
