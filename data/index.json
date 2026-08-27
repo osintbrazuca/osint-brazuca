@@ -4868,6 +4868,25 @@
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
       "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Consulta pública de pessoas físicas, jurídicas e estrangeiros com restrição para contratar com a Administração Pública, por CNPJ, CPF ou razão social.",
+      "fonte": "SICAF - Consulta de Restrição para Contratar com a Administração Pública",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/sicaf-consulta-de-restricao-para-contratar-com-a-administracao-publica",
+      "input": [
+        "cnpj",
+        "cpf",
+        "razao_social"
+      ],
+      "label": "",
+      "output": [
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www3.comprasnet.gov.br/sicaf-web/public/pages/consultas/consultarRestricaoContratarAdministracaoPublica.jsf"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
       "descricao": "Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.",
       "fonte": "TCU - Tribunal de Contas da União",
       "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-tribunal-de-contas-da-uniao",
@@ -19528,5 +19547,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1057
+  "total": 1058
 }

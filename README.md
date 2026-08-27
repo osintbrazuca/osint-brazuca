@@ -1118,6 +1118,10 @@ Sistema oficial de compras e licitações públicas do governo federal.
 Plataforma unificada de licitações conforme nova Lei de Licitações (Lei 14.133/2021).
 - https://www.gov.br/pncp/
 
+### SICAF - Consulta de Restrição para Contratar com a Administração Pública
+Consulta pública de pessoas físicas, jurídicas e estrangeiros com restrição para contratar com a Administração Pública, por CNPJ, CPF ou razão social.
+- https://www3.comprasnet.gov.br/sicaf-web/public/pages/consultas/consultarRestricaoContratarAdministracaoPublica.jsf
+
 ### TCU - Tribunal de Contas da União
 Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.
 - https://portal.tcu.gov.br/

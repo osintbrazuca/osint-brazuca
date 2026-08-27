@@ -80,6 +80,11 @@
       "input": ["cnpj", "uf"],
       "output": ["certidao", "situacao_cadastral"],
       "observacao": "Sem cadastro. Aceita CNPJ ou CEI."
+    },
+    "transparencia-publica-e-defesa-do-consumidor/sicaf-consulta-de-restricao-para-contratar-com-a-administracao-publica": {
+      "input": ["cnpj", "cpf", "razao_social"],
+      "output": ["sancao"],
+      "observacao": "Sem cadastro, com hCaptcha."
     }
   }
 }
