@@ -894,6 +894,22 @@ Emissão de certidão que comprova a regularidade da situação eleitoral do cid
 Emissão de certidão informando se o eleitor possui condenações por crimes eleitorais registradas na Justiça Eleitoral.
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-crimes-eleitorais
 
+### Certidão Negativa de Alistamento
+Emissão de certidão que comprova a inexistência de inscrição eleitoral para o cidadão.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-negativa-alistamento
+
+### Certidão Simplificada de Dados e Biometria
+Emissão de certidão com os dados cadastrais do eleitor e a situação da coleta biométrica.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-simplificada-dados-cadastrais
+
+### Certidão de Ausência de Débito da Última Eleição
+Emissão de certidão que comprova a inexistência de débito referente à última eleição.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-ausencia-debito-ultima-eleicao
+
+### Validação de Documento da Justiça Eleitoral
+Verifica a autenticidade de certidões e documentos emitidos pela Justiça Eleitoral a partir do código de validação.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/validacao
+
 ### Consulta Débitos Eleitorais
 Verifica se o eleitor possui débitos eleitorais pendentes, como multas por ausência nas eleições sem justificativa.
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/debitos/listar

@@ -4102,6 +4102,87 @@
     {
       "categoria": "Registros Eleitorais e Políticos",
       "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Emissão de certidão que comprova a inexistência de inscrição eleitoral para o cidadão.",
+      "fonte": "Certidão Negativa de Alistamento",
+      "fonte_id": "registros-eleitorais-e-politicos/certidao-negativa-de-alistamento",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-negativa-alistamento"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Emissão de certidão com os dados cadastrais do eleitor e a situação da coleta biométrica.",
+      "fonte": "Certidão Simplificada de Dados e Biometria",
+      "fonte_id": "registros-eleitorais-e-politicos/certidao-simplificada-de-dados-e-biometria",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-simplificada-dados-cadastrais"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Emissão de certidão que comprova a inexistência de débito referente à última eleição.",
+      "fonte": "Certidão de Ausência de Débito da Última Eleição",
+      "fonte_id": "registros-eleitorais-e-politicos/certidao-de-ausencia-de-debito-da-ultima-eleicao",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "debito"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-ausencia-debito-ultima-eleicao"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Verifica a autenticidade de certidões e documentos emitidos pela Justiça Eleitoral a partir do código de validação.",
+      "fonte": "Validação de Documento da Justiça Eleitoral",
+      "fonte_id": "registros-eleitorais-e-politicos/validacao-de-documento-da-justica-eleitoral",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/validacao"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
       "descricao": "Verifica se o eleitor possui débitos eleitorais pendentes, como multas por ausência nas eleições sem justificativa.",
       "fonte": "Consulta Débitos Eleitorais",
       "fonte_id": "registros-eleitorais-e-politicos/consulta-debitos-eleitorais",
@@ -19447,5 +19528,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1053
+  "total": 1057
 }
