@@ -3705,6 +3705,9 @@ Consultas de registro profissional e certidões em conselhos federais e regionai
 <details>
 <summary>Conselhos de Medicina (CRM)</summary>
 
+**CFM - Conselho Federal de Medicina**
+- Busca por médicos: https://portal.cfm.org.br/busca-medicos/
+
 **CREMESP - Conselho Regional de Medicina do Estado de São Paulo**
 - Portal: https://www.cremesp.org.br/
 

@@ -17746,6 +17746,25 @@
         "nome",
         "registro_profissional"
       ],
+      "label": "Busca por médicos",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://portal.cfm.org.br/busca-medicos/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
       "label": "Portal",
       "output": [
         "certidao",
@@ -19701,5 +19720,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1066
+  "total": 1067
 }

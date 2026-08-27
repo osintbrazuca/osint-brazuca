@@ -13190,6 +13190,11 @@
       ],
       "links": [
         {
+          "label": "Busca por médicos",
+          "uf": null,
+          "url": "https://portal.cfm.org.br/busca-medicos/"
+        },
+        {
           "label": "Portal",
           "uf": null,
           "url": "https://www.cremesp.org.br/"
@@ -13354,7 +13359,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3741,
+      "readme_linha": 3744,
       "tipo_fonte": "estadual"
     },
     {
@@ -13474,7 +13479,7 @@
         "certidao",
         "dados_cadastrais"
       ],
-      "readme_linha": 3782,
+      "readme_linha": 3785,
       "tipo_fonte": "ong"
     },
     {
@@ -13508,7 +13513,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3811,
+      "readme_linha": 3814,
       "tipo_fonte": "estadual"
     },
     {
@@ -13534,7 +13539,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3823,
+      "readme_linha": 3826,
       "tipo_fonte": "estadual"
     },
     {
@@ -13560,7 +13565,7 @@
         "dados_cadastrais",
         "processo"
       ],
-      "readme_linha": 3827,
+      "readme_linha": 3830,
       "tipo_fonte": "estadual"
     },
     {
@@ -13584,7 +13589,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3831,
+      "readme_linha": 3834,
       "tipo_fonte": "estadual"
     },
     {
@@ -13607,7 +13612,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3841,
+      "readme_linha": 3844,
       "tipo_fonte": "ong"
     },
     {
@@ -13630,7 +13635,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3845,
+      "readme_linha": 3848,
       "tipo_fonte": "federal"
     },
     {
@@ -13654,7 +13659,7 @@
         "dados_cadastrais",
         "estatistica"
       ],
-      "readme_linha": 3849,
+      "readme_linha": 3852,
       "tipo_fonte": "ong"
     },
     {
@@ -13677,7 +13682,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3853,
+      "readme_linha": 3856,
       "tipo_fonte": "federal"
     },
     {
@@ -13700,7 +13705,7 @@
       "output": [
         "licenca_ambiental"
       ],
-      "readme_linha": 3857,
+      "readme_linha": 3860,
       "tipo_fonte": "federal"
     },
     {
@@ -13728,7 +13733,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 3861,
+      "readme_linha": 3864,
       "tipo_fonte": "privado"
     },
     {
@@ -13816,7 +13821,7 @@
       "output": [
         "imovel"
       ],
-      "readme_linha": 3873,
+      "readme_linha": 3876,
       "tipo_fonte": "privado"
     },
     {
@@ -13867,7 +13872,7 @@
         "endereco",
         "imovel"
       ],
-      "readme_linha": 3895,
+      "readme_linha": 3898,
       "tipo_fonte": "privado"
     },
     {
@@ -13890,7 +13895,7 @@
       "output": [
         "sancao"
       ],
-      "readme_linha": 3908,
+      "readme_linha": 3911,
       "tipo_fonte": "estadual"
     },
     {
@@ -13923,7 +13928,7 @@
       "output": [
         "certidao"
       ],
-      "readme_linha": 3914,
+      "readme_linha": 3917,
       "tipo_fonte": "privado"
     },
     {
@@ -13947,7 +13952,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3925,
+      "readme_linha": 3928,
       "tipo_fonte": "privado"
     },
     {
@@ -13970,7 +13975,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3929,
+      "readme_linha": 3932,
       "tipo_fonte": "federal"
     },
     {
@@ -14004,7 +14009,7 @@
         "contrato_publico",
         "licitacao"
       ],
-      "readme_linha": 3935,
+      "readme_linha": 3938,
       "tipo_fonte": "privado"
     },
     {
@@ -14090,7 +14095,7 @@
         "licitacao",
         "processo"
       ],
-      "readme_linha": 3945,
+      "readme_linha": 3948,
       "tipo_fonte": "privado"
     },
     {
@@ -14114,7 +14119,7 @@
         "contrato_publico",
         "licitacao"
       ],
-      "readme_linha": 3994,
+      "readme_linha": 3997,
       "tipo_fonte": "estadual"
     },
     {
@@ -14148,7 +14153,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 4157,
+      "readme_linha": 4160,
       "tipo_fonte": "privado"
     }
   ],
