@@ -3419,6 +3419,10 @@ Portal oficial do Ministério com informações sobre políticas de ciência, te
 Consulta de unidades credenciadas da Empresa Brasileira de Pesquisa e Inovação Industrial.
 - https://embrapii.org.br/unidades/
 
+### IPEA - Mapa das Organizações da Sociedade Civil
+Busca de organizações da sociedade civil por nome ou CNPJ, com dados cadastrais, projetos e recursos públicos recebidos.
+- https://mapaosc.ipea.gov.br/
+
 ### Finep - Financiadora de Estudos e Projetos
 Portal da agência de fomento à inovação com informações sobre editais, financiamentos e projetos.
 - http://www.finep.gov.br/

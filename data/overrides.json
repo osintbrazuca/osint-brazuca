@@ -104,6 +104,10 @@
       "input": ["nenhum"],
       "output": ["sancao", "dataset"],
       "observacao": "Lista em PDF, atualizada periodicamente pelo MTE."
+    },
+    "outras-buscas/ipea-mapa-das-organizacoes-da-sociedade-civil": {
+      "input": ["nome", "cnpj"],
+      "output": ["dados_cadastrais", "contrato_publico", "estatistica"]
     }
   }
 }

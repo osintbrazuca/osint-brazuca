@@ -16941,6 +16941,26 @@
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
+      "descricao": "Busca de organizações da sociedade civil por nome ou CNPJ, com dados cadastrais, projetos e recursos públicos recebidos.",
+      "fonte": "IPEA - Mapa das Organizações da Sociedade Civil",
+      "fonte_id": "outras-buscas/ipea-mapa-das-organizacoes-da-sociedade-civil",
+      "input": [
+        "cnpj",
+        "nome"
+      ],
+      "label": "",
+      "output": [
+        "contrato_publico",
+        "dados_cadastrais",
+        "estatistica"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://mapaosc.ipea.gov.br/"
+    },
+    {
+      "categoria": "Outras Buscas",
+      "categoria_id": "outras-buscas",
       "descricao": "Portal da agência de fomento à inovação com informações sobre editais, financiamentos e projetos.",
       "fonte": "Finep - Financiadora de Estudos e Projetos",
       "fonte_id": "outras-buscas/finep-financiadora-de-estudos-e-projetos",
@@ -19662,5 +19682,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1064
+  "total": 1065
 }
