@@ -3372,6 +3372,11 @@
           "label": "",
           "uf": null,
           "url": "https://portaldatransparencia.gov.br/api-de-dados"
+        },
+        {
+          "label": "1. Acesse",
+          "uf": null,
+          "url": "https://portaldatransparencia.gov.br/api-de-dados"
         }
       ],
       "nome": "Portal da Transparência - API de Dados",
@@ -3408,7 +3413,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1040,
+      "readme_linha": 1077,
       "tipo_fonte": "federal"
     },
     {
@@ -3435,7 +3440,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1044,
+      "readme_linha": 1081,
       "tipo_fonte": "federal"
     },
     {
@@ -3461,7 +3466,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1048,
+      "readme_linha": 1085,
       "tipo_fonte": "federal"
     },
     {
@@ -3487,7 +3492,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1052,
+      "readme_linha": 1089,
       "tipo_fonte": "federal"
     },
     {
@@ -3515,7 +3520,7 @@
         "processo",
         "sancao"
       ],
-      "readme_linha": 1056,
+      "readme_linha": 1093,
       "tipo_fonte": "federal"
     },
     {
@@ -3533,11 +3538,6 @@
           "label": "",
           "uf": null,
           "url": "https://pesquisa.apps.tcu.gov.br/"
-        },
-        {
-          "label": "1. Acesse",
-          "uf": null,
-          "url": "https://portaldatransparencia.gov.br/api-de-dados"
         }
       ],
       "nome": "TCU - Consulta de Acórdãos",
@@ -3546,7 +3546,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1060,
+      "readme_linha": 1097,
       "tipo_fonte": "federal"
     },
     {

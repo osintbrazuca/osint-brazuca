@@ -4625,6 +4625,27 @@
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
       "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.",
+      "fonte": "Portal da Transparência - API de Dados",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/portal-da-transparencia-api-de-dados",
+      "input": [
+        "cnpj",
+        "nome"
+      ],
+      "label": "1. Acesse",
+      "output": [
+        "api_json",
+        "contrato_publico",
+        "licitacao",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://portaldatransparencia.gov.br/api-de-dados"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
       "descricao": "Catálogo central de dados abertos do governo federal com mais de 10 mil conjuntos de dados.",
       "fonte": "Dados.gov.br - Portal Brasileiro de Dados Abertos",
       "fonte_id": "transparencia-publica-e-defesa-do-consumidor/dados-gov-br-portal-brasileiro-de-dados-abertos",
@@ -4745,26 +4766,6 @@
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://pesquisa.apps.tcu.gov.br/"
-    },
-    {
-      "categoria": "Transparência Pública e Defesa do Consumidor",
-      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
-      "descricao": "Busca de decisões do TCU sobre prestação de contas e irregularidades.",
-      "fonte": "TCU - Consulta de Acórdãos",
-      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-consulta-de-acordaos",
-      "input": [
-        "cnpj",
-        "nome"
-      ],
-      "label": "1. Acesse",
-      "output": [
-        "contrato_publico",
-        "licitacao",
-        "sancao"
-      ],
-      "tipo_fonte": "federal",
-      "uf": null,
-      "url": "https://portaldatransparencia.gov.br/api-de-dados"
     },
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",

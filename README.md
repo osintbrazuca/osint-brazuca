@@ -1037,30 +1037,6 @@ Consulta pública de sanções aplicadas a pessoas físicas e jurídicas.
 Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.
 - https://portaldatransparencia.gov.br/api-de-dados
 
-### Dados.gov.br - Portal Brasileiro de Dados Abertos
-Catálogo central de dados abertos do governo federal com mais de 10 mil conjuntos de dados.
-- https://dados.gov.br/
-
-### Painel de Compras Governamentais
-Centralização de informações sobre licitações, contratos e compras do governo federal.
-- https://paineldecompras.economia.gov.br/
-
-### ComprasNet - Portal de Compras do Governo Federal
-Sistema oficial de compras e licitações públicas do governo federal.
-- https://www.gov.br/compras/pt-br
-
-### PNCP - Portal Nacional de Contratações Públicas
-Plataforma unificada de licitações conforme nova Lei de Licitações (Lei 14.133/2021).
-- https://www.gov.br/pncp/
-
-### TCU - Tribunal de Contas da União
-Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.
-- https://portal.tcu.gov.br/
-
-### TCU - Consulta de Acórdãos
-Busca de decisões do TCU sobre prestação de contas e irregularidades.
-- https://pesquisa.apps.tcu.gov.br/
-
 **📖 Documentação da API:**
 <details>
 <summary>Exemplos de Uso da API</summary>
@@ -1097,6 +1073,30 @@ print(response.json())
 - Formato de resposta: JSON
 
 </details>
+
+### Dados.gov.br - Portal Brasileiro de Dados Abertos
+Catálogo central de dados abertos do governo federal com mais de 10 mil conjuntos de dados.
+- https://dados.gov.br/
+
+### Painel de Compras Governamentais
+Centralização de informações sobre licitações, contratos e compras do governo federal.
+- https://paineldecompras.economia.gov.br/
+
+### ComprasNet - Portal de Compras do Governo Federal
+Sistema oficial de compras e licitações públicas do governo federal.
+- https://www.gov.br/compras/pt-br
+
+### PNCP - Portal Nacional de Contratações Públicas
+Plataforma unificada de licitações conforme nova Lei de Licitações (Lei 14.133/2021).
+- https://www.gov.br/pncp/
+
+### TCU - Tribunal de Contas da União
+Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.
+- https://portal.tcu.gov.br/
+
+### TCU - Consulta de Acórdãos
+Busca de decisões do TCU sobre prestação de contas e irregularidades.
+- https://pesquisa.apps.tcu.gov.br/
 
 ### TCU - Plataforma de Certidões
 Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.
