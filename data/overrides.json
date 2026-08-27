@@ -65,6 +65,21 @@
       "input": ["cpf", "cnpj", "nome", "uf", "municipio"],
       "output": ["certidao", "sancao", "dados_cadastrais", "processo", "dataset"],
       "observacao": "Sem cadastro. Certidões referem-se aos últimos 20 anos e não incluem decisões sem trânsito em julgado, anuladas ou suspensas. UF e município das listas vêm do domicílio na Receita Federal."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/pgfn-divida-aberta": {
+      "input": ["cpf", "cnpj", "nome", "razao_social"],
+      "output": ["debito", "dados_cadastrais"],
+      "observacao": "Sem cadastro. Lista apenas dívidas em situação irregular; permite exportar resultados."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/tst-certidao-negativa-de-debitos-trabalhistas-cndt": {
+      "input": ["cpf", "cnpj"],
+      "output": ["certidao", "debito"],
+      "observacao": "Sem cadastro. Certidão positiva ou negativa emitida na hora."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/caixa-consulta-regularidade-do-empregador-crf": {
+      "input": ["cnpj", "uf"],
+      "output": ["certidao", "situacao_cadastral"],
+      "observacao": "Sem cadastro. Aceita CNPJ ou CEI."
     }
   }
 }

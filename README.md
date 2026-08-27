@@ -733,6 +733,18 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 Pesquisa pública de corretores de seguros habilitados pela Superintendência de Seguros Privados, pessoa natural ou jurídica. Permite filtrar por tipo de pessoa, CNPJ (pessoa jurídica), nome, produto e situação do registro (ativo ou cancelado).
 - https://www2.susep.gov.br/safe/Corretores/pesquisa
 
+### PGFN - Dívida Aberta
+Consulta pública de devedores inscritos em dívida ativa da União e do FGTS em situação irregular. Pesquisa por CPF, CNPJ, nome ou razão social, com filtros por natureza e valor da dívida e exportação dos resultados.
+- https://www.dividaaberta.pgfn.gov.br/consultar-devedores
+
+### TST - Certidão Negativa de Débitos Trabalhistas (CNDT)
+Emissão de certidão que informa se a pessoa física ou jurídica consta no Banco Nacional de Devedores Trabalhistas. Para consulta é necessário apenas o CPF ou CNPJ.
+- https://cndt-certidao.tst.jus.br/inicio.faces
+
+### Caixa - Consulta Regularidade do Empregador (CRF)
+Consulta do Certificado de Regularidade do FGTS do empregador. Para consulta é necessário o CNPJ ou CEI e a UF.
+- https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
