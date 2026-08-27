@@ -4769,6 +4769,206 @@
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
       "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Certidão de contas julgadas irregulares",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/emitir-certidao-contas-julgadas-irregulares"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Certidão de inabilitados para função pública",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": "PA",
+      "url": "https://certidoes.apps.tcu.gov.br/emitir-certidao-inabilitados"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Certidão de licitante inidôneo",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/emitir-certidao-inidoneos"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Certidão de processos",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/emitir-certidao-processos"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Lista eleitoral de contas julgadas irregulares",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/lista-implicacao-eleitoral"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Lista de contas julgadas irregulares",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/lista-responsaveis"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Lista de inabilitados",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/lista-inabilitados"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Lista de licitantes inidôneos",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/lista-inidoneos"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
       "descricao": "Órgão responsável pela defesa do patrimônio público, combate à corrupção, transparência e controle interno do Governo Federal.",
       "fonte": "CGU - Controladoria-Geral da União",
       "fonte_id": "transparencia-publica-e-defesa-do-consumidor/cgu-controladoria-geral-da-uniao",
@@ -19187,5 +19387,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1042
+  "total": 1050
 }

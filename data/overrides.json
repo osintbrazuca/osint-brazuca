@@ -60,6 +60,11 @@
       "input": ["nome", "cnpj"],
       "output": ["dados_cadastrais", "situacao_cadastral"],
       "observacao": "Sem cadastro. O campo de documento só aceita CNPJ (pessoa jurídica); corretores pessoa natural são localizados pelo nome."
+    },
+    "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes": {
+      "input": ["cpf", "cnpj", "nome", "uf", "municipio"],
+      "output": ["certidao", "sancao", "dados_cadastrais", "processo", "dataset"],
+      "observacao": "Sem cadastro. Certidões referem-se aos últimos 20 anos e não incluem decisões sem trânsito em julgado, anuladas ou suspensas. UF e município das listas vêm do domicílio na Receita Federal."
     }
   }
 }

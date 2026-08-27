@@ -1098,6 +1098,23 @@ print(response.json())
 
 </details>
 
+### TCU - Plataforma de Certidões
+Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.
+
+<details>
+<summary>Links de pesquisa</summary>
+
+- Certidão de contas julgadas irregulares - https://certidoes.apps.tcu.gov.br/emitir-certidao-contas-julgadas-irregulares
+- Certidão de inabilitados para função pública - https://certidoes.apps.tcu.gov.br/emitir-certidao-inabilitados
+- Certidão de licitante inidôneo - https://certidoes.apps.tcu.gov.br/emitir-certidao-inidoneos
+- Certidão de processos - https://certidoes.apps.tcu.gov.br/emitir-certidao-processos
+- Lista eleitoral de contas julgadas irregulares - https://certidoes.apps.tcu.gov.br/lista-implicacao-eleitoral
+- Lista de contas julgadas irregulares - https://certidoes.apps.tcu.gov.br/lista-responsaveis
+- Lista de inabilitados - https://certidoes.apps.tcu.gov.br/lista-inabilitados
+- Lista de licitantes inidôneos - https://certidoes.apps.tcu.gov.br/lista-inidoneos
+
+</details>
+
 ### CGU - Controladoria-Geral da União
 Órgão responsável pela defesa do patrimônio público, combate à corrupção, transparência e controle interno do Governo Federal.
 - https://www.gov.br/cgu/pt-br
