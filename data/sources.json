@@ -8837,7 +8837,7 @@
       "categoria_id": "datasets-dados-abertos",
       "classificacao": "heuristica",
       "descricao": "O Plano de Dados Abertos do MTur abrange os setores do turismo e da cultura, e é o documento orientador para as ações de implementação e promoção de abertura de dados produzidos ou que estão sob a responsabilidade do Ministério do Turismo (MTur)",
-      "id": "datasets-dados-abertos/dados-mtur-ministerio-do-meio-ambiente-e-mudanca-do-clima",
+      "id": "datasets-dados-abertos/dados-mtur-ministerio-do-turismo",
       "input": [
         "nenhum"
       ],
@@ -8848,7 +8848,7 @@
           "url": "https://dados.turismo.gov.br/dataset/"
         }
       ],
-      "nome": "Dados MTur - Ministério do Meio Ambiente e Mudança do Clima",
+      "nome": "Dados MTur - Ministério do Turismo",
       "output": [
         "dataset"
       ],

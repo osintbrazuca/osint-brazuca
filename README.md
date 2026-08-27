@@ -2485,7 +2485,7 @@ O Portal Brasileiro de Dados Abertos do Banco Central é o meio utilizado pelo B
 Relatórios do Banco Central com dados contábeis e prudenciais das instituições financeiras, por data-base, tipo de instituição e tipo de relatório.
 - https://www3.bcb.gov.br/ifdata/
 
-### Dados MTur - Ministério do Meio Ambiente e Mudança do Clima
+### Dados MTur - Ministério do Turismo
 
 O Plano de Dados Abertos do MTur abrange os setores do turismo e da cultura, e é o documento orientador para as ações de implementação e promoção de abertura de dados produzidos ou que estão sob a responsabilidade do Ministério do Turismo (MTur)
 
