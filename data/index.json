@@ -11720,6 +11720,23 @@
     {
       "categoria": "Datasets / Dados Abertos",
       "categoria_id": "datasets-dados-abertos",
+      "descricao": "Relatórios do Banco Central com dados contábeis e prudenciais das instituições financeiras, por data-base, tipo de instituição e tipo de relatório.",
+      "fonte": "IF.data - Dados Selecionados de Instituições Financeiras",
+      "fonte_id": "datasets-dados-abertos/if-data-dados-selecionados-de-instituicoes-financeiras",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "dataset"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www3.bcb.gov.br/ifdata/"
+    },
+    {
+      "categoria": "Datasets / Dados Abertos",
+      "categoria_id": "datasets-dados-abertos",
       "descricao": "O Plano de Dados Abertos do MTur abrange os setores do turismo e da cultura, e é o documento orientador para as ações de implementação e promoção de abertura de dados produzidos ou que estão sob a responsabilidade do Ministério do Turismo (MTur)",
       "fonte": "Dados MTur - Ministério do Meio Ambiente e Mudança do Clima",
       "fonte_id": "datasets-dados-abertos/dados-mtur-ministerio-do-meio-ambiente-e-mudanca-do-clima",
@@ -19645,5 +19662,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1063
+  "total": 1064
 }
