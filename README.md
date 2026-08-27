@@ -3485,6 +3485,10 @@ Conjunto de APIs públicas e gratuitas com informações sobre CEP, CNPJ, bancos
 - ISBN
 - Taxas de câmbio
 
+### CNJ - API Pública DataJud
+API pública do Conselho Nacional de Justiça para consulta de metadados e movimentações de processos de todos os tribunais, com documentação, exemplos e modelo de dados na wiki.
+- https://datajud-wiki.cnj.jus.br/api-publica/
+
 ### ReceitaWS - API CNPJ
 API gratuita para consulta de informações cadastrais de empresas brasileiras.
 

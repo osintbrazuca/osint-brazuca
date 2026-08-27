@@ -17182,6 +17182,25 @@
     {
       "categoria": "APIs Públicas Brasileiras",
       "categoria_id": "apis-publicas-brasileiras",
+      "descricao": "API pública do Conselho Nacional de Justiça para consulta de metadados e movimentações de processos de todos os tribunais, com documentação, exemplos e modelo de dados na wiki.",
+      "fonte": "CNJ - API Pública DataJud",
+      "fonte_id": "apis-publicas-brasileiras/cnj-api-publica-datajud",
+      "input": [
+        "numero_processo"
+      ],
+      "label": "",
+      "output": [
+        "api_json",
+        "movimentacao",
+        "processo"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://datajud-wiki.cnj.jus.br/api-publica/"
+    },
+    {
+      "categoria": "APIs Públicas Brasileiras",
+      "categoria_id": "apis-publicas-brasileiras",
       "descricao": "API gratuita para consulta de informações cadastrais de empresas brasileiras.",
       "fonte": "ReceitaWS - API CNPJ",
       "fonte_id": "apis-publicas-brasileiras/receitaws-api-cnpj",
@@ -19682,5 +19701,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1065
+  "total": 1066
 }

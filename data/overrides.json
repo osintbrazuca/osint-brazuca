@@ -108,6 +108,11 @@
     "outras-buscas/ipea-mapa-das-organizacoes-da-sociedade-civil": {
       "input": ["nome", "cnpj"],
       "output": ["dados_cadastrais", "contrato_publico", "estatistica"]
+    },
+    "apis-publicas-brasileiras/cnj-api-publica-datajud": {
+      "input": ["numero_processo"],
+      "output": ["api_json", "processo", "movimentacao"],
+      "observacao": "Chave pública de acesso publicada na própria wiki."
     }
   }
 }
