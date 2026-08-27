@@ -206,10 +206,6 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 
 - https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/
 
-### Extrato do Benefício de Prestação Continuada (INSS)
-
-- ...
-
 ### Meu INSS
 Portal oficial para consulta de benefícios previdenciários, extrato de contribuições, agendamentos e outros serviços do INSS.
 - https://meu.inss.gov.br/
@@ -683,6 +679,7 @@ Consulta de inutilização de numeração de documentos fiscais eletrônicos e v
 ### Consulta Restituição do Imposto de Renda
 
 Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.
+- https://www.restituicao.receita.fazenda.gov.br/
 
 ### Portal e-CAC Receita Federal
 Centro de Atendimento Virtual (e-CAC) da Receita Federal permite acesso a serviços digitais.
@@ -906,7 +903,8 @@ Emite declaração para eleitores que exerceram função de mesário ou trabalha
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/declaracao-trabalho-eleitoral
 
 
-## Consultar Zonas Eleitorais por UF
+### Consultar Zonas Eleitorais por UF
+Lista as zonas eleitorais e unidades da Justiça Eleitoral de cada estado.
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/unidades-justica-eleitoral/por-uf
 
 ### Base dos Dados - Eleições
@@ -1472,7 +1470,7 @@ Por meio da busca é possível encontrar orelhões pelo número, localizar ruas,
 
 - http://sistemas.anatel.gov.br/sgmu/fiqueligado/tups.asp
 
-### Painéis de Telecomunicações (ANATEL)
+#### Painéis de Telecomunicações (ANATEL)
 
 ### Painel Geral - Indicadores de Telecomunicações
 
@@ -3183,10 +3181,6 @@ Câmeras de monitoramento de rodovias, segurança pública e clima por estado.
 ### Câmera do Aeroporto Internacional de Florianópolis - SBFL Com Fonia
 
 - https://www.youtube.com/@maaxcamaovivo
-
-### Câmera do Aeroporto da Pampulha - Belo Horizonte 24 horas (BHZ)(SBBH)
-
-- ...
 
 ### Câmera do Aeroporto Guararapes - Recife - SBRF
 

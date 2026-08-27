@@ -3102,6 +3102,27 @@
     {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.",
+      "fonte": "Consulta Restituição do Imposto de Renda",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/consulta-restituicao-do-imposto-de-renda",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "debito",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.restituicao.receita.fazenda.gov.br/"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
       "descricao": "Centro de Atendimento Virtual (e-CAC) da Receita Federal permite acesso a serviços digitais.",
       "fonte": "Portal e-CAC Receita Federal",
       "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/portal-e-cac-receita-federal",
@@ -4126,29 +4147,38 @@
       "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/declaracao-trabalho-eleitoral"
     },
     {
-      "categoria": "Consultar Zonas Eleitorais por UF",
-      "categoria_id": "consultar-zonas-eleitorais-por-uf",
-      "descricao": "",
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Lista as zonas eleitorais e unidades da Justiça Eleitoral de cada estado.",
       "fonte": "Consultar Zonas Eleitorais por UF",
-      "fonte_id": "consultar-zonas-eleitorais-por-uf/consultar-zonas-eleitorais-por-uf",
-      "input": [],
+      "fonte_id": "registros-eleitorais-e-politicos/consultar-zonas-eleitorais-por-uf",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "dados_cadastrais"
+      ],
       "tipo_fonte": "judiciario",
       "uf": null,
       "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/unidades-justica-eleitoral/por-uf"
     },
     {
-      "categoria": "Consultar Zonas Eleitorais por UF",
-      "categoria_id": "consultar-zonas-eleitorais-por-uf",
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
       "descricao": "Dados eleitorais tratados, padronizados e prontos para análise estatística.",
       "fonte": "Base dos Dados - Eleições",
-      "fonte_id": "consultar-zonas-eleitorais-por-uf/base-dos-dados-eleicoes",
+      "fonte_id": "registros-eleitorais-e-politicos/base-dos-dados-eleicoes",
       "input": [
-        "nenhum"
+        "cpf",
+        "nome",
+        "titulo_eleitor"
       ],
       "label": "",
       "output": [
+        "dados_cadastrais",
         "estatistica"
       ],
       "tipo_fonte": "ong",
@@ -19078,5 +19108,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1040
+  "total": 1041
 }

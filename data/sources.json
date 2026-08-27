@@ -76,23 +76,6 @@
       "categoria": "Benefícios sociais (Políticas Públicas)",
       "categoria_id": "beneficios-sociais-politicas-publicas",
       "classificacao": "heuristica",
-      "descricao": "",
-      "id": "beneficios-sociais-politicas-publicas/extrato-do-beneficio-de-prestacao-continuada-inss",
-      "input": [
-        "cpf"
-      ],
-      "links": [],
-      "nome": "Extrato do Benefício de Prestação Continuada (INSS)",
-      "output": [
-        "beneficio"
-      ],
-      "readme_linha": 209,
-      "tipo_fonte": "indefinido"
-    },
-    {
-      "categoria": "Benefícios sociais (Políticas Públicas)",
-      "categoria_id": "beneficios-sociais-politicas-publicas",
-      "classificacao": "heuristica",
       "descricao": "Portal oficial para consulta de benefícios previdenciários, extrato de contribuições, agendamentos e outros serviços do INSS.",
       "id": "beneficios-sociais-politicas-publicas/meu-inss",
       "input": [
@@ -109,7 +92,7 @@
       "output": [
         "beneficio"
       ],
-      "readme_linha": 213,
+      "readme_linha": 209,
       "tipo_fonte": "federal"
     },
     {
@@ -137,7 +120,7 @@
       "output": [
         "beneficio"
       ],
-      "readme_linha": 217,
+      "readme_linha": 213,
       "tipo_fonte": "federal"
     },
     {
@@ -160,7 +143,7 @@
       "output": [
         "beneficio"
       ],
-      "readme_linha": 225,
+      "readme_linha": 221,
       "tipo_fonte": "federal"
     },
     {
@@ -278,7 +261,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 236,
+      "readme_linha": 232,
       "tipo_fonte": "estadual"
     },
     {
@@ -302,7 +285,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 266,
+      "readme_linha": 262,
       "tipo_fonte": "estadual"
     },
     {
@@ -326,7 +309,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 272,
+      "readme_linha": 268,
       "tipo_fonte": "estadual"
     },
     {
@@ -349,7 +332,7 @@
       "output": [
         "mandado_prisao"
       ],
-      "readme_linha": 284,
+      "readme_linha": 280,
       "tipo_fonte": "federal"
     },
     {
@@ -372,7 +355,7 @@
       "output": [
         "mandado_prisao"
       ],
-      "readme_linha": 289,
+      "readme_linha": 285,
       "tipo_fonte": "estadual"
     },
     {
@@ -395,7 +378,7 @@
       "output": [
         "mandado_prisao"
       ],
-      "readme_linha": 294,
+      "readme_linha": 290,
       "tipo_fonte": "estadual"
     },
     {
@@ -418,7 +401,7 @@
       "output": [
         "mandado_prisao"
       ],
-      "readme_linha": 299,
+      "readme_linha": 295,
       "tipo_fonte": "estadual"
     },
     {
@@ -441,7 +424,7 @@
       "output": [
         "mandado_prisao"
       ],
-      "readme_linha": 304,
+      "readme_linha": 300,
       "tipo_fonte": "internacional"
     },
     {
@@ -474,7 +457,7 @@
       "output": [
         "mandado_prisao"
       ],
-      "readme_linha": 309,
+      "readme_linha": 305,
       "tipo_fonte": "federal"
     },
     {
@@ -523,7 +506,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 323,
+      "readme_linha": 319,
       "tipo_fonte": "judiciario"
     },
     {
@@ -591,7 +574,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 338,
+      "readme_linha": 334,
       "tipo_fonte": "judiciario"
     },
     {
@@ -619,7 +602,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 372,
+      "readme_linha": 368,
       "tipo_fonte": "judiciario"
     },
     {
@@ -647,7 +630,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 376,
+      "readme_linha": 372,
       "tipo_fonte": "judiciario"
     },
     {
@@ -676,7 +659,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 380,
+      "readme_linha": 376,
       "tipo_fonte": "judiciario"
     },
     {
@@ -719,7 +702,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 386,
+      "readme_linha": 382,
       "tipo_fonte": "judiciario"
     },
     {
@@ -747,7 +730,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 401,
+      "readme_linha": 397,
       "tipo_fonte": "privado"
     },
     {
@@ -775,7 +758,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 407,
+      "readme_linha": 403,
       "tipo_fonte": "privado"
     },
     {
@@ -803,7 +786,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 413,
+      "readme_linha": 409,
       "tipo_fonte": "ong"
     },
     {
@@ -866,7 +849,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 419,
+      "readme_linha": 415,
       "tipo_fonte": "judiciario"
     },
     {
@@ -894,7 +877,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 435,
+      "readme_linha": 431,
       "tipo_fonte": "judiciario"
     },
     {
@@ -922,7 +905,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 439,
+      "readme_linha": 435,
       "tipo_fonte": "judiciario"
     },
     {
@@ -950,7 +933,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 443,
+      "readme_linha": 439,
       "tipo_fonte": "judiciario"
     },
     {
@@ -978,7 +961,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 447,
+      "readme_linha": 443,
       "tipo_fonte": "judiciario"
     },
     {
@@ -1081,7 +1064,7 @@
         "partes",
         "processo"
       ],
-      "readme_linha": 451,
+      "readme_linha": 447,
       "tipo_fonte": "judiciario"
     },
     {
@@ -1106,7 +1089,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 501,
+      "readme_linha": 497,
       "tipo_fonte": "federal"
     },
     {
@@ -1231,7 +1214,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 505,
+      "readme_linha": 501,
       "tipo_fonte": "federal"
     },
     {
@@ -1257,7 +1240,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 535,
+      "readme_linha": 531,
       "tipo_fonte": "federal"
     },
     {
@@ -1283,7 +1266,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 539,
+      "readme_linha": 535,
       "tipo_fonte": "internacional"
     },
     {
@@ -1308,7 +1291,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 545,
+      "readme_linha": 541,
       "tipo_fonte": "internacional"
     },
     {
@@ -1333,7 +1316,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 551,
+      "readme_linha": 547,
       "tipo_fonte": "privado"
     },
     {
@@ -1360,7 +1343,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 557,
+      "readme_linha": 553,
       "tipo_fonte": "judiciario"
     },
     {
@@ -1391,7 +1374,7 @@
         "situacao_cadastral",
         "socios"
       ],
-      "readme_linha": 563,
+      "readme_linha": 559,
       "tipo_fonte": "privado"
     },
     {
@@ -1442,7 +1425,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 571,
+      "readme_linha": 567,
       "tipo_fonte": "estadual"
     },
     {
@@ -1469,7 +1452,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 595,
+      "readme_linha": 591,
       "tipo_fonte": "ong"
     },
     {
@@ -1495,7 +1478,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 602,
+      "readme_linha": 598,
       "tipo_fonte": "ong"
     },
     {
@@ -1521,7 +1504,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 609,
+      "readme_linha": 605,
       "tipo_fonte": "ong"
     },
     {
@@ -1547,7 +1530,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 616,
+      "readme_linha": 612,
       "tipo_fonte": "federal"
     },
     {
@@ -1573,7 +1556,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 620,
+      "readme_linha": 616,
       "tipo_fonte": "ong"
     },
     {
@@ -1599,7 +1582,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 624,
+      "readme_linha": 620,
       "tipo_fonte": "federal"
     },
     {
@@ -1625,7 +1608,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 628,
+      "readme_linha": 624,
       "tipo_fonte": "ong"
     },
     {
@@ -1651,7 +1634,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 632,
+      "readme_linha": 628,
       "tipo_fonte": "ong"
     },
     {
@@ -1681,7 +1664,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 641,
+      "readme_linha": 637,
       "tipo_fonte": "federal"
     },
     {
@@ -1807,7 +1790,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 648,
+      "readme_linha": 644,
       "tipo_fonte": "estadual"
     },
     {
@@ -1832,7 +1815,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 678,
+      "readme_linha": 674,
       "tipo_fonte": "federal"
     },
     {
@@ -1846,15 +1829,21 @@
         "cpf",
         "nome"
       ],
-      "links": [],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.restituicao.receita.fazenda.gov.br/"
+        }
+      ],
       "nome": "Consulta Restituição do Imposto de Renda",
       "output": [
         "dados_cadastrais",
         "debito",
         "situacao_cadastral"
       ],
-      "readme_linha": 683,
-      "tipo_fonte": "indefinido"
+      "readme_linha": 679,
+      "tipo_fonte": "federal"
     },
     {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
@@ -1878,7 +1867,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 687,
+      "readme_linha": 684,
       "tipo_fonte": "federal"
     },
     {
@@ -1906,7 +1895,7 @@
         "sancao",
         "situacao_cadastral"
       ],
-      "readme_linha": 691,
+      "readme_linha": 688,
       "tipo_fonte": "federal"
     },
     {
@@ -1932,7 +1921,7 @@
         "sancao",
         "situacao_cadastral"
       ],
-      "readme_linha": 695,
+      "readme_linha": 692,
       "tipo_fonte": "federal"
     },
     {
@@ -1959,7 +1948,7 @@
         "sancao",
         "situacao_cadastral"
       ],
-      "readme_linha": 699,
+      "readme_linha": 696,
       "tipo_fonte": "federal"
     },
     {
@@ -2006,7 +1995,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 704,
+      "readme_linha": 701,
       "tipo_fonte": "estadual"
     },
     {
@@ -2031,7 +2020,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 719,
+      "readme_linha": 716,
       "tipo_fonte": "federal"
     },
     {
@@ -2056,7 +2045,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 723,
+      "readme_linha": 720,
       "tipo_fonte": "federal"
     },
     {
@@ -2087,7 +2076,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 728,
+      "readme_linha": 725,
       "tipo_fonte": "federal"
     },
     {
@@ -2115,7 +2104,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 744,
+      "readme_linha": 741,
       "tipo_fonte": "federal"
     },
     {
@@ -2223,7 +2212,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 756,
+      "readme_linha": 753,
       "tipo_fonte": "estadual"
     },
     {
@@ -2251,7 +2240,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 817,
+      "readme_linha": 814,
       "tipo_fonte": "ong"
     },
     {
@@ -2274,7 +2263,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 822,
+      "readme_linha": 819,
       "tipo_fonte": "privado"
     },
     {
@@ -2297,7 +2286,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 826,
+      "readme_linha": 823,
       "tipo_fonte": "ong"
     },
     {
@@ -2321,7 +2310,7 @@
         "estatistica",
         "mapa"
       ],
-      "readme_linha": 830,
+      "readme_linha": 827,
       "tipo_fonte": "privado"
     },
     {
@@ -2346,7 +2335,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 840,
+      "readme_linha": 837,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2371,7 +2360,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 844,
+      "readme_linha": 841,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2396,7 +2385,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 848,
+      "readme_linha": 845,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2421,7 +2410,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 852,
+      "readme_linha": 849,
       "tipo_fonte": "legislativo"
     },
     {
@@ -2446,7 +2435,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 856,
+      "readme_linha": 853,
       "tipo_fonte": "legislativo"
     },
     {
@@ -2472,7 +2461,7 @@
         "dados_cadastrais",
         "dataset"
       ],
-      "readme_linha": 860,
+      "readme_linha": 857,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2498,7 +2487,7 @@
         "dados_cadastrais",
         "dataset"
       ],
-      "readme_linha": 864,
+      "readme_linha": 861,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2524,7 +2513,7 @@
         "api_json",
         "dados_cadastrais"
       ],
-      "readme_linha": 868,
+      "readme_linha": 865,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2549,7 +2538,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 872,
+      "readme_linha": 869,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2575,7 +2564,7 @@
         "certidao",
         "dados_cadastrais"
       ],
-      "readme_linha": 876,
+      "readme_linha": 873,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2601,7 +2590,7 @@
         "certidao",
         "dados_cadastrais"
       ],
-      "readme_linha": 880,
+      "readme_linha": 877,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2629,7 +2618,7 @@
         "debito",
         "multa"
       ],
-      "readme_linha": 884,
+      "readme_linha": 881,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2654,7 +2643,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 888,
+      "readme_linha": 885,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2680,7 +2669,7 @@
         "dados_cadastrais",
         "situacao_cadastral"
       ],
-      "readme_linha": 892,
+      "readme_linha": 889,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2705,7 +2694,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 896,
+      "readme_linha": 893,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2733,7 +2722,7 @@
         "dados_cadastrais",
         "licitacao"
       ],
-      "readme_linha": 900,
+      "readme_linha": 897,
       "tipo_fonte": "judiciario"
     },
     {
@@ -2758,16 +2747,20 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 904,
+      "readme_linha": 901,
       "tipo_fonte": "judiciario"
     },
     {
-      "categoria": "Consultar Zonas Eleitorais por UF",
-      "categoria_id": "consultar-zonas-eleitorais-por-uf",
-      "classificacao": "indefinido",
-      "descricao": "",
-      "id": "consultar-zonas-eleitorais-por-uf/consultar-zonas-eleitorais-por-uf",
-      "input": [],
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "classificacao": "heuristica",
+      "descricao": "Lista as zonas eleitorais e unidades da Justiça Eleitoral de cada estado.",
+      "id": "registros-eleitorais-e-politicos/consultar-zonas-eleitorais-por-uf",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
       "links": [
         {
           "label": "",
@@ -2776,18 +2769,22 @@
         }
       ],
       "nome": "Consultar Zonas Eleitorais por UF",
-      "output": [],
-      "readme_linha": 909,
+      "output": [
+        "dados_cadastrais"
+      ],
+      "readme_linha": 906,
       "tipo_fonte": "judiciario"
     },
     {
-      "categoria": "Consultar Zonas Eleitorais por UF",
-      "categoria_id": "consultar-zonas-eleitorais-por-uf",
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
       "classificacao": "heuristica",
       "descricao": "Dados eleitorais tratados, padronizados e prontos para análise estatística.",
-      "id": "consultar-zonas-eleitorais-por-uf/base-dos-dados-eleicoes",
+      "id": "registros-eleitorais-e-politicos/base-dos-dados-eleicoes",
       "input": [
-        "nenhum"
+        "cpf",
+        "nome",
+        "titulo_eleitor"
       ],
       "links": [
         {
@@ -2798,9 +2795,10 @@
       ],
       "nome": "Base dos Dados - Eleições",
       "output": [
+        "dados_cadastrais",
         "estatistica"
       ],
-      "readme_linha": 912,
+      "readme_linha": 910,
       "tipo_fonte": "ong"
     },
     {
@@ -2824,7 +2822,7 @@
       "output": [
         "imovel"
       ],
-      "readme_linha": 922,
+      "readme_linha": 920,
       "tipo_fonte": "ong"
     },
     {
@@ -2848,7 +2846,7 @@
       "output": [
         "imovel"
       ],
-      "readme_linha": 926,
+      "readme_linha": 924,
       "tipo_fonte": "estadual"
     },
     {
@@ -2872,7 +2870,7 @@
       "output": [
         "imovel"
       ],
-      "readme_linha": 930,
+      "readme_linha": 928,
       "tipo_fonte": "municipal"
     },
     {
@@ -2896,7 +2894,7 @@
       "output": [
         "imovel"
       ],
-      "readme_linha": 934,
+      "readme_linha": 932,
       "tipo_fonte": "federal"
     },
     {
@@ -2920,7 +2918,7 @@
       "output": [
         "imovel"
       ],
-      "readme_linha": 938,
+      "readme_linha": 936,
       "tipo_fonte": "federal"
     },
     {
@@ -2946,7 +2944,7 @@
         "certidao",
         "imovel"
       ],
-      "readme_linha": 942,
+      "readme_linha": 940,
       "tipo_fonte": "ong"
     },
     {
@@ -2970,7 +2968,7 @@
         "auto_infracao",
         "licenca_ambiental"
       ],
-      "readme_linha": 952,
+      "readme_linha": 950,
       "tipo_fonte": "federal"
     },
     {
@@ -2994,7 +2992,7 @@
         "auto_infracao",
         "licenca_ambiental"
       ],
-      "readme_linha": 956,
+      "readme_linha": 954,
       "tipo_fonte": "federal"
     },
     {
@@ -3018,7 +3016,7 @@
         "auto_infracao",
         "licenca_ambiental"
       ],
-      "readme_linha": 960,
+      "readme_linha": 958,
       "tipo_fonte": "federal"
     },
     {
@@ -3042,7 +3040,7 @@
         "auto_infracao",
         "licenca_ambiental"
       ],
-      "readme_linha": 964,
+      "readme_linha": 962,
       "tipo_fonte": "estadual"
     },
     {
@@ -3067,7 +3065,7 @@
         "licenca_ambiental",
         "mapa"
       ],
-      "readme_linha": 968,
+      "readme_linha": 966,
       "tipo_fonte": "ong"
     },
     {
@@ -3092,7 +3090,7 @@
         "estatistica",
         "licenca_ambiental"
       ],
-      "readme_linha": 972,
+      "readme_linha": 970,
       "tipo_fonte": "ong"
     },
     {
@@ -3117,7 +3115,7 @@
         "licenca_ambiental",
         "mapa"
       ],
-      "readme_linha": 976,
+      "readme_linha": 974,
       "tipo_fonte": "ong"
     },
     {
@@ -3140,7 +3138,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 986,
+      "readme_linha": 984,
       "tipo_fonte": "federal"
     },
     {
@@ -3163,7 +3161,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 990,
+      "readme_linha": 988,
       "tipo_fonte": "federal"
     },
     {
@@ -3186,7 +3184,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 994,
+      "readme_linha": 992,
       "tipo_fonte": "federal"
     },
     {
@@ -3209,7 +3207,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 998,
+      "readme_linha": 996,
       "tipo_fonte": "federal"
     },
     {
@@ -3233,7 +3231,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1008,
+      "readme_linha": 1006,
       "tipo_fonte": "federal"
     },
     {
@@ -3257,7 +3255,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1012,
+      "readme_linha": 1010,
       "tipo_fonte": "federal"
     },
     {
@@ -3281,7 +3279,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1016,
+      "readme_linha": 1014,
       "tipo_fonte": "federal"
     },
     {
@@ -3307,7 +3305,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1026,
+      "readme_linha": 1024,
       "tipo_fonte": "federal"
     },
     {
@@ -3333,7 +3331,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1030,
+      "readme_linha": 1028,
       "tipo_fonte": "federal"
     },
     {
@@ -3360,7 +3358,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1034,
+      "readme_linha": 1032,
       "tipo_fonte": "federal"
     },
     {
@@ -3387,7 +3385,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1038,
+      "readme_linha": 1036,
       "tipo_fonte": "federal"
     },
     {
@@ -3414,7 +3412,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1042,
+      "readme_linha": 1040,
       "tipo_fonte": "federal"
     },
     {
@@ -3440,7 +3438,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1046,
+      "readme_linha": 1044,
       "tipo_fonte": "federal"
     },
     {
@@ -3466,7 +3464,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1050,
+      "readme_linha": 1048,
       "tipo_fonte": "federal"
     },
     {
@@ -3494,7 +3492,7 @@
         "processo",
         "sancao"
       ],
-      "readme_linha": 1054,
+      "readme_linha": 1052,
       "tipo_fonte": "federal"
     },
     {
@@ -3525,7 +3523,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1058,
+      "readme_linha": 1056,
       "tipo_fonte": "federal"
     },
     {
@@ -3551,7 +3549,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1099,
+      "readme_linha": 1097,
       "tipo_fonte": "federal"
     },
     {
@@ -3577,7 +3575,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1103,
+      "readme_linha": 1101,
       "tipo_fonte": "federal"
     },
     {
@@ -3603,7 +3601,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1107,
+      "readme_linha": 1105,
       "tipo_fonte": "federal"
     },
     {
@@ -3629,7 +3627,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1111,
+      "readme_linha": 1109,
       "tipo_fonte": "federal"
     },
     {
@@ -3655,7 +3653,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1115,
+      "readme_linha": 1113,
       "tipo_fonte": "federal"
     },
     {
@@ -3681,7 +3679,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1119,
+      "readme_linha": 1117,
       "tipo_fonte": "federal"
     },
     {
@@ -3707,7 +3705,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1123,
+      "readme_linha": 1121,
       "tipo_fonte": "federal"
     },
     {
@@ -3734,7 +3732,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1127,
+      "readme_linha": 1125,
       "tipo_fonte": "federal"
     },
     {
@@ -3760,7 +3758,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1131,
+      "readme_linha": 1129,
       "tipo_fonte": "estadual"
     },
     {
@@ -3787,7 +3785,7 @@
         "remuneracao",
         "sancao"
       ],
-      "readme_linha": 1135,
+      "readme_linha": 1133,
       "tipo_fonte": "estadual"
     },
     {
@@ -3813,7 +3811,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1139,
+      "readme_linha": 1137,
       "tipo_fonte": "federal"
     },
     {
@@ -3884,7 +3882,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1143,
+      "readme_linha": 1141,
       "tipo_fonte": "estadual"
     },
     {
@@ -3910,7 +3908,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1187,
+      "readme_linha": 1185,
       "tipo_fonte": "federal"
     },
     {
@@ -4076,7 +4074,7 @@
         "licitacao",
         "sancao"
       ],
-      "readme_linha": 1191,
+      "readme_linha": 1189,
       "tipo_fonte": "estadual"
     },
     {
@@ -4100,7 +4098,7 @@
       "output": [
         "diario_oficial"
       ],
-      "readme_linha": 1260,
+      "readme_linha": 1258,
       "tipo_fonte": "federal"
     },
     {
@@ -4124,7 +4122,7 @@
       "output": [
         "diario_oficial"
       ],
-      "readme_linha": 1264,
+      "readme_linha": 1262,
       "tipo_fonte": "federal"
     },
     {
@@ -4148,7 +4146,7 @@
       "output": [
         "diario_oficial"
       ],
-      "readme_linha": 1268,
+      "readme_linha": 1266,
       "tipo_fonte": "ong"
     },
     {
@@ -4302,7 +4300,7 @@
       "output": [
         "diario_oficial"
       ],
-      "readme_linha": 1272,
+      "readme_linha": 1270,
       "tipo_fonte": "estadual"
     },
     {
@@ -4328,7 +4326,7 @@
         "dados_cadastrais",
         "processo"
       ],
-      "readme_linha": 1337,
+      "readme_linha": 1335,
       "tipo_fonte": "federal"
     },
     {
@@ -4352,7 +4350,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1341,
+      "readme_linha": 1339,
       "tipo_fonte": "federal"
     },
     {
@@ -4376,7 +4374,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1345,
+      "readme_linha": 1343,
       "tipo_fonte": "federal"
     },
     {
@@ -4400,7 +4398,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1349,
+      "readme_linha": 1347,
       "tipo_fonte": "federal"
     },
     {
@@ -4424,7 +4422,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1353,
+      "readme_linha": 1351,
       "tipo_fonte": "federal"
     },
     {
@@ -4448,7 +4446,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1357,
+      "readme_linha": 1355,
       "tipo_fonte": "federal"
     },
     {
@@ -4472,7 +4470,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1361,
+      "readme_linha": 1359,
       "tipo_fonte": "federal"
     },
     {
@@ -4496,7 +4494,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1365,
+      "readme_linha": 1363,
       "tipo_fonte": "federal"
     },
     {
@@ -4520,7 +4518,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1369,
+      "readme_linha": 1367,
       "tipo_fonte": "federal"
     },
     {
@@ -4544,7 +4542,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1373,
+      "readme_linha": 1371,
       "tipo_fonte": "federal"
     },
     {
@@ -4578,7 +4576,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1382,
+      "readme_linha": 1380,
       "tipo_fonte": "privado"
     },
     {
@@ -4606,7 +4604,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1395,
+      "readme_linha": 1393,
       "tipo_fonte": "privado"
     },
     {
@@ -4644,7 +4642,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1400,
+      "readme_linha": 1398,
       "tipo_fonte": "privado"
     },
     {
@@ -4668,7 +4666,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1412,
+      "readme_linha": 1410,
       "tipo_fonte": "privado"
     },
     {
@@ -4732,7 +4730,7 @@
         "mapa",
         "operadora"
       ],
-      "readme_linha": 1418,
+      "readme_linha": 1416,
       "tipo_fonte": "ong"
     },
     {
@@ -4757,7 +4755,7 @@
         "operadora",
         "outorga"
       ],
-      "readme_linha": 1436,
+      "readme_linha": 1434,
       "tipo_fonte": "federal"
     },
     {
@@ -4782,7 +4780,7 @@
         "operadora",
         "outorga"
       ],
-      "readme_linha": 1440,
+      "readme_linha": 1438,
       "tipo_fonte": "federal"
     },
     {
@@ -4806,7 +4804,7 @@
         "operadora",
         "radiofrequencia"
       ],
-      "readme_linha": 1444,
+      "readme_linha": 1442,
       "tipo_fonte": "federal"
     },
     {
@@ -4829,7 +4827,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1448,
+      "readme_linha": 1446,
       "tipo_fonte": "federal"
     },
     {
@@ -4852,7 +4850,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1452,
+      "readme_linha": 1450,
       "tipo_fonte": "federal"
     },
     {
@@ -4881,7 +4879,7 @@
         "estatistica",
         "operadora"
       ],
-      "readme_linha": 1456,
+      "readme_linha": 1454,
       "tipo_fonte": "privado"
     },
     {
@@ -4905,7 +4903,7 @@
         "operadora",
         "radiofrequencia"
       ],
-      "readme_linha": 1461,
+      "readme_linha": 1459,
       "tipo_fonte": "federal"
     },
     {
@@ -4928,7 +4926,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1465,
+      "readme_linha": 1463,
       "tipo_fonte": "federal"
     },
     {
@@ -4953,25 +4951,8 @@
         "mapa",
         "operadora"
       ],
-      "readme_linha": 1469,
+      "readme_linha": 1467,
       "tipo_fonte": "federal"
-    },
-    {
-      "categoria": "Telecom",
-      "categoria_id": "telecom",
-      "classificacao": "heuristica",
-      "descricao": "",
-      "id": "telecom/paineis-de-telecomunicacoes-anatel",
-      "input": [
-        "telefone"
-      ],
-      "links": [],
-      "nome": "Painéis de Telecomunicações (ANATEL)",
-      "output": [
-        "operadora"
-      ],
-      "readme_linha": 1475,
-      "tipo_fonte": "indefinido"
     },
     {
       "categoria": "Telecom",
@@ -4996,7 +4977,7 @@
         "operadora",
         "outorga"
       ],
-      "readme_linha": 1477,
+      "readme_linha": 1475,
       "tipo_fonte": "federal"
     },
     {
@@ -5021,7 +5002,7 @@
         "estatistica",
         "operadora"
       ],
-      "readme_linha": 1483,
+      "readme_linha": 1481,
       "tipo_fonte": "federal"
     },
     {
@@ -5046,7 +5027,7 @@
         "estatistica",
         "operadora"
       ],
-      "readme_linha": 1489,
+      "readme_linha": 1487,
       "tipo_fonte": "federal"
     },
     {
@@ -5071,7 +5052,7 @@
         "mapa",
         "operadora"
       ],
-      "readme_linha": 1495,
+      "readme_linha": 1493,
       "tipo_fonte": "federal"
     },
     {
@@ -5095,7 +5076,7 @@
         "estatistica",
         "operadora"
       ],
-      "readme_linha": 1502,
+      "readme_linha": 1500,
       "tipo_fonte": "federal"
     },
     {
@@ -5118,7 +5099,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1509,
+      "readme_linha": 1507,
       "tipo_fonte": "federal"
     },
     {
@@ -5145,7 +5126,7 @@
         "outorga",
         "radiofrequencia"
       ],
-      "readme_linha": 1516,
+      "readme_linha": 1514,
       "tipo_fonte": "federal"
     },
     {
@@ -5170,7 +5151,7 @@
         "operadora",
         "radiofrequencia"
       ],
-      "readme_linha": 1523,
+      "readme_linha": 1521,
       "tipo_fonte": "federal"
     },
     {
@@ -5193,7 +5174,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1530,
+      "readme_linha": 1528,
       "tipo_fonte": "federal"
     },
     {
@@ -5217,7 +5198,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1537,
+      "readme_linha": 1535,
       "tipo_fonte": "federal"
     },
     {
@@ -5241,7 +5222,7 @@
         "operadora",
         "radiofrequencia"
       ],
-      "readme_linha": 1544,
+      "readme_linha": 1542,
       "tipo_fonte": "federal"
     },
     {
@@ -5265,7 +5246,7 @@
         "operadora",
         "radiofrequencia"
       ],
-      "readme_linha": 1557,
+      "readme_linha": 1555,
       "tipo_fonte": "federal"
     },
     {
@@ -5290,7 +5271,7 @@
         "operadora",
         "radiofrequencia"
       ],
-      "readme_linha": 1563,
+      "readme_linha": 1561,
       "tipo_fonte": "ong"
     },
     {
@@ -5323,7 +5304,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1569,
+      "readme_linha": 1567,
       "tipo_fonte": "privado"
     },
     {
@@ -5351,7 +5332,7 @@
       "output": [
         "operadora"
       ],
-      "readme_linha": 1580,
+      "readme_linha": 1578,
       "tipo_fonte": "ong"
     },
     {
@@ -5422,7 +5403,7 @@
         "erb",
         "operadora"
       ],
-      "readme_linha": 1589,
+      "readme_linha": 1587,
       "tipo_fonte": "privado"
     },
     {
@@ -5446,7 +5427,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1615,
+      "readme_linha": 1613,
       "tipo_fonte": "privado"
     },
     {
@@ -5472,7 +5453,7 @@
         "processo",
         "publicacao_academica"
       ],
-      "readme_linha": 1621,
+      "readme_linha": 1619,
       "tipo_fonte": "federal"
     },
     {
@@ -5496,7 +5477,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1627,
+      "readme_linha": 1625,
       "tipo_fonte": "privado"
     },
     {
@@ -5520,7 +5501,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1631,
+      "readme_linha": 1629,
       "tipo_fonte": "academico"
     },
     {
@@ -5544,7 +5525,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1635,
+      "readme_linha": 1633,
       "tipo_fonte": "academico"
     },
     {
@@ -5568,7 +5549,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1639,
+      "readme_linha": 1637,
       "tipo_fonte": "academico"
     },
     {
@@ -5592,7 +5573,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1643,
+      "readme_linha": 1641,
       "tipo_fonte": "academico"
     },
     {
@@ -5616,7 +5597,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1647,
+      "readme_linha": 1645,
       "tipo_fonte": "federal"
     },
     {
@@ -5640,7 +5621,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1651,
+      "readme_linha": 1649,
       "tipo_fonte": "privado"
     },
     {
@@ -5664,7 +5645,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1655,
+      "readme_linha": 1653,
       "tipo_fonte": "federal"
     },
     {
@@ -5688,7 +5669,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1659,
+      "readme_linha": 1657,
       "tipo_fonte": "ong"
     },
     {
@@ -5713,7 +5694,7 @@
         "estatistica",
         "publicacao_academica"
       ],
-      "readme_linha": 1663,
+      "readme_linha": 1661,
       "tipo_fonte": "federal"
     },
     {
@@ -5739,7 +5720,7 @@
         "estatistica",
         "publicacao_academica"
       ],
-      "readme_linha": 1667,
+      "readme_linha": 1665,
       "tipo_fonte": "federal"
     },
     {
@@ -5764,7 +5745,7 @@
         "dataset",
         "publicacao_academica"
       ],
-      "readme_linha": 1671,
+      "readme_linha": 1669,
       "tipo_fonte": "federal"
     },
     {
@@ -5788,7 +5769,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1675,
+      "readme_linha": 1673,
       "tipo_fonte": "federal"
     },
     {
@@ -5812,7 +5793,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1679,
+      "readme_linha": 1677,
       "tipo_fonte": "federal"
     },
     {
@@ -5836,7 +5817,7 @@
         "curriculo",
         "publicacao_academica"
       ],
-      "readme_linha": 1683,
+      "readme_linha": 1681,
       "tipo_fonte": "federal"
     },
     {
@@ -5976,7 +5957,7 @@
         "imagem_satelite",
         "mapa"
       ],
-      "readme_linha": 1692,
+      "readme_linha": 1690,
       "tipo_fonte": "privado"
     },
     {
@@ -6007,7 +5988,7 @@
         "area_rural",
         "mapa"
       ],
-      "readme_linha": 1726,
+      "readme_linha": 1724,
       "tipo_fonte": "federal"
     },
     {
@@ -6031,7 +6012,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 1733,
+      "readme_linha": 1731,
       "tipo_fonte": "federal"
     },
     {
@@ -6060,7 +6041,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 1739,
+      "readme_linha": 1737,
       "tipo_fonte": "federal"
     },
     {
@@ -6084,7 +6065,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 1746,
+      "readme_linha": 1744,
       "tipo_fonte": "privado"
     },
     {
@@ -6125,7 +6106,7 @@
         "dados_cadastrais",
         "mapa"
       ],
-      "readme_linha": 1750,
+      "readme_linha": 1748,
       "tipo_fonte": "internacional"
     },
     {
@@ -6154,7 +6135,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 1762,
+      "readme_linha": 1760,
       "tipo_fonte": "federal"
     },
     {
@@ -6179,7 +6160,7 @@
         "estatistica",
         "mapa"
       ],
-      "readme_linha": 1769,
+      "readme_linha": 1767,
       "tipo_fonte": "federal"
     },
     {
@@ -6203,7 +6184,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 1775,
+      "readme_linha": 1773,
       "tipo_fonte": "federal"
     },
     {
@@ -6242,7 +6223,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 1779,
+      "readme_linha": 1777,
       "tipo_fonte": "federal"
     },
     {
@@ -6266,7 +6247,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 1791,
+      "readme_linha": 1789,
       "tipo_fonte": "federal"
     },
     {
@@ -6290,7 +6271,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 1795,
+      "readme_linha": 1793,
       "tipo_fonte": "federal"
     },
     {
@@ -6315,7 +6296,7 @@
         "auto_infracao",
         "mapa"
       ],
-      "readme_linha": 1805,
+      "readme_linha": 1803,
       "tipo_fonte": "federal"
     },
     {
@@ -6340,7 +6321,7 @@
         "auto_infracao",
         "mapa"
       ],
-      "readme_linha": 1812,
+      "readme_linha": 1810,
       "tipo_fonte": "federal"
     },
     {
@@ -6367,7 +6348,7 @@
         "imovel",
         "mapa"
       ],
-      "readme_linha": 1819,
+      "readme_linha": 1817,
       "tipo_fonte": "federal"
     },
     {
@@ -6396,7 +6377,7 @@
         "imovel",
         "mapa"
       ],
-      "readme_linha": 1826,
+      "readme_linha": 1824,
       "tipo_fonte": "federal"
     },
     {
@@ -6422,7 +6403,7 @@
         "mapa",
         "sancao"
       ],
-      "readme_linha": 1833,
+      "readme_linha": 1831,
       "tipo_fonte": "federal"
     },
     {
@@ -6447,7 +6428,7 @@
         "auto_infracao",
         "mapa"
       ],
-      "readme_linha": 1840,
+      "readme_linha": 1838,
       "tipo_fonte": "federal"
     },
     {
@@ -6474,7 +6455,7 @@
         "imagem_satelite",
         "mapa"
       ],
-      "readme_linha": 1847,
+      "readme_linha": 1845,
       "tipo_fonte": "federal"
     },
     {
@@ -6500,7 +6481,7 @@
         "estatistica",
         "mapa"
       ],
-      "readme_linha": 1854,
+      "readme_linha": 1852,
       "tipo_fonte": "privado"
     },
     {
@@ -6525,7 +6506,7 @@
         "auto_infracao",
         "mapa"
       ],
-      "readme_linha": 1861,
+      "readme_linha": 1859,
       "tipo_fonte": "federal"
     },
     {
@@ -6552,7 +6533,7 @@
         "estatistica",
         "mapa"
       ],
-      "readme_linha": 1868,
+      "readme_linha": 1866,
       "tipo_fonte": "federal"
     },
     {
@@ -6577,7 +6558,7 @@
         "auto_infracao",
         "mapa"
       ],
-      "readme_linha": 1875,
+      "readme_linha": 1873,
       "tipo_fonte": "federal"
     },
     {
@@ -6603,7 +6584,7 @@
         "estatistica",
         "mapa"
       ],
-      "readme_linha": 1882,
+      "readme_linha": 1880,
       "tipo_fonte": "federal"
     },
     {
@@ -6629,7 +6610,7 @@
         "estatistica",
         "mapa"
       ],
-      "readme_linha": 1889,
+      "readme_linha": 1887,
       "tipo_fonte": "federal"
     },
     {
@@ -6654,7 +6635,7 @@
         "auto_infracao",
         "mapa"
       ],
-      "readme_linha": 1896,
+      "readme_linha": 1894,
       "tipo_fonte": "federal"
     },
     {
@@ -6681,7 +6662,7 @@
         "mapa",
         "processo"
       ],
-      "readme_linha": 1903,
+      "readme_linha": 1901,
       "tipo_fonte": "federal"
     },
     {
@@ -6708,7 +6689,7 @@
         "estatistica",
         "mapa"
       ],
-      "readme_linha": 1910,
+      "readme_linha": 1908,
       "tipo_fonte": "federal"
     },
     {
@@ -6732,7 +6713,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1921,
+      "readme_linha": 1919,
       "tipo_fonte": "federal"
     },
     {
@@ -6756,7 +6737,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1927,
+      "readme_linha": 1925,
       "tipo_fonte": "federal"
     },
     {
@@ -6781,7 +6762,7 @@
         "dados_cadastrais",
         "estatistica"
       ],
-      "readme_linha": 1931,
+      "readme_linha": 1929,
       "tipo_fonte": "federal"
     },
     {
@@ -6805,7 +6786,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1935,
+      "readme_linha": 1933,
       "tipo_fonte": "federal"
     },
     {
@@ -6829,7 +6810,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1939,
+      "readme_linha": 1937,
       "tipo_fonte": "federal"
     },
     {
@@ -6853,7 +6834,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1943,
+      "readme_linha": 1941,
       "tipo_fonte": "federal"
     },
     {
@@ -6882,7 +6863,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1947,
+      "readme_linha": 1945,
       "tipo_fonte": "federal"
     },
     {
@@ -6907,7 +6888,7 @@
         "dados_cadastrais",
         "estatistica"
       ],
-      "readme_linha": 1952,
+      "readme_linha": 1950,
       "tipo_fonte": "ong"
     },
     {
@@ -6932,7 +6913,7 @@
         "dados_cadastrais",
         "mapa"
       ],
-      "readme_linha": 1956,
+      "readme_linha": 1954,
       "tipo_fonte": "academico"
     },
     {
@@ -6956,7 +6937,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1960,
+      "readme_linha": 1958,
       "tipo_fonte": "academico"
     },
     {
@@ -6990,7 +6971,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 1964,
+      "readme_linha": 1962,
       "tipo_fonte": "federal"
     },
     {
@@ -7028,7 +7009,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 1981,
+      "readme_linha": 1979,
       "tipo_fonte": "dork"
     },
     {
@@ -7056,7 +7037,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 1994,
+      "readme_linha": 1992,
       "tipo_fonte": "dork"
     },
     {
@@ -7084,7 +7065,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2001,
+      "readme_linha": 1999,
       "tipo_fonte": "dork"
     },
     {
@@ -7117,7 +7098,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2010,
+      "readme_linha": 2008,
       "tipo_fonte": "dork"
     },
     {
@@ -7155,7 +7136,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2021,
+      "readme_linha": 2019,
       "tipo_fonte": "dork"
     },
     {
@@ -7194,7 +7175,7 @@
         "dork",
         "perfil_social"
       ],
-      "readme_linha": 2034,
+      "readme_linha": 2032,
       "tipo_fonte": "dork"
     },
     {
@@ -7233,7 +7214,7 @@
         "dork",
         "perfil_social"
       ],
-      "readme_linha": 2050,
+      "readme_linha": 2048,
       "tipo_fonte": "internacional"
     },
     {
@@ -7267,7 +7248,7 @@
         "dork",
         "perfil_social"
       ],
-      "readme_linha": 2062,
+      "readme_linha": 2060,
       "tipo_fonte": "internacional"
     },
     {
@@ -7295,7 +7276,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2069,
+      "readme_linha": 2067,
       "tipo_fonte": "dork"
     },
     {
@@ -7343,7 +7324,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2076,
+      "readme_linha": 2074,
       "tipo_fonte": "dork"
     },
     {
@@ -7381,7 +7362,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2096,
+      "readme_linha": 2094,
       "tipo_fonte": "dork"
     },
     {
@@ -7420,7 +7401,7 @@
         "dork",
         "video_ao_vivo"
       ],
-      "readme_linha": 2111,
+      "readme_linha": 2109,
       "tipo_fonte": "dork"
     },
     {
@@ -7461,7 +7442,7 @@
         "dork",
         "operadora"
       ],
-      "readme_linha": 2126,
+      "readme_linha": 2124,
       "tipo_fonte": "dork"
     },
     {
@@ -7495,7 +7476,7 @@
         "dork",
         "publicacao_academica"
       ],
-      "readme_linha": 2141,
+      "readme_linha": 2139,
       "tipo_fonte": "dork"
     },
     {
@@ -7528,7 +7509,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2153,
+      "readme_linha": 2151,
       "tipo_fonte": "dork"
     },
     {
@@ -7556,7 +7537,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2165,
+      "readme_linha": 2163,
       "tipo_fonte": "dork"
     },
     {
@@ -7585,7 +7566,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2175,
+      "readme_linha": 2173,
       "tipo_fonte": "internacional"
     },
     {
@@ -7628,7 +7609,7 @@
       "output": [
         "dork"
       ],
-      "readme_linha": 2187,
+      "readme_linha": 2185,
       "tipo_fonte": "dork"
     },
     {
@@ -7653,7 +7634,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2211,
+      "readme_linha": 2209,
       "tipo_fonte": "internacional"
     },
     {
@@ -7688,7 +7669,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2217,
+      "readme_linha": 2215,
       "tipo_fonte": "internacional"
     },
     {
@@ -7718,7 +7699,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2228,
+      "readme_linha": 2226,
       "tipo_fonte": "internacional"
     },
     {
@@ -7743,7 +7724,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2236,
+      "readme_linha": 2234,
       "tipo_fonte": "internacional"
     },
     {
@@ -7769,7 +7750,7 @@
         "api_json",
         "perfil_social"
       ],
-      "readme_linha": 2242,
+      "readme_linha": 2240,
       "tipo_fonte": "internacional"
     },
     {
@@ -7795,7 +7776,7 @@
         "estatistica",
         "perfil_social"
       ],
-      "readme_linha": 2248,
+      "readme_linha": 2246,
       "tipo_fonte": "internacional"
     },
     {
@@ -7820,7 +7801,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2254,
+      "readme_linha": 2252,
       "tipo_fonte": "internacional"
     },
     {
@@ -7845,7 +7826,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2260,
+      "readme_linha": 2258,
       "tipo_fonte": "internacional"
     },
     {
@@ -7870,7 +7851,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2264,
+      "readme_linha": 2262,
       "tipo_fonte": "internacional"
     },
     {
@@ -7895,7 +7876,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2268,
+      "readme_linha": 2266,
       "tipo_fonte": "internacional"
     },
     {
@@ -7920,7 +7901,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2272,
+      "readme_linha": 2270,
       "tipo_fonte": "internacional"
     },
     {
@@ -7945,7 +7926,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2276,
+      "readme_linha": 2274,
       "tipo_fonte": "internacional"
     },
     {
@@ -7970,7 +7951,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2280,
+      "readme_linha": 2278,
       "tipo_fonte": "internacional"
     },
     {
@@ -7996,7 +7977,7 @@
         "mandado_prisao",
         "perfil_social"
       ],
-      "readme_linha": 2286,
+      "readme_linha": 2284,
       "tipo_fonte": "privado"
     },
     {
@@ -8026,7 +8007,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2292,
+      "readme_linha": 2290,
       "tipo_fonte": "privado"
     },
     {
@@ -8056,7 +8037,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2299,
+      "readme_linha": 2297,
       "tipo_fonte": "internacional"
     },
     {
@@ -8082,7 +8063,7 @@
         "api_json",
         "perfil_social"
       ],
-      "readme_linha": 2305,
+      "readme_linha": 2303,
       "tipo_fonte": "internacional"
     },
     {
@@ -8107,7 +8088,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2312,
+      "readme_linha": 2310,
       "tipo_fonte": "privado"
     },
     {
@@ -8132,7 +8113,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2318,
+      "readme_linha": 2316,
       "tipo_fonte": "internacional"
     },
     {
@@ -8215,7 +8196,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2331,
+      "readme_linha": 2329,
       "tipo_fonte": "privado"
     },
     {
@@ -8278,7 +8259,7 @@
       "output": [
         "perfil_social"
       ],
-      "readme_linha": 2356,
+      "readme_linha": 2354,
       "tipo_fonte": "privado"
     },
     {
@@ -8301,7 +8282,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2383,
+      "readme_linha": 2381,
       "tipo_fonte": "federal"
     },
     {
@@ -8324,7 +8305,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2389,
+      "readme_linha": 2387,
       "tipo_fonte": "privado"
     },
     {
@@ -8347,7 +8328,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2395,
+      "readme_linha": 2393,
       "tipo_fonte": "federal"
     },
     {
@@ -8370,7 +8351,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2401,
+      "readme_linha": 2399,
       "tipo_fonte": "privado"
     },
     {
@@ -8393,7 +8374,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2407,
+      "readme_linha": 2405,
       "tipo_fonte": "federal"
     },
     {
@@ -8416,7 +8397,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2413,
+      "readme_linha": 2411,
       "tipo_fonte": "federal"
     },
     {
@@ -8439,7 +8420,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2419,
+      "readme_linha": 2417,
       "tipo_fonte": "federal"
     },
     {
@@ -8463,7 +8444,7 @@
         "dataset",
         "estatistica"
       ],
-      "readme_linha": 2425,
+      "readme_linha": 2423,
       "tipo_fonte": "federal"
     },
     {
@@ -8492,7 +8473,7 @@
         "dataset",
         "publicacao_academica"
       ],
-      "readme_linha": 2429,
+      "readme_linha": 2427,
       "tipo_fonte": "federal"
     },
     {
@@ -8515,7 +8496,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2436,
+      "readme_linha": 2434,
       "tipo_fonte": "federal"
     },
     {
@@ -8538,7 +8519,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2440,
+      "readme_linha": 2438,
       "tipo_fonte": "federal"
     },
     {
@@ -8562,7 +8543,7 @@
         "dataset",
         "estatistica"
       ],
-      "readme_linha": 2446,
+      "readme_linha": 2444,
       "tipo_fonte": "federal"
     },
     {
@@ -8585,7 +8566,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2452,
+      "readme_linha": 2450,
       "tipo_fonte": "estadual"
     },
     {
@@ -8609,7 +8590,7 @@
         "dataset",
         "estatistica"
       ],
-      "readme_linha": 2458,
+      "readme_linha": 2456,
       "tipo_fonte": "estadual"
     },
     {
@@ -8633,7 +8614,7 @@
         "dataset",
         "mapa"
       ],
-      "readme_linha": 2464,
+      "readme_linha": 2462,
       "tipo_fonte": "federal"
     },
     {
@@ -8656,7 +8637,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2470,
+      "readme_linha": 2468,
       "tipo_fonte": "federal"
     },
     {
@@ -8679,7 +8660,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2476,
+      "readme_linha": 2474,
       "tipo_fonte": "estadual"
     },
     {
@@ -8703,7 +8684,7 @@
         "dataset",
         "mapa"
       ],
-      "readme_linha": 2482,
+      "readme_linha": 2480,
       "tipo_fonte": "federal"
     },
     {
@@ -8726,7 +8707,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2488,
+      "readme_linha": 2486,
       "tipo_fonte": "estadual"
     },
     {
@@ -8749,7 +8730,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2494,
+      "readme_linha": 2492,
       "tipo_fonte": "estadual"
     },
     {
@@ -8772,7 +8753,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2500,
+      "readme_linha": 2498,
       "tipo_fonte": "federal"
     },
     {
@@ -8795,7 +8776,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2506,
+      "readme_linha": 2504,
       "tipo_fonte": "estadual"
     },
     {
@@ -8818,7 +8799,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2512,
+      "readme_linha": 2510,
       "tipo_fonte": "estadual"
     },
     {
@@ -8841,7 +8822,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2516,
+      "readme_linha": 2514,
       "tipo_fonte": "federal"
     },
     {
@@ -8864,7 +8845,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2522,
+      "readme_linha": 2520,
       "tipo_fonte": "federal"
     },
     {
@@ -8887,7 +8868,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2528,
+      "readme_linha": 2526,
       "tipo_fonte": "estadual"
     },
     {
@@ -8910,7 +8891,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2534,
+      "readme_linha": 2532,
       "tipo_fonte": "federal"
     },
     {
@@ -8938,7 +8919,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2540,
+      "readme_linha": 2538,
       "tipo_fonte": "federal"
     },
     {
@@ -8963,7 +8944,7 @@
         "dataset",
         "processo"
       ],
-      "readme_linha": 2547,
+      "readme_linha": 2545,
       "tipo_fonte": "estadual"
     },
     {
@@ -8986,7 +8967,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2551,
+      "readme_linha": 2549,
       "tipo_fonte": "federal"
     },
     {
@@ -9010,7 +8991,7 @@
         "dataset",
         "diario_oficial"
       ],
-      "readme_linha": 2555,
+      "readme_linha": 2553,
       "tipo_fonte": "ong"
     },
     {
@@ -9033,7 +9014,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2561,
+      "readme_linha": 2559,
       "tipo_fonte": "ong"
     },
     {
@@ -9056,7 +9037,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2565,
+      "readme_linha": 2563,
       "tipo_fonte": "federal"
     },
     {
@@ -9079,7 +9060,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2569,
+      "readme_linha": 2567,
       "tipo_fonte": "federal"
     },
     {
@@ -9102,7 +9083,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2573,
+      "readme_linha": 2571,
       "tipo_fonte": "privado"
     },
     {
@@ -9125,7 +9106,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2577,
+      "readme_linha": 2575,
       "tipo_fonte": "legislativo"
     },
     {
@@ -9148,7 +9129,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2581,
+      "readme_linha": 2579,
       "tipo_fonte": "legislativo"
     },
     {
@@ -9172,7 +9153,7 @@
         "dataset",
         "processo"
       ],
-      "readme_linha": 2585,
+      "readme_linha": 2583,
       "tipo_fonte": "federal"
     },
     {
@@ -9195,7 +9176,7 @@
       "output": [
         "dataset"
       ],
-      "readme_linha": 2589,
+      "readme_linha": 2587,
       "tipo_fonte": "federal"
     },
     {
@@ -9219,7 +9200,7 @@
         "dataset",
         "endereco"
       ],
-      "readme_linha": 2593,
+      "readme_linha": 2591,
       "tipo_fonte": "privado"
     },
     {
@@ -9244,7 +9225,7 @@
         "beneficio",
         "remuneracao"
       ],
-      "readme_linha": 2603,
+      "readme_linha": 2601,
       "tipo_fonte": "ong"
     },
     {
@@ -9268,7 +9249,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2611,
+      "readme_linha": 2609,
       "tipo_fonte": "estadual"
     },
     {
@@ -9292,7 +9273,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2615,
+      "readme_linha": 2613,
       "tipo_fonte": "estadual"
     },
     {
@@ -9391,7 +9372,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2621,
+      "readme_linha": 2619,
       "tipo_fonte": "privado"
     },
     {
@@ -9450,7 +9431,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2644,
+      "readme_linha": 2642,
       "tipo_fonte": "ong"
     },
     {
@@ -9479,7 +9460,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2659,
+      "readme_linha": 2657,
       "tipo_fonte": "privado"
     },
     {
@@ -9503,7 +9484,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2666,
+      "readme_linha": 2664,
       "tipo_fonte": "privado"
     },
     {
@@ -9527,7 +9508,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2672,
+      "readme_linha": 2670,
       "tipo_fonte": "federal"
     },
     {
@@ -9551,7 +9532,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2678,
+      "readme_linha": 2676,
       "tipo_fonte": "federal"
     },
     {
@@ -9576,7 +9557,7 @@
         "veiculo",
         "video_ao_vivo"
       ],
-      "readme_linha": 2684,
+      "readme_linha": 2682,
       "tipo_fonte": "internacional"
     },
     {
@@ -9600,7 +9581,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2688,
+      "readme_linha": 2686,
       "tipo_fonte": "internacional"
     },
     {
@@ -9625,7 +9606,7 @@
         "multa",
         "veiculo"
       ],
-      "readme_linha": 2692,
+      "readme_linha": 2690,
       "tipo_fonte": "federal"
     },
     {
@@ -9651,7 +9632,7 @@
         "dados_cadastrais",
         "veiculo"
       ],
-      "readme_linha": 2696,
+      "readme_linha": 2694,
       "tipo_fonte": "federal"
     },
     {
@@ -9675,7 +9656,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2700,
+      "readme_linha": 2698,
       "tipo_fonte": "federal"
     },
     {
@@ -9699,7 +9680,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2704,
+      "readme_linha": 2702,
       "tipo_fonte": "privado"
     },
     {
@@ -9723,7 +9704,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2710,
+      "readme_linha": 2708,
       "tipo_fonte": "federal"
     },
     {
@@ -9747,7 +9728,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2716,
+      "readme_linha": 2714,
       "tipo_fonte": "federal"
     },
     {
@@ -9772,7 +9753,7 @@
         "dataset",
         "veiculo"
       ],
-      "readme_linha": 2722,
+      "readme_linha": 2720,
       "tipo_fonte": "federal"
     },
     {
@@ -9801,7 +9782,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2728,
+      "readme_linha": 2726,
       "tipo_fonte": "estadual"
     },
     {
@@ -9830,7 +9811,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2735,
+      "readme_linha": 2733,
       "tipo_fonte": "estadual"
     },
     {
@@ -9999,7 +9980,7 @@
       "output": [
         "veiculo"
       ],
-      "readme_linha": 2742,
+      "readme_linha": 2740,
       "tipo_fonte": "estadual"
     },
     {
@@ -10023,7 +10004,7 @@
         "mapa",
         "video_ao_vivo"
       ],
-      "readme_linha": 2812,
+      "readme_linha": 2810,
       "tipo_fonte": "privado"
     },
     {
@@ -10046,7 +10027,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 2818,
+      "readme_linha": 2816,
       "tipo_fonte": "privado"
     },
     {
@@ -10089,7 +10070,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 2824,
+      "readme_linha": 2822,
       "tipo_fonte": "estadual"
     },
     {
@@ -10112,7 +10093,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 2844,
+      "readme_linha": 2842,
       "tipo_fonte": "privado"
     },
     {
@@ -10135,7 +10116,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 2850,
+      "readme_linha": 2848,
       "tipo_fonte": "privado"
     },
     {
@@ -10158,7 +10139,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 2856,
+      "readme_linha": 2854,
       "tipo_fonte": "privado"
     },
     {
@@ -10183,7 +10164,7 @@
         "dados_cadastrais",
         "processo"
       ],
-      "readme_linha": 2868,
+      "readme_linha": 2866,
       "tipo_fonte": "federal"
     },
     {
@@ -10209,7 +10190,7 @@
         "estatistica",
         "multa"
       ],
-      "readme_linha": 2872,
+      "readme_linha": 2870,
       "tipo_fonte": "privado"
     },
     {
@@ -10232,7 +10213,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2876,
+      "readme_linha": 2874,
       "tipo_fonte": "federal"
     },
     {
@@ -10255,7 +10236,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2880,
+      "readme_linha": 2878,
       "tipo_fonte": "federal"
     },
     {
@@ -10278,7 +10259,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2884,
+      "readme_linha": 2882,
       "tipo_fonte": "federal"
     },
     {
@@ -10301,7 +10282,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2888,
+      "readme_linha": 2886,
       "tipo_fonte": "federal"
     },
     {
@@ -10329,7 +10310,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2892,
+      "readme_linha": 2890,
       "tipo_fonte": "internacional"
     },
     {
@@ -10352,7 +10333,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2897,
+      "readme_linha": 2895,
       "tipo_fonte": "privado"
     },
     {
@@ -10375,7 +10356,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2901,
+      "readme_linha": 2899,
       "tipo_fonte": "privado"
     },
     {
@@ -10398,7 +10379,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2905,
+      "readme_linha": 2903,
       "tipo_fonte": "privado"
     },
     {
@@ -10421,7 +10402,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2915,
+      "readme_linha": 2913,
       "tipo_fonte": "federal"
     },
     {
@@ -10447,7 +10428,7 @@
         "dados_cadastrais",
         "licitacao"
       ],
-      "readme_linha": 2921,
+      "readme_linha": 2919,
       "tipo_fonte": "privado"
     },
     {
@@ -10470,7 +10451,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2927,
+      "readme_linha": 2925,
       "tipo_fonte": "federal"
     },
     {
@@ -10495,7 +10476,7 @@
         "dados_cadastrais",
         "multa"
       ],
-      "readme_linha": 2933,
+      "readme_linha": 2931,
       "tipo_fonte": "federal"
     },
     {
@@ -10573,7 +10554,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 2937,
+      "readme_linha": 2935,
       "tipo_fonte": "federal"
     },
     {
@@ -10596,7 +10577,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 2965,
+      "readme_linha": 2963,
       "tipo_fonte": "estadual"
     },
     {
@@ -10619,7 +10600,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 2971,
+      "readme_linha": 2969,
       "tipo_fonte": "privado"
     },
     {
@@ -10642,7 +10623,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 2975,
+      "readme_linha": 2973,
       "tipo_fonte": "estadual"
     },
     {
@@ -10665,7 +10646,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 2979,
+      "readme_linha": 2977,
       "tipo_fonte": "internacional"
     },
     {
@@ -10708,7 +10689,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 2983,
+      "readme_linha": 2981,
       "tipo_fonte": "privado"
     },
     {
@@ -10756,7 +10737,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 2998,
+      "readme_linha": 2996,
       "tipo_fonte": "privado"
     },
     {
@@ -10859,7 +10840,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 3012,
+      "readme_linha": 3010,
       "tipo_fonte": "privado"
     },
     {
@@ -10882,7 +10863,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 3053,
+      "readme_linha": 3051,
       "tipo_fonte": "privado"
     },
     {
@@ -10930,7 +10911,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 3057,
+      "readme_linha": 3055,
       "tipo_fonte": "estadual"
     },
     {
@@ -11253,7 +11234,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 3071,
+      "readme_linha": 3069,
       "tipo_fonte": "privado"
     },
     {
@@ -11276,7 +11257,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 3146,
+      "readme_linha": 3144,
       "tipo_fonte": "privado"
     },
     {
@@ -11299,7 +11280,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 3150,
+      "readme_linha": 3148,
       "tipo_fonte": "privado"
     },
     {
@@ -11322,7 +11303,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 3154,
+      "readme_linha": 3152,
       "tipo_fonte": "estadual"
     },
     {
@@ -11345,7 +11326,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 3158,
+      "readme_linha": 3156,
       "tipo_fonte": "federal"
     },
     {
@@ -11374,7 +11355,7 @@
         "dados_cadastrais",
         "video_ao_vivo"
       ],
-      "readme_linha": 3162,
+      "readme_linha": 3160,
       "tipo_fonte": "internacional"
     },
     {
@@ -11398,7 +11379,7 @@
         "dados_cadastrais",
         "video_ao_vivo"
       ],
-      "readme_linha": 3167,
+      "readme_linha": 3165,
       "tipo_fonte": "internacional"
     },
     {
@@ -11422,7 +11403,7 @@
         "dados_cadastrais",
         "video_ao_vivo"
       ],
-      "readme_linha": 3171,
+      "readme_linha": 3169,
       "tipo_fonte": "internacional"
     },
     {
@@ -11446,7 +11427,7 @@
         "dados_cadastrais",
         "video_ao_vivo"
       ],
-      "readme_linha": 3175,
+      "readme_linha": 3173,
       "tipo_fonte": "internacional"
     },
     {
@@ -11470,7 +11451,7 @@
         "dados_cadastrais",
         "video_ao_vivo"
       ],
-      "readme_linha": 3179,
+      "readme_linha": 3177,
       "tipo_fonte": "internacional"
     },
     {
@@ -11494,26 +11475,8 @@
         "dados_cadastrais",
         "video_ao_vivo"
       ],
-      "readme_linha": 3183,
+      "readme_linha": 3181,
       "tipo_fonte": "internacional"
-    },
-    {
-      "categoria": "Câmeras Online",
-      "categoria_id": "cameras-online",
-      "classificacao": "heuristica",
-      "descricao": "",
-      "id": "cameras-online/camera-do-aeroporto-da-pampulha-belo-horizonte-24-horas-bhz-sbbh",
-      "input": [
-        "prefixo_aeronave"
-      ],
-      "links": [],
-      "nome": "Câmera do Aeroporto da Pampulha - Belo Horizonte 24 horas (BHZ)(SBBH)",
-      "output": [
-        "dados_cadastrais",
-        "video_ao_vivo"
-      ],
-      "readme_linha": 3187,
-      "tipo_fonte": "indefinido"
     },
     {
       "categoria": "Câmeras Online",
@@ -11536,7 +11499,7 @@
         "dados_cadastrais",
         "video_ao_vivo"
       ],
-      "readme_linha": 3191,
+      "readme_linha": 3185,
       "tipo_fonte": "internacional"
     },
     {
@@ -11560,7 +11523,7 @@
         "dados_cadastrais",
         "video_ao_vivo"
       ],
-      "readme_linha": 3195,
+      "readme_linha": 3189,
       "tipo_fonte": "internacional"
     },
     {
@@ -11583,7 +11546,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "readme_linha": 3199,
+      "readme_linha": 3193,
       "tipo_fonte": "estadual"
     },
     {
@@ -11657,7 +11620,7 @@
       "output": [
         "processo"
       ],
-      "readme_linha": 3209,
+      "readme_linha": 3203,
       "tipo_fonte": "ministerio_publico"
     },
     {
@@ -11717,7 +11680,7 @@
       "output": [
         "processo"
       ],
-      "readme_linha": 3250,
+      "readme_linha": 3244,
       "tipo_fonte": "defensoria"
     },
     {
@@ -11751,7 +11714,7 @@
       "output": [
         "processo"
       ],
-      "readme_linha": 3282,
+      "readme_linha": 3276,
       "tipo_fonte": "ong"
     },
     {
@@ -11780,7 +11743,7 @@
       "output": [
         "processo"
       ],
-      "readme_linha": 3299,
+      "readme_linha": 3293,
       "tipo_fonte": "estadual"
     },
     {
@@ -11809,7 +11772,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 3319,
+      "readme_linha": 3313,
       "tipo_fonte": "privado"
     },
     {
@@ -11858,7 +11821,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 3324,
+      "readme_linha": 3318,
       "tipo_fonte": "estadual"
     },
     {
@@ -11877,7 +11840,7 @@
       ],
       "nome": "MCTI - Ministério da Ciência, Tecnologia e Inovação",
       "output": [],
-      "readme_linha": 3343,
+      "readme_linha": 3337,
       "tipo_fonte": "federal"
     },
     {
@@ -11896,7 +11859,7 @@
       ],
       "nome": "Embrapii - Unidades de Pesquisa e Inovação",
       "output": [],
-      "readme_linha": 3347,
+      "readme_linha": 3341,
       "tipo_fonte": "ong"
     },
     {
@@ -11915,7 +11878,7 @@
       ],
       "nome": "Finep - Financiadora de Estudos e Projetos",
       "output": [],
-      "readme_linha": 3351,
+      "readme_linha": 3345,
       "tipo_fonte": "federal"
     },
     {
@@ -11938,7 +11901,7 @@
       "output": [
         "estatistica"
       ],
-      "readme_linha": 3355,
+      "readme_linha": 3349,
       "tipo_fonte": "privado"
     },
     {
@@ -11957,7 +11920,7 @@
       ],
       "nome": "SUFRAMA - Superintendência da Zona Franca de Manaus",
       "output": [],
-      "readme_linha": 3359,
+      "readme_linha": 3353,
       "tipo_fonte": "federal"
     },
     {
@@ -11980,7 +11943,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3363,
+      "readme_linha": 3357,
       "tipo_fonte": "federal"
     },
     {
@@ -12001,7 +11964,7 @@
       "output": [
         "antecedentes"
       ],
-      "readme_linha": 3367,
+      "readme_linha": 3361,
       "tipo_fonte": "federal"
     },
     {
@@ -12020,7 +11983,7 @@
       ],
       "nome": "Sinesp Cidadão (Site a APP)",
       "output": [],
-      "readme_linha": 3371,
+      "readme_linha": 3365,
       "tipo_fonte": "federal"
     },
     {
@@ -12061,7 +12024,7 @@
       ],
       "nome": "Consulta Informações Sobre Domínios",
       "output": [],
-      "readme_linha": 3380,
+      "readme_linha": 3374,
       "tipo_fonte": "privado"
     },
     {
@@ -12092,7 +12055,7 @@
         "dados_cadastrais",
         "endereco"
       ],
-      "readme_linha": 3399,
+      "readme_linha": 3393,
       "tipo_fonte": "privado"
     },
     {
@@ -12121,7 +12084,7 @@
         "situacao_cadastral",
         "socios"
       ],
-      "readme_linha": 3413,
+      "readme_linha": 3407,
       "tipo_fonte": "privado"
     },
     {
@@ -12149,7 +12112,7 @@
         "api_json",
         "endereco"
       ],
-      "readme_linha": 3440,
+      "readme_linha": 3434,
       "tipo_fonte": "privado"
     },
     {
@@ -12179,7 +12142,7 @@
         "api_json",
         "dados_cadastrais"
       ],
-      "readme_linha": 3462,
+      "readme_linha": 3456,
       "tipo_fonte": "privado"
     },
     {
@@ -12206,7 +12169,7 @@
         "estatistica",
         "mapa"
       ],
-      "readme_linha": 3486,
+      "readme_linha": 3480,
       "tipo_fonte": "federal"
     },
     {
@@ -12233,7 +12196,7 @@
         "estatistica",
         "licitacao"
       ],
-      "readme_linha": 3509,
+      "readme_linha": 3503,
       "tipo_fonte": "federal"
     },
     {
@@ -12263,7 +12226,7 @@
         "api_json",
         "diario_oficial"
       ],
-      "readme_linha": 3513,
+      "readme_linha": 3507,
       "tipo_fonte": "ong"
     },
     {
@@ -12289,7 +12252,7 @@
         "processo",
         "sancao"
       ],
-      "readme_linha": 3536,
+      "readme_linha": 3530,
       "tipo_fonte": "federal"
     },
     {
@@ -12313,7 +12276,7 @@
       "output": [
         "sancao"
       ],
-      "readme_linha": 3540,
+      "readme_linha": 3534,
       "tipo_fonte": "federal"
     },
     {
@@ -12336,7 +12299,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 3550,
+      "readme_linha": 3544,
       "tipo_fonte": "federal"
     },
     {
@@ -12359,7 +12322,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 3554,
+      "readme_linha": 3548,
       "tipo_fonte": "federal"
     },
     {
@@ -12388,7 +12351,7 @@
         "mapa",
         "video_ao_vivo"
       ],
-      "readme_linha": 3558,
+      "readme_linha": 3552,
       "tipo_fonte": "federal"
     },
     {
@@ -12416,7 +12379,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 3563,
+      "readme_linha": 3557,
       "tipo_fonte": "federal"
     },
     {
@@ -12439,7 +12402,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 3568,
+      "readme_linha": 3562,
       "tipo_fonte": "federal"
     },
     {
@@ -12462,7 +12425,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 3572,
+      "readme_linha": 3566,
       "tipo_fonte": "federal"
     },
     {
@@ -12491,7 +12454,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3582,
+      "readme_linha": 3576,
       "tipo_fonte": "federal"
     },
     {
@@ -12515,7 +12478,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3587,
+      "readme_linha": 3581,
       "tipo_fonte": "federal"
     },
     {
@@ -12539,7 +12502,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3591,
+      "readme_linha": 3585,
       "tipo_fonte": "federal"
     },
     {
@@ -12569,7 +12532,7 @@
         "dados_cadastrais",
         "video_ao_vivo"
       ],
-      "readme_linha": 3595,
+      "readme_linha": 3589,
       "tipo_fonte": "ong"
     },
     {
@@ -12599,7 +12562,7 @@
         "dados_cadastrais",
         "estatistica"
       ],
-      "readme_linha": 3600,
+      "readme_linha": 3594,
       "tipo_fonte": "federal"
     },
     {
@@ -12624,7 +12587,7 @@
         "dados_cadastrais",
         "mapa"
       ],
-      "readme_linha": 3605,
+      "readme_linha": 3599,
       "tipo_fonte": "federal"
     },
     {
@@ -12648,7 +12611,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3609,
+      "readme_linha": 3603,
       "tipo_fonte": "federal"
     },
     {
@@ -12672,7 +12635,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3613,
+      "readme_linha": 3607,
       "tipo_fonte": "federal"
     },
     {
@@ -12727,7 +12690,7 @@
         "certidao",
         "dados_cadastrais"
       ],
-      "readme_linha": 3623,
+      "readme_linha": 3617,
       "tipo_fonte": "ong"
     },
     {
@@ -12851,7 +12814,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3662,
+      "readme_linha": 3656,
       "tipo_fonte": "estadual"
     },
     {
@@ -12971,7 +12934,7 @@
         "certidao",
         "dados_cadastrais"
       ],
-      "readme_linha": 3703,
+      "readme_linha": 3697,
       "tipo_fonte": "ong"
     },
     {
@@ -13005,7 +12968,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3732,
+      "readme_linha": 3726,
       "tipo_fonte": "estadual"
     },
     {
@@ -13031,7 +12994,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3744,
+      "readme_linha": 3738,
       "tipo_fonte": "estadual"
     },
     {
@@ -13057,7 +13020,7 @@
         "dados_cadastrais",
         "processo"
       ],
-      "readme_linha": 3748,
+      "readme_linha": 3742,
       "tipo_fonte": "estadual"
     },
     {
@@ -13081,7 +13044,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3752,
+      "readme_linha": 3746,
       "tipo_fonte": "estadual"
     },
     {
@@ -13104,7 +13067,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3762,
+      "readme_linha": 3756,
       "tipo_fonte": "ong"
     },
     {
@@ -13127,7 +13090,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3766,
+      "readme_linha": 3760,
       "tipo_fonte": "federal"
     },
     {
@@ -13151,7 +13114,7 @@
         "dados_cadastrais",
         "estatistica"
       ],
-      "readme_linha": 3770,
+      "readme_linha": 3764,
       "tipo_fonte": "ong"
     },
     {
@@ -13174,7 +13137,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3774,
+      "readme_linha": 3768,
       "tipo_fonte": "federal"
     },
     {
@@ -13197,7 +13160,7 @@
       "output": [
         "licenca_ambiental"
       ],
-      "readme_linha": 3778,
+      "readme_linha": 3772,
       "tipo_fonte": "federal"
     },
     {
@@ -13225,7 +13188,7 @@
       "output": [
         "mapa"
       ],
-      "readme_linha": 3782,
+      "readme_linha": 3776,
       "tipo_fonte": "privado"
     },
     {
@@ -13313,7 +13276,7 @@
       "output": [
         "imovel"
       ],
-      "readme_linha": 3794,
+      "readme_linha": 3788,
       "tipo_fonte": "privado"
     },
     {
@@ -13357,7 +13320,7 @@
       ],
       "nome": "Conhecimento de empreendimentos por dentro",
       "output": [],
-      "readme_linha": 3816,
+      "readme_linha": 3810,
       "tipo_fonte": "privado"
     },
     {
@@ -13380,7 +13343,7 @@
       "output": [
         "sancao"
       ],
-      "readme_linha": 3829,
+      "readme_linha": 3823,
       "tipo_fonte": "estadual"
     },
     {
@@ -13413,7 +13376,7 @@
       "output": [
         "certidao"
       ],
-      "readme_linha": 3835,
+      "readme_linha": 3829,
       "tipo_fonte": "privado"
     },
     {
@@ -13437,7 +13400,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3846,
+      "readme_linha": 3840,
       "tipo_fonte": "privado"
     },
     {
@@ -13460,7 +13423,7 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 3850,
+      "readme_linha": 3844,
       "tipo_fonte": "federal"
     },
     {
@@ -13494,7 +13457,7 @@
         "contrato_publico",
         "licitacao"
       ],
-      "readme_linha": 3856,
+      "readme_linha": 3850,
       "tipo_fonte": "privado"
     },
     {
@@ -13580,7 +13543,7 @@
         "licitacao",
         "processo"
       ],
-      "readme_linha": 3866,
+      "readme_linha": 3860,
       "tipo_fonte": "privado"
     },
     {
@@ -13604,7 +13567,7 @@
         "contrato_publico",
         "licitacao"
       ],
-      "readme_linha": 3915,
+      "readme_linha": 3909,
       "tipo_fonte": "estadual"
     },
     {
@@ -13638,9 +13601,9 @@
       "output": [
         "dados_cadastrais"
       ],
-      "readme_linha": 4078,
+      "readme_linha": 4072,
       "tipo_fonte": "privado"
     }
   ],
-  "total": 435
+  "total": 432
 }
