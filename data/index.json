@@ -3382,6 +3382,25 @@
       "url": "https://www.ibge.gov.br/acesso-informacao/institucional/documentos-ibge/1861-novo-portal/institucional/17422-servidores.html"
     },
     {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Pesquisa pública de corretores de seguros habilitados pela Superintendência de Seguros Privados, pessoa natural ou jurídica. Permite filtrar por tipo de pessoa, CNPJ (pessoa jurídica), nome, produto e situação do registro (ativo ou cancelado).",
+      "fonte": "SUSEP - Consulta de Corretores",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/susep-consulta-de-corretores",
+      "input": [
+        "cnpj",
+        "nome"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www2.susep.gov.br/safe/Corretores/pesquisa"
+    },
+    {
       "categoria": "Estatísticas Segurança Pública",
       "categoria_id": "estatisticas-seguranca-publica",
       "descricao": "Ministério da Justiça e Segurança Pública (MJSP)",
@@ -19168,5 +19187,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1041
+  "total": 1042
 }

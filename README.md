@@ -729,6 +729,10 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 - https://respondendo.ibge.gov.br/entrevistador.html
 - https://www.ibge.gov.br/acesso-informacao/institucional/documentos-ibge/1861-novo-portal/institucional/17422-servidores.html
 
+### SUSEP - Consulta de Corretores
+Pesquisa pública de corretores de seguros habilitados pela Superintendência de Seguros Privados, pessoa natural ou jurídica. Permite filtrar por tipo de pessoa, CNPJ (pessoa jurídica), nome, produto e situação do registro (ativo ou cancelado).
+- https://www2.susep.gov.br/safe/Corretores/pesquisa
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---

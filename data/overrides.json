@@ -55,6 +55,11 @@
     "registros-eleitorais-e-politicos/consultar-zonas-eleitorais-por-uf": {
       "input": ["uf", "municipio"],
       "output": ["endereco", "dados_cadastrais"]
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/susep-consulta-de-corretores": {
+      "input": ["nome", "cnpj"],
+      "output": ["dados_cadastrais", "situacao_cadastral"],
+      "observacao": "Sem cadastro. O campo de documento só aceita CNPJ (pessoa jurídica); corretores pessoa natural são localizados pelo nome."
     }
   }
 }
