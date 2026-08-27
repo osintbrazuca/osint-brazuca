@@ -1391,6 +1391,28 @@
     {
       "categoria": "Consulta de Processos",
       "categoria_id": "consulta-de-processos",
+      "descricao": "Pesquisa pública de processos e documentos do Conselho Administrativo de Defesa Econômica por número SEI, texto, interessado, unidade geradora e tipo de processo.",
+      "fonte": "CADE - Pesquisa Pública de Processos",
+      "fonte_id": "consulta-de-processos/cade-pesquisa-publica-de-processos",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.cade.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
       "descricao": "Sistema de Gestão de Tabelas Processuais Unificadas - consulta de classes processuais.",
       "fonte": "CNJ - Consulta de Classes Processuais SGT",
       "fonte_id": "consulta-de-processos/cnj-consulta-de-classes-processuais-sgt",
@@ -19586,5 +19608,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1060
+  "total": 1061
 }

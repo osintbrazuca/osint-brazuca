@@ -436,6 +436,10 @@ Consulta pública de processos de improbidade administrativa por número do proc
 Consulta de pessoas e entidades requeridas em ações de improbidade administrativa.
 - https://www.cnj.jus.br/improbidade_adm/consultar_requerido.php
 
+### CADE - Pesquisa Pública de Processos
+Pesquisa pública de processos e documentos do Conselho Administrativo de Defesa Econômica por número SEI, texto, interessado, unidade geradora e tipo de processo.
+- https://sei.cade.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0
+
 ### CNJ - Consulta de Classes Processuais SGT
 Sistema de Gestão de Tabelas Processuais Unificadas - consulta de classes processuais.
 - https://www.cnj.jus.br/sgt/consulta_publica_classes.php
