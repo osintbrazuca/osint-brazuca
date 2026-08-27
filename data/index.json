@@ -3106,15 +3106,11 @@
       "fonte": "Consulta Restituição do Imposto de Renda",
       "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/consulta-restituicao-do-imposto-de-renda",
       "input": [
-        "cnpj",
-        "cpf",
-        "nome"
+        "cpf"
       ],
       "label": "",
       "output": [
-        "dados_cadastrais",
-        "debito",
-        "situacao_cadastral"
+        "debito"
       ],
       "tipo_fonte": "federal",
       "uf": null,
@@ -4153,13 +4149,13 @@
       "fonte": "Consultar Zonas Eleitorais por UF",
       "fonte_id": "registros-eleitorais-e-politicos/consultar-zonas-eleitorais-por-uf",
       "input": [
-        "cpf",
-        "nome",
-        "titulo_eleitor"
+        "municipio",
+        "uf"
       ],
       "label": "",
       "output": [
-        "dados_cadastrais"
+        "dados_cadastrais",
+        "endereco"
       ],
       "tipo_fonte": "judiciario",
       "uf": null,
@@ -16418,9 +16414,14 @@
       "descricao": "Portal oficial do Ministério com informações sobre políticas de ciência, tecnologia e inovação.",
       "fonte": "MCTI - Ministério da Ciência, Tecnologia e Inovação",
       "fonte_id": "outras-buscas/mcti-ministerio-da-ciencia-tecnologia-e-inovacao",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "dataset",
+        "estatistica"
+      ],
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://www.gov.br/mcti/pt-br"
@@ -16431,9 +16432,14 @@
       "descricao": "Consulta de unidades credenciadas da Empresa Brasileira de Pesquisa e Inovação Industrial.",
       "fonte": "Embrapii - Unidades de Pesquisa e Inovação",
       "fonte_id": "outras-buscas/embrapii-unidades-de-pesquisa-e-inovacao",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "dados_cadastrais",
+        "endereco"
+      ],
       "tipo_fonte": "ong",
       "uf": null,
       "url": "https://embrapii.org.br/unidades/"
@@ -16444,9 +16450,14 @@
       "descricao": "Portal da agência de fomento à inovação com informações sobre editais, financiamentos e projetos.",
       "fonte": "Finep - Financiadora de Estudos e Projetos",
       "fonte_id": "outras-buscas/finep-financiadora-de-estudos-e-projetos",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "contrato_publico",
+        "estatistica"
+      ],
       "tipo_fonte": "federal",
       "uf": null,
       "url": "http://www.finep.gov.br/"
@@ -16474,9 +16485,14 @@
       "descricao": "Portal oficial da Suframa com informações sobre a Zona Franca de Manaus, incentivos fiscais e projetos aprovados.",
       "fonte": "SUFRAMA - Superintendência da Zona Franca de Manaus",
       "fonte_id": "outras-buscas/suframa-superintendencia-da-zona-franca-de-manaus",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "contrato_publico",
+        "estatistica"
+      ],
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://www.gov.br/suframa/pt-br"
@@ -16519,9 +16535,17 @@
       "descricao": "",
       "fonte": "Sinesp Cidadão (Site a APP)",
       "fonte_id": "outras-buscas/sinesp-cidadao-site-a-app",
-      "input": [],
+      "input": [
+        "chassi",
+        "nome",
+        "placa"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "dados_cadastrais",
+        "mandado_prisao",
+        "veiculo"
+      ],
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf"
@@ -18546,9 +18570,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.vrbo.com/pt-br/"
@@ -18559,9 +18589,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.airbnb.com.br/"
@@ -18572,9 +18608,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.quintoandar.com.br/"
@@ -18585,9 +18627,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.trivago.com.br/"
@@ -18598,9 +18646,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.tripadvisor.com.br/"
@@ -18611,9 +18665,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.booking.com/index.pt-br.html"

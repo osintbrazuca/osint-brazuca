@@ -15,6 +15,46 @@
       "input": ["dominio"],
       "output": ["api_json", "dados_cadastrais"],
       "observacao": "RDAP para domínios .br."
+    },
+    "outras-buscas/mcti-ministerio-da-ciencia-tecnologia-e-inovacao": {
+      "input": ["nenhum"],
+      "output": ["estatistica", "dataset"],
+      "observacao": "Portal institucional; dados de CT&I ficam em painéis e bases vinculadas ao ministério."
+    },
+    "outras-buscas/embrapii-unidades-de-pesquisa-e-inovacao": {
+      "input": ["nenhum"],
+      "output": ["dados_cadastrais", "endereco"],
+      "observacao": "Lista de unidades credenciadas, com localização e áreas de competência."
+    },
+    "outras-buscas/finep-financiadora-de-estudos-e-projetos": {
+      "input": ["nenhum"],
+      "output": ["contrato_publico", "estatistica"],
+      "observacao": "Editais, chamadas públicas e projetos financiados."
+    },
+    "outras-buscas/suframa-superintendencia-da-zona-franca-de-manaus": {
+      "input": ["nenhum"],
+      "output": ["contrato_publico", "estatistica"],
+      "observacao": "Projetos industriais aprovados e indicadores da Zona Franca de Manaus."
+    },
+    "outras-buscas/sinesp-cidadao-site-a-app": {
+      "input": ["placa", "chassi", "nome"],
+      "output": ["veiculo", "mandado_prisao", "dados_cadastrais"],
+      "observacao": "Exige cadastro gov.br. Consulta veículos, mandados de prisão, desaparecidos e procurados."
+    },
+    "outras-buscas/conhecimento-de-empreendimentos-por-dentro": {
+      "input": ["endereco", "municipio"],
+      "tipo_fonte": "privado",
+      "output": ["imovel", "endereco"],
+      "observacao": "Plataformas de hospedagem e aluguel com fotos internas de imóveis e empreendimentos."
+    },
+    "busca-de-informacoes-via-cpf-cnpj-crm-cna/consulta-restituicao-do-imposto-de-renda": {
+      "input": ["cpf"],
+      "output": ["debito"],
+      "observacao": "Requer CPF e data de nascimento. Retorna banco, agência e data da restituição."
+    },
+    "registros-eleitorais-e-politicos/consultar-zonas-eleitorais-por-uf": {
+      "input": ["uf", "municipio"],
+      "output": ["endereco", "dados_cadastrais"]
     }
   }
 }

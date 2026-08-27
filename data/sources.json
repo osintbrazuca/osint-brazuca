@@ -1821,13 +1821,11 @@
     {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
-      "classificacao": "heuristica",
+      "classificacao": "override",
       "descricao": "Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.",
       "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/consulta-restituicao-do-imposto-de-renda",
       "input": [
-        "cnpj",
-        "cpf",
-        "nome"
+        "cpf"
       ],
       "links": [
         {
@@ -1837,10 +1835,9 @@
         }
       ],
       "nome": "Consulta Restituição do Imposto de Renda",
+      "observacao": "Requer CPF e data de nascimento. Retorna banco, agência e data da restituição.",
       "output": [
-        "dados_cadastrais",
-        "debito",
-        "situacao_cadastral"
+        "debito"
       ],
       "readme_linha": 679,
       "tipo_fonte": "federal"
@@ -2753,13 +2750,12 @@
     {
       "categoria": "Registros Eleitorais e Políticos",
       "categoria_id": "registros-eleitorais-e-politicos",
-      "classificacao": "heuristica",
+      "classificacao": "override",
       "descricao": "Lista as zonas eleitorais e unidades da Justiça Eleitoral de cada estado.",
       "id": "registros-eleitorais-e-politicos/consultar-zonas-eleitorais-por-uf",
       "input": [
-        "cpf",
-        "nome",
-        "titulo_eleitor"
+        "municipio",
+        "uf"
       ],
       "links": [
         {
@@ -2770,7 +2766,8 @@
       ],
       "nome": "Consultar Zonas Eleitorais por UF",
       "output": [
-        "dados_cadastrais"
+        "dados_cadastrais",
+        "endereco"
       ],
       "readme_linha": 906,
       "tipo_fonte": "judiciario"
@@ -11827,10 +11824,12 @@
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
-      "classificacao": "indefinido",
+      "classificacao": "override",
       "descricao": "Portal oficial do Ministério com informações sobre políticas de ciência, tecnologia e inovação.",
       "id": "outras-buscas/mcti-ministerio-da-ciencia-tecnologia-e-inovacao",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "links": [
         {
           "label": "",
@@ -11839,17 +11838,23 @@
         }
       ],
       "nome": "MCTI - Ministério da Ciência, Tecnologia e Inovação",
-      "output": [],
+      "observacao": "Portal institucional; dados de CT&I ficam em painéis e bases vinculadas ao ministério.",
+      "output": [
+        "dataset",
+        "estatistica"
+      ],
       "readme_linha": 3337,
       "tipo_fonte": "federal"
     },
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
-      "classificacao": "indefinido",
+      "classificacao": "override",
       "descricao": "Consulta de unidades credenciadas da Empresa Brasileira de Pesquisa e Inovação Industrial.",
       "id": "outras-buscas/embrapii-unidades-de-pesquisa-e-inovacao",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "links": [
         {
           "label": "",
@@ -11858,17 +11863,23 @@
         }
       ],
       "nome": "Embrapii - Unidades de Pesquisa e Inovação",
-      "output": [],
+      "observacao": "Lista de unidades credenciadas, com localização e áreas de competência.",
+      "output": [
+        "dados_cadastrais",
+        "endereco"
+      ],
       "readme_linha": 3341,
       "tipo_fonte": "ong"
     },
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
-      "classificacao": "indefinido",
+      "classificacao": "override",
       "descricao": "Portal da agência de fomento à inovação com informações sobre editais, financiamentos e projetos.",
       "id": "outras-buscas/finep-financiadora-de-estudos-e-projetos",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "links": [
         {
           "label": "",
@@ -11877,7 +11888,11 @@
         }
       ],
       "nome": "Finep - Financiadora de Estudos e Projetos",
-      "output": [],
+      "observacao": "Editais, chamadas públicas e projetos financiados.",
+      "output": [
+        "contrato_publico",
+        "estatistica"
+      ],
       "readme_linha": 3345,
       "tipo_fonte": "federal"
     },
@@ -11907,10 +11922,12 @@
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
-      "classificacao": "indefinido",
+      "classificacao": "override",
       "descricao": "Portal oficial da Suframa com informações sobre a Zona Franca de Manaus, incentivos fiscais e projetos aprovados.",
       "id": "outras-buscas/suframa-superintendencia-da-zona-franca-de-manaus",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "links": [
         {
           "label": "",
@@ -11919,7 +11936,11 @@
         }
       ],
       "nome": "SUFRAMA - Superintendência da Zona Franca de Manaus",
-      "output": [],
+      "observacao": "Projetos industriais aprovados e indicadores da Zona Franca de Manaus.",
+      "output": [
+        "contrato_publico",
+        "estatistica"
+      ],
       "readme_linha": 3353,
       "tipo_fonte": "federal"
     },
@@ -11970,10 +11991,14 @@
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
-      "classificacao": "indefinido",
+      "classificacao": "override",
       "descricao": "",
       "id": "outras-buscas/sinesp-cidadao-site-a-app",
-      "input": [],
+      "input": [
+        "chassi",
+        "nome",
+        "placa"
+      ],
       "links": [
         {
           "label": "",
@@ -11982,7 +12007,12 @@
         }
       ],
       "nome": "Sinesp Cidadão (Site a APP)",
-      "output": [],
+      "observacao": "Exige cadastro gov.br. Consulta veículos, mandados de prisão, desaparecidos e procurados.",
+      "output": [
+        "dados_cadastrais",
+        "mandado_prisao",
+        "veiculo"
+      ],
       "readme_linha": 3365,
       "tipo_fonte": "federal"
     },
@@ -13282,10 +13312,13 @@
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
-      "classificacao": "indefinido",
+      "classificacao": "override",
       "descricao": "",
       "id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "links": [
         {
           "label": "",
@@ -13319,7 +13352,11 @@
         }
       ],
       "nome": "Conhecimento de empreendimentos por dentro",
-      "output": [],
+      "observacao": "Plataformas de hospedagem e aluguel com fotos internas de imóveis e empreendimentos.",
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "readme_linha": 3810,
       "tipo_fonte": "privado"
     },
