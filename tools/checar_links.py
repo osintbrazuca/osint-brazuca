@@ -11,12 +11,16 @@ Uso:
     python3 tools/checar_links.py --filtro detran     só URLs que contêm o texto
     python3 tools/checar_links.py --csv links.csv     grava o resultado completo
 
+URLs de exemplo (com {VALOR}, SEU_ALVO, exemplo, zeros) são rotuladas como
+"modelo" e não são requisitadas.
+
 Sem dependências além do Python 3.
 """
 
 import argparse
 import csv
 import json
+import re
 import socket
 import ssl
 import sys
@@ -35,7 +39,10 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) OSINT-Brazuca/checar_links (+htt
 TIMEOUT = 20
 
 # Rótulo por situação, para o resumo final.
-OK, REDIRECT, BLOQUEIO, OFFLINE, ERRO = "ok", "redirect", "bloqueio", "offline", "erro"
+OK, REDIRECT, BLOQUEIO, OFFLINE, ERRO, MODELO = "ok", "redirect", "bloqueio", "offline", "erro", "modelo"
+
+# URLs de exemplo, com valor a preencher: nunca respondem e não são links quebrados.
+RE_MODELO = re.compile(r"\{[^}]*\}|SEU_|seu_dominio|exemplo|0000000000|/ws/$|/v1/cnpj/$", re.I)
 
 
 def classifica(status, destino, url):
@@ -88,9 +95,13 @@ def main():
     urls = sorted(fontes)
     if args.filtro:
         urls = [u for u in urls if args.filtro.lower() in u.lower()]
-    print(f"verificando {len(urls)} URLs distintas com {args.paralelo} conexões...\n")
+    modelos = [u for u in urls if RE_MODELO.search(u)]
+    urls = [u for u in urls if u not in modelos]
+    print(f"verificando {len(urls)} URLs distintas com {args.paralelo} conexões"
+          f" ({len(modelos)} URLs modelo ignoradas)...\n")
 
-    resultados = []
+    resultados = [(MODELO, "", u, "", 0, "URL de exemplo, com valor a preencher", ";".join(fontes[u]))
+                  for u in modelos]
     with ThreadPoolExecutor(max_workers=args.paralelo) as pool:
         futuros = {pool.submit(requisita, u): u for u in urls}
         for i, fut in enumerate(as_completed(futuros), start=1):
@@ -105,7 +116,7 @@ def main():
 
     resumo = Counter(r[0] for r in resultados)
     print("\nresumo")
-    for chave in (OK, REDIRECT, BLOQUEIO, OFFLINE, ERRO):
+    for chave in (OK, REDIRECT, BLOQUEIO, OFFLINE, ERRO, MODELO):
         print(f"  {chave:9} {resumo.get(chave, 0)}")
     print("\nbloqueio = 401/403/405/429/503, provável anti-robô: confira no navegador antes de reportar.")
 
