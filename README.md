@@ -206,10 +206,6 @@ Comprovante de Inscrição e de Situação Cadastral de Pessoa Jurídica, obtido
 
 - https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/
 
-### Extrato do Benefício de Prestação Continuada (INSS)
-
-- ...
-
 ### Meu INSS
 Portal oficial para consulta de benefícios previdenciários, extrato de contribuições, agendamentos e outros serviços do INSS.
 - https://meu.inss.gov.br/
@@ -439,6 +435,10 @@ Consulta pública de processos de improbidade administrativa por número do proc
 ### CNJ - Consulta de Requeridos por Improbidade
 Consulta de pessoas e entidades requeridas em ações de improbidade administrativa.
 - https://www.cnj.jus.br/improbidade_adm/consultar_requerido.php
+
+### CADE - Pesquisa Pública de Processos
+Pesquisa pública de processos e documentos do Conselho Administrativo de Defesa Econômica por número SEI, texto, interessado, unidade geradora e tipo de processo.
+- https://sei.cade.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0
 
 ### CNJ - Consulta de Classes Processuais SGT
 Sistema de Gestão de Tabelas Processuais Unificadas - consulta de classes processuais.
@@ -683,6 +683,7 @@ Consulta de inutilização de numeração de documentos fiscais eletrônicos e v
 ### Consulta Restituição do Imposto de Renda
 
 Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.
+- https://www.restituicao.receita.fazenda.gov.br/
 
 ### Portal e-CAC Receita Federal
 Centro de Atendimento Virtual (e-CAC) da Receita Federal permite acesso a serviços digitais.
@@ -731,6 +732,30 @@ Pesquisa informações sobre entrevistador do IBGE. Para consulta é necessário
 
 - https://respondendo.ibge.gov.br/entrevistador.html
 - https://www.ibge.gov.br/acesso-informacao/institucional/documentos-ibge/1861-novo-portal/institucional/17422-servidores.html
+
+### SUSEP - Consulta de Corretores
+Pesquisa pública de corretores de seguros habilitados pela Superintendência de Seguros Privados, pessoa natural ou jurídica. Permite filtrar por tipo de pessoa, CNPJ (pessoa jurídica), nome, produto e situação do registro (ativo ou cancelado).
+- https://www2.susep.gov.br/safe/Corretores/pesquisa
+
+### PGFN - Dívida Aberta
+Consulta pública de devedores inscritos em dívida ativa da União e do FGTS em situação irregular. Pesquisa por CPF, CNPJ, nome ou razão social, com filtros por natureza e valor da dívida e exportação dos resultados.
+- https://www.dividaaberta.pgfn.gov.br/consultar-devedores
+
+### TST - Certidão Negativa de Débitos Trabalhistas (CNDT)
+Emissão de certidão que informa se a pessoa física ou jurídica consta no Banco Nacional de Devedores Trabalhistas. Para consulta é necessário apenas o CPF ou CNPJ.
+- https://cndt-certidao.tst.jus.br/inicio.faces
+
+### Caixa - Consulta Regularidade do Empregador (CRF)
+Consulta do Certificado de Regularidade do FGTS do empregador. Para consulta é necessário o CNPJ ou CEI e a UF.
+- https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf
+
+### Banco Central - Encontre uma Instituição
+Consulta de instituições reguladas ou supervisionadas pelo Banco Central, por nome, CNPJ (8 primeiros dígitos), UF e município, com opção de incluir agências e instituições em regime especial ou liquidação.
+- https://www.bcb.gov.br/meubc/encontreinstituicao
+
+### CENPROT - Consulta de Protestos
+Consulta gratuita de protestos em cartórios de todo o Brasil. Para consulta é necessário apenas o CPF ou CNPJ.
+- https://www.pesquisaprotesto.com.br/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
@@ -881,6 +906,22 @@ Emissão de certidão que comprova a regularidade da situação eleitoral do cid
 Emissão de certidão informando se o eleitor possui condenações por crimes eleitorais registradas na Justiça Eleitoral.
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-crimes-eleitorais
 
+### Certidão Negativa de Alistamento
+Emissão de certidão que comprova a inexistência de inscrição eleitoral para o cidadão.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-negativa-alistamento
+
+### Certidão Simplificada de Dados e Biometria
+Emissão de certidão com os dados cadastrais do eleitor e a situação da coleta biométrica.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-simplificada-dados-cadastrais
+
+### Certidão de Ausência de Débito da Última Eleição
+Emissão de certidão que comprova a inexistência de débito referente à última eleição.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-ausencia-debito-ultima-eleicao
+
+### Validação de Documento da Justiça Eleitoral
+Verifica a autenticidade de certidões e documentos emitidos pela Justiça Eleitoral a partir do código de validação.
+- https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/validacao
+
 ### Consulta Débitos Eleitorais
 Verifica se o eleitor possui débitos eleitorais pendentes, como multas por ausência nas eleições sem justificativa.
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/debitos/listar
@@ -906,7 +947,8 @@ Emite declaração para eleitores que exerceram função de mesário ou trabalha
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/declaracao-trabalho-eleitoral
 
 
-## Consultar Zonas Eleitorais por UF
+### Consultar Zonas Eleitorais por UF
+Lista as zonas eleitorais e unidades da Justiça Eleitoral de cada estado.
 - https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/unidades-justica-eleitoral/por-uf
 
 ### Base dos Dados - Eleições
@@ -960,6 +1002,10 @@ Cadastro obrigatório de pessoas físicas e jurídicas que realizam atividades p
 ### SINAFLOR - Sistema Nacional de Controle da Origem dos Produtos Florestais
 Sistema de controle do transporte e armazenamento de produtos e subprodutos florestais.
 - https://sinaflor2.ibama.gov.br/
+
+### IBAMA - Certificado de Regularidade (CTF)
+Consulta da regularidade de pessoas físicas e jurídicas no Cadastro Técnico Federal de Atividades Potencialmente Poluidoras. Para consulta é necessário apenas o CPF ou CNPJ.
+- https://servicos.ibama.gov.br/ctf/publico/certificado_regularidade_consulta.php
 
 ### CETESB - Licenciamento Ambiental São Paulo
 Consulta de licenças ambientais do Estado de São Paulo.
@@ -1035,30 +1081,6 @@ Consulta pública de sanções aplicadas a pessoas físicas e jurídicas.
 Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.
 - https://portaldatransparencia.gov.br/api-de-dados
 
-### Dados.gov.br - Portal Brasileiro de Dados Abertos
-Catálogo central de dados abertos do governo federal com mais de 10 mil conjuntos de dados.
-- https://dados.gov.br/
-
-### Painel de Compras Governamentais
-Centralização de informações sobre licitações, contratos e compras do governo federal.
-- https://paineldecompras.economia.gov.br/
-
-### ComprasNet - Portal de Compras do Governo Federal
-Sistema oficial de compras e licitações públicas do governo federal.
-- https://www.gov.br/compras/pt-br
-
-### PNCP - Portal Nacional de Contratações Públicas
-Plataforma unificada de licitações conforme nova Lei de Licitações (Lei 14.133/2021).
-- https://www.gov.br/pncp/
-
-### TCU - Tribunal de Contas da União
-Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.
-- https://portal.tcu.gov.br/
-
-### TCU - Consulta de Acórdãos
-Busca de decisões do TCU sobre prestação de contas e irregularidades.
-- https://pesquisa.apps.tcu.gov.br/
-
 **📖 Documentação da API:**
 <details>
 <summary>Exemplos de Uso da API</summary>
@@ -1093,6 +1115,55 @@ print(response.json())
 - Máximo de 60 requisições por minuto
 - Período máximo de consulta: 12 meses
 - Formato de resposta: JSON
+
+</details>
+
+### Dados.gov.br - Portal Brasileiro de Dados Abertos
+Catálogo central de dados abertos do governo federal com mais de 10 mil conjuntos de dados.
+- https://dados.gov.br/
+
+### Painel de Compras Governamentais
+Centralização de informações sobre licitações, contratos e compras do governo federal.
+- https://paineldecompras.economia.gov.br/
+
+### ComprasNet - Portal de Compras do Governo Federal
+Sistema oficial de compras e licitações públicas do governo federal.
+- https://www.gov.br/compras/pt-br
+
+### PNCP - Portal Nacional de Contratações Públicas
+Plataforma unificada de licitações conforme nova Lei de Licitações (Lei 14.133/2021).
+- https://www.gov.br/pncp/
+
+### SICAF - Consulta de Restrição para Contratar com a Administração Pública
+Consulta pública de pessoas físicas, jurídicas e estrangeiros com restrição para contratar com a Administração Pública, por CNPJ, CPF ou razão social.
+- https://www3.comprasnet.gov.br/sicaf-web/public/pages/consultas/consultarRestricaoContratarAdministracaoPublica.jsf
+
+### MTE - Cadastro de Empregadores que Submeteram Trabalhadores a Condições Análogas à Escravidão
+Lista pública do Ministério do Trabalho e Emprego com os empregadores flagrados em fiscalização, em formato PDF.
+- https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-de-atuacao/cadastro_de_empregadores.pdf
+
+### TCU - Tribunal de Contas da União
+Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.
+- https://portal.tcu.gov.br/
+
+### TCU - Consulta de Acórdãos
+Busca de decisões do TCU sobre prestação de contas e irregularidades.
+- https://pesquisa.apps.tcu.gov.br/
+
+### TCU - Plataforma de Certidões
+Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.
+
+<details>
+<summary>Links de pesquisa</summary>
+
+- Certidão de contas julgadas irregulares - https://certidoes.apps.tcu.gov.br/emitir-certidao-contas-julgadas-irregulares
+- Certidão de inabilitados para função pública - https://certidoes.apps.tcu.gov.br/emitir-certidao-inabilitados
+- Certidão de licitante inidôneo - https://certidoes.apps.tcu.gov.br/emitir-certidao-inidoneos
+- Certidão de processos - https://certidoes.apps.tcu.gov.br/emitir-certidao-processos
+- Lista eleitoral de contas julgadas irregulares - https://certidoes.apps.tcu.gov.br/lista-implicacao-eleitoral
+- Lista de contas julgadas irregulares - https://certidoes.apps.tcu.gov.br/lista-responsaveis
+- Lista de inabilitados - https://certidoes.apps.tcu.gov.br/lista-inabilitados
+- Lista de licitantes inidôneos - https://certidoes.apps.tcu.gov.br/lista-inidoneos
 
 </details>
 
@@ -1472,7 +1543,7 @@ Por meio da busca é possível encontrar orelhões pelo número, localizar ruas,
 
 - http://sistemas.anatel.gov.br/sgmu/fiqueligado/tups.asp
 
-### Painéis de Telecomunicações (ANATEL)
+#### Painéis de Telecomunicações (ANATEL)
 
 ### Painel Geral - Indicadores de Telecomunicações
 
@@ -2410,7 +2481,11 @@ O Portal Brasileiro de Dados Abertos do Banco Central é o meio utilizado pelo B
 
 - https://dadosabertos.bcb.gov.br/dataset
 
-### Dados MTur - Ministério do Meio Ambiente e Mudança do Clima
+### IF.data - Dados Selecionados de Instituições Financeiras
+Relatórios do Banco Central com dados contábeis e prudenciais das instituições financeiras, por data-base, tipo de instituição e tipo de relatório.
+- https://www3.bcb.gov.br/ifdata/
+
+### Dados MTur - Ministério do Turismo
 
 O Plano de Dados Abertos do MTur abrange os setores do turismo e da cultura, e é o documento orientador para as ações de implementação e promoção de abertura de dados produzidos ou que estão sob a responsabilidade do Ministério do Turismo (MTur)
 
@@ -3184,10 +3259,6 @@ Câmeras de monitoramento de rodovias, segurança pública e clima por estado.
 
 - https://www.youtube.com/@maaxcamaovivo
 
-### Câmera do Aeroporto da Pampulha - Belo Horizonte 24 horas (BHZ)(SBBH)
-
-- ...
-
 ### Câmera do Aeroporto Guararapes - Recife - SBRF
 
 - https://www.youtube.com/@papacharliegolfTV
@@ -3348,6 +3419,10 @@ Portal oficial do Ministério com informações sobre políticas de ciência, te
 Consulta de unidades credenciadas da Empresa Brasileira de Pesquisa e Inovação Industrial.
 - https://embrapii.org.br/unidades/
 
+### IPEA - Mapa das Organizações da Sociedade Civil
+Busca de organizações da sociedade civil por nome ou CNPJ, com dados cadastrais, projetos e recursos públicos recebidos.
+- https://mapaosc.ipea.gov.br/
+
 ### Finep - Financiadora de Estudos e Projetos
 Portal da agência de fomento à inovação com informações sobre editais, financiamentos e projetos.
 - http://www.finep.gov.br/
@@ -3409,6 +3484,10 @@ Conjunto de APIs públicas e gratuitas com informações sobre CEP, CNPJ, bancos
 - Tabela FIPE
 - ISBN
 - Taxas de câmbio
+
+### CNJ - API Pública DataJud
+API pública do Conselho Nacional de Justiça para consulta de metadados e movimentações de processos de todos os tribunais, com documentação, exemplos e modelo de dados na wiki.
+- https://datajud-wiki.cnj.jus.br/api-publica/
 
 ### ReceitaWS - API CNPJ
 API gratuita para consulta de informações cadastrais de empresas brasileiras.
@@ -3625,6 +3704,9 @@ Consultas de registro profissional e certidões em conselhos federais e regionai
 
 <details>
 <summary>Conselhos de Medicina (CRM)</summary>
+
+**CFM - Conselho Federal de Medicina**
+- Busca por médicos: https://portal.cfm.org.br/busca-medicos/
 
 **CREMESP - Conselho Regional de Medicina do Estado de São Paulo**
 - Portal: https://www.cremesp.org.br/

@@ -52,7 +52,7 @@
       ],
       "tipo_fonte": "federal",
       "uf": null,
-      "url": "https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp"
+      "url": "https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/"
     },
     {
       "categoria": "Benefícios sociais (Políticas Públicas)",
@@ -1387,6 +1387,28 @@
       "tipo_fonte": "judiciario",
       "uf": null,
       "url": "https://www.cnj.jus.br/improbidade_adm/consultar_requerido.php"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "Pesquisa pública de processos e documentos do Conselho Administrativo de Defesa Econômica por número SEI, texto, interessado, unidade geradora e tipo de processo.",
+      "fonte": "CADE - Pesquisa Pública de Processos",
+      "fonte_id": "consulta-de-processos/cade-pesquisa-publica-de-processos",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.cade.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
     },
     {
       "categoria": "Consulta de Processos",
@@ -3102,6 +3124,23 @@
     {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Nesta consulta serão exibidas informações (banco, agência e data de restituição) da Restituição do Imposto de Renda. Para consulta é necessário apenas o CPF e data de nascimento.",
+      "fonte": "Consulta Restituição do Imposto de Renda",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/consulta-restituicao-do-imposto-de-renda",
+      "input": [
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "debito"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.restituicao.receita.fazenda.gov.br/"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
       "descricao": "Centro de Atendimento Virtual (e-CAC) da Receita Federal permite acesso a serviços digitais.",
       "fonte": "Portal e-CAC Receita Federal",
       "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/portal-e-cac-receita-federal",
@@ -3363,6 +3402,123 @@
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://www.ibge.gov.br/acesso-informacao/institucional/documentos-ibge/1861-novo-portal/institucional/17422-servidores.html"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Pesquisa pública de corretores de seguros habilitados pela Superintendência de Seguros Privados, pessoa natural ou jurídica. Permite filtrar por tipo de pessoa, CNPJ (pessoa jurídica), nome, produto e situação do registro (ativo ou cancelado).",
+      "fonte": "SUSEP - Consulta de Corretores",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/susep-consulta-de-corretores",
+      "input": [
+        "cnpj",
+        "nome"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www2.susep.gov.br/safe/Corretores/pesquisa"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Consulta pública de devedores inscritos em dívida ativa da União e do FGTS em situação irregular. Pesquisa por CPF, CNPJ, nome ou razão social, com filtros por natureza e valor da dívida e exportação dos resultados.",
+      "fonte": "PGFN - Dívida Aberta",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/pgfn-divida-aberta",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "razao_social"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "debito"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.dividaaberta.pgfn.gov.br/consultar-devedores"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Emissão de certidão que informa se a pessoa física ou jurídica consta no Banco Nacional de Devedores Trabalhistas. Para consulta é necessário apenas o CPF ou CNPJ.",
+      "fonte": "TST - Certidão Negativa de Débitos Trabalhistas (CNDT)",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/tst-certidao-negativa-de-debitos-trabalhistas-cndt",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "debito"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://cndt-certidao.tst.jus.br/inicio.faces"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Consulta do Certificado de Regularidade do FGTS do empregador. Para consulta é necessário o CNPJ ou CEI e a UF.",
+      "fonte": "Caixa - Consulta Regularidade do Empregador (CRF)",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/caixa-consulta-regularidade-do-empregador-crf",
+      "input": [
+        "cnpj",
+        "uf"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://consulta-crf.caixa.gov.br/consultacrf/pages/consultaEmpregador.jsf"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Consulta de instituições reguladas ou supervisionadas pelo Banco Central, por nome, CNPJ (8 primeiros dígitos), UF e município, com opção de incluir agências e instituições em regime especial ou liquidação.",
+      "fonte": "Banco Central - Encontre uma Instituição",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/banco-central-encontre-uma-instituicao",
+      "input": [
+        "cnpj",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.bcb.gov.br/meubc/encontreinstituicao"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Consulta gratuita de protestos em cartórios de todo o Brasil. Para consulta é necessário apenas o CPF ou CNPJ.",
+      "fonte": "CENPROT - Consulta de Protestos",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cenprot-consulta-de-protestos",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "debito"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://www.pesquisaprotesto.com.br/"
     },
     {
       "categoria": "Estatísticas Segurança Pública",
@@ -4007,6 +4163,87 @@
     {
       "categoria": "Registros Eleitorais e Políticos",
       "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Emissão de certidão que comprova a inexistência de inscrição eleitoral para o cidadão.",
+      "fonte": "Certidão Negativa de Alistamento",
+      "fonte_id": "registros-eleitorais-e-politicos/certidao-negativa-de-alistamento",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-negativa-alistamento"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Emissão de certidão com os dados cadastrais do eleitor e a situação da coleta biométrica.",
+      "fonte": "Certidão Simplificada de Dados e Biometria",
+      "fonte_id": "registros-eleitorais-e-politicos/certidao-simplificada-de-dados-e-biometria",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-simplificada-dados-cadastrais"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Emissão de certidão que comprova a inexistência de débito referente à última eleição.",
+      "fonte": "Certidão de Ausência de Débito da Última Eleição",
+      "fonte_id": "registros-eleitorais-e-politicos/certidao-de-ausencia-de-debito-da-ultima-eleicao",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "debito"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/certidao-ausencia-debito-ultima-eleicao"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Verifica a autenticidade de certidões e documentos emitidos pela Justiça Eleitoral a partir do código de validação.",
+      "fonte": "Validação de Documento da Justiça Eleitoral",
+      "fonte_id": "registros-eleitorais-e-politicos/validacao-de-documento-da-justica-eleitoral",
+      "input": [
+        "cpf",
+        "nome",
+        "titulo_eleitor"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/validacao"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
       "descricao": "Verifica se o eleitor possui débitos eleitorais pendentes, como multas por ausência nas eleições sem justificativa.",
       "fonte": "Consulta Débitos Eleitorais",
       "fonte_id": "registros-eleitorais-e-politicos/consulta-debitos-eleitorais",
@@ -4126,29 +4363,38 @@
       "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/certidoes-eleitor/declaracao-trabalho-eleitoral"
     },
     {
-      "categoria": "Consultar Zonas Eleitorais por UF",
-      "categoria_id": "consultar-zonas-eleitorais-por-uf",
-      "descricao": "",
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Lista as zonas eleitorais e unidades da Justiça Eleitoral de cada estado.",
       "fonte": "Consultar Zonas Eleitorais por UF",
-      "fonte_id": "consultar-zonas-eleitorais-por-uf/consultar-zonas-eleitorais-por-uf",
-      "input": [],
+      "fonte_id": "registros-eleitorais-e-politicos/consultar-zonas-eleitorais-por-uf",
+      "input": [
+        "municipio",
+        "uf"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "dados_cadastrais",
+        "endereco"
+      ],
       "tipo_fonte": "judiciario",
       "uf": null,
       "url": "https://www.tse.jus.br/servicos-eleitorais/autoatendimento-eleitoral#/unidades-justica-eleitoral/por-uf"
     },
     {
-      "categoria": "Consultar Zonas Eleitorais por UF",
-      "categoria_id": "consultar-zonas-eleitorais-por-uf",
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
       "descricao": "Dados eleitorais tratados, padronizados e prontos para análise estatística.",
       "fonte": "Base dos Dados - Eleições",
-      "fonte_id": "consultar-zonas-eleitorais-por-uf/base-dos-dados-eleicoes",
+      "fonte_id": "registros-eleitorais-e-politicos/base-dos-dados-eleicoes",
       "input": [
-        "nenhum"
+        "cpf",
+        "nome",
+        "titulo_eleitor"
       ],
       "label": "",
       "output": [
+        "dados_cadastrais",
         "estatistica"
       ],
       "tipo_fonte": "ong",
@@ -4318,6 +4564,25 @@
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://sinaflor2.ibama.gov.br/"
+    },
+    {
+      "categoria": "Registros Ambientais",
+      "categoria_id": "registros-ambientais",
+      "descricao": "Consulta da regularidade de pessoas físicas e jurídicas no Cadastro Técnico Federal de Atividades Potencialmente Poluidoras. Para consulta é necessário apenas o CPF ou CNPJ.",
+      "fonte": "IBAMA - Certificado de Regularidade (CTF)",
+      "fonte_id": "registros-ambientais/ibama-certificado-de-regularidade-ctf",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "certidao",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://servicos.ibama.gov.br/ctf/publico/certificado_regularidade_consulta.php"
     },
     {
       "categoria": "Registros Ambientais",
@@ -4580,6 +4845,27 @@
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
       "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.",
+      "fonte": "Portal da Transparência - API de Dados",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/portal-da-transparencia-api-de-dados",
+      "input": [
+        "cnpj",
+        "nome"
+      ],
+      "label": "1. Acesse",
+      "output": [
+        "api_json",
+        "contrato_publico",
+        "licitacao",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://portaldatransparencia.gov.br/api-de-dados"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
       "descricao": "Catálogo central de dados abertos do governo federal com mais de 10 mil conjuntos de dados.",
       "fonte": "Dados.gov.br - Portal Brasileiro de Dados Abertos",
       "fonte_id": "transparencia-publica-e-defesa-do-consumidor/dados-gov-br-portal-brasileiro-de-dados-abertos",
@@ -4662,6 +4948,43 @@
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
       "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Consulta pública de pessoas físicas, jurídicas e estrangeiros com restrição para contratar com a Administração Pública, por CNPJ, CPF ou razão social.",
+      "fonte": "SICAF - Consulta de Restrição para Contratar com a Administração Pública",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/sicaf-consulta-de-restricao-para-contratar-com-a-administracao-publica",
+      "input": [
+        "cnpj",
+        "cpf",
+        "razao_social"
+      ],
+      "label": "",
+      "output": [
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www3.comprasnet.gov.br/sicaf-web/public/pages/consultas/consultarRestricaoContratarAdministracaoPublica.jsf"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Lista pública do Ministério do Trabalho e Emprego com os empregadores flagrados em fiscalização, em formato PDF.",
+      "fonte": "MTE - Cadastro de Empregadores que Submeteram Trabalhadores a Condições Análogas à Escravidão",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/mte-cadastro-de-empregadores-que-submeteram-trabalhadores-a-condicoes-analogas-a-escravidao",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "dataset",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-de-atuacao/cadastro_de_empregadores.pdf"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
       "descricao": "Fiscalização de gastos públicos federais, relatórios de auditoria e decisões.",
       "fonte": "TCU - Tribunal de Contas da União",
       "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-tribunal-de-contas-da-uniao",
@@ -4704,22 +5027,202 @@
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
       "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
-      "descricao": "Busca de decisões do TCU sobre prestação de contas e irregularidades.",
-      "fonte": "TCU - Consulta de Acórdãos",
-      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-consulta-de-acordaos",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
       "input": [
         "cnpj",
-        "nome"
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
       ],
-      "label": "1. Acesse",
+      "label": "Certidão de contas julgadas irregulares",
       "output": [
-        "contrato_publico",
-        "licitacao",
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
         "sancao"
       ],
       "tipo_fonte": "federal",
       "uf": null,
-      "url": "https://portaldatransparencia.gov.br/api-de-dados"
+      "url": "https://certidoes.apps.tcu.gov.br/emitir-certidao-contas-julgadas-irregulares"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Certidão de inabilitados para função pública",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": "PA",
+      "url": "https://certidoes.apps.tcu.gov.br/emitir-certidao-inabilitados"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Certidão de licitante inidôneo",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/emitir-certidao-inidoneos"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Certidão de processos",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/emitir-certidao-processos"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Lista eleitoral de contas julgadas irregulares",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/lista-implicacao-eleitoral"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Lista de contas julgadas irregulares",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/lista-responsaveis"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Lista de inabilitados",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/lista-inabilitados"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas julgadas irregulares, inabilitados, licitantes inidôneos e processos) e listas públicas pesquisáveis por nome, CPF/CNPJ, UF e município, com download em CSV. A lista eleitoral cobre as eleições de 2014 a 2026.",
+      "fonte": "TCU - Plataforma de Certidões",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/tcu-plataforma-de-certidoes",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "nome",
+        "uf"
+      ],
+      "label": "Lista de licitantes inidôneos",
+      "output": [
+        "certidao",
+        "dados_cadastrais",
+        "dataset",
+        "processo",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://certidoes.apps.tcu.gov.br/lista-inidoneos"
     },
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
@@ -11217,9 +11720,26 @@
     {
       "categoria": "Datasets / Dados Abertos",
       "categoria_id": "datasets-dados-abertos",
+      "descricao": "Relatórios do Banco Central com dados contábeis e prudenciais das instituições financeiras, por data-base, tipo de instituição e tipo de relatório.",
+      "fonte": "IF.data - Dados Selecionados de Instituições Financeiras",
+      "fonte_id": "datasets-dados-abertos/if-data-dados-selecionados-de-instituicoes-financeiras",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "dataset"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www3.bcb.gov.br/ifdata/"
+    },
+    {
+      "categoria": "Datasets / Dados Abertos",
+      "categoria_id": "datasets-dados-abertos",
       "descricao": "O Plano de Dados Abertos do MTur abrange os setores do turismo e da cultura, e é o documento orientador para as ações de implementação e promoção de abertura de dados produzidos ou que estão sob a responsabilidade do Ministério do Turismo (MTur)",
-      "fonte": "Dados MTur - Ministério do Meio Ambiente e Mudança do Clima",
-      "fonte_id": "datasets-dados-abertos/dados-mtur-ministerio-do-meio-ambiente-e-mudanca-do-clima",
+      "fonte": "Dados MTur - Ministério do Turismo",
+      "fonte_id": "datasets-dados-abertos/dados-mtur-ministerio-do-turismo",
       "input": [
         "nenhum"
       ],
@@ -16388,9 +16908,14 @@
       "descricao": "Portal oficial do Ministério com informações sobre políticas de ciência, tecnologia e inovação.",
       "fonte": "MCTI - Ministério da Ciência, Tecnologia e Inovação",
       "fonte_id": "outras-buscas/mcti-ministerio-da-ciencia-tecnologia-e-inovacao",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "dataset",
+        "estatistica"
+      ],
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://www.gov.br/mcti/pt-br"
@@ -16401,9 +16926,14 @@
       "descricao": "Consulta de unidades credenciadas da Empresa Brasileira de Pesquisa e Inovação Industrial.",
       "fonte": "Embrapii - Unidades de Pesquisa e Inovação",
       "fonte_id": "outras-buscas/embrapii-unidades-de-pesquisa-e-inovacao",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "dados_cadastrais",
+        "endereco"
+      ],
       "tipo_fonte": "ong",
       "uf": null,
       "url": "https://embrapii.org.br/unidades/"
@@ -16411,12 +16941,37 @@
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
+      "descricao": "Busca de organizações da sociedade civil por nome ou CNPJ, com dados cadastrais, projetos e recursos públicos recebidos.",
+      "fonte": "IPEA - Mapa das Organizações da Sociedade Civil",
+      "fonte_id": "outras-buscas/ipea-mapa-das-organizacoes-da-sociedade-civil",
+      "input": [
+        "cnpj",
+        "nome"
+      ],
+      "label": "",
+      "output": [
+        "contrato_publico",
+        "dados_cadastrais",
+        "estatistica"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://mapaosc.ipea.gov.br/"
+    },
+    {
+      "categoria": "Outras Buscas",
+      "categoria_id": "outras-buscas",
       "descricao": "Portal da agência de fomento à inovação com informações sobre editais, financiamentos e projetos.",
       "fonte": "Finep - Financiadora de Estudos e Projetos",
       "fonte_id": "outras-buscas/finep-financiadora-de-estudos-e-projetos",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "contrato_publico",
+        "estatistica"
+      ],
       "tipo_fonte": "federal",
       "uf": null,
       "url": "http://www.finep.gov.br/"
@@ -16444,9 +16999,14 @@
       "descricao": "Portal oficial da Suframa com informações sobre a Zona Franca de Manaus, incentivos fiscais e projetos aprovados.",
       "fonte": "SUFRAMA - Superintendência da Zona Franca de Manaus",
       "fonte_id": "outras-buscas/suframa-superintendencia-da-zona-franca-de-manaus",
-      "input": [],
+      "input": [
+        "nenhum"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "contrato_publico",
+        "estatistica"
+      ],
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://www.gov.br/suframa/pt-br"
@@ -16489,9 +17049,17 @@
       "descricao": "",
       "fonte": "Sinesp Cidadão (Site a APP)",
       "fonte_id": "outras-buscas/sinesp-cidadao-site-a-app",
-      "input": [],
+      "input": [
+        "chassi",
+        "nome",
+        "placa"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "dados_cadastrais",
+        "mandado_prisao",
+        "veiculo"
+      ],
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://seguranca.sinesp.gov.br/sinesp-seguranca/login.jsf"
@@ -16610,6 +17178,25 @@
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://brasilapi.com.br/docs"
+    },
+    {
+      "categoria": "APIs Públicas Brasileiras",
+      "categoria_id": "apis-publicas-brasileiras",
+      "descricao": "API pública do Conselho Nacional de Justiça para consulta de metadados e movimentações de processos de todos os tribunais, com documentação, exemplos e modelo de dados na wiki.",
+      "fonte": "CNJ - API Pública DataJud",
+      "fonte_id": "apis-publicas-brasileiras/cnj-api-publica-datajud",
+      "input": [
+        "numero_processo"
+      ],
+      "label": "",
+      "output": [
+        "api_json",
+        "movimentacao",
+        "processo"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://datajud-wiki.cnj.jus.br/api-publica/"
     },
     {
       "categoria": "APIs Públicas Brasileiras",
@@ -17148,6 +17735,25 @@
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://www.aneel.gov.br/ranking-das-tarifas"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "Busca por médicos",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://portal.cfm.org.br/busca-medicos/"
     },
     {
       "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
@@ -18516,9 +19122,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.vrbo.com/pt-br/"
@@ -18529,9 +19141,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.airbnb.com.br/"
@@ -18542,9 +19160,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.quintoandar.com.br/"
@@ -18555,9 +19179,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.trivago.com.br/"
@@ -18568,9 +19198,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.tripadvisor.com.br/"
@@ -18581,9 +19217,15 @@
       "descricao": "",
       "fonte": "Conhecimento de empreendimentos por dentro",
       "fonte_id": "outras-buscas/conhecimento-de-empreendimentos-por-dentro",
-      "input": [],
+      "input": [
+        "endereco",
+        "municipio"
+      ],
       "label": "",
-      "output": [],
+      "output": [
+        "endereco",
+        "imovel"
+      ],
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.booking.com/index.pt-br.html"
@@ -19078,5 +19720,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1040
+  "total": 1067
 }
