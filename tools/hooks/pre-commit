@@ -1,0 +1,29 @@
+#!/bin/sh
+# Valida documentos e dataset antes do commit. Ativar com:
+#   git config core.hooksPath tools/hooks
+set -e
+cd "$(git rev-parse --show-toplevel)"
+
+# 1. Regras de formatação (travessão, menu, âncoras) e avisos de curadoria
+if ! git diff --cached --quiet -- '*.md' data tools; then
+  python3 tools/validar_docs.py --avisos
+fi
+
+# 2. Dataset: só quando README, data ou tools mudaram
+if git diff --cached --quiet -- README.md data tools; then
+  exit 0
+fi
+
+python3 tools/build_dataset.py --check
+
+relatorio=$(python3 tools/build_dataset.py --report)
+if echo "$relatorio" | grep -q "fontes sem nenhum link"; then
+  echo "$relatorio" | sed -n '/fontes sem nenhum link/,/^$/p'
+  echo "ERRO: há fontes sem nenhum link no README.md" >&2
+  exit 1
+fi
+if echo "$relatorio" | grep -q "sem classificação, candidatas a override"; then
+  echo "$relatorio" | sed -n '/sem classificação/,/^$/p'
+  echo "ERRO: há fontes sem classificação. Adicione-as em data/overrides.json" >&2
+  exit 1
+fi

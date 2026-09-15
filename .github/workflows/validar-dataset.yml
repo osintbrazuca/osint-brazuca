@@ -1,0 +1,37 @@
+name: Validar catálogo e dataset
+
+on:
+  push:
+    branches: [main]
+    paths: ["*.md", "data/**", "tools/**", ".github/workflows/validar-dataset.yml"]
+  pull_request:
+    paths: ["*.md", "data/**", "tools/**", ".github/workflows/validar-dataset.yml"]
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Dataset atualizado e válido
+        run: python3 tools/build_dataset.py --check
+
+      - name: Fontes sem link ou sem classificação
+        run: |
+          relatorio=$(python3 tools/build_dataset.py --report)
+          echo "$relatorio"
+          if echo "$relatorio" | grep -q "fontes sem nenhum link"; then
+            echo "::error::Há fontes sem nenhum link no README.md"
+            exit 1
+          fi
+          if echo "$relatorio" | grep -q "sem classificação, candidatas a override"; then
+            echo "::error::Há fontes sem classificação. Adicione-as em data/overrides.json"
+            exit 1
+          fi
+
+      - name: Regras de formatação dos documentos
+        run: python3 tools/validar_docs.py
