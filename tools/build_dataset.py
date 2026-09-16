@@ -670,11 +670,13 @@ def main():
     reconciliadas = sum(contadores.values())
     faltando = total_urls - reconciliadas - len(orfas)
 
+    # readme_linha fica só nos relatórios: gravá-la faria qualquer edição fora
+    # do catálogo (ex.: mover uma seção do README) desatualizar o dataset.
     doc_sources = {
         "_sobre": "GERADO por tools/build_dataset.py a partir de README.md. Não editar à mão: use data/overrides.json.",
         "fonte": "README.md",
         "total": len(fontes),
-        "sources": fontes,
+        "sources": [{k: v for k, v in f.items() if k != "readme_linha"} for f in fontes],
     }
     links = monta_index(fontes)
     doc_index = {
