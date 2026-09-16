@@ -240,7 +240,7 @@ def parse_readme(texto):
         return {
             "nome": nome,
             "categoria": categoria,
-            "readme_linha": linha,
+            "_readme_linha": linha,
             "links": [],
             "_prosa": [],
             "_implicita": implicita,
@@ -670,13 +670,13 @@ def main():
     reconciliadas = sum(contadores.values())
     faltando = total_urls - reconciliadas - len(orfas)
 
-    # readme_linha fica só nos relatórios: gravá-la faria qualquer edição fora
-    # do catálogo (ex.: mover uma seção do README) desatualizar o dataset.
+    # Campos com "_" são internos (ex.: _readme_linha, usada só nos relatórios).
+    # Gravá-los faria qualquer edição fora do catálogo desatualizar o dataset.
     doc_sources = {
         "_sobre": "GERADO por tools/build_dataset.py a partir de README.md. Não editar à mão: use data/overrides.json.",
         "fonte": "README.md",
         "total": len(fontes),
-        "sources": [{k: v for k, v in f.items() if k != "readme_linha"} for f in fontes],
+        "sources": [{k: v for k, v in f.items() if not k.startswith("_")} for f in fontes],
     }
     links = monta_index(fontes)
     doc_index = {
@@ -713,7 +713,7 @@ def main():
         if sem_link:
             print(f"\nfontes sem nenhum link ({len(sem_link)}):")
             for f in sem_link:
-                print(f"  README.md:{f['readme_linha']}  {f['id']}")
+                print(f"  README.md:{f['_readme_linha']}  {f['id']}")
         if orfas:
             print(f"\nURLs órfãs ({len(orfas)}):")
             for o in orfas[:20]:
@@ -721,7 +721,7 @@ def main():
         if args.report and indef:
             print(f"\nsem classificação, candidatas a override ({len(indef)}):")
             for f in indef:
-                print(f"  README.md:{f['readme_linha']}  {f['id']}")
+                print(f"  README.md:{f['_readme_linha']}  {f['id']}")
 
     if erros:
         print("\nERROS DE VALIDAÇÃO:", file=sys.stderr)

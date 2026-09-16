@@ -144,7 +144,7 @@ Além do catálogo em Markdown, este repositório publica uma versão estruturad
 | [`data/overrides.json`](data/overrides.json) | Correções manuais de classificação. |
 
 > [!IMPORTANT]
-> `sources.json` e `index.json` são **gerados**. Não edite à mão: o próximo build sobrescreve. Correções de classificação vão em `overrides.json`.
+> `sources.json` e `index.json` são **gerados**. Não edite à mão: o próximo build sobrescreve. Correções de classificação vão em `overrides.json`. Cada fonte é identificada pelo campo `id` (`categoria/nome`), estável entre builds; o dataset não guarda posição no README.
 
 Para regenerar depois de alterar o README:
 

@@ -201,7 +201,7 @@ Requer apenas Python 3, sem dependências.
 
 | Arquivo | O que é |
 |---|---|
-| `data/sources.json` | **Gerado.** Uma entrada por fonte, com os links aninhados. |
+| `data/sources.json` | **Gerado.** Uma entrada por fonte, com os links aninhados. Identificada pelo `id`, não por linha do README. |
 | `data/index.json` | **Gerado.** Um registro por link, achatado para busca. |
 | `data/taxonomy.json` | Manual. Vocabulário permitido de `input`, `output` e `tipo_fonte`. |
 | `data/overrides.json` | Manual. Correções de classificação, por fonte. |
