@@ -242,6 +242,107 @@
     "outras-buscas/cnj-justica-aberta-serventias-extrajudiciais": {
       "input": ["cns", "municipio", "uf"],
       "output": ["cartorio", "endereco"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-pessoa-em-diarios-oficiais-e-atos-publicos": {
+      "input": ["nome"],
+      "output": ["dork", "diario_oficial"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-pessoa-ou-empresa-em-processos-judiciais": {
+      "input": ["nome", "razao_social"],
+      "output": ["dork", "processo", "partes"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-empresa-cnpj-e-quadro-societario": {
+      "input": ["cnpj", "razao_social", "nome"],
+      "output": ["dork", "socios", "dados_cadastrais"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-licitacoes-contratos-e-convenios": {
+      "input": ["cnpj", "razao_social"],
+      "output": ["dork", "contrato_publico", "licitacao", "sancao"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-endereco-e-imovel": {
+      "input": ["endereco", "municipio"],
+      "output": ["dork", "imovel", "dados_cadastrais"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-telefone-e-mail-e-chave-pix": {
+      "input": ["telefone", "email"],
+      "output": ["dork"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-nome-de-usuario-e-perfis": {
+      "input": ["nome"],
+      "output": ["dork", "perfil_social"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-concursos-editais-e-listas-nominais": {
+      "input": ["nome"],
+      "output": ["dork", "dados_cadastrais"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-mapeamento-de-uma-organizacao": {
+      "input": ["dominio"],
+      "output": ["dork"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-servidor-publico-cargo-e-remuneracao": {
+      "input": ["nome"],
+      "output": ["dork", "remuneracao", "dados_cadastrais"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-politico-candidatura-e-doacoes": {
+      "input": ["nome"],
+      "output": ["dork", "dados_cadastrais"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-registro-profissional-e-carreira": {
+      "input": ["nome"],
+      "output": ["dork", "vinculo_profissional", "curriculo"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-veiculo-e-placa": {
+      "input": ["placa", "chassi"],
+      "output": ["dork", "veiculo"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-imovel-rural-fazenda-e-meio-ambiente": {
+      "input": ["nome", "razao_social", "municipio"],
+      "output": ["dork", "auto_infracao", "area_rural", "licenca_ambiental"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-associacao-ong-e-entidade-religiosa": {
+      "input": ["razao_social"],
+      "output": ["dork", "dados_cadastrais", "contrato_publico"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-loja-virtual-e-vendedor-em-marketplace": {
+      "input": ["razao_social", "dominio"],
+      "output": ["dork", "dados_cadastrais"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-noticias-e-linha-do-tempo": {
+      "input": ["nome", "razao_social"],
+      "output": ["dork"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-exposicao-de-uma-organizacao-em-servicos-de-terceiros": {
+      "input": ["dominio", "razao_social"],
+      "output": ["dork"]
+    },
+    "motores-de-busca-contexto-brasil/bing-buscas-por-alvo": {
+      "input": ["dominio", "nome"],
+      "output": ["dork"]
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-diarios-oficiais-estaduais-por-regiao": {
+      "input": ["nome", "razao_social"],
+      "output": ["dork", "diario_oficial"],
+      "tipo_fonte": "dork"
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-tribunais-de-contas-estaduais": {
+      "input": ["nome", "razao_social"],
+      "output": ["dork", "sancao", "processo"],
+      "tipo_fonte": "dork"
+    },
+    "motores-de-busca-contexto-brasil/google-hacking-registro-civil-proclamas-e-falecimento": {
+      "input": ["nome"],
+      "output": ["dork", "dados_cadastrais"],
+      "tipo_fonte": "dork"
+    },
+    "motores-de-busca-contexto-brasil/yandex-buscas-por-alvo": {
+      "input": ["nome", "dominio"],
+      "output": ["dork"],
+      "tipo_fonte": "dork"
+    },
+    "motores-de-busca-contexto-brasil/duckduckgo-buscas-por-alvo": {
+      "input": ["nome", "dominio", "telefone", "email"],
+      "output": ["dork"],
+      "tipo_fonte": "dork"
     }
   }
 }
