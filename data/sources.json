@@ -2198,6 +2198,713 @@
       "tipo_fonte": "privado"
     },
     {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta de profissionais no Cadastro Nacional de Estabelecimentos de Saúde. Campo único que aceita nome do profissional, CPF ou CNS, com filtro de vínculo (geral, mais de 2 vínculos públicos ou carga horária superior a 168 horas). Retorna o CNS do profissional e a relação de vínculos por estabelecimento (UF, município, CBO, CNES, CNPJ, estabelecimento, natureza jurídica e carga horária).",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cnes-consulta-de-profissionais-de-saude",
+      "input": [
+        "cns",
+        "cpf",
+        "nome"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://cnes.datasus.gov.br/pages/profissionais/consulta.jsp"
+        }
+      ],
+      "nome": "CNES - Consulta de Profissionais de Saúde",
+      "output": [
+        "dados_cadastrais",
+        "endereco",
+        "vinculo_profissional"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta pública de inscritos no sistema Cofen/Conselhos Regionais de Enfermagem. Para consulta é necessário informar um ou mais critérios: nome completo, CPF ou número de inscrição. Retorna nome do profissional, inscrição, categoria, Coren, situação e data da inscrição. Possui captcha.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cofen-consulta-de-profissionais-de-enfermagem",
+      "input": [
+        "cpf",
+        "nome",
+        "registro_profissional"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://sigen.cofen.gov.br/profissional/consultar"
+        }
+      ],
+      "nome": "COFEN - Consulta de Profissionais de Enfermagem",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral",
+        "vinculo_profissional"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Busca de inscritos no Conselho Federal de Odontologia por CRO/UF, categoria (cirurgião-dentista, TPD, TSB, ASB, APD), número de inscrição, especialidade, habilitação e nome completo ou palavra-chave. Retorna nome, inscrição, situação, categoria, tipo de inscrição, especialidades, data de inscrição no CRO e data de registro no CFO. Possui reCAPTCHA.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cfo-busca-de-profissionais-de-odontologia",
+      "input": [
+        "nome",
+        "registro_profissional",
+        "uf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://busca-profissionais.cfo.org.br/"
+        }
+      ],
+      "nome": "CFO - Busca de Profissionais de Odontologia",
+      "observacao": "Possui reCAPTCHA.",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral",
+        "vinculo_profissional"
+      ],
+      "tipo_fonte": "ong"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Busca de pessoa física (por nome, nome social ou inscrição) ou jurídica (por razão social, registro ou CNPJ) registrada no sistema CFMV/CRMVs, com filtro de UF. Retorna nome ou razão social, nome fantasia, CRMV, situação, UF, área e data de registro.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cfmv-busca-por-profissionais-e-empresas-de-medicina-veterinaria",
+      "input": [
+        "cnpj",
+        "nome",
+        "razao_social",
+        "registro_profissional",
+        "uf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://app.cfmv.gov.br/paginas/busca"
+        }
+      ],
+      "nome": "CFMV - Busca por Profissionais e Empresas de Medicina Veterinária",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral",
+        "vinculo_profissional"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Pesquisa de profissionais e de pessoas jurídicas registradas no sistema CONFEF/CREFs. Campo único de busca (mínimo de 3 caracteres) que retorna UF, registro, nome, conselho regional, categoria e natureza do título.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/confef-pesquisa-de-profissionais-de-educacao-fisica-registrados",
+      "input": [
+        "nome",
+        "razao_social",
+        "registro_profissional"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.confef.org.br/registrados/"
+        }
+      ],
+      "nome": "CONFEF - Pesquisa de Profissionais de Educação Física Registrados",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral",
+        "vinculo_profissional"
+      ],
+      "tipo_fonte": "ong"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta de avaliadores imobiliários no Cadastro Nacional de Avaliadores Imobiliários do COFECI (por nome, estado e cidade, retornando nome e número CNAI) e busca de corretores no CRECISP (por CRECI, CPF, nome, zona de atuação, município e idiomas, retornando nome, CRECI, data de inscrição, situação e e-mail oficial). Ambas possuem captcha.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/corretores-e-avaliadores-de-imoveis-cofeci-crecisp",
+      "input": [
+        "cpf",
+        "municipio",
+        "nome",
+        "registro_profissional",
+        "uf"
+      ],
+      "links": [
+        {
+          "label": "COFECI - Consulta CNAI",
+          "uf": null,
+          "url": "https://intranet.cofeci.gov.br/cnai/consultaCNAI.aspx"
+        },
+        {
+          "label": "CRECISP - Busca por Corretores",
+          "uf": null,
+          "url": "https://www.crecisp.gov.br/cidadao/buscaporcorretores"
+        }
+      ],
+      "nome": "Corretores e Avaliadores de Imóveis (COFECI / CRECISP)",
+      "observacao": "Ambas as consultas possuem captcha.",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral",
+        "vinculo_profissional"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta da situação de registro profissional emitido pelo Ministério do Trabalho e Emprego. Pesquisa por nome, UF do registro, CPF ou número do registro. Retorna nome, registro, categoria, função, data de concessão e situação. Registros antigos feitos em livro podem não aparecer. Possui captcha.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/mte-situacao-do-registro-profissional-sirpweb",
+      "input": [
+        "cpf",
+        "nome",
+        "registro_profissional",
+        "uf"
+      ],
+      "links": [
+        {
+          "label": "Registro de Profissional",
+          "uf": null,
+          "url": "https://sirpweb.trabalho.gov.br/sirpweb/pages/consultas/situacaoRegistro.seam"
+        },
+        {
+          "label": "Registro de Empresa Contratante",
+          "uf": null,
+          "url": "https://sirpweb.trabalho.gov.br/sirpweb/pages/consultas/situacaoRegistroEmpresa.seam"
+        }
+      ],
+      "nome": "MTE - Situação do Registro Profissional (SIRPWEB)",
+      "observacao": "Possui captcha.",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral",
+        "vinculo_profissional"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta de profissionais certificados pela ANBIMA. Para consulta é necessário apenas o CPF. Retorna CPF, nome, certificações, status e validade.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/anbima-consulta-de-pessoas-certificadas",
+      "input": [
+        "cpf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://anbimaedu.com.br/consulta-certificado"
+        }
+      ],
+      "nome": "ANBIMA - Consulta de Pessoas Certificadas",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral",
+        "vinculo_profissional"
+      ],
+      "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consultas públicas da Comissão de Valores Mobiliários. O cadastro geral pesquisa por razão social ou denominação, CPF/CNPJ, tipo de participante (agentes autônomos, analistas, consultores, auditores, companhias abertas, fundos, entre outros) e situação, com captcha, e retorna a lista de participantes agrupada por tipo, com razão social e denominação comercial (o detalhe de cada participante pede novo captcha). As consultas de companhias abertas e de fundos aceitam parte do nome ou CNPJ e retornam CNPJ, nome, tipo de participante, código CVM e situação do registro.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cvm-consultas-de-participantes-regulados",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "razao_social"
+      ],
+      "links": [
+        {
+          "label": "Cadastro Geral de Participantes",
+          "uf": null,
+          "url": "https://sistemas.cvm.gov.br/?CadGeral"
+        },
+        {
+          "label": "Companhias Abertas",
+          "uf": null,
+          "url": "https://cvmweb.cvm.gov.br/SWB/Sistemas/SCW/CPublica/CiaAb/FormBuscaCiaAb.aspx?TipoConsult=c"
+        },
+        {
+          "label": "Fundos de Investimento",
+          "uf": null,
+          "url": "https://cvmweb.cvm.gov.br/SWB/Sistemas/SCW/CPublica/CConsolFdo/FormBuscaParticFdo.aspx"
+        },
+        {
+          "label": "Documentos de Companhias",
+          "uf": null,
+          "url": "https://www.rad.cvm.gov.br/ENETWeb/frmConsultaExternaCVM.aspx"
+        },
+        {
+          "label": "Dados Abertos: Cadastro de Companhias Abertas",
+          "uf": null,
+          "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/CAD/DADOS/cad_cia_aberta.csv"
+        },
+        {
+          "label": "Dados Abertos: Cadastro de Agentes Autônomos",
+          "uf": null,
+          "url": "https://dados.cvm.gov.br/dataset/agente_auton-cad"
+        }
+      ],
+      "nome": "CVM - Consultas de Participantes Regulados",
+      "observacao": "O cadastro geral possui captcha; companhias abertas e fundos não.",
+      "output": [
+        "dados_cadastrais",
+        "dataset",
+        "situacao_cadastral",
+        "vinculo_profissional"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Solicitação de certidão criminal, cível ou para fins eleitorais dos Tribunais Regionais Federais em um único pedido. Para consulta é necessário CPF ou CNPJ e um e-mail, para o qual a certidão é enviada. Possui aba de validação de certidão.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cjf-certidao-unificada-da-justica-federal",
+      "input": [
+        "cnpj",
+        "cpf",
+        "email"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://certidao-unificada.cjf.jus.br/#/solicitacao-certidao"
+        }
+      ],
+      "nome": "CJF - Certidão Unificada da Justiça Federal",
+      "observacao": "A certidão é enviada para o e-mail informado.",
+      "output": [
+        "certidao"
+      ],
+      "tipo_fonte": "judiciario"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta e emissão de certidão de débitos relativos a créditos tributários federais e à dívida ativa da União, sem necessidade de login. Pessoa jurídica exige apenas o CNPJ; pessoa física exige CPF e data de nascimento. A consulta retorna a relação de certidões emitidas, com código de controle, tipo, data de emissão, validade, situação e segunda via. Possui captcha. Também emite certidão de imóvel rural e de obra de construção civil.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/receita-federal-certidao-de-regularidade-fiscal",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://servicos.receitafederal.gov.br/servico/certidoes/"
+        }
+      ],
+      "nome": "Receita Federal - Certidão de Regularidade Fiscal",
+      "observacao": "Pessoa física exige também a data de nascimento.",
+      "output": [
+        "certidao",
+        "debito"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Bases da CGU com a lista de pessoas expostas politicamente (CPF, nome, função, órgão e período de exercício) e o Cadastro de Expulsões da Administração Federal (punição, pessoa, órgão de lotação, cargo e fundamentação). Os arquivos podem ser baixados sem cadastro; a API de dados aceita CPF ou nome e exige chave gratuita.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/portal-da-transparencia-pessoas-expostas-politicamente-pep-e-expulsoes-ceaf",
+      "input": [
+        "cpf",
+        "nenhum",
+        "nome"
+      ],
+      "links": [
+        {
+          "label": "Download PEP",
+          "uf": null,
+          "url": "https://portaldatransparencia.gov.br/download-de-dados/pep"
+        },
+        {
+          "label": "Download CEAF",
+          "uf": null,
+          "url": "https://portaldatransparencia.gov.br/download-de-dados/ceaf"
+        },
+        {
+          "label": "Download Servidores",
+          "uf": null,
+          "url": "https://portaldatransparencia.gov.br/download-de-dados/servidores"
+        },
+        {
+          "label": "Especificação da API",
+          "uf": null,
+          "url": "https://api.portaldatransparencia.gov.br/v3/api-docs"
+        }
+      ],
+      "nome": "Portal da Transparência - Pessoas Expostas Politicamente (PEP) e Expulsões (CEAF)",
+      "observacao": "Downloads sem cadastro; a API exige chave gratuita.",
+      "output": [
+        "api_json",
+        "dados_cadastrais",
+        "dataset",
+        "remuneracao",
+        "sancao"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta da Secretaria de Inspeção do Trabalho. Para consulta é necessário apenas o CNPJ raiz do empregador. Retorna UF, inscrição da filial autuada, número do processo, tipo, situação e último movimento.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/sit-consulta-de-processos-de-autos-de-infracao-por-empregador",
+      "input": [
+        "cnpj"
+      ],
+      "links": [
+        {
+          "label": "Processos Eletrônicos",
+          "uf": null,
+          "url": "https://eprocesso.sit.trabalho.gov.br/ProcessoEletronico/Consultar/ProcessosPorEmpregador"
+        },
+        {
+          "label": "Processos Físicos",
+          "uf": null,
+          "url": "https://eprocesso.sit.trabalho.gov.br/ProcessoFisico/Consultar/ProcessosPorEmpregador"
+        }
+      ],
+      "nome": "SIT - Consulta de Processos de Autos de Infração por Empregador",
+      "observacao": "Informar o CNPJ raiz (8 primeiros dígitos).",
+      "output": [
+        "auto_infracao",
+        "movimentacao",
+        "processo"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta pública de entidades sindicais por CNPJ, número de solicitação, processo/carta, representação ou parâmetros (como a razão social). Retorna razão social, denominação, CNPJ, grau e situação. Possui captcha.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/mte-cadastro-nacional-de-entidades-sindicais-cnes",
+      "input": [
+        "cnpj",
+        "numero_processo",
+        "razao_social"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://cnes.trabalho.gov.br/app/publico/consultas/cadastro-entidade"
+        }
+      ],
+      "nome": "MTE - Cadastro Nacional de Entidades Sindicais (CNES)",
+      "observacao": "Possui captcha.",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta por CNPJ, número da autorização ou NUVS. Retorna razão social, nome fantasia, autorização, número do processo, tipo de produto, site, SAC, data da autorização e situação.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/anvisa-consulta-de-autorizacao-de-funcionamento-de-empresas",
+      "input": [
+        "cnpj"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://consultas.anvisa.gov.br/#/empresas/empresas/"
+        }
+      ],
+      "nome": "ANVISA - Consulta de Autorização de Funcionamento de Empresas",
+      "output": [
+        "dados_cadastrais",
+        "processo",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta de Dados Públicos da ANP por CNPJ, nome do posto, estado, município, bandeira, combustível e tipo de posto, com exportação incluindo tancagem. Retorna CNPJ, razão social, nome fantasia, UF, município e bandeira; o detalhamento do posto traz endereço, CEP, despacho de autorização, tipo de posto, latitude, longitude, produtos, tancagem e bicos. Possui captcha. A base de dados abertos traz autorização, razão social, CNPJ, endereço, bandeira e data de vinculação.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/anp-consulta-de-postos-revendedores-de-combustiveis",
+      "input": [
+        "cnpj",
+        "municipio",
+        "razao_social",
+        "uf"
+      ],
+      "links": [
+        {
+          "label": "Consulta de Postos",
+          "uf": null,
+          "url": "https://cdp.anp.gov.br/ords/r/cdp_apex/consulta-dados-publicos-cdp/consulta-de-postos-lista"
+        },
+        {
+          "label": "Dados Abertos de Revendedores",
+          "uf": null,
+          "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-cadastrais-dos-revendedores-varejistas-de-combustiveis-automotivos"
+        }
+      ],
+      "nome": "ANP - Consulta de Postos Revendedores de Combustíveis",
+      "observacao": "A consulta possui captcha; a base de dados abertos não.",
+      "output": [
+        "dados_cadastrais",
+        "dataset",
+        "endereco"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta de estabelecimentos nacionais registrados no Serviço de Inspeção Federal. Pesquisa por número do SIF, razão social ou CNPJ. Retorna CNPJ/CPF, nome empresarial, número do SIF e situação de cada unidade.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/mapa-consulta-de-estabelecimentos-com-sif-sigsif",
+      "input": [
+        "cnpj",
+        "razao_social"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://sigsif.agricultura.gov.br/sigsif_cons/!ap_estabelec_nacional_cons"
+        }
+      ],
+      "nome": "MAPA - Consulta de Estabelecimentos com SIF (SIGSIF)",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta pública de entidades privadas de assistência social. Pesquisa por nome da entidade ou CNPJ, com UF e município obrigatórios. Retorna CNPJ, nome da entidade, UF, município, endereço, e-mail e status do cadastro.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/mds-cadastro-nacional-de-entidades-de-assistencia-social-cneas",
+      "input": [
+        "cnpj",
+        "municipio",
+        "razao_social",
+        "uf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://aplicacoes.mds.gov.br/cneas/publico/xhtml/consultapublica/pesquisar.jsf"
+        }
+      ],
+      "nome": "MDS - Cadastro Nacional de Entidades de Assistência Social (CNEAS)",
+      "output": [
+        "dados_cadastrais",
+        "endereco",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta pública de programas, propostas e instrumentos de transferências da União. A pesquisa de instrumentos aceita, entre outros filtros, nome do proponente, CNPJ do proponente, CPF do responsável, órgão, ano, situação e número de emenda parlamentar. Retorna código do instrumento, órgão, situação, datas de início e fim da execução e programa, com detalhamento de cada instrumento.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/transferegov-acesso-livre-a-convenios-e-transferencias",
+      "input": [
+        "cnpj",
+        "cpf",
+        "municipio",
+        "razao_social",
+        "uf"
+      ],
+      "links": [
+        {
+          "label": "Acesso Livre",
+          "uf": null,
+          "url": "https://discricionarias.transferegov.sistema.gov.br/voluntarias/Principal/Principal.do?Usr=guest&Pwd=guest"
+        },
+        {
+          "label": "Consultar Ente/Entidade",
+          "uf": null,
+          "url": "https://transfere.transferegov.sistema.gov.br/habilitacao/consulta-entidade.html"
+        }
+      ],
+      "nome": "Transferegov - Acesso Livre a Convênios e Transferências",
+      "output": [
+        "contrato_publico"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Operações contratadas com o BNDES. A API de dados abertos permite pesquisar pelo nome do cliente ou CNPJ formatado e retorna cliente, CNPJ, descrição do projeto, UF, município, número e data do contrato, valores contratado e desembolsado, juros, prazos, instituição financeira credenciada e tipo de garantia.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/bndes-consulta-a-operacoes-de-financiamento",
+      "input": [
+        "cnpj",
+        "razao_social"
+      ],
+      "links": [
+        {
+          "label": "Painel de Operações",
+          "uf": null,
+          "url": "https://www.bndes.gov.br/wps/portal/site/home/transparencia/consulta-operacoes-bndes"
+        },
+        {
+          "label": "API: Operações Não Automáticas",
+          "uf": null,
+          "url": "https://dadosabertos.bndes.gov.br/api/3/action/datastore_search?resource_id=6f56b78c-510f-44b6-8274-78a5b7e931f4&q={VALOR}"
+        },
+        {
+          "label": "API: Operações Indiretas Automáticas",
+          "uf": null,
+          "url": "https://dadosabertos.bndes.gov.br/api/3/action/datastore_search?resource_id=612faa0b-b6be-4b2c-9317-da5dc2c0b901&q={VALOR}"
+        }
+      ],
+      "nome": "BNDES - Consulta a Operações de Financiamento",
+      "observacao": "Na API o CNPJ deve ser informado formatado (00.000.000/0000-00).",
+      "output": [
+        "api_json",
+        "dataset",
+        "financiamento"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Sistema de Apoio às Leis de Incentivo à Cultura. A API pública, sem chave, pesquisa por nome ou CPF/CNPJ e retorna proponentes (nome, CPF/CNPJ, responsável, UF, município e total captado), incentivadores (total doado), fornecedores (CPF/CNPJ, nome e e-mail) e projetos (PRONAC, situação e providência).",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/salic-lei-rouanet-proponentes-incentivadores-e-fornecedores",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "razao_social"
+      ],
+      "links": [
+        {
+          "label": "Salic Comparar",
+          "uf": null,
+          "url": "https://aplicacoes.cultura.gov.br/comparar/salicnet/"
+        },
+        {
+          "label": "Documentação da API",
+          "uf": null,
+          "url": "https://api.salic.cultura.gov.br/docs"
+        },
+        {
+          "label": "API: Proponentes",
+          "uf": null,
+          "url": "https://api.salic.cultura.gov.br/api/v1/proponentes?nome={VALOR}"
+        },
+        {
+          "label": "API: Incentivadores",
+          "uf": null,
+          "url": "https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf={VALOR}"
+        },
+        {
+          "label": "API: Fornecedores",
+          "uf": null,
+          "url": "https://api.salic.cultura.gov.br/api/v1/fornecedores?nome={VALOR}"
+        }
+      ],
+      "nome": "SALIC - Lei Rouanet (Proponentes, Incentivadores e Fornecedores)",
+      "observacao": "API sem chave.",
+      "output": [
+        "api_json",
+        "dados_cadastrais",
+        "financiamento"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta de empresas sem login. Para consulta é necessário apenas o nome da empresa, CNPJ ou NIRE. Retorna nome empresarial, NIRE, natureza jurídica, situação, município, CNPJ, porte e objeto social.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/consulta-junta-comercial-de-pernambuco-jucepe",
+      "input": [
+        "cnpj",
+        "inscricao_estadual",
+        "razao_social"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": "PE",
+          "url": "https://portal.jucepe.pe.gov.br/consulta-empresas"
+        }
+      ],
+      "nome": "Consulta Junta Comercial de Pernambuco (JUCEPE)",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "estadual"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta da situação cadastral de empresas por nome, CNPJ ou NIRE, e busca de empresas inativas (artigo 60). Retorna CNPJ, nome da empresa, porte empresarial, situação e status. Possui reCAPTCHA.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/consulta-junta-comercial-do-rio-de-janeiro-jucerja",
+      "input": [
+        "cnpj",
+        "inscricao_estadual",
+        "razao_social"
+      ],
+      "links": [
+        {
+          "label": "Situação Cadastral",
+          "uf": "RJ",
+          "url": "https://www.jucerja.rj.gov.br/Servicos/SituacaoCadastralEmpresas"
+        },
+        {
+          "label": "Empresas Inativas (Artigo 60)",
+          "uf": "RJ",
+          "url": "https://www.jucerja.rj.gov.br/Servicos/BuscaEmpresasArtigo60"
+        }
+      ],
+      "nome": "Consulta Junta Comercial do Rio de Janeiro (JUCERJA)",
+      "observacao": "Possui reCAPTCHA.",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "estadual"
+    },
+    {
       "categoria": "Estatísticas Segurança Pública",
       "categoria_id": "estatisticas-seguranca-publica",
       "classificacao": "heuristica",
@@ -3132,6 +3839,60 @@
       "output": [
         "certidao",
         "imovel"
+      ],
+      "tipo_fonte": "ong"
+    },
+    {
+      "categoria": "Registros de Imóveis e Propriedades",
+      "categoria_id": "registros-de-imoveis-e-propriedades",
+      "classificacao": "override",
+      "descricao": "Download da relação de imóveis rurais cadastrados no SNCR por UF e município, em planilha com uma linha por detentor do imóvel. Traz código do imóvel, denominação, código IBGE, município, UF, área total, titular (nome parcialmente mascarado), natureza jurídica, condição da pessoa e percentual de detenção. Possui captcha.",
+      "id": "registros-de-imoveis-e-propriedades/incra-consulta-publica-de-imoveis-rurais-sncr",
+      "input": [
+        "municipio",
+        "uf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://sncr.serpro.gov.br/sncr-web/consultaPublica.jsf"
+        }
+      ],
+      "nome": "INCRA - Consulta Pública de Imóveis Rurais (SNCR)",
+      "observacao": "Possui captcha.",
+      "output": [
+        "area_rural",
+        "dataset",
+        "imovel"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Registros de Imóveis e Propriedades",
+      "categoria_id": "registros-de-imoveis-e-propriedades",
+      "classificacao": "override",
+      "descricao": "Mapa do Operador Nacional do Registro Eletrônico de Imóveis. Permite buscar por endereço, latitude e longitude, Código Nacional de Matrícula, cartório e matrícula, nome do imóvel, CCIR/SNCR, certificação SIGEF, SNCI, Cadastro Ambiental Rural, imóveis públicos da SPU e cadastro municipal (SQL) de São Paulo, com filtro de serventia por CNS.",
+      "id": "registros-de-imoveis-e-propriedades/onr-mapa-do-registro-de-imoveis-do-brasil",
+      "input": [
+        "car",
+        "cns",
+        "coordenadas",
+        "endereco",
+        "matricula_imovel"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://mapa.onr.org.br/"
+        }
+      ],
+      "nome": "ONR - Mapa do Registro de Imóveis do Brasil",
+      "output": [
+        "cartorio",
+        "imovel",
+        "mapa"
       ],
       "tipo_fonte": "ong"
     },
@@ -6890,6 +7651,72 @@
         "dataset",
         "estatistica",
         "mapa"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Território, Meio Ambiente & Fiscalização",
+      "categoria_id": "territorio-meio-ambiente-fiscalizacao",
+      "classificacao": "override",
+      "descricao": "Pesquisa de processos minerários por nome do titular, CPF/CNPJ do titular, NUP, município, substância, fase do processo, situação e tipo de título, entre outros filtros, com opção de exportação. Retorna processo, tipo de requerimento, fase atual, CPF/CNPJ e nome do titular, municípios, substâncias, tipos de uso e situação. Possui captcha. O serviço de mapas do SIGMINE retorna, para uma coordenada, o processo, a fase, o nome do titular, a substância, o uso e a área.",
+      "id": "territorio-meio-ambiente-fiscalizacao/anm-cadastro-mineiro-pesquisa-de-processos-minerarios",
+      "input": [
+        "cnpj",
+        "coordenadas",
+        "cpf",
+        "municipio",
+        "nome",
+        "numero_processo",
+        "razao_social"
+      ],
+      "links": [
+        {
+          "label": "Pesquisar Processos",
+          "uf": null,
+          "url": "https://sistemas.anm.gov.br/SCM/Extra/site/admin/pesquisarProcessos.aspx"
+        },
+        {
+          "label": "SIGMINE: Consulta por Coordenada",
+          "uf": null,
+          "url": "https://geo.anm.gov.br/arcgis/rest/services/SIGMINE/dados_anm/MapServer/0/query?geometry={LONGITUDE}%2C{LATITUDE}&geometryType=esriGeometryPoint&inSR=4674&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=json"
+        }
+      ],
+      "nome": "ANM - Cadastro Mineiro (Pesquisa de Processos Minerários)",
+      "observacao": "A pesquisa de processos possui captcha; a consulta por coordenada não.",
+      "output": [
+        "api_json",
+        "dados_cadastrais",
+        "processo"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Território, Meio Ambiente & Fiscalização",
+      "categoria_id": "territorio-meio-ambiente-fiscalizacao",
+      "classificacao": "override",
+      "descricao": "Relação das outorgas federais de uso da água. A planilha traz número do processo, CPF/CNPJ e nome do requerente, município, UF, corpo hídrico, finalidade, latitude, longitude, resolução, datas de publicação e de vencimento.",
+      "id": "territorio-meio-ambiente-fiscalizacao/ana-outorgas-de-uso-de-recursos-hidricos-emitidas",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "Outorgas Emitidas",
+          "uf": null,
+          "url": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/outorga/outorgas-emitidas"
+        },
+        {
+          "label": "Planilha de Outorgas Federais",
+          "uf": null,
+          "url": "https://www.ana.gov.br/exporta-planilha/outorgas_federais/relatorio_outorgas.csv"
+        }
+      ],
+      "nome": "ANA - Outorgas de Uso de Recursos Hídricos Emitidas",
+      "observacao": "A planilha contém CPF/CNPJ, nome do requerente e coordenadas do ponto outorgado.",
+      "output": [
+        "dados_cadastrais",
+        "dataset",
+        "outorga"
       ],
       "tipo_fonte": "federal"
     },
@@ -13674,6 +14501,31 @@
       "tipo_fonte": "estadual"
     },
     {
+      "categoria": "Outras Buscas",
+      "categoria_id": "outras-buscas",
+      "classificacao": "override",
+      "descricao": "Consulta de cartórios por UF, município, CNS e atribuição. Retorna CNS, denominação, tipo de cartório, telefone, site, e-mail, endereço, situação jurídica, nome do responsável com data de ingresso e substitutos.",
+      "id": "outras-buscas/cnj-justica-aberta-serventias-extrajudiciais",
+      "input": [
+        "cns",
+        "municipio",
+        "uf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://justicaaberta.cnj.jus.br/produtividade-e-localizacao-de-serventias-extrajudiciais"
+        }
+      ],
+      "nome": "CNJ - Justiça Aberta (Serventias Extrajudiciais)",
+      "output": [
+        "cartorio",
+        "endereco"
+      ],
+      "tipo_fonte": "judiciario"
+    },
+    {
       "categoria": "Categorias de Domínios .br",
       "categoria_id": "categorias-de-dominios-br",
       "classificacao": "heuristica",
@@ -13707,5 +14559,5 @@
       "tipo_fonte": "privado"
     }
   ],
-  "total": 450
+  "total": 478
 }
