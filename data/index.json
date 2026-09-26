@@ -10716,6 +10716,24 @@
     {
       "categoria": "Motores de Busca Contexto Brasil",
       "categoria_id": "motores-de-busca-contexto-brasil",
+      "descricao": "Verificação de reputação e histórico de domínios brasileiros.",
+      "fonte": "Consulta de Domínios Maliciosos",
+      "fonte_id": "motores-de-busca-contexto-brasil/consulta-de-dominios-maliciosos",
+      "input": [
+        "dominio",
+        "nome"
+      ],
+      "label": "ScanMalware - Analisa URLs em navegador isolado (sandbox) e indexa os resultados, pesquisáveis por domínio, IP, ASN, JARM e hash do favicon",
+      "output": [
+        "dork"
+      ],
+      "tipo_fonte": "internacional",
+      "uf": null,
+      "url": "https://scanmalware.com/"
+    },
+    {
+      "categoria": "Motores de Busca Contexto Brasil",
+      "categoria_id": "motores-de-busca-contexto-brasil",
       "descricao": "Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados à Internet no Brasil.",
       "fonte": "Shodan: Busca de Servidores Brasileiro",
       "fonte_id": "motores-de-busca-contexto-brasil/shodan-busca-de-servidores-brasileiro-2",
@@ -19720,5 +19738,5 @@
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
     }
   ],
-  "total": 1067
+  "total": 1068
 }
