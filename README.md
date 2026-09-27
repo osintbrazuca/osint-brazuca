@@ -2846,6 +2846,9 @@ Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
 **Amazonas (AM)**
 - DETRAN-AM Consultas - https://www.detran.am.gov.br/servicos/
 
+**Amapá (AP)**
+- DETRAN-AP Consultas - https://www.detran.ap.gov.br/
+
 **Bahia (BA)**
 - DETRAN-BA Consultas - https://www.detran.ba.gov.br/
 
@@ -2854,6 +2857,9 @@ Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
 
 **Distrito Federal (DF)**
 - DETRAN-DF Consultas - https://www.detran.df.gov.br/
+
+**Espírito Santo (ES)**
+- DETRAN-ES Consulta de Veículos - https://detran.es.gov.br/
 
 **Goiás (GO)**
 - Consulta veículos/infrações - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-multas-renainf
@@ -2865,12 +2871,27 @@ Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
 **Maranhão (MA)**
 - Consulta de Licenciamento Veicular - http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml
 
+**Minas Gerais (MG)**
+- DETRAN-MG Consulta de Situação do Veículo - https://www.detran.mg.gov.br/
+
+**Mato Grosso do Sul (MS)**
+- DETRAN-MS Consulta de Veículos - https://www.detran.ms.gov.br/
+
+**Mato Grosso (MT)**
+- DETRAN-MT Consulta de Veículos - https://www.detran.mt.gov.br/
+
 **Pará (PA)**
 - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
 - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
 
+**Paraíba (PB)**
+- DETRAN-PB Consulta de Veículo - https://detran.pb.gov.br/
+
 **Piauí (PI)**
 - Licenciamento DETRAN-PI - http://taxas.detran.pi.gov.br/licenciamento/index.jsf
+
+**Paraná (PR)**
+- DETRAN-PR Consultas - https://www.detran.pr.gov.br/
 
 **Rio de Janeiro (RJ)**
 - Atestado DIC - http://atestadodic.detran.rj.gov.br/
@@ -2890,6 +2911,18 @@ Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
 **Roraima (RR)**
 - DETRAN-RR Consulta de Veículos - https://www.rr.getran.com.br/site/apps/veiculo/filtroplacarenavam-consultaveiculo.jsp
 - DETRAN-RR Nada Consta - https://www.rr.getran.com.br/site/apps/nada-consta/filtroPessoaNadaConsta.jsp
+
+**Rio Grande do Sul (RS)**
+- DETRAN-RS Consulta de Veículo - https://www.detran.rs.gov.br/
+
+**Santa Catarina (SC)**
+- DETRAN-SC Consulta de Veículos - https://www.detran.sc.gov.br/
+
+**São Paulo (SP)**
+- DETRAN-SP Consultas - https://www.detran.sp.gov.br/
+
+**Tocantins (TO)**
+- DETRAN-TO Consulta de Veículos - https://www.to.gov.br/detran/
 
 </details>
 
