@@ -508,6 +508,12 @@ Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras ins
 
 </details>
 
+### CARF - Consulta de Acórdãos e Processos Fiscais
+
+Consulta pública de acórdãos e processos administrativos fiscais do Conselho Administrativo de Recursos Fiscais (CARF), órgão colegiado do Ministério da Fazenda.
+
+- https://carf.economia.gov.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
