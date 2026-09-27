@@ -1807,6 +1807,50 @@
       "url": "https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/"
     },
     {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "Consulta pública de acórdãos e processos administrativos fiscais do Conselho Administrativo de Recursos Fiscais (CARF), órgão colegiado do Ministério da Fazenda.",
+      "fonte": "CARF - Consulta de Acórdãos e Processos Fiscais",
+      "fonte_id": "consulta-de-processos/carf-consulta-de-acordaos-e-processos-fiscais",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://carf.economia.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "Sistema RAD da Comissão de Valores Mobiliários para consulta pública de documentos de companhias abertas, como fatos relevantes, formulários de referência e demonstrações financeiras.",
+      "fonte": "CVM RAD - Consulta de Documentos de Companhias",
+      "fonte_id": "consulta-de-processos/cvm-rad-consulta-de-documentos-de-companhias",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx"
+    },
+    {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
       "descricao": "Consulta pública da situação cadastral do CPF na Receita Federal.",
@@ -3519,6 +3563,25 @@
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://www.pesquisaprotesto.com.br/"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "Consulta, por CPF ou CNPJ, dos relacionamentos mantidos com instituições financeiras, como contas, empréstimos, cheques e chaves PIX, além de dívidas registradas no SSCR.",
+      "fonte": "Registrato (Banco Central) - Relacionamentos com Instituições Financeiras",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/registrato-banco-central-relacionamentos-com-instituicoes-financeiras",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://registrato.bcb.gov.br/"
     },
     {
       "categoria": "Estatísticas Segurança Pública",
@@ -5243,6 +5306,26 @@
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://www.gov.br/cgu/pt-br"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Órgão responsável pela defesa do patrimônio público, combate à corrupção, transparência e controle interno do Governo Federal.",
+      "fonte": "CGU - Controladoria-Geral da União",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/cgu-controladoria-geral-da-uniao",
+      "input": [
+        "cnpj",
+        "nome"
+      ],
+      "label": "e-Aud (sistema de auditoria interna governamental)",
+      "output": [
+        "contrato_publico",
+        "licitacao",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://eaud.cgu.gov.br/"
     },
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
@@ -12376,6 +12459,25 @@
       "url": "https://www.correios.com.br/enviar-e-receber/ferramentas/consulta-cep"
     },
     {
+      "categoria": "Datasets / Dados Abertos",
+      "categoria_id": "datasets-dados-abertos",
+      "descricao": "Portal da B3 (Brasil, Bolsa, Balcão) com dados públicos de companhias listadas, como composição acionária, documentos periódicos e proventos.",
+      "fonte": "B3 - Empresas Listadas e Dados de Companhias Abertas",
+      "fonte_id": "datasets-dados-abertos/b3-empresas-listadas-e-dados-de-companhias-abertas",
+      "input": [
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "beneficio",
+        "dataset",
+        "publicacao_academica"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://www.b3.com.br/pt_br/"
+    },
+    {
       "categoria": "Dados de remuneração do Judiciário",
       "categoria_id": "dados-de-remuneracao-do-judiciario",
       "descricao": "Base estruturada (2018–2025) com salários, benefícios e índices de transparência de mais de 120 órgãos do sistema de Justiça Brasileira.",
@@ -13291,6 +13393,24 @@
         "placa",
         "renavam"
       ],
+      "label": "DETRAN-AP Consultas",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "AP",
+      "url": "https://www.detran.ap.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
       "label": "DETRAN-BA Consultas",
       "output": [
         "veiculo"
@@ -13334,6 +13454,24 @@
       "tipo_fonte": "estadual",
       "uf": "DF",
       "url": "https://www.detran.df.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-ES Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "ES",
+      "url": "https://detran.es.gov.br/"
     },
     {
       "categoria": "Consulta de Transporte Terrestre",
@@ -13453,6 +13591,60 @@
         "placa",
         "renavam"
       ],
+      "label": "DETRAN-MG Consulta de Situação do Veículo",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "MG",
+      "url": "https://www.detran.mg.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-MS Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "MS",
+      "url": "https://www.detran.ms.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-MT Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "MT",
+      "url": "https://www.detran.mt.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
       "label": "Consulta de Veículo Detalhada",
       "output": [
         "veiculo"
@@ -13489,6 +13681,24 @@
         "placa",
         "renavam"
       ],
+      "label": "DETRAN-PB Consulta de Veículo",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "PB",
+      "url": "https://detran.pb.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
       "label": "Licenciamento DETRAN-PI",
       "output": [
         "veiculo"
@@ -13496,6 +13706,24 @@
       "tipo_fonte": "estadual",
       "uf": "PI",
       "url": "http://taxas.detran.pi.gov.br/licenciamento/index.jsf"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-PR Consultas",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "PR",
+      "url": "https://www.detran.pr.gov.br/"
     },
     {
       "categoria": "Consulta de Transporte Terrestre",
@@ -13730,6 +13958,78 @@
       "tipo_fonte": "estadual",
       "uf": "RR",
       "url": "https://www.rr.getran.com.br/site/apps/nada-consta/filtroPessoaNadaConsta.jsp"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-RS Consulta de Veículo",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "RS",
+      "url": "https://www.detran.rs.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-SC Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "SC",
+      "url": "https://www.detran.sc.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-SP Consultas",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "SP",
+      "url": "https://www.detran.sp.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-TO Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "TO",
+      "url": "https://www.to.gov.br/detran/"
     },
     {
       "categoria": "Tracking de Viagens de Ônibus",
@@ -19718,7 +20018,45 @@
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
+    },
+    {
+      "categoria": "Categorias de Domínios .br",
+      "categoria_id": "categorias-de-dominios-br",
+      "descricao": "Lista oficial dos domínios sob `.gov.br`, publicada como dados abertos pela Secretaria de Governo Digital (MGI). Cada registro traz o domínio, o CNPJ do órgão responsável, o nome do órgão, o contato responsável e as datas de cadastro e de atualização. Atualizada diariamente.",
+      "fonte": "Domínios gov.br - Lista oficial de domínios governamentais",
+      "fonte_id": "categorias-de-dominios-br/dominios-gov-br-lista-oficial-de-dominios-governamentais",
+      "input": [
+        "cnpj",
+        "dominio"
+      ],
+      "label": "Página do dataset no Portal Brasileiro de Dados Abertos",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://dados.gov.br/dados/conjuntos-dados/dominios-govbr"
+    },
+    {
+      "categoria": "Categorias de Domínios .br",
+      "categoria_id": "categorias-de-dominios-br",
+      "descricao": "Lista oficial dos domínios sob `.gov.br`, publicada como dados abertos pela Secretaria de Governo Digital (MGI). Cada registro traz o domínio, o CNPJ do órgão responsável, o nome do órgão, o contato responsável e as datas de cadastro e de atualização. Atualizada diariamente.",
+      "fonte": "Domínios gov.br - Lista oficial de domínios governamentais",
+      "fonte_id": "categorias-de-dominios-br/dominios-gov-br-lista-oficial-de-dominios-governamentais",
+      "input": [
+        "cnpj",
+        "dominio"
+      ],
+      "label": "Arquivo CSV",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1067
+  "total": 1085
 }
