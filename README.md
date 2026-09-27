@@ -778,6 +778,12 @@ Consulta de instituições reguladas ou supervisionadas pelo Banco Central, por 
 Consulta gratuita de protestos em cartórios de todo o Brasil. Para consulta é necessário apenas o CPF ou CNPJ.
 - https://www.pesquisaprotesto.com.br/
 
+### Registrato (Banco Central) - Relacionamentos com Instituições Financeiras
+
+Consulta, por CPF ou CNPJ, dos relacionamentos mantidos com instituições financeiras, como contas, empréstimos, cheques e chaves PIX, além de dívidas registradas no SSCR.
+
+- https://registrato.bcb.gov.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
