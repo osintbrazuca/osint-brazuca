@@ -1203,6 +1203,7 @@ Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas j
 ### CGU - Controladoria-Geral da União
 Órgão responsável pela defesa do patrimônio público, combate à corrupção, transparência e controle interno do Governo Federal.
 - https://www.gov.br/cgu/pt-br
+- e-Aud (sistema de auditoria interna governamental) - https://eaud.cgu.gov.br/
 
 ### CGU - Notícias e Informações
 Portal de notícias da CGU com informações sobre ações de controle, transparência e combate à corrupção.
