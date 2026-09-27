@@ -2690,6 +2690,12 @@ Base de dados macroeconômicos, sociais e regionais do Brasil.
 Consulta de CEP e endereçamento postal.
 - https://www.correios.com.br/enviar-e-receber/ferramentas/consulta-cep
 
+### B3 - Empresas Listadas e Dados de Companhias Abertas
+
+Portal da B3 (Brasil, Bolsa, Balcão) com dados públicos de companhias listadas, como composição acionária, documentos periódicos e proventos.
+
+- https://www.b3.com.br/pt_br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
