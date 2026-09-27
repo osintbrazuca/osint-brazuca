@@ -4213,6 +4213,13 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 - Diretório com histórico de arquivos - https://ftp.registro.br/pub/numeracao/origin/
 - Lista atualizada - https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt
 
+### Domínios gov.br - Lista oficial de domínios governamentais
+
+Lista oficial dos domínios sob `.gov.br`, publicada como dados abertos pela Secretaria de Governo Digital (MGI). Cada registro traz o domínio, o CNPJ do órgão responsável, o nome do órgão, o contato responsável e as datas de cadastro e de atualização. Atualizada diariamente.
+
+- Página do dataset no Portal Brasileiro de Dados Abertos - https://dados.gov.br/dados/conjuntos-dados/dominios-govbr
+- Arquivo CSV - https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 
