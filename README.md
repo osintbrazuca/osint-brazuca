@@ -514,6 +514,12 @@ Consulta pública de acórdãos e processos administrativos fiscais do Conselho 
 
 - https://carf.economia.gov.br/
 
+### CVM RAD - Consulta de Documentos de Companhias
+
+Sistema RAD da Comissão de Valores Mobiliários para consulta pública de documentos de companhias abertas, como fatos relevantes, formulários de referência e demonstrações financeiras.
+
+- https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
