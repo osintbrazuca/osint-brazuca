@@ -902,6 +902,13 @@ Séries de homicídios e mortes violentas com recortes por raça, gênero, idade
 
 - https://www.ipea.gov.br/atlasviolencia/
 
+### SISDEPEN - Sistema de Informações Penais (SENAPPEN)
+
+Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.
+
+- https://www.gov.br/senappen/pt-br/servicos/sisdepen
+- https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
