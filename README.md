@@ -2037,6 +2037,12 @@ Dados sobre mineração, processos minerários, áreas concedidas e fiscalizaç�
 Bases estatísticas e dados públicos sobre atividades minerárias no Brasil.  
 - https://www.gov.br/anm/pt-br/acesso-a-informacao/dados-abertos
 
+### ANA - Dados Abertos de Recursos Hídricos (SNIRH)
+
+Conjuntos de dados sobre hidrologia, qualidade da água, usos e balanço hídrico do país, publicados pela Agência Nacional de Águas e Saneamento Básico.
+
+- https://dadosabertos.ana.gov.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
