@@ -2103,6 +2103,12 @@ Monitoramento semanal de dengue, zika e chikungunya por município, com níveis 
 
 - https://info.dengue.mat.br/
 
+### PCDaS - Plataforma de Ciência de Dados aplicada à Saúde (Fiocruz)
+
+Microdados de saúde harmonizados e documentados (SIM, SINASC, CNES, SIH-SUS) com dicionários e notebooks de análise.
+
+- https://pcdas.icict.fiocruz.br/conjunto-de-dados/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
