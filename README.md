@@ -2097,6 +2097,12 @@ Sistema de monitoramento de eventos de seca e seus impactos na saúde.
 
 </details>
 
+### InfoDengue (Fiocruz e FGV)
+
+Monitoramento semanal de dengue, zika e chikungunya por município, com níveis de alerta e API pública para os dados.
+
+- https://info.dengue.mat.br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
