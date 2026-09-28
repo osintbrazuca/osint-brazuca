@@ -889,6 +889,13 @@ Dados, análises e pesquisas sobre violência urbana e políticas públicas de s
 Mapa colaborativo de ocorrências policiais reportadas por usuários em diversas cidades brasileiras.
 - https://www.ondefuiroubado.com.br/
 
+### Crime Brasil
+
+Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.
+
+- https://crimebrasil.com.br/
+- https://crimebrasil.com.br/fontes
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
