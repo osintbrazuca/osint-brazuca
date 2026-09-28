@@ -2504,6 +2504,84 @@
       "tipo_fonte": "privado"
     },
     {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.",
+      "id": "estatisticas-seguranca-publica/crime-brasil",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://crimebrasil.com.br/"
+        },
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://crimebrasil.com.br/fontes"
+        }
+      ],
+      "nome": "Crime Brasil",
+      "output": [
+        "api_json",
+        "estatistica",
+        "mapa"
+      ],
+      "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Séries de homicídios e mortes violentas com recortes por raça, gênero, idade e território, publicadas pelo IPEA em parceria com o Fórum Brasileiro de Segurança Pública.",
+      "id": "estatisticas-seguranca-publica/atlas-da-violencia-ipea-e-fbsp",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.ipea.gov.br/atlasviolencia/"
+        }
+      ],
+      "nome": "Atlas da Violência (IPEA e FBSP)",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.",
+      "id": "estatisticas-seguranca-publica/sisdepen-sistema-de-informacoes-penais-senappen",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen"
+        },
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados"
+        }
+      ],
+      "nome": "SISDEPEN - Sistema de Informações Penais (SENAPPEN)",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
       "categoria": "Registros Eleitorais e Políticos",
       "categoria_id": "registros-eleitorais-e-politicos",
       "classificacao": "heuristica",
@@ -6977,6 +7055,31 @@
       "tipo_fonte": "federal"
     },
     {
+      "categoria": "Território, Meio Ambiente & Fiscalização",
+      "categoria_id": "territorio-meio-ambiente-fiscalizacao",
+      "classificacao": "heuristica",
+      "descricao": "Conjuntos de dados sobre hidrologia, qualidade da água, usos e balanço hídrico do país, publicados pela Agência Nacional de Águas e Saneamento Básico.",
+      "id": "territorio-meio-ambiente-fiscalizacao/ana-dados-abertos-de-recursos-hidricos-snirh",
+      "input": [
+        "cnpj",
+        "municipio"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://dadosabertos.ana.gov.br/"
+        }
+      ],
+      "nome": "ANA - Dados Abertos de Recursos Hídricos (SNIRH)",
+      "output": [
+        "auto_infracao",
+        "dataset",
+        "mapa"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
       "categoria": "Saúde",
       "categoria_id": "saude",
       "classificacao": "heuristica",
@@ -7246,6 +7349,54 @@
         "dados_cadastrais"
       ],
       "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "classificacao": "heuristica",
+      "descricao": "Monitoramento semanal de dengue, zika e chikungunya por município, com níveis de alerta e API pública para os dados.",
+      "id": "saude/infodengue-fiocruz-e-fgv",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://info.dengue.mat.br/"
+        }
+      ],
+      "nome": "InfoDengue (Fiocruz e FGV)",
+      "output": [
+        "api_json",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "classificacao": "heuristica",
+      "descricao": "Microdados de saúde harmonizados e documentados (SIM, SINASC, CNES, SIH-SUS) com dicionários e notebooks de análise.",
+      "id": "saude/pcdas-plataforma-de-ciencia-de-dados-aplicada-a-saude-fiocruz",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://pcdas.icict.fiocruz.br/conjunto-de-dados/"
+        }
+      ],
+      "nome": "PCDaS - Plataforma de Ciência de Dados aplicada à Saúde (Fiocruz)",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "academico"
     },
     {
       "categoria": "Motores de Busca Contexto Brasil",
@@ -13898,5 +14049,5 @@
       "tipo_fonte": "federal"
     }
   ],
-  "total": 455
+  "total": 461
 }

@@ -4010,6 +4010,95 @@
       "url": "https://www.ondefuiroubado.com.br/"
     },
     {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.",
+      "fonte": "Crime Brasil",
+      "fonte_id": "estatisticas-seguranca-publica/crime-brasil",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "api_json",
+        "estatistica",
+        "mapa"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://crimebrasil.com.br/"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.",
+      "fonte": "Crime Brasil",
+      "fonte_id": "estatisticas-seguranca-publica/crime-brasil",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "api_json",
+        "estatistica",
+        "mapa"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://crimebrasil.com.br/fontes"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Séries de homicídios e mortes violentas com recortes por raça, gênero, idade e território, publicadas pelo IPEA em parceria com o Fórum Brasileiro de Segurança Pública.",
+      "fonte": "Atlas da Violência (IPEA e FBSP)",
+      "fonte_id": "estatisticas-seguranca-publica/atlas-da-violencia-ipea-e-fbsp",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.ipea.gov.br/atlasviolencia/"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.",
+      "fonte": "SISDEPEN - Sistema de Informações Penais (SENAPPEN)",
+      "fonte_id": "estatisticas-seguranca-publica/sisdepen-sistema-de-informacoes-penais-senappen",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.",
+      "fonte": "SISDEPEN - Sistema de Informações Penais (SENAPPEN)",
+      "fonte_id": "estatisticas-seguranca-publica/sisdepen-sistema-de-informacoes-penais-senappen",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados"
+    },
+    {
       "categoria": "Registros Eleitorais e Políticos",
       "categoria_id": "registros-eleitorais-e-politicos",
       "descricao": "Sistema de divulgação de candidaturas, contas eleitorais e de prestação de contas.",
@@ -9558,6 +9647,26 @@
       "url": "https://www.gov.br/anm/pt-br/acesso-a-informacao/dados-abertos"
     },
     {
+      "categoria": "Território, Meio Ambiente & Fiscalização",
+      "categoria_id": "territorio-meio-ambiente-fiscalizacao",
+      "descricao": "Conjuntos de dados sobre hidrologia, qualidade da água, usos e balanço hídrico do país, publicados pela Agência Nacional de Águas e Saneamento Básico.",
+      "fonte": "ANA - Dados Abertos de Recursos Hídricos (SNIRH)",
+      "fonte_id": "territorio-meio-ambiente-fiscalizacao/ana-dados-abertos-de-recursos-hidricos-snirh",
+      "input": [
+        "cnpj",
+        "municipio"
+      ],
+      "label": "",
+      "output": [
+        "auto_infracao",
+        "dataset",
+        "mapa"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://dadosabertos.ana.gov.br/"
+    },
+    {
       "categoria": "Saúde",
       "categoria_id": "saude",
       "descricao": "Informações acerca de estabelecimentos e profissionais de saúde.",
@@ -9811,6 +9920,44 @@
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://portaldatransparencia.gov.br/coronavirus"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "descricao": "Monitoramento semanal de dengue, zika e chikungunya por município, com níveis de alerta e API pública para os dados.",
+      "fonte": "InfoDengue (Fiocruz e FGV)",
+      "fonte_id": "saude/infodengue-fiocruz-e-fgv",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "label": "",
+      "output": [
+        "api_json",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://info.dengue.mat.br/"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "descricao": "Microdados de saúde harmonizados e documentados (SIM, SINASC, CNES, SIH-SUS) com dicionários e notebooks de análise.",
+      "fonte": "PCDaS - Plataforma de Ciência de Dados aplicada à Saúde (Fiocruz)",
+      "fonte_id": "saude/pcdas-plataforma-de-ciencia-de-dados-aplicada-a-saude-fiocruz",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "academico",
+      "uf": null,
+      "url": "https://pcdas.icict.fiocruz.br/conjunto-de-dados/"
     },
     {
       "categoria": "Motores de Busca Contexto Brasil",
@@ -20058,5 +20205,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1085
+  "total": 1093
 }
