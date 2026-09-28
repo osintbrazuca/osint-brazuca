@@ -896,6 +896,12 @@ Plataforma de jornalismo de dados que consolida estatísticas oficiais de segura
 - https://crimebrasil.com.br/
 - https://crimebrasil.com.br/fontes
 
+### Atlas da Violência (IPEA e FBSP)
+
+Séries de homicídios e mortes violentas com recortes por raça, gênero, idade e território, publicadas pelo IPEA em parceria com o Fórum Brasileiro de Segurança Pública.
+
+- https://www.ipea.gov.br/atlasviolencia/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
