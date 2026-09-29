@@ -2259,33 +2259,9 @@
     {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
-      "classificacao": "heuristica",
-      "descricao": "Consulta, por CPF ou CNPJ, dos relacionamentos mantidos com instituições financeiras, como contas, empréstimos, cheques e chaves PIX, além de dívidas registradas no SSCR.",
-      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/registrato-banco-central-relacionamentos-com-instituicoes-financeiras",
-      "input": [
-        "cnpj",
-        "cpf"
-      ],
-      "links": [
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://registrato.bcb.gov.br/"
-        }
-      ],
-      "nome": "Registrato (Banco Central) - Relacionamentos com Instituições Financeiras",
-      "output": [
-        "dados_cadastrais",
-        "situacao_cadastral"
-      ],
-      "tipo_fonte": "federal"
-    },
-    {
-      "categoria": "Estatísticas Segurança Pública",
-      "categoria_id": "estatisticas-seguranca-publica",
-      "classificacao": "heuristica",
-      "descricao": "Ministério da Justiça e Segurança Pública (MJSP)",
-      "id": "estatisticas-seguranca-publica/paineis-nacionais",
+      "classificacao": "override",
+      "descricao": "Consulta de profissionais no Cadastro Nacional de Estabelecimentos de Saúde. Campo único que aceita nome do profissional, CPF ou CNS, com filtro de vínculo (geral, mais de 2 vínculos públicos ou carga horária superior a 168 horas). Retorna o CNS do profissional e a relação de vínculos por estabelecimento (UF, município, CBO, CNES, CNPJ, estabelecimento, natureza jurídica e carga horária).",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cnes-consulta-de-profissionais-de-saude",
       "input": [
         "cns",
         "cpf",
@@ -2448,89 +2424,11 @@
       "tipo_fonte": "federal"
     },
     {
-      "categoria": "Estatísticas Segurança Pública",
-      "categoria_id": "estatisticas-seguranca-publica",
-      "classificacao": "heuristica",
-      "descricao": "Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.",
-      "id": "estatisticas-seguranca-publica/crime-brasil",
-      "input": [
-        "nenhum"
-      ],
-      "links": [
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://crimebrasil.com.br/"
-        },
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://crimebrasil.com.br/fontes"
-        }
-      ],
-      "nome": "Crime Brasil",
-      "output": [
-        "api_json",
-        "estatistica",
-        "mapa"
-      ],
-      "tipo_fonte": "privado"
-    },
-    {
-      "categoria": "Estatísticas Segurança Pública",
-      "categoria_id": "estatisticas-seguranca-publica",
-      "classificacao": "heuristica",
-      "descricao": "Séries de homicídios e mortes violentas com recortes por raça, gênero, idade e território, publicadas pelo IPEA em parceria com o Fórum Brasileiro de Segurança Pública.",
-      "id": "estatisticas-seguranca-publica/atlas-da-violencia-ipea-e-fbsp",
-      "input": [
-        "nenhum"
-      ],
-      "links": [
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://www.ipea.gov.br/atlasviolencia/"
-        }
-      ],
-      "nome": "Atlas da Violência (IPEA e FBSP)",
-      "output": [
-        "estatistica"
-      ],
-      "tipo_fonte": "federal"
-    },
-    {
-      "categoria": "Estatísticas Segurança Pública",
-      "categoria_id": "estatisticas-seguranca-publica",
-      "classificacao": "heuristica",
-      "descricao": "Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.",
-      "id": "estatisticas-seguranca-publica/sisdepen-sistema-de-informacoes-penais-senappen",
-      "input": [
-        "nenhum"
-      ],
-      "links": [
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen"
-        },
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados"
-        }
-      ],
-      "nome": "SISDEPEN - Sistema de Informações Penais (SENAPPEN)",
-      "output": [
-        "estatistica"
-      ],
-      "tipo_fonte": "federal"
-    },
-    {
-      "categoria": "Registros Eleitorais e Políticos",
-      "categoria_id": "registros-eleitorais-e-politicos",
-      "classificacao": "heuristica",
-      "descricao": "Sistema de divulgação de candidaturas, contas eleitorais e de prestação de contas.",
-      "id": "registros-eleitorais-e-politicos/tse-divulgacao-de-candidaturas-e-contas-eleitorais",
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "override",
+      "descricao": "Consulta da situação de registro profissional emitido pelo Ministério do Trabalho e Emprego. Pesquisa por nome, UF do registro, CPF ou número do registro. Retorna nome, registro, categoria, função, data de concessão e situação. Registros antigos feitos em livro podem não aparecer. Possui captcha.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/mte-situacao-do-registro-profissional-sirpweb",
       "input": [
         "cpf",
         "nome",
@@ -3066,6 +2964,30 @@
       "tipo_fonte": "estadual"
     },
     {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "classificacao": "heuristica",
+      "descricao": "Consulta, por CPF ou CNPJ, dos relacionamentos mantidos com instituições financeiras, como contas, empréstimos, cheques e chaves PIX, além de dívidas registradas no SSCR.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/registrato-banco-central-relacionamentos-com-instituicoes-financeiras",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://registrato.bcb.gov.br/"
+        }
+      ],
+      "nome": "Registrato (Banco Central) - Relacionamentos com Instituições Financeiras",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
       "categoria": "Estatísticas Segurança Pública",
       "categoria_id": "estatisticas-seguranca-publica",
       "classificacao": "heuristica",
@@ -3292,6 +3214,84 @@
         "mapa"
       ],
       "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.",
+      "id": "estatisticas-seguranca-publica/crime-brasil",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://crimebrasil.com.br/"
+        },
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://crimebrasil.com.br/fontes"
+        }
+      ],
+      "nome": "Crime Brasil",
+      "output": [
+        "api_json",
+        "estatistica",
+        "mapa"
+      ],
+      "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Séries de homicídios e mortes violentas com recortes por raça, gênero, idade e território, publicadas pelo IPEA em parceria com o Fórum Brasileiro de Segurança Pública.",
+      "id": "estatisticas-seguranca-publica/atlas-da-violencia-ipea-e-fbsp",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.ipea.gov.br/atlasviolencia/"
+        }
+      ],
+      "nome": "Atlas da Violência (IPEA e FBSP)",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.",
+      "id": "estatisticas-seguranca-publica/sisdepen-sistema-de-informacoes-penais-senappen",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen"
+        },
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados"
+        }
+      ],
+      "nome": "SISDEPEN - Sistema de Informações Penais (SENAPPEN)",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal"
     },
     {
       "categoria": "Registros Eleitorais e Políticos",
@@ -3993,12 +3993,7 @@
         {
           "label": "",
           "uf": null,
-          "url": "https://www.gov.br/cgu/pt-br"
-        },
-        {
-          "label": "e-Aud (sistema de auditoria interna governamental)",
-          "uf": null,
-          "url": "https://eaud.cgu.gov.br/"
+          "url": "https://www.registrodeimoveis.org.br/cartorios"
         }
       ],
       "nome": "Cartórios de Registro de Imóveis",
@@ -4772,6 +4767,11 @@
           "label": "",
           "uf": null,
           "url": "https://www.gov.br/cgu/pt-br"
+        },
+        {
+          "label": "e-Aud (sistema de auditoria interna governamental)",
+          "uf": null,
+          "url": "https://eaud.cgu.gov.br/"
         }
       ],
       "nome": "CGU - Controladoria-Geral da União",
@@ -6954,29 +6954,6 @@
       "tipo_fonte": "federal"
     },
     {
-      "categoria": "Informações Acadêmicas",
-      "categoria_id": "informacoes-academicas",
-      "classificacao": "heuristica",
-      "descricao": "Consulta de resultados do Exame Nacional de Desempenho dos Estudantes.",
-      "id": "informacoes-academicas/enade-resultados-por-instituicao-2",
-      "input": [
-        "nome"
-      ],
-      "links": [
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade"
-        }
-      ],
-      "nome": "ENADE - Resultados por Instituição",
-      "output": [
-        "curriculo",
-        "publicacao_academica"
-      ],
-      "tipo_fonte": "federal"
-    },
-    {
       "categoria": "Mapas e Georreferenciamento",
       "categoria_id": "mapas-e-georreferenciamento",
       "classificacao": "heuristica",
@@ -7887,6 +7864,31 @@
       "tipo_fonte": "federal"
     },
     {
+      "categoria": "Território, Meio Ambiente & Fiscalização",
+      "categoria_id": "territorio-meio-ambiente-fiscalizacao",
+      "classificacao": "heuristica",
+      "descricao": "Conjuntos de dados sobre hidrologia, qualidade da água, usos e balanço hídrico do país, publicados pela Agência Nacional de Águas e Saneamento Básico.",
+      "id": "territorio-meio-ambiente-fiscalizacao/ana-dados-abertos-de-recursos-hidricos-snirh",
+      "input": [
+        "cnpj",
+        "municipio"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://dadosabertos.ana.gov.br/"
+        }
+      ],
+      "nome": "ANA - Dados Abertos de Recursos Hídricos (SNIRH)",
+      "output": [
+        "auto_infracao",
+        "dataset",
+        "mapa"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
       "categoria": "Saúde",
       "categoria_id": "saude",
       "classificacao": "heuristica",
@@ -8158,6 +8160,54 @@
       "tipo_fonte": "federal"
     },
     {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "classificacao": "heuristica",
+      "descricao": "Monitoramento semanal de dengue, zika e chikungunya por município, com níveis de alerta e API pública para os dados.",
+      "id": "saude/infodengue-fiocruz-e-fgv",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://info.dengue.mat.br/"
+        }
+      ],
+      "nome": "InfoDengue (Fiocruz e FGV)",
+      "output": [
+        "api_json",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "classificacao": "heuristica",
+      "descricao": "Microdados de saúde harmonizados e documentados (SIM, SINASC, CNES, SIH-SUS) com dicionários e notebooks de análise.",
+      "id": "saude/pcdas-plataforma-de-ciencia-de-dados-aplicada-a-saude-fiocruz",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://pcdas.icict.fiocruz.br/conjunto-de-dados/"
+        }
+      ],
+      "nome": "PCDaS - Plataforma de Ciência de Dados aplicada à Saúde (Fiocruz)",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "academico"
+    },
+    {
       "categoria": "Motores de Busca Contexto Brasil",
       "categoria_id": "motores-de-busca-contexto-brasil",
       "classificacao": "heuristica",
@@ -8397,77 +8447,12 @@
       "categoria": "Motores de Busca Contexto Brasil",
       "categoria_id": "motores-de-busca-contexto-brasil",
       "classificacao": "heuristica",
-      "descricao": "",
+      "descricao": "Busca por grupos e canais do Telegram relacionados ao Brasil.",
       "id": "motores-de-busca-contexto-brasil/google-hacking-filtrar-grupos-telegram-contexto-da-string",
       "input": [
         "nome"
       ],
       "links": [
-        {
-          "label": "inurl:\"",
-          "uf": null,
-          "url": "https://t.me"
-        },
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://www.google.com/search?q=inurl%3A%22https%3A%2F%2Ft.me%22+site%3Ame+%22SEU_ALVO%22"
-        },
-        {
-          "label": "site:me \"joinchat\" \"SEU_ALVO\"",
-          "uf": null,
-          "url": "https://www.google.com/search?q=site%3Ame+%22joinchat%22+%22Bolsonaro%22"
-        }
-      ],
-      "nome": "Google Hacking: Filtrar Grupos Telegram + Contexto da String",
-      "output": [
-        "dork",
-        "perfil_social"
-      ],
-      "tipo_fonte": "internacional"
-    },
-    {
-      "categoria": "Motores de Busca Contexto Brasil",
-      "categoria_id": "motores-de-busca-contexto-brasil",
-      "classificacao": "heuristica",
-      "descricao": "",
-      "id": "motores-de-busca-contexto-brasil/google-hacking-identificar-powerbi-exposto",
-      "input": [
-        "nome"
-      ],
-      "links": [
-        {
-          "label": "site:app.powerbi.com/view?r intext:\"br\"",
-          "uf": null,
-          "url": "https://www.google.com/search?q=site%3Aapp.powerbi.com%2Fview%3Fr+intext%3A%22br%22"
-        },
-        {
-          "label": "site:app.powerbi.com/view?r intext:\"brasil\"",
-          "uf": null,
-          "url": "https://www.google.com/search?q=site%3Aapp.powerbi.com%2Fview%3Fr+intext%3A%22brasil%22"
-        }
-      ],
-      "nome": "Google Hacking: Identificar Powerbi Exposto",
-      "output": [
-        "dork"
-      ],
-      "tipo_fonte": "dork"
-    },
-    {
-      "categoria": "Motores de Busca Contexto Brasil",
-      "categoria_id": "motores-de-busca-contexto-brasil",
-      "classificacao": "heuristica",
-      "descricao": "Shodan é um mecanismo de pesquisa que permite ao usuário encontrar tipos específicos de computadores conectados à Internet usando uma variedade de filtros.",
-      "id": "motores-de-busca-contexto-brasil/shodan-busca-de-servidores-brasileiro",
-      "input": [
-        "nome"
-      ],
-      "links": [
-        {
-          "label": "country:\"BR\"",
-          "uf": null,
-          "url": "https://www.shodan.io/search?query=country%3A%22BR%22"
-        },
         {
           "label": "inurl:\"",
           "uf": null,
@@ -8494,18 +8479,19 @@
           "url": "https://www.google.com/search?q=inurl%3A%22t.me%2F%22+%22canal%22+%7C+%22grupo%22+portugu%C3%AAs"
         }
       ],
-      "nome": "Shodan: Busca de Servidores Brasileiro",
+      "nome": "Google Hacking: Filtrar Grupos Telegram + Contexto da String",
       "output": [
-        "dork"
+        "dork",
+        "perfil_social"
       ],
-      "tipo_fonte": "dork"
+      "tipo_fonte": "internacional"
     },
     {
       "categoria": "Motores de Busca Contexto Brasil",
       "categoria_id": "motores-de-busca-contexto-brasil",
       "classificacao": "heuristica",
       "descricao": "Busca por dashboards do PowerBI com dados brasileiros.",
-      "id": "motores-de-busca-contexto-brasil/google-hacking-identificar-powerbi-exposto-2",
+      "id": "motores-de-busca-contexto-brasil/google-hacking-identificar-powerbi-exposto",
       "input": [
         "nome"
       ],
@@ -8616,33 +8602,8 @@
       "tipo_fonte": "dork"
     },
     {
-      "categoria": "Território, Meio Ambiente & Fiscalização",
-      "categoria_id": "territorio-meio-ambiente-fiscalizacao",
-      "classificacao": "heuristica",
-      "descricao": "Conjuntos de dados sobre hidrologia, qualidade da água, usos e balanço hídrico do país, publicados pela Agência Nacional de Águas e Saneamento Básico.",
-      "id": "territorio-meio-ambiente-fiscalizacao/ana-dados-abertos-de-recursos-hidricos-snirh",
-      "input": [
-        "cnpj",
-        "municipio"
-      ],
-      "links": [
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://dadosabertos.ana.gov.br/"
-        }
-      ],
-      "nome": "ANA - Dados Abertos de Recursos Hídricos (SNIRH)",
-      "output": [
-        "auto_infracao",
-        "dataset",
-        "mapa"
-      ],
-      "tipo_fonte": "federal"
-    },
-    {
-      "categoria": "Saúde",
-      "categoria_id": "saude",
+      "categoria": "Motores de Busca Contexto Brasil",
+      "categoria_id": "motores-de-busca-contexto-brasil",
       "classificacao": "heuristica",
       "descricao": "Busca por trabalhos acadêmicos, teses e dissertações.",
       "id": "motores-de-busca-contexto-brasil/google-hacking-dados-academicos",
@@ -9112,54 +9073,6 @@
         "remuneracao"
       ],
       "tipo_fonte": "dork"
-    },
-    {
-      "categoria": "Saúde",
-      "categoria_id": "saude",
-      "classificacao": "heuristica",
-      "descricao": "Monitoramento semanal de dengue, zika e chikungunya por município, com níveis de alerta e API pública para os dados.",
-      "id": "saude/infodengue-fiocruz-e-fgv",
-      "input": [
-        "cnes",
-        "municipio"
-      ],
-      "links": [
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://info.dengue.mat.br/"
-        }
-      ],
-      "nome": "InfoDengue (Fiocruz e FGV)",
-      "output": [
-        "api_json",
-        "dados_cadastrais"
-      ],
-      "tipo_fonte": "privado"
-    },
-    {
-      "categoria": "Saúde",
-      "categoria_id": "saude",
-      "classificacao": "heuristica",
-      "descricao": "Microdados de saúde harmonizados e documentados (SIM, SINASC, CNES, SIH-SUS) com dicionários e notebooks de análise.",
-      "id": "saude/pcdas-plataforma-de-ciencia-de-dados-aplicada-a-saude-fiocruz",
-      "input": [
-        "cnes",
-        "municipio"
-      ],
-      "links": [
-        {
-          "label": "",
-          "uf": null,
-          "url": "https://pcdas.icict.fiocruz.br/conjunto-de-dados/"
-        }
-      ],
-      "nome": "PCDaS - Plataforma de Ciência de Dados aplicada à Saúde (Fiocruz)",
-      "output": [
-        "dados_cadastrais",
-        "dataset"
-      ],
-      "tipo_fonte": "academico"
     },
     {
       "categoria": "Motores de Busca Contexto Brasil",
@@ -9873,7 +9786,7 @@
       "categoria_id": "motores-de-busca-contexto-brasil",
       "classificacao": "heuristica",
       "descricao": "Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados à Internet no Brasil.",
-      "id": "motores-de-busca-contexto-brasil/shodan-busca-de-servidores-brasileiro-2",
+      "id": "motores-de-busca-contexto-brasil/shodan-busca-de-servidores-brasileiro",
       "input": [
         "nome"
       ],
@@ -15966,5 +15879,5 @@
       "tipo_fonte": "federal"
     }
   ],
-  "total": 461
+  "total": 510
 }
