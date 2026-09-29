@@ -32,7 +32,8 @@
       "prefixo_aeronave": "Marca de matrícula de aeronave (prefixo)",
       "embarcacao": "Nome ou registro de embarcação",
       "cnes": "Cadastro Nacional de Estabelecimentos de Saúde",
-      "codigo_ibge": "Código de município ou região do IBGE"
+      "codigo_ibge": "Código de município ou região do IBGE",
+      "cns": "Cartão Nacional de Saúde de profissional ou Código Nacional de Serventia de cartório"
     }
   },
   "output": {
@@ -75,7 +76,10 @@
       "publicacao_academica": "Tese, dissertação ou artigo",
       "perfil_social": "Perfil ou conteúdo de rede social",
       "dork": "Consulta pronta para motor de busca",
-      "estatistica": "Estatística, indicador ou painel agregado"
+      "estatistica": "Estatística, indicador ou painel agregado",
+      "vinculo_profissional": "Vínculo de trabalho, registro ou certificação profissional",
+      "financiamento": "Operação de crédito, incentivo ou patrocínio",
+      "cartorio": "Serventia extrajudicial e seu responsável"
     }
   },
   "tipo_fonte": {
