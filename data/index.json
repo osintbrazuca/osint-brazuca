@@ -1413,6 +1413,182 @@
     {
       "categoria": "Consulta de Processos",
       "categoria_id": "consulta-de-processos",
+      "descricao": "O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).",
+      "fonte": "SEI - Pesquisa Pública de Processos por Órgão",
+      "fonte_id": "consulta-de-processos/sei-pesquisa-publica-de-processos-por-orgao",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "IBAMA",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.ibama.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).",
+      "fonte": "SEI - Pesquisa Pública de Processos por Órgão",
+      "fonte_id": "consulta-de-processos/sei-pesquisa-publica-de-processos-por-orgao",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "ANTT",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.antt.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).",
+      "fonte": "SEI - Pesquisa Pública de Processos por Órgão",
+      "fonte_id": "consulta-de-processos/sei-pesquisa-publica-de-processos-por-orgao",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "ANATEL",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.anatel.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).",
+      "fonte": "SEI - Pesquisa Pública de Processos por Órgão",
+      "fonte_id": "consulta-de-processos/sei-pesquisa-publica-de-processos-por-orgao",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "ANEEL",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.aneel.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).",
+      "fonte": "SEI - Pesquisa Pública de Processos por Órgão",
+      "fonte_id": "consulta-de-processos/sei-pesquisa-publica-de-processos-por-orgao",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "ANVISA",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.anvisa.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).",
+      "fonte": "SEI - Pesquisa Pública de Processos por Órgão",
+      "fonte_id": "consulta-de-processos/sei-pesquisa-publica-de-processos-por-orgao",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "MAPA",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.agro.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).",
+      "fonte": "SEI - Pesquisa Pública de Processos por Órgão",
+      "fonte_id": "consulta-de-processos/sei-pesquisa-publica-de-processos-por-orgao",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "MCTI",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.mcti.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).",
+      "fonte": "SEI - Pesquisa Pública de Processos por Órgão",
+      "fonte_id": "consulta-de-processos/sei-pesquisa-publica-de-processos-por-orgao",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "MDIC",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://sei.mdic.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
       "descricao": "Sistema de Gestão de Tabelas Processuais Unificadas - consulta de classes processuais.",
       "fonte": "CNJ - Consulta de Classes Processuais SGT",
       "fonte_id": "consulta-de-processos/cnj-consulta-de-classes-processuais-sgt",
@@ -23472,5 +23648,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1258
+  "total": 1266
 }

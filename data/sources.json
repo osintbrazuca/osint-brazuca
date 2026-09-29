@@ -912,6 +912,68 @@
       "categoria": "Consulta de Processos",
       "categoria_id": "consulta-de-processos",
       "classificacao": "heuristica",
+      "descricao": "O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).",
+      "id": "consulta-de-processos/sei-pesquisa-publica-de-processos-por-orgao",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "links": [
+        {
+          "label": "IBAMA",
+          "uf": null,
+          "url": "https://sei.ibama.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+        },
+        {
+          "label": "ANTT",
+          "uf": null,
+          "url": "https://sei.antt.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+        },
+        {
+          "label": "ANATEL",
+          "uf": null,
+          "url": "https://sei.anatel.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+        },
+        {
+          "label": "ANEEL",
+          "uf": null,
+          "url": "https://sei.aneel.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+        },
+        {
+          "label": "ANVISA",
+          "uf": null,
+          "url": "https://sei.anvisa.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+        },
+        {
+          "label": "MAPA",
+          "uf": null,
+          "url": "https://sei.agro.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+        },
+        {
+          "label": "MCTI",
+          "uf": null,
+          "url": "https://sei.mcti.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+        },
+        {
+          "label": "MDIC",
+          "uf": null,
+          "url": "https://sei.mdic.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0"
+        }
+      ],
+      "nome": "SEI - Pesquisa Pública de Processos por Órgão",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "classificacao": "heuristica",
       "descricao": "Sistema de Gestão de Tabelas Processuais Unificadas - consulta de classes processuais.",
       "id": "consulta-de-processos/cnj-consulta-de-classes-processuais-sgt",
       "input": [
@@ -15879,5 +15941,5 @@
       "tipo_fonte": "federal"
     }
   ],
-  "total": 510
+  "total": 511
 }

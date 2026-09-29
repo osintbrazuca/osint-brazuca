@@ -455,6 +455,17 @@ Consulta de pessoas e entidades requeridas em ações de improbidade administrat
 Pesquisa pública de processos e documentos do Conselho Administrativo de Defesa Econômica por número SEI, texto, interessado, unidade geradora e tipo de processo.
 - https://sei.cade.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0
 
+### SEI - Pesquisa Pública de Processos por Órgão
+O Sistema Eletrônico de Informações (SEI) é o sistema de processos de 500+ órgãos federais, com o mesmo formulário de pesquisa pública em todos (número SEI, texto, interessado, unidade geradora e tipo de processo).
+- [IBAMA](https://sei.ibama.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0)
+- [ANTT](https://sei.antt.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0)
+- [ANATEL](https://sei.anatel.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0)
+- [ANEEL](https://sei.aneel.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0)
+- [ANVISA](https://sei.anvisa.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0)
+- [MAPA](https://sei.agro.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0)
+- [MCTI](https://sei.mcti.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0)
+- [MDIC](https://sei.mdic.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0)
+
 ### CNJ - Consulta de Classes Processuais SGT
 Sistema de Gestão de Tabelas Processuais Unificadas - consulta de classes processuais.
 - https://www.cnj.jus.br/sgt/consulta_publica_classes.php
