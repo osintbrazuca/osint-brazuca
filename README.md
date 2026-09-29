@@ -556,6 +556,7 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 - https://www.esimplesauditoria.com/consulta-cnpj
 - https://receitaws.com.br/
 - https://juridicoonline.com.br/ 
+- https://pesquisaempresas.com.br/
 
 </details>
 
@@ -1037,6 +1038,14 @@ Consulta e certificação de imóveis rurais.
 ### Cartórios de Registro de Imóveis
 Diretório de cartórios de registro de imóveis no Brasil.
 - https://www.registrodeimoveis.org.br/cartorios
+
+### INCRA - Consulta Pública de Imóveis Rurais (SNCR)
+Download da relação de imóveis rurais cadastrados no SNCR por UF e município, em planilha com uma linha por detentor do imóvel. Traz código do imóvel, denominação, código IBGE, município, UF, área total, titular (nome parcialmente mascarado), natureza jurídica, condição da pessoa e percentual de detenção. Possui captcha.
+- https://sncr.serpro.gov.br/sncr-web/consultaPublica.jsf
+
+### ONR - Mapa do Registro de Imóveis do Brasil
+Mapa do Operador Nacional do Registro Eletrônico de Imóveis. Permite buscar por endereço, latitude e longitude, Código Nacional de Matrícula, cartório e matrícula, nome do imóvel, CCIR/SNCR, certificação SIGEF, SNCI, Cadastro Ambiental Rural, imóveis públicos da SPU e cadastro municipal (SQL) de São Paulo, com filtro de serventia por CNS.
+- https://mapa.onr.org.br/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
@@ -2293,6 +2302,387 @@ Busca por trabalhos acadêmicos, teses e dissertações.
 - ```site:edu.br inurl:"biblioteca" | inurl:"repositorio"```
     - https://www.google.com/search?q=site%3Aedu.br+inurl%3A%22biblioteca%22+%7C+inurl%3A%22repositorio%22
 
+### Google Hacking: Pessoa em Diários Oficiais e Atos Públicos
+Localiza nomeações, exonerações, portarias, editais e outras publicações oficiais que citam uma pessoa. Substitua SEU_ALVO pelo nome completo entre aspas.
+
+- ```"SEU_ALVO" site:in.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Ain.gov.br
+
+- ```"SEU_ALVO" site:gov.br | site:leg.br | site:mp.br ext:pdf```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Agov.br+%7C+site%3Aleg.br+%7C+site%3Amp.br+ext%3Apdf
+
+- ```"SEU_ALVO" "nomear" | "exonerar" | "designar" | "portaria"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22nomear%22+%7C+%22exonerar%22+%7C+%22designar%22+%7C+%22portaria%22
+
+- ```"SEU_ALVO" "diário oficial" -site:jusbrasil.com.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22di%C3%A1rio+oficial%22+-site%3Ajusbrasil.com.br
+
+- ```"SEU_ALVO" site:jusbrasil.com.br/diarios | site:escavador.com/diarios```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Ajusbrasil.com.br%2Fdiarios+%7C+site%3Aescavador.com%2Fdiarios
+
+### Google Hacking: Pessoa ou Empresa em Processos Judiciais
+Localiza decisões, editais de citação e intimações indexadas. Substitua SEU_ALVO pelo nome completo ou razão social.
+
+- ```"SEU_ALVO" site:jus.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Ajus.br
+
+- ```"SEU_ALVO" "edital de citação" | "edital de intimação"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22edital+de+cita%C3%A7%C3%A3o%22+%7C+%22edital+de+intima%C3%A7%C3%A3o%22
+
+- ```"SEU_ALVO" "réu" | "executado" | "requerido" | "denunciado"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22r%C3%A9u%22+%7C+%22executado%22+%7C+%22requerido%22+%7C+%22denunciado%22
+
+- ```"SEU_ALVO" "recuperação judicial" | "falência" | "penhora"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22recupera%C3%A7%C3%A3o+judicial%22+%7C+%22fal%C3%AAncia%22+%7C+%22penhora%22
+
+- ```"SEU_ALVO" site:jusbrasil.com.br | site:escavador.com```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Ajusbrasil.com.br+%7C+site%3Aescavador.com
+
+### Google Hacking: Empresa, CNPJ e Quadro Societário
+Cruza CNPJ, razão social e sócios em agregadores e documentos societários. Pesquise o CNPJ com e sem pontuação.
+
+- ```"SEU_CNPJ_COM_PONTUACAO" | "SEU_CNPJ_SEM_PONTUACAO"```
+    - https://www.google.com/search?q=%22SEU_CNPJ_COM_PONTUACAO%22+%7C+%22SEU_CNPJ_SEM_PONTUACAO%22
+
+- ```"SEU_ALVO" "sócio" | "sócio-administrador" | "quadro societário"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22s%C3%B3cio%22+%7C+%22s%C3%B3cio-administrador%22+%7C+%22quadro+societ%C3%A1rio%22
+
+- ```"SEU_ALVO" site:cnpj.biz | site:casadosdados.com.br | site:cnpja.com```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Acnpj.biz+%7C+site%3Acasadosdados.com.br+%7C+site%3Acnpja.com
+
+- ```"SEU_ALVO" "contrato social" | "ata de assembleia" | "alteração contratual" ext:pdf```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22contrato+social%22+%7C+%22ata+de+assembleia%22+%7C+%22altera%C3%A7%C3%A3o+contratual%22+ext%3Apdf
+
+- ```"SEU_ALVO" site:jucesponline.sp.gov.br | site:jucerja.rj.gov.br | site:jucepe.pe.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Ajucesponline.sp.gov.br+%7C+site%3Ajucerja.rj.gov.br+%7C+site%3Ajucepe.pe.gov.br
+
+### Google Hacking: Licitações, Contratos e Convênios
+Localiza contratos, atas de registro de preços, dispensas e sanções envolvendo um fornecedor ou um órgão.
+
+- ```"SEU_ALVO" "extrato de contrato" | "termo aditivo" | "ata de registro de preços"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22extrato+de+contrato%22+%7C+%22termo+aditivo%22+%7C+%22ata+de+registro+de+pre%C3%A7os%22
+
+- ```"SEU_ALVO" "dispensa de licitação" | "inexigibilidade" | "pregão eletrônico" ext:pdf```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22dispensa+de+licita%C3%A7%C3%A3o%22+%7C+%22inexigibilidade%22+%7C+%22preg%C3%A3o+eletr%C3%B4nico%22+ext%3Apdf
+
+- ```"SEU_CNPJ_COM_PONTUACAO" site:gov.br```
+    - https://www.google.com/search?q=%22SEU_CNPJ_COM_PONTUACAO%22+site%3Agov.br
+
+- ```"SEU_ALVO" site:pncp.gov.br | site:portaldatransparencia.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Apncp.gov.br+%7C+site%3Aportaldatransparencia.gov.br
+
+- ```"SEU_ALVO" "inidônea" | "impedida de licitar" | "suspensão temporária"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22inid%C3%B4nea%22+%7C+%22impedida+de+licitar%22+%7C+%22suspens%C3%A3o+tempor%C3%A1ria%22
+
+- ```"SEU_ALVO" site:tcu.gov.br | site:tce.sp.gov.br | inurl:tce ext:pdf```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Atcu.gov.br+%7C+site%3Atce.sp.gov.br+%7C+inurl%3Atce+ext%3Apdf
+
+### Google Hacking: Endereço e Imóvel
+Localiza empresas, anúncios, leilões e publicações ligados a um endereço. Informe logradouro e número entre aspas, com a cidade.
+
+- ```"SEU_ENDERECO" "SEU_MUNICIPIO"```
+    - https://www.google.com/search?q=%22SEU_ENDERECO%22+%22SEU_MUNICIPIO%22
+
+- ```"SEU_ENDERECO" site:cnpj.biz | site:casadosdados.com.br```
+    - https://www.google.com/search?q=%22SEU_ENDERECO%22+site%3Acnpj.biz+%7C+site%3Acasadosdados.com.br
+
+- ```"SEU_ENDERECO" "leilão" | "penhora" | "hasta pública" | "usucapião"```
+    - https://www.google.com/search?q=%22SEU_ENDERECO%22+%22leil%C3%A3o%22+%7C+%22penhora%22+%7C+%22hasta+p%C3%BAblica%22+%7C+%22usucapi%C3%A3o%22
+
+- ```"SEU_ENDERECO" "matrícula" "registro de imóveis"```
+    - https://www.google.com/search?q=%22SEU_ENDERECO%22+%22matr%C3%ADcula%22+%22registro+de+im%C3%B3veis%22
+
+- ```"SEU_ENDERECO" site:zapimoveis.com.br | site:vivareal.com.br | site:olx.com.br```
+    - https://www.google.com/search?q=%22SEU_ENDERECO%22+site%3Azapimoveis.com.br+%7C+site%3Avivareal.com.br+%7C+site%3Aolx.com.br
+
+### Google Hacking: Telefone, E-mail e Chave Pix
+Busca um identificador de contato em todos os formatos de escrita. Útil para apurar golpes, já que o mesmo número ou chave costuma aparecer em denúncias.
+
+- ```"(SEU_DDD) SEU_NUMERO" | "SEU_DDD SEU_NUMERO" | "+55SEU_DDDSEU_NUMERO"```
+    - https://www.google.com/search?q=%22%28SEU_DDD%29+SEU_NUMERO%22+%7C+%22SEU_DDD+SEU_NUMERO%22+%7C+%22%2B55SEU_DDDSEU_NUMERO%22
+
+- ```"SEU_TELEFONE" "golpe" | "fraude" | "estelionato"```
+    - https://www.google.com/search?q=%22SEU_TELEFONE%22+%22golpe%22+%7C+%22fraude%22+%7C+%22estelionato%22
+
+- ```"SEU_EMAIL" -site:SEU_DOMINIO```
+    - https://www.google.com/search?q=%22SEU_EMAIL%22+-site%3ASEU_DOMINIO
+
+- ```"SEU_TELEFONE" | "SEU_EMAIL" site:reclameaqui.com.br | site:consumidor.gov.br```
+    - https://www.google.com/search?q=%22SEU_TELEFONE%22+%7C+%22SEU_EMAIL%22+site%3Areclameaqui.com.br+%7C+site%3Aconsumidor.gov.br
+
+- ```"SEU_TELEFONE" site:olx.com.br | site:facebook.com/marketplace | site:webmotors.com.br```
+    - https://www.google.com/search?q=%22SEU_TELEFONE%22+site%3Aolx.com.br+%7C+site%3Afacebook.com%2Fmarketplace+%7C+site%3Awebmotors.com.br
+
+### Google Hacking: Nome de Usuário e Perfis
+Localiza o mesmo nome de usuário ou a mesma pessoa em diferentes plataformas e páginas de links.
+
+- ```"SEU_USUARIO" site:instagram.com | site:tiktok.com | site:x.com | site:facebook.com```
+    - https://www.google.com/search?q=%22SEU_USUARIO%22+site%3Ainstagram.com+%7C+site%3Atiktok.com+%7C+site%3Ax.com+%7C+site%3Afacebook.com
+
+- ```inurl:SEU_USUARIO -site:instagram.com -site:facebook.com```
+    - https://www.google.com/search?q=inurl%3ASEU_USUARIO+-site%3Ainstagram.com+-site%3Afacebook.com
+
+- ```"SEU_ALVO" site:linktr.ee | site:beacons.ai | site:bio.link```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Alinktr.ee+%7C+site%3Abeacons.ai+%7C+site%3Abio.link
+
+- ```"SEU_ALVO" site:github.com | site:gitlab.com | site:medium.com```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Agithub.com+%7C+site%3Agitlab.com+%7C+site%3Amedium.com
+
+- ```"SEU_ALVO" site:lattes.cnpq.br | site:escavador.com/sobre```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Alattes.cnpq.br+%7C+site%3Aescavador.com%2Fsobre
+
+### Google Hacking: Concursos, Editais e Listas Nominais
+Listas de aprovados, convocações e matrículas publicadas por órgãos e universidades costumam trazer nome completo, e às vezes parte do documento.
+
+- ```"SEU_ALVO" "aprovados" | "classificados" | "convocação" | "homologação" ext:pdf```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22aprovados%22+%7C+%22classificados%22+%7C+%22convoca%C3%A7%C3%A3o%22+%7C+%22homologa%C3%A7%C3%A3o%22+ext%3Apdf
+
+- ```"SEU_ALVO" site:pciconcursos.com.br | site:qconcursos.com```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Apciconcursos.com.br+%7C+site%3Aqconcursos.com
+
+- ```"SEU_ALVO" "lista de espera" | "chamada" | "matrícula" site:edu.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22lista+de+espera%22+%7C+%22chamada%22+%7C+%22matr%C3%ADcula%22+site%3Aedu.br
+
+- ```"SEU_ALVO" "resultado final" site:gov.br | site:edu.br | site:jus.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22resultado+final%22+site%3Agov.br+%7C+site%3Aedu.br+%7C+site%3Ajus.br
+
+### Google Hacking: Mapeamento de uma Organização
+Reconhecimento passivo de um domínio: subdomínios, documentos publicados e padrão de e-mail. Substitua SEU_DOMINIO pelo domínio da organização.
+
+- ```site:SEU_DOMINIO -www```
+    - https://www.google.com/search?q=site%3ASEU_DOMINIO+-www
+
+- ```site:SEU_DOMINIO ext:pdf | ext:docx | ext:xlsx | ext:pptx```
+    - https://www.google.com/search?q=site%3ASEU_DOMINIO+ext%3Apdf+%7C+ext%3Adocx+%7C+ext%3Axlsx+%7C+ext%3Apptx
+
+- ```site:SEU_DOMINIO "organograma" | "quem é quem" | "equipe" | "diretoria"```
+    - https://www.google.com/search?q=site%3ASEU_DOMINIO+%22organograma%22+%7C+%22quem+%C3%A9+quem%22+%7C+%22equipe%22+%7C+%22diretoria%22
+
+- ```"@SEU_DOMINIO" -site:SEU_DOMINIO```
+    - https://www.google.com/search?q=%22%40SEU_DOMINIO%22+-site%3ASEU_DOMINIO
+
+- ```site:SEU_DOMINIO inurl:transparencia | inurl:licitacao | inurl:contratos```
+    - https://www.google.com/search?q=site%3ASEU_DOMINIO+inurl%3Atransparencia+%7C+inurl%3Alicitacao+%7C+inurl%3Acontratos
+
+### Google Hacking: Servidor Público, Cargo e Remuneração
+Localiza lotação, cargo, folha de pagamento e diárias de agentes públicos em portais de transparência. Substitua SEU_ALVO pelo nome completo.
+
+- ```"SEU_ALVO" "remuneração" | "folha de pagamento" | "vencimentos" site:gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22remunera%C3%A7%C3%A3o%22+%7C+%22folha+de+pagamento%22+%7C+%22vencimentos%22+site%3Agov.br
+
+- ```"SEU_ALVO" "lotação" | "matrícula" | "cargo efetivo" | "cargo em comissão"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22lota%C3%A7%C3%A3o%22+%7C+%22matr%C3%ADcula%22+%7C+%22cargo+efetivo%22+%7C+%22cargo+em+comiss%C3%A3o%22
+
+- ```"SEU_ALVO" "diárias" | "passagens" | "suprimento de fundos" site:gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22di%C3%A1rias%22+%7C+%22passagens%22+%7C+%22suprimento+de+fundos%22+site%3Agov.br
+
+- ```"SEU_ALVO" site:portaldatransparencia.gov.br | inurl:transparencia```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Aportaldatransparencia.gov.br+%7C+inurl%3Atransparencia
+
+- ```"SEU_ALVO" "processo administrativo disciplinar" | "sindicância" | "demissão"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22processo+administrativo+disciplinar%22+%7C+%22sindic%C3%A2ncia%22+%7C+%22demiss%C3%A3o%22
+
+### Google Hacking: Político, Candidatura e Doações
+Localiza candidaturas, prestação de contas, doadores e atuação parlamentar.
+
+- ```"SEU_ALVO" site:divulgacandcontas.tse.jus.br | site:tse.jus.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Adivulgacandcontas.tse.jus.br+%7C+site%3Atse.jus.br
+
+- ```"SEU_ALVO" "doador" | "doação" | "prestação de contas" "eleições"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22doador%22+%7C+%22doa%C3%A7%C3%A3o%22+%7C+%22presta%C3%A7%C3%A3o+de+contas%22+%22elei%C3%A7%C3%B5es%22
+
+- ```"SEU_ALVO" site:camara.leg.br | site:senado.leg.br | site:al.sp.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Acamara.leg.br+%7C+site%3Asenado.leg.br+%7C+site%3Aal.sp.gov.br
+
+- ```"SEU_ALVO" "emenda parlamentar" | "indicação" | "requerimento"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22emenda+parlamentar%22+%7C+%22indica%C3%A7%C3%A3o%22+%7C+%22requerimento%22
+
+- ```"SEU_ALVO" "inelegível" | "ficha limpa" | "improbidade administrativa"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22ineleg%C3%ADvel%22+%7C+%22ficha+limpa%22+%7C+%22improbidade+administrativa%22
+
+### Google Hacking: Registro Profissional e Carreira
+Confirma profissão, registro em conselho e histórico profissional de uma pessoa.
+
+- ```"SEU_ALVO" "CRM" | "OAB" | "CREA" | "CRC" | "CRO" | "COREN"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22CRM%22+%7C+%22OAB%22+%7C+%22CREA%22+%7C+%22CRC%22+%7C+%22CRO%22+%7C+%22COREN%22
+
+- ```"SEU_ALVO" "currículo" | "curriculum vitae" ext:pdf | ext:doc```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22curr%C3%ADculo%22+%7C+%22curriculum+vitae%22+ext%3Apdf+%7C+ext%3Adoc
+
+- ```"SEU_ALVO" site:linkedin.com/in "SEU_MUNICIPIO"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Alinkedin.com%2Fin+%22SEU_MUNICIPIO%22
+
+- ```"SEU_ALVO" "palestrante" | "coordenador" | "diretor" | "fundador"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22palestrante%22+%7C+%22coordenador%22+%7C+%22diretor%22+%7C+%22fundador%22
+
+- ```"SEU_ALVO" "processo ético" | "cassação" | "suspensão do exercício profissional"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22processo+%C3%A9tico%22+%7C+%22cassa%C3%A7%C3%A3o%22+%7C+%22suspens%C3%A3o+do+exerc%C3%ADcio+profissional%22
+
+### Google Hacking: Veículo e Placa
+Busca a placa nos dois padrões (antigo e Mercosul) em anúncios, leilões e publicações oficiais.
+
+- ```"SEU_VEICULO_PLACA" | "SEU_VEICULO_PLACA_COM_HIFEN"```
+    - https://www.google.com/search?q=%22SEU_VEICULO_PLACA%22+%7C+%22SEU_VEICULO_PLACA_COM_HIFEN%22
+
+- ```"SEU_VEICULO_PLACA" "leilão" | "sinistro" | "apreendido" | "edital"```
+    - https://www.google.com/search?q=%22SEU_VEICULO_PLACA%22+%22leil%C3%A3o%22+%7C+%22sinistro%22+%7C+%22apreendido%22+%7C+%22edital%22
+
+- ```"SEU_VEICULO_PLACA" site:olx.com.br | site:webmotors.com.br | site:icarros.com.br```
+    - https://www.google.com/search?q=%22SEU_VEICULO_PLACA%22+site%3Aolx.com.br+%7C+site%3Awebmotors.com.br+%7C+site%3Aicarros.com.br
+
+- ```"SEU_VEICULO_PLACA" site:gov.br | site:jus.br ext:pdf```
+    - https://www.google.com/search?q=%22SEU_VEICULO_PLACA%22+site%3Agov.br+%7C+site%3Ajus.br+ext%3Apdf
+
+- ```"SEU_VEICULO_CHASSI"```
+    - https://www.google.com/search?q=%22SEU_VEICULO_CHASSI%22
+
+### Google Hacking: Imóvel Rural, Fazenda e Meio Ambiente
+Localiza autuações, embargos, licenças e registros ligados a uma fazenda ou a seu titular.
+
+- ```"SEU_ALVO" "auto de infração" | "embargo" | "termo de embargo" site:gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22auto+de+infra%C3%A7%C3%A3o%22+%7C+%22embargo%22+%7C+%22termo+de+embargo%22+site%3Agov.br
+
+- ```"fazenda SEU_ALVO" "SEU_MUNICIPIO" "matrícula" | "CAR" | "CCIR"```
+    - https://www.google.com/search?q=%22fazenda+SEU_ALVO%22+%22SEU_MUNICIPIO%22+%22matr%C3%ADcula%22+%7C+%22CAR%22+%7C+%22CCIR%22
+
+- ```"SEU_ALVO" "licença ambiental" | "licença de operação" | "outorga" ext:pdf```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22licen%C3%A7a+ambiental%22+%7C+%22licen%C3%A7a+de+opera%C3%A7%C3%A3o%22+%7C+%22outorga%22+ext%3Apdf
+
+- ```"SEU_ALVO" "desmatamento" | "queimada" | "trabalho escravo" | "grilagem"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22desmatamento%22+%7C+%22queimada%22+%7C+%22trabalho+escravo%22+%7C+%22grilagem%22
+
+- ```"SEU_ALVO" site:ibama.gov.br | site:icmbio.gov.br | site:incra.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Aibama.gov.br+%7C+site%3Aicmbio.gov.br+%7C+site%3Aincra.gov.br
+
+### Google Hacking: Associação, ONG e Entidade Religiosa
+Localiza estatuto, diretoria, convênios e prestação de contas de entidades sem fins lucrativos.
+
+- ```"SEU_ALVO" "estatuto social" | "ata de eleição" | "ata de posse" ext:pdf```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22estatuto+social%22+%7C+%22ata+de+elei%C3%A7%C3%A3o%22+%7C+%22ata+de+posse%22+ext%3Apdf
+
+- ```"SEU_ALVO" "presidente" | "tesoureiro" | "diretoria executiva"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22presidente%22+%7C+%22tesoureiro%22+%7C+%22diretoria+executiva%22
+
+- ```"SEU_ALVO" "termo de fomento" | "termo de colaboração" | "convênio" site:gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22termo+de+fomento%22+%7C+%22termo+de+colabora%C3%A7%C3%A3o%22+%7C+%22conv%C3%AAnio%22+site%3Agov.br
+
+- ```"SEU_ALVO" "utilidade pública" | "CEBAS" | "OSCIP"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22utilidade+p%C3%BAblica%22+%7C+%22CEBAS%22+%7C+%22OSCIP%22
+
+- ```"SEU_ALVO" "prestação de contas" | "relatório de atividades" ext:pdf```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22presta%C3%A7%C3%A3o+de+contas%22+%7C+%22relat%C3%B3rio+de+atividades%22+ext%3Apdf
+
+### Google Hacking: Loja Virtual e Vendedor em Marketplace
+Apura a identidade por trás de uma loja, perfil de vendedor ou anúncio. Útil em investigação de golpes de compra e venda.
+
+- ```"SEU_ALVO" site:mercadolivre.com.br/perfil | site:shopee.com.br | site:enjoei.com.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Amercadolivre.com.br%2Fperfil+%7C+site%3Ashopee.com.br+%7C+site%3Aenjoei.com.br
+
+- ```"SEU_DOMINIO" "CNPJ" | "razão social" | "política de privacidade"```
+    - https://www.google.com/search?q=%22SEU_DOMINIO%22+%22CNPJ%22+%7C+%22raz%C3%A3o+social%22+%7C+%22pol%C3%ADtica+de+privacidade%22
+
+- ```"SEU_ALVO" "não entrega" | "golpe" | "site falso" | "loja falsa"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22n%C3%A3o+entrega%22+%7C+%22golpe%22+%7C+%22site+falso%22+%7C+%22loja+falsa%22
+
+- ```"SEU_ALVO" site:reclameaqui.com.br | site:consumidor.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Areclameaqui.com.br+%7C+site%3Aconsumidor.gov.br
+
+- ```"SEU_ALVO" site:procon.sp.gov.br "evite esses sites"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Aprocon.sp.gov.br+%22evite+esses+sites%22
+
+### Google Hacking: Notícias e Linha do Tempo
+Restringe a busca a veículos de imprensa e a um período, para montar a cronologia de um alvo. Os operadores before: e after: aceitam datas no formato AAAA-MM-DD.
+
+- ```"SEU_ALVO" site:g1.globo.com | site:folha.uol.com.br | site:estadao.com.br | site:uol.com.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Ag1.globo.com+%7C+site%3Afolha.uol.com.br+%7C+site%3Aestadao.com.br+%7C+site%3Auol.com.br
+
+- ```"SEU_ALVO" "operação" | "investigado" | "denunciado" | "preso" | "condenado"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22opera%C3%A7%C3%A3o%22+%7C+%22investigado%22+%7C+%22denunciado%22+%7C+%22preso%22+%7C+%22condenado%22
+
+- ```"SEU_ALVO" before:2015-01-01```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+before%3A2015-01-01
+
+- ```"SEU_ALVO" after:2024-01-01```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+after%3A2024-01-01
+
+- ```"SEU_ALVO" "SEU_MUNICIPIO" "jornal" | "gazeta" | "diário" | "folha"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22SEU_MUNICIPIO%22+%22jornal%22+%7C+%22gazeta%22+%7C+%22di%C3%A1rio%22+%7C+%22folha%22
+
+### Google Hacking: Exposição de uma Organização em Serviços de Terceiros
+Levantamento defensivo do que uma organização deixou público em plataformas externas. Substitua SEU_DOMINIO pelo domínio e SEU_ALVO pelo nome da organização.
+
+- ```"SEU_DOMINIO" site:github.com | site:gitlab.com | site:bitbucket.org```
+    - https://www.google.com/search?q=%22SEU_DOMINIO%22+site%3Agithub.com+%7C+site%3Agitlab.com+%7C+site%3Abitbucket.org
+
+- ```"SEU_ALVO" site:trello.com | site:notion.site | site:miro.com```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Atrello.com+%7C+site%3Anotion.site+%7C+site%3Amiro.com
+
+- ```"SEU_ALVO" site:docs.google.com | site:drive.google.com | site:onedrive.live.com```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Adocs.google.com+%7C+site%3Adrive.google.com+%7C+site%3Aonedrive.live.com
+
+- ```"SEU_ALVO" site:slideshare.net | site:scribd.com | site:issuu.com```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Aslideshare.net+%7C+site%3Ascribd.com+%7C+site%3Aissuu.com
+
+- ```"SEU_DOMINIO" site:pastebin.com | site:ghostbin.com | site:justpaste.it```
+    - https://www.google.com/search?q=%22SEU_DOMINIO%22+site%3Apastebin.com+%7C+site%3Aghostbin.com+%7C+site%3Ajustpaste.it
+
+### Google Hacking: Diários Oficiais Estaduais por Região
+Restringe a busca aos diários oficiais dos estados, agrupados por região para caber no limite de termos do Google. Substitua SEU_ALVO pelo nome completo ou razão social.
+
+- ```"SEU_ALVO" site:doe.sp.gov.br | site:portal.ioerj.com.br | site:jornalminasgerais.mg.gov.br | site:ioes.dio.es.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Adoe.sp.gov.br+%7C+site%3Aportal.ioerj.com.br+%7C+site%3Ajornalminasgerais.mg.gov.br+%7C+site%3Aioes.dio.es.gov.br
+
+- ```"SEU_ALVO" site:diariooficial.rs.gov.br | site:doe.sc.gov.br | site:documentos.dioe.pr.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Adiariooficial.rs.gov.br+%7C+site%3Adoe.sc.gov.br+%7C+site%3Adocumentos.dioe.pr.gov.br
+
+- ```"SEU_ALVO" site:dodf.df.gov.br | site:diariooficial.go.gov.br | site:iomat.mt.gov.br | site:imprensaoficial.ms.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Adodf.df.gov.br+%7C+site%3Adiariooficial.go.gov.br+%7C+site%3Aiomat.mt.gov.br+%7C+site%3Aimprensaoficial.ms.gov.br
+
+- ```"SEU_ALVO" site:dool.egba.ba.gov.br | site:cepe.com.br | site:diariooficial.ce.gov.br | site:diariooficial.rn.gov.br | site:auniao.pb.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Adool.egba.ba.gov.br+%7C+site%3Acepe.com.br+%7C+site%3Adiariooficial.ce.gov.br+%7C+site%3Adiariooficial.rn.gov.br+%7C+site%3Aauniao.pb.gov.br
+
+- ```"SEU_ALVO" site:diariooficial.ma.gov.br | site:diariooficial.pi.gov.br | site:doe.se.gov.br | site:imprensaoficialal.com.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Adiariooficial.ma.gov.br+%7C+site%3Adiariooficial.pi.gov.br+%7C+site%3Adoe.se.gov.br+%7C+site%3Aimprensaoficialal.com.br
+
+- ```"SEU_ALVO" site:ioepa.com.br | site:doe.am.gov.br | site:diario.ac.gov.br | site:diariooficial.ro.gov.br | site:imprensaoficial.rr.gov.br | site:diariooficial.ap.gov.br | site:diariooficial.to.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Aioepa.com.br+%7C+site%3Adoe.am.gov.br+%7C+site%3Adiario.ac.gov.br+%7C+site%3Adiariooficial.ro.gov.br+%7C+site%3Aimprensaoficial.rr.gov.br+%7C+site%3Adiariooficial.ap.gov.br+%7C+site%3Adiariooficial.to.gov.br
+
+### Google Hacking: Tribunais de Contas Estaduais
+Localiza julgamentos de contas, representações e débitos imputados a gestores e fornecedores nos tribunais de contas dos estados.
+
+- ```"SEU_ALVO" site:tce.sp.gov.br | site:tce.mg.gov.br | site:www1.tce.pr.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Atce.sp.gov.br+%7C+site%3Atce.mg.gov.br+%7C+site%3Awww1.tce.pr.gov.br
+
+- ```"SEU_ALVO" site:tce.ba.gov.br | site:tce.ce.gov.br | site:tce.pb.gov.br | site:tce.rn.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Atce.ba.gov.br+%7C+site%3Atce.ce.gov.br+%7C+site%3Atce.pb.gov.br+%7C+site%3Atce.rn.gov.br
+
+- ```"SEU_ALVO" site:tce.mt.gov.br | site:tce.ms.gov.br | site:tce.ap.gov.br```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+site%3Atce.mt.gov.br+%7C+site%3Atce.ms.gov.br+%7C+site%3Atce.ap.gov.br
+
+- ```"SEU_ALVO" "contas irregulares" | "imputação de débito" | "tomada de contas especial"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22contas+irregulares%22+%7C+%22imputa%C3%A7%C3%A3o+de+d%C3%A9bito%22+%7C+%22tomada+de+contas+especial%22
+
+- ```"SEU_ALVO" inurl:tce | inurl:tcm "acórdão" | "parecer prévio" ext:pdf```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+inurl%3Atce+%7C+inurl%3Atcm+%22ac%C3%B3rd%C3%A3o%22+%7C+%22parecer+pr%C3%A9vio%22+ext%3Apdf
+
+### Google Hacking: Registro Civil, Proclamas e Falecimento
+Editais de proclamas publicados por cartórios revelam cônjuge, filiação e naturalidade; notas de falecimento e obituários revelam parentes e datas.
+
+- ```"SEU_ALVO" "edital de proclamas" | "proclamas de casamento"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22edital+de+proclamas%22+%7C+%22proclamas+de+casamento%22
+
+- ```"SEU_ALVO" "pretendem casar" | "pretendem se casar" | "faço saber que pretendem"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22pretendem+casar%22+%7C+%22pretendem+se+casar%22+%7C+%22fa%C3%A7o+saber+que+pretendem%22
+
+- ```"SEU_ALVO" "nota de falecimento" | "obituário" | "falecimentos" | "missa de sétimo dia"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22nota+de+falecimento%22+%7C+%22obitu%C3%A1rio%22+%7C+%22falecimentos%22+%7C+%22missa+de+s%C3%A9timo+dia%22
+
+- ```"SEU_ALVO" "inventário" | "espólio de" | "herdeiros"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22invent%C3%A1rio%22+%7C+%22esp%C3%B3lio+de%22+%7C+%22herdeiros%22
+
+- ```"SEU_ALVO" "filho de" | "filha de" "natural de"```
+    - https://www.google.com/search?q=%22SEU_ALVO%22+%22filho+de%22+%7C+%22filha+de%22+%22natural+de%22
+
 ### Bing: Buscas Alternativas
 Exemplos de dorks usando Bing para contexto brasileiro.
 
@@ -2305,6 +2695,21 @@ Exemplos de dorks usando Bing para contexto brasileiro.
 - ```ip:200.* country:BR```
     - https://www.bing.com/search?q=ip%3A200.*+country%3ABR
 
+### Bing: Buscas por Alvo
+Operadores exclusivos do Bing úteis em investigação: contains: acha páginas que apontam para um tipo de arquivo e linkfromdomain: lista para onde um domínio aponta.
+
+- ```site:SEU_DOMINIO contains:pdf```
+    - https://www.bing.com/search?q=site%3ASEU_DOMINIO+contains%3Apdf
+
+- ```linkfromdomain:SEU_DOMINIO```
+    - https://www.bing.com/search?q=linkfromdomain%3ASEU_DOMINIO
+
+- ```"SEU_ALVO" loc:BR language:pt```
+    - https://www.bing.com/search?q=%22SEU_ALVO%22+loc%3ABR+language%3Apt
+
+- ```"SEU_ALVO" site:gov.br filetype:pdf```
+    - https://www.bing.com/search?q=%22SEU_ALVO%22+site%3Agov.br+filetype%3Apdf
+
 ### DuckDuckGo: Buscas com Privacidade
 Exemplos usando DuckDuckGo para pesquisas no Brasil.
 
@@ -2314,6 +2719,42 @@ Exemplos usando DuckDuckGo para pesquisas no Brasil.
 - ```site:com.br "email" OR "e-mail"```
     - https://duckduckgo.com/?q=site%3Acom.br+%22email%22+OR+%22e-mail%22
 
+
+### Yandex: Buscas por Alvo
+O Yandex indexa páginas que o Google omite e tem operadores próprios: mime: filtra tipo de arquivo, lang: filtra idioma e date: filtra período.
+
+- ```"SEU_ALVO" lang:pt```
+    - https://yandex.com/search/?text=%22SEU_ALVO%22+lang%3Apt
+
+- ```"SEU_ALVO" site:gov.br mime:pdf```
+    - https://yandex.com/search/?text=%22SEU_ALVO%22+site%3Agov.br+mime%3Apdf
+
+- ```"SEU_ALVO" mime:xls | mime:doc lang:pt```
+    - https://yandex.com/search/?text=%22SEU_ALVO%22+mime%3Axls+%7C+mime%3Adoc+lang%3Apt
+
+- ```site:SEU_DOMINIO mime:pdf```
+    - https://yandex.com/search/?text=site%3ASEU_DOMINIO+mime%3Apdf
+
+- ```"SEU_ALVO" date:20200101..20241231```
+    - https://yandex.com/search/?text=%22SEU_ALVO%22+date%3A20200101..20241231
+
+### DuckDuckGo: Buscas por Alvo
+Mesmas consultas por alvo no DuckDuckGo, com região Brasil. Útil quando o Google limita ou personaliza os resultados.
+
+- ```"SEU_ALVO" site:gov.br filetype:pdf```
+    - https://duckduckgo.com/?kl=br-pt&q=%22SEU_ALVO%22+site%3Agov.br+filetype%3Apdf
+
+- ```"SEU_ALVO" site:jus.br```
+    - https://duckduckgo.com/?kl=br-pt&q=%22SEU_ALVO%22+site%3Ajus.br
+
+- ```"SEU_ALVO" intitle:"diário oficial"```
+    - https://duckduckgo.com/?kl=br-pt&q=%22SEU_ALVO%22+intitle%3A%22di%C3%A1rio+oficial%22
+
+- ```site:SEU_DOMINIO filetype:pdf```
+    - https://duckduckgo.com/?kl=br-pt&q=site%3ASEU_DOMINIO+filetype%3Apdf
+
+- ```"SEU_TELEFONE" | "SEU_EMAIL"```
+    - https://duckduckgo.com/?kl=br-pt&q=%22SEU_TELEFONE%22+%7C+%22SEU_EMAIL%22
 
 ### Consulta de Domínios Maliciosos
 Verificação de reputação e histórico de domínios brasileiros.
@@ -4108,6 +4549,10 @@ Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A.
 ### Acesso à Informação - SPTrans
 Portal de acesso à informação da São Paulo Transporte S/A com dados sobre contratos, despesas, licitações e transparência.
 - https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php
+
+### CNJ - Justiça Aberta (Serventias Extrajudiciais)
+Consulta de cartórios por UF, município, CNS e atribuição. Retorna CNS, denominação, tipo de cartório, telefone, site, e-mail, endereço, situação jurídica, nome do responsável com data de ingresso e substitutos.
+- https://justicaaberta.cnj.jus.br/produtividade-e-localizacao-de-serventias-extrajudiciais
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
