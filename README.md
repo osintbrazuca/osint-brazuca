@@ -544,6 +544,7 @@ Consulta pública da situação cadastral do CPF na Receita Federal.
 - https://www.esimplesauditoria.com/consulta-cnpj
 - https://receitaws.com.br/
 - https://juridicoonline.com.br/ 
+- https://pesquisaempresas.com.br/
 
 </details>
 
