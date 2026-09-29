@@ -508,6 +508,18 @@ Consultas de processos judiciais em Tribunais de Justiça Estaduais e outras ins
 
 </details>
 
+### CARF - Consulta de Acórdãos e Processos Fiscais
+
+Consulta pública de acórdãos e processos administrativos fiscais do Conselho Administrativo de Recursos Fiscais (CARF), órgão colegiado do Ministério da Fazenda.
+
+- https://carf.economia.gov.br/
+
+### CVM RAD - Consulta de Documentos de Companhias
+
+Sistema RAD da Comissão de Valores Mobiliários para consulta pública de documentos de companhias abertas, como fatos relevantes, formulários de referência e demonstrações financeiras.
+
+- https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
@@ -773,167 +785,11 @@ Consulta de instituições reguladas ou supervisionadas pelo Banco Central, por 
 Consulta gratuita de protestos em cartórios de todo o Brasil. Para consulta é necessário apenas o CPF ou CNPJ.
 - https://www.pesquisaprotesto.com.br/
 
-### CNES - Consulta de Profissionais de Saúde
-Consulta de profissionais no Cadastro Nacional de Estabelecimentos de Saúde. Campo único que aceita nome do profissional, CPF ou CNS, com filtro de vínculo (geral, mais de 2 vínculos públicos ou carga horária superior a 168 horas). Retorna o CNS do profissional e a relação de vínculos por estabelecimento (UF, município, CBO, CNES, CNPJ, estabelecimento, natureza jurídica e carga horária).
-- https://cnes.datasus.gov.br/pages/profissionais/consulta.jsp
+### Registrato (Banco Central) - Relacionamentos com Instituições Financeiras
 
-### COFEN - Consulta de Profissionais de Enfermagem
-Consulta pública de inscritos no sistema Cofen/Conselhos Regionais de Enfermagem. Para consulta é necessário informar um ou mais critérios: nome completo, CPF ou número de inscrição. Retorna nome do profissional, inscrição, categoria, Coren, situação e data da inscrição. Possui captcha.
-- https://sigen.cofen.gov.br/profissional/consultar
+Consulta, por CPF ou CNPJ, dos relacionamentos mantidos com instituições financeiras, como contas, empréstimos, cheques e chaves PIX, além de dívidas registradas no SSCR.
 
-### CFO - Busca de Profissionais de Odontologia
-Busca de inscritos no Conselho Federal de Odontologia por CRO/UF, categoria (cirurgião-dentista, TPD, TSB, ASB, APD), número de inscrição, especialidade, habilitação e nome completo ou palavra-chave. Retorna nome, inscrição, situação, categoria, tipo de inscrição, especialidades, data de inscrição no CRO e data de registro no CFO. Possui reCAPTCHA.
-- https://busca-profissionais.cfo.org.br/
-
-### CFMV - Busca por Profissionais e Empresas de Medicina Veterinária
-Busca de pessoa física (por nome, nome social ou inscrição) ou jurídica (por razão social, registro ou CNPJ) registrada no sistema CFMV/CRMVs, com filtro de UF. Retorna nome ou razão social, nome fantasia, CRMV, situação, UF, área e data de registro.
-- https://app.cfmv.gov.br/paginas/busca
-
-### CONFEF - Pesquisa de Profissionais de Educação Física Registrados
-Pesquisa de profissionais e de pessoas jurídicas registradas no sistema CONFEF/CREFs. Campo único de busca (mínimo de 3 caracteres) que retorna UF, registro, nome, conselho regional, categoria e natureza do título.
-- https://www.confef.org.br/registrados/
-
-### Corretores e Avaliadores de Imóveis (COFECI / CRECISP)
-Consulta de avaliadores imobiliários no Cadastro Nacional de Avaliadores Imobiliários do COFECI (por nome, estado e cidade, retornando nome e número CNAI) e busca de corretores no CRECISP (por CRECI, CPF, nome, zona de atuação, município e idiomas, retornando nome, CRECI, data de inscrição, situação e e-mail oficial). Ambas possuem captcha.
-<details>
-<summary>Links de pesquisa</summary>
-
-- COFECI - Consulta CNAI - https://intranet.cofeci.gov.br/cnai/consultaCNAI.aspx
-- CRECISP - Busca por Corretores - https://www.crecisp.gov.br/cidadao/buscaporcorretores
-
-</details>
-
-### MTE - Situação do Registro Profissional (SIRPWEB)
-Consulta da situação de registro profissional emitido pelo Ministério do Trabalho e Emprego. Pesquisa por nome, UF do registro, CPF ou número do registro. Retorna nome, registro, categoria, função, data de concessão e situação. Registros antigos feitos em livro podem não aparecer. Possui captcha.
-<details>
-<summary>Links de pesquisa</summary>
-
-- Registro de Profissional - https://sirpweb.trabalho.gov.br/sirpweb/pages/consultas/situacaoRegistro.seam
-- Registro de Empresa Contratante - https://sirpweb.trabalho.gov.br/sirpweb/pages/consultas/situacaoRegistroEmpresa.seam
-
-</details>
-
-### ANBIMA - Consulta de Pessoas Certificadas
-Consulta de profissionais certificados pela ANBIMA. Para consulta é necessário apenas o CPF. Retorna CPF, nome, certificações, status e validade.
-- https://anbimaedu.com.br/consulta-certificado
-
-### CVM - Consultas de Participantes Regulados
-Consultas públicas da Comissão de Valores Mobiliários. O cadastro geral pesquisa por razão social ou denominação, CPF/CNPJ, tipo de participante (agentes autônomos, analistas, consultores, auditores, companhias abertas, fundos, entre outros) e situação, com captcha, e retorna a lista de participantes agrupada por tipo, com razão social e denominação comercial (o detalhe de cada participante pede novo captcha). As consultas de companhias abertas e de fundos aceitam parte do nome ou CNPJ e retornam CNPJ, nome, tipo de participante, código CVM e situação do registro.
-<details>
-<summary>Links de pesquisa</summary>
-
-- Cadastro Geral de Participantes - https://sistemas.cvm.gov.br/?CadGeral
-- Companhias Abertas - https://cvmweb.cvm.gov.br/SWB/Sistemas/SCW/CPublica/CiaAb/FormBuscaCiaAb.aspx?TipoConsult=c
-- Fundos de Investimento - https://cvmweb.cvm.gov.br/SWB/Sistemas/SCW/CPublica/CConsolFdo/FormBuscaParticFdo.aspx
-- Documentos de Companhias - https://www.rad.cvm.gov.br/ENETWeb/frmConsultaExternaCVM.aspx
-- Dados Abertos: Cadastro de Companhias Abertas - https://dados.cvm.gov.br/dados/CIA_ABERTA/CAD/DADOS/cad_cia_aberta.csv
-- Dados Abertos: Cadastro de Agentes Autônomos - https://dados.cvm.gov.br/dataset/agente_auton-cad
-
-</details>
-
-### CJF - Certidão Unificada da Justiça Federal
-Solicitação de certidão criminal, cível ou para fins eleitorais dos Tribunais Regionais Federais em um único pedido. Para consulta é necessário CPF ou CNPJ e um e-mail, para o qual a certidão é enviada. Possui aba de validação de certidão.
-- https://certidao-unificada.cjf.jus.br/#/solicitacao-certidao
-
-### Receita Federal - Certidão de Regularidade Fiscal
-Consulta e emissão de certidão de débitos relativos a créditos tributários federais e à dívida ativa da União, sem necessidade de login. Pessoa jurídica exige apenas o CNPJ; pessoa física exige CPF e data de nascimento. A consulta retorna a relação de certidões emitidas, com código de controle, tipo, data de emissão, validade, situação e segunda via. Possui captcha. Também emite certidão de imóvel rural e de obra de construção civil.
-- https://servicos.receitafederal.gov.br/servico/certidoes/
-
-### Portal da Transparência - Pessoas Expostas Politicamente (PEP) e Expulsões (CEAF)
-Bases da CGU com a lista de pessoas expostas politicamente (CPF, nome, função, órgão e período de exercício) e o Cadastro de Expulsões da Administração Federal (punição, pessoa, órgão de lotação, cargo e fundamentação). Os arquivos podem ser baixados sem cadastro; a API de dados aceita CPF ou nome e exige chave gratuita.
-<details>
-<summary>Links de pesquisa</summary>
-
-- Download PEP - https://portaldatransparencia.gov.br/download-de-dados/pep
-- Download CEAF - https://portaldatransparencia.gov.br/download-de-dados/ceaf
-- Download Servidores - https://portaldatransparencia.gov.br/download-de-dados/servidores
-- Especificação da API - https://api.portaldatransparencia.gov.br/v3/api-docs
-
-</details>
-
-### SIT - Consulta de Processos de Autos de Infração por Empregador
-Consulta da Secretaria de Inspeção do Trabalho. Para consulta é necessário apenas o CNPJ raiz do empregador. Retorna UF, inscrição da filial autuada, número do processo, tipo, situação e último movimento.
-<details>
-<summary>Links de pesquisa</summary>
-
-- Processos Eletrônicos - https://eprocesso.sit.trabalho.gov.br/ProcessoEletronico/Consultar/ProcessosPorEmpregador
-- Processos Físicos - https://eprocesso.sit.trabalho.gov.br/ProcessoFisico/Consultar/ProcessosPorEmpregador
-
-</details>
-
-### MTE - Cadastro Nacional de Entidades Sindicais (CNES)
-Consulta pública de entidades sindicais por CNPJ, número de solicitação, processo/carta, representação ou parâmetros (como a razão social). Retorna razão social, denominação, CNPJ, grau e situação. Possui captcha.
-- https://cnes.trabalho.gov.br/app/publico/consultas/cadastro-entidade
-
-### ANVISA - Consulta de Autorização de Funcionamento de Empresas
-Consulta por CNPJ, número da autorização ou NUVS. Retorna razão social, nome fantasia, autorização, número do processo, tipo de produto, site, SAC, data da autorização e situação.
-- https://consultas.anvisa.gov.br/#/empresas/empresas/
-
-### ANP - Consulta de Postos Revendedores de Combustíveis
-Consulta de Dados Públicos da ANP por CNPJ, nome do posto, estado, município, bandeira, combustível e tipo de posto, com exportação incluindo tancagem. Retorna CNPJ, razão social, nome fantasia, UF, município e bandeira; o detalhamento do posto traz endereço, CEP, despacho de autorização, tipo de posto, latitude, longitude, produtos, tancagem e bicos. Possui captcha. A base de dados abertos traz autorização, razão social, CNPJ, endereço, bandeira e data de vinculação.
-<details>
-<summary>Links de pesquisa</summary>
-
-- Consulta de Postos - https://cdp.anp.gov.br/ords/r/cdp_apex/consulta-dados-publicos-cdp/consulta-de-postos-lista
-- Dados Abertos de Revendedores - https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-cadastrais-dos-revendedores-varejistas-de-combustiveis-automotivos
-
-</details>
-
-### MAPA - Consulta de Estabelecimentos com SIF (SIGSIF)
-Consulta de estabelecimentos nacionais registrados no Serviço de Inspeção Federal. Pesquisa por número do SIF, razão social ou CNPJ. Retorna CNPJ/CPF, nome empresarial, número do SIF e situação de cada unidade.
-- https://sigsif.agricultura.gov.br/sigsif_cons/!ap_estabelec_nacional_cons
-
-### MDS - Cadastro Nacional de Entidades de Assistência Social (CNEAS)
-Consulta pública de entidades privadas de assistência social. Pesquisa por nome da entidade ou CNPJ, com UF e município obrigatórios. Retorna CNPJ, nome da entidade, UF, município, endereço, e-mail e status do cadastro.
-- https://aplicacoes.mds.gov.br/cneas/publico/xhtml/consultapublica/pesquisar.jsf
-
-### Transferegov - Acesso Livre a Convênios e Transferências
-Consulta pública de programas, propostas e instrumentos de transferências da União. A pesquisa de instrumentos aceita, entre outros filtros, nome do proponente, CNPJ do proponente, CPF do responsável, órgão, ano, situação e número de emenda parlamentar. Retorna código do instrumento, órgão, situação, datas de início e fim da execução e programa, com detalhamento de cada instrumento.
-<details>
-<summary>Links de pesquisa</summary>
-
-- Acesso Livre - https://discricionarias.transferegov.sistema.gov.br/voluntarias/Principal/Principal.do?Usr=guest&Pwd=guest
-- Consultar Ente/Entidade - https://transfere.transferegov.sistema.gov.br/habilitacao/consulta-entidade.html
-
-</details>
-
-### BNDES - Consulta a Operações de Financiamento
-Operações contratadas com o BNDES. A API de dados abertos permite pesquisar pelo nome do cliente ou CNPJ formatado e retorna cliente, CNPJ, descrição do projeto, UF, município, número e data do contrato, valores contratado e desembolsado, juros, prazos, instituição financeira credenciada e tipo de garantia.
-<details>
-<summary>Links de pesquisa</summary>
-
-- Painel de Operações - https://www.bndes.gov.br/wps/portal/site/home/transparencia/consulta-operacoes-bndes
-- API: Operações Não Automáticas - https://dadosabertos.bndes.gov.br/api/3/action/datastore_search?resource_id=6f56b78c-510f-44b6-8274-78a5b7e931f4&q={VALOR}
-- API: Operações Indiretas Automáticas - https://dadosabertos.bndes.gov.br/api/3/action/datastore_search?resource_id=612faa0b-b6be-4b2c-9317-da5dc2c0b901&q={VALOR}
-
-</details>
-
-### SALIC - Lei Rouanet (Proponentes, Incentivadores e Fornecedores)
-Sistema de Apoio às Leis de Incentivo à Cultura. A API pública, sem chave, pesquisa por nome ou CPF/CNPJ e retorna proponentes (nome, CPF/CNPJ, responsável, UF, município e total captado), incentivadores (total doado), fornecedores (CPF/CNPJ, nome e e-mail) e projetos (PRONAC, situação e providência).
-<details>
-<summary>Links de pesquisa</summary>
-
-- Salic Comparar - https://aplicacoes.cultura.gov.br/comparar/salicnet/
-- Documentação da API - https://api.salic.cultura.gov.br/docs
-- API: Proponentes - https://api.salic.cultura.gov.br/api/v1/proponentes?nome={VALOR}
-- API: Incentivadores - https://api.salic.cultura.gov.br/api/v1/incentivadores?cgccpf={VALOR}
-- API: Fornecedores - https://api.salic.cultura.gov.br/api/v1/fornecedores?nome={VALOR}
-
-</details>
-
-### Consulta Junta Comercial de Pernambuco (JUCEPE)
-Consulta de empresas sem login. Para consulta é necessário apenas o nome da empresa, CNPJ ou NIRE. Retorna nome empresarial, NIRE, natureza jurídica, situação, município, CNPJ, porte e objeto social.
-- https://portal.jucepe.pe.gov.br/consulta-empresas
-
-### Consulta Junta Comercial do Rio de Janeiro (JUCERJA)
-Consulta da situação cadastral de empresas por nome, CNPJ ou NIRE, e busca de empresas inativas (artigo 60). Retorna CNPJ, nome da empresa, porte empresarial, situação e status. Possui reCAPTCHA.
-<details>
-<summary>Links de pesquisa</summary>
-
-- Situação Cadastral - https://www.jucerja.rj.gov.br/Servicos/SituacaoCadastralEmpresas
-- Empresas Inativas (Artigo 60) - https://www.jucerja.rj.gov.br/Servicos/BuscaEmpresasArtigo60
-
-</details>
+- https://registrato.bcb.gov.br/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
@@ -1033,6 +889,26 @@ Dados, análises e pesquisas sobre violência urbana e políticas públicas de s
 ### Onde Fui Roubado
 Mapa colaborativo de ocorrências policiais reportadas por usuários em diversas cidades brasileiras.
 - https://www.ondefuiroubado.com.br/
+
+### Crime Brasil
+
+Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.
+
+- https://crimebrasil.com.br/
+- https://crimebrasil.com.br/fontes
+
+### Atlas da Violência (IPEA e FBSP)
+
+Séries de homicídios e mortes violentas com recortes por raça, gênero, idade e território, publicadas pelo IPEA em parceria com o Fórum Brasileiro de Segurança Pública.
+
+- https://www.ipea.gov.br/atlasviolencia/
+
+### SISDEPEN - Sistema de Informações Penais (SENAPPEN)
+
+Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.
+
+- https://www.gov.br/senappen/pt-br/servicos/sisdepen
+- https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
@@ -1356,6 +1232,7 @@ Emissão de certidões do Tribunal de Contas da União por CPF ou CNPJ (contas j
 ### CGU - Controladoria-Geral da União
 Órgão responsável pela defesa do patrimônio público, combate à corrupção, transparência e controle interno do Governo Federal.
 - https://www.gov.br/cgu/pt-br
+- e-Aud (sistema de auditoria interna governamental) - https://eaud.cgu.gov.br/
 
 ### CGU - Notícias e Informações
 Portal de notícias da CGU com informações sobre ações de controle, transparência e combate à corrupção.
@@ -2169,25 +2046,11 @@ Dados sobre mineração, processos minerários, áreas concedidas e fiscalizaç�
 Bases estatísticas e dados públicos sobre atividades minerárias no Brasil.  
 - https://www.gov.br/anm/pt-br/acesso-a-informacao/dados-abertos
 
-### ANM - Cadastro Mineiro (Pesquisa de Processos Minerários)
-Pesquisa de processos minerários por nome do titular, CPF/CNPJ do titular, NUP, município, substância, fase do processo, situação e tipo de título, entre outros filtros, com opção de exportação. Retorna processo, tipo de requerimento, fase atual, CPF/CNPJ e nome do titular, municípios, substâncias, tipos de uso e situação. Possui captcha. O serviço de mapas do SIGMINE retorna, para uma coordenada, o processo, a fase, o nome do titular, a substância, o uso e a área.
-<details>
-<summary>Links de pesquisa</summary>
+### ANA - Dados Abertos de Recursos Hídricos (SNIRH)
 
-- Pesquisar Processos - https://sistemas.anm.gov.br/SCM/Extra/site/admin/pesquisarProcessos.aspx
-- SIGMINE: Consulta por Coordenada - https://geo.anm.gov.br/arcgis/rest/services/SIGMINE/dados_anm/MapServer/0/query?geometry={LONGITUDE}%2C{LATITUDE}&geometryType=esriGeometryPoint&inSR=4674&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=json
+Conjuntos de dados sobre hidrologia, qualidade da água, usos e balanço hídrico do país, publicados pela Agência Nacional de Águas e Saneamento Básico.
 
-</details>
-
-### ANA - Outorgas de Uso de Recursos Hídricos Emitidas
-Relação das outorgas federais de uso da água. A planilha traz número do processo, CPF/CNPJ e nome do requerente, município, UF, corpo hídrico, finalidade, latitude, longitude, resolução, datas de publicação e de vencimento.
-<details>
-<summary>Links de pesquisa</summary>
-
-- Outorgas Emitidas - https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/outorga/outorgas-emitidas
-- Planilha de Outorgas Federais - https://www.ana.gov.br/exporta-planilha/outorgas_federais/relatorio_outorgas.csv
-
-</details>
+- https://dadosabertos.ana.gov.br/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
@@ -2248,6 +2111,18 @@ Sistema de monitoramento de eventos de seca e seus impactos na saúde.
 - https://portaldatransparencia.gov.br/coronavirus
 
 </details>
+
+### InfoDengue (Fiocruz e FGV)
+
+Monitoramento semanal de dengue, zika e chikungunya por município, com níveis de alerta e API pública para os dados.
+
+- https://info.dengue.mat.br/
+
+### PCDaS - Plataforma de Ciência de Dados aplicada à Saúde (Fiocruz)
+
+Microdados de saúde harmonizados e documentados (SIM, SINASC, CNES, SIH-SUS) com dicionários e notebooks de análise.
+
+- https://pcdas.icict.fiocruz.br/conjunto-de-dados/
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
@@ -3307,6 +3182,12 @@ Base de dados macroeconômicos, sociais e regionais do Brasil.
 Consulta de CEP e endereçamento postal.
 - https://www.correios.com.br/enviar-e-receber/ferramentas/consulta-cep
 
+### B3 - Empresas Listadas e Dados de Companhias Abertas
+
+Portal da B3 (Brasil, Bolsa, Balcão) com dados públicos de companhias listadas, como composição acionária, documentos periódicos e proventos.
+
+- https://www.b3.com.br/pt_br/
+
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
 ---
@@ -3469,6 +3350,9 @@ Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
 **Amazonas (AM)**
 - DETRAN-AM Consultas - https://www.detran.am.gov.br/servicos/
 
+**Amapá (AP)**
+- DETRAN-AP Consultas - https://www.detran.ap.gov.br/
+
 **Bahia (BA)**
 - DETRAN-BA Consultas - https://www.detran.ba.gov.br/
 
@@ -3477,6 +3361,9 @@ Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
 
 **Distrito Federal (DF)**
 - DETRAN-DF Consultas - https://www.detran.df.gov.br/
+
+**Espírito Santo (ES)**
+- DETRAN-ES Consulta de Veículos - https://detran.es.gov.br/
 
 **Goiás (GO)**
 - Consulta veículos/infrações - https://www.detran.go.gov.br/psw/#/pages/conteudo/consulta-multas-renainf
@@ -3488,12 +3375,27 @@ Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
 **Maranhão (MA)**
 - Consulta de Licenciamento Veicular - http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml
 
+**Minas Gerais (MG)**
+- DETRAN-MG Consulta de Situação do Veículo - https://www.detran.mg.gov.br/
+
+**Mato Grosso do Sul (MS)**
+- DETRAN-MS Consulta de Veículos - https://www.detran.ms.gov.br/
+
+**Mato Grosso (MT)**
+- DETRAN-MT Consulta de Veículos - https://www.detran.mt.gov.br/
+
 **Pará (PA)**
 - Consulta de Veículo Detalhada - https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf
 - Consultar Pontuação CNH - https://www.detran.pa.gov.br/servicos/pontuacao/index.php
 
+**Paraíba (PB)**
+- DETRAN-PB Consulta de Veículo - https://detran.pb.gov.br/
+
 **Piauí (PI)**
 - Licenciamento DETRAN-PI - http://taxas.detran.pi.gov.br/licenciamento/index.jsf
+
+**Paraná (PR)**
+- DETRAN-PR Consultas - https://www.detran.pr.gov.br/
 
 **Rio de Janeiro (RJ)**
 - Atestado DIC - http://atestadodic.detran.rj.gov.br/
@@ -3513,6 +3415,18 @@ Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.
 **Roraima (RR)**
 - DETRAN-RR Consulta de Veículos - https://www.rr.getran.com.br/site/apps/veiculo/filtroplacarenavam-consultaveiculo.jsp
 - DETRAN-RR Nada Consta - https://www.rr.getran.com.br/site/apps/nada-consta/filtroPessoaNadaConsta.jsp
+
+**Rio Grande do Sul (RS)**
+- DETRAN-RS Consulta de Veículo - https://www.detran.rs.gov.br/
+
+**Santa Catarina (SC)**
+- DETRAN-SC Consulta de Veículos - https://www.detran.sc.gov.br/
+
+**São Paulo (SP)**
+- DETRAN-SP Consultas - https://www.detran.sp.gov.br/
+
+**Tocantins (TO)**
+- DETRAN-TO Consulta de Veículos - https://www.to.gov.br/detran/
 
 </details>
 
@@ -4806,6 +4720,13 @@ ASN|OrgName|OrgID|prefixos... (Tradução da própria descrição fornecida pelo
 
 - Diretório com histórico de arquivos - https://ftp.registro.br/pub/numeracao/origin/
 - Lista atualizada - https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt
+
+### Domínios gov.br - Lista oficial de domínios governamentais
+
+Lista oficial dos domínios sob `.gov.br`, publicada como dados abertos pela Secretaria de Governo Digital (MGI). Cada registro traz o domínio, o CNPJ do órgão responsável, o nome do órgão, o contato responsável e as datas de cadastro e de atualização. Atualizada diariamente.
+
+- Página do dataset no Portal Brasileiro de Dados Abertos - https://dados.gov.br/dados/conjuntos-dados/dominios-govbr
+- Arquivo CSV - https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 

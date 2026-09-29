@@ -1065,6 +1065,60 @@
       "tipo_fonte": "judiciario"
     },
     {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "classificacao": "heuristica",
+      "descricao": "Consulta pública de acórdãos e processos administrativos fiscais do Conselho Administrativo de Recursos Fiscais (CARF), órgão colegiado do Ministério da Fazenda.",
+      "id": "consulta-de-processos/carf-consulta-de-acordaos-e-processos-fiscais",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://carf.economia.gov.br/"
+        }
+      ],
+      "nome": "CARF - Consulta de Acórdãos e Processos Fiscais",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "classificacao": "heuristica",
+      "descricao": "Sistema RAD da Comissão de Valores Mobiliários para consulta pública de documentos de companhias abertas, como fatos relevantes, formulários de referência e demonstrações financeiras.",
+      "id": "consulta-de-processos/cvm-rad-consulta-de-documentos-de-companhias",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx"
+        }
+      ],
+      "nome": "CVM RAD - Consulta de Documentos de Companhias",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
       "classificacao": "heuristica",
@@ -2205,9 +2259,33 @@
     {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
-      "classificacao": "override",
-      "descricao": "Consulta de profissionais no Cadastro Nacional de Estabelecimentos de Saúde. Campo único que aceita nome do profissional, CPF ou CNS, com filtro de vínculo (geral, mais de 2 vínculos públicos ou carga horária superior a 168 horas). Retorna o CNS do profissional e a relação de vínculos por estabelecimento (UF, município, CBO, CNES, CNPJ, estabelecimento, natureza jurídica e carga horária).",
-      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cnes-consulta-de-profissionais-de-saude",
+      "classificacao": "heuristica",
+      "descricao": "Consulta, por CPF ou CNPJ, dos relacionamentos mantidos com instituições financeiras, como contas, empréstimos, cheques e chaves PIX, além de dívidas registradas no SSCR.",
+      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/registrato-banco-central-relacionamentos-com-instituicoes-financeiras",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://registrato.bcb.gov.br/"
+        }
+      ],
+      "nome": "Registrato (Banco Central) - Relacionamentos com Instituições Financeiras",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Ministério da Justiça e Segurança Pública (MJSP)",
+      "id": "estatisticas-seguranca-publica/paineis-nacionais",
       "input": [
         "cns",
         "cpf",
@@ -2370,11 +2448,89 @@
       "tipo_fonte": "federal"
     },
     {
-      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
-      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
-      "classificacao": "override",
-      "descricao": "Consulta da situação de registro profissional emitido pelo Ministério do Trabalho e Emprego. Pesquisa por nome, UF do registro, CPF ou número do registro. Retorna nome, registro, categoria, função, data de concessão e situação. Registros antigos feitos em livro podem não aparecer. Possui captcha.",
-      "id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/mte-situacao-do-registro-profissional-sirpweb",
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.",
+      "id": "estatisticas-seguranca-publica/crime-brasil",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://crimebrasil.com.br/"
+        },
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://crimebrasil.com.br/fontes"
+        }
+      ],
+      "nome": "Crime Brasil",
+      "output": [
+        "api_json",
+        "estatistica",
+        "mapa"
+      ],
+      "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Séries de homicídios e mortes violentas com recortes por raça, gênero, idade e território, publicadas pelo IPEA em parceria com o Fórum Brasileiro de Segurança Pública.",
+      "id": "estatisticas-seguranca-publica/atlas-da-violencia-ipea-e-fbsp",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.ipea.gov.br/atlasviolencia/"
+        }
+      ],
+      "nome": "Atlas da Violência (IPEA e FBSP)",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "classificacao": "heuristica",
+      "descricao": "Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.",
+      "id": "estatisticas-seguranca-publica/sisdepen-sistema-de-informacoes-penais-senappen",
+      "input": [
+        "nenhum"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen"
+        },
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados"
+        }
+      ],
+      "nome": "SISDEPEN - Sistema de Informações Penais (SENAPPEN)",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "classificacao": "heuristica",
+      "descricao": "Sistema de divulgação de candidaturas, contas eleitorais e de prestação de contas.",
+      "id": "registros-eleitorais-e-politicos/tse-divulgacao-de-candidaturas-e-contas-eleitorais",
       "input": [
         "cpf",
         "nome",
@@ -3837,7 +3993,12 @@
         {
           "label": "",
           "uf": null,
-          "url": "https://www.registrodeimoveis.org.br/cartorios"
+          "url": "https://www.gov.br/cgu/pt-br"
+        },
+        {
+          "label": "e-Aud (sistema de auditoria interna governamental)",
+          "uf": null,
+          "url": "https://eaud.cgu.gov.br/"
         }
       ],
       "nome": "Cartórios de Registro de Imóveis",
@@ -8455,8 +8616,33 @@
       "tipo_fonte": "dork"
     },
     {
-      "categoria": "Motores de Busca Contexto Brasil",
-      "categoria_id": "motores-de-busca-contexto-brasil",
+      "categoria": "Território, Meio Ambiente & Fiscalização",
+      "categoria_id": "territorio-meio-ambiente-fiscalizacao",
+      "classificacao": "heuristica",
+      "descricao": "Conjuntos de dados sobre hidrologia, qualidade da água, usos e balanço hídrico do país, publicados pela Agência Nacional de Águas e Saneamento Básico.",
+      "id": "territorio-meio-ambiente-fiscalizacao/ana-dados-abertos-de-recursos-hidricos-snirh",
+      "input": [
+        "cnpj",
+        "municipio"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://dadosabertos.ana.gov.br/"
+        }
+      ],
+      "nome": "ANA - Dados Abertos de Recursos Hídricos (SNIRH)",
+      "output": [
+        "auto_infracao",
+        "dataset",
+        "mapa"
+      ],
+      "tipo_fonte": "federal"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
       "classificacao": "heuristica",
       "descricao": "Busca por trabalhos acadêmicos, teses e dissertações.",
       "id": "motores-de-busca-contexto-brasil/google-hacking-dados-academicos",
@@ -8926,6 +9112,54 @@
         "remuneracao"
       ],
       "tipo_fonte": "dork"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "classificacao": "heuristica",
+      "descricao": "Monitoramento semanal de dengue, zika e chikungunya por município, com níveis de alerta e API pública para os dados.",
+      "id": "saude/infodengue-fiocruz-e-fgv",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://info.dengue.mat.br/"
+        }
+      ],
+      "nome": "InfoDengue (Fiocruz e FGV)",
+      "output": [
+        "api_json",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "classificacao": "heuristica",
+      "descricao": "Microdados de saúde harmonizados e documentados (SIM, SINASC, CNES, SIH-SUS) com dicionários e notebooks de análise.",
+      "id": "saude/pcdas-plataforma-de-ciencia-de-dados-aplicada-a-saude-fiocruz",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://pcdas.icict.fiocruz.br/conjunto-de-dados/"
+        }
+      ],
+      "nome": "PCDaS - Plataforma de Ciência de Dados aplicada à Saúde (Fiocruz)",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "academico"
     },
     {
       "categoria": "Motores de Busca Contexto Brasil",
@@ -11224,6 +11458,30 @@
       "tipo_fonte": "privado"
     },
     {
+      "categoria": "Datasets / Dados Abertos",
+      "categoria_id": "datasets-dados-abertos",
+      "classificacao": "heuristica",
+      "descricao": "Portal da B3 (Brasil, Bolsa, Balcão) com dados públicos de companhias listadas, como composição acionária, documentos periódicos e proventos.",
+      "id": "datasets-dados-abertos/b3-empresas-listadas-e-dados-de-companhias-abertas",
+      "input": [
+        "cpf"
+      ],
+      "links": [
+        {
+          "label": "",
+          "uf": null,
+          "url": "https://www.b3.com.br/pt_br/"
+        }
+      ],
+      "nome": "B3 - Empresas Listadas e Dados de Companhias Abertas",
+      "output": [
+        "beneficio",
+        "dataset",
+        "publicacao_academica"
+      ],
+      "tipo_fonte": "privado"
+    },
+    {
       "categoria": "Dados de remuneração do Judiciário",
       "categoria_id": "dados-de-remuneracao-do-judiciario",
       "classificacao": "heuristica",
@@ -11851,6 +12109,11 @@
           "url": "https://www.detran.am.gov.br/servicos/"
         },
         {
+          "label": "DETRAN-AP Consultas",
+          "uf": "AP",
+          "url": "https://www.detran.ap.gov.br/"
+        },
+        {
           "label": "DETRAN-BA Consultas",
           "uf": "BA",
           "url": "https://www.detran.ba.gov.br/"
@@ -11864,6 +12127,11 @@
           "label": "DETRAN-DF Consultas",
           "uf": "DF",
           "url": "https://www.detran.df.gov.br/"
+        },
+        {
+          "label": "DETRAN-ES Consulta de Veículos",
+          "uf": "ES",
+          "url": "https://detran.es.gov.br/"
         },
         {
           "label": "Consulta veículos/infrações",
@@ -11896,6 +12164,21 @@
           "url": "http://licenciamento.detran.ma.gov.br/Licenciamento/consulta/Home.xhtml"
         },
         {
+          "label": "DETRAN-MG Consulta de Situação do Veículo",
+          "uf": "MG",
+          "url": "https://www.detran.mg.gov.br/"
+        },
+        {
+          "label": "DETRAN-MS Consulta de Veículos",
+          "uf": "MS",
+          "url": "https://www.detran.ms.gov.br/"
+        },
+        {
+          "label": "DETRAN-MT Consulta de Veículos",
+          "uf": "MT",
+          "url": "https://www.detran.mt.gov.br/"
+        },
+        {
           "label": "Consulta de Veículo Detalhada",
           "uf": "PA",
           "url": "https://www.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf"
@@ -11906,9 +12189,19 @@
           "url": "https://www.detran.pa.gov.br/servicos/pontuacao/index.php"
         },
         {
+          "label": "DETRAN-PB Consulta de Veículo",
+          "uf": "PB",
+          "url": "https://detran.pb.gov.br/"
+        },
+        {
           "label": "Licenciamento DETRAN-PI",
           "uf": "PI",
           "url": "http://taxas.detran.pi.gov.br/licenciamento/index.jsf"
+        },
+        {
+          "label": "DETRAN-PR Consultas",
+          "uf": "PR",
+          "url": "https://www.detran.pr.gov.br/"
         },
         {
           "label": "Atestado DIC",
@@ -11974,6 +12267,26 @@
           "label": "DETRAN-RR Nada Consta",
           "uf": "RR",
           "url": "https://www.rr.getran.com.br/site/apps/nada-consta/filtroPessoaNadaConsta.jsp"
+        },
+        {
+          "label": "DETRAN-RS Consulta de Veículo",
+          "uf": "RS",
+          "url": "https://www.detran.rs.gov.br/"
+        },
+        {
+          "label": "DETRAN-SC Consulta de Veículos",
+          "uf": "SC",
+          "url": "https://www.detran.sc.gov.br/"
+        },
+        {
+          "label": "DETRAN-SP Consultas",
+          "uf": "SP",
+          "url": "https://www.detran.sp.gov.br/"
+        },
+        {
+          "label": "DETRAN-TO Consulta de Veículos",
+          "uf": "TO",
+          "url": "https://www.to.gov.br/detran/"
         }
       ],
       "nome": "Consultas DETRAN por Estado",
@@ -15617,7 +15930,36 @@
         "dados_cadastrais"
       ],
       "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Categorias de Domínios .br",
+      "categoria_id": "categorias-de-dominios-br",
+      "classificacao": "heuristica",
+      "descricao": "Lista oficial dos domínios sob `.gov.br`, publicada como dados abertos pela Secretaria de Governo Digital (MGI). Cada registro traz o domínio, o CNPJ do órgão responsável, o nome do órgão, o contato responsável e as datas de cadastro e de atualização. Atualizada diariamente.",
+      "id": "categorias-de-dominios-br/dominios-gov-br-lista-oficial-de-dominios-governamentais",
+      "input": [
+        "cnpj",
+        "dominio"
+      ],
+      "links": [
+        {
+          "label": "Página do dataset no Portal Brasileiro de Dados Abertos",
+          "uf": null,
+          "url": "https://dados.gov.br/dados/conjuntos-dados/dominios-govbr"
+        },
+        {
+          "label": "Arquivo CSV",
+          "uf": null,
+          "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
+        }
+      ],
+      "nome": "Domínios gov.br - Lista oficial de domínios governamentais",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "federal"
     }
   ],
-  "total": 502
+  "total": 461
 }

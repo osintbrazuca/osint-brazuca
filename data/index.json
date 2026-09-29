@@ -1807,6 +1807,50 @@
       "url": "https://serv42.limeira.sp.gov.br/procweb/cnsProcesso/"
     },
     {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "Consulta pública de acórdãos e processos administrativos fiscais do Conselho Administrativo de Recursos Fiscais (CARF), órgão colegiado do Ministério da Fazenda.",
+      "fonte": "CARF - Consulta de Acórdãos e Processos Fiscais",
+      "fonte_id": "consulta-de-processos/carf-consulta-de-acordaos-e-processos-fiscais",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://carf.economia.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "Sistema RAD da Comissão de Valores Mobiliários para consulta pública de documentos de companhias abertas, como fatos relevantes, formulários de referência e demonstrações financeiras.",
+      "fonte": "CVM RAD - Consulta de Documentos de Companhias",
+      "fonte_id": "consulta-de-processos/cvm-rad-consulta-de-documentos-de-companhias",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "",
+      "output": [
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx"
+    },
+    {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
       "descricao": "Consulta pública da situação cadastral do CPF na Receita Federal.",
@@ -3542,9 +3586,28 @@
     {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
-      "descricao": "Consulta de profissionais no Cadastro Nacional de Estabelecimentos de Saúde. Campo único que aceita nome do profissional, CPF ou CNS, com filtro de vínculo (geral, mais de 2 vínculos públicos ou carga horária superior a 168 horas). Retorna o CNS do profissional e a relação de vínculos por estabelecimento (UF, município, CBO, CNES, CNPJ, estabelecimento, natureza jurídica e carga horária).",
-      "fonte": "CNES - Consulta de Profissionais de Saúde",
-      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/cnes-consulta-de-profissionais-de-saude",
+      "descricao": "Consulta, por CPF ou CNPJ, dos relacionamentos mantidos com instituições financeiras, como contas, empréstimos, cheques e chaves PIX, além de dívidas registradas no SSCR.",
+      "fonte": "Registrato (Banco Central) - Relacionamentos com Instituições Financeiras",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/registrato-banco-central-relacionamentos-com-instituicoes-financeiras",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://registrato.bcb.gov.br/"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Ministério da Justiça e Segurança Pública (MJSP)",
+      "fonte": "Painéis Nacionais",
+      "fonte_id": "estatisticas-seguranca-publica/paineis-nacionais",
       "input": [
         "cns",
         "cpf",
@@ -4082,11 +4145,100 @@
       "url": "https://cnes.trabalho.gov.br/app/publico/consultas/cadastro-entidade"
     },
     {
-      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
-      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
-      "descricao": "Consulta por CNPJ, número da autorização ou NUVS. Retorna razão social, nome fantasia, autorização, número do processo, tipo de produto, site, SAC, data da autorização e situação.",
-      "fonte": "ANVISA - Consulta de Autorização de Funcionamento de Empresas",
-      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/anvisa-consulta-de-autorizacao-de-funcionamento-de-empresas",
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.",
+      "fonte": "Crime Brasil",
+      "fonte_id": "estatisticas-seguranca-publica/crime-brasil",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "api_json",
+        "estatistica",
+        "mapa"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://crimebrasil.com.br/"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Plataforma de jornalismo de dados que consolida estatísticas oficiais de segurança pública (SINESP, SSP-SP, SSP-RS, DATASUS, PRF) e publica análises de criminalidade por estado, cidade e bairro. Tem API REST (mediante chave), feed RSS de análises e mapa das fontes que utiliza.",
+      "fonte": "Crime Brasil",
+      "fonte_id": "estatisticas-seguranca-publica/crime-brasil",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "api_json",
+        "estatistica",
+        "mapa"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://crimebrasil.com.br/fontes"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Séries de homicídios e mortes violentas com recortes por raça, gênero, idade e território, publicadas pelo IPEA em parceria com o Fórum Brasileiro de Segurança Pública.",
+      "fonte": "Atlas da Violência (IPEA e FBSP)",
+      "fonte_id": "estatisticas-seguranca-publica/atlas-da-violencia-ipea-e-fbsp",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.ipea.gov.br/atlasviolencia/"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.",
+      "fonte": "SISDEPEN - Sistema de Informações Penais (SENAPPEN)",
+      "fonte_id": "estatisticas-seguranca-publica/sisdepen-sistema-de-informacoes-penais-senappen",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen"
+    },
+    {
+      "categoria": "Estatísticas Segurança Pública",
+      "categoria_id": "estatisticas-seguranca-publica",
+      "descricao": "Diagnóstico do sistema prisional brasileiro por semestre: população carcerária, perfil, vagas, infraestrutura e assistência.",
+      "fonte": "SISDEPEN - Sistema de Informações Penais (SENAPPEN)",
+      "fonte_id": "estatisticas-seguranca-publica/sisdepen-sistema-de-informacoes-penais-senappen",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "estatistica"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados"
+    },
+    {
+      "categoria": "Registros Eleitorais e Políticos",
+      "categoria_id": "registros-eleitorais-e-politicos",
+      "descricao": "Sistema de divulgação de candidaturas, contas eleitorais e de prestação de contas.",
+      "fonte": "TSE - Divulgação de Candidaturas e Contas Eleitorais",
+      "fonte_id": "registros-eleitorais-e-politicos/tse-divulgacao-de-candidaturas-e-contas-eleitorais",
       "input": [
         "cnpj"
       ],
@@ -5357,11 +5509,31 @@
       "url": "https://www.registradores.org.br/"
     },
     {
-      "categoria": "Registros de Imóveis e Propriedades",
-      "categoria_id": "registros-de-imoveis-e-propriedades",
-      "descricao": "Consulta de IPTU da cidade de São Paulo.",
-      "fonte": "Consulta IPTU São Paulo",
-      "fonte_id": "registros-de-imoveis-e-propriedades/consulta-iptu-sao-paulo",
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Órgão responsável pela defesa do patrimônio público, combate à corrupção, transparência e controle interno do Governo Federal.",
+      "fonte": "CGU - Controladoria-Geral da União",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/cgu-controladoria-geral-da-uniao",
+      "input": [
+        "cnpj",
+        "nome"
+      ],
+      "label": "e-Aud (sistema de auditoria interna governamental)",
+      "output": [
+        "contrato_publico",
+        "licitacao",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://eaud.cgu.gov.br/"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Portal de notícias da CGU com informações sobre ações de controle, transparência e combate à corrupção.",
+      "fonte": "CGU - Notícias e Informações",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/cgu-noticias-e-informacoes",
       "input": [
         "endereco",
         "matricula_imovel"
@@ -12742,11 +12914,31 @@
       "url": "https://www.google.com/search?q=%22SEU_ALVO%22+%22curr%C3%ADculo%22+%7C+%22curriculum+vitae%22+ext%3Apdf+%7C+ext%3Adoc"
     },
     {
-      "categoria": "Motores de Busca Contexto Brasil",
-      "categoria_id": "motores-de-busca-contexto-brasil",
-      "descricao": "Confirma profissão, registro em conselho e histórico profissional de uma pessoa.",
-      "fonte": "Google Hacking: Registro Profissional e Carreira",
-      "fonte_id": "motores-de-busca-contexto-brasil/google-hacking-registro-profissional-e-carreira",
+      "categoria": "Território, Meio Ambiente & Fiscalização",
+      "categoria_id": "territorio-meio-ambiente-fiscalizacao",
+      "descricao": "Conjuntos de dados sobre hidrologia, qualidade da água, usos e balanço hídrico do país, publicados pela Agência Nacional de Águas e Saneamento Básico.",
+      "fonte": "ANA - Dados Abertos de Recursos Hídricos (SNIRH)",
+      "fonte_id": "territorio-meio-ambiente-fiscalizacao/ana-dados-abertos-de-recursos-hidricos-snirh",
+      "input": [
+        "cnpj",
+        "municipio"
+      ],
+      "label": "",
+      "output": [
+        "auto_infracao",
+        "dataset",
+        "mapa"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://dadosabertos.ana.gov.br/"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "descricao": "Informações acerca de estabelecimentos e profissionais de saúde.",
+      "fonte": "Cadastro Nacional de Estabelecimentos de Saúde",
+      "fonte_id": "saude/cadastro-nacional-de-estabelecimentos-de-saude",
       "input": [
         "nome"
       ],
@@ -13021,6 +13213,44 @@
       "tipo_fonte": "dork",
       "uf": null,
       "url": "https://www.google.com/search?q=%22SEU_ALVO%22+%22estatuto+social%22+%7C+%22ata+de+elei%C3%A7%C3%A3o%22+%7C+%22ata+de+posse%22+ext%3Apdf"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "descricao": "Monitoramento semanal de dengue, zika e chikungunya por município, com níveis de alerta e API pública para os dados.",
+      "fonte": "InfoDengue (Fiocruz e FGV)",
+      "fonte_id": "saude/infodengue-fiocruz-e-fgv",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "label": "",
+      "output": [
+        "api_json",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://info.dengue.mat.br/"
+    },
+    {
+      "categoria": "Saúde",
+      "categoria_id": "saude",
+      "descricao": "Microdados de saúde harmonizados e documentados (SIM, SINASC, CNES, SIH-SUS) com dicionários e notebooks de análise.",
+      "fonte": "PCDaS - Plataforma de Ciência de Dados aplicada à Saúde (Fiocruz)",
+      "fonte_id": "saude/pcdas-plataforma-de-ciencia-de-dados-aplicada-a-saude-fiocruz",
+      "input": [
+        "cnes",
+        "municipio"
+      ],
+      "label": "",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "academico",
+      "uf": null,
+      "url": "https://pcdas.icict.fiocruz.br/conjunto-de-dados/"
     },
     {
       "categoria": "Motores de Busca Contexto Brasil",
@@ -15723,6 +15953,25 @@
       "url": "https://www.correios.com.br/enviar-e-receber/ferramentas/consulta-cep"
     },
     {
+      "categoria": "Datasets / Dados Abertos",
+      "categoria_id": "datasets-dados-abertos",
+      "descricao": "Portal da B3 (Brasil, Bolsa, Balcão) com dados públicos de companhias listadas, como composição acionária, documentos periódicos e proventos.",
+      "fonte": "B3 - Empresas Listadas e Dados de Companhias Abertas",
+      "fonte_id": "datasets-dados-abertos/b3-empresas-listadas-e-dados-de-companhias-abertas",
+      "input": [
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "beneficio",
+        "dataset",
+        "publicacao_academica"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://www.b3.com.br/pt_br/"
+    },
+    {
       "categoria": "Dados de remuneração do Judiciário",
       "categoria_id": "dados-de-remuneracao-do-judiciario",
       "descricao": "Base estruturada (2018–2025) com salários, benefícios e índices de transparência de mais de 120 órgãos do sistema de Justiça Brasileira.",
@@ -16638,6 +16887,24 @@
         "placa",
         "renavam"
       ],
+      "label": "DETRAN-AP Consultas",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "AP",
+      "url": "https://www.detran.ap.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
       "label": "DETRAN-BA Consultas",
       "output": [
         "veiculo"
@@ -16681,6 +16948,24 @@
       "tipo_fonte": "estadual",
       "uf": "DF",
       "url": "https://www.detran.df.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-ES Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "ES",
+      "url": "https://detran.es.gov.br/"
     },
     {
       "categoria": "Consulta de Transporte Terrestre",
@@ -16800,6 +17085,60 @@
         "placa",
         "renavam"
       ],
+      "label": "DETRAN-MG Consulta de Situação do Veículo",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "MG",
+      "url": "https://www.detran.mg.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-MS Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "MS",
+      "url": "https://www.detran.ms.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-MT Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "MT",
+      "url": "https://www.detran.mt.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
       "label": "Consulta de Veículo Detalhada",
       "output": [
         "veiculo"
@@ -16836,6 +17175,24 @@
         "placa",
         "renavam"
       ],
+      "label": "DETRAN-PB Consulta de Veículo",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "PB",
+      "url": "https://detran.pb.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
       "label": "Licenciamento DETRAN-PI",
       "output": [
         "veiculo"
@@ -16843,6 +17200,24 @@
       "tipo_fonte": "estadual",
       "uf": "PI",
       "url": "http://taxas.detran.pi.gov.br/licenciamento/index.jsf"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-PR Consultas",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "PR",
+      "url": "https://www.detran.pr.gov.br/"
     },
     {
       "categoria": "Consulta de Transporte Terrestre",
@@ -17077,6 +17452,78 @@
       "tipo_fonte": "estadual",
       "uf": "RR",
       "url": "https://www.rr.getran.com.br/site/apps/nada-consta/filtroPessoaNadaConsta.jsp"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-RS Consulta de Veículo",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "RS",
+      "url": "https://www.detran.rs.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-SC Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "SC",
+      "url": "https://www.detran.sc.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-SP Consultas",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "SP",
+      "url": "https://www.detran.sp.gov.br/"
+    },
+    {
+      "categoria": "Consulta de Transporte Terrestre",
+      "categoria_id": "consulta-de-transporte-terrestre",
+      "descricao": "Consultas veiculares, CNH, pontuação e outros serviços dos DETRANs estaduais.",
+      "fonte": "Consultas DETRAN por Estado",
+      "fonte_id": "consulta-de-transporte-terrestre/consultas-detran-por-estado",
+      "input": [
+        "placa",
+        "renavam"
+      ],
+      "label": "DETRAN-TO Consulta de Veículos",
+      "output": [
+        "veiculo"
+      ],
+      "tipo_fonte": "estadual",
+      "uf": "TO",
+      "url": "https://www.to.gov.br/detran/"
     },
     {
       "categoria": "Tracking de Viagens de Ônibus",
@@ -23085,7 +23532,45 @@
       "tipo_fonte": "privado",
       "uf": null,
       "url": "https://ftp.registro.br/pub/numeracao/origin/nicbr-asn-blk-latest.txt"
+    },
+    {
+      "categoria": "Categorias de Domínios .br",
+      "categoria_id": "categorias-de-dominios-br",
+      "descricao": "Lista oficial dos domínios sob `.gov.br`, publicada como dados abertos pela Secretaria de Governo Digital (MGI). Cada registro traz o domínio, o CNPJ do órgão responsável, o nome do órgão, o contato responsável e as datas de cadastro e de atualização. Atualizada diariamente.",
+      "fonte": "Domínios gov.br - Lista oficial de domínios governamentais",
+      "fonte_id": "categorias-de-dominios-br/dominios-gov-br-lista-oficial-de-dominios-governamentais",
+      "input": [
+        "cnpj",
+        "dominio"
+      ],
+      "label": "Página do dataset no Portal Brasileiro de Dados Abertos",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://dados.gov.br/dados/conjuntos-dados/dominios-govbr"
+    },
+    {
+      "categoria": "Categorias de Domínios .br",
+      "categoria_id": "categorias-de-dominios-br",
+      "descricao": "Lista oficial dos domínios sob `.gov.br`, publicada como dados abertos pela Secretaria de Governo Digital (MGI). Cada registro traz o domínio, o CNPJ do órgão responsável, o nome do órgão, o contato responsável e as datas de cadastro e de atualização. Atualizada diariamente.",
+      "fonte": "Domínios gov.br - Lista oficial de domínios governamentais",
+      "fonte_id": "categorias-de-dominios-br/dominios-gov-br-lista-oficial-de-dominios-governamentais",
+      "input": [
+        "cnpj",
+        "dominio"
+      ],
+      "label": "Arquivo CSV",
+      "output": [
+        "dados_cadastrais",
+        "dataset"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1068
+  "total": 1093
 }
