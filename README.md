@@ -2768,6 +2768,10 @@ Verificação de reputação e histórico de domínios brasileiros.
     - https://urlscan.io/
     - Busca avançada: `domain:.br AND (lang:pt OR lang:pt-br)`
 
+- **ScanMalware** - Analisa URLs em navegador isolado (sandbox) e indexa os resultados, pesquisáveis por domínio, IP, ASN, JARM e hash do favicon
+    - https://scanmalware.com/
+    - Busca avançada: `domain:*.br`
+
 ### Shodan: Busca de Servidores Brasileiro
 Shodan é um mecanismo de pesquisa que permite encontrar dispositivos conectados à Internet no Brasil.
 

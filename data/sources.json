@@ -9855,6 +9855,11 @@
           "label": "URLScan.io - Scanner de URLs com análise visual",
           "uf": null,
           "url": "https://urlscan.io/"
+        },
+        {
+          "label": "ScanMalware - Analisa URLs em navegador isolado (sandbox) e indexa os resultados, pesquisáveis por domínio, IP, ASN, JARM e hash do favicon",
+          "uf": null,
+          "url": "https://scanmalware.com/"
         }
       ],
       "nome": "Consulta de Domínios Maliciosos",
