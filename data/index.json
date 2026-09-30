@@ -5522,7 +5522,7 @@
       "output": [
         "imovel"
       ],
-      "tipo_fonte": "estadual",
+      "tipo_fonte": "municipal",
       "uf": "SP",
       "url": "https://www.prefeitura.sp.gov.br/cidade/secretarias/fazenda/servicos/iptu/"
     },
@@ -15469,7 +15469,7 @@
       "output": [
         "dataset"
       ],
-      "tipo_fonte": "estadual",
+      "tipo_fonte": "municipal",
       "uf": "SP",
       "url": "http://dados.prefeitura.sp.gov.br/dataset"
     },
@@ -17456,7 +17456,7 @@
       "output": [
         "mapa"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://olhovivo.sptrans.com.br"
     },
@@ -18078,7 +18078,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "tipo_fonte": "estadual",
+      "tipo_fonte": "municipal",
       "uf": "SP",
       "url": "https://www.citycameras.prefeitura.sp.gov.br/home"
     },
@@ -23097,7 +23097,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sptrans.com.br/licitacoes/"
     },
@@ -23117,7 +23117,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2rc_Ano.aspx"
     },
@@ -23137,7 +23137,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtarp.aspx"
     },
@@ -23157,7 +23157,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtap.aspx"
     },
@@ -23177,7 +23177,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ca.aspx"
     },
@@ -23197,7 +23197,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp_tc.aspx"
     },
@@ -23217,7 +23217,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrtcp.aspx"
     },
@@ -23237,7 +23237,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2cr.aspx"
     },
@@ -23257,7 +23257,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrted.aspx"
     },
@@ -23277,7 +23277,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2ec.aspx"
     },
@@ -23297,7 +23297,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/licitlovnew/hilicwebfrt2apn.aspx"
     },
@@ -23317,7 +23317,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": "SP",
       "url": "https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/edital/index.php?p=247319"
     },
@@ -23337,7 +23337,7 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado",
+      "tipo_fonte": "municipal",
       "uf": null,
       "url": "https://sistemas.sptrans.com.br/DemPag/hdempag.aspx"
     },
@@ -23355,7 +23355,7 @@
         "contrato_publico",
         "licitacao"
       ],
-      "tipo_fonte": "estadual",
+      "tipo_fonte": "municipal",
       "uf": "SP",
       "url": "https://www.prefeitura.sp.gov.br/cidade/secretarias/mobilidade/institucional/sptrans/acesso_a_informacao/index.php"
     },
