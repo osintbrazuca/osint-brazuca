@@ -1,6 +1,24 @@
 {
   "_sobre": "Curadoria manual do dataset. Cada chave em 'overrides' é um id de fonte de sources.json; os campos declarados aqui sobrepõem o que a heurística inferiu, e a fonte passa a ter classificacao='override'. Este arquivo NUNCA é sobrescrito pelo parser. Rode 'python3 tools/build_dataset.py --report' para listar as fontes ainda marcadas como 'indefinido'. Campos aceitos: input, output, tipo_fonte, descricao, observacao.",
   "overrides": {
+    "registros-de-imoveis-e-propriedades/consulta-iptu-sao-paulo": {
+      "tipo_fonte": "municipal"
+    },
+    "datasets-dados-abertos/dados-prefeitura-de-sao-paulo": {
+      "tipo_fonte": "municipal"
+    },
+    "tracking-de-viagens-de-onibus/sptrans-olho-vivo": {
+      "tipo_fonte": "municipal"
+    },
+    "cameras-online/projeto-city-cameras": {
+      "tipo_fonte": "municipal"
+    },
+    "outras-buscas/consulta-os-processos-licitatorios-da-sptrans": {
+      "tipo_fonte": "municipal"
+    },
+    "outras-buscas/acesso-a-informacao-sptrans": {
+      "tipo_fonte": "municipal"
+    },
     "apis-publicas-brasileiras/receitaws-api-cnpj": {
       "input": ["cnpj"],
       "output": ["api_json", "dados_cadastrais", "situacao_cadastral", "socios", "cnae", "endereco"],

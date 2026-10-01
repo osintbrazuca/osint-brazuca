@@ -3951,7 +3951,7 @@
     {
       "categoria": "Registros de Imóveis e Propriedades",
       "categoria_id": "registros-de-imoveis-e-propriedades",
-      "classificacao": "heuristica",
+      "classificacao": "override",
       "descricao": "Consulta de IPTU da cidade de São Paulo.",
       "id": "registros-de-imoveis-e-propriedades/consulta-iptu-sao-paulo",
       "input": [
@@ -3969,7 +3969,7 @@
       "output": [
         "imovel"
       ],
-      "tipo_fonte": "estadual"
+      "tipo_fonte": "municipal"
     },
     {
       "categoria": "Registros de Imóveis e Propriedades",
@@ -10946,7 +10946,7 @@
     {
       "categoria": "Datasets / Dados Abertos",
       "categoria_id": "datasets-dados-abertos",
-      "classificacao": "heuristica",
+      "classificacao": "override",
       "descricao": "O Portal de Dados Abertos da Prefeitura de São Paulo tem sua origem no Catálogo Municipal de Bases de Dados (CMBD). Organizado pela Coordenadoria de Promoção da Integridade (COPI) da Controladoria Geral do Município (CGM-SP) em conjunto com os órgãos e entidades da Prefeitura, o Catálogo apresenta aos munícipes uma relação com todos os dados disponíveis produzidos pela Prefeitura.",
       "id": "datasets-dados-abertos/dados-prefeitura-de-sao-paulo",
       "input": [
@@ -10963,7 +10963,7 @@
       "output": [
         "dataset"
       ],
-      "tipo_fonte": "estadual"
+      "tipo_fonte": "municipal"
     },
     {
       "categoria": "Datasets / Dados Abertos",
@@ -12301,7 +12301,7 @@
     {
       "categoria": "Tracking de Viagens de Ônibus",
       "categoria_id": "tracking-de-viagens-de-onibus",
-      "classificacao": "heuristica",
+      "classificacao": "override",
       "descricao": "Localização dos ônibus, ao longo do trajeto, em quanto tempo e quais linhas de ônibus se aproximam, corredores, velocidade média e tempo de percurso.",
       "id": "tracking-de-viagens-de-onibus/sptrans-olho-vivo",
       "input": [
@@ -12318,7 +12318,7 @@
       "output": [
         "mapa"
       ],
-      "tipo_fonte": "privado"
+      "tipo_fonte": "municipal"
     },
     {
       "categoria": "Tracking de Viagens de Ônibus",
@@ -12831,7 +12831,7 @@
     {
       "categoria": "Câmeras Online",
       "categoria_id": "cameras-online",
-      "classificacao": "heuristica",
+      "classificacao": "override",
       "descricao": "O Projeto City Câmeras é um programa público, de iniciativa exclusiva da Prefeitura Municipal de São Paulo, que visa constituir uma ampla rede de videomonitoramento por meio de câmeras públicas e privadas instaladas pela cidade.",
       "id": "cameras-online/projeto-city-cameras",
       "input": [
@@ -12848,7 +12848,7 @@
       "output": [
         "video_ao_vivo"
       ],
-      "tipo_fonte": "estadual"
+      "tipo_fonte": "municipal"
     },
     {
       "categoria": "Câmeras Online",
@@ -15748,7 +15748,7 @@
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
-      "classificacao": "heuristica",
+      "classificacao": "override",
       "descricao": "Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A Acompanhe os processos licitatórios instaurados pela São Paulo Transporte S/A. Sistema permite consultar editais, resultados, atas e processos administrativos relacionados a licitações e contratos.",
       "id": "outras-buscas/consulta-os-processos-licitatorios-da-sptrans",
       "input": [
@@ -15828,12 +15828,12 @@
         "licitacao",
         "processo"
       ],
-      "tipo_fonte": "privado"
+      "tipo_fonte": "municipal"
     },
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
-      "classificacao": "heuristica",
+      "classificacao": "override",
       "descricao": "Portal de acesso à informação da São Paulo Transporte S/A com dados sobre contratos, despesas, licitações e transparência.",
       "id": "outras-buscas/acesso-a-informacao-sptrans",
       "input": [
@@ -15851,7 +15851,7 @@
         "contrato_publico",
         "licitacao"
       ],
-      "tipo_fonte": "estadual"
+      "tipo_fonte": "municipal"
     },
     {
       "categoria": "Outras Buscas",
