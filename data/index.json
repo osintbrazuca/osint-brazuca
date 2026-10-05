@@ -21730,6 +21730,44 @@
         "nome",
         "registro_profissional"
       ],
+      "label": "Consulta de inscritos",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://sig1.corenpr.gov.br/pgs/Consultarinscritos.aspx"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "Consulta de inscritos e autenticidade de certidões",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://www.corensc.gov.br/consulta-de-inscritos-e-autenticidade-de-certidoes/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
       "label": "Portal",
       "output": [
         "certidao",
@@ -21757,6 +21795,291 @@
       "tipo_fonte": "ong",
       "uf": null,
       "url": "https://www.coffito.gov.br/nsite/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRECI-AC (26ª Região) - Certidão de regularidade",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://www.creciac.conselho.net.br/form_emite_certidao_regularidade.php"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRECI-CE (15ª Região) - Consulta de inscritos",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://www.creci-ce.gov.br/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRECI-RJ (1ª Região) - Certidão de regularidade",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://www.crecirj.conselho.net.br/form_emite_certidao_regularidade.php"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRECI-SC (11ª Região) - Certidão de regularidade",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://www.crecisc.conselho.net.br/form_emite_certidao_regularidade.php"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRECI-PR - Certidão de regularidade",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://crecipr.gov.br/emissao-da-certidao-de-regularidade-12514"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRECI-RO (24ª Região) - Certidão de regularidade",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://creciro.gov.br/certidao-de-regularidade/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRECI-ES (13ª Região) - Portal da transparência",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://area-restrita.crecies.gov.br/portal_da_transparencia/relatorios_graficos_geral"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRECI-GO (5ª Região) - Portal da transparência",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://crecigo.gov.br/acf_portal-da-transparencia/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRECI-MG - Portal da transparência",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://www.crecimg.gov.br/portal-da-transparencia/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRBM-6 (6ª Região) - Consulta pública de profissionais",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://crbm-06.implanta.net.br/ServicosOnline/Publico/ConsultaInscritos/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRMV-SC - Consulta de profissionais e empresas",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://crmvsc.gov.br/pesquisa_abre.php?id=1739"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRTR-RJ (4ª Região) - Consulta pública de inscritos",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://crtr-rj.implanta.net.br/servicosOnline/Publico/ConsultaInscritos/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "CRQ-12 (12ª Região) - Consulta pública",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://crq12.gov.br/consulta-publica/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "Renovação de certidão de RCA",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://crasp.gov.br/empresas/servicos/renovacao-de-certidao-de-rca/"
+    },
+    {
+      "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
+      "categoria_id": "servicos-publicos-estaduais-e-conselhos-profissionais",
+      "descricao": "Consultas de registro profissional e certidões em conselhos federais e regionais.",
+      "fonte": "Conselhos Profissionais Nacionais",
+      "fonte_id": "servicos-publicos-estaduais-e-conselhos-profissionais/conselhos-profissionais-nacionais",
+      "input": [
+        "nome",
+        "registro_profissional"
+      ],
+      "label": "Certidão de regularidade",
+      "output": [
+        "certidao",
+        "dados_cadastrais"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://coreconsp.gov.br/certidao-de-regularidade/"
     },
     {
       "categoria": "Serviços Públicos Estaduais e Conselhos Profissionais",
@@ -23648,5 +23971,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1266
+  "total": 1283
 }

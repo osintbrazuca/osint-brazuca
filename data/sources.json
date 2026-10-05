@@ -14973,6 +14973,16 @@
           "url": "https://www.coren-rj.org.br/"
         },
         {
+          "label": "Consulta de inscritos",
+          "uf": null,
+          "url": "https://sig1.corenpr.gov.br/pgs/Consultarinscritos.aspx"
+        },
+        {
+          "label": "Consulta de inscritos e autenticidade de certidões",
+          "uf": null,
+          "url": "https://www.corensc.gov.br/consulta-de-inscritos-e-autenticidade-de-certidoes/"
+        },
+        {
           "label": "Portal",
           "uf": null,
           "url": "https://site.cfp.org.br/"
@@ -14981,6 +14991,81 @@
           "label": "Portal",
           "uf": null,
           "url": "https://www.coffito.gov.br/nsite/"
+        },
+        {
+          "label": "CRECI-AC (26ª Região) - Certidão de regularidade",
+          "uf": null,
+          "url": "https://www.creciac.conselho.net.br/form_emite_certidao_regularidade.php"
+        },
+        {
+          "label": "CRECI-CE (15ª Região) - Consulta de inscritos",
+          "uf": null,
+          "url": "https://www.creci-ce.gov.br/"
+        },
+        {
+          "label": "CRECI-RJ (1ª Região) - Certidão de regularidade",
+          "uf": null,
+          "url": "https://www.crecirj.conselho.net.br/form_emite_certidao_regularidade.php"
+        },
+        {
+          "label": "CRECI-SC (11ª Região) - Certidão de regularidade",
+          "uf": null,
+          "url": "https://www.crecisc.conselho.net.br/form_emite_certidao_regularidade.php"
+        },
+        {
+          "label": "CRECI-PR - Certidão de regularidade",
+          "uf": null,
+          "url": "https://crecipr.gov.br/emissao-da-certidao-de-regularidade-12514"
+        },
+        {
+          "label": "CRECI-RO (24ª Região) - Certidão de regularidade",
+          "uf": null,
+          "url": "https://creciro.gov.br/certidao-de-regularidade/"
+        },
+        {
+          "label": "CRECI-ES (13ª Região) - Portal da transparência",
+          "uf": null,
+          "url": "https://area-restrita.crecies.gov.br/portal_da_transparencia/relatorios_graficos_geral"
+        },
+        {
+          "label": "CRECI-GO (5ª Região) - Portal da transparência",
+          "uf": null,
+          "url": "https://crecigo.gov.br/acf_portal-da-transparencia/"
+        },
+        {
+          "label": "CRECI-MG - Portal da transparência",
+          "uf": null,
+          "url": "https://www.crecimg.gov.br/portal-da-transparencia/"
+        },
+        {
+          "label": "CRBM-6 (6ª Região) - Consulta pública de profissionais",
+          "uf": null,
+          "url": "https://crbm-06.implanta.net.br/ServicosOnline/Publico/ConsultaInscritos/"
+        },
+        {
+          "label": "CRMV-SC - Consulta de profissionais e empresas",
+          "uf": null,
+          "url": "https://crmvsc.gov.br/pesquisa_abre.php?id=1739"
+        },
+        {
+          "label": "CRTR-RJ (4ª Região) - Consulta pública de inscritos",
+          "uf": null,
+          "url": "https://crtr-rj.implanta.net.br/servicosOnline/Publico/ConsultaInscritos/"
+        },
+        {
+          "label": "CRQ-12 (12ª Região) - Consulta pública",
+          "uf": null,
+          "url": "https://crq12.gov.br/consulta-publica/"
+        },
+        {
+          "label": "Renovação de certidão de RCA",
+          "uf": null,
+          "url": "https://crasp.gov.br/empresas/servicos/renovacao-de-certidao-de-rca/"
+        },
+        {
+          "label": "Certidão de regularidade",
+          "uf": null,
+          "url": "https://coreconsp.gov.br/certidao-de-regularidade/"
         }
       ],
       "nome": "Conselhos Profissionais Nacionais",

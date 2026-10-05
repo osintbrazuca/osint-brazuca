@@ -4454,6 +4454,12 @@ Consultas de registro profissional e certidões em conselhos federais e regionai
 **COREN-RJ - Conselho Regional de Enfermagem do Rio de Janeiro**
 - Portal: https://www.coren-rj.org.br/
 
+**COREN-PR - Conselho Regional de Enfermagem do Paraná**
+- Consulta de inscritos: https://sig1.corenpr.gov.br/pgs/Consultarinscritos.aspx
+
+**COREN-SC - Conselho Regional de Enfermagem de Santa Catarina**
+- Consulta de inscritos e autenticidade de certidões: https://www.corensc.gov.br/consulta-de-inscritos-e-autenticidade-de-certidoes/
+
 </details>
 
 <details>
@@ -4464,6 +4470,35 @@ Consultas de registro profissional e certidões em conselhos federais e regionai
 
 **COFFITO - Conselho Federal de Fisioterapia e Terapia Ocupacional**
 - Portal: https://www.coffito.gov.br/nsite/
+
+**CRECI - Conselhos Regionais de Corretores de Imóveis**
+- CRECI-AC (26ª Região) - Certidão de regularidade: https://www.creciac.conselho.net.br/form_emite_certidao_regularidade.php
+- CRECI-CE (15ª Região) - Consulta de inscritos: https://www.creci-ce.gov.br/
+- CRECI-RJ (1ª Região) - Certidão de regularidade: https://www.crecirj.conselho.net.br/form_emite_certidao_regularidade.php
+- CRECI-SC (11ª Região) - Certidão de regularidade: https://www.crecisc.conselho.net.br/form_emite_certidao_regularidade.php
+- CRECI-PR - Certidão de regularidade: https://crecipr.gov.br/emissao-da-certidao-de-regularidade-12514
+- CRECI-RO (24ª Região) - Certidão de regularidade: https://creciro.gov.br/certidao-de-regularidade/
+- CRECI-ES (13ª Região) - Portal da transparência: https://area-restrita.crecies.gov.br/portal_da_transparencia/relatorios_graficos_geral
+- CRECI-GO (5ª Região) - Portal da transparência: https://crecigo.gov.br/acf_portal-da-transparencia/
+- CRECI-MG - Portal da transparência: https://www.crecimg.gov.br/portal-da-transparencia/
+
+**CRBM - Conselhos Regionais de Biomedicina**
+- CRBM-6 (6ª Região) - Consulta pública de profissionais: https://crbm-06.implanta.net.br/ServicosOnline/Publico/ConsultaInscritos/
+
+**CRMV - Conselhos Regionais de Medicina Veterinária**
+- CRMV-SC - Consulta de profissionais e empresas: https://crmvsc.gov.br/pesquisa_abre.php?id=1739
+
+**CRTR - Conselhos Regionais de Técnicos em Radiologia**
+- CRTR-RJ (4ª Região) - Consulta pública de inscritos: https://crtr-rj.implanta.net.br/servicosOnline/Publico/ConsultaInscritos/
+
+**CRQ - Conselhos Regionais de Química**
+- CRQ-12 (12ª Região) - Consulta pública: https://crq12.gov.br/consulta-publica/
+
+**CRA-SP - Conselho Regional de Administração de São Paulo**
+- Renovação de certidão de RCA: https://crasp.gov.br/empresas/servicos/renovacao-de-certidao-de-rca/
+
+**CORECON-SP - Conselho Regional de Economia (2ª Região/SP)**
+- Certidão de regularidade: https://coreconsp.gov.br/certidao-de-regularidade/
 
 </details>
 
