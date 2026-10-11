@@ -3128,6 +3128,7 @@ Lista de recursos para encontrar grupos públicos de Telegram.
 - https://telemetr.io/en/channels?language=pt&channel=SEU_ALVO&period=30
 - https://combot.org/telegram/top/groups?lng=pt&page=1&q=SEU_ALVO
 - https://lyzem.com/search?f=all&l=pt&p=1&per-page=100&q=SEU_ALVO
+- https://tgscope.io/search?q=SEU_ALVO
 - https://gruposdetelegram.com.br/
 
 </details>

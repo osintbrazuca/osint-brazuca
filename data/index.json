@@ -15283,6 +15283,23 @@
       ],
       "tipo_fonte": "privado",
       "uf": null,
+      "url": "https://tgscope.io/search?q=SEU_ALVO"
+    },
+    {
+      "categoria": "Indexadores de Serviço de Mensagens Instantâneas",
+      "categoria_id": "indexadores-de-servico-de-mensagens-instantaneas",
+      "descricao": "O Telegram é um serviço de mensagens instantâneas baseado na nuvem.",
+      "fonte": "Grupos de Telegram",
+      "fonte_id": "indexadores-de-servico-de-mensagens-instantaneas/grupos-de-telegram",
+      "input": [
+        "nome"
+      ],
+      "label": "",
+      "output": [
+        "perfil_social"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
       "url": "https://gruposdetelegram.com.br/"
     },
     {
@@ -23648,5 +23665,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1266
+  "total": 1267
 }
