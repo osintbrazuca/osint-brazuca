@@ -14709,6 +14709,25 @@
     {
       "categoria": "Rede Social",
       "categoria_id": "rede-social",
+      "descricao": "Uma ferramenta para capturando pensamentos e emoções da população do Twitter em qualquer ponto do tempo.",
+      "fonte": "Trend24 Trends e buscas locais e global",
+      "fonte_id": "rede-social/trend24-trends-e-buscas-locais-e-global",
+      "input": [
+        "email",
+        "nome",
+        "telefone"
+      ],
+      "label": "twtData - Arquivo por data dos assuntos do momento no X no Brasil e em cidades brasileiras, com a melhor posição e as horas na lista de cada assunto; gratuito e sem cadastro",
+      "output": [
+        "perfil_social"
+      ],
+      "tipo_fonte": "internacional",
+      "uf": null,
+      "url": "https://twtdata.com/twitter-trends/brazil/"
+    },
+    {
+      "categoria": "Rede Social",
+      "categoria_id": "rede-social",
       "descricao": "",
       "fonte": "Snap Map",
       "fonte_id": "rede-social/snap-map",
@@ -23728,5 +23747,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1270
+  "total": 1267
 }

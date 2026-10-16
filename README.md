@@ -3026,6 +3026,8 @@ Represente graficamente suas estatísticas do Twitter, incluindo Tweets por hora
 Uma ferramenta para capturando pensamentos e emoções da população do Twitter em qualquer ponto do tempo.
 
 - https://trends24.in/SEU_ALVO/
+- **twtData** - Arquivo por data dos assuntos do momento no X no Brasil e em cidades brasileiras, com a melhor posição e as horas na lista de cada assunto; gratuito e sem cadastro
+    - https://twtdata.com/twitter-trends/brazil/
 
 ### Snap Map
 
