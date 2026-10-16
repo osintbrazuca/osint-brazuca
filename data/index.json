@@ -14593,6 +14593,25 @@
     {
       "categoria": "Rede Social",
       "categoria_id": "rede-social",
+      "descricao": "Rede mais utilizada atualmente, ótimo para a busca de imagens por localidade",
+      "fonte": "Instagram",
+      "fonte_id": "rede-social/instagram",
+      "input": [
+        "email",
+        "nome",
+        "telefone"
+      ],
+      "label": "IGDataHub - Seguidores no Instagram dos candidatos ao segundo turno de 2026 (Flávio Bolsonaro e Lula), uma leitura por dia desde 14 de setembro; gratuito e sem cadastro",
+      "output": [
+        "perfil_social"
+      ],
+      "tipo_fonte": "internacional",
+      "uf": null,
+      "url": "https://igdatahub.com/data/brazil-2026-runoff-instagram/"
+    },
+    {
+      "categoria": "Rede Social",
+      "categoria_id": "rede-social",
       "descricao": "É uma rede social e um servidor para microblogging e é possível uma busca mais efetiva usando sua busca avançada.",
       "fonte": "Twitter",
       "fonte_id": "rede-social/twitter",
@@ -23747,5 +23766,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1267
+  "total": 1272
 }
