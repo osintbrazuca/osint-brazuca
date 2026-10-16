@@ -2027,6 +2027,29 @@
       "url": "https://www.rad.cvm.gov.br/ENET/frmConsultaExternaCVM.aspx"
     },
     {
+      "categoria": "Consulta de Processos",
+      "categoria_id": "consulta-de-processos",
+      "descricao": "Consulta pública unificada de mandados de prisão em aberto e ordens de libertação em todo o território nacional.",
+      "fonte": "CNMP / BNMP - Banco Nacional de Medidas Penais e Prisões (CNJ)",
+      "fonte_id": "consulta-de-processos/cnmp-bnmp-banco-nacional-de-medidas-penais-e-prisoes-cnj",
+      "input": [
+        "cnpj",
+        "cpf",
+        "nome",
+        "numero_processo"
+      ],
+      "label": "",
+      "output": [
+        "mandado_prisao",
+        "movimentacao",
+        "partes",
+        "processo"
+      ],
+      "tipo_fonte": "judiciario",
+      "uf": null,
+      "url": "https://portalbnmp.cnj.jus.br/"
+    },
+    {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
       "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
       "descricao": "Consulta pública da situação cadastral do CPF na Receita Federal.",
@@ -2044,6 +2067,27 @@
       "tipo_fonte": "federal",
       "uf": null,
       "url": "https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp"
+    },
+    {
+      "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
+      "categoria_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna",
+      "descricao": "API open-source e gratuita que consolida os dados abertos de CNPJ da Receita Federal em formato JSON rápido.",
+      "fonte": "Minha Receita - API Pública de CNPJ",
+      "fonte_id": "busca-de-informacoes-via-cpf-cnpj-crm-cna/minha-receita-api-publica-de-cnpj",
+      "input": [
+        "cnpj",
+        "cpf"
+      ],
+      "label": "",
+      "output": [
+        "api_json",
+        "dados_cadastrais",
+        "dataset",
+        "situacao_cadastral"
+      ],
+      "tipo_fonte": "ong",
+      "uf": null,
+      "url": "https://minhareceita.org/"
     },
     {
       "categoria": "Busca de Informações via CPF/CNPJ/CRM/CNA",
@@ -6153,16 +6197,35 @@
     {
       "categoria": "Transparência Pública e Defesa do Consumidor",
       "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
-      "descricao": "Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.",
-      "fonte": "Portal da Transparência - API de Dados",
-      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/portal-da-transparencia-api-de-dados",
+      "descricao": "Sistema oficial do Governo Federal para solicitações de acesso à informação via LAI (antigo e-SIC), denúncias, reclamações, sugestões e elogios a órgãos públicos.",
+      "fonte": "Fala.BR - Plataforma Integrada de Ouvidoria e Acesso à Informação (e-SIC)",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/fala-br-plataforma-integrada-de-ouvidoria-e-acesso-a-informacao-e-sic",
+      "input": [
+        "cnpj",
+        "nome"
+      ],
+      "label": "",
+      "output": [
+        "contrato_publico",
+        "licitacao",
+        "sancao"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://falabr.cgu.gov.br/web/home"
+    },
+    {
+      "categoria": "Transparência Pública e Defesa do Consumidor",
+      "categoria_id": "transparencia-publica-e-defesa-do-consumidor",
+      "descricao": "Sistema oficial do Governo Federal para solicitações de acesso à informação via LAI (antigo e-SIC), denúncias, reclamações, sugestões e elogios a órgãos públicos.",
+      "fonte": "Fala.BR - Plataforma Integrada de Ouvidoria e Acesso à Informação (e-SIC)",
+      "fonte_id": "transparencia-publica-e-defesa-do-consumidor/fala-br-plataforma-integrada-de-ouvidoria-e-acesso-a-informacao-e-sic",
       "input": [
         "cnpj",
         "nome"
       ],
       "label": "1. Acesse",
       "output": [
-        "api_json",
         "contrato_publico",
         "licitacao",
         "sancao"
@@ -15530,6 +15593,23 @@
     {
       "categoria": "Datasets / Dados Abertos",
       "categoria_id": "datasets-dados-abertos",
+      "descricao": "Base aberta da Comissão de Valores Mobiliários com Formulários de Referência (FRE), dados cadastrais de companhias abertas, fundos de investimento e agentes autônomos.",
+      "fonte": "CVM - Portal de Dados Abertos",
+      "fonte_id": "datasets-dados-abertos/cvm-portal-de-dados-abertos",
+      "input": [
+        "nenhum"
+      ],
+      "label": "",
+      "output": [
+        "dataset"
+      ],
+      "tipo_fonte": "federal",
+      "uf": null,
+      "url": "https://dados.cvm.gov.br/"
+    },
+    {
+      "categoria": "Datasets / Dados Abertos",
+      "categoria_id": "datasets-dados-abertos",
       "descricao": "O Portal da Prefeitura de Mogi das Cruzes com Dados Abertos da Administração Pública Municipal.",
       "fonte": "Dados Prefeitura de Mogi das Cruzes",
       "fonte_id": "datasets-dados-abertos/dados-prefeitura-de-mogi-das-cruzes",
@@ -23648,5 +23728,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1266
+  "total": 1270
 }

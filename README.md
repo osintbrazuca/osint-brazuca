@@ -533,12 +533,20 @@ Sistema RAD da Comissão de Valores Mobiliários para consulta pública de docum
 
 ##### [![](https://img.shields.io/badge/Voltar-Sum%C3%A1rio-1E88E5?style=flat-square&logo=github&logoColor=white)](#sumário)
 
+### CNMP / BNMP - Banco Nacional de Medidas Penais e Prisões (CNJ)
+Consulta pública unificada de mandados de prisão em aberto e ordens de libertação em todo o território nacional.
+- https://portalbnmp.cnj.jus.br/
+
 ---
 
 ## Busca de Informações via CPF/CNPJ/CRM/CNA 🔭 <a name="busca-cpf-cnpj-crm-cna"></a>
 ### Consulta Situação Cadastral CPF
 Consulta pública da situação cadastral do CPF na Receita Federal.
 - https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp 
+
+### Minha Receita - API Pública de CNPJ
+API open-source e gratuita que consolida os dados abertos de CNPJ da Receita Federal em formato JSON rápido.
+- https://minhareceita.org/
 
 ### Busca Dados Usando CNPJ
 
@@ -1315,6 +1323,10 @@ Consulta pública de sanções aplicadas a pessoas físicas e jurídicas.
 ### Portal da Transparência - API de Dados
 Interface REST oficial permitindo consultas automatizadas a despesas, convênios, favorecidos e dados de pessoal.
 - https://portaldatransparencia.gov.br/api-de-dados
+
+### Fala.BR - Plataforma Integrada de Ouvidoria e Acesso à Informação (e-SIC)
+Sistema oficial do Governo Federal para solicitações de acesso à informação via LAI (antigo e-SIC), denúncias, reclamações, sugestões e elogios a órgãos públicos.
+- https://falabr.cgu.gov.br/web/home
 
 **📖 Documentação da API:**
 <details>
@@ -3210,6 +3222,12 @@ A primeira iniciativa da Coordenação de Aperfeiçoamento de Pessoal de Nível 
 Acesso a conteúdos das pesquisas estruturais, censos, entre outras, na área de estatísticas.
 
 - https://www.ibge.gov.br/estatisticas/downloads-estatisticas.html
+
+### CVM - Portal de Dados Abertos
+
+Base aberta da Comissão de Valores Mobiliários com Formulários de Referência (FRE), dados cadastrais de companhias abertas, fundos de investimento e agentes autônomos.
+
+- https://dados.cvm.gov.br/
 
 ### Dados Prefeitura de Mogi das Cruzes
 
