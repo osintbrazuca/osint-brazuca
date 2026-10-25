@@ -2994,6 +2994,8 @@ Ferramenta para busca de dados no Instagram
 
 - https://www.aware-online.com/en/osint-tools/instagram-search-tool/
 - https://www.aware-online.com/en/osint-tools/instagram-tools/
+- **IGDataHub** - Seguidores no Instagram dos candidatos ao segundo turno de 2026 (Flávio Bolsonaro e Lula), uma leitura por dia desde 14 de setembro; gratuito e sem cadastro
+    - https://igdatahub.com/data/brazil-2026-runoff-instagram/
 
 ### Twitter
 
