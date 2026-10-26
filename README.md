@@ -3046,6 +3046,8 @@ Uma ferramenta para capturando pensamentos e emoções da população do Twitter
 ### Tiktok
 
 - https://www.tiktok.com/explore
+- **TKMetrics** - Vídeos em alta no TikTok no Brasil, atualizados todos os dias, com visualizações e curtidas de cada vídeo; gratuito e sem cadastro
+    - https://tkmetrics.com/trends/BR/
 
 ### Kwai
 
