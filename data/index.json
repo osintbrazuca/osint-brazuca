@@ -14824,6 +14824,25 @@
       "categoria": "Rede Social",
       "categoria_id": "rede-social",
       "descricao": "",
+      "fonte": "Tiktok",
+      "fonte_id": "rede-social/tiktok",
+      "input": [
+        "email",
+        "nome",
+        "telefone"
+      ],
+      "label": "TKMetrics - Vídeos em alta no TikTok no Brasil, atualizados todos os dias, com visualizações e curtidas de cada vídeo; gratuito e sem cadastro",
+      "output": [
+        "perfil_social"
+      ],
+      "tipo_fonte": "internacional",
+      "uf": null,
+      "url": "https://tkmetrics.com/trends/BR/"
+    },
+    {
+      "categoria": "Rede Social",
+      "categoria_id": "rede-social",
+      "descricao": "",
       "fonte": "Kwai",
       "fonte_id": "rede-social/kwai",
       "input": [
@@ -23783,5 +23802,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1272
+  "total": 1274
 }
