@@ -3031,6 +3031,11 @@ Uma ferramenta para capturando pensamentos e emoções da população do Twitter
 - **twtData** - Arquivo por data dos assuntos do momento no X no Brasil e em cidades brasileiras, com a melhor posição e as horas na lista de cada assunto; gratuito e sem cadastro
     - https://twtdata.com/twitter-trends/brazil/
 
+### Snapchat
+
+- **SnapDataHub** - Os maiores criadores do Snapchat no Brasil, ordenados por inscritos, com a média de visualizações no Spotlight e o engajamento de cada um; gratuito e sem cadastro
+    - https://snapdatahub.com/snapchat-influencers/brazil/
+
 ### Snap Map
 
 - https://map.snapchat.com/@-15.127315,-51.412151,4.51z
