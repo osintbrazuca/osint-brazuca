@@ -22905,6 +22905,23 @@
     {
       "categoria": "Outras Buscas",
       "categoria_id": "outras-buscas",
+      "descricao": "Permite recuperar, sem notificar o usuário, vários elementos relacionados a um endereço de e-mail, Nome, GoogleID, se há Mapas criados ou Agendas Públicas do Google Calendar, Validar se o e-mail está sendo utilizado em contas em outros sites.",
+      "fonte": "Informações sobre um endereço de e-mail",
+      "fonte_id": "outras-buscas/informacoes-sobre-um-endereco-de-e-mail",
+      "input": [
+        "email"
+      ],
+      "label": "",
+      "output": [
+        "mapa"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://useopsis.com/reverse-email-lookup"
+    },
+    {
+      "categoria": "Outras Buscas",
+      "categoria_id": "outras-buscas",
       "descricao": "",
       "fonte": "Busca de Bens a venda ou aluguel",
       "fonte_id": "outras-buscas/busca-de-bens-a-venda-ou-aluguel",
@@ -23802,5 +23819,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1274
+  "total": 1275
 }
