@@ -14748,6 +14748,25 @@
       "categoria": "Rede Social",
       "categoria_id": "rede-social",
       "descricao": "",
+      "fonte": "Snapchat",
+      "fonte_id": "rede-social/snapchat",
+      "input": [
+        "email",
+        "nome",
+        "telefone"
+      ],
+      "label": "SnapDataHub - Os maiores criadores do Snapchat no Brasil, ordenados por inscritos, com a média de visualizações no Spotlight e o engajamento de cada um; gratuito e sem cadastro",
+      "output": [
+        "perfil_social"
+      ],
+      "tipo_fonte": "privado",
+      "uf": null,
+      "url": "https://snapdatahub.com/snapchat-influencers/brazil/"
+    },
+    {
+      "categoria": "Rede Social",
+      "categoria_id": "rede-social",
+      "descricao": "",
       "fonte": "Snap Map",
       "fonte_id": "rede-social/snap-map",
       "input": [
@@ -23802,5 +23821,5 @@
       "url": "https://dominiosgovbr.sisp.gov.br/dados/dominios_gov_br.csv"
     }
   ],
-  "total": 1274
+  "total": 1275
 }
