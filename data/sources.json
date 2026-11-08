@@ -10164,6 +10164,30 @@
       "categoria_id": "rede-social",
       "classificacao": "heuristica",
       "descricao": "",
+      "id": "rede-social/snapchat",
+      "input": [
+        "email",
+        "nome",
+        "telefone"
+      ],
+      "links": [
+        {
+          "label": "SnapDataHub - Os maiores criadores do Snapchat no Brasil, ordenados por inscritos, com a média de visualizações no Spotlight e o engajamento de cada um; gratuito e sem cadastro",
+          "uf": null,
+          "url": "https://snapdatahub.com/snapchat-influencers/brazil/"
+        }
+      ],
+      "nome": "Snapchat",
+      "output": [
+        "perfil_social"
+      ],
+      "tipo_fonte": "privado"
+    },
+    {
+      "categoria": "Rede Social",
+      "categoria_id": "rede-social",
+      "classificacao": "heuristica",
+      "descricao": "",
       "id": "rede-social/snap-map",
       "input": [
         "email",
@@ -16062,5 +16086,5 @@
       "tipo_fonte": "federal"
     }
   ],
-  "total": 515
+  "total": 516
 }
